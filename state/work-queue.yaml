@@ -1,0 +1,96 @@
+version: 1
+updated: '2026-11-02'
+mode: bounded-one-task-per-session
+completion_meaning: artifact complete with limitations, not scientifically validated
+tasks:
+- id: R001
+  status: complete_bounded
+  title: Chinese B-version and paper gap check
+  outputs:
+  - reports/gap-check-01.md
+  validation: same-assistant-source-check; PDF gaps unresolved
+- id: R002
+  status: complete_bounded
+  title: Pressurized-fluid reference reconstruction
+  outputs:
+  - specs/pressurized-fluid-reference.md
+  validation: partial primary description; company claims separately attributed
+- id: R003
+  status: complete_bounded
+  title: Provisional three-route comparison
+  depends_on:
+  - R001
+  - R002
+  outputs:
+  - reports/process-comparison-01.md
+  validation: qualitative synthesis; no proven winner
+- id: R004
+  status: complete_bounded
+  title: Three falsifiable candidate hypotheses
+  depends_on:
+  - R003
+  outputs:
+  - inventions/candidate-hypotheses-01.md
+  validation: untested hypotheses; not novelty claims
+- id: R005
+  status: queued
+  title: Adversarial source-linked review of H1-H3
+  depends_on:
+  - R001
+  - R002
+  - R003
+  - R004
+  inputs:
+  - reports/gap-check-01.md
+  - specs/pressurized-fluid-reference.md
+  - reports/process-comparison-01.md
+  - inventions/candidate-hypotheses-01.md
+  instructions: 'Attack H1-H3 against cited primary sources: mechanisms, mass basis, contaminants, polymer
+    quality and hidden recycle/energy burdens. Separate evidence/inference; preserve dissent; cite sections.
+    Prioritize one symbolic model or identify its exact blocker. Record reviewer/model identity if known;
+    same-author critique is not independent. Do not rewrite candidates.'
+  outputs:
+  - reviews/candidate-hypotheses-review-01.md
+  allowed_updates:
+  - state/work-queue.yaml
+  - state/session-log.md
+  validation: independence pending; same-author review cannot satisfy external sign-off
+- id: R006
+  status: queued
+  title: Symbolic balance and sensitivity study for one candidate
+  depends_on:
+  - R005
+  inputs:
+  - reviews/candidate-hypotheses-review-01.md
+  - reports/process-comparison-01.md
+  instructions: Choose one justified candidate or document the blocker. Define dry-mass basis, polymer/contaminant
+    variables, recycle/bleed and conservation checks. Use symbolic unknowns or labeled hypothetical ranges.
+    If tools permit, provide executable units/assumptions/tests/results; otherwise equations only and
+    execution not performed. No empirical performance or safety ranking from synthetic inputs.
+  outputs:
+  - simulations/candidate-balance-01.md
+  optional_outputs:
+  - simulations/candidate-balance-01.py
+  - simulations/candidate-balance-01.csv
+  allowed_updates:
+  - state/work-queue.yaml
+  - state/session-log.md
+  validation: conceptual/synthetic only; not empirical validation
+- id: R007
+  status: queued
+  title: Product definition and analytical validation requirements
+  depends_on:
+  - R005
+  inputs:
+  - reviews/candidate-hypotheses-review-01.md
+  - reports/process-comparison-01.md
+  instructions: Compare two plausible product/exposure classes, propose a provisional target with reasons,
+    and identify measurements, controls, reporting basis, unknown regulatory limits and qualified-lab
+    needs. Do not invent thresholds or authorize trials. Ask approval only if target choice materially
+    changes scope; finish the options analysis regardless.
+  outputs:
+  - reports/product-validation-requirements-01.md
+  allowed_updates:
+  - state/work-queue.yaml
+  - state/session-log.md
+  validation: planning; no compliance or safety certification
