@@ -84,7 +84,9 @@ entries:
     mechanism_class: TBD
     disclosed: isolating cellulose acetate from cigarette waste (apparatus)
     gaps: [full spec extraction]
-    legal_status: primary-source-read
+    legal_status: Active, expires 2039-06-04 (Google Patents assumption; verify USPTO)
+    citations: https://patents.google.com/patent/US10980272B2/en
+    status: primary-source-read
     evidence_notes: ["dossier/evidence/US10980272B2-miniwiz.md"]
 
   - id: burich-us7560059
@@ -123,6 +125,7 @@ entries:
     mechanism_class: solvent
     gaps: [full spec extraction, machine translation, numeric parameters]
     legal_status: CN only (granted 2020-08-21 per Google status assumption)
+    citations: https://patents.google.com/patent/CN106928486A/en
     status: primary-source-read
     evidence_notes: ["dossier/evidence/CN106928486A-zhejiang.md"]
 

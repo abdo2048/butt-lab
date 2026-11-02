@@ -62,3 +62,13 @@
 
 ## End of batch
 This batch concluded after saving and reading back the batch report (`reports/harvest-batch-01.md`). No recurring schedules were created, and the overall harvest remains ongoing (no ongoing goal was set unless runtime requires a finite cap).
+
+## Reconciliation note (added 2026-11-02, not a rewrite)
+This report is preserved as historical text. The following statements in it are now known to be inaccurate and are corrected here rather than erased:
+
+- "the original registry is lost and must be restored from backup" — the registry was recovered. `registry/methods.yaml` now contains all 27 backup record IDs plus 3 added records (30 entries total). The backup `registry/methods-old.yaml` is preserved and unmodified.
+- "the full 288-line methods.yaml" — 288 is the line count of the backup **file**, not a record count. The backup holds 27 method records.
+- "all three checked leads as primary-source-read" — at the time of writing, `huang-us10980272` had its reading state stored in the `legal_status` field with no `status` field. That field-level misplacement was corrected on 2026-11-02 (restored `status: primary-source-read`, corrected `legal_status`, added `citations`).
+- `cn106928486` was missing its `citations` field; added on 2026-11-02.
+
+Current authoritative state: see `reports/audits/recovery-reconciliation.md` (audit) and `reports/maintenance-batch-01.md` (this maintenance batch). This batch report is retained for provenance and is not the current registry state.

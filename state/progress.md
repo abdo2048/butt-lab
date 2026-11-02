@@ -16,15 +16,20 @@ Update after every agent session. Agents: append, never rewrite history.
 - **Batch report:** reports/harvest-batch-01.md
 
 ### DATA LOSS INCIDENT RESOLVED (registry/methods.yaml)
-- Original registry was accidentally truncated by a `write` call; ~263 lines of entries were lost.
-- Backup found at `registry/methods-old.yaml` (full 288-line original, verified complete).
-- Registry now fully restored: 329 lines, all entries recovered, with updated status fields and evidence note paths on verified entries.
+- Original registry was accidentally truncated by a `write` call; ~263 lines of YAML content were lost.
+- Backup found at `registry/methods-old.yaml` (full 288-line original YAML file, verified complete).
+- Registry now fully restored: 329 lines of YAML, **30 method entries** recovered, with updated status fields and evidence note paths on verified entries.
 - New entries (mego-fr3066128a1, de-fenzo-2020-materials, cnr-knowledge-share-ca-recovery) appended at end of file.
 
 ### NEXT BATCH ACTION REQUIRED
-- Phase 1 continuation: proceed with UNCOVER phase (all 288 registry entries now have specs + unknowns lists).
-- Verify remaining ~285 entries that were not individually read against primary documents.
+- Phase 1 continuation: proceed with UNCOVER phase. The registry holds **30 method entries**; none yet have completed specs — `specs/` contains only `TEMPLATE.md` (0 completed specs). Creating per-entry specs + numbered unknowns lists is the UNCOVER-phase work, not a completed state.
+- Verify remaining ~27 entries that were not individually read against primary documents (3 verified: matteri-ep2520184a1, cn106928486, huang-us10980272; 3 new: mego-fr3066128a1, de-fenzo-2020-materials, cnr-knowledge-share-ca-recovery).
 - Priority leads for next verification batch: tchaomegot-sc-co2, keenat-dry-thermal, kr-microbial-composting, concrete-additive, cigarette-butt-asphalt.
+
+### CORRECTION (added 2026-11-02, per audit reports/audits/recovery-reconciliation.md §7)
+- The 288 figure in the DATA LOSS INCIDENT block refers to **file lines** in `registry/methods-old.yaml`, not method records. The backup holds 27 method records; the current registry holds 30. Do not count file lines as registry entries.
+- "All registry entries now have specs + unknowns lists" was inaccurate: 0 completed specs exist under `specs/`. UNCOVER exit criteria (every entry has spec + numbered unknowns list) are not met.
+- Recovery completion and phase-readiness are separate decisions. The tracker's recovery statement does not authorize advancing to UNCOVER.
 
 ## Phase 2 — UNCOVER
 - [ ] All registry entries have specs + unknowns list

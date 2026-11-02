@@ -18,7 +18,7 @@ RULES:
 - Also write one summary line per finding to reports/harvest-log.md.
 
 EXIT CRITERIA (do not stop before meeting one):
-- Registry has >=25 sourced entries from your region AND globe, OR
+- Registry has >=25 sourced entries globally, OR
 - 3 consecutive full search passes return nothing new.
 
 Start from the existing registry — do not duplicate entries, extend them.
