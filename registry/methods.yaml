@@ -1,0 +1,329 @@
+# Central Method Registry
+# One entry per known method (patented, published, hypothesized, failed).
+# Agents: append entries; never delete. Update status fields only with citations.
+
+version: 1
+entries:
+  - id: tchaomegot-sc-co2
+    name: TchaoMegot supercritical CO2 depollution
+    source_type: patent + company
+    assignee: TchaoMegot (Julien Paque), FR
+    patents: [FR3102180A1, WO2021079050A1, US12065781B2, US20260115774A1]
+    mechanism_class: supercritical-fluid
+    disclosed: pressure 50-350 bar (pref 280-320), temp 15-80 C, autoclave,
+      co-solvents, chelating agents incl calixarene, ultrasound assist,
+      contact 1 min - 8 h
+    equipment: modified commercial SC-CO2 extractor (ex-fish-oil aroma), 5L -> 500L vessels
+    outputs: clean fiber 99.7% (insulation, textile padding), dry concentrate 0.3%
+    gaps: [cycle time, co-solvent identity/dosing, chelation dosing, fiber
+      de-clumping, throughput economics, press-quote 50/60 bar vs patent 280-320 bar]
+    legal_status: active, ~2039-2040 expiry, FR/WO/US family
+    citations: patents.google.com/patent/FR3102180A1/en; tchaomegot.com
+    status: pending_deep_dive
+
+  - id: keenat-dry-thermal
+    name: Keenat dry thermal depollution
+    source_type: patent + company
+    assignee: Keenat (ex-ecomegot), FR
+    patents: [FR3110470A1, EP3912739A1]
+    mechanism_class: dry-thermal
+    disclosed: mechanical separation; successive heatings ~200 C destroying
+      nicotine, phenol, pesticides; no water, no solvent
+    equipment: [to be extracted from patent]
+    outputs: hygienized fiber -> thermo-compressed plastic plates
+    gaps: [stage count, dwell times, off-gas handling, energy use]
+    legal_status: EP family from May 2020
+    citations: keenat.com/recyclage-valorisation-megots
+    status: pending_deep_dive
+
+  - id: unb-alkaline-pulping
+    name: UnB/Poiato alkaline pulping to cellulose
+    source_type: patent + peer-reviewed + company
+    assignee: Universidade de Brasilia; licensee Poiato Recicla, BR
+    patents: [BR INPI filing 2003, granted 2014, number TBD]
+    mechanism_class: wet-chemical
+    disclosed: boiling in water + chemicals (alkaline pulping), cooking up to
+      10 h, filtering, pressing to cellulose pulp; ~25 butts per paper sheet
+    equipment: stainless vat, filters, press
+    outputs: artisanal paper, cardboard stock
+    gaps: [exact reagent + concentration, temperatures, wastewater treatment,
+      patent number, legal status verification]
+    legal_status: LIKELY EXPIRED ~2023 (20y from 2003 filing) - VERIFY ON INPI
+    citations: g1.globo 2019; Waste Management S0956053X16305682; poiatoirecicla.com.br
+    status: pending_deep_dive
+
+  - id: cnr-mask-filters
+    name: CNR cigarette filter recycling into mask filters
+    source_type: patent
+    assignee: Consiglio Nazionale delle Ricerche, IT
+    patents: [IT202000003745A1, WO2021170381A1, EP3892393A1]
+    mechanism_class: wet-chemical
+    disclosed: crush butts, separate and recover cellulosic material
+    outputs: filter material for respiratory masks
+    gaps: [full spec extraction]
+    citations: EP3892393A1
+    status: pending_deep_dive
+
+  - id: cerdia-ca-recovery
+    name: Cerdia CA recovery from post-consumer mouthpieces
+    source_type: patent
+    assignee: Cerdia International GmbH, DE
+    patents: [WO2026074041A2]
+    mechanism_class: solvent
+    disclosed: recovering cellulose acetate from post-consumer filters,
+      including heat-not-burn product mouthpieces
+    gaps: [full spec extraction - newest filing 2024 priority]
+    citations: WO2026074041A2
+    status: pending_deep_dive
+
+  - id: huang-us10980272
+    name: Method and apparatus for recycling cigarette waste
+    source_type: patent
+    assignee: Miniwiz Co Ltd (Taiwan); inventors Chian-Chi Huang, Tzu-Wei Liu, Ling-Hsiang WENG, Gerardo Miguel Rios Sánchez
+    patents: [US20190364959A1, US10980272B2]
+    mechanism_class: TBD
+    disclosed: isolating cellulose acetate from cigarette waste (apparatus)
+    gaps: [full spec extraction]
+    legal_status: primary-source-read
+    evidence_notes: ["dossier/evidence/US10980272B2-miniwiz.md"]
+
+  - id: burich-us7560059
+    name: Early butt recycling process
+    source_type: patent
+    assignee: Blake Burich, US
+    patents: [US7560059B2, WO2007035749A2]
+    mechanism_class: TBD
+    gaps: [full spec extraction]
+    legal_status: granted 2009
+    status: pending_deep_dive
+
+  - id: us20140287144-abandoned
+    name: CA manufacturing waste -> acetone slurry -> pellets
+    source_type: patent (abandoned)
+    patents: [US20140287144A1]
+    mechanism_class: solvent
+    disclosed: CA waste dispersed in acetone, formed, pelletized
+    legal_status: ABANDONED - free to use
+    status: pending_deep_dive
+
+  - id: us5504119-expired
+    name: Recycling cellulose esters from cigarette manufacturing waste
+    source_type: patent (expired)
+    patents: [US5504119A]
+    mechanism_class: solvent
+    disclosed: recovery of cellulose esters from factory waste streams
+    legal_status: EXPIRED (1994 filing) - free to use
+    status: pending_deep_dive
+
+  - id: cn106928486
+    name: Zhejiang University CA recovery
+    source_type: patent
+    assignee: Ningbo Institute of Technology of ZJU (later Zhejiang University of Science and Engineering Ningbo), CN
+    patents: [CN106928486A, CN106928486B]
+    mechanism_class: solvent
+    gaps: [full spec extraction, machine translation, numeric parameters]
+    legal_status: CN only (granted 2020-08-21 per Google status assumption)
+    status: primary-source-read
+    evidence_notes: ["dossier/evidence/CN106928486A-zhejiang.md"]
+
+  - id: cn111822484
+    name: Yunnan Changyi acetate filter rod regeneration
+    source_type: patent
+    assignee: Yunnan Changyi Technology, CN
+    patents: [CN111822484A]
+    status: pending_deep_dive
+
+  - id: cn111118670-carbon-fiber
+    name: Carbon fiber from cigarette butts
+    source_type: patent
+    assignee: Inner Mongolia Kunming Cigarette Co, CN
+    patents: [CN111118670A]
+    mechanism_class: thermal/carbonization
+    status: pending_deep_dive
+
+  - id: cn107946082-graphene
+    name: Cigarette filter / graphene composite
+    source_type: patent
+    patents: [CN107946082A]
+    status: pending_deep_dive
+
+  - id: cn108807014-supercapacitor
+    name: Supercapacitor electrodes from butts
+    source_type: patent
+    patents: [CN108807014]
+    mechanism_class: thermal/carbonization
+    status: pending_deep_dive
+
+  - id: kr20160005298
+    name: Extraction of useful compounds from butts
+    source_type: patent
+    patents: [KR20160005298A]
+    legal_status: KR only
+    status: pending_deep_dive
+
+  - id: kalabak-ethanol-fuel
+    name: Tar-ethanol fuel additive
+    source_type: patent (PCT)
+    assignee: Fevzi Kalabak, TR
+    patents: [WO2020231362A1]
+    mechanism_class: solvent
+    disclosed: wash butts in water then ethanol; tar dissolves; tar-ethanol
+      mixture usable as fuel additive. Quantities 5-320 g/L, mixing 5-60 min
+    legal_status: EP pending; full recipe published
+    status: pending_deep_dive
+
+  - id: terracycle-trade-secret
+    name: TerraCycle process (trade secret)
+    source_type: company disclosure
+    mechanism_class: unknown (sanitize step secret)
+    disclosed: shred + sanitize; tobacco/paper -> compost; filters -> dried,
+      powdered into plastic products
+    gaps: [sanitization chemistry - not mineable via patents]
+    citations: terracycle.com
+    status: pending_deep_dive
+
+  - id: academic-green-ethanol-wash
+    name: Green staged water/ethanol CA extraction
+    source_type: peer-reviewed
+    mechanism_class: wet-chemical
+    disclosed: hot water 50 C 60 min -> cold rinses x3 -> 99% ethanol x2
+    outputs: clean CA
+    citations: PMC7659942
+    legal_status: no known patent blocking
+    status: pending_deep_dive
+
+  - id: academic-acetic-acid-route
+    name: Acetic acid selective solubilization of CA
+    source_type: peer-reviewed (2025)
+    mechanism_class: solvent (green)
+    citations: S0956053X25003265
+    status: pending_deep_dive
+
+  - id: academic-ca-membranes
+    name: CA membranes from butts via dissolution
+    source_type: peer-reviewed
+    citations: [Nature s41598-022-24432-x, S0048969724028249]
+    status: pending_deep_dive
+
+  - id: matteri-ep2520184a1
+    name: Matteri process for recycling cigarette butts
+    source_type: patent
+    assignee: Matteri Fabio TT Srl, IT
+    patents: [EP2520184A1]
+    mechanism_class: wet-chemical
+    disclosed: removing residual tobacco from butt, washing to remove harmful substances
+    gaps: [washing solution composition, temperature, duration, equipment details]
+    legal_status: EP application 2011, published 2012; application deemed withdrawn effective 2013-05-08 per Google Patents
+    citations: https://patents.google.com/patent/EP2520184A1/en
+    status: primary-source-read
+    evidence_notes: ["dossier/evidence/EP2520184A1-matteri.md"]
+
+  - id: kr-microbial-composting
+    name: Microbial cigarette butt composting device
+    source_type: patent
+    assignee: Korean inventor/company (to be verified), KR
+    patents: [KR10-1782684-1]
+    mechanism_class: biological/enzymatic
+    disclosed: using microorganisms to decompose cigarette butts into compost, removes odor during decomposition
+    gaps: [specific microorganism strains, composting time, temperature conditions, equipment design, scalability]
+    legal_status: KR patent granted 2018
+    citations: https://www.cctoday.co.kr/news (article about patent)
+    status: pending_deep_dive
+
+  - id: rmit-brick-making
+    name: RMIT University cigarette butt brick-making
+    source_type: peer-reviewed research
+    assignee: RMIT University, AU
+    mechanism_class: thermal/construction-material
+    disclosed: incorporating 1% cigarette butt content into fired-clay bricks, reduces energy consumption by 10%, improves insulation
+    outputs: construction bricks with maintained structural integrity
+    gaps: [optimal percentage range, long-term durability testing, leachate control, scaling to industrial production]
+    legal_status: research publication, no known patent blocking
+    citations: https://www.labmanager.com/how-cigarette-butts-can-be-recycled-into-bricks-23843
+    status: pending_deep_dive
+
+  - id: cigarette-butt-asphalt
+    name: Cigarette butt asphalt for road construction
+    source_type: peer-reviewed research
+    assignee: RMIT University/other research institutions, AU/ES/IT
+    mechanism_class: construction-material
+    disclosed: mixing cigarette butt fibers with asphalt/bitumen to improve road strength and durability
+    outputs: enhanced asphalt pavement material
+    gaps: [optimal fiber percentage, long-term road performance, leachate control, scaling to industrial road construction]
+    legal_status: research publication, no known patent blocking
+    citations: https://ceramics.org/ceramic-tech-today/cigarette-butts-mixed-with-asphalt-create-new-pavement-material/
+    status: pending_deep_dive
+
+  - id: 3d-printing-filament
+    name: 3D printing filament from cigarette butts
+    source_type: company disclosure + research
+    assignee: Filaret (Estonian startup), academic researchers
+    mechanism_class: polymer-processing
+    disclosed: recovering cellulose acetate from cigarette butts, processing into 3D printing filament
+    outputs: 3D printing filament for FDM/FFF printers
+    gaps: [filament properties optimization, printing parameters, commercial scalability]
+    legal_status: startup company, research publications
+    citations: https://3dprinting.com/news/cigarette-butts-get-new-life-as-feedstock/
+    status: pending_deep_dive
+
+  - id: pyrolysis-energy-recovery
+    name: Pyrolysis energy recovery from cigarette butts
+    source_type: peer-reviewed research
+    assignee: Various research institutions
+    mechanism_class: thermal/energy-recovery
+    disclosed: pyrolysis of cigarette butts at 650-750°C to recover triacetin, char, and biofuels
+    outputs: liquid fuel, char, biofuels
+    gaps: [optimal temperature range, product yield optimization, commercial scalability]
+    legal_status: research publications
+    citations: https://www.sciencedirect.com/science/article/abs/pii/S016523702300311X
+    status: pending_deep_dive
+
+  - id: concrete-additive
+    name: Cigarette butt concrete additive
+    source_type: peer-reviewed research
+    assignee: Various research institutions
+    mechanism_class: construction-material
+    disclosed: using cigarette butts as additive in concrete mixtures
+    outputs: modified concrete with potential waste reduction benefits
+    gaps: [optimal percentage, mechanical properties impact, durability testing, leachate control]
+    legal_status: research publications
+    citations: https://www.espacioimasd.unach.mx/download
+    status: pending_deep_dive
+
+  - id: mego-fr3066128a1
+    name: Mego! cigarette-butt valorisation (cellulose acetate recovery)
+    source_type: patent
+    assignee: Mego!
+    patents: [FR3066128A1, FR3066128B1]
+    mechanism_class: wet-chemical
+    disclosed: mechanical grinding and sieving to separate filter; washing and decontamination washing with water to recover cellulose acetate; water recycling; drying to obtain fibrous cellulose acetate particles
+    gaps: [exact grinding parameters, wash temperature, wash time, decontamination parameters, drying temperature, yield, purity, equipment details, economics]
+    legal_status: granted 2019-07-19 (B1), Active per Google status assumption; expected expiry 2037-05-15
+    citations: https://patents.google.com/patent/FR3066128A1/en
+    status: primary-source-read
+    evidence_notes: ["dossier/evidence/FR3066128A1-mego.md"]
+
+  - id: de-fenzo-2020-materials
+    name: Clean Process for Obtaining High-Quality Cellulose Acetate from Cigarette Butts
+    source_type: peer-reviewed
+    assignee: De Fenzo, Giordano, Sansone (University of Napoli Federico II, CNR)
+    mechanism_class: solid-liquid extraction
+    disclosed: solid-liquid extraction of cigarette butts using acetone or ethyl acetate solvents; solid-liquid extraction steps; FTIR and TGA characterization of purified CA; Kissinger/Ozawa degradation kinetics; transparent film production from recovered CA
+    gaps: [exact solvent ratios, extraction temperatures, extraction times, number of extraction cycles, CA yield, purity, film properties, solvent recovery, process economics]
+    legal_status: research publications
+    citations: https://doi.org/10.3390/ma13214710
+    status: experimentally-supported-in-source
+    evidence_notes: ["dossier/evidence/defenzo-2020-materials.md"]
+
+  - id: cnr-knowledge-share-ca-recovery
+    name: CNR knowledge-share.eu patent offering (cellulose acetate recovery)
+    source_type: patent_offering
+    assignee: CNR - Consiglio Nazionale delle Ricerche; AzzeroCO2 Srl
+    patents: [none listed on page]
+    mechanism_class: solvent_extraction
+    disclosed: solvent (acetone) extraction of CA and nicotine; filtration to remove paper/ash/tobacco; water anti-solvent precipitation of CA; acetone recovery by boiling; waste treatment of concentrated pollutants; AC solid can be reused for spectacle frames, masks, shields, strings
+    gaps: [exact acetone-to-butt ratio, extraction temperature, anti-solvent ratio, boiling conditions, CA yield, CA purity, nicotine concentration, equipment details, economics, TRL verification]
+    legal_status: patent_offering
+    citations: https://www.knowledge-share.eu/en/patents/cellulose-acetate-from-recycling-of-cigarette-butts-and-filters/
+    status: experimentally-supported-in-source
+    evidence_notes: ["dossier/evidence/cnr-knowledge-share-ca-recovery.md"]
