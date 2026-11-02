@@ -1,0 +1,6 @@
+# Python bytecode caches
+__pycache__/
+*.pyc
+
+# Scratch / reproduction harnesses (evidence is recorded in reports/, not here)
+_synth_test/

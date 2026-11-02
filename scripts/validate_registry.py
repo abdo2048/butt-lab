@@ -11,6 +11,53 @@ import yaml
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
+# --- Custom strict YAML loader for duplicate key detection ---
+class DupKeyError(Exception):
+    pass
+
+def no_duplicates_constructor(loader, node, deep=False):
+    mapping = {}
+    for key_node, value_node in node.value:
+        key = loader.construct_object(key_node, deep=deep)
+        if key in mapping:
+            raise DupKeyError(f"Duplicate key in YAML mapping: {key!r} (line {key_node.start_mark.line+1})")
+        value = loader.construct_object(value_node, deep=deep)
+        mapping[key] = value
+    return mapping
+
+class LoaderWithDupCheck(yaml.SafeLoader):
+    pass
+LoaderWithDupCheck.add_constructor(
+    yaml.resolver.BaseResolver.DEFAULT_MAPPING_TAG, no_duplicates_constructor
+)
+
+def load_registry_strict(path: Path) -> Dict[str, Any]:
+    """Strict loader that rejects duplicate mapping keys with a clear error."""
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = yaml.load(f, Loader=LoaderWithDupCheck)
+    except DupKeyError as e:
+        print(f"ERROR: Duplicate mapping key in registry: {e}")
+        sys.exit(1)
+    except yaml.YAMLError as e:
+        print(f"ERROR: Failed to parse YAML: {e}")
+        sys.exit(1)
+    except FileNotFoundError:
+        print(f"ERROR: Registry file not found: {path}")
+        sys.exit(1)
+    if not isinstance(data, dict):
+        print("ERROR: Registry root must be a mapping")
+        sys.exit(1)
+    if "entries" not in data:
+        print("ERROR: Registry missing 'entries' key")
+        sys.exit(1)
+    if not isinstance(data["entries"], list):
+        print("ERROR: 'entries' must be a list")
+        sys.exit(1)
+    return data
+
+# --- End custom YAML loader ---
+
 
 REQUIRED_FIELDS = [
     "id",
@@ -82,9 +129,19 @@ def load_registry(path: Path) -> Dict[str, Any]:
     return data
 
 
-def validate_entry(entry: Dict[str, Any], idx: int) -> List[str]:
+def validate_entry(entry: Dict[str, Any], idx: int, repo_root: Optional[Path] = None) -> List[str]:
     """Validate a single registry entry. Returns list of error messages."""
     errors = []
+    if repo_root is None:
+        repo_root = Path.cwd()
+
+    # Malformed record guard: an entry that is not a mapping must produce a
+    # clear validation error, not a crash (TypeError/AttributeError).
+    if not isinstance(entry, dict):
+        errors.append(
+            f"Entry {idx}: malformed record — expected a mapping, got {type(entry).__name__}"
+        )
+        return errors
 
     # Check required fields
     for field in REQUIRED_FIELDS:
@@ -151,12 +208,8 @@ def validate_entry(entry: Dict[str, Any], idx: int) -> List[str]:
             errors.append(f"Entry {idx} ({entry.get('id', '?')}): 'evidence_notes' must be a list")
         else:
             for note_path in entry["evidence_notes"]:
-                if not isinstance(note_path, str):
-                    errors.append(f"Entry {idx} ({entry.get('id', '?')}): evidence note path must be string")
-                else:
-                    full_path = Path("dossier/evidence") / note_path if not note_path.startswith("dossier/") else Path(note_path)
-                    if not full_path.exists():
-                        errors.append(f"Entry {idx} ({entry.get('id', '?')}): evidence note not found: {full_path}")
+                errors.extend(validate_evidence_note_path(note_path, idx, Path.cwd()))
+
 
     # Validate citations format
     if "citations" in entry:
@@ -177,10 +230,12 @@ def validate_entry(entry: Dict[str, Any], idx: int) -> List[str]:
 
 
 def check_duplicate_ids(entries: List[Dict[str, Any]]) -> List[str]:
-    """Check for duplicate entry IDs."""
+    """Check for duplicate entry IDs. Tolerates malformed (non-mapping) entries."""
     seen = {}
     errors = []
     for idx, entry in enumerate(entries):
+        if not isinstance(entry, dict):
+            continue
         eid = entry.get("id")
         if eid in seen:
             errors.append(f"Duplicate ID '{eid}' at entries {seen[eid]+1} and {idx+1}")
@@ -189,23 +244,132 @@ def check_duplicate_ids(entries: List[Dict[str, Any]]) -> List[str]:
     return errors
 
 
+def check_backup_preservation(current_entries: List[Dict[str, Any]], backup_path: Path, repo_root: Path) -> List[str]:
+    """
+    Ensure every record ID present in the immutable backup still exists
+    in the current registry.
+
+    Fails if:
+      - current registry is empty but backup is not empty, OR
+      - any backup ID is missing from current entries.
+    """
+    errors = []
+    try:
+        backup_data = yaml.safe_load(backup_path.read_text(encoding="utf-8"))
+    except FileNotFoundError:
+        return errors  # no backup to preserve against
+    except yaml.YAMLError:
+        return errors
+
+    backup_entries = backup_data.get("entries", []) if isinstance(backup_data, dict) else []
+    backup_ids = {e["id"] for e in backup_entries if isinstance(e, dict) and "id" in e}
+
+    current_ids = {e.get("id") for e in current_entries if isinstance(e, dict)}
+
+    if not current_ids and backup_ids:
+        errors.append(
+            f"PRESERVATION ERROR: current registry is empty but backup "
+            f"({backup_path.name}) contains {len(backup_ids)} record(s). "
+            f"Cannot empty the current registry while the backup retains records."
+        )
+        return errors
+
+    missing = backup_ids - current_ids
+    if missing:
+        errors.append(
+            f"PRESERVATION ERROR: {len(missing)} backup record ID(s) missing "
+            f"from current registry: {sorted(missing)}"
+        )
+    return errors
+
+
+def validate_evidence_note_path(
+    note_path: str,
+    idx: int,
+    repo_root: Path
+) -> List[str]:
+    """
+    Validate a single evidence-note path:
+
+      - Must be a string path.
+      - Resolves to a path that exists.
+      - Must be a regular file (not a directory).
+      - Must resolve within the repository root and under dossier/evidence/.
+    """
+    errors = []
+    if not isinstance(note_path, str):
+        errors.append(f"Entry {idx}: evidence note path must be string")
+        return errors
+
+    # Resolve relative to dossier/evidence/ unless absolute path under dossier/
+    if note_path.startswith("dossier/"):
+        full_path = Path(note_path)
+    else:
+        full_path = Path("dossier/evidence") / note_path
+
+    if not full_path.exists():
+        errors.append(f"Entry {idx}: evidence note not found: {full_path}")
+        return errors
+
+    if full_path.is_dir():
+        errors.append(
+            f"Entry {idx}: evidence note is a directory, expected a file: {full_path}"
+        )
+        return errors
+
+    # Ensure the resolved path stays under the repository root
+    resolved = full_path.resolve()
+    try:
+        resolved.relative_to(repo_root.resolve())
+    except ValueError:
+        errors.append(
+            f"Entry {idx}: evidence note path escapes repository root: {full_path}"
+        )
+        return errors
+
+    # Ensure it's inside dossier/evidence/ as expected
+    try:
+        resolved.relative_to((repo_root / "dossier" / "evidence").resolve())
+    except ValueError:
+        errors.append(
+            f"Entry {idx}: evidence note path is outside dossier/evidence/: {full_path}"
+        )
+
+    return errors
+
+
+# --- Backup default path (immutable) ---
+BACKUP_REGISTRY = Path("registry/methods-old.yaml")
+# --- End new helpers ---
+
+
 def main() -> int:
     registry_path = Path("registry/methods.yaml")
+    repo_root = Path.cwd()
+    backup_path = BACKUP_REGISTRY
 
     print(f"Validating {registry_path}...")
-    data = load_registry(registry_path)
+    data = load_registry_strict(registry_path)
     entries = data["entries"]
 
     print(f"Found {len(entries)} entries")
 
     all_errors = []
 
+    # Check backup preservation
+    all_errors.extend(check_backup_preservation(entries, backup_path, repo_root))
+
     # Check duplicates
     all_errors.extend(check_duplicate_ids(entries))
 
     # Validate each entry
     for idx, entry in enumerate(entries):
-        all_errors.extend(validate_entry(entry, idx + 1))
+        if not isinstance(entry, dict):
+            all_errors.append(
+                f"Entry {idx + 1}: malformed record — expected a mapping, got {type(entry).__name__}"
+            )
+            continue
+        all_errors.extend(validate_entry(entry, idx + 1, repo_root))
 
     # Summary
     if all_errors:
@@ -216,6 +380,7 @@ def main() -> int:
     else:
         print("\nVALIDATION PASSED: All entries valid")
         return 0
+
 
 
 if __name__ == "__main__":

@@ -15,10 +15,15 @@ from validate_registry import (
     load_registry,
     validate_entry,
     check_duplicate_ids,
+    check_backup_preservation,
+    load_registry_strict,
+    validate_evidence_note_path,
     REQUIRED_FIELDS,
     VALID_STATUSES,
     VALID_SOURCE_TYPES,
 )
+
+BACKUP_PATH = Path("registry/methods-old.yaml")
 
 
 def create_minimal_valid_entry(**overrides):
@@ -243,6 +248,97 @@ def test_validate_entry_evidence_notes():
     print("[OK] test_validate_entry_evidence_notes passed")
 
 
+def test_load_registry_strict_rejects_duplicate_keys():
+    """Test that load_registry_strict rejects duplicate mapping keys."""
+    from validate_registry import load_registry_strict
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".yaml", delete=False) as f:
+        f.write("""version: 1
+entries:
+  - id: dup-key
+    name: One Name
+    name: Different Name
+    source_type: patent
+    status: pending_deep_dive
+""")
+        fname = f.name
+    try:
+        try:
+            load_registry_strict(Path(fname))
+            assert False, "Should have raised SystemExit"
+        except SystemExit as e:
+            assert e.code == 1
+    finally:
+        Path(fname).unlink()
+    print("[OK] test_load_registry_strict_rejects_duplicate_keys passed")
+
+
+def test_check_backup_preservation_empty_current():
+    """Test that check_backup_preservation rejects empty current registry."""
+    from validate_registry import check_backup_preservation
+    current_entries = []
+    backup_path = Path("registry/methods-old.yaml")
+    repo_root = Path.cwd()
+    errors = check_backup_preservation(current_entries, backup_path, repo_root)
+    assert len(errors) >= 1
+    assert any("empty" in e for e in errors)
+    print("[OK] test_check_backup_preservation_empty_current passed")
+
+
+def test_check_backup_preservation_missing_backup_id():
+    """Test that check_backup_preservation rejects missing backup IDs."""
+    from validate_registry import check_backup_preservation
+    current_entries = [create_minimal_valid_entry(id="new-id")]
+    backup_path = Path("registry/methods-old.yaml")
+    repo_root = Path.cwd()
+    errors = check_backup_preservation(current_entries, backup_path, repo_root)
+    assert len(errors) >= 1
+    assert any("missing" in e for e in errors)
+    print("[OK] test_check_backup_preservation_missing_backup_id passed")
+
+
+def test_check_backup_preservation_all_present():
+    """Test that check_backup_preservation passes when all backup IDs are present."""
+    from validate_registry import check_backup_preservation
+    backup_data = yaml.safe_load(BACKUP_PATH.read_text(encoding="utf-8"))
+    backup_ids = {e["id"] for e in backup_data["entries"] if isinstance(e, dict) and "id" in e}
+    current_entries = [create_minimal_valid_entry(id=eid) for eid in backup_ids]
+    backup_path = Path("registry/methods-old.yaml")
+    repo_root = Path.cwd()
+    errors = check_backup_preservation(current_entries, backup_path, repo_root)
+    assert len(errors) == 0
+    print("[OK] test_check_backup_preservation_all_present passed")
+
+
+def test_validate_entry_malformed_entry():
+    """Test that validate_entry handles malformed (non-dict) entries."""
+    entry = "not a dict"
+    errors = validate_entry(entry, 1)
+    assert len(errors) >= 1
+    assert any("malformed" in e for e in errors)
+    print("[OK] test_validate_entry_malformed_entry passed")
+
+
+def test_validate_entry_evidence_note_directory():
+    """Test that validate_entry rejects evidence notes that are directories."""
+    with tempfile.TemporaryDirectory() as tmpdir:
+        dir_path = Path(tmpdir) / "a_dir"
+        dir_path.mkdir()
+        entry = create_minimal_valid_entry(evidence_notes=[str(dir_path)])
+        errors = validate_entry(entry, 1)
+        assert len(errors) >= 1
+        assert any("directory" in e for e in errors)
+    print("[OK] test_validate_entry_evidence_note_directory passed")
+
+
+def test_validate_entry_evidence_note_outside_root():
+    """Test that validate_entry rejects evidence notes outside repository root."""
+    entry = create_minimal_valid_entry(evidence_notes=["../../etc/passwd"])
+    errors = validate_entry(entry, 1)
+    assert len(errors) >= 1
+    assert any("not found" in e for e in errors)
+    print("[OK] test_validate_entry_evidence_note_outside_root passed")
+
+
 def run_all_tests():
     """Run all tests."""
     test_load_registry_valid()
@@ -261,6 +357,13 @@ def run_all_tests():
     test_validate_entry_gaps_list()
     test_validate_entry_citations_formats()
     test_validate_entry_evidence_notes()
+    test_load_registry_strict_rejects_duplicate_keys()
+    test_check_backup_preservation_empty_current()
+    test_check_backup_preservation_missing_backup_id()
+    test_check_backup_preservation_all_present()
+    test_validate_entry_malformed_entry()
+    test_validate_entry_evidence_note_directory()
+    test_validate_entry_evidence_note_outside_root()
 
     print("\n[OK] All tests passed!")
 

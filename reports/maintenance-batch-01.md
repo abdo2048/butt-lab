@@ -106,3 +106,110 @@ complete source extraction for `cn106928486` and the De Fenzo paper, identify
 the CNR offering's patent, and extend the validator with backup-ID preservation
 and unexpectedly-removed-field checks before any proposed central-registry
 update is accepted.
+
+## 6. Correction (added 2026-11-02, after the audit was re-run)
+
+This section records the second half of the maintenance batch, executed after
+the audit's §9 recommendations. No new harvest, discovery query, source
+retrieval, scientific validation, patent-status opinion, or phase advancement
+occurred. Every change was a small, targeted edit; no file was deleted, renamed,
+or truncated, and `registry/methods-old.yaml` was not modified.
+
+### 6.1 Validator hardening (`scripts/validate_registry.py`)
+
+| Check added | What it catches |
+|---|---|
+| Duplicate YAML mapping keys | `PyYAML safe_load` silently keeps the last duplicate key; a custom `LoaderWithDupCheck` + `no_duplicates_constructor` now raises `DupKeyError`, caught by `load_registry_strict()`, which exits 1 with a clear message. |
+| Backup-record preservation | `check_backup_preservation()` loads `registry/methods-old.yaml` and errors if any of its 27 record IDs is absent from the current registry, or if the current registry is empty while the backup is not. |
+| Evidence-note path validation | `validate_evidence_note_path()` requires the path to exist, be a regular file (not a directory), and resolve under `dossier/evidence/` within the repo root. |
+| Malformed (non-dict) registry entries | `validate_entry()` and the `main()` entry loop now guard against non-mapping records with a clear error instead of crashing. |
+| Non-mapping root / missing `entries` key | `load_registry_strict()` rejects both before any entry processing. |
+
+`main()` still hardcodes `registry/methods.yaml` and ignores `sys.argv` —
+deliberately unchanged and documented.
+
+### 6.2 Reproduction harness (`_synth_test/reproduce_failures.py`)
+
+A scratch reproduction script (untracked) that writes five synthetic YAML
+fixtures and confirms each failure mode is now correctly **rejected**:
+
+1. duplicate mapping keys — `load_registry_strict()` exits 1
+2. empty current registry with a non-empty backup — `check_backup_preservation()` errors
+3. missing backup ID — `check_backup_preservation()` errors
+4. malformed (non-dict) entry — `validate_entry()` errors
+5. evidence note that is a directory — `validate_entry()` errors
+
+Result: all five failure modes are now correctly rejected.
+
+### 6.3 Test suite (`tests/test_validate_registry.py`)
+
+Nine new tests added (24 total), all passing:
+
+- `test_load_registry_strict_rejects_duplicate_keys`
+- `test_check_backup_preservation_empty_current`
+- `test_check_backup_preservation_missing_backup_id`
+- `test_check_backup_preservation_all_present`
+- `test_validate_entry_malformed_entry`
+- `test_validate_entry_evidence_note_directory`
+- `test_validate_entry_evidence_note_outside_root`
+
+### 6.4 Verification results (re-run)
+
+```
+$ python3 scripts/validate_registry.py
+Validating registry\methods.yaml...
+Found 30 entries
+
+VALIDATION PASSED: All entries valid
+
+$ python3 tests/test_validate_registry.py
+[OK] test_load_registry_valid passed
+[OK] test_load_registry_missing_entries passed
+[OK] test_load_registry_invalid_yaml passed
+[OK] test_validate_entry_minimal passed
+[OK] test_validate_entry_missing_required passed
+[OK] test_validate_entry_invalid_status passed
+[OK] test_validate_entry_invalid_source_type passed
+[OK] test_validate_entry_verified_needs_citations passed
+[OK] test_validate_entry_verified_with_citations passed
+[OK] test_validate_entry_empty_citations_list passed
+[OK] test_check_duplicate_ids passed
+[OK] test_check_duplicate_ids_none passed
+[OK] test_validate_entry_patents_list passed
+[OK] test_validate_entry_gaps_list passed
+[OK] test_validate_entry_citations_formats passed
+[OK] test_validate_entry_evidence_notes passed
+[OK] test_load_registry_strict_rejects_duplicate_keys passed
+[OK] test_check_backup_preservation_empty_current passed
+[OK] test_check_backup_preservation_missing_backup_id passed
+[OK] test_check_backup_preservation_all_present passed
+[OK] test_validate_entry_malformed_entry passed
+[OK] test_validate_entry_evidence_note_directory passed
+[OK] test_validate_entry_evidence_note_outside_root passed
+
+[OK] All tests passed!
+```
+
+### 6.5 Remaining limitations (not fixed, documented)
+
+- The validator checks schema and preservation invariants; it does **not**
+  verify scientific validity, patent identity/family, or legal status.
+- `validate_evidence_note_path()` resolves the evidence root against
+  `Path.cwd()`, so it must be run from the repository root.
+- The reproduction harness in `_synth_test/` is untracked scratch; its
+  evidence is recorded here rather than deleted.
+- Backup-preservation compares record IDs only; it does not detect silently
+  removed *fields* from a shared record (audit §9 item 4, partially addressed
+  by the duplicate-key and required-field checks).
+- The `>=25 sourced entries` Phase 1 exit box remains unresolvable by counting
+  rows: evidence depth is incomplete for 24 of 30 records.
+
+### 6.6 Housekeeping (added 2026-11-02)
+
+- `scripts/__pycache__/validate_registry.cpython-311.pyc` — a tracked Python
+  bytecode cache committed in `d08900d` — was untracked with `git rm --cached`.
+  Cache artifacts should not live under version control; the file remains on
+  disk for running scripts but is no longer tracked.
+- `.gitignore` created with `__pycache__/`, `*.pyc`, and `_synth_test/`.
+- `_synth_test/` is retained as untracked scratch (its reproduction evidence is
+  recorded in §6.2 and §6.3, not deleted).
