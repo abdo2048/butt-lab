@@ -34,6 +34,8 @@ checkpoint:
   retrieval_ceiling: 24
   packet_version: v1.0
   packet_path: packets/batch-01/stage-3/manifest.yaml
+  packet_commit: 0c0b6f2ff900a1866a0ed456c87e78661fa2f4ea
+  packet_commit_note: packet files unchanged since this commit; verify hashes before launch
 legacy:
   preserved_queue: state/work-queue.yaml
   preserved_tracker: state/progress.md

@@ -26,3 +26,5 @@ Findings of note (all source-scoped, none experimentally validated):
 State: Stage 1 complete_scoped; Stage 2 complete_scoped; Stage 3 awaiting_manual; Stage 4-5 pending. No registry, backup, prior scientific file, code or test was modified. No company contact, purchase or experiment. No panel or judge was run and no model diversity is claimed.
 
 Next eligible work: operator attaches the frozen packet to three separate sessions, runs PANEL stage=3 slots A/B/C, then JUDGE, then IMPORT, then records actual acceptance or a bounded revision (max two rounds). Registry version proposals await separate host approval and a validator run.
+
+Persistence: packet v1.0 frozen in commit 0c0b6f2ff900a1866a0ed456c87e78661fa2f4ea on branch arena/68dd04e3-butt-lab. This records a repository commit; it is not scientific acceptance and not experimental validation.
