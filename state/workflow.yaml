@@ -1,18 +1,39 @@
 version: 2
-updated: '2026-11-04'
-base_commit: 0099cf3df315981b13644eac40881d075416a95f
+updated: '2026-11-03'
+base_commit: fda66af351a37d38287792ed3b578a258eedf7fc
 batch: batch-01
-current_stage: 1
+current_stage: 3
 execution: file-directed; host must trigger/resume; no scheduler installed
-status: in_progress
-next_action: H01 company/non-patent evidence; then H02/H03 and Stage 2, reusing prior work
-pending_manual_action: null
+status: awaiting_manual
+next_action: Operator launches Stage 3 slots A/B/C with the frozen packet, then judge and IMPORT; AUTO must not run the panel
+pending_manual_action: >-
+  Attach packets/batch-01/stage-3/ files to three separate sessions and send the fixed
+  PANEL stage=3 slot=A|B|C commands; then JUDGE stage=3 to a fresh session; then
+  operator acceptance after inspecting judge.md. Packet v1.0 is frozen; if any packet
+  file changes, bump the version and open a new round.
 checkpoint:
-  unit: H01
-  completed_in_this_unit: []
-  remaining: Company-source map and scoped coverage readiness
-  last_actor: unassigned
-  last_run: null
+  unit: S2-batch01 + packet freeze
+  completed_in_this_unit:
+    - reports/stage1/company-source-map.md
+    - reports/stage1/coverage-ledger.md
+    - reports/stage1/batch-selection.md
+    - reports/stage2/reconstruction-index.md
+    - reports/stage2/assumption-and-gap-ledger.md
+    - specs/mego-fr3066128a1-source-reconstruction.md
+    - specs/keenat-fr3110470a1-source-reconstruction.md
+    - specs/unb-pi0305004-source-reconstruction.md
+    - specs/company-workflow-dossiers-batch01.md
+    - packets/batch-01/stage-3/question.md
+    - packets/batch-01/stage-3/evidence-index.md
+    - packets/batch-01/stage-3/output-schema.md
+    - packets/batch-01/stage-3/manifest.yaml
+  remaining: Stage 3 manual panel and judge; operator acceptance; Stage 4 packet after acceptance
+  last_actor: single AUTO harvester/deep-dive (Arena Agent Mode)
+  last_run: '2026-11-03'
+  retrieval_calls_used: 20
+  retrieval_ceiling: 24
+  packet_version: v1.0
+  packet_path: packets/batch-01/stage-3/manifest.yaml
 legacy:
   preserved_queue: state/work-queue.yaml
   preserved_tracker: state/progress.md
@@ -29,33 +50,48 @@ stages:
   1:
     role: harvester
     mode: single-auto
-    status: in_progress
+    status: complete_scoped
     units:
-      - {id: H01, status: pending, output: reports/stage1/company-source-map.md}
-      - {id: H02, status: pending, output: reports/stage1/coverage-ledger.md}
-      - {id: H03, status: pending, output: reports/stage1/batch-selection.md}
-    gate: WORKFLOW.md Stage 1; scoped completion, not worldwide exhaustion
+      - {id: H01, status: complete_bounded, output: reports/stage1/company-source-map.md}
+      - {id: H02, status: complete_bounded, output: reports/stage1/coverage-ledger.md}
+      - {id: H03, status: complete_bounded, output: reports/stage1/batch-selection.md}
+    gate: >-
+      WORKFLOW.md Stage 1; scoped completion. Selected leads traceable or explicitly
+      inaccessible; coverage and collector/processor limits stated; no worldwide claim.
   2:
     role: deep-dive
     mode: single-auto
-    status: partial
+    status: complete_scoped
+    units:
+      - {id: S2-00, status: complete_bounded, spec: specs/de-fenzo-2020-source-reconstruction.md, version: v1.0}
+      - {id: S2-01, status: complete_bounded, spec: specs/mego-fr3066128a1-source-reconstruction.md, version: v1.0}
+      - {id: S2-01b, status: complete_bounded, spec: specs/company-workflow-dossiers-batch01.md, version: v1.0}
+      - {id: S2-02, status: complete_bounded, spec: specs/keenat-fr3110470a1-source-reconstruction.md, version: v1.0}
+      - {id: S2-03, status: complete_bounded, spec: specs/cn106928486-source-reconstruction.md, version: v1.0}
+      - {id: S2-04, status: complete_bounded, spec: specs/pressurized-fluid-reference.md, version: v1.0}
+      - {id: S2-05, status: complete_bounded, spec: specs/unb-pi0305004-source-reconstruction.md, version: v1.0}
     outputs_required:
       - reports/stage2/reconstruction-index.md
       - reports/stage2/assumption-and-gap-ledger.md
       - packets/batch-01/stage-3/manifest.yaml
-    gate: Reconstruct to public-evidence limits; persist frozen packet before launch
+    gate: >-
+      Selected batch addressed; conflicts/unknowns carried; waste/safety retained;
+      common question/schema and frozen packet ready. Passed for the scoped batch.
   3:
     role: red-team
     mode: manual-fusion
-    status: pending
+    status: awaiting_manual
     round: '01'
     packet: packets/batch-01/stage-3/manifest.yaml
+    packet_version: v1.0
     slots:
       A: {status: pending, output: panels/batch-01/stage-3/round-01/worker-a.md}
       B: {status: pending, output: panels/batch-01/stage-3/round-01/worker-b.md}
       C: {status: pending, output: panels/batch-01/stage-3/round-01/worker-c.md}
     judge: {status: waiting_for_workers, output: panels/batch-01/stage-3/round-01/judge.md}
     operator_acceptance: {accepted: false, statement: null, packet_version: null}
+    revision_rounds_used: 0
+    revision_round_limit: 2
   4:
     role: inventor
     mode: manual-fusion
