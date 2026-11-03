@@ -1,14 +1,11 @@
-# Butt Lab
+# Butt Lab: five-stage virtual research
 
-Evidence-first desk research into cigarette-butt cleaning, polymer recovery, and hypothetical process improvements. Not a certified process or physical laboratory.
+Scope: patents of ALL statuses, companies with or without located patents (including Code Effort and TerraCycle), papers and public evidence/failures. Desk research and falsifiable invention, not a validated treatment plant.
 
-## Start any AI
-> Read START_HERE.md and perform the next eligible task.
+> Read START_HERE.md and resume the workflow in AUTO mode.
 
-[START_HERE.md](START_HERE.md) defines the portable workflow. [AGENTS.md](AGENTS.md) and [charter.md](charter.md) define permissions/evidence/safety. [The queue](state/work-queue.yaml) contains assignments/dependencies; [the log](state/session-log.md) records handoffs. TASK.md points to them instead of freezing yesterday's task.
+[OPERATOR_GUIDE.md](OPERATOR_GUIDE.md): your steps/free-interface options. [WORKFLOW.md](WORKFLOW.md): controller/checkpoints/gates. [state/workflow.yaml](state/workflow.yaml): current stage state. Old queue/trackers are preserved history, not active dispatch.
 
-Use any working hosted research interface. GitHub/files carry the state; OmniRoute, DeepSeek Harness, Arena, Computer and Council are optional, not dependencies. Without repo access, attach the small source packet and transfer Markdown manually. No promise of unlimited platform capacity.
+1 Harvester single -> 2 Deep-dive single -> 3 Red-team three workers + judge (manual) -> 4 Inventor three workers + judge (manual) -> 5 Synthesizer single. [FUSION_PROTOCOL.md](FUSION_PROTOCOL.md) has fixed commands. Worker replacement resumes, not restarts. Files do not launch models, supply credits or remove write approvals.
 
-registry/ remains a read-only inherited lead index during this batch. dossier/ holds source notes/unverified hypotheses; specs/ reconstructions; reviews/ critiques; reports/ comparisons; inventions/ untested candidates. Historical trackers and old AI notes are not current instructions or ground truth.
-
-The 2026-11-02 batch adds Chinese A/B gap checking, a partial pressurized-fluid reference, three-route comparison, and falsifiable candidates. Next: review the candidates, not another global harvest.
+Initial migration 2026-11-04: landscape available/company-scope work pending; Stage 2 partial; formal Stages 3-5 pending. H1-H3 are draft seeds. Prior research/registries/backup remain intact. Readiness is scoped; lab validation/legal/product safety remain separate.

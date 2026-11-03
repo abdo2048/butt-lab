@@ -1,0 +1,86 @@
+version: 2
+updated: '2026-11-04'
+base_commit: 0099cf3df315981b13644eac40881d075416a95f
+batch: batch-01
+current_stage: 1
+execution: file-directed; host must trigger/resume; no scheduler installed
+status: in_progress
+next_action: H01 company/non-patent evidence; then H02/H03 and Stage 2, reusing prior work
+pending_manual_action: null
+checkpoint:
+  unit: H01
+  completed_in_this_unit: []
+  remaining: Company-source map and scoped coverage readiness
+  last_actor: unassigned
+  last_run: null
+legacy:
+  preserved_queue: state/work-queue.yaml
+  preserved_tracker: state/progress.md
+  reusable_drafts:
+    - specs/de-fenzo-2020-source-reconstruction.md
+    - specs/cn106928486-source-reconstruction.md
+    - specs/pressurized-fluid-reference.md
+    - reports/gap-check-01.md
+    - reports/process-comparison-01.md
+    - reviews/source-reconstructions-review-01.md
+    - inventions/candidate-hypotheses-01.md
+  note: Reuse drafts; old R-task completion is not stage-gate acceptance.
+stages:
+  1:
+    role: harvester
+    mode: single-auto
+    status: in_progress
+    units:
+      - {id: H01, status: pending, output: reports/stage1/company-source-map.md}
+      - {id: H02, status: pending, output: reports/stage1/coverage-ledger.md}
+      - {id: H03, status: pending, output: reports/stage1/batch-selection.md}
+    gate: WORKFLOW.md Stage 1; scoped completion, not worldwide exhaustion
+  2:
+    role: deep-dive
+    mode: single-auto
+    status: partial
+    outputs_required:
+      - reports/stage2/reconstruction-index.md
+      - reports/stage2/assumption-and-gap-ledger.md
+      - packets/batch-01/stage-3/manifest.yaml
+    gate: Reconstruct to public-evidence limits; persist frozen packet before launch
+  3:
+    role: red-team
+    mode: manual-fusion
+    status: pending
+    round: '01'
+    packet: packets/batch-01/stage-3/manifest.yaml
+    slots:
+      A: {status: pending, output: panels/batch-01/stage-3/round-01/worker-a.md}
+      B: {status: pending, output: panels/batch-01/stage-3/round-01/worker-b.md}
+      C: {status: pending, output: panels/batch-01/stage-3/round-01/worker-c.md}
+    judge: {status: waiting_for_workers, output: panels/batch-01/stage-3/round-01/judge.md}
+    operator_acceptance: {accepted: false, statement: null, packet_version: null}
+  4:
+    role: inventor
+    mode: manual-fusion
+    status: pending
+    round: '01'
+    packet: packets/batch-01/stage-4/manifest.yaml
+    slots:
+      A: {status: pending, output: panels/batch-01/stage-4/round-01/worker-a.md}
+      B: {status: pending, output: panels/batch-01/stage-4/round-01/worker-b.md}
+      C: {status: pending, output: panels/batch-01/stage-4/round-01/worker-c.md}
+    judge: {status: waiting_for_workers, output: panels/batch-01/stage-4/round-01/judge.md}
+    operator_acceptance: {accepted: false, statement: null, packet_version: null}
+    blocking_decisions: []
+  5:
+    role: synthesizer
+    mode: single-auto
+    status: pending
+    outputs_required:
+      - reports/final/batch-01-synthesis.md
+      - reports/final/validation-and-open-questions.md
+    gate: Accepted panels, no blocking decision; desk synthesis, not experimental validation
+permissions:
+  registries: read-only
+  backup: immutable
+  prior_scientific_outputs: read-only; add versions/proposals
+  progress_updates: checkpoint and session log as approved proposed edits
+  external_writes: host approval required
+  experiments: not authorized
