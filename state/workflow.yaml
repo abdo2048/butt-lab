@@ -53,7 +53,10 @@ checkpoint:
   packet_payload_breakdown: 3 hashed control + 17 hashed evidence
   release_metadata_files: "manifest.yaml, LAUNCH.md, COMMIT.txt (unhashed)"
   release_bundle_file_count: 23
-  release_metadata_commit: recorded after this commit in the release-repair state record
+  release_metadata_commit: 5e00ac8eb03f10d2c5fd32bdd81cdb26d5ec0944
+  release_metadata_commit_note: >-
+    commit holding the repaired manifest/LAUNCH/COMMIT metadata; payload stays at
+    5f484b5. Later commits may update only state/session log.
   packet_commit_note: >-
     payload_commit holds the 20 hashed files; release metadata may live in a later
     commit because COMMIT.txt was added after the payload. Worker reports should

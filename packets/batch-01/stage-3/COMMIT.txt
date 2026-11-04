@@ -14,6 +14,7 @@ release_metadata_files:
 release_metadata_hashed: false
 release_metadata_location: "latest commit on main, or the commit containing this file"
 merged_snapshot: b81223b25c66f698525efe4bf880d34e63c52eb1   # PR #2 merge; contains this file
+release_repair_commit: 5e00ac8eb03f10d2c5fd32bdd81cdb26d5ec0944   # repaired manifest/LAUNCH/COMMIT metadata; payload unchanged
 superseded_packet: v1.0
 superseded_payload_commit: 0c0b6f2ff900a1866a0ed456c87e78661fa2f4ea
 
