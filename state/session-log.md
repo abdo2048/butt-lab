@@ -43,3 +43,19 @@ Corrections (full table in reports/stage2/errata-packet-v1.0.md, E-01..E-18):
 Packet v1.1: packets/batch-01/stage-3/{question.md, evidence-index.md, output-schema.md, manifest.yaml, LAUNCH.md}. 20 files listed and hashed (SHA-256 verified 20/20 at freeze). v1.0 preserved at 0c0b6f2 and explicitly excluded from launch. LAUNCH.md states the full bundle (control files alone are insufficient) and the fixed PANEL/JUDGE/IMPORT commands.
 
 State: Stage 1 complete_scoped; Stage 2 complete_scoped; Stage 3 awaiting_manual, packet v1.1, A/B/C pending, judge waiting, operator acceptance false, revision rounds 0 (this was pre-launch QC, not a panel revision). No registry, backup, prior scientific file, code or test was modified. No panel, judge or acceptance was run. Nothing here is experimental validation or a safety/legal opinion.
+
+## 2026-11-04: v1.1 release repair — YAML parse blocker, bundle counts, payload/metadata retrieval
+Branch: arena/59a1ec66-butt-lab (from main b81223b, PR #2 merged). Actor: same AUTO worker. No retrieval calls; no research redone; no hashed payload file changed.
+
+External review finding: state/workflow.yaml did not parse. Three lines added after stages.2.outputs_required were indented as a sequence under the mapping rather than as entries of that list. Reproduced locally at line 89 (the same line PyYAML reported). Repaired. The earlier "YAML structure checked" statement was too weak: it checked indentation parity, not nesting. This entry supersedes that claim.
+
+Verification method this pass: a local indentation/nesting parser (no YAML library available in the sandbox) exercised against known-good files (state/work-queue.yaml, registry/methods.yaml, registry/methods-old.yaml, the v1.1 manifest) and against the failing workflow. It accepts all known-good files, rejects the pre-fix workflow at line 89, and accepts the repaired workflow; state and manifest parsed separately. The external reviewer confirmed the same defect with PyYAML.
+
+Release corrections (metadata only):
+- Bundle accounting reconciled: manifest.files = 20 hashed payload entries (3 control + 17 evidence). LAUNCH.md's old "18 evidence / 21 entries" and the state's "4 control + 16 evidence" were wrong. Release bundle = 20 payload + 3 release-metadata files (manifest.yaml, LAUNCH.md, COMMIT.txt) = 23 files; 5 protocol files optional.
+- Payload/metadata retrieval separated: payload commit 5f484b5 contains the 20 hashed files; COMMIT.txt was added later (33c6c37, merged in b81223b), so metadata must come from the release snapshot, not the payload commit alone. Worker header records packet_commit 5f484b5.
+- LAUNCH.md adds a self-contained panel instruction for chats without repository access; the repository-style commands remain.
+- Residual stronger prose (Korean comparator, Keenat "direct precedent", CO2 "no solvent wash") documented in manifest reading_limits for the panel; not silently rewritten, because that would change hashed payload and require a new version.
+- In-file unit headers that still say v1.0 are documented as stale labels; the v1.1 label refers to corrected content hashes, and the errata is authoritative.
+
+State: Stage 1/2 complete_scoped; Stage 3 awaiting_manual; packet v1.1 payload unchanged; A/B/C pending; judge waiting; acceptance false; revision rounds 0. No registry, backup, prior scientific file, code or test modified. No panel, judge or acceptance run.

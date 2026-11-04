@@ -5,16 +5,19 @@ batch: batch-01
 current_stage: 3
 execution: file-directed; host must trigger/resume; no scheduler installed
 status: awaiting_manual
-next_action: Operator launches Stage 3 slots A/B/C with the frozen packet v1.1 (all 20 files), then judge and IMPORT; AUTO must not run the panel
+next_action: Operator launches Stage 3 slots A/B/C with the frozen packet v1.1 (20 hashed payload + 3 release-metadata files), then judge and IMPORT; AUTO must not run the panel
 pending_manual_action: >-
-  Follow packets/batch-01/stage-3/LAUNCH.md. Attach ALL 20 packet files (4 control +
-  16 evidence) with paths preserved to three separate sessions and send the fixed
-  PANEL stage=3 slot=A|B|C commands; then JUDGE stage=3 with the three reports to a
-  fresh session; then operator acceptance after inspecting judge.md. Packet v1.1
-  supersedes withdrawn v1.0 (0c0b6f2). If any content file changes, bump the version
-  and open a new round.
+  Follow packets/batch-01/stage-3/LAUNCH.md. Attach all 23 release files (20 hashed
+  payload: 3 control + 17 evidence; plus manifest.yaml, LAUNCH.md, COMMIT.txt) with
+  paths preserved to three separate sessions and send the fixed PANEL stage=3
+  slot=A|B|C commands; then JUDGE stage=3 with the three reports to a fresh session;
+  then operator acceptance after inspecting judge.md. For chats without repository
+  access, use the self-contained instruction in LAUNCH.md §4b and attach the optional
+  protocol files only if the repository-style commands are used. Packet v1.1
+  supersedes withdrawn v1.0 (0c0b6f2). If any hashed payload file changes, bump the
+  version and recompute hashes; release-metadata changes do not change the payload.
 checkpoint:
-  unit: S2-batch01 + packet v1.1 QC freeze
+  unit: S2-batch01 + packet v1.1 QC freeze + release repair
   completed_in_this_unit:
     - reports/stage1/company-source-map.md
     - reports/stage1/coverage-ledger.md
@@ -34,7 +37,7 @@ checkpoint:
     - reports/gap-check-01.md
   remaining: Stage 3 manual panel and judge; operator acceptance; Stage 4 packet after acceptance
   last_actor: single AUTO harvester/deep-dive (Arena Agent Mode)
-  last_run: '2026-11-03'
+  last_run: '2026-11-04'
   retrieval_calls_used: 20
   retrieval_ceiling: 24
   packet_version: v1.1
@@ -45,7 +48,25 @@ checkpoint:
     v1.1 is a bounded packet-QC correction pass after external review; no new harvest,
     no registry edits, no panel execution. See reports/stage2/errata-packet-v1.0.md.
   packet_commit: 5f484b585ca16dbd2ce93b56c61c962f5f14c774
-  packet_commit_note: v1.1 content commit; all 20 manifest hashes verified at freeze; see packets/batch-01/stage-3/COMMIT.txt
+  packet_payload_commit: 5f484b585ca16dbd2ce93b56c61c962f5f14c774
+  packet_payload_count: 20
+  packet_payload_breakdown: 3 hashed control + 17 hashed evidence
+  release_metadata_files: "manifest.yaml, LAUNCH.md, COMMIT.txt (unhashed)"
+  release_bundle_file_count: 23
+  release_metadata_commit: 5e00ac8eb03f10d2c5fd32bdd81cdb26d5ec0944
+  release_metadata_commit_note: >-
+    commit holding the repaired manifest/LAUNCH/COMMIT metadata; payload stays at
+    5f484b5. Later commits may update only state/session log.
+  packet_commit_note: >-
+    payload_commit holds the 20 hashed files; release metadata may live in a later
+    commit because COMMIT.txt was added after the payload. Worker reports should
+    record packet_commit 5f484b5. See packets/batch-01/stage-3/COMMIT.txt.
+  release_repair: >-
+    v1.1 release repair (payload unchanged): state/workflow.yaml indentation fixed so
+    the file parses; bundle counts reconciled to 20 hashed payload + 3 metadata = 23
+    release files; payload/metadata retrieval separated; self-contained panel fallback
+    added. Validation: state and manifest parsed separately; 20/20 payload hashes
+    rechecked. No hashed payload byte changed, so the payload stays v1.1.
 legacy:
   preserved_queue: state/work-queue.yaml
   preserved_tracker: state/progress.md
@@ -86,9 +107,9 @@ stages:
       - reports/stage2/reconstruction-index.md
       - reports/stage2/assumption-and-gap-ledger.md
       - packets/batch-01/stage-3/manifest.yaml
-    - packets/batch-01/stage-3/LAUNCH.md
-    - reports/stage2/errata-packet-v1.0.md
-    - reports/gap-check-01.md
+      - packets/batch-01/stage-3/LAUNCH.md
+      - reports/stage2/errata-packet-v1.0.md
+      - reports/gap-check-01.md
     gate: >-
       Selected batch addressed; conflicts/unknowns carried; waste/safety retained;
       common question/schema and frozen packet ready. Passed for the scoped batch.

@@ -2,12 +2,30 @@ batch: batch-01
 stage: 3
 round: "01"
 packet_version: v1.1
-content_commit: 5f484b585ca16dbd2ce93b56c61c962f5f14c774
-recorded: 2026-11-04
-superseded_packet: v1.0
-superseded_content_commit: 0c0b6f2ff900a1866a0ed456c87e78661fa2f4ea
 
-The 20 files listed in manifest.yaml match their SHA-256 hashes at content_commit.
-Commits after content_commit only update state/session log and this file; they do not
-change packet content. Use content_commit — not repo_baseline_commit — to retrieve the
-packet. v1.0 is withdrawn and must not be launched.
+payload_commit: 5f484b585ca16dbd2ce93b56c61c962f5f14c774
+payload_file_count: 20          # 3 hashed control files + 17 hashed evidence files
+payload_hashes_verified: 20/20  # against manifest.yaml at the payload commit
+
+release_metadata_files:
+  - packets/batch-01/stage-3/manifest.yaml
+  - packets/batch-01/stage-3/LAUNCH.md
+  - packets/batch-01/stage-3/COMMIT.txt
+release_metadata_hashed: false
+release_metadata_location: "latest commit on main, or the commit containing this file"
+merged_snapshot: b81223b25c66f698525efe4bf880d34e63c52eb1   # PR #2 merge; contains this file
+release_repair_commit: 5e00ac8eb03f10d2c5fd32bdd81cdb26d5ec0944   # repaired manifest/LAUNCH/COMMIT metadata; payload unchanged
+superseded_packet: v1.0
+superseded_payload_commit: 0c0b6f2ff900a1866a0ed456c87e78661fa2f4ea
+
+# Retrieval rule
+# - Use payload_commit for the 20 frozen content files and their hashes.
+# - Use the release snapshot (this file's containing commit, or a later main commit)
+#   for manifest.yaml / LAUNCH.md / COMMIT.txt. The payload commit predates this file.
+# - Worker report header: packet_commit = 5f484b5... (the payload commit).
+
+# Release repair (v1.1, payload unchanged)
+# - state/workflow.yaml had three misindented Stage-2 output lines; repaired so it parses.
+# - Bundle counts reconciled: 20 hashed payload + 3 release metadata = 23 release files.
+# - Payload/metadata commits separated; self-contained panel instruction added to LAUNCH.md.
+# - No hashed payload byte was changed by this repair.
