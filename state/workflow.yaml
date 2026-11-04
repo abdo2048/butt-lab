@@ -1,18 +1,20 @@
 version: 2
-updated: '2026-11-03'
+updated: '2026-11-04'
 base_commit: fda66af351a37d38287792ed3b578a258eedf7fc
 batch: batch-01
 current_stage: 3
 execution: file-directed; host must trigger/resume; no scheduler installed
 status: awaiting_manual
-next_action: Operator launches Stage 3 slots A/B/C with the frozen packet, then judge and IMPORT; AUTO must not run the panel
+next_action: Operator launches Stage 3 slots A/B/C with the frozen packet v1.1 (all 20 files), then judge and IMPORT; AUTO must not run the panel
 pending_manual_action: >-
-  Attach packets/batch-01/stage-3/ files to three separate sessions and send the fixed
-  PANEL stage=3 slot=A|B|C commands; then JUDGE stage=3 to a fresh session; then
-  operator acceptance after inspecting judge.md. Packet v1.0 is frozen; if any packet
-  file changes, bump the version and open a new round.
+  Follow packets/batch-01/stage-3/LAUNCH.md. Attach ALL 20 packet files (4 control +
+  16 evidence) with paths preserved to three separate sessions and send the fixed
+  PANEL stage=3 slot=A|B|C commands; then JUDGE stage=3 with the three reports to a
+  fresh session; then operator acceptance after inspecting judge.md. Packet v1.1
+  supersedes withdrawn v1.0 (0c0b6f2). If any content file changes, bump the version
+  and open a new round.
 checkpoint:
-  unit: S2-batch01 + packet freeze
+  unit: S2-batch01 + packet v1.1 QC freeze
   completed_in_this_unit:
     - reports/stage1/company-source-map.md
     - reports/stage1/coverage-ledger.md
@@ -27,15 +29,23 @@ checkpoint:
     - packets/batch-01/stage-3/evidence-index.md
     - packets/batch-01/stage-3/output-schema.md
     - packets/batch-01/stage-3/manifest.yaml
+    - packets/batch-01/stage-3/LAUNCH.md
+    - reports/stage2/errata-packet-v1.0.md
+    - reports/gap-check-01.md
   remaining: Stage 3 manual panel and judge; operator acceptance; Stage 4 packet after acceptance
   last_actor: single AUTO harvester/deep-dive (Arena Agent Mode)
   last_run: '2026-11-03'
   retrieval_calls_used: 20
   retrieval_ceiling: 24
-  packet_version: v1.0
+  packet_version: v1.1
   packet_path: packets/batch-01/stage-3/manifest.yaml
-  packet_commit: 0c0b6f2ff900a1866a0ed456c87e78661fa2f4ea
-  packet_commit_note: packet files unchanged since this commit; verify hashes before launch
+  superseded_packet: v1.0
+  v1_0_packet_commit: 0c0b6f2ff900a1866a0ed456c87e78661fa2f4ea
+  qc_pass: >-
+    v1.1 is a bounded packet-QC correction pass after external review; no new harvest,
+    no registry edits, no panel execution. See reports/stage2/errata-packet-v1.0.md.
+  packet_commit: pending-v1.1-content-commit (see packets/batch-01/stage-3/COMMIT.txt)
+  packet_commit_note: v1.1 content commit recorded after freeze; all 20 hashes verified at freeze time
 legacy:
   preserved_queue: state/work-queue.yaml
   preserved_tracker: state/progress.md
@@ -76,6 +86,9 @@ stages:
       - reports/stage2/reconstruction-index.md
       - reports/stage2/assumption-and-gap-ledger.md
       - packets/batch-01/stage-3/manifest.yaml
+    - packets/batch-01/stage-3/LAUNCH.md
+    - reports/stage2/errata-packet-v1.0.md
+    - reports/gap-check-01.md
     gate: >-
       Selected batch addressed; conflicts/unknowns carried; waste/safety retained;
       common question/schema and frozen packet ready. Passed for the scoped batch.
@@ -85,7 +98,7 @@ stages:
     status: awaiting_manual
     round: '01'
     packet: packets/batch-01/stage-3/manifest.yaml
-    packet_version: v1.0
+    packet_version: v1.1
     slots:
       A: {status: pending, output: panels/batch-01/stage-3/round-01/worker-a.md}
       B: {status: pending, output: panels/batch-01/stage-3/round-01/worker-b.md}

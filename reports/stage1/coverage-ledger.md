@@ -27,36 +27,36 @@ Evidence-depth terminology used (inherited from the 2026-11-02 audit; do not col
 | Company contacts made | 0 |
 | Credentials/gated content accessed | 0 |
 
-A retrieval call is counted once per `web_search` or `fetch_page` invocations, including failed fetches.
+A retrieval call is counted once per `web_search` or `fetch_page` **invocation**, including a failed fetch and a subsequent chunk fetch of the same page. The 20-row table in §2 is the invocation log. Provenance limit: the raw tool-call log was not exported to the repository or supplied to the external reviewer, so this count is the worker's own record, corroborated by the table but not independently certified (v1.0's table merged two Code Effort chunk fetches and carried a placeholder row; corrected here, errata E-12).
 
 ---
 
-## 2. Queries and fetches executed this session (verbatim or near-verbatim)
+## 2. Queries and fetches executed this session (invocation log)
 
 | # | Type | Target | Result |
 |---:|---|---|---|
-| 1 | fetch | `https://codeefforts.com/` (2 chunks) | Homepage read: product catalogue, scale claims, partner logos; no process page |
-| 2 | fetch | `https://www.terracycle.com/en-CA/brigades/cigarette-waste-en-ca` (chunk 0) | Programme page read: accepted waste, drop-off model, links to official PDFs |
-| 3 | fetch | TerraCycle PDF `How-cigarette-butts-recycled_v3-ca.pdf` | Full 3-step process read (collection → compost + powder → plastic lumber) |
-| 4 | search | "Code Effort cigarette butt recycling process Naman Gupta how it works paper pulp" | 5 results; process details from The Better India, TOI, weekendleader, unstop |
-| 5 | fetch | `https://tchaomegot.com/depollution/` (chunk 0 of 2) | Company claims read: SC-CO2, 99.7/0.3, closed loop, 6 patents, INERIS |
-| 6 | fetch | `https://keenat.com/recyclage-valorisation-megots/` (chunk 0 of 5) | Company process read: dry depollution, thermo-compression, CSS pivot |
-| 7 | fetch | `https://poiatoirecicla.com.br/` | **FAILED** (page fetch error) |
-| 8 | search | "Poiato Recicla cigarette butt recycling process cellulose pulp Brazil Universidade de Brasilia" | 5 results: Atlas of Science author summary, Waste Management DOI, case study, review excerpts |
-| 9 | search | "RE-CIG Italy cigarette butt recycling patent University of Trento plastic granules plant" | 5 results incl. re-cig.it technology and university mass-balance pages |
-| 10 | search | "Mego! France startup mégots cellulose acétate procédé FR3066128 collecte" | 5 results: Capbiotek/Ouest-France mass split, capacity and site history |
-| 11 | fetch | `https://patents.google.com/patent/WO2026074041A2/en` (chunk 0 of 13) | Abstract + classifications only; description/claims **not read** |
-| 12 | search | "cigarette butt recycling review 2025 technologies companies cellulose acetate circular economy" | 5 results: 2025 biorefinery review, yarn review, microplastics review, carbon-materials review |
-| 13 | search | "BuffIndia cigarette butt recycling India process; cigarette butt recycling startup Europe 2025 collection" | 5 results: YourStory, Climate Action Live (process + scale), MANAMO/Re-Cig |
-| 14 | fetch | `https://patents.google.com/patent/FR3110470A1/en` (chunk 0 of 8) | Bibliographic + French abstract + classifications |
-| 15 | search | "Universidade de Brasilia cigarette butts patent INPI 2003 number PI030 process cellulose pulp Teixeira" | 5 results incl. **UnB CDT page with PI 0305004-1, filing 2003-10-06, grant 2014-11-11**; Teixeira DOI; review text |
-| 16 | fetch | `https://patents.google.com/patent/FR3110470A1/en` chunk 2 | **Keenat claimed process read**: separate → dry/depollute 80–100 °C → grind → extruder compound 10–30 % filters |
-| 17 | fetch | `https://www.re-cig.it/en/tecnologia/` | Full 4-step company process read incl. external wastewater purification |
-| 18 | search | "Code Effort patent cigarette butt recycling patent filed India Naman Gupta intellectual property" | 3 results, **no patent located**; company certifications claim |
-| 19 | search | "Fimognari Bonetti Re-Cig patent WO2019 cigarette butt thermoplastic University Trento patent number" | 3 results, **no Re-Cig patent number located**; surfaced unrelated BE1027956B1 |
-| 20 | search | (combined into #13 per plan) | — |
+| 1 | fetch | `https://codeefforts.com/` (chunk 0 of 2) | Homepage: product catalogue, scale claims, partner logos; no process page |
+| 2 | fetch | `https://www.terracycle.com/en-CA/brigades/cigarette-waste-en-ca` (chunk 0 of 3) | Programme page: accepted waste, drop-off model, official PDF links |
+| 3 | fetch | `https://codeefforts.com/` (chunk 1 of 2) | Remaining homepage content: partner logos, footer, product list; no process detail |
+| 4 | fetch | TerraCycle PDF `How-cigarette-butts-recycled_v3-ca.pdf` | Full 3-step process read (collection → compost + powder → plastic lumber) |
+| 5 | search | "Code Effort cigarette butt recycling process Naman Gupta how it works paper pulp" | 5 results; process details from The Better India, TOI, The Weekend Leader, Unstop |
+| 6 | fetch | `https://tchaomegot.com/depollution/` (chunk 0 of 2) | Company claims: SC-CO2, 99.7/0.3, closed loop, 6 patents, INERIS |
+| 7 | fetch | `https://keenat.com/recyclage-valorisation-megots/` (chunk 0 of 5) | Company process: dry depollution, thermo-compression, CSS pivot |
+| 8 | fetch | `https://poiatoirecicla.com.br/` | **FAILED** (page fetch error) |
+| 9 | search | "Poiato Recicla cigarette butt recycling process cellulose pulp Brazil Universidade de Brasilia" | 5 results: Atlas of Science author summary, Waste Management DOI, case study, review excerpts |
+| 10 | search | "RE-CIG Italy cigarette butt recycling patent University of Trento plastic granules plant" | 5 results incl. re-cig.it technology and university mass-balance pages |
+| 11 | search | "Mego! France startup mégots cellulose acétate procédé FR3066128 collecte" | 5 results: Capbiotek/Ouest-France mass split, capacity and site history |
+| 12 | fetch | `https://patents.google.com/patent/WO2026074041A2/en` (chunk 0 of 13) | Abstract + classifications only; description/claims **not read** |
+| 13 | search | "cigarette butt recycling review 2025 technologies companies cellulose acetate circular economy" | 5 results: 2025 biorefinery review, yarn review, microplastics review, carbon-materials review |
+| 14 | search | "BuffIndia cigarette butt recycling India process; cigarette butt recycling startup Europe 2025 collection" | 5 results: YourStory, Climate Action Live (process + scale), MANAMO/Re-Cig |
+| 15 | fetch | `https://patents.google.com/patent/FR3110470A1/en` (chunk 0 of 8) | Bibliographic + French abstract + classifications |
+| 16 | search | "Universidade de Brasilia cigarette butts patent INPI 2003 number PI030 process cellulose pulp Teixeira" | 5 results incl. **UnB CDT page with PI 0305004-1, filing 2003-10-06, grant 2014-11-11**; Teixeira DOI; review text |
+| 17 | fetch | `https://patents.google.com/patent/FR3110470A1/en` (chunk 2 of 8) | **Keenat claimed process read**: separate → dry/depollute 80–100 °C → grind → extruder compound 10–30 % filters |
+| 18 | fetch | `https://www.re-cig.it/en/tecnologia/` | Full 4-step company process read incl. external wastewater purification |
+| 19 | search | "Code Effort patent cigarette butt recycling patent filed India Naman Gupta intellectual property" | 3 results, **no patent located**; company certification claim |
+| 20 | search | "Fimognari Bonetti Re-Cig patent WO2019 cigarette butt thermoplastic University Trento patent number" | 3 results, **no Re-Cig patent number located**; surfaced unrelated BE1027956B1 |
 
-Note on #20: two planned searches were combined in #13; the unused call remains in reserve. No query was repeated merely to inflate effort.
+No query was repeated merely to inflate effort. Two planned searches were combined into #14 in the planning note; the invocation log above counts what was actually executed (20).
 
 ---
 

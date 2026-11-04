@@ -22,6 +22,8 @@ Label discipline: `parameter-not-yet-located` (not found in material examined; a
 
 ## 2. Calculation register (reproducible arithmetic)
 
+Five calculations are used in this batch: K-01…K-05. K-06 is retained as a withdrawn row to record that no Code Effort split was calculated; it is **not** counted as a calculation (v1.0 described six; see errata E-13).
+
 | ID | Calculation | Inputs | Result | Unit |
 |---|---|---|---|---|
 | K-01 | MéGo! per-1,000-butt split | 1 kg ≈ 2,000 butts; 80/12/8 % | 0.40 kg CA / 0.06 kg other / 0.04 kg sludge per 1,000 butts | mass |
@@ -29,7 +31,7 @@ Label discipline: `parameter-not-yet-located` (not found in material examined; a
 | K-03 | Re-Cig polymer yield | 6.00/15.50 and 2.39/6.12 | 38.7 % and 39.1 % | % of collected mass |
 | K-04 | Keenat composite dilution | 10–30 % filter in composite | 100–300 kg filter per tonne composite; 700–900 kg thermoplastic | mass |
 | K-05 | UnB patent term end | filing 2003-10-06 + 20 y | 2023-10-06 | date |
-| K-06 | Code Effort tobaccco/paper mass? | — | **not calculated**: no defensible split | — |
+| K-06 | Code Effort fibre/paper/tobacco mass split | — | **withdrawn — not a calculation** (no defensible split in the sources) | — |
 
 All calculations are arithmetic on stated inputs. None is a measurement, and none should be cited as a process yield except K-03, which is explicitly the company's own accounting.
 
@@ -39,7 +41,7 @@ All calculations are arithmetic on stated inputs. None is a measurement, and non
 
 | ID | Conflict | Position 1 | Position 2 | Handling rule |
 |---|---|---|---|---|
-| C-01 | Keenat treatment temperature | Patent: dry/depollute at 80–100 °C, then extruder compounding | Company/press: "successive heatings ~200 °C destroying nicotine, phenol, pesticides" | Keep both; test what each temperature can physically do; never state "80–200 °C" |
+| C-01 | Keenat treatment temperature | Patent: dry/depollute at 80–100 °C **for step b only**, then extruder compounding (profile not disclosed) | Company/press: "successive heatings ~200 °C destroying nicotine, phenol, pesticides" | Keep both; do not apply the drying temperature to the extrusion stage; test what each step can physically do; never state "80–200 °C" |
 | C-02 | TchaoMegot pressure | Patent preferred 280–320 bar (range 50–350; generic 0–2000) | Press quote ~50/60 bar at ~30 °C | Keep both. Note that 50–60 bar is below the CO2 critical pressure (73.85 bar) and ~30 °C is below the critical temperature (31 °C), so that quote describes subcritical/dense CO2, not supercritical CO2 — unless the quote is erroneous or refers to another stream |
 | C-03 | TerraCycle sanitisation | Earlier project draft: "shred + sanitize; sanitisation chemistry trade secret" | Official 3-step PDF: collection → compost + powder → lumber; no sanitisation step | Do not assert sanitisation; treat earlier text as unresolved legacy |
 | C-04 | MéGo! butts per kg | 2,000/kg (2017) | 4,000/kg (2018) | Per-tonne figures unaffected; per-1,000-butt figures carry a factor-2 range |

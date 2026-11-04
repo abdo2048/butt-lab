@@ -1,4 +1,4 @@
-# Stage 3 common question — batch-01, round 01 (packet v1.0)
+# Stage 3 common question — batch-01, round 01 (packet v1.1)
 
 You are one worker in a three-worker red-team panel. You receive **only this packet**. You do not receive other workers' reports, the judge's report, or any prior panel output. Work independently.
 
@@ -29,9 +29,9 @@ For **every consequential claim** you examine — mechanism claim, yield/recover
 
 Then answer the integration sub-questions:
 
-- **Q1 Product class.** F0/F1/F3/F4 aim at recovered acetate; F2 encapsulates butts in thermoplastic; F5 converts acetate to cellulose/paper. Which product classes have a coherent claim to "cleaning", and which are making a claim their chemistry cannot support?
+- **Q1 Product class.** F0/F1/F3/F4 aim at recovered acetate; F2 blends milled filters into a thermoplastic composite; F5 converts acetate to cellulose/paper. Which product classes have a coherent claim to "cleaning", and which claims are supported, unresolved or contradicted by the disclosed chemistry? Distinguish "not disclosed" from "shown to fail".
 - **Q2 Toxic fraction.** For each family, where does the toxic fraction go? Name the stream (product, wash water, dark liquor, solvent/water, off-gas, sludge, compost, lumber). Identify families with no disclosed sink.
-- **Q3 Temperature/pressure plausibility.** Does the disclosed condition physically permit the claimed effect (e.g. Keenat at 80–100 °C; TchaoMegot at the quoted 50/60 bar vs the patent's 280–320 bar)? Show the reasoning, not a slogan.
+- **Q3 Temperature/pressure plausibility.** Assess whether the disclosed conditions are consistent with the claimed effect, stating your assumptions about step boundaries (e.g. a drying step versus a later extrusion stage; a press quote versus a patent envelope; a generic range versus an operating setpoint). Examples to test: Keenat's 80–100 °C step; TchaoMegot's quoted 50/60 bar versus the patent's 280–320 bar. Do not treat incomplete disclosure as proof of physical impossibility. Show the reasoning, not a slogan.
 - **Q4 The comparison that matters.** If you had to choose **one** discriminating measurement across the whole batch — not one per family — what would it be, and why does it discriminate between families rather than just validate one?
 - **Q5 What would change your mind?** State the evidence that would move your verdict on the family you consider strongest and the one you consider weakest.
 
@@ -50,5 +50,6 @@ You may use your own web tools to check a specific source. Mark clearly what was
 - Do not provide operating instructions for pressure vessels, solvent distillation, caustic pulping or hazardous-waste processing. Discuss equipment as an engineering/permitting question.
 - Do not declare a material or product safe. Do not treat odour, appearance, transparency, FTIR identity or a certificate logo as detoxification evidence.
 - Do not assume consensus is required. If your evidence contradicts the packet's framing, say so and explain.
+- This packet records hypotheses, attributed company claims and prior same-author readings, not verdicts. Distinguish **"not disclosed"** from **"shown to fail"**; incomplete reporting is not proof of physical impossibility.
 - Preserve uncertainty; a short, evidence-anchored report is better than a long, confident one.
 - Complete only your assigned slot. Do not attempt to write the other slots or the judge's synthesis.

@@ -28,3 +28,18 @@ State: Stage 1 complete_scoped; Stage 2 complete_scoped; Stage 3 awaiting_manual
 Next eligible work: operator attaches the frozen packet to three separate sessions, runs PANEL stage=3 slots A/B/C, then JUDGE, then IMPORT, then records actual acceptance or a bounded revision (max two rounds). Registry version proposals await separate host approval and a validator run.
 
 Persistence: packet v1.0 frozen in commit 0c0b6f2ff900a1866a0ed456c87e78661fa2f4ea on branch arena/68dd04e3-butt-lab. This records a repository commit; it is not scientific acceptance and not experimental validation.
+
+## 2026-11-04: bounded packet-QC pass — v1.0 withdrawn, v1.1 frozen, Stage 3 still awaiting_manual
+Branch: arena/c998d19c-butt-lab (from main 5f71baab). Actor: same AUTO worker as v1.0; this is self-correction after external review (review supplied 2026-11-04), not independent re-verification. Retrieval calls this pass: 0 (no new harvesting).
+
+Basis: external readiness review of snapshot 5f71baab / head dd4bc6c / frozen v1.0 content 0c0b6f2, plus reviewer reply. Review's own limits recorded: 3 of 18 content hashes recomputed; Keenat patent not independently fetched.
+
+Corrections (full table in reports/stage2/errata-packet-v1.0.md, E-01..E-18):
+- E-01/E-02 provenance: reconstruction-index no longer credits the reused CN106928486 spec with the granted B-claim 75-95 C / 2-4 h distinction; that distinction lives in reports/gap-check-01.md, which is now in the packet. Re-reading is explicitly not re-verification.
+- E-03..E-10 framing: UnB described as deacetylation (chain depolymerisation not established); "most concentrated effluent" superlative withdrawn; Keenat's boiling-point argument replaced with residence-time/atmosphere reasoning and element-specific volatility; 80-100 C confined to step b; TerraCycle "no cleaning disclosed" not "no cleaning occurs"; CNR "cleanest" and Re-Cig "most honest" rankings withdrawn; SC-CO2 no longer called "non-thermal".
+- E-11/E-16 metadata: manifest now separates repo_baseline_commit, v1_0_content_commit and content_commit; ellipsized URLs expanded; Matteri deferral rests on thin disclosure, not withdrawn status; inherited family groupings and secondary cautionary notes labelled as such.
+- E-12..E-15 counting: 20-row invocation log (chunk fetches and failed fetch counted); five calculations K-01..K-05 with K-06 marked withdrawn; 7 evidence files + 4 control files; peer-reviewed/patent/offering source types separated.
+
+Packet v1.1: packets/batch-01/stage-3/{question.md, evidence-index.md, output-schema.md, manifest.yaml, LAUNCH.md}. 20 files listed and hashed (SHA-256 verified 20/20 at freeze). v1.0 preserved at 0c0b6f2 and explicitly excluded from launch. LAUNCH.md states the full bundle (control files alone are insufficient) and the fixed PANEL/JUDGE/IMPORT commands.
+
+State: Stage 1 complete_scoped; Stage 2 complete_scoped; Stage 3 awaiting_manual, packet v1.1, A/B/C pending, judge waiting, operator acceptance false, revision rounds 0 (this was pre-launch QC, not a panel revision). No registry, backup, prior scientific file, code or test was modified. No panel, judge or acceptance was run. Nothing here is experimental validation or a safety/legal opinion.

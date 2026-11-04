@@ -16,14 +16,14 @@ Date: 2026-11-03. Stage 2 / unit S2-02 (spec v1.0). Desk reconstruction of publi
 
 Butts are separated into a filter fraction and a tobacco/paper fraction. The filter fraction is dried and heated at 80–100 °C ("drying and depolluting"). It is then ground and compounded in an extruder together with a thermoplastic polymer. The output is a composite granulate containing 10–30 % recycled cigarette filters and 70–90 % thermoplastic, intended for non-food articles such as furniture, pipes, legs, ashtrays, communication supports and panels.
 
-This is **not** a polymer-purification process. The acetate is not dissolved, precipitated or washed in the read disclosure; it becomes a filler/blend component inside a thermoplastic matrix.
+This is **not** a polymer-purification process. The acetate is not dissolved, precipitated or washed in the read disclosure; it becomes a filler/blend component inside a thermoplastic matrix. The 80–100 °C figure applies to step b (drying/depollution) only; the extruder temperature profile is not disclosed in the read text and must not be inferred from it.
 
 ## 3. Disclosed steps (source-reported; not instructions)
 
 | # | Operation | Disclosure (translated summary) | Seen in | Missing |
 |---|---|---|---|---|
 | a | Separate | Separate filters into fraction F1 and tobacco/paper into fraction F2 from a mixture of butts | Description | Separation method (sieve, air, manual), moisture, efficiency |
-| b | Dry + "depollute" | Heat F1 at **80–100 °C** | Description | Residence time, atmosphere, airflow, pressure, what is removed |
+| b | Dry + "depollute" | Heat F1 at **80–100 °C** (step b only; not the extrusion profile) | Description | Residence time, atmosphere, airflow, pressure, what is removed |
 | c | Grind | Grind dried, "depolluted" F1 | Description | Particle size, mill energy |
 | d | Compound | Mix and simultaneously "depollute" in an extruder with ≥1 thermoplastic → composite | Description | Extruder profile, screw speed, feed ratio control, venting, fume capture |
 | e | Pelletise | Composite preferably in granulate form | Description | Pellet size, cooling |
@@ -42,7 +42,7 @@ Company layer adds: mechanical separation; "dry" depollution with no liquid disc
 
 ### Physicochemical plausibility (hypothesis, not a source claim)
 
-`[HYPOTHESIS]` At 80–100 °C and atmospheric pressure, thermal *destruction* of nicotine (boiling point ≈ 247 °C), PAHs or metals is not plausible. What such a step can do is evaporate water and some volatile organics, and possibly strip nicotine with the water vapour. Metals are non-volatile and cannot be removed by heating alone. Therefore:
+`[HYPOTHESIS]` At 80–100 °C and atmospheric pressure, the plausible effect of step b is **drying and partial volatilisation**, not thermal destruction. Boiling point is not a decomposition-kinetics argument: whether nicotine, PAHs or other organics are destroyed depends on temperature, residence time, oxygen and catalysis, which the read text does not specify. Metal behaviour also varies by element and species (mercury and some arsenic species can volatilise; Cd/Pb are far less volatile), so "metals are non-volatile" is too broad. The testable statement is therefore:
 - "Depollution at 80–100 °C" is more consistent with **drying plus partial volatilisation** than with destruction of the toxic load.
 - If the step is genuine detoxification, the removed substances must leave in an air stream — which creates an off-gas treatment requirement that the read text does not describe.
 - The Korean paving-stone case is the direct precedent: heat treatment plus encapsulation did not prevent carcinogens being found in the finished product.

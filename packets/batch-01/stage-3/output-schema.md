@@ -1,4 +1,4 @@
-# Stage 3 output schema (packet v1.0)
+# Stage 3 output schema (packet v1.1)
 
 Every worker report must begin with the header below and then follow the body structure. Plain Markdown. No rewriting of the packet; no edits to shared state; no judge content.
 
@@ -9,8 +9,8 @@ batch: batch-01
 stage: 3
 round: "01"
 slot: A            # your assigned slot only
-packet_version: "v1.0"
-packet_commit: "<commit recorded in manifest.yaml>"
+packet_version: "v1.1"
+packet_commit: "<content commit from COMMIT.txt / manifest content_commit — NOT base_commit>"
 date: "<YYYY-MM-DD>"
 service: "<service/interface used>"
 displayed_model: "<model shown, or unknown>"
@@ -18,6 +18,8 @@ sources_supplied: true
 sources_fetched_by_worker: ["<URLs, or none>"]
 identity_limits: "<same-author, hidden-model, fallback, or other limitation you know of>"
 ```
+
+**Commit semantics.** `packet_commit` is the commit that contains the frozen v1.1 files, recorded in `packets/batch-01/stage-3/COMMIT.txt` and in the manifest's `content_commit`. The manifest's `repo_baseline_commit` is the earlier commit the work was built on; it does **not** contain these files. Do not use it to retrieve the packet.
 
 ## 2. Body sections
 
