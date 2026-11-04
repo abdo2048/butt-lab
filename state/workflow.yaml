@@ -44,8 +44,8 @@ checkpoint:
   qc_pass: >-
     v1.1 is a bounded packet-QC correction pass after external review; no new harvest,
     no registry edits, no panel execution. See reports/stage2/errata-packet-v1.0.md.
-  packet_commit: pending-v1.1-content-commit (see packets/batch-01/stage-3/COMMIT.txt)
-  packet_commit_note: v1.1 content commit recorded after freeze; all 20 hashes verified at freeze time
+  packet_commit: 5f484b585ca16dbd2ce93b56c61c962f5f14c774
+  packet_commit_note: v1.1 content commit; all 20 manifest hashes verified at freeze; see packets/batch-01/stage-3/COMMIT.txt
 legacy:
   preserved_queue: state/work-queue.yaml
   preserved_tracker: state/progress.md
