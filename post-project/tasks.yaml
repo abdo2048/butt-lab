@@ -1,0 +1,19 @@
+version: 1
+updated: '2026-11-04'
+phase: post-project-presentation
+not_a_research_gate: true
+tasks:
+  - id: P01
+    title: Final research reading dashboard / website
+    status: deferred
+    preferred_stack: Quartz with GitHub Pages, subject to implementation review
+    brief: post-project/dashboard-spec.md
+    prerequisites:
+      - Stage 5 desk_complete with final research files saved
+      - Operator authorizes the post-project implementation session
+    next_action: Read the brief and propose a publication allowlist, sitemap and private preview
+    checkpoints:
+      completed: []
+      remaining: Planning, implementation, acceptance and separately approved deployment
+    publication_approval: not_granted
+    safety: Do not publish the whole repo or interpret desk completion as process validation

@@ -10,3 +10,6 @@ AUTO: continue unfinished Stage 1 units into Stage 2 until its manual gate or a 
 Checkpoint/read back after every unit and before interruption. On resume compare state to actual outputs; continue partial work, do not redo it because the model changed. Save via an approved patch/commit or return a handoff bundle; unsaved chat narration is not persisted state.
 
 Explicit panel commands: PANEL stage=3 slot=A (B/C), JUDGE stage=3, IMPORT stage=3; likewise stage=4. These execute only the assigned contribution, not AUTO. Fixed full commands and acceptance rules are in FUSION_PROTOCOL.md. One AUTO writer at a time.
+
+## After the research project
+When Stage 5 is desk_complete, surface the deferred presentation task in post-project/tasks.yaml and read post-project/dashboard-spec.md. It is not a sixth research gate and must never delay or restart Stages 1-5. Record that a reader/dashboard remains planned, not built. Implementation needs a separately authorized post-project session; public deployment additionally requires an explicit content/privacy and hosting approval. On later resume use that saved brief rather than asking the operator to invent another prompt.
