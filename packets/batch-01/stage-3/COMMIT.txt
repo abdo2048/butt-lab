@@ -1,0 +1,13 @@
+batch: batch-01
+stage: 3
+round: "01"
+packet_version: v1.1
+content_commit: 5f484b585ca16dbd2ce93b56c61c962f5f14c774
+recorded: 2026-11-04
+superseded_packet: v1.0
+superseded_content_commit: 0c0b6f2ff900a1866a0ed456c87e78661fa2f4ea
+
+The 20 files listed in manifest.yaml match their SHA-256 hashes at content_commit.
+Commits after content_commit only update state/session log and this file; they do not
+change packet content. Use content_commit — not repo_baseline_commit — to retrieve the
+packet. v1.0 is withdrawn and must not be launched.

@@ -16,7 +16,9 @@ Label key: `[VERIFIED-SOURCE: URL]` = the cited source directly states it (compa
 | Companies with a located patent family | 6 | TchaoMegot, Keenat, MéGo!, Re-Cig (family stated, number not located), CNR (offering, number not on page), Cerdia; plus patent-only actors below |
 | Companies with **no** patent located in this search | 3 | Code Effort, TerraCycle, BuffIndia (absence is search-scoped, not proof none exists) |
 | Patent-only / non-operating sources mapped | 10 | Miniwiz US10980272B2, Matteri EP2520184A1, Burich US7560059B2, US20140287144A1, US5504119A, CN106928486A/B, CN111822484A, CN111118670A, KR20160005298A, Kalabak WO2020231362A1 |
-| Peer-reviewed / academic source families mapped | 7 | De Fenzo 2020 (water/ethanol), Teixeira 2017 (alkaline pulping), CN106928486 (acid dissolution), CNR acetone route, acetic-acid 2025 route, CA membranes, RMIT construction materials |
+| Peer-reviewed source families mapped | 4 | De Fenzo 2020 (water/ethanol), Teixeira 2017 (alkaline pulping; full text not read), 2025 acetic-acid route, CA-membrane papers — the last two are unread leads |
+| Patent / technology-offering families mapped | 2 | CN106928486 (patent, not peer-reviewed) and the CNR/AzzeroCO2 offering (not peer-reviewed). These were miscounted as "academic" in v1.0 (errata E-15) |
+| Construction-material leads (not read) | 3 | RMIT bricks, asphalt, concrete — press/registry citations only; full papers not obtained |
 | Operators with explicit disclosed mass split or yield | 3 | MéGo! (company split), Re-Cig (kg in → kg polymer), TchaoMegot (99.7/0.3 company claim) |
 | Operators with independent third-party contaminant assay located | 0 | Not located for any operator in this pass |
 
@@ -53,7 +55,7 @@ Construction/energy uses (bricks, asphalt, concrete, carbonisation, pyrolysis, s
 
 ### 4.1 Code Effort Pvt Ltd (India) — collector + processor, **no patent located**
 
-- Identity/location: Noida (Sector 134 / Nagli village), Uttar Pradesh; founded 2018 by Naman and Vipul Gupta. `[VERIFIED-SOURCE: https://codeefforts.com/; https://thebetterindia.com/404094/...]`
+- Identity/location: Noida (Sector 134 / Nagli village), Uttar Pradesh; founded 2018 by Naman and Vipul Gupta. `[VERIFIED-SOURCE: https://codeefforts.com/; https://thebetterindia.com/404094/code-effort-recycling-cigarette-butts-into-sustainable-products-plush-toys-creating-jobs/]`
 - Collection: own "V bins" at cigarette shops, offices, smoking areas; network of ragpickers and contractors; company claims 200–300 collection centres, 2,000+ ragpickers across 130–250 districts, 300,000+ bins, and payment of INR 200–400/kg (one source: INR 500–800/kg). `[VERIFIED-SOURCE: TOI 2022-11-13; The Better India 2025-02-08; unstop.com 2022-06-22]`
 - Disclosed process (news-reported, company description):
   1. Stubs cut/shredded into small pieces — "less than 30 seconds for each batch". `[VERIFIED-SOURCE: The Better India 2025-02-08]`

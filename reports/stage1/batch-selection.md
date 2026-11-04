@@ -72,10 +72,12 @@ Each lead is either traceable to a recorded URL/section or explicitly marked ina
 
 ## 4. Deliberate exclusions and their reasons
 
+Patent status is metadata in this selection: active, expired, abandoned and withdrawn documents were all eligible. No route was excluded because of its legal status (errata E-17).
+
 | Excluded from batch-01 | Reason | Residual value |
 |---|---|---|
 | Miniwiz apparatus (US10980272B2) | No chemical cleaning/detoxification disclosed; it is a separation front-end, not a cleaning process | Cited in S2-01 as a possible pre-treatment option |
-| Matteri EP2520184A1 | Withdrawn application; thin disclosure (two steps; 5 % NaOCl claim) | Cited as a chemical-wash data point and a legal-status example |
+| Matteri EP2520184A1 | Thin disclosure (two steps; 5 % NaOCl claim; no numeric conditions). Deferral is on evidence thinness, **not** on the withdrawn status, which is metadata only | Cited as a chemical-wash data point; status is recorded, never used as a selection filter |
 | Construction-material routes (bricks, asphalt, concrete) | Product class is construction; detoxification is by encapsulation, which the Korean paving-stone failure directly undermines; no full-text read this pass | Retained as failure/benchmark evidence for Stage 3, not as a reconstruction unit |
 | Pyrolysis/carbonisation/supercapacitors | Product class is energy/carbon materials; different exposure pathway and assay set | Deferred family; flagged in H02 |
 | Microbial composting (KR) | Only patent abstract/news; no quantitative public process | Deferred; would need a non-English register search |

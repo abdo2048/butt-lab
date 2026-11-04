@@ -49,7 +49,7 @@ Scope: Code Effort, TerraCycle, BuffIndia, Re-Cig, CNR/AzzeroCO2, Cerdia, with M
 
 **What is absent:** no sanitisation or washing step in this PDF; no chemical names; no temperatures; no mass balance; no location or partner named; no assay data. The earlier project claim of a "shred + sanitize" trade secret is **not** corroborated by this document and remains `UNRESOLVED`.
 
-**Why it matters:** TerraCycle is the best-known collector brand, and its public process is essentially **drying + powdering + downcycling into lumber**, i.e. encapsulation, not detoxification. This is the same product logic that the Korean paving-stone programme used and that Keenat's LCA rejected. It is a legitimate comparator but a weak detoxification claim.
+**Why it matters:** TerraCycle is the best-known collector brand, and its public outline is **drying + powdering + use as a filler in recycled plastic lumber**. In that product the fibre is encapsulated in a matrix rather than purified. The outline does **not disclose a cleaning step**; that is not proof that none occurs elsewhere, only that it is not public. Detoxification is therefore unproven, not disproven. The Korean paving-stone programme (secondary reporting) and Keenat's own negative LCA are relevant comparators for the product logic, not verdicts on it.
 
 **Falsifiers:** compost and lumber contaminant/leachate data; the identity of the processing partner; any permit or End-of-Waste determination.
 
@@ -77,7 +77,7 @@ Scope: Code Effort, TerraCycle, BuffIndia, Re-Cig, CNR/AzzeroCO2, Cerdia, with M
 
 **Mass balance (company, university cases):** 15.50 kg butts → 6.00 kg polymer; 6.12 kg → 2.39 kg. `[CALCULATION]` ≈ 38.7 % and 39.1 % polymer yield on collected mass. No moisture, reject or wastewater load is given, so the yield denominator is not a dry-mass basis.
 
-**Why it matters:** it is the most transparent industrial water-wash disclosure in the batch, because it admits an **external wastewater stream** rather than claiming a closed loop. That makes it the honest comparator for MéGo!'s closed-loop claim. The ~39 % yield is the only operator mass balance in the batch and should be used as an attributed figure, not as a literature constant.
+**Why it matters:** it is the only operator in this batch that explicitly discloses an **external wastewater stream**. Whether the treated water returns to the process is not stated on the page, so "external treatment" is not by itself proof of either an open or a closed loop. It is a useful comparator for MéGo!'s closed-loop claim precisely because the boundary is named, not because one company is more candid (v1.0's "most transparent/honest" wording is withdrawn; errata E-09). The ~39 % figure is company accounting, not a dry-basis yield or purity, and should be used as an attributed figure.
 
 **Falsifiers:** patent text (number not located); polymer purity and residual contaminant data; the certified partner's effluent data; End-of-Waste criteria.
 
@@ -90,7 +90,7 @@ Scope: Code Effort, TerraCycle, BuffIndia, Re-Cig, CNR/AzzeroCO2, Cerdia, with M
 
 Claims: no prior separation/pre-treatment; "clean" CA because pollutants remain in the acetone/water mixture; simple, cheap, low environmental impact; TRL 5 self-assessed; applications frames, masks, shields, strings.
 
-**Why it matters:** chemically this is the cleanest separation concept in the batch — dissolution should reject insoluble paper/ash and leave organics in the solvent. The questions are engineering: acetone is flammable and volatile; water antisolvent creates a large dilute acetone/water stream; boiling to recover acetone consumes energy; nicotine and metals concentrate in the aqueous phase and need a hazardous-waste route. "Low environmental impact" is a claim, not an LCA.
+**Why it matters:** this is a **testable separation hypothesis**: dissolution should reject insoluble paper/ash and leave organics in the solvent, while the polymer is recovered by antisolvent precipitation. Contaminant rejection, CA purity and residual solvent are **not established here**, so v1.0's "chemically cleanest" ranking is withdrawn (errata E-08). The open questions are engineering: acetone is flammable and volatile; the water antisolvent creates a large dilute acetone/water stream; boiling to recover acetone consumes energy; nicotine and metals concentrate in the aqueous phase and need a hazardous-waste route. "Low environmental impact" is a claim, not an LCA.
 
 **Falsifiers:** residual acetone in product; CA molecular weight/purity; energy for acetone recovery; wastewater nicotine/metals load and disposal cost; whether the offering and the CNR mask patent are one family.
 
@@ -110,7 +110,7 @@ Claims: no prior separation/pre-treatment; "clean" CA because pollutants remain 
 
 1. **Three product logics, not one.** (i) Recover CA and re-melt (MéGo!, Re-Cig, CNR, Cerdia); (ii) destroy CA to cellulose/paper (UnB/Poiato, BuffIndia reported, Code Effort paper); (iii) use butts as filler and encapsulate (Keenat patent, TerraCycle lumber, construction materials). They have different exposure pathways and cannot be ranked on one "cleanliness" number.
 2. **The toxic fraction needs a sink.** Every route produces a concentrate: wash water, dark liquor, solvent/water, off-gas, sludge. No operator in this batch publishes quantitative data for that stream. A route whose concentrate has no lawful disposal route is incomplete regardless of product purity.
-3. **Closed-loop claims need boundaries.** MéGo! and TchaoMegot claim closed loops; Re-Cig openly uses an external treatment partner. At least one of these claims is likely loose about purge/bleed. This is a discriminating question, not an accusation.
+3. **Closed-loop claims need boundaries.** MéGo! and TchaoMegot claim closed loops; Re-Cig discloses an external treatment partner. These claims use different boundaries (water, solvent, CO2, sorbent, concentrate) and cannot all mean the same thing. The discriminating question is where the purge/bleed and the contaminant sink sit — not whether any operator is exaggerating.
 4. **Mass balances are mostly absent.** Only Re-Cig (~39 % polymer) and MéGo! (80/12/8 company split) publish anything usable, and neither is a dry-mass balance.
 5. **Certification language ≠ assay.** "ISO", "End of Waste", "REACh", "INERIS", "medical-grade" are process/administrative signals. They do not state which analytes were measured at what limit in the product.
 

@@ -17,7 +17,7 @@ Date: 2026-11-03. Stage 2 / unit S2-05 (spec v1.0). Desk reconstruction of publi
 
 The filter is not kept as a polymer. Under hot alkaline (or acid) conditions the acetate groups are hydrolysed off, converting cellulose acetate into cellulose; lignin and other tobacco residues are dissolved or separated; the remaining paper is disaggregated. The result is a cellulose pulp plus a dark liquor carrying lignin, metals, nicotine and nitrosamines. The pulp is washed and used for paper. The dark liquor can be acidified (HCl) to precipitate part of the load and the liquid returned to pulping.
 
-This is a **deacetylation/depolymerisation** route: the product is cellulose pulp, not recovered cellulose acetate. Its economics and material value are therefore different from S2-01/S2-03.
+This is a **deacetylation** route: acetate groups are hydrolysed and the product is cellulose pulp, not recovered cellulose acetate. The sources read describe acetate-group hydrolysis; they do **not** establish polymer-chain depolymerisation, so this reconstruction does not claim it. Its economics and material value are therefore different from S2-01/S2-03.
 
 ## 3. Disclosed steps (source-reported; not instructions)
 
@@ -94,7 +94,7 @@ The central unresolved issue is the effluent. A secondary review states that the
 
 ## 9. Engineering interpretation (hypothesis)
 
-This route answers the "what do you do with the plastic" question by destroying the acetate and making cellulose. Advantages: no organic solvent, potentially lower chemical cost, product fits an existing pulp/paper market, and the patent is likely expired by term. Disadvantages: it destroys the higher-value acetate; it consumes caustic and acid; and it creates the most concentrated liquid effluent in the batch, containing exactly the contaminants of concern.
+This route answers the "what do you do with the plastic" question by converting the acetate to cellulose. Advantages: no organic solvent, potentially lower chemical cost, product fits an existing pulp/paper market, and the patent is likely expired by term. Disadvantages: it converts the higher-value acetate; it consumes caustic and acid; and it produces a dark, contaminant-bearing liquor. The relative concentration/load of that liquor compared with other routes in this batch is **not measured here**; v1.0's "most concentrated" wording was withdrawn (errata E-04).
 
 The decisive question is not pulp yield but **effluent and product cleanliness**: can the dark liquor be treated to a lawful discharge standard at a cost below the pulp value, and is the paper free of nicotine/TSNA/metals at the intended exposure?
 

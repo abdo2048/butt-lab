@@ -1,6 +1,8 @@
 # Stage 2 — Reconstruction index (batch-01)
 
-Date: 2026-11-03. Actor: single AUTO Deep-dive. Baseline: `fda66af351a37d38287792ed3b578a258eedf7fc`. Status: `complete_scoped` for the six selected units. This index is the map of what has been reconstructed, to what depth, and with which limits. It is not a claim that the processes work.
+Date: 2026-11-03; corrected in the v1.1 packet-QC pass (same day, branch `arena/c998d19c-butt-lab`). Actor: single AUTO Deep-dive. Baseline: `fda66af351a37d38287792ed3b578a258eedf7fc`. Status: `complete_scoped` for the six selected units. This index is the map of what has been reconstructed, to what depth, and with which limits. It is not a claim that the processes work.
+
+Correction note: v1.0 of this index overstated what the reused Chinese spec establishes and miscounted files (see `reports/stage2/errata-packet-v1.0.md`, E-01 and E-14). Those statements are corrected below. Re-reading a prior note is **not** independent source re-verification.
 
 ## 1. Units and files
 
@@ -19,17 +21,17 @@ Date: 2026-11-03. Actor: single AUTO Deep-dive. Baseline: `fda66af351a37d3828779
 
 - **S2-00** gives the only peer-reviewed material-characterisation baseline and the evidence that a transparent film is not proof of cleanliness.
 - **S2-01** is the deployed mainstream: water washing + mechanical separation, with four operator variants and one published mass split (MéGo!) plus one published polymer yield (Re-Cig, ~39 %).
-- **S2-02** is the "heat and encapsulate" family, with the strongest documented commercial retreat and a direct link to the Korean paving-stone failure.
+- **S2-02** is the dry-heat + composite family, with a documented commercial retreat and a secondary failure comparator (Korean paving stones). The comparator is evidence to weigh, not a verdict on the family.
 - **S2-03** is the polymer-recovery family, where dissolution/precipitation should reject insoluble matter but can co-precipitate contaminants.
-- **S2-04** is the only non-aqueous, non-thermal route, with a recycled dense fluid and a concentrate stream.
-- **S2-05** destroys the acetate to cellulose and creates the most concentrated liquid effluent.
+- **S2-04** is the only non-aqueous dense-fluid route. It is not "non-thermal": CO2 conditioning and extraction temperature still matter; what is absent is a water/solvent wash.
+- **S2-05** converts acetate to cellulose through deacetylation and produces a dark, contaminant-bearing liquor. Its relative effluent load is not measured in this batch; v1.0's "most concentrated" wording is withdrawn (E-04).
 
 ## 3. Re-verification notes on reused specs (no edits made)
 
-Per the charter's read-only rule for prior scientific outputs, the three existing specs were **re-read but not modified**. Re-verification against the evidence notes and the current source pages found:
+Per the charter's read-only rule for prior scientific outputs, the three existing specs were **re-read but not modified**. This is a consistency check against the evidence notes and the cited sections, **not** an independent re-verification of the sources (no register, PDF or third-party check was performed in this pass).
 
 - `specs/de-fenzo-2020-source-reconstruction.md`: consistent with `dossier/evidence/defenzo-2020-materials.md` and the paper sections cited; correctly separates the washing sequence from the acetone film-casting step; correctly refuses to convert the atomic-absorption detection limit into a product limit. No correction required for this stage.
-- `specs/cn106928486-source-reconstruction.md`: correctly distinguishes description ranges from granted-claim wording (75–95 °C, 2–4 h), keeps the five embodiments separate, and flags the 92 % recovery denominator as unresolved. No correction required.
+- `specs/cn106928486-source-reconstruction.md`: records the description range (room temperature to 95 °C; 0.25–4 h) and claim 1's 2–4 h wording, keeps the five embodiments separate, flags the 92 % recovery denominator, and **states in its own §1 that the granted B version's claims and legal scope were not reviewed**. The separate 75–95 °C / 2–4 h granted-claim distinction is documented in `reports/gap-check-01.md` (added to the v1.1 packet), not in this spec. v1.0 wrongly credited the spec with that correction (E-01); no source re-verification was performed here.
 - `specs/pressurized-fluid-reference.md`: correctly refuses to treat the generic pressure envelope as a validated optimum and keeps the press-quote contradiction open. No correction required.
 
 Residual issue carried forward: all three are same-author drafts without independent technical review; no model/chemist sign-off exists. Stage 3 is the first independent panel.
@@ -38,11 +40,11 @@ Residual issue carried forward: all three are same-author drafts without indepen
 
 | Gate requirement | Status | Evidence |
 |---|---|---|
-| Selected batch addressed | Yes — 6 units, 4 files (3 reused + 3 new specs + 1 dossier) | §1 |
+| Selected batch addressed | Yes — 6 units, 7 evidence files (3 reused specs + 3 new specs + 1 company dossier), plus 4 packet-control files | §1 |
 | Inherited conflicts/unknowns carried explicitly | Yes | `reports/stage2/assumption-and-gap-ledger.md` §3–§4 |
 | Waste/safety questions retained | Yes | Each spec §6–§7; dossier §8.2 |
 | Common panel question/schema | Yes | `packets/batch-01/stage-3/question.md`, `output-schema.md` |
-| Packet ready and frozen | Yes (draft frozen at this commit; hashes in manifest) | `packets/batch-01/stage-3/manifest.yaml` |
+| Packet ready and frozen | Yes — v1.1 supersedes v1.0; hashes recomputed; content commit recorded after freeze | `packets/batch-01/stage-3/manifest.yaml`, `COMMIT.txt` |
 
 ## 5. Explicit non-claims
 
