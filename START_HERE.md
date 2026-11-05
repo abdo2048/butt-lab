@@ -13,3 +13,6 @@ Explicit panel commands: PANEL stage=3 slot=A (B/C), JUDGE stage=3, IMPORT stage
 
 ## After the research project
 When Stage 5 is desk_complete, surface the deferred presentation task in post-project/tasks.yaml and read post-project/dashboard-spec.md. It is not a sixth research gate and must never delay or restart Stages 1-5. Record that a reader/dashboard remains planned, not built. Implementation needs a separately authorized post-project session; public deployment additionally requires an explicit content/privacy and hosting approval. On later resume use that saved brief rather than asking the operator to invent another prompt.
+
+## Continuity and source access
+AUTO/IMPORT coordinators first read operator/PROJECT_CONTEXT.md, then reconcile actual state. PANEL workers must NOT read operator/ or peer outputs; they use only the frozen packet. JUDGE uses only explicitly approved judge inputs. PACKET_ACCESS.md gives exact paths and safer transport choices without adding scientific evidence. Model/output commits never replace the frozen input commit.
