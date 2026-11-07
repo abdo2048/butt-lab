@@ -1,21 +1,19 @@
 version: 2
-updated: '2026-11-04'
+updated: '2026-11-06'
 base_commit: fda66af351a37d38287792ed3b578a258eedf7fc
 batch: batch-01
 current_stage: 3
 execution: file-directed; host must trigger/resume; no scheduler installed
 status: awaiting_manual
-next_action: Operator launches Stage 3 slots A/B/C with the frozen packet v1.1 (20 hashed payload + 3 release-metadata files), then judge and IMPORT; AUTO must not run the panel
+next_action: Stage 3 operator acceptance recorded (accepted=true, status=complete_accepted); judge REVISE recommendation and Slot-B disagreements carried forward. Next: operator prepares and launches Stage 4 (packets/batch-01/stage-4/manifest.yaml) as bounded invention/hypothesis work; Stage 4 not started, no Stage-4 files, no commit/stage/push
 pending_manual_action: >-
-  Follow packets/batch-01/stage-3/LAUNCH.md. Attach all 23 release files (20 hashed
-  payload: 3 control + 17 evidence; plus manifest.yaml, LAUNCH.md, COMMIT.txt) with
-  paths preserved to three separate sessions and send the fixed PANEL stage=3
-  slot=A|B|C commands; then JUDGE stage=3 with the three reports to a fresh session;
-  then operator acceptance after inspecting judge.md. For chats without repository
-  access, use the self-contained instruction in LAUNCH.md §4b and attach the optional
-  protocol files only if the repository-style commands are used. Packet v1.1
-  supersedes withdrawn v1.0 (0c0b6f2). If any hashed payload file changes, bump the
-  version and recompute hashes; release-metadata changes do not change the payload.
+  Stage 3 panel import and operator acceptance complete (accepted=true,
+  status=complete_accepted). Pending manual action: prepare and launch Stage 4
+  (packets/batch-01/stage-4/manifest.yaml) as bounded invention/hypothesis work,
+  carrying the judge's REVISE recommendations and the two Slot-B contributions
+  forward. Stage 4 must not be started, no Stage-4 files created, no commit/stage/
+  push until explicit operator instruction. Packet payload commit
+  5f484b585ca16dbd2ce93b56c61c962f5f14c774 remains frozen and unmodified.
 checkpoint:
   unit: S2-batch01 + packet v1.1 QC freeze + release repair
   completed_in_this_unit:
@@ -35,10 +33,10 @@ checkpoint:
     - packets/batch-01/stage-3/LAUNCH.md
     - reports/stage2/errata-packet-v1.0.md
     - reports/gap-check-01.md
-  remaining: Stage 3 manual panel and judge; operator acceptance; Stage 4 packet after acceptance
-  last_actor: single AUTO harvester/deep-dive (Arena Agent Mode)
-  last_run: '2026-11-04'
-  retrieval_calls_used: 20
+  remaining: Stage 4 packet and panel (bounded invention/hypothesis); Stage 5 synthesis; registry version proposals await separate host approval
+  last_actor: operator acceptance (manual); prior AUTO runs recorded above
+  last_run: '2026-11-06'
+  retrieval_calls_used: 0
   retrieval_ceiling: 24
   packet_version: v1.1
   packet_path: packets/batch-01/stage-3/manifest.yaml
@@ -116,16 +114,32 @@ stages:
   3:
     role: red-team
     mode: manual-fusion
-    status: awaiting_manual
+    status: complete_accepted
     round: '01'
     packet: packets/batch-01/stage-3/manifest.yaml
     packet_version: v1.1
     slots:
-      A: {status: pending, output: panels/batch-01/stage-3/round-01/worker-a.md}
-      B: {status: pending, output: panels/batch-01/stage-3/round-01/worker-b.md}
-      C: {status: pending, output: panels/batch-01/stage-3/round-01/worker-c.md}
-    judge: {status: waiting_for_workers, output: panels/batch-01/stage-3/round-01/judge.md}
-    operator_acceptance: {accepted: false, statement: null, packet_version: null}
+      A: {status: complete, output: panels/batch-01/stage-3/round-01/worker-a.md}
+      B:
+        status: complete
+        output: panels/batch-01/stage-3/round-01/worker-b_Z-GLM5.3.md
+        contributions:
+          - panels/batch-01/stage-3/round-01/worker-b_Z-GLM5.3.md
+          - panels/batch-01/stage-3/round-01/worker-b_Tencent-Hy4.md
+      C: {status: complete, output: panels/batch-01/stage-3/round-01/worker-c.md}
+    judge: {status: complete, output: panels/batch-01/stage-3/round-01/judge.md, recommendation: REVISE}
+    operator_acceptance:
+      accepted: true
+      packet_version: v1.1
+      statement: >-
+        OPERATOR DECISION: ACCEPT STAGE 3 PANEL FOR HANDOFF, WITH REVISE RECOMMENDATION CARRIED FORWARD.
+        I accept the Stage-3 red-team panel as a completed evidence review for batch-01, round-01, packet v1.1, payload commit 5f484b585ca16dbd2ce93b56c61c962f5f14c774.
+        I do not accept any claim that a recycling family is clean, detoxified, safe, commercially validated, or environmentally superior. The panel correctly finds that no family has complete dry-mass, analyte-resolved contaminant-fate, leaching, and use-specific performance evidence.
+        I accept the judge's recommendation to REVISE the broad claims and carry its bounded revisions into the Stage-4 packet. I do not request a new Stage-3 revision round at this time.
+        I accept the two Slot-B reports as two independent contributions to the same Slot B, not as two panel roles or two votes. The judge report correctly preserved their disagreements without counting them as votes.
+        The missing hy4-citation-map.md is not a blocking issue because the Tencent report contains its own [1]-[27] reference definitions. The map remains optional local navigation material only.
+        Stage 4 may proceed only as bounded invention/hypothesis work. It must not treat any family as proven safe, clean, deployable, or environmentally beneficial. No experiment is authorized by this acceptance.
+    blocking_decisions: []
     revision_rounds_used: 0
     revision_round_limit: 2
   4:

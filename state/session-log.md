@@ -59,3 +59,45 @@ Release corrections (metadata only):
 - In-file unit headers that still say v1.0 are documented as stale labels; the v1.1 label refers to corrected content hashes, and the errata is authoritative.
 
 State: Stage 1/2 complete_scoped; Stage 3 awaiting_manual; packet v1.1 payload unchanged; A/B/C pending; judge waiting; acceptance false; revision rounds 0. No registry, backup, prior scientific file, code or test modified. No panel, judge or acceptance run.
+
+## 2026-11-06: Stage-3 panel import (operator acceptance recorded, not yet accepted)
+Actor: IMPORT clerk. No retrieval calls; no research redone; no hashed payload file changed; no commit, stage or push.
+
+Operator instruction: import stage=3 batch=batch-01 round=01; operator acceptance not yet granted.
+
+Verification performed before writing:
+- All five panel files exist, are readable, and are byte-identical to `panels/batch-01/stage-3/round-01/operator-only/report-receipt.json`: worker-a.md (ca1e05eb…, 13,398 B), worker-b_Z-GLM5.3.md (08315239…, 40,449 B), worker-b_Tencent-Hy4.md (4bd572b1…, 56,788 B), worker-c.md (0a5dc920…, 32,962 B), judge.md (462eacfd…).
+- All five cite packet v1.1 / payload commit 5f484b585ca16dbd2ce93b56c61c962f5f14c774, consistent with state and manifest. `git cat-file -t` confirms the commit exists.
+- `git status --porcelain` showed only `?? panels/` and two temporary verification scripts; no tracked file was modified before this entry.
+- Tencent report tail (lines 169-194) read in full: its own [1]-[27] reference definitions are self-contained, confirming the missing hy4-citation-map.md is non-blocking.
+- operator-only/README.md, JUDGE-PROMPT.md and report-receipt.json reviewed; they frame the two B reports as two independent contributions to one Slot B, not two roles or votes.
+
+Changes applied to state/workflow.yaml (Stage 3 block only):
+- slots.A / slots.C: pending -> complete.
+- slots.B: pending -> complete, with `output` set to the GLM report and a new `contributions` list holding both B reports (operator-required correction replacing the single "and"-valued string).
+- judge: waiting_for_workers -> complete, with `recommendation: REVISE` recorded.
+- operator_acceptance: `accepted: false` retained; `packet_version: v1.1`; `statement` set to the operator decision text verbatim (1,322 chars). accepted was NOT set true; the operator has not yet approved the final import.
+- revision_rounds_used 0, revision_round_limit 2, blocking_decisions [] unchanged.
+
+Stage 4 left untouched: status pending, slots A/B/C pending, judge waiting_for_workers, operator_acceptance accepted false. Stage 4 was not advanced and is not authorized to start.
+
+Cleanup: temporary scripts butt-lab/__verify.py and butt-lab/__verify2.py deleted.
+
+State after this entry: Stage 1/2 complete_scoped; Stage 3 awaiting_manual with panel/judge complete and operator acceptance RECORDED but accepted=false; Stage 4 pending; Stage 5 pending. No registry, backup, prior scientific file, code or test modified. No experiment authorized; this is archival import, not experimental validation or a safety/legal opinion.
+
+## 2026-11-06: Stage-3 operator acceptance granted (handoff to Stage 4)
+Actor: operator (human). No retrieval calls; no research redone; no hashed payload
+file changed; no commit, stage or push. Operator decision statement recorded verbatim
+in state/workflow.yaml stages.3.operator_acceptance.statement (1,322 chars).
+
+Applied local edits only:
+- state/workflow.yaml: stages.3.status awaiting_manual -> complete_accepted;
+  stages.3.operator_acceptance.accepted false -> true; top-level status and
+  next_action/pending_manual_action/remaining/last_actor/last_run updated to reflect
+  completed Stage-3 acceptance and the pending Stage-4 handoff; current_stage left at 3.
+- state/session-log.md: this entry appended.
+
+State after this entry: Stage 1/2 complete_scoped; Stage 3 complete_accepted with
+operator acceptance granted; Stage 4 pending (not started); Stage 5 pending. No
+experiment authorized; this is state/provenance recording, not experimental
+validation or a safety/legal opinion.
