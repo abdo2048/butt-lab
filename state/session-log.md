@@ -211,3 +211,30 @@ and the F3 minority dissent carried forward; Stage 5 pending and eligible for ho
 launch as desk synthesis. No experiment authorized; this is state/provenance
 recording and release-metadata correction, not experimental validation or a
 safety/legal opinion.
+
+## 2026-11-07: Stage-5 synthesis complete (operator review pending)
+Actor: Perplexity Deep Research session. Displayed model: not recorded; underlying
+model not verified. Retrieval calls: not recorded by the session; no external fetch
+beyond reading the online repository.
+
+Authorized inputs read: state/workflow.yaml, state/session-log.md, Stage-3 packet +
+5 panel outputs + judge, Stage-4 packet + 3 worker outputs + judge, operator-only
+working files, and the 20 Stage-3 frozen evidence files as needed.
+
+Outputs:
+- reports/final/batch-01-synthesis.md (30,805 chars)
+- reports/final/validation-and-open-questions.md (33,218 chars)
+
+Both reports preserve J-H-01 as an unvalidated judge hypothesis, F3 as minority
+dissent, the metals stop condition, and all required disclaimers (no validation, no
+safety claim, no novelty claim, no experiment authorized).
+
+State reconciliation: stages.5.status pending -> complete_scoped; current_stage 4 ->
+5; top-level next_action/pending_manual_action/checkpoint updated. Operator review of
+the two reports is the next manual action; no further stage is defined in the current
+workflow.
+
+State after this entry: Stage 1/2 complete_scoped; Stage 3 complete_accepted; Stage 4
+complete_accepted; Stage 5 complete_scoped with operator review pending. No experiment
+authorized; this is desk synthesis, not experimental validation or a safety/legal
+opinion.

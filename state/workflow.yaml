@@ -2,28 +2,24 @@ version: 2
 updated: '2026-11-07'
 base_commit: fda66af351a37d38287792ed3b578a258eedf7fc
 batch: batch-01
-current_stage: 4
+current_stage: 5
 execution: file-directed; host must trigger/resume; no scheduler installed
 status: awaiting_manual
-next_action: Stage-4 operator acceptance recorded (accepted=true, status=complete_accepted); judge REVISE recommendation, J-H-01 new hypothesis, and F3 minority dissent carried forward. Next: host launches Stage 5 (single-auto synthesizer) producing reports/final/batch-01-synthesis.md and reports/final/validation-and-open-questions.md; desk synthesis only; no experiment authorized
+next_action: Stage-5 synthesis complete (complete_scoped); operator reviews reports/final/batch-01-synthesis.md and reports/final/validation-and-open-questions.md; no further stage is defined in the current workflow; no experiment authorized
 pending_manual_action: >-
-  Stage-4 panel and judge complete, operator acceptance granted with REVISE
-  carried forward. Pending manual action: operator launches Stage 5 single-auto
-  synthesis (reports/final/batch-01-synthesis.md +
-  reports/final/validation-and-open-questions.md) from the accepted Stage-3 and
-  Stage-4 panels. Stage-5 output is desk synthesis, not validation; it must not
-  treat any family or proposal as proven safe, clean, deployable, or
-  environmentally beneficial. No experiment authorized.
+  Stage-5 desk synthesis is complete. Pending manual action: operator reviews the two
+  final reports (reports/final/batch-01-synthesis.md and
+  reports/final/validation-and-open-questions.md). No further stage is defined in the
+  current workflow; batch-01 investigation is complete pending operator review. No
+  experiment authorized.
 checkpoint:
-  unit: Stage-4 batch-01 round-01 panel reconciliation and judge synthesis
+  unit: Stage-5 batch-01 desk synthesis and validation/open-questions report
   completed_in_this_unit:
-    - panels/batch-01/stage-4/round-01/worker-a.md (existing report reconciled)
-    - panels/batch-01/stage-4/round-01/worker-b.md (existing report reconciled)
-    - panels/batch-01/stage-4/round-01/worker-c.md (existing report reconciled)
-    - panels/batch-01/stage-4/round-01/judge.md
-  remaining: Stage-5 synthesis (single-auto, eligible for launch); registry version proposals await separate host approval
-  next_action: Operator launches Stage 5 single-auto synthesis; desk synthesis only, not experimental validation
-  last_actor: Stage-4 operator acceptance (manual); judge gpt-5.6-sol; workers Nemotron 3.5 Lightning / MiniMax M3 / DeepSeek web chat (operator-reported)
+    - reports/final/batch-01-synthesis.md
+    - reports/final/validation-and-open-questions.md
+  remaining: Operator review of Stage-5 synthesis; no further stage defined in the current workflow
+  next_action: Operator reviews the Stage-5 synthesis and validation/open-questions reports; no further stage is defined
+  last_actor: Stage-5 synthesizer (Perplexity Deep Research); displayed model not recorded; underlying model not verified
   last_run: '2026-11-07'
   retrieval_calls_used: 0
   retrieval_ceiling: 24
@@ -155,7 +151,7 @@ stages:
   5:
     role: synthesizer
     mode: single-auto
-    status: pending
+    status: complete_scoped
     outputs_required:
       - reports/final/batch-01-synthesis.md
       - reports/final/validation-and-open-questions.md
