@@ -2,70 +2,50 @@ version: 2
 updated: '2026-11-07'
 base_commit: fda66af351a37d38287792ed3b578a258eedf7fc
 batch: batch-01
-current_stage: 3
+current_stage: 4
 execution: file-directed; host must trigger/resume; no scheduler installed
 status: awaiting_manual
-next_action: Stage 4 packet v1.0 committed (671de7c045385dade4b8f26c7b1680a2cc3a809c, manifest judge-hash corrected in follow-up); operator reviews the packet and launches PANEL stage=4 slots A/B/C per packets/batch-01/stage-4/LAUNCH.md; then JUDGE stage=4; then operator acceptance. Stage 3 remains complete_accepted; no experiment authorized
+next_action: Stage-4 round-01 worker reports and judge report are complete with judge recommendation REVISE; operator reviews panels/batch-01/stage-4/round-01/judge.md and records acceptance or a bounded revision decision. Stage 5 remains pending until operator acceptance; no experiment authorized
 pending_manual_action: >-
-  Stage-4 packet v1.0 committed (payload commit 671de7c045385dade4b8f26c7b1680a2cc3a809c;
-  manifest judge-hash corrected in the follow-up state commit; payload bytes unchanged).
-  Pending manual action: operator reviews packets/batch-01/stage-4/LAUNCH.md and
-  launches PANEL stage=4 slots A/B/C in three separate sessions, then JUDGE stage=4,
-  then operator acceptance. Stage-4 workers receive the five Stage-3 panel outputs as
-  primary evidence; they must not receive Stage-4 peer or judge output. No experiment
-  authorized. Stage-3 payload commit 5f484b585ca16dbd2ce93b56c61c962f5f14c774 remains
-  frozen and unmodified.
+  Stage-4 packet v1.0 and payload commit
+  671de7c045385dade4b8f26c7b1680a2cc3a809c were used for round 01. Slots A/B/C
+  and the judge report are complete. The judge recommendation is REVISE, not
+  scientific or operator acceptance. Pending manual action: operator reviews the
+  Stage-4 reports and records acceptance or a bounded revision decision. Stage 5
+  remains pending until that real acceptance is recorded. No experiment authorized.
 checkpoint:
-  unit: S2-batch01 + packet v1.1 QC freeze + release repair
+  unit: Stage-4 batch-01 round-01 panel reconciliation and judge synthesis
   completed_in_this_unit:
-    - reports/stage1/company-source-map.md
-    - reports/stage1/coverage-ledger.md
-    - reports/stage1/batch-selection.md
-    - reports/stage2/reconstruction-index.md
-    - reports/stage2/assumption-and-gap-ledger.md
-    - specs/mego-fr3066128a1-source-reconstruction.md
-    - specs/keenat-fr3110470a1-source-reconstruction.md
-    - specs/unb-pi0305004-source-reconstruction.md
-    - specs/company-workflow-dossiers-batch01.md
-    - packets/batch-01/stage-3/question.md
-    - packets/batch-01/stage-3/evidence-index.md
-    - packets/batch-01/stage-3/output-schema.md
-    - packets/batch-01/stage-3/manifest.yaml
-    - packets/batch-01/stage-3/LAUNCH.md
-    - reports/stage2/errata-packet-v1.0.md
-    - reports/gap-check-01.md
-  remaining: Stage 4 packet and panel (bounded invention/hypothesis); Stage 5 synthesis; registry version proposals await separate host approval
-  last_actor: Stage-4 packet v1.0 drafted and committed by coordinating assistant (Perplexity) on operator instruction; prior AUTO/operator runs recorded above
+    - panels/batch-01/stage-4/round-01/worker-a.md (existing report reconciled)
+    - panels/batch-01/stage-4/round-01/worker-b.md (existing report reconciled)
+    - panels/batch-01/stage-4/round-01/worker-c.md (existing report reconciled)
+    - panels/batch-01/stage-4/round-01/judge.md
+  remaining: Stage-4 operator acceptance or bounded revision decision; Stage-5 synthesis; registry version proposals await separate host approval
+  next_action: Operator reviews the Stage-4 judge report and records acceptance or a bounded revision decision; do not start Stage 5 before acceptance
+  last_actor: Stage-4 judge via OpenCode; displayed model gpt-5.6-sol; exact model ID agentrouter/gpt-5.6-sol; worker model-family reuse unknown
   last_run: '2026-11-07'
   retrieval_calls_used: 0
   retrieval_ceiling: 24
-  packet_version: v1.1
-  packet_path: packets/batch-01/stage-3/manifest.yaml
-  superseded_packet: v1.0
-  v1_0_packet_commit: 0c0b6f2ff900a1866a0ed456c87e78661fa2f4ea
-  qc_pass: >-
-    v1.1 is a bounded packet-QC correction pass after external review; no new harvest,
-    no registry edits, no panel execution. See reports/stage2/errata-packet-v1.0.md.
-  packet_commit: 5f484b585ca16dbd2ce93b56c61c962f5f14c774
-  packet_payload_commit: 5f484b585ca16dbd2ce93b56c61c962f5f14c774
-  packet_payload_count: 20
-  packet_payload_breakdown: 3 hashed control + 17 hashed evidence
+  packet_version: v1.0
+  packet_path: packets/batch-01/stage-4/manifest.yaml
+  packet_commit: 671de7c045385dade4b8f26c7b1680a2cc3a809c
+  packet_payload_commit: 671de7c045385dade4b8f26c7b1680a2cc3a809c
+  packet_payload_count: 8
+  packet_payload_breakdown: 3 hashed Stage-4 controls + 5 preserved Stage-3 panel outputs
   release_metadata_files: "manifest.yaml, LAUNCH.md, COMMIT.txt (unhashed)"
-  release_bundle_file_count: 23
-  release_metadata_commit: 5e00ac8eb03f10d2c5fd32bdd81cdb26d5ec0944
+  release_bundle_file_count: 11
+  release_metadata_commit: 6206d42ab72b60ddd330268d5411abcb26005d32
   release_metadata_commit_note: >-
-    commit holding the repaired manifest/LAUNCH/COMMIT metadata; payload stays at
-    5f484b5. Later commits may update only state/session log.
+    Follow-up commit corrected the manifest judge hash and recorded the payload commit;
+    the eight hashed payload files did not change.
   packet_commit_note: >-
-    payload_commit holds the 20 hashed files; release metadata may live in a later
-    commit because COMMIT.txt was added after the payload. Worker reports should
-    record packet_commit 5f484b5. See packets/batch-01/stage-3/COMMIT.txt.
-  release_repair: >-
-    v1.1 release repair (payload unchanged): state/workflow.yaml indentation fixed so
-    the file parses; bundle counts reconciled to 20 hashed payload + 3 metadata = 23
-    release files; payload/metadata retrieval separated; self-contained panel fallback
-    added. Validation: state and manifest parsed separately; 20/20 payload hashes
-    rechecked. No hashed payload byte changed, so the payload stays v1.1.
+    The judge used packet_commit 671de7c045385dade4b8f26c7b1680a2cc3a809c.
+    Worker reports are local outputs and were not represented as payload files.
+  authorized_judge_inputs: 5 packet files + worker A/B/C; no optional service-specific B report present
+  judge_recommendation: REVISE
+  judge_new_hypothesis: J-H-01 (unvalidated synthesis of B-P-01 and C-P-01 boundaries)
+  validation: YAML/schema and hard-rule scans passed; LF UTF-8, no BOM or trailing whitespace
+  no_experiment_authorized: true
 legacy:
   preserved_queue: state/work-queue.yaml
   preserved_tracker: state/progress.md
@@ -152,10 +132,10 @@ stages:
     packet_version: v1.0
     packet_payload_commit: 671de7c045385dade4b8f26c7b1680a2cc3a809c
     slots:
-      A: {status: pending, output: panels/batch-01/stage-4/round-01/worker-a.md}
-      B: {status: pending, output: panels/batch-01/stage-4/round-01/worker-b.md}
-      C: {status: pending, output: panels/batch-01/stage-4/round-01/worker-c.md}
-    judge: {status: waiting_for_workers, output: panels/batch-01/stage-4/round-01/judge.md}
+      A: {status: complete, output: panels/batch-01/stage-4/round-01/worker-a.md}
+      B: {status: complete, output: panels/batch-01/stage-4/round-01/worker-b.md}
+      C: {status: complete, output: panels/batch-01/stage-4/round-01/worker-c.md}
+    judge: {status: complete, output: panels/batch-01/stage-4/round-01/judge.md, recommendation: REVISE}
     operator_acceptance: {accepted: false, statement: null, packet_version: null}
     blocking_decisions: []
   5:

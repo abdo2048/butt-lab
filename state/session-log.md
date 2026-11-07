@@ -136,3 +136,48 @@ State after this entry: Stage 1/2 complete_scoped; Stage 3 complete_accepted;
 Stage 4 awaiting_manual with packet v1.0 committed and unlaunched; Stage 5 pending.
 No experiment authorized; this is packet drafting, metadata correction, and
 state/provenance recording, not experimental validation or a safety/legal opinion.
+
+## 2026-11-07: Stage-4 round-01 judge synthesis (operator acceptance pending)
+Actor: OpenCode. Displayed model: gpt-5.6-sol. Exact model ID:
+agentrouter/gpt-5.6-sol. Worker identities are self-reported; model-family reuse and
+model diversity across workers, packet author, and judge remain unknown. Retrieval
+calls: 0; no external fetches and no packet content sent to an external service.
+
+Authorized inputs read: packets/batch-01/stage-4/{question.md, output-schema.md,
+evidence-index.md, manifest.yaml, COMMIT.txt} and only the three Stage-4 reports
+worker-a.md, worker-b.md, and worker-c.md. No service-specific worker-B report was
+present. LAUNCH.md, operator-only material, and other Stage-4 peer/judge output were
+not read.
+
+Provenance checks: packet v1.0 payload commit
+671de7c045385dade4b8f26c7b1680a2cc3a809c exists. The three substantive control
+files match that payload commit. Follow-up commit
+6206d42ab72b60ddd330268d5411abcb26005d32 corrected release metadata without
+changing the eight hashed payload files. Worker B's line-ending/BOM hash observation
+is preserved as an unresolved metadata concern, separate from the chemistry judgment.
+
+Output: panels/batch-01/stage-4/round-01/judge.md. Recommendation: REVISE. The
+strongest individual proposal is B-P-01's F1/F0 partition-ranking and measured-purge
+architecture because it exposes its sink assumptions to falsification; this is not a
+finding that the route is clean, cheap, deployable, or successful. Its strongest
+objection is that it may create a large dilute unroutable effluent, target the wrong
+fraction, and retain metals in product. F3 is preserved as the strongest minority
+alternative. J-H-01, combining B-P-01's decision gate with C-P-01's treatment-
+acceptance and sludge/reject boundaries, is explicitly labelled a new, unvalidated
+judge hypothesis. No proposal demonstrates a complete four-field sink or a passed
+product-use gate.
+
+Verification: the report parsed as YAML-first Markdown with the required metadata,
+three report paths, and all adapted schema sections exactly once. A hard-rule scan
+confirmed the required recommendation, strongest-proposal/objection, new-hypothesis,
+per-slot, dissent, unknown-reuse, and no-experiment statements and found none of the
+screened prohibited operating-value patterns. The file is UTF-8 LF with no BOM or
+trailing whitespace. `git diff --check` reported no tracked-diff whitespace errors.
+
+State reconciliation: existing worker A/B/C reports changed from pending to complete;
+judge changed from waiting_for_workers to complete with recommendation REVISE;
+current_stage changed to 4. Operator acceptance remains false and Stage 4 remains
+awaiting_manual. Stage 5 remains pending. Next eligible action: operator review and a
+recorded acceptance or bounded revision decision. No experiment is authorized; report
+completion is not experimental validation or a safety, legal, novelty, or deployment
+determination.

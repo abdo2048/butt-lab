@@ -1,0 +1,33 @@
+# Stage-4 Judge Progress
+
+## 2026-11-07
+- Started the requested Stage-4 judge task.
+- Loaded planning, scientific critical-thinking, scientific-writing, exploration, and codebase-memory guidance.
+- Confirmed there were no pre-existing root planning files.
+- Read the active control chain and fusion protocol.
+- Confirmed Stage-4 packet `v1.0` and payload commit `671de7c045385dade4b8f26c7b1680a2cc3a809c`.
+- Found a state/output reconciliation requirement: saved state still lists workers as pending.
+- Located all three required round-01 worker reports and the five authorized packet inputs.
+- Confirmed there is no service-specific worker-B variant.
+- Deliberately did not open packet-local `LAUNCH.md` because it is outside the authorized judge input list.
+- Verified that payload commit `671de7c...` exists and that the three substantive packet documents match it.
+- Found later committed changes to the authorized `manifest.yaml` and `COMMIT.txt`; these must be reconciled from their content.
+- Confirmed all three worker reports are untracked local outputs without Git history.
+- Reconciled the manifest/commit difference: follow-up commit `6206d42...` corrected one release-metadata hash and recorded the already-created payload commit; it did not alter hashed payload bytes.
+- Read the full authorized question, output schema, and evidence index; extracted the comparison fields, fate-balance discriminator, sink-accounting rule, and evidence limits.
+- Read all three authorized worker reports in full and no other Stage-4 output.
+- Validated matching batch/stage/round/packet/commit metadata and each worker's no-peer-access statement.
+- Compared the proposals, hard-rule compliance, falsifiers, source basis, and sink completeness.
+- Selected `REVISE` as the supported recommendation: the F1 measured-purge family is the strongest testable architecture, while F3 remains the strongest minority alternative.
+- Identified the strongest objection: the F1 route may create a large dilute unroutable effluent, target the wrong fraction, and retain metals in product.
+- Recorded Worker B's hash-normalization observation as an unresolved release-metadata issue separate from chemistry selection.
+- Drafted the schema-adapted YAML-first judge report at `panels/batch-01/stage-4/round-01/judge.md`.
+- A first Python YAML/schema check failed before execution because PowerShell consumed Markdown backticks in a double-quoted command. This is a validator-command error, not a report result.
+- `git diff --check` produced no whitespace errors for tracked diffs, but the new report is untracked and requires its own corrected structural check.
+- Corrected YAML/schema validation passed: 422 lines, three reports, LF UTF-8, no BOM or trailing whitespace.
+- Hard-rule scan passed for the required judge elements and screened prohibited operating-value patterns.
+- Reconciled Stage-4 worker and judge statuses in `state/workflow.yaml`; operator acceptance remains false and Stage 5 remains pending.
+- Appended the Stage-4 judge provenance, output, recommendation, verification, remaining work, and next action to `state/session-log.md`.
+- Parsed the updated workflow YAML and completed an end-to-end report/state/session-log consistency check.
+- Closed all four planning phases. The next action is the operator's manual Stage-4 decision; Stage 5 and experiments remain gated.
+- Diagnosed a post-close validator-only failure: it assumed front matter instead of the required leading fenced YAML block. The report was unchanged; final validation now uses the schema's actual encoding.
