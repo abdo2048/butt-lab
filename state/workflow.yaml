@@ -1,19 +1,20 @@
 version: 2
-updated: '2026-11-06'
+updated: '2026-11-07'
 base_commit: fda66af351a37d38287792ed3b578a258eedf7fc
 batch: batch-01
 current_stage: 3
 execution: file-directed; host must trigger/resume; no scheduler installed
 status: awaiting_manual
-next_action: Stage 3 operator acceptance recorded (accepted=true, status=complete_accepted); judge REVISE recommendation and Slot-B disagreements carried forward. Next: operator prepares and launches Stage 4 (packets/batch-01/stage-4/manifest.yaml) as bounded invention/hypothesis work; Stage 4 not started, no Stage-4 files, no commit/stage/push
+next_action: Stage 4 packet v1.0 committed (671de7c045385dade4b8f26c7b1680a2cc3a809c, manifest judge-hash corrected in follow-up); operator reviews the packet and launches PANEL stage=4 slots A/B/C per packets/batch-01/stage-4/LAUNCH.md; then JUDGE stage=4; then operator acceptance. Stage 3 remains complete_accepted; no experiment authorized
 pending_manual_action: >-
-  Stage 3 panel import and operator acceptance complete (accepted=true,
-  status=complete_accepted). Pending manual action: prepare and launch Stage 4
-  (packets/batch-01/stage-4/manifest.yaml) as bounded invention/hypothesis work,
-  carrying the judge's REVISE recommendations and the two Slot-B contributions
-  forward. Stage 4 must not be started, no Stage-4 files created, no commit/stage/
-  push until explicit operator instruction. Packet payload commit
-  5f484b585ca16dbd2ce93b56c61c962f5f14c774 remains frozen and unmodified.
+  Stage-4 packet v1.0 committed (payload commit 671de7c045385dade4b8f26c7b1680a2cc3a809c;
+  manifest judge-hash corrected in the follow-up state commit; payload bytes unchanged).
+  Pending manual action: operator reviews packets/batch-01/stage-4/LAUNCH.md and
+  launches PANEL stage=4 slots A/B/C in three separate sessions, then JUDGE stage=4,
+  then operator acceptance. Stage-4 workers receive the five Stage-3 panel outputs as
+  primary evidence; they must not receive Stage-4 peer or judge output. No experiment
+  authorized. Stage-3 payload commit 5f484b585ca16dbd2ce93b56c61c962f5f14c774 remains
+  frozen and unmodified.
 checkpoint:
   unit: S2-batch01 + packet v1.1 QC freeze + release repair
   completed_in_this_unit:
@@ -34,8 +35,8 @@ checkpoint:
     - reports/stage2/errata-packet-v1.0.md
     - reports/gap-check-01.md
   remaining: Stage 4 packet and panel (bounded invention/hypothesis); Stage 5 synthesis; registry version proposals await separate host approval
-  last_actor: operator acceptance (manual); prior AUTO runs recorded above
-  last_run: '2026-11-06'
+  last_actor: Stage-4 packet v1.0 drafted and committed by coordinating assistant (Perplexity) on operator instruction; prior AUTO/operator runs recorded above
+  last_run: '2026-11-07'
   retrieval_calls_used: 0
   retrieval_ceiling: 24
   packet_version: v1.1
@@ -145,9 +146,11 @@ stages:
   4:
     role: inventor
     mode: manual-fusion
-    status: pending
+    status: awaiting_manual
     round: '01'
     packet: packets/batch-01/stage-4/manifest.yaml
+    packet_version: v1.0
+    packet_payload_commit: 671de7c045385dade4b8f26c7b1680a2cc3a809c
     slots:
       A: {status: pending, output: panels/batch-01/stage-4/round-01/worker-a.md}
       B: {status: pending, output: panels/batch-01/stage-4/round-01/worker-b.md}

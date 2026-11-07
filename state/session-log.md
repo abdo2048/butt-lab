@@ -101,3 +101,38 @@ State after this entry: Stage 1/2 complete_scoped; Stage 3 complete_accepted wit
 operator acceptance granted; Stage 4 pending (not started); Stage 5 pending. No
 experiment authorized; this is state/provenance recording, not experimental
 validation or a safety/legal opinion.
+
+## 2026-11-07: Stage-4 packet v1.0 drafted, committed, and registered (not launched)
+Actor: operator's coordinating assistant (Perplexity), acting on operator instruction
+("you do this step"). No research retrieval calls; repo state files fetched read-only
+for the update. No hashed Stage-3 payload file changed.
+
+Content committed (commit 671de7c045385dade4b8f26c7b1680a2cc3a809c, then corrected):
+- packets/batch-01/stage-4/{question.md, evidence-index.md, output-schema.md,
+  manifest.yaml, LAUNCH.md, COMMIT.txt} v1.0
+- 8-file hashed payload: 3 Stage-4 control files + the 5 committed Stage-3 panel
+  outputs; hashes verified 8/8 against manifest (LF-normalized SHA-256).
+- 20 Stage-3 evidence files referenced by frozen commit
+  5f484b585ca16dbd2ce93b56c61c962f5f14c774 (not re-hashed).
+
+Provenance: drafted from the accepted Stage-3 handoff — judge.md REVISE recommendation
+and bounded revisions, the two Slot-B contributions framing, and the Stage-3
+question/schema formats. The packet embeds denominator discipline, four-field sink
+accounting, the batch-wide fate-balance discriminator, adversarial self-screening,
+and the no-novelty/no-safety/no-experiment boundaries.
+
+Correction: the manifest's judge.md hash was initially written with a fabricated tail
+beyond the verified 16-character prefix; corrected in this commit to the real hash
+462eacfd7c6b4ee00e0391a1cf35f94b598038140be24c548f896781ac61b680. The judge.md file
+itself was never changed. This is a release-metadata correction, not a payload change;
+packet version stays v1.0.
+
+State changes: stages.4.status pending -> awaiting_manual; stages.4.packet_version
+v1.0 and packet_payload_commit 671de7c0 recorded; top-level next_action and
+pending_manual_action updated. Stage-4 workers NOT launched; no judge run; no
+acceptance.
+
+State after this entry: Stage 1/2 complete_scoped; Stage 3 complete_accepted;
+Stage 4 awaiting_manual with packet v1.0 committed and unlaunched; Stage 5 pending.
+No experiment authorized; this is packet drafting, metadata correction, and
+state/provenance recording, not experimental validation or a safety/legal opinion.

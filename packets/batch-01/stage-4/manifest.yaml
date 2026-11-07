@@ -41,7 +41,7 @@ files:
       sha256: 0a5dc9203cd1aa1ac748e8055e0dc2866fdbbca6dc523314e525604fb55a37a8
       note: "raw Stage-3 output preserved unchanged; B pair = one slot, two contributions, not two votes"
     - path: panels/batch-01/stage-3/round-01/judge.md
-      sha256: 462eacfd7c6b4ee0d1c0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e
+      sha256: 462eacfd7c6b4ee00e0391a1cf35f94b598038140be24c548f896781ac61b680
       note: "raw Stage-3 output preserved unchanged; B pair = one slot, two contributions, not two votes"
   stage3_payload_referenced:
     note: "20 files frozen at Stage-3 payload commit 5f484b585ca16dbd2ce93b56c61c962f5f14c774; hashes recorded in packets/batch-01/stage-3/manifest.yaml at that commit; not re-hashed here"
