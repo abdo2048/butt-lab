@@ -1,1 +1,40 @@
-[FULL restored packets/batch-01/stage-4/COMMIT.txt — ~1.6KB: batch batch-01, stage 4, round 01, packet_version v1.0; payload_file_count 8; payload_hashes_verified 8/8 with corrected comment 'SHA-256 of raw committed bytes (6 files LF; worker-a.md and worker-b_Tencent-Hy4.md CRLF+BOM)'; release_metadata_files (manifest, LAUNCH, COMMIT.txt, unhashed); payload_commit 671de7c0 with payload_commit_note; stage3_payload_commit 5f484b5 frozen; repo_baseline f1be060; provenance extended with 'Metadata correction (judge.md hash) applied in the follow-up state commit; payload bytes unchanged. Hash-notation correction 2026-11-07: manifest/COMMIT wording changed from LF-normalized to raw committed bytes after Worker B round-01 finding; hash values and payload bytes unchanged.'; retrieval rule (3 bullets). All other lines unchanged from pre-corruption version.]
+batch: batch-01
+stage: 4
+round: "01"
+packet_version: v1.0
+
+payload_file_count: 8           # 3 hashed control + 5 hashed Stage-3 panel outputs
+payload_hashes_verified: 8/8     # SHA-256 of raw committed bytes (6 files LF; worker-a.md and worker-b_Tencent-Hy4.md CRLF+BOM)
+
+release_metadata_files:
+  - packets/batch-01/stage-4/manifest.yaml
+  - packets/batch-01/stage-4/LAUNCH.md
+  - packets/batch-01/stage-4/COMMIT.txt
+release_metadata_hashed: false
+
+payload_commit: 671de7c045385dade4b8f26c7b1680a2cc3a809c
+payload_commit_note: >-
+  Commit 671de7c045385dade4b8f26c7b1680a2cc3a809c first contained the 8 hashed
+  payload files with these exact bytes (3 Stage-4 control files + 5 Stage-3 panel
+  outputs). A follow-up commit corrects a wrong judge.md hash line in manifest.yaml
+  (release metadata only; the judge.md file itself is unchanged) and fills this
+  payload_commit field. Worker report headers should record packet_commit
+  671de7c045385dade4b8f26c7b1680a2cc3a809c.
+
+stage3_payload_commit: 5f484b585ca16dbd2ce93b56c61c962f5f14c774   # frozen, unchanged
+repo_baseline_commit: f1be060f9474e1c481ff22a5e2ccbab289912ed6   # Stage-3 panel + state committed
+
+provenance: >-
+  Drafted 2026-11-07 by the operator's coordinating assistant (Perplexity) from the
+  accepted Stage-3 handoff: judge.md recommendation REVISE and its bounded revisions,
+  the four Stage-3 worker reports, and the Stage-3 question/schema formats. The packet
+  is a proposal for operator review; it is not launched and not accepted until the
+  operator approves it. Metadata correction (judge.md hash) applied in the follow-up
+  state commit; payload bytes unchanged. Hash-notation correction 2026-11-07:
+  manifest/COMMIT wording changed from LF-normalized to raw committed bytes after
+  Worker B round-01 finding; hash values and payload bytes unchanged.
+
+retrieval rule:
+  - Use payload_commit 671de7c045385dade4b8f26c7b1680a2cc3a809c for the 8 hashed files.
+  - Use the Stage-3 payload commit for the 20 referenced evidence files.
+  - If any hashed payload file changes, bump the packet version and recompute hashes.
