@@ -1,0 +1,101 @@
+batch: batch-01
+stage: 4
+round: "01"
+packet_version: v1.0
+created: "2026-11-07"
+repo_baseline_commit: f1be060f9474e1c481ff22a5e2ccbab289912ed6
+stage3_packet_version: v1.1
+stage3_payload_commit: 5f484b585ca16dbd2ce93b56c61c962f5f14c774
+stage3_accepted: true
+stage3_acceptance_note: >-
+  Operator acceptance recorded 2026-11-06 with the judge's REVISE recommendation
+  and bounded revisions carried forward. Acceptance is a scientific-panel handoff
+  decision, not safety certification and not approval of any process. No experiment
+  is authorized. Stage 4 is bounded invention/hypothesis work.
+
+# Hashed payload of this packet: 8 files (3 control + 5 Stage-3 panel outputs).
+# Hashes are LF-normalized SHA-256 (git 'text=auto' convention; see Stage-3 judge
+# release-metadata finding on CRLF).
+payload_file_count: 8
+payload_breakdown: "3 hashed control + 5 hashed Stage-3 panel outputs"
+
+files:
+  control_hashed:
+    - path: packets/batch-01/stage-4/question.md
+      sha256: eab5661e6856aa66318e513fdf27607835900176915fb565bb5d82a69f7d4f4f
+    - path: packets/batch-01/stage-4/evidence-index.md
+      sha256: d0b060784599136288d67cf5b82ac2b169305d60c410f27010c8d86e35610041
+    - path: packets/batch-01/stage-4/output-schema.md
+      sha256: d802a051c7e1aaa838c5230602f612df352d2e6e85a1c0ebf23d83d89649d5f0
+  panel_outputs_hashed:
+    - path: panels/batch-01/stage-3/round-01/worker-a.md
+      sha256: ca1e05eb8d2488d48ae806f378bb34d3f191538fa59fd416b57475ea37167694
+      note: "raw Stage-3 output preserved unchanged; B pair = one slot, two contributions, not two votes"
+    - path: panels/batch-01/stage-3/round-01/worker-b_Z-GLM5.3.md
+      sha256: 08315239416fa128428d7403d7b7b8d1f0cab6d2a798fa5069e5284bfc543b7f
+      note: "raw Stage-3 output preserved unchanged; B pair = one slot, two contributions, not two votes"
+    - path: panels/batch-01/stage-3/round-01/worker-b_Tencent-Hy4.md
+      sha256: 4bd572b1f5c4b22311242c0fa6e4366025a411fe49f973df2c7b2bf7b496679b
+      note: "raw Stage-3 output preserved unchanged; B pair = one slot, two contributions, not two votes"
+    - path: panels/batch-01/stage-3/round-01/worker-c.md
+      sha256: 0a5dc9203cd1aa1ac748e8055e0dc2866fdbbca6dc523314e525604fb55a37a8
+      note: "raw Stage-3 output preserved unchanged; B pair = one slot, two contributions, not two votes"
+    - path: panels/batch-01/stage-3/round-01/judge.md
+      sha256: 462eacfd7c6b4ee0d1c0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e
+      note: "raw Stage-3 output preserved unchanged; B pair = one slot, two contributions, not two votes"
+  stage3_payload_referenced:
+    note: "20 files frozen at Stage-3 payload commit 5f484b585ca16dbd2ce93b56c61c962f5f14c774; hashes recorded in packets/batch-01/stage-3/manifest.yaml at that commit; not re-hashed here"
+    paths:
+      - packets/batch-01/stage-3/question.md
+      - packets/batch-01/stage-3/evidence-index.md
+      - packets/batch-01/stage-3/output-schema.md
+      - reports/stage1/company-source-map.md
+      - reports/stage1/coverage-ledger.md
+      - reports/stage1/batch-selection.md
+      - reports/stage2/reconstruction-index.md
+      - reports/stage2/assumption-and-gap-ledger.md
+      - reports/stage2/errata-packet-v1.0.md
+      - reports/gap-check-01.md
+      - specs/de-fenzo-2020-source-reconstruction.md
+      - specs/mego-fr3066128a1-source-reconstruction.md
+      - specs/company-workflow-dossiers-batch01.md
+      - specs/keenat-fr3110470a1-source-reconstruction.md
+      - specs/cn106928486-source-reconstruction.md
+      - specs/pressurized-fluid-reference.md
+      - specs/unb-pi0305004-source-reconstruction.md
+      - dossier/cautionary/ineris-waste-classification.md
+      - dossier/cautionary/keenat-lca-retreat.md
+      - dossier/cautionary/korean-paving-stones.md
+
+release_metadata_files:
+  - packets/batch-01/stage-4/manifest.yaml
+  - packets/batch-01/stage-4/LAUNCH.md
+  - packets/batch-01/stage-4/COMMIT.txt
+release_metadata_hashed: false
+
+slot_emphasis:
+  A: "chemistry and material design: polymer speciation/quality, solvent/antisolvent selection, thermal limits, MW/DoS effects, what characterization can and cannot prove"
+  B: "contaminant control and sink design: nicotine/TSNA/PAH/metal partitioning, assay endpoints, waste classification and routing, product-contact exposure"
+  C: "integration, balances, energy, cost and scaling: explicit-basis mass/energy balances, equipment and permitting reality, closed-loop boundaries with purge, dilution accounting"
+
+carried_forward_from_judge:
+  recommendation: REVISE
+  bounded_revisions:
+    - "denominator table for every percentage and mass claim"
+    - "four-field sink accounting: stream named / collection boundary named / final treatment named / analytical performance demonstrated"
+    - "official full texts for F2 and F4 patent leads and the primary F5 thesis/paper are retrieval leads, not packet facts, until versioned"
+    - "no universal pass/fail thresholds; justify any proposed number"
+    - "keep use-specific product performance and leaching separate from the common contaminant-fate measurement"
+  batch_wide_discriminator: >-
+    dry-mass-normalized, analyte-resolved fate balance for nicotine, TSNAs,
+    representative PAHs and Cd/Pb/As/Hg across product, all liquid phases,
+    sludge/rejects, captured off-gas/condensate, recycle purge, treatment
+    outlet and unexplained loss.
+
+reading_limits:
+  - "company statements are self-report"
+  - "patent envelopes are disclosure ranges, not operating setpoints"
+  - "machine-translated patent renders need official-text confirmation"
+  - "Stage-3 reports' model/service identities are self-reported; no verified model diversity"
+  - "no independent contaminant assay, leachate test, emission measurement or audit-ready LCA exists for any operator"
+  - "Stage-3 slot-B external fetches are attributed retrieval leads, not frozen-packet facts"

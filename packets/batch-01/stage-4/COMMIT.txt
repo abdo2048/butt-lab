@@ -1,0 +1,35 @@
+batch: batch-01
+stage: 4
+round: "01"
+packet_version: v1.0
+
+payload_file_count: 8           # 3 hashed control + 5 hashed Stage-3 panel outputs
+payload_hashes_verified: 8/8     # LF-normalized SHA-256 against manifest.yaml at creation
+
+release_metadata_files:
+  - packets/batch-01/stage-4/manifest.yaml
+  - packets/batch-01/stage-4/LAUNCH.md
+  - packets/batch-01/stage-4/COMMIT.txt
+release_metadata_hashed: false
+
+payload_commit: pending-until-commit
+payload_commit_note: >-
+  Record here the commit SHA that first contains the 8 hashed payload files with
+  these exact bytes. Worker report headers should record that commit as
+  packet_commit once it exists. Until then workers may record the repo baseline
+  f1be060f9474e1c481ff22a5e2ccbab289912ed6 and note the packet is v1.0.
+
+stage3_payload_commit: 5f484b585ca16dbd2ce93b56c61c962f5f14c774   # frozen, unchanged
+repo_baseline_commit: f1be060f9474e1c481ff22a5e2ccbab289912ed6   # Stage-3 panel + state committed
+
+provenance: >-
+  Drafted 2026-11-07 by the operator's coordinating assistant (Perplexity) from the
+  accepted Stage-3 handoff: judge.md recommendation REVISE and its bounded revisions,
+  the four Stage-3 worker reports, and the Stage-3 question/schema formats. The packet
+  is a proposal for operator review; it is not launched and not accepted until the
+  operator approves it.
+
+retrieval rule:
+  - Use payload_commit (once recorded) for the 8 hashed files.
+  - Use the Stage-3 payload commit for the 20 referenced evidence files.
+  - If any hashed payload file changes, bump the packet version and recompute hashes.
