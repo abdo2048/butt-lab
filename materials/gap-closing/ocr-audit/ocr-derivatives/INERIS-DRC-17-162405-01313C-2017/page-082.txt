@@ -1,0 +1,35 @@
+ET C C æ Rapport d'essais n°16.0943/1 - Page 2/3
+
+centre technique
+du papier
+
+Référence(s) des échantillons :
+(Cf. Tableau de résultats ci-dessous)
+
+ANALYSES CHIMIQUES
+
+METHODE
+
+e AMIDON :
+— Détermination de la teneur en amidon par la méthode à l'iode suivie d'une mesure
+spectrophotométrique à 580 nm selon la norme AFNOR TAPPI 419 (om-11).
+
+— Utilisation pour l’étalonnage de l'amidon soluble « qualité pour analyse » de chez Merck
+Réf.1.01252.0250.
+
+RESULTATS
+Analyses réalisées du 17 au 21.11.2016.
+Nos références Vos références HaCor
+(en % sec)
+E36308.13 16BB634 0,94
+E36308.14 16BB635 0,51
+E36308.15 16BB636 1,46
+
+Remarque : On observe la formation d'un précipité lors de l'extraction de l'amidon (dès l'ajout d'acide
+chlorhydrique à 37%). Une analyse infrarouge a été réalisée afin d'identifier la nature de ce dépôt.
+
+Au vu des spectres obtenus, l'identification n'a pas pu être complète. Nous avons cependant pu mettre en
+évidence la présence d'ammonium ainsi que la présence d'un composé carbonylé.
+
+Avant les analyses, l'échantillon « 16BB635 » (E36308.14) a été préalablement séché à température ambiante.
+A réception, cet échantillon était à 20,3% de matières sèches.

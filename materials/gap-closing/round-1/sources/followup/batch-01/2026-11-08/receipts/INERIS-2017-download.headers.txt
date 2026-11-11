@@ -1,0 +1,15 @@
+HTTP/2 200 
+cache-control: max-age=300
+content-type: application/pdf
+date: Sat, 07 Nov 2026 23:10:04 GMT
+etag: W/"59e9be05-b5a30b"
+expires: Sat, 07 Nov 2026 23:15:04 GMT
+last-modified: Fri, 20 Oct 2017 09:12:37 GMT
+traceresponse: 00-18e5e614fdc6142a352b5befc7a2a0b4-295dc7485d9b182a-01
+vary: Accept-Encoding
+x-debug-info: eyJyZXRyaWVzIjowfQ==
+x-platform-cache: MISS
+x-platform-cluster: ntd4d5kf3cz7u-main-bvxea6i
+x-platform-processor: vxxww2zynmy5kylqmm225vj2ce
+x-platform-router: srwvyvuyi6rns57dvh6kejc46a
+

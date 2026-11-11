@@ -1,0 +1,69 @@
+[0188]
+
+[0189]
+
+[0190]
+
+[0191]
+
+[0192]
+
+[0193]
+
+[0194]
+
+[0195]
+
+[0196]
+[0197]
+
+16
+
+Dans l’exemple décrit ici, on prévoit cet ajout S2_5 entre l’étape de compression
+S2_1 et l’étape de chauffe S2_2. Ledit cosolvant peut aussi être ajouté en amont ou
+aval du nettoyage. Le choix et l’utilisation de ces dits cosolvants dépend des
+substances ciblées à extraire pour correspondre aux normes des différents débouchés.
+
+On notera que le développement de chambre fonctionnant à haute pression (au-delà
+de 350 bars) permet d’extraire des molécules de plus en plus polaires sans ajout de co-
+solvants.
+
+Pour extraire les matières inorganiques comme les métaux lourds par exemple,
+l’installation 200 est configuré en outre pour lors d’une étape S2_6 ajouter des
+molécules extractantes du type calixarènes, ou des solutions d’agents capables
+d'extraire les substances inorganiques (complexants, chelatants, antioxydants...) au
+fluide supercritique.
+
+Cet ajout supplémentaire S2_6 permet la formation de complexes avec les composés
+inorganiques, qui permettront de les transporter par la même occasion.
+
+Dans l’exemple décrit ici, on prévoit comme pour l’étape S2_5 que cet ajout S2_6 est
+réalisé entre l’étape de compression S2_1 et l’étape de chauffe S2_2. Ledit extractant
+peut aussi être ajouté en amont ou aval du nettoyage. Le choix et l’utilisation de ces
+dits extractants dépend des substances ciblées à extraire pour correspondre aux normes
+des différents débouchés.
+
+Les ajouts des colsolvants et/ou des extractants est mis en œuvre par l’unité centrale
+50 qui commande des moyens 60 apte à injecter dans ledit fluide des cosolvants et/ou
+des extractants.
+
+En sortie de chambre, le fluide est refroidi et dépressurisé par des moyens de détente
+70 lors d’une étape S3 pour un passage à l’état gazeux (ou détente). Ces moyens de
+détente 70 permettent de détendre le fluide afin de séparer en continu le fluide des
+contaminants solides et liquides transportés.
+
+Le dioxyde de carbone est alors libéré sous forme gazeux grâce à un système de récu-
+pération 80 servant de séparateur entre le fluide et les contaminants. Ces étapes se
+réalisent en continue pendant le cycle de nettoyage ; ce séparateur 80 évacue lors d’une
+étape S4 le dioxyde de carbone à l’état gazeux vers un condensateur 90 qui transforme
+lors d’une étape SS le dioxyde de carbone à l’état liquide pour le renvoyer vers le
+réservoir 20 de stockage pour être réutilisé.
+
+Ce séparateur 80 évacue les contaminants dans un contenant séparé et isolé.
+
+En fin de cycle, plusieurs étapes de filtrations ou absorption particulaires / molé-
+culaires peuvent éventuellement être ajoutées (en plus de la séparation en continue
+réalisée lors du passage de l’état supercritique à gazeux lors du nettoyage) en étape
+supplémentaires sur le fluide à l’état liquide, gazeux, ou supercritique, pendant ou
+
+après le cycle afin d’assurer une séparation complète des particules liquides et/ou

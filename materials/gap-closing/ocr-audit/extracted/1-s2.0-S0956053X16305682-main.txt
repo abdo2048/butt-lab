@@ -1,0 +1,762 @@
+=== PDF FILE: 1-s2.0-S0956053X16305682-main.pdf ===
+sha256: 664b3cf14e9ecc229368a032bd32182da1e60a22883c851213f24747e985e9a3
+pages: 11
+printed_page_labels: PDF p.1=printed 140, PDF p.2=printed 141, PDF p.3=printed 142, PDF p.4=printed 143, PDF p.5=printed 144, PDF p.6=printed 145, PDF p.7=printed 146, PDF p.8=printed 147, PDF p.9=printed 148, PDF p.10=printed 149, PDF p.11=printed 150
+
+=== PDF PAGE 1 === (printed page: 140)
+                                                                       Waste Management 60 (2017) 140–150
+
+
+
+                                                                  Contents lists available at ScienceDirect
+
+
+                                                                     Waste Management
+                                                 journal homepage: www.elsevier.com/locate/wasman
+
+
+
+
+Process development for cigarette butts recycling into cellulose pulp
+Maria Betânia d’Heni Teixeira a, Marco Antônio B. Duarte b, Loureine Raposo Garcez b, Joel Camargo Rubim a,
+Thérèse Hofmann Gatti b, Paulo Anselmo Ziani Suarez a,⇑
+a
+    Laboratório de Materiais e Combustíveis, Instituto de Química, Universidade de Brasília, Cx. Postal 04478, CEP 70904-970 Brasília/DF, Brazil
+b
+    Laboratório de Materiais Expressivos, Instituto de Artes, Universidade de Brasília, CEP 70904-970 Brasília/DF, Brazil
+
+
+
+a r t i c l e           i n f o                            a b s t r a c t
+
+Article history:                                           Cigarette butts, which are usually thrown on the ground or into ordinary bins, have been recognized as
+Received 2 May 2016                                        toxic residues since may contain cigarette contaminants and chemicals produced during combustion.
+Revised 6 September 2016                                   Therefore, contaminants in cigarette butts can be leached by rain into surface water and thereby contam-
+Accepted 10 October 2016
+                                                           inate the environment. In Brazil, according to the National Policy on Solid Waste, all residues must be dis-
+Available online 5 November 2016
+                                                           posed of in an environmentally friendly manner. Although cigarette butts are not mentioned in the law,
+                                                           due to their characteristics, they may be classified as hazardous waste. At the University of Brasilia, a cel-
+Keywords:
+                                                           lulose pulp production process from cigarette butts has been developed employing alkaline pulping. This
+Cigarette butts
+Solid waste
+                                                           process is presented as an alternative to environmentally friendly final disposal of this residue. During
+Cellulose acetate                                          the process, a dark liquor is generated, which was found to contain lignin, carbonyls, metals, nicotine
+Recycling                                                  and specific tobacco nitrosamines. The dark liquor was treated by acidification to promote lignin precip-
+Cellulose pulp                                             itation, coagulation with chitosan and Al2(SO4)3 to remove metals and organic compounds and ozonized
+                                                           to oxidize resistant chemicals. The dark liquor presented a high chemical oxygen demand (COD;
+                                                           29,986 mg/L), which was partially removed by precipitation (20%), chitosan coagulation (66%) and ozona-
+                                                           tion (45.8%). As the remaining COD was still high, we proposed reusing the clarified effluent in alkaline
+                                                           pulping, which seemed to be the easiest and most efficient procedure with the lowest cost.
+                                                                                                                              Ó 2016 Elsevier Ltd. All rights reserved.
+
+
+
+
+1. Introduction                                                                                with toxic compounds, unburned tobacco, ash and paper, and some
+                                                                                               researchers have highlighted them as environmental pollutants
+   It is known that there are about 5000 constituents in cigarette                             because of inadequate disposal, as butts are typically discarded
+smoke, which are distilled from tobacco or generated during burn-                              into ordinary trash and on the ground (Barnes, 2011; Moerman
+ing. Among these chemicals, at least 150 of which 44 are present in                            and Potts, 2011; Novotny et al., 2009; Slaughter et al., 2011). Thus,
+large quantities in smoke, are recognized as being highly toxic,                               these compounds can contaminate soil and be leached by rain
+mainly because of their carcinogenic and mutagenic potential                                   water and brought to surface water and contaminate aquatic
+(Hoffmann et al., 1990). To diminish the absorption of these chem-                             environments.
+icals in the body, as well as their emission into the air, modern                                  These wastes are small, but are generated in large quantities.
+cigarettes have cellulose acetate filters, which allow for safer use                           For instance, according to the Anuário Brasileiro do Tabaco, the con-
+by reducing or even eliminating those compounds from the smoke.                                sumption of cigarettes in Brazil was about 89.1 billion in 2012
+Indeed, these chemicals are partially or fully retained by the                                 (Poll, 2013). Considering the cigarette butt average weight of
+cellulose acetate filter, allowing for somewhat safer cigarette                                0.4 g, about 35,500 t of this residue is generated annually in Brazil.
+consumption.                                                                                   In the same year, worldwide consumption of cigarettes was about
+   However, the consumption of cigarettes containing cellulose                                 5.8 trillion, of which about 2.6 trillion were consumed in China,
+acetate filters generates tons of toxic cigarette butts annually,                              representing about 2,320,000 t of cigarette butts discarded in the
+which are usually discarded on the streets of cities and are respon-                           environment.
+sible for delivering toxic compounds into soils and limnic water.                                  In Brazil, the National Policy on Solid Waste was instituted by
+Indeed, the cellulose acetate filters of cigarette butts are saturated                         Law 12305/2010 (Brasil, 2010), which regulates solid waste dis-
+                                                                                               posal and segregation according to the composition of the residue.
+    ⇑ Corresponding author.                                                                    According to Law 12305/2010, cigarette butts can be classified as
+      E-mail address: psuarez@unb.br (P.A.Z. Suarez).                                          municipal and hazardous waste and their segregation and disposal
+
+http://dx.doi.org/10.1016/j.wasman.2016.10.013
+0956-053X/Ó 2016 Elsevier Ltd. All rights reserved.
+
+
+=== PDF PAGE 2 === (printed page: 141)
+                                             M.B. d’Heni Teixeira et al. / Waste Management 60 (2017) 140–150                                                 141
+
+
+must be performed properly in order to prevent soil pollution in                          Cigarette butts or cellulose acetate
+garbage dump and consequent pollution of surface and under-                                             Water
+ground water. For this reason, in urban areas, cigarette butts have
+                                                                                                        NaOH
+begun to be collected in special containers. This responsibility may
+not only be charged upon the consumer or governments. Indeed,
+some authors underline that ‘‘under the environmental principle
+of Extended Producer Responsibility, tobacco product manufactur-
+ers may be held responsible for collection, transport, processing
+and safe disposal of tobacco product waste (TPW)” (Curtis et al.,
+2016). However, the final destination of cigarette butts is still a
+challenge in this field because, until the present work, there has
+                                                                                                        Pulping reactor
+not been a recycling technology available, meaning that cigarette
+butts are usually incinerated or disposed of in garbage dump.
+    In order to promote the environmentally friendly disposal of
+cigarette butts, our research group has developed a technology to
+recycle them for cellulose pulp production (PI 0305004-1 A)
+(Costa et al., 2005). The technology consists of separating all the
+cellulose content in the cigarette butt using four different pro-
+cesses: (i) dissolving the ash and all chemicals adsorbed in the fil-
+ter; (ii) hydrolyzing cellulose acetate into cellulose; (iii) removing                                                                  Cellulose pulp
+lignin from the remaining tobacco and liberating its cellulose; and
+(iv) disaggregation of the remaining paper. After filtering the
+resulting mixture, we obtained a cellulose pulp, which can be used
+in the paper industry, and a viscous dark liquor, which requires
+treatment. In the present work, we describe this method of cigar-
+ette butt processing, the characterization of the cellulose pulp,                                          Dark liquor
+the analysis of the dark liquor and its possible treatments.
+                                                                                                          Fig. 1. Pulp production flowchart.
+
+
+2. Materials and methods
+                                                                               Table 1
+2.1. Cellulose pulp production                                                 Methods of analysis used on the cellulose pulp.
+
+                                                                                     Analysis                                            Standard method
+   Cigarette butts were collected from cigarette butt collectors                     Cellulose pulp
+located in restaurants, bars and buildings from the Campus of                        Refining by a Jokro refiner                         NBRa 14346:1999
+the University of Brasilia and surroundings. The starting mixture                    Sheet formation                                     NBR 14479:2000
+contained cigarette butts from different blends and with different                   Paper sheets
+amounts of remaining tobacco and paper. Wastes from filter pro-                      Grammage                                            NBR   14527:2000
+duction in the cigarette industry were also used, which contained                    Thickness                                           NBR   14527:2000
+                                                                                     Whiteness                                           NBR   NM ISO 2470:2001
+only cellulose acetate and paper. For the reaction, NaOH was used
+                                                                                     Tensile index                                       NBR   14527:2000
+at a 1% concentration in a water solution to catalyze the reaction.                  Stretching                                          NBR   14527:2000
+The pulping or cooking process for each fiber (cigarette butts and               a
+                                                                                      NBR: standard of the Brazilian Association of Technical Standards.
+cellulose acetate) occurred in a period of 3 h, at boiling tempera-
+ture, in a pilot-scale stainless steel reactor with a 50 L capacity.
+The reactor was heated with a flame of liquefied petroleum gas                 metal ions and some organic compounds usually found in cigarette
+(LPG) and the temperature was monitored by a digital thermocou-                smoke and tobacco, such as carbonylated molecules, tobacco speci-
+ple. A flowchart of the overall process is shown in Fig. 1.                    fic nitrosamines and nicotine were assessed.
+   Samples of pulps obtained from cigarette butts and cigarette fil-               COD determination was carried out by closed reflux colorimetry
+ter wastes were sent to the Instituto de Pesquisas Tecnológicas                using a photocolorimeter from Alfakit (model AT10P), in accor-
+(IPT) in São Paulo, Brazil, to evaluate the physical and optical               dance with Standard Methods for the Examination of Water and
+parameters of the cellulose for commercial use as paper. The sam-              Wastewater (SMWW), method SMWW 5220D (American Public
+ples were refined in a Jokro mill for 25 min and the extent of refin-          Health Association, APHA, 1999). BOD determination was carried
+ing was determined by the Schopper-Riegler degree (°SR). In                    out by a respirometric method for 5 days at 20 °C (Oxidirect Aqu-
+addition, sheets from these samples were processed in TAPPI                    alytic, model Al606), in accordance with SMWW 5210D (APHA,
+(Technical Association of Pulp and Paper Industry) forming equip-              1999). TOC was determined by catalytic oxidation at 680 °C in a
+ment in order to evaluate the weight, thickness, brightness, tensile           carbon analyzer from Shimadzu (model LCPH/CPN PC), according
+strength and elongation. In Table 1 are listed the standard methods            to SMWW 5310B (APHA, 1999). The samples had been previously
+used.                                                                          filtered through a microfilter Millipore Millex-HV with a porosity
+                                                                               of 0.45 lm. Settleable solids were determined by the standard
+2.2. Dark liquor characterization and treatment                                method ABNT/NBR 10561/1988 (ABNT, 1988).
+                                                                                   The precipitation of lignin from the dark liquor was performed
+   Wastewater from cellulose pulp production (dark liquor) using               by acidification, as suggested by several studies in the literature by
+cigarette butts was characterized by measuring the organic matter              Minu et al. (2012), Mussatto et al. (2007) and García et al. (2009).
+by determining the chemical oxygen demand (COD), biochemical                   As the acidifying agents, HCl (6 N), H3PO4 (concentrated and
+oxygen demand (BOD) and total organic carbon (TOC). In addition,               diluted 2% v/v), CH3COOH (concentrated) and H2SO4 (diluted 2%
+the settleable solids, the presence of lignin and the content of               v/v) were used. The acidification agent was added to the dark
+
+
+=== PDF PAGE 3 === (printed page: 142)
+142                                                 M.B. d’Heni Teixeira et al. / Waste Management 60 (2017) 140–150
+
+
+liquor in different amounts in order to achieve pH values of 1–9,                     SMWW 2350D (APHA, 1999). The ozone/air flow from the ozone
+and the precipitation efficiency was determined by comparing                          generator was forced into a sequence of three traps, as described
+the COD of diluted supernatants and the starting value, yielding                      in Fig. 2. In the first trap, the ozone was bubbled through a bubble
+the percentage removal of organic matter. The lignin removal from                     diffuser into the effluent (150 mL) under constant magnetic stir-
+the starting dark liquor was confirmed by spectroscopic studies to                    ring. The exhaust from the first trap was directed into the second
+investigate the characteristic lignin bands by infrared spectroscopy                  trap, which was empty, in order to collect any liquid or foam swept
+using an attenuated total reflectance (ATR) cell in FT-IR apparatus                   along by the current. Finally, the gas was bubbled into a 2% (v/v) KI
+(Shimadzu, model IR Prestige-21).                                                     solution (200 mL) in the third trap. After titration of this KI solu-
+    The precipitation supernatant was referred to as the clarified                    tion, according to standard method SMWW 2350D, it was possible
+effluent and, after determining the best pH level for precipitation,                  to quantify the unreacted ozone, and, thus, by mass balance,
+coagulation tests were carried out using Al2(SO4)3 and chitosan                       approximately determine the amount of ozone that reacted with
+as the coagulant agents. The assays were adapted from tests per-                      the effluent. The ozonation tests took place over a period of 4 h
+formed by Vaz et al. (2010), Ahmad et al. (2011) and Guimarães                        and samples were collected every hour to measure the pH and
+(2013). In an Erlenmeyer flask (125 mL capacity), the clarified                       temperature and perform COD analysis. This procedure was carried
+effluent (75 mL) was mixed with the necessary amount of coagu-                        out using the following effluents: (1) the dark liquor, (2) clarified
+lant to promote coagulation. It is important to note that care was                    effluent and (3) supernatant from the best coagulation assay. For
+taken not to exceed 7.5 mL of coagulant, equivalent to 10% of the                     each sample, tests were conducted at different starting pH levels:
+clarified effluent volume. The mixture was shaken using an orbital                    9, 10, 11 and 12. For samples (2) and (3), it was necessary to add
+shaker table (Tecnal, model TE-141). Coagulation was performed                        0.5 mL of Aldrich Antifoam A5633 defoamer solution (1 mL of anti-
+by rapid mixing (coagulation) at 180 rpm for 2 min and slow mix-                      foam dissolved in 30 mL of propylene glycol).
+ing (flocculation) at 60 rpm for 15 min. Then, the mixture was                            To investigate the presence of carbonylated compounds, the
+allowed to rest (decantation) for 20 min. Assays were carried out                     dark liquor was analyzed by high performance liquid chromatogra-
+at different pH values ranging from 6 to 9 and different concentra-                   phy (HPLC), adapting the methodology proposed by British Amer-
+tions of coagulants (presented in Table 2) were used according to                     ican Tobacco (BAT) (BAT, 2008a) to assess carbonylated molecules
+the tests performed by Guimarães (2013). The coagulation effi-                        in cigarette smoke. For this analysis, dark liquor (1 mL) was diluted
+ciency was assessed by COD analysis.                                                  in distilled water to a final volume of 100 mL. Then, 1 mL of this
+    We also evaluated the possibility of mineralizing the organic                     solution that was mixed with 1 mL of 2,4-dinitrophenylhydrazine
+matter by ozonation. Indeed, ozonation was carried out as a pre-                      (DNPH) solution in methanol (2.5 g/L) and 1 mL of buffer pH 4
+oxidation treatment (directly in the dark liquor) and as an effluent                  solution (10 M NaOH/glacial acetic acid). This mixture was homog-
+post-oxidation process (in the precipitation and coagulation super-                   enized and then filtered through a Millipore Millex-HV microfilter
+natants). The ozonation tests were performed using an installation                    with a porosity of 0.45 lm and injected into chromatograph (Shi-
+adapted from Guimarães et al. (2010) and Houshyar et al. (2012),                      madzu, model CTO-20A UV–vis), with a detector at a wavelength
+depicted in Fig. 2. An air compressor (Millipore, model                               of 380 nm, equipped with Shim-Pack VP-ODS (C-18, 250 mm,
+WP6111560) fed a mini ozone generator (Di Acqua, model Di                             4.6 mm inner diameter). The flow rate was 1.5 mL/min, the injec-
+Acqua FlexO3/ClO2). The gas flow from the ozone generator was                         tion volume was 20 lL, and the column oven temperature was
+adjusted to 0.5 L/min and its ozone content (mass flow) was deter-                    30 °C. The total run time was 35 min (see Table 3) using a gradient
+mined as 1 mg/min by titration, as described by standard method                       of two mobile phases: (A) 59% water (vol.%), 30% acetonitrile, 10%
+                                                                                      tetrahydrofuran and 1% isopropanol and (B) 33% water (vol.%) 65%
+                                                                                      acetonitrile, 1% tetrahydrofuran and 1% isopropanol. The carbony-
+Table 2                                                                               lated compounds investigated were formaldehyde, acetaldehyde,
+Coagulant concentrations used in the coagulation experiments.
+                                                                                      acetone, propionaldehyde, methyl ethyl ketone, crotonaldehyde
+  Coagulant                                      Concentration (g/L)                  and butyraldehyde. It was prepared a ‘‘standard solution” adding
+  Al2(SO4)3 (aqueous solution)                   0.10, 0.15, 0.20, 0.25 and 0.30      0.01 mL of each of these carbonylated compounds and completing
+  Chitosan (HCl 0.5% aqueous solution)           0.05, 0.08, 0.20, 0.50 and 0.80      to 100 mL with a solution of DNPH in methanol (2.5 g L1). To
+                                                                                      check the retention time of each carbonylated compound, different
+
+
+
+
+                                                  Fig. 2. Ozonation apparatus (adapted from Guimarães et al. (2010)).
+
+
+=== PDF PAGE 4 === (printed page: 143)
+runs were made using the same analysis conditions as proposed by
+BAT (2008a) standard method: (1) pure methanol; (2) the standard
+solution of carbonylated compounds, (3) a mixture of standard
+solution of carbonylated compounds (1 mL) and 1 mL of one of
+the carbonylated compound; and (4) a mixture of 1 mL DNPH solu-
+tion, 1 mL of the carbonylated compound and 1 mL of the buffer
+solution.
+We also investigated the presence of the elements arsenic, cad-
+mium, lead, chromium, nickel and selenium in the dark liquor and
+the efﬂuents from the different processes. The samples were previ-
+ously digested using microwave energy and the EPA 3015A acid
+digestion method ( EPA, 2007 ). Then, the samples were analyzed
+by inductively coupled plasma optical emission spectrometry,
+ICP-OES (Thermo Scientiﬁc apparatus, model ICAP 6000 Series).
+The determination of tobacco-speciﬁc nitrosamines and nico-
+tine in the dark liquor and the efﬂuents from the different treat-
+ments was performed by high-performance liquid
+chromatography coupled to mass spectrometry (LC-MS) with a tri-
+ple quadrupole and electrospray ionization, with Persuit XRS C18
+150 /C2 2.0 mm column (Varian apparatus, model LC Series 212-LC
+and MS Series 310-MS). For the determination of tobacco-speciﬁc
+nitrosamines (TSNs), the methodology was the same as that pro-
+posed by BAT to quantify nitrosamines in mainstream smoke
+(BAT, 2008b ). The studied nitrosamines were 4-(methylnitrosoa
+mino)-1-(3-pyridinyl)-1-butanone (NNK) and N 0-
+nitrosonornicotine (NNN). Standard solutions were prepared in
+HPLC grade methanol, which allowed dilution to construct calibra-
+tion curves to quantify these TSNs in the dark liquor, clariﬁed efﬂu-
+ent, best coagulation supernatant and samples obtained from
+ozonation. For nicotine analysis, the method proposed by Franco
+(2014) was adapted. The mobile phase was 45% acetonitrile, 40%
+MilliQ water and 15% 5 mM phosphate monobasic buffer solution
+with the pH adjusted to 6.80. The ﬂow rate was 1.0 mL/min, the
+injection volume was 20 lL, and the run time was 10 min. A cali-
+bration curve was constructed with nicotine solutions in Milli-Q
+water.
+3. Results and discussion
+3.1. Cellulose pulp production
+Cigarette butts contains four different components: (i) a ﬁlter
+made from cellulose acetate with a myriad of chemicals adsorbed
+in it, (ii) unburned tobacco, (iii) ash and (iv) paper. In order to
+develop an environmentally friendly ﬁnal disposal method for
+cigarette butts, a process was proposed to produce cellulose pulp,
+which can be used in the recycled paper market. Indeed, the main
+idea was to hydrolyze cellulose acetate into cellulose in the pres-
+ence of strong alkali, depicted in Fig. 3 . The use of a strong base
+may also remove lignin from unburned tobacco in the cigarette
+butt and thus liberate the cellulose from this residue, as well as
+dissolve the ash and disaggregate the remaining paper. Thus, at
+the end of the process, cellulose was obtained as a solid phase as
+well as a solution containing all the non-cellulose components of
+the cigarette butt.
+Fig. 4 shows the FT-IR spectra obtained after cooking cigarette
+butts at 80 /C176C under different conditions: using distilled water for
+6 h; NaOH solution (0.5%) for 10 min, 20 min and 150 min; and
+NaOH solution (1%) for 10 min. When cigarette butts were cooked
+using distilled water, no signiﬁcant change in the FT-IR spectra was
+observed, even after 6 h ( Fig. 4 , curve ‘a’). As shown in Fig. 4 ,i ti s
+possible to note a strong band at 1760 cm /C01 and a shoulder at
+1730 cm/C01, corresponding to C @O stretching from the acetate
+group, strongly suggesting the preservation of cellulose acetate.
+However, when the cigarette butts were cooked in NaOH solution
+(0.5%), even for short times ( Fig. 4 , curve ‘b’), it was possible to
+observe a decrease in the band at 1760 cm /C01, as well as in the
+shoulder at 1730 cm /C01; these features completely disappeared
+Table 3
+Mobile phases used during HPLC analysis to investigate carbonylated compounds.
+Time (min) Mobile phase A (%) Mobile phase B (%)
+0 100 0
+87 0 3 0
+20 47 53
+25 15 85
+27 100 0
+35 100 0
+Mobile phases: (A) 59% water (vol.%), 30% acetonitrile, 10% tetrahydrofuran and 1%
+isopropanol and (B) 33% water (vol.%) 65% acetonitrile, 1% tetrahydrofuran and 1%
+isopropanol.
+O
+OR
+O
+O
+RO
+OR n
+O
+OH
+O
+O
+HO
+OH n
+NaOH/H2O
+Fig. 3. Hydrolysis of cellulose acetate in alkaline medium (R = H or COCH 3).
+Fig. 4. FT-IR spectra of cigarette butts cooked at 80 /C176C under different cooking
+conditions: (a) distilled water for 6 h, (b) NaOH aqueous solution (0.5%) for 10 min,
+(c) NaOH aqueous solution (0.5%) for 20 min. Note that the spectra of cigarette butts
+cooked using NaOH aqueous solution (0.5%) for 150 min and NaOH aqueous
+solution (1%) for 10 min overlap with curve (c).
+M.B. d’Heni Teixeira et al. / Waste Management 60 (2017) 140–150 143
+
+=== PDF PAGE 5 === (printed page: 144)
+144                                                    M.B. d’Heni Teixeira et al. / Waste Management 60 (2017) 140–150
+
+
+with longer treatment times (Fig. 4, curve ‘c’). It is worth mention-                    of refining of cellulose pulp from cigarette butts and cellulose acet-
+ing that cooking cigarette butts in NaOH solution with a higher                          ate was 46 °SR and 15 °SR, respectively, which indicate that, in pre-
+concentration (1%) led to the complete disappearance of these                            viously cooked samples, greater entanglement of fibers occurs
+bands after 10 min (Fig. 4, curve ‘c’). These results show that cellu-                   during paper formation and consequently better drainage take
+lose acetate is quickly hydrolyzed into cellulose in alkaline med-                       place, as previously shown by Campos et al. (2000). Moreover, as
+ium and that the reaction rate is dependent on the NaOH                                  shown in Table 4, the paper sheet produced using cellulose acetate
+concentration.                                                                           fibers with no treatment had very poor mechanical properties
+   In order to verify the potential use of this process to produce                       (traction index, tensile strength and stretching), which were signif-
+cellulose pulp, paper sheets were prepared using fibers disaggre-                        icantly increased after alkaline cooking. These results suggest that
+gated in a Jokro mill. Two different paper sheets were prepared:                         the cellulose fibers become suitable for use as paper only after
+(a) using cellulose acetate with no previous treatment and (b)                           alkaline cooking. Thus, this indicates that the process proposed in
+cigarette butts cooked in alkaline medium. Then, the main paper                          this work is suitable for recycling cigarette butts into cellulose fiber
+quality parameters were analyzed for both paper sheets; the                              that can be used in the paper industry, either pure or blended with
+results are presented in Table 4. As shown in Table 4, the degree                        cellulose pulps from various origins according to availability or the
+                                                                                         final desired properties. However, the low degree of whiteness
+Table 4                                                                                  indicates that the treatment was not sufficient to remove the resi-
+Physical properties determined for papers prepared with cellulose acetate filters and    dues deposited on the fibers during cigarette burning, thus,
+cigarette butts.                                                                         depending on the use of the fibers, a further bleaching process is
+  Analysis                           Samples                                             required.
+                                     Cellulose acetate       Filters from cigarette
+                                     filter without          butts pulped in
+                                                                                         3.2. Dark liquor characterization and treatment
+                                     pulping                 alkaline medium
+  Schopper-Riegler grade (°SR)       14                      46
+                                                                                             It is worth mentioning that the collected cigarette butts were a
+  Grammage (g/m2)                    67.2 ± 2.14             71.14 ± 1.98
+  Thickness (mm)                     0.147 ± 0.004           0.173 ± 0.004
+                                                                                         very heterogeneous mixture. Indeed, it was possible to find cigar-
+  Whiteness (%)                      84.8 ± 0.51             54.16 ± 0.20                ette butts from dozens of brands, each one with its specific original
+  Tensile strength (kN/m)            0.07 ± 0.01             0.80 ± 0.08                 tobacco and blend of additives, and different amounts of remaining
+  Traction index (kN m/kg)           1.09 ± 0.15             11.22 ± 1.83                unburnt tobacco, as well as other possible contaminants, such as
+  Stretching (%)                     0.67 ± 0.08             1.91 ± 0.23
+                                                                                         lipstick and saliva residue. Thus, it is reasonable to expect different
+                                                                                         chemical components in the dark liquor according to the starting
+                                                                                         mixture of cigarette butts. In order to study the dark liquor gener-
+Table 5                                                                                  ated during the alkaline cooking of cigarette butts, 35 experiments
+Dark liquor characteristics.                                                             were done with different starting materials; samples were taken
+  Parameter                     Dark liquor          Effluent discharge conditions       after cooling and filtering the final mixture.
+                                                     according to CONAMA                     First, the main effluent parameters were determined and are
+                                                     430/2011 (Brasil, 2011)             presented in Table 5 as the average values obtained from the 35
+  Temperature (°C)              33.1 ± 3.1           <40                                 dark liquor samples in comparison with the effluent release condi-
+  pH                            8.5 ± 0.4            5–9                                 tions stipulated by Brazilian law. As can be noted from the results
+  Settleable solids (mL/L)      0.8 ± 0.04           61.0
+                                                                                         presented in Table 5, the dark liquor had on average a very high
+  Floating materials            Absent               Absent
+  COD (mg/L)                    29,986 ± 7037        Unspecified                         organic content, even higher than those values usually observed
+                                                                                         in domestic sewage.
+
+
+
+
+Fig. 5. HPLC Chromatograms: (a) Methanolic solution of standard aldehydes and ketones (formaldehyde, acetaldehyde, acetone, propionaldehyde, methyl ethyl ketone,
+crotonaldehyde and butyraldehyde) and DNPH; (b) dark liquor solution (1 mL 1:100 solution of dark liquor + 1 mL DNPH solution in methanol + 1 mL buffer pH 4); and (c)
+blank (1 mL DNPH solution in methanol + 1 mL buffer pH 4).
+
+
+=== PDF PAGE 6 === (printed page: 145)
+                                                      M.B. d’Heni Teixeira et al. / Waste Management 60 (2017) 140–150                                       145
+
+
+   In sequence, different chemical analyses were carried out in                            Rodgman and Perfetti, 2009). Thus, we decided to investigate the
+order to understand the chemical composition of the organic con-                           presence of these compounds in the dark liquor using the analyti-
+tent in the dark liquor. The scientific literature concerning cigar-                       cal methods proposed by BAT.
+ettes is usually focused in studying the chemical composition of                               The presence of aldehydes and other carbonylated compounds
+cigarette smoke and, to the best of our knowledge, there are no ref-                       in the dark liquor was studied by liquid chromatography; the chro-
+erences to the remaining chemicals in the filters and evidently                            matograms are shown in Fig. 5. As shown in Fig. 5, no carbonylated
+nothing concerning the dark liquor obtained after cooking cigarette                        compounds were detected in significant amounts when comparing
+butts. According to BAT, it is possible to identify more than 5000                         the chromatogram obtained for dark liquor (Fig. 5b) to carbony-
+chemical components in cigarette smoke, as well as some metal                              lated compound standards (Fig. 5a; formaldehyde, acetaldehyde,
+ions (Hoffmann et al., 1990; Rodgman and Perfetti, 2009). How-                             acetone, propionaldehyde, methyl ethyl ketone, crotonaldehyde
+ever, most of these compounds are present in small amounts.                                and butyraldehyde). The only peak observed in the dark liquor
+The most important are classified according to their functional                            chromatogram was at a retention time of 6.992 min, also observed
+groups: aromatic and heterocyclic amines, carbonylated com-                                in the blank (Fig. 5c), which was related to the buffer required for
+pounds, phenols, polycyclic aromatic hydrocarbons, carbon and                              analyzing the samples according to the method defined by BAT
+nitrogen oxides, and ammonia. The complete list of these com-                              (2008a). The absence of these compounds usually detected in
+pounds is available in the literature (Hoffmann et al., 1990;                              smoke is not surprisingly due to the high volatility and reactivity
+                                                                                           of aldehydes and ketones, such that they are not retained in the
+                                                                                           filter.
+Table 6                                                                                        Tobacco-specific nitrosamines, such as 4-methylnitrosoamino-
+Contents of NNK, NNN and nicotine in the dark liquor in comparison to the literature       1-3-pyridinyl-1-butanone (NNK) and N0 -nitrosonornicotine
+data for cigarette smoke.                                                                  (NNN), as well as nicotine, were evaluated by liquid chromatogra-
+                                       NNK            NNN             Nicotine             phy coupled with mass spectroscopy; the results are shown in
+                           a                                                               Table 6. For comparison purposes, Table 6 also contains the values
+     Tobacco smoke (ng/cig )           115.6          133.1           750,000
+       (Hoffmann et al., 1990)                                                             available in the literature for the content of these compounds in
+     Dark liquor (ng/mL)               3057           1635            35,400,000           cigarette smoke (Hoffmann et al., 1990). As can be noted in Table 6,
+ a                                                                                         although there is no specification regarding these chemicals in the
+      cig: cigarette.
+                                                                                           environmental law concerning wastewater, the contents of NNK,
+                                                                                           NNN and nicotine in the dark liquor were significant, especially
+                                                                                           taking in account the toxicity of these compounds. Comparing
+Table 7
+Concentration of As, Cd, Cr, Ni, Pb and Se in the dark liquor determined by ICP-OES
+                                                                                           the relative content of these compounds in cigarette smoke and
+and the maximum values specified in Brazilian law for discharging effluents into           butts, it is possible to suggest that the filter is more effective at
+limnic water.                                                                              retaining nitrosamines than nicotine.
+     Element    Content in dark   Concentration limit allowed by Brazilian law in
+                                                                                               Finally, the presence of As, Cd, Pb, Ni and Se was studied by ICP/
+                liquor (mg/L)     discharge effluents (mg/L) (Brasil, 2011)                OES; the results are presented in Table 7. Table 7 also provides the
+     As         0.04 ± 0.0003     0.5
+                                                                                           maximum values allowed by Brazilian law for wastewater. Accord-
+     Cd         ND                0.2                                                      ing to Table 7, it was possible to detect only As and Cr in the dark
+     Cr         0.01 ± 0.0001     0.1 (Cr6+)                                               liquor, probably because the other studied elements were at con-
+                                  1.0 (Cr3+)                                               centrations below the detection limit of the equipment. However,
+     Ni         ND                2.0
+                                                                                           the As and Cr contents were at values below the maximum allowed
+     Pb         ND                0.5
+     Se         ND                0.3                                                      under Brazilian law.
+                                                                                               According to the values presented in Tables 5–7, under Brazilian
+ND: not detected.
+                                                                                           law, the dark liquor produced from cigarette butt hydrolysis could
+
+
+
+
+                                  1            2              3            4             5             6           7      8        9
+
+
+
+
+                                                         Fig. 6. Effect of pH on dark liquor color after acidification.
+
+
+=== PDF PAGE 7 === (printed page: 146)
+146                                                    M.B. d’Heni Teixeira et al. / Waste Management 60 (2017) 140–150
+
+
+be discarded directly into a water body without further treatment.                         removal in each pH. It is clear based on Fig. 6 that a significant
+However, from an environmental awareness point of view, it                                 decrease in color intensity occurred when acidifying the medium
+would be unthinkable to disregard the high chemical oxygen                                 and that the best results were found when adjusting the pH in
+demand (COD), especially taking in account the fact that highly                            the range from 2 to 4. According to Table 8, the best result concern-
+toxic compounds were detected in the effluent. Thus, we decided                            ing a decrease in the COD value was achieved at pH 3, affording a
+to develop a clean solution for the cigarette butt recycling process.                      removal of 20.1%. Similar behavior was observed by Minu et al.
+    Initially, it is important to highlight that COD measurement is                        (2012), when using H2SO4 to clarify a black liquor obtained from
+the sum of biodegradable and resistant organic compounds. By                               processing rice straw. From now on, the supernatant obtained by
+analyzing biodegradable organic matter, the dark liquor showed                             this acidification process will be called the clarified effluent.
+an average biochemical oxygen demand (BOD) value of 9548 mg/                                   Aiming to understand what was removed after acidifying the
+L ± 2739 mg/L, indicating that most of the COD (29,986 mg/                                 dark liquor to obtain the clarified effluent, the non-volatile content
+L ± 7037 mg/L) was due to resistant chemicals. According to                                from these effluents was isolated by evaporating the water in a
+Tchobanoglous et al. (2003), if the BOD/COD ratio for untreated                            Petri plate. Thus, after standing at room temperature and atmo-
+wastewater is higher than 0.5, the effluent may be easily treatable                        spheric pressure until a constant weight was achieved, the
+by a biological processes. In our case, the BOD/COD ratio was 0.3,                         obtained films were dissolved in methanol and dropped on an
+suggesting that treatment should be performed by physical-                                 ATR cell. After evaporating the alcohol, the film was analyzed by
+chemical processes.                                                                        FT-IR. A similar procedure was used for the precipitate. Fig. 7
+    In an initial attempt to develop a physical-chemical treatment                         shows the FT-IR spectra of the films obtained from the dark liquor,
+for the dark liquor, an acid precipitation process was applied based                       the clarified effluent and the precipitate. According to Fig. 7, the
+on the methods of Minu et al. (2012), Mussatto et al. (2007) and                           spectra of the film obtained from the dark liquor (Fig. 7a) exhibits
+García et al. (2009). Different organic and inorganic acids were                           three strong bands at 1550 cm1 and 1402 cm1, related to skeletal
+used; the best precipitation results were obtained using HCl and                           vibrations involving CAC stretching of mono-nuclear aromatic
+H2SO4. As the H2SO4 market is highly regulated by Brazilian Federal                        rings, and at 1340 cm1, characteristic of syringyl rings. It is also
+Police, we decided to resume the study using HCl as the acidifying                         possible to observe a low intensity shoulder at 1260 cm1 and a
+agent. Precipitation tests were performed at pH 1 to 9 to obtain                           band at 1207 cm1, usually related to the guaiacyl ring. These three
+higher COD removal. Fig. 6 shows the effect of pH on dark liquor                           bands are usually attributed to lignin. Similar spectra were
+color after acidifying the medium and Table 8 shows the COD                                observed by Minu et al. (2012), studying a black liquor obtained
+                                                                                           from processing rice straw to obtain cellulose. A broad band
+                                                                                           around 3300 cm1 was also observed in Fig. 7a, indicating the pres-
+                                                                                           ence of alcoholic and phenolic OH groups, probably indicating the
+Table 8
+                                                                                           partial hydrolysis of lignin from tobacco during the cooking of
+COD results from dark liquor and the supernatants after precipitation at different pH
+levels.                                                                                    cigarette butts. In the spectrum of the film from the supernatant
+                                                                                           (Fig. 7b), the phenolic OH groups were retained in this sample,
+  Sample                                                        COD removal (%)
+                                                                                           which was not observed in the spectrum of the precipitate film
+  Dark liquor                                                   0.0                        (Fig. 7c). This result seems to indicate that only lignin was precip-
+  pH 1 supernatant                                              9.5
+                                                                                           itated, confirming the data described in the literature regarding the
+  pH 2 supernatant                                              7.5
+  pH 3 supernatant                                              20.1                       removal of lignin by precipitation in acid medium (Minu et al.,
+  pH 4 supernatant                                              3.3                        2012), and that the partially hydrolyzed lignin remained in the
+  pH 5 supernatant                                              2.4                        supernatant.
+  pH 6 supernatant                                              4.4                            Although the precipitation of lignin by acidification of the dark
+  pH 7 supernatant                                              1.6
+  pH 8 supernatant                                              2.2
+                                                                                           liquor removed up to 20% of COD, the average residual value of the
+  pH 9 supernatant                                              0.2                        clarified effluent was still very high, up to 23,959 mg/L, indicating
+                                                                                           other steps of treatment are still needed. Thus, the clarified effluent
+
+
+
+
+      Fig. 7. ATR FT-IR spectra of films obtained from the dark liquor (a), the supernatant (b) and the precipitate (c) obtained after acidification to pH 3 with 6 N HCl.
+
+
+=== PDF PAGE 8 === (printed page: 147)
+                                              M.B. d’Heni Teixeira et al. / Waste Management 60 (2017) 140–150                                   147
+
+
+
+
+                                        Fig. 8. COD removal by coagulation of the clarified effluent with Al2(SO4)3.
+
+
+
+
+was coagulated with Al2(SO4)3, with the pH adjusted from 6 to 9                      It is worth mentioning that after removing 20% of the COD
+and the main results are shown in Fig. 8. As seen in Fig. 8, for all             by acidifying the dark liquor and 66.6% by coagulating the clar-
+pH values, the removal of COD seemed to increase until 0.25 g/L                  ified effluent with chitosan, the residual COD was still very high
+of Al2(SO4)3. With higher Al2(SO4)3 concentrations, the removal of               (10,015 mg/L). Thus, we decided to perform an oxidizing step
+COD was almost constant.                                                         by ozonation. For comparison purposes, we also ozonated the
+   The coagulation of the clarified effluent was also evaluated                  dark liquor, the clarified effluent after acidification at pH 3 with
+using chitosan, a natural polymer obtained from crustacean                       HCl and its coagulation supernatant obtained with chitosan
+exoskeletons. The results of COD removal from the clarified efflu-               (0.80 g/L) at pH 9; the results are presented in Table 9. It is
+ent with chitosan are presented in Fig. 9. As seen in Fig. 9, chitosan           important to highlight that, for the ozonation studies, a new
+promoted COD removal values from the clarified effluent from 21.5                dark liquor was used for each pH level studied. Thus, different
+to 66.6%, depending on the coagulant concentration and adjusted                  values for COD were obtained for the dark liquor, as well as for
+pH. Comparing COD removal efficiency by chitosan and Al2(SO4)3,                  COD removal after the processes of acidification and coagula-
+except at pH 7, we found that coagulation with chitosan achieved                 tion. To better understanding the results of COD removal by
+the best organic matter removal under the tested conditions. The                 ozonation presented in Table 9, the starting COD removal of
+data in Fig. 9 also show that the best result was obtaining using                the dark liquor is given as 0.0%. Note that the values of COD
+a concentration of 0.80 g/L at pH 9, achieving up to 65% of COD                  removal at time 0 h correspond to the results obtained by acid-
+removal. It is worth mentioning that similar results were achieved               ifying the dark liquor and coagulating the clarified effluent,
+when treating wastewater from the pulp and paper industry by                     prior to ozonation. As shown in Table 9, in almost all cases,
+Thirugnanasambandham et al. (2014). Indeed, these authors claim                  an increase in the COD value was observed rather than a
+to have obtained a 66.7% reduction in COD with chitosan (2.0 g/L)                decrease. Indeed, with few exceptions (dark liquor at pH 10
+at pH 6 and a reduction of 56.9% at pH 8.                                        and 12), the COD removal presented lower values from the
+
+
+
+
+                                       Fig. 9. COD removal during coagulation of the clarified effluent with chitosan.
+
+
+=== PDF PAGE 9 === (printed page: 148)
+148                                                     M.B. d’Heni Teixeira et al. / Waste Management 60 (2017) 140–150
+
+
+Table 9                                                                                   under the conditions studied here, showed no efficiency in
+Results of COD removal (%) by ozonation in the dark liquor, the clarified effluent and    the treatment of the effluent.
+the coagulation supernatant.
+                                                                                              The different effluents were also analyzed in terms of the
+     Initial       Ozonation         COD removal (%)                                      metal contents and nitrogenated compounds. As shown in Table 7,
+     pH            time (h)                                                               the dark liquor presented very low contents of Cr, As, Cd, Pb, Ni
+                                     Dark           Clarified          Coagulation
+                                     liquor         effluent           supernatant        and Se, below the limits established by Brazilian law. After acid-
+     9             0                 0.0            20.3               61.1               ification to precipitate the lignin, the clarified effluent presented
+                   1                 10.9          16.8               41.5               undetectable metal contents, even for As and Cr. Table 10 pre-
+                   2                 11.1          8.2                38.7               sents the results for the most toxic nitrogenated compounds
+                   3                 6.0           9.9                38.6
+                                                                                          (NNK, NNN and nicotine) in the dark liquor, clarified effluent,
+                   4                 8.2           12.1               44.8
+                                                                                          supernatant from coagulation with chitosan and after ozonation
+     10            0                 0.0            19.8               62.5
+                                                                                          at pH 12, compared with content of these compounds in cigarette
+                   1                 3.3            20.7               39.1
+                   2                 17.3           16.5               42.9               smoke (Hoffmann et al., 1990). As can be noted in Table 10, the
+                   3                 13.5           13.6               38.5               content of the three nitrogenated compounds studied here
+                   4                 18.9           14.3               43.5               strongly decreased with the treatments. NNK was the only com-
+     11            0                 0.0            19.9               62.3               pound still detected after ozonation, although at a very low level.
+                   1                 1.9            10.6               48.4               NNN was undetectable after 2 h of ozonation and nicotine was
+                   2                 1.5           12.7               36.6
+                                                                                          not quantified in the effluent after coagulation. These results indi-
+                   3                 2.4            14.4               36.6
+                   4                 0.9            15.1               40.9
+                                                                                          cate that the treatments were effective for the removal of these
+                                                                                          compounds, which can be confirmed by the reduction in organic
+     12            0                 0.0            19.5               59.2
+                   1                 11.3           9.9                45.8
+                                                                                          matter expressed as COD after each treatment.
+                   2                 16.9           9.8                44.5
+                   3                 14.5           4.1               38.2
+                   4                 15.2           5.0                37.9               3.3. Cellulose pulp production from processed cigarette butts
+
+                                                                                              Since we could not efficiently reduce the COD in cigarette butt
+                                                                                          cooking effluent, we aimed to develop an environmental friendly
+Table 10
+                                                                                          process to reuse the clarified effluent after acidifying the dark
+NNK, NNN and nicotine contents in the dark liquor and the different effluents
+obtained during treatment, along with the literature data for tobacco smoke               liquor to pH 3. Therefore, we propose that, after decantation of
+(Hoffmann et al., 1990).                                                                  the precipitate, the clarified effluent should be collected and then,
+                                                                                          after adjusting its pH to 7, used in a new pulping process, as shown
+                                                  NNK        NNN        Nicotine
+                                                                                          in Fig. 10.
+     Tobacco smoke (ng/ciga) (Hoffmann et al.,    115.6      133.1      750,000
+                                                                                              We repeated the process seven times. Fig. 11 shows the dark
+        1990)
+     Dark liquor (ng/mL)                          3,057.3    1,635.2    35,400,000        liquor samples and the clarified effluent in each cycle. As can be
+     Clarified effluent (ng/mL)                   2,014.1    486.5      200,000           seen in Fig. 11, the appearance of the samples remained almost
+     Chitosan coagulation supernatant (ng/mL)     11.2       484.3      NDb               constant after all cycles.
+     Ozonation of chitosan coagulation            11.0       483.3      ND                    Table 11 presents the COD values for each cycle of effluent
+        supernatant 1 h (ng/mL)
+     Ozonation of chitosan coagulation            7.4        ND         ND
+                                                                                          reuse. As shown in Table 11, no change in the pH of dark
+        supernatant 2 h (ng/mL)                                                           liquor was observed, since the clarified effluent had the same
+     Ozonation of chitosan coagulation            5.2        ND         ND                pH corrected by the additional water used for the pulping pro-
+        supernatant 3 h (ng/mL)                                                           cess. Regarding COD, an increase was observed for the initial
+     Ozonation of chitosan coagulation            0.8        ND         ND
+                                                                                          reuses, but we noted that the COD value stabilized from the
+        supernatant 4 h (ng/mL)
+                                                                                          fifth reuse on.
+ a
+      cig: cigarette.                                                                         The process developed here was licensed to a recycling com-
+ b
+      ND: not detected.
+                                                                                          pany (Poiato Recicla, Sao Paulo, Brazil), which has started up a pilot
+                                                                                          plant in March, 2016. It is worth mentioning that they have oper-
+starting levels. This behavior has been observed by other                                 ated the process several times, always reusing the clarified efflu-
+authors and is probably the result of incomplete mineralization                           ent, and have already processed some tons of cigarette butts.
+of the organic material in the effluent, generating recalcitrant                          Indeed, they are obtaining a good quality cellulose pulp which is
+intermediates, as found by Melo et al. (2009). Thus, ozonation,                           sold to a cardboard factory.
+
+
+
+
+                Fig. 10. Proposed flowchart for cellulose pulp production from cigarette butts by reusing the effluent from the precipitation process at pH 3.
+
+
+=== PDF PAGE 10 === (printed page: 149)
+                                                       M.B. d’Heni Teixeira et al. / Waste Management 60 (2017) 140–150                                      149
+
+
+
+
+                       Fig. 11. Appearance the dark liquor (DL) and clarified effluent (CE) over seven cigarette butt cooking cycles reusing the effluent.
+
+
+
+Table 11                                                                                   be absorbed by the recycling paper industry to be used pure or
+Dark liquor and clarified effluent pH and COD values after seven cycles of reusing the     blended with pulps from various origins according to the quality
+effluent.
+                                                                                           requirements of the final paper. Thus, the process proposed here
+  Sample                                   pH                      COD (mg/L)              consists of an environmentally friendly solution for this solid resi-
+  Dark liquor 1                            9.1                     31,943.3 ± 72.3         due which is generated in large quantities throughout the world.
+  Clarified effluent   1                   3.0                     26,023.3 ± 47.3         The dark liquor produced as the effluent in the pulping process
+  Dark liquor 2                            8.9                     39,940.0 ± 40.0         contains a very high resistant organic content, including toxic
+  Clarified effluent   2                   3.0                     37,680.0 ± 87.2         nitrogenated compounds. Even after three treatment processes
+  Dark liquor 3                            9.0                     43,486.7 ± 70.2
+  Clarified effluent   3                   3.0                     43,300.0 ± 91.7
+                                                                                           (precipitation by acidification, coagulation and ozonation), it was
+  Dark liquor 4                            8.5                     52,233.3 ± 75.7         not possible to reduce the COD value of the effluent to an accept-
+  Clarified effluent   4                   3.0                     52,033.3 ± 30.6         able value. However, it was possible to reuse the effluent after
+  Dark liquor 5                            8.8                     60,220.0 ± 87.2         one treatment step (precipitation) in the pulping process, thereby
+  Clarified effluent   5                   3.0                     60,046.7 ± 41.6
+                                                                                           eliminating any liquid effluent from the overall process. Finally,
+  Dark liquor 6                            9.2                     60,713.3 ± 50.3
+  Clarified effluent   6                   3.0                     60,660.0 ± 34.6         it is worth mentioning that the process developed here was
+  Dark liquor 7                            8.7                     60,653.3 ± 30.6         licensed to a recycling company, which has recently started up a
+  Clarified effluent   7                   3.0                     60,700.0 ± 52.9         pilot plant.
+
+
+
+4. Conclusions                                                                             Acknowledgments
+
+   In summary, we have shown that is possible to produce cellu-                               The authors are in debt to CAPES, CNPq and FAPDF for partial
+lose pulp from cigarette butts. The produced cellulose pulp may                            financial support. PAZS thanks CNPq for the research fellowship.
+
+
+=== PDF PAGE 11 === (printed page: 150)
+150                                                        M.B. d’Heni Teixeira et al. / Waste Management 60 (2017) 140–150
+
+
+References                                                                                     Guimarães, J.R., Junior, R.L.A., Maniero, M.G., Fadini, P.S., 2010. Ozonização em meio
+                                                                                                   básico para redução de cor do licor negro de indústria de celulose de algodão.
+                                                                                                   Eng. Sanit Ambient 15, 93–98.
+ABNT, 1988. NBR-10561 – Águas- Determinação de resíduo sedimentável (Sólidos
+                                                                                               Guimarães, P.S., 2013. Tratamento de águas residuárias oriundas da purificação do
+    sedimentáveis – Método do cone Imhoff). Brasil.
+                                                                                                   biodiesel por coagulação empregando sulfato de alumínio e quitosana:
+Ahmad, A.L., Mat Yasin, N.H., Derek, C.J.C., Lim, J.K., 2011. Optimization of
+                                                                                                   avaliação preliminar. Universidade de Brasília.
+    microalgae coagulation process using chitosan. Chem. Eng. J. 173, 879–882.
+                                                                                               Hoffmann, D., Hecht, S.S., Cooper, D.S., Grover, P., 1990. Advances in Tobacco
+    http://dx.doi.org/10.1016/j.cej.2011.07.070.
+                                                                                                   Carcinogenesis, in: Chemical Carcinogenesis and Mutagenesis Apud British
+American Public Health Association (APHA), 1999. Standard Methods for the
+                                                                                                   American Tobacco, Research & Development, Smoke Chemistry Analysis.
+    Examination of Water and Wastewater, 20th ed. APHA; AWWA; WEF: (CD-
+                                                                                                   Springer-Verlag, London.
+    Rom), Washington.
+                                                                                               Houshyar, Z., Khoshfetrat, A.B., Fatehifar, E., 2012. Influence of ozonation process on
+Barnes, R.L., 2011. Regulating the disposal of cigarette butts as toxic hazardous
+                                                                                                   characteristics of pre-alkalized tannery effluents. Chem. Eng. J. 191, 59–65.
+    waste. Tob. Control 20 (Suppl 1), i45–i48. http://dx.doi.org/10.1136/
+                                                                                                   http://dx.doi.org/10.1016/j.cej.2012.02.053.
+    tc.2010.041301.
+                                                                                               Melo, S.A.S., Trovó, A.G., Bautitz, I.R., Nogueira, R.F.P., 2009. Degradação de fármacos
+BAT, 2008a. Method – Determination of carbonyls in mainstream cigarette
+                                                                                                   residuais por processos oxidativos avançados. Quim. Nova 32, 188–197.
+    smoke [WWW Document]. Br. Am. Tob. Gr. Res. Dev. URL <http://www.
+                                                                                               Minu, K., Jiby, K.K., Kishore, V.V.N., 2012. Isolation and purification of lignin and
+    bat-science.com/groupms/sites/BAT_9GVJXS.nsf/vwPagesWebLive/DO7D6BXA/
+                                                                                                   silica from the black liquor generated during the production of bioethanol from
+    $FILE/Carbonyls> in Mainstream Smoke.pdf?openelement (accessed 4.28.16).
+                                                                                                   rice straw. Biomass Bioenergy 39, 210–217. http://dx.doi.org/10.1016/j.
+BAT, 2008b. Method - Determination of tobacco-specific nitrosamines in
+                                                                                                   biombioe.2012.01.007.
+    mainstream smoke [WWW Document]. Br. Am. Tob. Gr. Res. Dev. URL
+                                                                                               Moerman, J.W., Potts, G.E., 2011. Analysis of metals leached from smoked cigarette
+    <http://www.bat-science.com/groupms/sites/BAT_9GVJXS.nsf/vwPagesWebLive/
+                                                                                                   litter. Tob. Control 20 (Suppl 1), i30–i35. http://dx.doi.org/10.1136/
+    DO7D6BYL/$FILE/Tobacco-specific> nitrosamines in Mainstream Smoke 2010.
+                                                                                                   tc.2010.040196.
+    pdf?openelement (accessed 4.28.16).
+                                                                                               Mussatto, S.I., Fernandes, M., Roberto, I.C., 2007. Lignin recovery from brewer’s
+Brasil, 2011. Ministério do meio Ambiente, Conselho Nacional do Meio Ambiente,
+                                                                                                   spent grain black liquor. Carbohydr. Polym. 70, 218–223. http://dx.doi.org/
+    Resolução N. 430, de 13 de maio de 2011. Ministério do meio Ambiente,
+                                                                                                   10.1016/j.carbpol.2007.03.021.
+    Conselho Nacional do Meio Ambiente.
+                                                                                               Novotny, T.E., Lum, K., Smith, E., Wang, V., Barnes, R., 2009. Filtered cigarettes and
+Brasil, 2010. Presidência da República, Casa Civil, Subchefia para Assuntos
+                                                                                                   the case for an environmental policy on cigarette waste. Int. J. Environ. Res.
+    Jurídicos, Lei N. 12.305, de 2 de agosto de 2010. Subchefia para Assuntos
+                                                                                                   Public Health 6, 1–15. http://dx.doi.org/10.3390/ijerph60x000x.
+    Jurídicos.
+                                                                                               Poll, H., 2013. Anuário brasileiro do tabaco 2013. Gazeta Santa Cruz, Santa Cruz do
+Campos, E.da S., Martins, M.A.L., Foekel, C.E.B., Frizzo, S.M.B., 2000. Seleção de
+                                                                                                   Sul.
+    critérios para a especificação de pastas celulósicas branqueadas de
+                                                                                               Rodgman, A., Perfetti, T.A., 2009. The Chemical Components of Tobacco The
+    eucaliptos na fabricação de papéis para impressão ‘‘offset”. Ciência Florest
+                                                                                                   Chemical Components of Tobacco and Tobacco Smoke Alan Rodgman. CRC
+    10, 57–75.
+                                                                                                   Press, London.
+Costa, T.H.G.R. da, Suarez, P.A.Z., Duarte, M.A.B., 2005. Reaproveitamento de fibras
+                                                                                               Slaughter, E., Gersberg, R.M., Watanabe, K., Rudolph, J., Stransky, C., Novotny, T.E.,
+    de acetato de celulose e filtros de cigarro para obtenção de celulose e papel. PI
+                                                                                                   2011. Toxicity of cigarette butts, and their chemical components, to marine and
+    0305004-1 A.
+                                                                                                   freshwater fish. Tob. Control 20 (Suppl. 1), i25–i29. http://dx.doi.org/10.1136/
+Curtis, C., Novotny, T.E., Lee, K., Freiberg, M., Mclaughlin, I., 2016. Tobacco industry
+                                                                                                   tc.2010.040170.
+    responsibility for butts: a Model Tobacco Waste Act. Tob. Control 1–5. http://dx.
+                                                                                               Tchobanoglous, G., Burton, F.L., Stensel, H.D., 2003. Wastewater Engineering:
+    doi.org/10.1136/tobaccocontrol-2015-052737.
+                                                                                                   Treatment and Reuse. McGraw-Hill, New York.
+EPA, 2007. EPA Method 3015A.
+                                                                                               Thirugnanasambandham, K., Sivakumar, V., Maran, J.P., 2014. Bagasse wastewater
+Franco, M.A.E. de, 2014. Degradação fotocatalítica de nicotina em solução aquosa
+                                                                                                   treatment using biopolymer – a novel approach. J. Serbian Chem. Soc. 79, 897–
+    empregando ZnO, TiO2 e catalisadores não convencionais em suspensão.
+                                                                                                   909. http://dx.doi.org/10.2298/JSC130619153T.
+    Universidade Federal do Rio Grande do Sul.
+                                                                                               Vaz, L.G.de L., Klen, M.R.F., Veit, M.T., da Silva, E.A., Barbiero, T.A., Bergamasco, R.,
+García, A., Toledano, A., Serrano, L., Egüés, I., González, M., Marín, F., Labidi, J., 2009.
+                                                                                                   2010. Avaliação da eficiência de diferentes agentes coagulantes na remoção de
+    Characterization of lignins obtained by selective precipitation. Sep. Purif.
+                                                                                                   cor e turbidez em efluente de galvanoplastia. Eclética Química 35, 45–54.
+    Technol. 68, 193–198. http://dx.doi.org/10.1016/j.seppur.2009.05.001.
+

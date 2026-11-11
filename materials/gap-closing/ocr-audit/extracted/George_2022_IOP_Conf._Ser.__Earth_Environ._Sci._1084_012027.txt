@@ -1,0 +1,318 @@
+=== PDF FILE: George_2022_IOP_Conf._Ser.__Earth_Environ._Sci._1084_012027.pdf ===
+sha256: 67be67a2a70252f01e1cb515f1f77bb5fbf17c2bea8674eec7e5da6a4baa8ca1
+pages: 7
+printed_page_labels: PDF p.1=printed 1, PDF p.2=printed 2, PDF p.3=printed 3, PDF p.4=printed 4, PDF p.5=printed 5, PDF p.6=printed 6, PDF p.7=printed 7
+
+=== PDF PAGE 1 ===
+IOP Conference Series:
+Earth and
+Environmental Science
+      
+PAPER • OPEN ACCESS
+Review on Recycling of Microplastics in Cigarette
+Butts
+To cite this article: Mary George and Rupali Khadtar 2022 IOP Conf. Ser.: Earth Environ. Sci. 1084
+012027
+ 
+View the article online for updates and enhancements.
+You may also like
+Study on the Factors Influencing the
+Degradation of Cellulose Acetate Filter
+Rod
+Han Zheng, Hao Wang, Jianbo Zhan et al.
+-
+Sustainability design of press machine for
+waste plastic bottle with electric motor
+Ian Hardianto Siahaan and Oegik
+Soegihardjo
+-
+Research on the Ordered Mesoporous
+Silica for Tobacco Harm Reduction
+Y Wang, Z Y Li, J X Ding et al.
+-
+ 
+This content was downloaded from IP address 195.43.22.141 on 08/11/2026 at 18:38
+
+=== PDF PAGE 2 ===
+Content from this work may be used under the terms of the Creative Commons Attribution 3.0 licence. Any further distribution
+of this work must maintain attribution to the author(s) and the title of the work, journal citation and DOI.
+Published under licence by IOP Publishing Ltd
+ICSEEGT 2022
+IOP Conf. Series: Earth and Environmental Science 1084 (2022) 012027
+IOP Publishing
+doi:10.1088/1755-1315/1084/1/012027
+1
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Review on Recycling of Microplastics in Cigarette Butts 
+ 
+Mary George1 and Rupali Khadtar2 
+Anjuman-I-Islam’s Abdul Razzak Kalsekar Polytechnic 
+Email-mary.george@aiarkp.ac.in1,rupali.khadtar@aiarkp.ac.in 
+ 
+Abstract. It's a lesser-known fact that the cigarette filter is made of cellulose acetate, a 
+kind of non-biodegradable plastic and it takes almost 10 years for this ingredient to  
+completely decompose. Cigarette smoking is on the rise throughout the world. Ever  
+since tobacco smoking be gan there are both opponents and proponents for the same.  
+Instead of getting into a discussion as to whether one should smoke or not; would  like 
+to focus on cigarette butts which a micro plastic that is harmful to the environment and 
+needs to be disposed of in an appropriate manner to conserve the environment and human 
+health. As the trend is today, cigarette smoking is on the increase. And in light of  this 
+event recycling cigarette butts give rise to a sustainable material. 
+This paper will cover how ciga rette butts can be collected and recycled to tackle the  
+unfriendly and unsightly remains of cigarettes after smoking. 
+Keywords: Cigarette butts,  Solutions to handle cigarette butt  waste, Awareness 
+regarding probable health and environmental hazards 
+ 
+1. Introduction 
+Filters were initially used from 1860 to 1920 to prevent particles of tobacco from entering the mouth. In the 
+1950s after published studies began to reveal the health threats of tobacco, the cigarette industry propagated 
+the use of cigarettes with filters. The use of filters gave cigarette smokers  an illusion that they are safe from 
+the ill effects of cigarette smoking and started inhaling as much or more tar, nicotine, and noxious gases as 
+smokers of unfiltered cigarettes. The fast life of ci ties and the increased pressure in day-to-day life due to 
+the industrial revolution causing men to compete with machines has caused many men to smoke to relieve 
+stress and tension. Consequently, there is an increased litter of cigarette butts. 
+ 
+2. In what way are cigarette butts harmful? 
+2.1. What are micro plastics? 
+Micro plastics comprise tiny fibers from nylon clothes and other synthetic textiles. Plastic particles smaller 
+than 5 millimeters are considered to be micro plastics. Well, it is likely that micro plastics continue breaking 
+down even past 10nm. Plastics do not blend with the soil easily but  remain in the soil in a particulate 
+manner, probably just becoming into even smaller pieces. The tinier the particle, the easier it is for them 
+to pass cell membranes and cause tissue damage. For example, it is observed that micro plastics can absorb 
+toxic chemicals and then release them into an animal’s digestive system. This would definitely be harmful 
+to our health. [1] 
+Research has shown these nano plastics can enter the intestines during digestion. Whether they can 
+intermingle with the blood is not clear, however, another rather unnerving study demonstrated that      nano 
+plastic particles lodged in the brains of fish affected their behavior. The study found that 
+
+=== PDF PAGE 3 ===
+ICSEEGT 2022
+IOP Conf. Series: Earth and Environmental Science 1084 (2022) 012027
+IOP Publishing
+doi:10.1088/1755-1315/1084/1/012027
+2
+ 
+ 
+plastic particles made fish eat slowly and more lethargic. Research has not yet established Nano  plastics 
+penetrate brain tissue in humans, let alone affect behavior. The filter of cigarette is made of micro plastic. 
+Plastics cannot  be digested or decomposed and once produced, one cannot  get rid of them. They are 
+mistaken for food by animals and ingested blocking the digestive system of animals due to which there are 
+low levels of oxygen and consequently reduced energy levels in  animals. Very tiny micro plastics get 
+embedded in the animal tissues. They enter human beings through the food chain. Micro plastics find their 
+way to humans through ingestion or respiration. 
+ 
+2.2 What are micro plastics in cigarettes made up of? 
+The majority of cigarette filters are made of cellulose acetate, which is a type of plastic. The cigarette filter 
+is not cotton, but a plastic that does not disintegrate similar to other types of plastic  in the environment. 
+Cigarette butts (CB) are one of the most common types of litter in cities, with  an estimated 4.5 trillion 
+thrown each year, accounting for22-46 percent of visible litter. 76 percent of cigarettes smoked in public in 
+metropolitan areas are littered rather than disposed of properly. Butts are then carried to coastal locations 
+by rain or river water, where they are typically the most  abundant part of litter collected. The chemical 
+makeup of cigarette butts waste has an impact on the environment. Because cigarette butts are made up of 
+a highly tw isted network of fibers  combined with plasticizers, the breakdown is sluggish and difficult. 
+Furthermore, toxic metals and  nicotine have been found to seep out of cigarette butts. The Lethal 
+Concentration 50 for test fish exposed to cigarette butts' leachates is one cigarette butt immersed in a liter 
+of water for 96 hours. When this trash is released into the environment, it poses a significant risk to living 
+species and ecosystem health. As a result, cigarette butts pose a threat to the environment and public health. 
+[2] 
+ 
+3. Where are cigarette butts found? 
+Cigarette butts are tossed on the street or littered in parks, and beaches, they may be thrown in street gutters 
+too. Since indoor smoking is banned by many organizations smokers have been pushed outdoors. Cigarette 
+butts are mostly found near corporate offices, hospitals, colleges , and tourist destinations. Also, outside 
+bars cigarette butts are found in large quantities. 
+ 
+4. How can these cigarette butts be effectively collected? 
+Countries are beginning to put the burden of cleaning up these butts onto cigarette companies themselves. 
+People who collect cigarette butts for the purpose of recycling are termed as heroes because common men 
+due to lack of education and ignorance do not like to endeav or in this field for prestige sake. One of the 
+ways of collecting cigarette butts is to provide special fire-safe receptacles. It would be wise to charge a 
+percentage of the cost of the cigarette pack as a clean-up cost. Attractive crucibles  could be placed on the 
+street to promote the appropriate disposal of cigarette butts, as shown in Figures 1a and 1b. 
+ 
+Figure 1. a) California                                              b) Seattle 
+ 
+At present companies who recycle cigarette butts in India pay a collection fee of Rs. 700 for every kilogram 
+and Rs. 80 for every 100 grams of cigarette waste. 
+
+
+=== PDF PAGE 4 ===
+ICSEEGT 2022
+IOP Conf. Series: Earth and Environmental Science 1084 (2022) 012027
+IOP Publishing
+doi:10.1088/1755-1315/1084/1/012027
+3
+ 
+5. What is harmful about cigarette butts? 
+Cigarette butts take anywhere from 18 months to ten years to decompose. 
+Chemicals and heavy metals, the same things that kill smokers, leak into the environment when butts are 
+discarded. They frequently wash into the gutters, polluting our rivers and endangering fish and other 
+creatures. 
+The most serious issue is the filters, which are mostly comprised of cellulose acetate, a type of plastic. That 
+means the filters take a long time to biodegrade, even when they do, thousands of tiny plastic fibers wind 
+up in the environment, streams, and wildlife. Arsenic, benzene, and lead are among the substances found 
+in the fibers. 
+Cigarette butts are hazardous plastic fragments that are frequently mishandled and contain over 15,000 
+separate strands of plastic fiber. Cigarette butts can be carried into rivers and lakes,  eventually ending up 
+in the ocean. This source might potentially release 300,000 tons of micro-plastic fibers into the aquatic 
+ecosystem each year. 
+Furthermore, harmful compounds such as nicotine, carcinogenic tar, and polycyclic aromatic hydrocarbons 
+have a highly toxic effect on aquatic creatures, causing serious damage. 
+According to the WHO, tobacco product waste contains over 7,000 toxic chemicals. Cellulose acetate, the 
+major component of cigarette butts, along with paper and rayon, pollutes land and water. A report 
+by Truth Initiative, a U.S.-based NGO says that the chemicals that leach from a single cigarette butt can 
+release enough toxins to kill 50% of saltwater and freshwater fish exposed to it for 96 hours. [3,4] 
+There is also the fear of birds, fish , and animals eating cigarette butts that can be disastrous,”  viii. As a 
+result, it is vital to comprehend the mechanism by which cigarette butts release micro 
+Plastic fibers, the potential environmental impact, and viable mitigation techniques for cigarette butt litter. 
+[5] 
+ 
+6. How is the cigarette butt processed for recycling? 
+The cigarettes get shredded and separated into 2 key parts, the organic matter which is the ash, tobacco, 
+and paper composted and the inorganic component which is the filter is melted. 
+The paper is ground in an industrial grinder and treated with an organic binder. The ground  material is 
+spread into sheets and dried. They are later cut and sold in local shops as mosquito  repellant. The paper 
+with remains of nicotine act as a mosquito repellant. To use the mosquito repellant, it just has to be burnt. 
+The plastic in the cigarette butt is also ground in the industrial grinder, they are then soaked  in sterilizing 
+chemicals for 24 hours which leaves them looking like cotton. Later the plastic fibers are fluffed and made 
+to the required specifications. 
+It is not necessary that the plastic from cigarette butts be recycled separately. It can be combined with other 
+plastics such as polyethylene and polypropylene. Cellulose acetate is found in objects 
+like combs, toothbrushes, playing cards, tool handles, pen barrels, etc. made from plastic. Hence all these 
+plastics can be recycled together. [6] 
+ 
+7. What can be made from cigarette butts? 
+ Composted organic waste from cigarette butts is used as fertilizers. 
+ At present in India cigarette butts are recycled and used to make mosquito repellants and soft toys. 
+ Butts is also used to make packing and building material as well as plastics for key chains and 
+toys and cushion. [7] 
+ In France the fibers from cigarette butts are used to make jackets, here the plastics obtained from 
+cigarette butts can be used as an insulating material, as shown in figure 2 a & 2 b. [8] 
+
+=== PDF PAGE 5 ===
+ICSEEGT 2022
+IOP Conf. Series: Earth and Environmental Science 1084 (2022) 012027
+IOP Publishing
+doi:10.1088/1755-1315/1084/1/012027
+4
+ 
+ 
+ 
+ 
+ 
+Figure 2. Insulating material from CB used for jackets in France 
+ 
+If the cigarette butt is not recycled into an industrial or commercial product it is converted into pellets 
+which can be used in any plastic industry Figure 4. 
+ 
+Figure 3. Pellets of plastic from cigarette butts 
+ 
+Also, France manufactures benches and furniture from plastic obtained from cigarette butts figure 5. 
+ 
+Figure 4. Benches made from CB in France 
+ 
+8. How cigarette butts can be used in the construction industry. 
+Cigarette butts with leftover tobacco had an energy value of 16.5 MJ/kg. If just 2.5% of all bricks produced 
+annually worldwide included 1% CB content, all of the CBs currently produced could be recycled in bricks, 
+and it is estimated that global firing energy consumption could be reduced by approximately 20 billion MJ 
+(mega joules). This is roughly equal to the annual energy consumption of one million houses in Victoria, 
+Australia. “Firing butts into bricks is a reliable and practical way to deal with this terrible environmental 
+problem, while at the same time cutting brickmaking production costs,” Mohajerani said. 
+Cigarette butt bricks are also lighter and provide superior insulation, resulting in lower heating and cooling 
+expenditures in the home. Mohajerani’s research team discovered that once cigarette butts were employed 
+on the pavement, they could not only withstand high traffic, but it could also minimize heat created by the 
+sun hammering down on black asphalt, a phenomenon known as the urban heat-island effect. It was 
+discovered that butts encapsulated in bitumen and combined with class 170 bitumen performed better in 
+heavy traffic than paraffin-encapsulated butts mixed with c170 and c320 bitumen after completing various 
+tests on the samples. The butts encased in paraffin were barely able to withstand light traffic. [9] 
+Insulating material that can be used in the construction industry can be made from the  plastic in cigarette 
+butts.
+
+
+=== PDF PAGE 6 ===
+ICSEEGT 2022
+IOP Conf. Series: Earth and Environmental Science 1084 (2022) 012027
+IOP Publishing
+doi:10.1088/1755-1315/1084/1/012027
+5
+ 
+9. Is recycling cigarette butts a small business? 
+About 6 trillion cigarettes are produced every year, leading to more than 1.2 m illion tons of cigarette butt 
+waste. These figures are expected to increase by more than 50 percent by 2025, mainly due to an increase in 
+the world population. 
+It is estimated that 4.5 trillion cigarette butts are disposed of annually. An estimated 766,571 metric tons of 
+cigarette butts make their way into the environment every year. 
+ 
+10. Has the litter of cigarette butts reduced wherever an attempt has been made? 
+By the financial year 2019-2020 a whopping 10,000 kg of cigarette waste, of which 40 percent has been 
+recycled and utilized. Each kg of cigarette waste comprises 4,000 cigarette butts. A company by the name 
+CODE has pioneered in India recycling cigarette butts. Having started in 2016 in Noida so far  the duo, 
+Vishal Kanet and Noman Gupta have  successfully collected 500 -600 kilograms of cigarette  waste and 
+recycled 40-50 kgs. CODE stands for Conservation of the depleting environment. 
+ 
+11. Who should give a go-ahead to the project? 
+Non-smokers should give a go -ahead for this method of recycling micro plastics. When smokers are  
+careless about the harm they do to their own bodies  by smoking, non-smokers who strongly oppose this  
+habit should propagate the ill effects  of the micro plastic  environment and come up with innovative  
+methods of freeing the environment of this nuisance. 
+12. Scope of this innovative method 
+Before anything can be done technically to recycle cigarette butts, education has to play a major role in this 
+field. Non-smokers who understand the harm of cigarettes should take the lead in recycling cigarette butts. 
+Social stigma should not be feared and a bold and confident approach should be  taken to recycling this 
+notorious element. Smokers should be educated about the harm of cigarette butts and should be encouraged 
+to dispose of cigarette butts in the proper manner. The misconception that cigarette butts are made of cotton 
+which is biodegradable should be changed and people need to know that  cigarette butts are ma of non-
+biodegradable micro plastic. Fines may be imposed on those who are careless in this matter. Government 
+should finance start-ups in this area and motivate them towards a clean India and world. 
+13. Conclusion 
+Like every drop makes an ocean, every cigarette butt adds up to the litter which amounts to 4.5 trillion 
+individual butts polluting our global environment. Due to a long history of the tobacco industry targeting, 
+low-income communities of color, they have greater smoking rates and confront systemic disparities  that 
+make it difficult for them to access health  information and resources. Furthermore, they are  
+disproportionately served by inequitable waste management,  which can exacerbate the consequences  of 
+cigarette butt pollution. Hence recycling cigarette butts makes a  sustainable innovative solution  to the 
+problem.
+
+=== PDF PAGE 7 ===
+ICSEEGT 2022
+IOP Conf. Series: Earth and Environmental Science 1084 (2022) 012027
+IOP Publishing
+doi:10.1088/1755-1315/1084/1/012027
+6
+ 
+References 
+[1] Puls, J.; Wilson, S.A.; Hölter, D. Degradation of Cellulose Acetate -Based Materials: A Review. J.  
+Polym. Environ. 2010, 19, 152–165. 8. Tchounwou, P.B. Retraction: Herndon J.M. Evidence of Coal- Fly-
+Ash Toxic Chemical Geoengineering in the Troposphere: Consequences for Public Health. Int. J. Environ. 
+Res. Public Health 2015, 12, 9375–9390. 
+[2] Novotny, T.E.; Slaughter, E. Tobacco Product Waste: An Environmental Approach to Reduce Tobacco 
+Consumption. Curr. Environ. Health Rpt. 2014, 1, 208–216. 
+[3] Green, A.L.R.; Putschew, A.; Nehls, T.; et al. Littered cigarette butts as a source of nicotine in urban  
+waters. J. Hydrol. 2014, 519, 3466–3474 
+[4] Potentially toxic elements leachate from cigarette butts into different types of water: A threat for aquatic 
+environments and ecosystems? Akhbarizadeh, R., Dobaradaran, S., Parhizgar, G., Schmidt, T.C., Mallaki, 
+R. 2021, Environmental Research 
+[5] Recycling Waste Cigarette Butts in Dense Graded Asphalt Tareq Rahman, M., Mohajerani, A.2021  
+Journal of Materials in Civil Engineering Smoked cigarette butts: Unignorably source for environmental 
+micro plastic fibers, Shen, M., Li,Y., Song, B., (...), Gong, J., Zeng, G.2021, Science of the Total 
+[6] Environment Converting the cigarette butts into valuable products using the pyrolysis process, 
+Hazbehiean, M., Mokhtarian, N., Hallajisani, A.,2022, Global Journal of Environmental Science and  
+Management 
+[7] Murugan, K.; Suresh, U.; Panneerselvam, C.; Rajaganesh, R.; Roni, M.; Aziz, A.T.; Hwang, J. -S.; 
+Sathish Kumar, K.; Rajasekar, A.; Higuchi, A.; et al. Managing wastes as green resources: Cigarette butts 
+synthesized pesticides are highly toxic to malaria vectors with little impact on predatory copepods. Environ. 
+Sci. Pollut. Res. 2017, 25, 10456–10470. 
+[8] A second life for cigarette butts? A review of recycling solutions, Marinello S., Lolli F., GamberiniR., 
+Rimini B., (2020) Journal of Hazardous Materials, 384, art. no. 121245 
+ [9] Selmar, D.; Radwan, A.; Abdalla, N.; Taha, H.; Wittke, C.; El -Henawy, A.; Alshaal, T.; Amer, M.;  
+Kleinwächter, M.; Nowak, M.; et al. Uptake of nicotine from discarded cigarette butts —A so far  
+unconsidered path of contamination of plant-derived commodities. Environ. Pollut. 2018, 238, 972– 976. 
+ 

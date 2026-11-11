@@ -1,0 +1,843 @@
+{
+  "date": "2026-11-08",
+  "search_content_calls": 24,
+  "linked_binary_transfers": 8,
+  "pdf_files": 8,
+  "note": "File counts are not review-completion or closed-gap counts.",
+  "calls": [
+    {
+      "receipt": "receipts/01-fr3066128b1.json",
+      "source_url": "https://patents.google.com/patent/FR3066128B1/fr",
+      "status": "saved_content",
+      "error": "",
+      "truncated": false
+    },
+    {
+      "receipt": "receipts/02-fr3066128b1-html.json",
+      "source_url": "https://patents.google.com/patent/FR3066128B1/fr",
+      "status": "saved_html",
+      "error": "",
+      "truncated": false
+    },
+    {
+      "receipt": "receipts/03-ineris2017.json",
+      "source_url": "https://www.ineris.fr/sites/default/files/contribution/Documents/INERIS-DRC-17-162405-01313C%20Rapport%20%C3%A9tude%20m%C3%A9gots_vf.pdf",
+      "status": "saved_content",
+      "error": "",
+      "truncated": false
+    },
+    {
+      "receipt": "receipts/04-ineris2019-search.json",
+      "source_url": "",
+      "status": "search_results",
+      "error": "",
+      "truncated": false
+    },
+    {
+      "receipt": "receipts/05-teixeira-thesis.json",
+      "source_url": "https://repositorio.unb.br/handle/10482/22749?mode=full",
+      "status": "saved_content",
+      "error": "",
+      "truncated": false
+    },
+    {
+      "receipt": "receipts/06-ineris2019.json",
+      "source_url": "https://www.ineris.fr/sites/ineris.fr/files/contribution/Documents/INERIS-DRC-18-177385-09634B.pdf",
+      "status": "saved_content",
+      "error": "",
+      "truncated": false
+    },
+    {
+      "receipt": "receipts/07-thesis-links.json",
+      "source_url": "https://repositorio.unb.br/handle/10482/22749?mode=full",
+      "status": "saved_html",
+      "error": "",
+      "truncated": false
+    },
+    {
+      "receipt": "receipts/08-fr3066128a1.json",
+      "source_url": "https://patents.google.com/patent/FR3066128A1/fr",
+      "status": "saved_html",
+      "error": "",
+      "truncated": false
+    },
+    {
+      "receipt": "receipts/09-teixeira-paper.json",
+      "source_url": "https://doi.org/10.1016/j.wasman.2016.10.013",
+      "status": "error",
+      "error": "hot: SLS_NOT_FOUND; cold: SLS_NOT_FOUND; online: SLS_CRAWL_FAILED: error parsing data for \"https://doi.org/10.1016/j.wasman.2016.10.013\" in table 'crawler/v2/pages': crawler error http_code_redirect: http_code_redirect",
+      "truncated": false
+    },
+    {
+      "receipt": "receipts/10-cn106928486b.json",
+      "source_url": "https://patents.google.com/patent/CN106928486B/zh",
+      "status": "saved_html",
+      "error": "",
+      "truncated": false
+    },
+    {
+      "receipt": "receipts/11-fr3110470a1.json",
+      "source_url": "https://patents.google.com/patent/FR3110470A1/fr",
+      "status": "saved_html",
+      "error": "",
+      "truncated": false
+    },
+    {
+      "receipt": "receipts/12-fr3102180a1.json",
+      "source_url": "https://patents.google.com/patent/FR3102180A1/fr",
+      "status": "saved_html",
+      "error": "",
+      "truncated": false
+    },
+    {
+      "receipt": "receipts/13-wo2026074041a2.json",
+      "source_url": "https://patents.google.com/patent/WO2026074041A2/en",
+      "status": "saved_html",
+      "error": "",
+      "truncated": false
+    },
+    {
+      "receipt": "receipts/14-brazil-patent-search.json",
+      "source_url": "",
+      "status": "search_results",
+      "error": "",
+      "truncated": false
+    },
+    {
+      "receipt": "receipts/15-keenat-lca-search.json",
+      "source_url": "",
+      "status": "search_results",
+      "error": "",
+      "truncated": false
+    },
+    {
+      "receipt": "receipts/16-mego-lca-search.json",
+      "source_url": "",
+      "status": "search_results",
+      "error": "",
+      "truncated": false
+    },
+    {
+      "receipt": "receipts/17-korean-article.json",
+      "source_url": "https://tobaccocontrol.bmj.com/content/early/2026/07/08/tc-2026-060135",
+      "status": "error",
+      "error": "hot: SLS_NOT_FOUND; cold: SLS_NOT_FOUND; online: SLS_CRAWL_FAILED: error parsing data for \"https://tobaccocontrol.bmj.com/content/early/2026/07/08/tc-2026-060135\" in table 'crawler/v2/pages': crawler error bad_robots_code: bad_robots_code",
+      "truncated": false
+    },
+    {
+      "receipt": "receipts/18-recig-acceptance.json",
+      "source_url": "https://www.re-cig.it/en/tecnologia/",
+      "status": "saved_content",
+      "error": "",
+      "truncated": false
+    },
+    {
+      "receipt": "receipts/19-keenat-downloads.json",
+      "source_url": "https://keenat.com/contenus-telechargeables/",
+      "status": "saved_html",
+      "error": "",
+      "truncated": false
+    },
+    {
+      "receipt": "receipts/20-mego-primary.json",
+      "source_url": "https://www.me-go.fr/a-propos/",
+      "status": "saved_html",
+      "error": "",
+      "truncated": false
+    },
+    {
+      "receipt": "receipts/21-teixeira-paper-search.json",
+      "source_url": "",
+      "status": "search_results",
+      "error": "",
+      "truncated": false
+    },
+    {
+      "receipt": "receipts/22-brazil-patent-web.json",
+      "source_url": "",
+      "status": "search_results",
+      "error": "",
+      "truncated": false
+    },
+    {
+      "receipt": "receipts/23-thesis-pdf.json",
+      "source_url": "https://repositorio.unb.br/bitstream/10482/22749/1/2016_MariaBet%c3%a2niaD%e2%80%99HeniTeixeira.pdf",
+      "status": "saved_content",
+      "error": "",
+      "truncated": false
+    },
+    {
+      "receipt": "receipts/24-ineris-primary-page.json",
+      "source_url": "https://www.ineris.fr/fr/etude-filieres-recyclage-megots-cigarettes",
+      "status": "saved_content",
+      "error": "",
+      "truncated": false
+    }
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "retrieval_date": "2026-11-08",
+      "source_url": "",
+      "bytes": 2216,
+      "sha256": "1e0c36fc0fef4a9d5c9606d63efe9f32e86c10feb9c1628ca832960b3b6ca7a9",
+      "status": "saved"
+    },
+    {
+      "path": "literature/05-teixeira-thesis.fetched.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://repositorio.unb.br/handle/10482/22749?mode=full",
+      "bytes": 6774,
+      "sha256": "e620f0d384752b38472a00afaafb6d798162d8a219c6a360e1345aa75a76a0d7",
+      "status": "saved"
+    },
+    {
+      "path": "literature/07-thesis-links.html",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://repositorio.unb.br/handle/10482/22749?mode=full",
+      "bytes": 38337,
+      "sha256": "465d046028c24ffcbcf7b124bcb0b316443c4a5169d7da974e1bd7910f1dd105",
+      "status": "saved"
+    },
+    {
+      "path": "literature/07-thesis-links.mirror.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://repositorio.unb.br/handle/10482/22749?mode=full",
+      "bytes": 6501,
+      "sha256": "765aaf88aac68326b23963f67828b449713a43bb91fb74bf498512c440f8bd05",
+      "status": "saved"
+    },
+    {
+      "path": "literature/23-thesis-pdf.fetched.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://repositorio.unb.br/bitstream/10482/22749/1/2016_MariaBet%c3%a2niaD%e2%80%99HeniTeixeira.pdf",
+      "bytes": 200678,
+      "sha256": "ccf323d1d430b6d1281f3233cb5bab2567bcf235c276a80765bc5747209d6b0d",
+      "status": "saved"
+    },
+    {
+      "path": "literature/Teixeira-2016-UnB-thesis.pdf",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://repositorio.unb.br/bitstream/10482/22749/1/2016_MariaBet%c3%a2niaD%e2%80%99HeniTeixeira.pdf",
+      "bytes": 2056296,
+      "sha256": "1f44dfd3c927b1e6b7ec7ceae208466b7c7a8be1935b1e7a07346cc2ae7d8045",
+      "status": "pdf_signature_valid"
+    },
+    {
+      "path": "literature/Teixeira-2016-UnB-thesis.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://repositorio.unb.br/bitstream/10482/22749/1/2016_MariaBet%c3%a2niaD%e2%80%99HeniTeixeira.pdf",
+      "bytes": 236408,
+      "sha256": "a7b6992f44c2b6d5aa58fba583b4f2d8a96ec4b013a86b2a7ecdb8762d0f112c",
+      "status": "saved"
+    },
+    {
+      "path": "patents/CN106928486B.description-claims.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patents.google.com/patent/CN106928486B/zh",
+      "bytes": 12062,
+      "sha256": "1dd41c4a7099dbd86949488452b4c52266514444564f8df311a799175aab74f8",
+      "status": "saved"
+    },
+    {
+      "path": "patents/CN106928486B.html",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patents.google.com/patent/CN106928486B/zh",
+      "bytes": 91156,
+      "sha256": "3d818d2248f725dbdb0c82272c02a66928178fbb4550c5dd6388e0e60de1f42b",
+      "status": "saved"
+    },
+    {
+      "path": "patents/CN106928486B.mirror.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patents.google.com/patent/CN106928486B/zh",
+      "bytes": 22765,
+      "sha256": "65c6fc63b73c9cb3638e99c82b2b31bf35b41e86bd80dd457f80201980e6a008",
+      "status": "saved"
+    },
+    {
+      "path": "patents/CN106928486B.pdf",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patentimages.storage.googleapis.com/b1/85/71/2006ea00c0b287/CN106928486B.pdf",
+      "bytes": 588720,
+      "sha256": "776e1b7f49ebc6581c04493b28f233e464d71dfe0e64c5b1f7b6fa3bbf700bba",
+      "status": "pdf_signature_valid"
+    },
+    {
+      "path": "patents/CN106928486B.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patentimages.storage.googleapis.com/b1/85/71/2006ea00c0b287/CN106928486B.pdf",
+      "bytes": 18063,
+      "sha256": "38b1426ca1fa6ebe92f3624754a48b301bfc12088c4af48affaf20ef0365a722",
+      "status": "saved"
+    },
+    {
+      "path": "patents/FR3066128A1.description-claims.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patents.google.com/patent/FR3066128A1/fr",
+      "bytes": 21799,
+      "sha256": "122c2d83d2905e0873412830789d6c447a0bd024236557e8402f31e0ed88a1b6",
+      "status": "saved"
+    },
+    {
+      "path": "patents/FR3066128A1.html",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patents.google.com/patent/FR3066128A1/fr",
+      "bytes": 371409,
+      "sha256": "a0ca7add0ee3631741f58b345b2df2feb2dc65f23f2f9604e51676d7c1bc86ed",
+      "status": "saved"
+    },
+    {
+      "path": "patents/FR3066128A1.mirror.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patents.google.com/patent/FR3066128A1/fr",
+      "bytes": 35742,
+      "sha256": "d6076450511791da49d9eaff64ab536c5a2df989ef537cc15423ca8a8b15244b",
+      "status": "saved"
+    },
+    {
+      "path": "patents/FR3066128A1.pdf",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patentimages.storage.googleapis.com/7f/62/bd/199786b023309f/FR3066128A1.pdf",
+      "bytes": 289872,
+      "sha256": "132c9fdaa0803fba6ccb104794580cfe0a12ac83feb0e6a3d7ea8389f2af264c",
+      "status": "pdf_signature_valid"
+    },
+    {
+      "path": "patents/FR3066128A1.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patentimages.storage.googleapis.com/7f/62/bd/199786b023309f/FR3066128A1.pdf",
+      "bytes": 37892,
+      "sha256": "974ea7fc22baa19df0533c8e337b26bd3ce006d0ef9234c7e84df039e09f06e7",
+      "status": "saved"
+    },
+    {
+      "path": "patents/FR3066128B1.description-claims.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patents.google.com/patent/FR3066128B1/fr",
+      "bytes": 21799,
+      "sha256": "996dec5405155b0f24e7779213c6bc1930c9fd087557a8a081dad423bf5da898",
+      "status": "saved"
+    },
+    {
+      "path": "patents/FR3066128B1.html",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patents.google.com/patent/FR3066128B1/fr",
+      "bytes": 371717,
+      "sha256": "3bf4fedc90cf44aa3b53a4f64b18b8254c941d2f46bf0cb70ad9d3de25270319",
+      "status": "saved"
+    },
+    {
+      "path": "patents/FR3066128B1.mirror.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patents.google.com/patent/FR3066128B1/fr",
+      "bytes": 36195,
+      "sha256": "938b5b40fcfa6153c82032990385d69da801b7012842535f141b1337286250ff",
+      "status": "saved"
+    },
+    {
+      "path": "patents/FR3066128B1.pdf",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patentimages.storage.googleapis.com/9f/56/9b/08c269c1f6f82c/FR3066128B1.pdf",
+      "bytes": 284997,
+      "sha256": "c34f56fff539a57765ae393a9bc85885c838c64682af7305b4fccb0b5fa72ba9",
+      "status": "pdf_signature_valid"
+    },
+    {
+      "path": "patents/FR3066128B1.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patentimages.storage.googleapis.com/9f/56/9b/08c269c1f6f82c/FR3066128B1.pdf",
+      "bytes": 30992,
+      "sha256": "41149ef9c00afdc67bd9e2a7397106a24381bc0999fc93ca7230165de6d6a691",
+      "status": "saved"
+    },
+    {
+      "path": "patents/FR3102180A1.description-claims.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patents.google.com/patent/FR3102180A1/fr",
+      "bytes": 61672,
+      "sha256": "edc15c0b8bbb69933681156eb9550494c04694825cd5d8562a1e7dd9a89788c6",
+      "status": "saved"
+    },
+    {
+      "path": "patents/FR3102180A1.html",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patents.google.com/patent/FR3102180A1/fr",
+      "bytes": 473415,
+      "sha256": "e46e982f00edb8ed3aebb7ffbe9b4ed6bbe844b2ad34dbdef811c44310bb5b7a",
+      "status": "saved"
+    },
+    {
+      "path": "patents/FR3102180A1.mirror.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patents.google.com/patent/FR3102180A1/fr",
+      "bytes": 78674,
+      "sha256": "e92e70109e4c006f0a9e4b0456ba27d788ecb801e195c840173a01caf62fc925",
+      "status": "saved"
+    },
+    {
+      "path": "patents/FR3102180A1.pdf",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patentimages.storage.googleapis.com/6f/5f/a5/c0b8b8e7e470c1/FR3102180A1.pdf",
+      "bytes": 1469111,
+      "sha256": "f4715ae862672e13d4dda650a535f477e471c9af7dc4ae410c41c5cc33e1586f",
+      "status": "pdf_signature_valid"
+    },
+    {
+      "path": "patents/FR3102180A1.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patentimages.storage.googleapis.com/6f/5f/a5/c0b8b8e7e470c1/FR3102180A1.pdf",
+      "bytes": 29,
+      "sha256": "ee89dced643ff39471492ff594e91d79b125828b6d956430fb40cd20ec0d96f0",
+      "status": "sparse_or_empty_text_not_searchable"
+    },
+    {
+      "path": "patents/FR3110470A1.description-claims.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patents.google.com/patent/FR3110470A1/fr",
+      "bytes": 26339,
+      "sha256": "1f06074e37c3421aedd9bd22562e50443785b14602d0fbc79b383f6dbde8963e",
+      "status": "saved"
+    },
+    {
+      "path": "patents/FR3110470A1.html",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patents.google.com/patent/FR3110470A1/fr",
+      "bytes": 131916,
+      "sha256": "a9f3213b65a47a7e0e8f114401006f5e982b3745c4c3b63efab01b3eb92e4c76",
+      "status": "saved"
+    },
+    {
+      "path": "patents/FR3110470A1.mirror.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patents.google.com/patent/FR3110470A1/fr",
+      "bytes": 40664,
+      "sha256": "1efd840bd453ac09f7cd6ac6dcb3e61bc676f22c6463c4f6a8354602387f0941",
+      "status": "saved"
+    },
+    {
+      "path": "patents/FR3110470A1.pdf",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patentimages.storage.googleapis.com/ca/95/90/d29e5f54a1957d/FR3110470A1.pdf",
+      "bytes": 668550,
+      "sha256": "bd840fe7ff9c8c85329e59223984caefcda76b2eb852d002e234c2fd58eacc02",
+      "status": "pdf_signature_valid"
+    },
+    {
+      "path": "patents/FR3110470A1.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patentimages.storage.googleapis.com/ca/95/90/d29e5f54a1957d/FR3110470A1.pdf",
+      "bytes": 14,
+      "sha256": "bac73e8e5d0502cae3490d5e2a0617d2a437fb20599903f18494f207e4f80cdc",
+      "status": "sparse_or_empty_text_not_searchable"
+    },
+    {
+      "path": "patents/WO2026074041A2.description-claims.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patents.google.com/patent/WO2026074041A2/en",
+      "bytes": 89413,
+      "sha256": "0fa58935866e99ab3ece19872e372ae4576d10d5dd229577c5d489eeb44c9b12",
+      "status": "saved"
+    },
+    {
+      "path": "patents/WO2026074041A2.html",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patents.google.com/patent/WO2026074041A2/en",
+      "bytes": 451655,
+      "sha256": "fa9372d9377007d1ed85cf9d38d8c60f797da85adeb681b4138bf4b6e6d5a7ce",
+      "status": "saved"
+    },
+    {
+      "path": "patents/WO2026074041A2.mirror.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patents.google.com/patent/WO2026074041A2/en",
+      "bytes": 100915,
+      "sha256": "267ef707331ab413c6f316f3cbe3c79f9195fa1492193d0f43c5f508d8fb849c",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/01-fr3066128b1.json",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patents.google.com/patent/FR3066128B1/fr",
+      "bytes": 39212,
+      "sha256": "21c32c35ca1815f7070479759fbcb1e45b7360051e078f63ed4c7518ac54fb9a",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/02-fr3066128b1-html.json",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patents.google.com/patent/FR3066128B1/fr",
+      "bytes": 389310,
+      "sha256": "20c46dadc0af5282f2774bf23349e2b2ae3396a85d3454448b42cb3ee235edf7",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/03-ineris2017.json",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://www.ineris.fr/sites/default/files/contribution/Documents/INERIS-DRC-17-162405-01313C%20Rapport%20%C3%A9tude%20m%C3%A9gots_vf.pdf",
+      "bytes": 163181,
+      "sha256": "186e6e275f7c56dc979a8561c10ebd4abd22ec096d2f28769631f46fb7224e9c",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/04-ineris2019-search.json",
+      "retrieval_date": "2026-11-08",
+      "source_url": "",
+      "bytes": 10739,
+      "sha256": "776d56929d461c4b8ed8458de87d669e8a32ff6df6004fc63f8a3f40284d9911",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/05-teixeira-thesis.json",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://repositorio.unb.br/handle/10482/22749?mode=full",
+      "bytes": 7340,
+      "sha256": "22fc472c65f7e6d2c80747bf90a09d5aa19c55b4db349d8ca65b78d1d0e86b9b",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/06-ineris2019.json",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://www.ineris.fr/sites/ineris.fr/files/contribution/Documents/INERIS-DRC-18-177385-09634B.pdf",
+      "bytes": 181831,
+      "sha256": "fda5d91443f28c5a4d77463082a7015908648c3a8f2e6ac503c81c7cdd97c70b",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/07-thesis-links.json",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://repositorio.unb.br/handle/10482/22749?mode=full",
+      "bytes": 41501,
+      "sha256": "44afe9edb6951ce00ea3ecfb9c4702b1d1b9a7ea8c4236fc39fddb4aa1f2dfe2",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/08-fr3066128a1.json",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patents.google.com/patent/FR3066128A1/fr",
+      "bytes": 389014,
+      "sha256": "5a56f6d156e6180e7ded7618dbf96be431fe6fc2f075fdc220bcc6c72abf4eca",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/09-teixeira-paper.json",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://doi.org/10.1016/j.wasman.2016.10.013",
+      "bytes": 340,
+      "sha256": "bb428f1748b446160f194c9b4a965e207a3efc16deaabafab4fda1aa157d0d6b",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/10-cn106928486b.json",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patents.google.com/patent/CN106928486B/zh",
+      "bytes": 95996,
+      "sha256": "bb8a575fd7a37d31841b527c863e5ecfaae78680b300acaec6f22c83f48b21e2",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/11-fr3110470a1.json",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patents.google.com/patent/FR3110470A1/fr",
+      "bytes": 138762,
+      "sha256": "012fef363f4550fb7fa6269f453a25280c444e52dc50397aaa897ac660e01fb6",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/12-fr3102180a1.json",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patents.google.com/patent/FR3102180A1/fr",
+      "bytes": 494734,
+      "sha256": "49de3321b8e1da6b241c0e89a99f080c5add5ee9e9d9d8084eb1f3d79805046d",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/13-wo2026074041a2.json",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patents.google.com/patent/WO2026074041A2/en",
+      "bytes": 470700,
+      "sha256": "90194967ddcc412f4750d24a0495725d563789407c2ab8a68af0035d161baa1a",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/14-brazil-patent-search.json",
+      "retrieval_date": "2026-11-08",
+      "source_url": "",
+      "bytes": 17,
+      "sha256": "c60babcf7cf64f4ef90331f8a2bf8b0244a699ba55bab374cc748653b7f214b2",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/15-keenat-lca-search.json",
+      "retrieval_date": "2026-11-08",
+      "source_url": "",
+      "bytes": 18146,
+      "sha256": "6e95fca946d526ed2143195bdfe60fb8fae97e860dba44194d80248e273af2ff",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/16-mego-lca-search.json",
+      "retrieval_date": "2026-11-08",
+      "source_url": "",
+      "bytes": 10852,
+      "sha256": "7659be897eb4d0fd6eb1961d476b4e68020a1a5410a9ef4a22e27e740ed8a6a5",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/17-korean-article.json",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://tobaccocontrol.bmj.com/content/early/2026/07/08/tc-2026-060135",
+      "bytes": 386,
+      "sha256": "e0880f345ae2a73735b31f7ee6cc27a794ab925c28ccbbf31dcf2c5b5d013e41",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/18-recig-acceptance.json",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://www.re-cig.it/en/tecnologia/",
+      "bytes": 5068,
+      "sha256": "ebf51d3b3d01c200ee1b98019dda2e656021d622daec25b94ad4d2495916c8b2",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/19-keenat-downloads.json",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://keenat.com/contenus-telechargeables/",
+      "bytes": 164342,
+      "sha256": "c40ea6543d1c33c8f899b133b6728aed5bebd603212d20cb50e34c58c255f844",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/20-mego-primary.json",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://www.me-go.fr/a-propos/",
+      "bytes": 195624,
+      "sha256": "9a25ec210c866449fed5bbec2db1bb90e8d7f7bf2eceb68ac767a3e21085dc4e",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/21-teixeira-paper-search.json",
+      "retrieval_date": "2026-11-08",
+      "source_url": "",
+      "bytes": 6257,
+      "sha256": "1355e337f26c4be128cd8efdd1d1ad01a22dbf59e3b505b5c5f0f719b4e19249",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/22-brazil-patent-web.json",
+      "retrieval_date": "2026-11-08",
+      "source_url": "",
+      "bytes": 13627,
+      "sha256": "c5843b1df373c015cc62af519f17b46a2710500cdebbd319b78777f97f247fb0",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/23-thesis-pdf.json",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://repositorio.unb.br/bitstream/10482/22749/1/2016_MariaBet%c3%a2niaD%e2%80%99HeniTeixeira.pdf",
+      "bytes": 206774,
+      "sha256": "181fd656d3b392a09f42a849eb2b1140617267772de644495ddb65e9b937518a",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/24-ineris-primary-page.json",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://www.ineris.fr/fr/etude-filieres-recyclage-megots-cigarettes",
+      "bytes": 1573,
+      "sha256": "fd27ff3ae191881864b05bc3308560a35c01e0397dae6700c5c9935f2f7e08e8",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/CN106928486B.headers.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "",
+      "bytes": 717,
+      "sha256": "864bbffa2e85c817b2b6ae8f3f73537e6e997c24bd2d6ab1a10667dc06df1d33",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/FR3066128A1.headers.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "",
+      "bytes": 724,
+      "sha256": "9476dcb310f8ae60b91c0725008801e3b881f67f800b9778779a40ddad00bd41",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/FR3066128B1-download.headers.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "",
+      "bytes": 724,
+      "sha256": "23f5a7be0ca9dbf5bdf5f0a8a851466d4e368d2fba7543613b22b2917572149b",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/FR3102180A1.headers.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "",
+      "bytes": 726,
+      "sha256": "61553a711a7c7931ffa4aab76cdfcd09ba476cda1146b00fa3d63db46ac66659",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/FR3110470A1.headers.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "",
+      "bytes": 724,
+      "sha256": "a49660e9a896f74c49cc7190ba7582077c87aaff969d152ae481d0964ae8303c",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/INERIS-2017-download.headers.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "",
+      "bytes": 524,
+      "sha256": "4553cd348c4bc9bc44192059a43ad5b87e6b4ebc6a8191af946fdd3603781c0d",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/INERIS-DRC-18-177385-09634B-2019.headers.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "",
+      "bytes": 977,
+      "sha256": "3410ee8c1daa4938ff8391c51e428f95911cdf8988a58caeb61bc5ee5e46c134",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/Teixeira-2016-UnB-thesis.headers.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "",
+      "bytes": 305,
+      "sha256": "53d705353afe48237cb2d02198d2f72e953bbcf6020c6726f2b61c1681957f6f",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/build-inventory.py",
+      "retrieval_date": "2026-11-08",
+      "source_url": "",
+      "bytes": 3778,
+      "sha256": "1f5156c1226249266a0102d4cab5e3d96f9070491c98cdc544c1fb9928de262f",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/download-linked-files.py",
+      "retrieval_date": "2026-11-08",
+      "source_url": "",
+      "bytes": 3694,
+      "sha256": "aab13ef68c791836dbf589b66ad635e196f85ef11838369b0c57435e76b766a7",
+      "status": "saved"
+    },
+    {
+      "path": "receipts/downloads.json",
+      "retrieval_date": "2026-11-08",
+      "source_url": "",
+      "bytes": 5279,
+      "sha256": "524bbe5a1a96036db751f877eeb05b7ca089c8877cc800a9652f5e1886706db9",
+      "status": "saved"
+    },
+    {
+      "path": "reports/01-fr3066128b1.fetched.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://patents.google.com/patent/FR3066128B1/fr",
+      "bytes": 37364,
+      "sha256": "fdbef65354d5dbd62711e5807d64b451e43589cc35acb3607c96b299058b1760",
+      "status": "saved"
+    },
+    {
+      "path": "reports/03-ineris2017.fetched.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://www.ineris.fr/sites/default/files/contribution/Documents/INERIS-DRC-17-162405-01313C%20Rapport%20%C3%A9tude%20m%C3%A9gots_vf.pdf",
+      "bytes": 156548,
+      "sha256": "496ad4e49cd0499787357b7c9f6a4cd3c4a9b0bed7553066caeafed070f6e72d",
+      "status": "saved"
+    },
+    {
+      "path": "reports/06-ineris2019.fetched.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://www.ineris.fr/sites/ineris.fr/files/contribution/Documents/INERIS-DRC-18-177385-09634B.pdf",
+      "bytes": 177000,
+      "sha256": "0df0de3160a50dfb054a1bd424c9cd1886e2de5285eda66c2abef8e792b4c97c",
+      "status": "saved"
+    },
+    {
+      "path": "reports/18-recig-acceptance.fetched.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://www.re-cig.it/en/tecnologia/",
+      "bytes": 4610,
+      "sha256": "728aeec877f6e5664062e82649a2d29dbe5e363be0cdbc0efee300ca8c947d10",
+      "status": "saved"
+    },
+    {
+      "path": "reports/19-keenat-downloads.html",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://keenat.com/contenus-telechargeables/",
+      "bytes": 149235,
+      "sha256": "db38a1920f387036ff9d661a36bdb02a7358c333b911d4616101b85cae3d7403",
+      "status": "saved"
+    },
+    {
+      "path": "reports/19-keenat-downloads.mirror.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://keenat.com/contenus-telechargeables/",
+      "bytes": 2193,
+      "sha256": "ce4b99bfe9bfad8445113bdd8c8ffa0c4466bdcaa25d8685520323005442b791",
+      "status": "saved"
+    },
+    {
+      "path": "reports/20-mego-primary.html",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://www.me-go.fr/a-propos/",
+      "bytes": 184068,
+      "sha256": "7ff710e5bc7f41536425e6f727b8897da25ecfa7313d58014d960a39a01a0a10",
+      "status": "saved"
+    },
+    {
+      "path": "reports/20-mego-primary.mirror.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://www.me-go.fr/a-propos/",
+      "bytes": 8563,
+      "sha256": "7c640a119fc46adec6e80b8662a0cb8b65999c320f02faecc01a6504a1a92119",
+      "status": "saved"
+    },
+    {
+      "path": "reports/24-ineris-primary-page.fetched.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://www.ineris.fr/fr/etude-filieres-recyclage-megots-cigarettes",
+      "bytes": 1184,
+      "sha256": "e4353fe64c012d59008f08a466d782ba88c3d3e32bca089f2e63cebf9b779dde",
+      "status": "saved"
+    },
+    {
+      "path": "reports/INERIS-DRC-17-162405-01313C-2017.pdf",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://www.ineris.fr/sites/default/files/contribution/Documents/INERIS-DRC-17-162405-01313C%20Rapport%20%C3%A9tude%20m%C3%A9gots_vf.pdf",
+      "bytes": 11903755,
+      "sha256": "3fed337796bb8b38f57a15d856e0c490b5d712ca44baaefb3f80bfe8a7cef984",
+      "status": "pdf_signature_valid"
+    },
+    {
+      "path": "reports/INERIS-DRC-17-162405-01313C-2017.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://www.ineris.fr/sites/default/files/contribution/Documents/INERIS-DRC-17-162405-01313C%20Rapport%20%C3%A9tude%20m%C3%A9gots_vf.pdf",
+      "bytes": 240814,
+      "sha256": "36720ed1fd2ed4715a1e07d58a7b0c48fa0d3bf3661deea99b749a1b83d6de93",
+      "status": "saved"
+    },
+    {
+      "path": "reports/INERIS-DRC-18-177385-09634B-2019.pdf",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://www.ineris.fr/sites/ineris.fr/files/contribution/Documents/INERIS-DRC-18-177385-09634B.pdf",
+      "bytes": 3147825,
+      "sha256": "40bea5d98fad510de375af169879c5d87f9e96e34ca452500a7fbcf990eb90d9",
+      "status": "pdf_signature_valid"
+    },
+    {
+      "path": "reports/INERIS-DRC-18-177385-09634B-2019.txt",
+      "retrieval_date": "2026-11-08",
+      "source_url": "https://www.ineris.fr/sites/ineris.fr/files/contribution/Documents/INERIS-DRC-18-177385-09634B.pdf",
+      "bytes": 213770,
+      "sha256": "7a846f9416a3f0d0a47e7403811983c7bd7463eb9b6bb1c5ec47e187fb65f306",
+      "status": "saved"
+    }
+  ]
+}

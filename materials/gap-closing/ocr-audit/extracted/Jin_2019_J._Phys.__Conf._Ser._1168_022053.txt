@@ -1,0 +1,477 @@
+=== PDF FILE: Jin_2019_J._Phys.__Conf._Ser._1168_022053.pdf ===
+sha256: 135930e93ca91568d302752c7afae1a89c812e3870ea1091802b887b4f05caed
+pages: 8
+printed_page_labels: PDF p.1=printed 1, PDF p.2=printed 2, PDF p.3=printed 3, PDF p.4=printed 4, PDF p.5=printed 5, PDF p.6=printed 6, PDF p.7=printed 7, PDF p.8=printed 8
+
+=== PDF PAGE 1 ===
+Journal of Physics:
+Conference Series
+       
+PAPER • OPEN ACCESS
+Research on the road performance of cigarette
+butts modified asphalt mixture
+To cite this article: Jimei Jin et al 2019 J. Phys.: Conf. Ser. 1168 022053
+ 
+View the article online for updates and enhancements.
+You may also like
+The water stability research of the rubber
+powder-modified asphalt mixture
+Jie Sun, Xi Lv, Yao Zhang et al.
+-
+Experimental study on high-temperature
+stability of rubber powder-modified Asphalt
+mixture
+Jie Sun, Bingyan Wei, Yao Zhang et al.
+-
+Improving the tensile strength and
+durability of asphalt concrete as
+sustainable surface layer
+Yassir Nashaat A. Kareem and
+Mohammed Abbas Al-jumaili
+-
+ 
+This content was downloaded from IP address 195.43.22.141 on 08/11/2026 at 18:39
+
+=== PDF PAGE 2 ===
+Content from this work may be used under the terms of the Creative Commons Attribution 3.0 licence. Any further distribution
+of this work must maintain attribution to the author(s) and the title of the work, journal citation and DOI.
+Published under licence by IOP Publishing Ltd
+CISAT 2018
+IOP Conf. Series: Journal of Physics: Conf. Series 1168 (2019) 022053
+IOP Publishing
+doi:10.1088/1742-6596/1168/2/022053
+1
+ 
+ 
+Research on the road performance of cigarette butts modified 
+asphalt mixture 
+Jimei Jin1, ZhaorongWu1*, JinSong1, Xue Liu2 
+1Department of Transportation Engineering, Tongji Zhejiang College, Jiaxing, 
+Zhejiang, 314051, China 
+2 Jiaxing traffic engineering quality and safety supervision station, Jiaxing, Zhejiang, 
+314001, China 
+*Corresponding author’s email:wuzhaorong110@126. com 
+Abstract. In the view of that similarity of butts and plastic material, like thermosets 
+and thermoplastics , it is inferred that it can be used to make the modified asphalt 
+mixture. Such as rubber powder and waste plastic, by research results, according to the 
+waste cigarette butts main composition and the principle of preparation of modified 
+asphalt mixture, our team developed the old cigarette butts, modified asphalt mixture 
+with the concept of sustainable development of env ironmental resources. With 
+ordinary asphalt mixture Marshall test and rutting test data contrast, prove that 
+cigarette butts as a new kind of modifier in asphalt mixture has a broad development 
+prospect and space. 
+1. Introduction 
+The use of recyclable materials for road construction has been widely studied , but the cigarette butt as 
+a new renewable plastic material has not been officially developed in China . Foreign countries, such 
+as Australia and Brazil , had used cigarette butts to mak e construction materials, and the recycling of 
+cigarette butts has been carried out in foreign countries . In the same way , cigarette butts have very 
+high exploitability in China. So, this paper compares the properties of modified bituminous mixtures 
+and ordinary bituminous mixtures.  
+2. Material and Methods 
+2.1 Reasons for selection of modifier 
+As the cigarette butt is mainly composed of acetate fiber and polypropylene fiber bu ndles, the specific 
+composition, and related properties are as follows: 
+⚫ Polypropylene: A semi-crystalline thermoplastic , plastic with strong mechanical properties 
+and high impact resistance, resistant to a variety of organic solvents and acid-base corrosion.  
+⚫ Acetate fibre: Thermoplastic resin and porous membrane material are characterized by high 
+selectivity, high water permeability and simple processing [1].  
+⚫ Melting point: 164~170℃.  
+⚫ Green benefits: Environmental protection, energy conservation, and emission reduction 
+Therefore, cigarette butts are selected as a modifier in this experiment.  
+
+=== PDF PAGE 3 ===
+CISAT 2018
+IOP Conf. Series: Journal of Physics: Conf. Series 1168 (2019) 022053
+IOP Publishing
+doi:10.1088/1742-6596/1168/2/022053
+2
+ 
+ 
+2.2 Treatment of modifier 
+In this experiment, recycled waste cigarette butts were used as a new modifier to be mixed with 
+asphalt mixture. The new modifier was combined with ore mixture by artificial shear to make asphalt 
+mixture, and the parameters were compared with the control group. 
+⚫ Pre-processing method of cigarette butts: manual skinning and cutting with scissors for about 
+0. 6mm cigarette butts.  
+⚫ Determination of cigarette butts drying temperature: select temperature is 105℃.  
+⚫ Selection of cigarette butt input method: the external mixing method is selected to put the 
+butt into stone to make modified asphalt mixture.  
+⚫ Determination of the optimal content of cigarette butt: control the factors other than the 
+amount of cigarette butt during the mixing of asphalt mixture [2].  
+2.3 The asphalt performance 
+The penetration test, ductility test, and softening point test obtained the experimental data of No.70 
+asphalt, as shown in table 1 below. 
+Table 1. Three indexes of test asphalt 
+Item  Penetration (25℃, 0. 1mm) Ductility (15℃. cm) Softening point (℃) 
+Normal 60~80 > 20 >46 
+Measured 60. 04 >100 49. 9 
+2.4 Target mixture proportion design of plain asphalt mixture 
+2.4.1 Determi ne the mixture type and scope of gradation . The Marshall specimens are graded 
+asAC-13C, as shown in table2 below. 
+Table 2. Recommended values for technical requirements of AC-13C asphalt mixtures 
+Gradation 
+type 16 13. 2 9. 5 4. 75 2, 36 1. 18 0. 6 0. 3 0. 15 0. 075 
+AC-13 100 90~100 60~80 38~49 24~35 15~25 10~19 7~15 5~12 4~8 
+2.4.2 Select raw materials. The relative mass of coarse and fine aggregate was measured by the net 
+basket method and the volumetric flask method, and table 3 was calculated. 
+Table 3. The relative density of ore 
+Aggregate number Apparent relative density(g/cm³) Bulk specific gravity(g/cm³) Water absorption  (%) 
+No. 1 2. 830 2. 710 1. 25 
+No. 2 2. 806 2. 680 1. 30 
+aggregate chips 2. 656 2. 677 —— 
+Mineral powder 2. 644 2. 644 —— 
+2.4.3 Select mineral aggregate gradation. According to the test results of the mineral mixture, the 
+synthetic apparent relative density of mineral mixture was calculated from table 4 and figure 1. The 
+results are shown in table 5. Finally, gravel No. 1, No. 2, aggregate chips and mineral powder were 
+divided into 16%, 23%, 55%, and 6% respectively. 
+Table 4. Results of a screening test of ore 
+Aggregate 
+number 
+Percentage passing through the following screen hole (mm) (%) 
+16 13.2 9.5 4.75 2.36 1.18 0.6 0.3 0.15 0.075 
+No. 1 100 88.4 18.6 0.1 0 0 0 0 0 0 
+
+=== PDF PAGE 4 ===
+CISAT 2018
+IOP Conf. Series: Journal of Physics: Conf. Series 1168 (2019) 022053
+IOP Publishing
+doi:10.1088/1742-6596/1168/2/022053
+3
+ 
+ 
+No. 2 100 100 97.7 6.7 0.6 0.3 0.2 0.1 0 0 
+aggregate 
+chips 100 100 100 93.6 64.1 40.8 22.4 11 5.1 2.9 
+mineral 
+powder 100 100 100 100 100 100 100 99.4 98.2 87.6 
+ 
+Table 5. Related synthetic densities of mineral mixtures 
+Aggregate contents (%) 
+The dosage of 
+mineral powder (%) 
+Synthetic 
+apparent relative 
+density
+sa  
+Volume relative 
+density of synthetic 
+wool
+sb  
+Effective relative 
+density
+se  No.1 No.2 aggregate chips 
+16 23 55 6 2. 716 2. 680 2. 725 
+ 
+ 
+Figure 1. Curves of mineral composition grading 
+2.4.4 Measure physical and mechanical indexes of specimens . According to the experience of similar 
+experiments, the five types of asphalt dosage are prepared, including 4 . 2%, 4.5%, 4.8%, 5.1% and 
+5.4%. The test data are summarized in table 6.  
+ 
+Table 6. Table of volume parameters of Marshall test - summary of test results of mechanical indexes 
+Aggregate 
+grading type 
+Amount of  
+asphalt (%) 
+Stability 
+(kN) 
+Flow 
+value 
+(mm) 
+V oid age 
+(%) 
+Clearance 
+rate(%) 
+Storability 
+(%) 
+Density 
+(g/cm2) 
+AC-13 
+4. 2 8. 55 2. 0 5. 7 15. 7 67. 3 2. 373 
+4. 5 10. 78 3. 0 5. 6 14. 9 65. 7 2. 389 
+4. 8 13. 56 3. 9 5. 2 15. 2 65. 0 2. 395 
+5. 1 10. 42 4. 0 4. 7 15. 5 69. 4 2. 395 
+5. 4 8. 44 3. 3 3. 0 16. 7 74. 9 2. 393 
+2.4.5 Determine the optimum asphalt content. 
+0.075 0.15 0.30.6 1.18 2.36 4.75 9.5 13.2 16 19 26.5 31.5
+0.0
+20.0
+40.0
+60.0
+80.0
+100.0
+synthesis of grading floor level
+upper limit specification gradation median
+
+=== PDF PAGE 5 ===
+CISAT 2018
+IOP Conf. Series: Journal of Physics: Conf. Series 1168 (2019) 022053
+IOP Publishing
+doi:10.1088/1742-6596/1168/2/022053
+4
+ 
+ 
+   
+   
+ 
+ 
+a1 a2 a3 a4 
+4. 50 4. 80 4. 90 5. 00 
+OACmax OACmin OAC1 OAC2 
+4. 95 4. 76 4. 80 4. 86 
+Optimum asphalt consumption 
+(%) 4. 83 
+bulk volume relative density of 
+OAC 2. 389 
+ 
+Figure 2. Illustration of test results of general asphalt Marshall test 
+From figure 2, the method to calculate the optimum asphalt content is as follows: 
+The asphalt content corresponding calculates the first date to the maximum density, maximum 
+stability, moderate range of porosity  and maximum saturation . OAC1 = (4. 5 + 4. 8 + 4. 9 +
+5. 0)/4 = 4. 8%, quote equation (1), and calculated by the minimum oil -stone ratio and the maximum 
+ratio of OAC2 = (OACmin + OACmax⁡)/2 = 4. 86% , quote e quation (2) , the optimum asphalt 
+content⁡OAC = (OAC1 + OAC2)/2 = 4. 83%, quote equation (3). It is expected that there may be a rut, 
+so the best asphalt content of OAC is 4.8%.  
+(1) 
+(2) 
+(3) 
+2.4.6 Road performance test. Road performance test refers to rut test, and the stability and flow value 
+of Marshall specimen are shown in figure 8 and 7. 
+2.5 Target mixture proportion design of cigarette modified bitumen mixture  
+2.5.1 Determination  method of mixture type and scope of gradation .AC-13C is still used as the 
+mixture type. By mixing cigarette butt and asphalt mixture with external mixing method, the best 
+a1
+2.35
+2.36
+2.37
+2.38
+2.39
+2.4
+2.41
+4.2 4.5 4.8 5.1 5.4
+the amount of asphalt(%)
+f
+a2
+6
+8
+10
+12
+14
+4.2 4.7 5.2
+MS (KN)
+the amount of asphalt(%)
+a3
+0
+2
+4
+6
+8
+4.0 4.5 5.0 5.5 6.0
+VV (%)
+the amount of asphalt(%)
+a4
+45.0
+50.0
+55.0
+60.0
+65.0
+70.0
+75.0
+80.0
+85.0
+4.2 4.5 4.8 5.1 5.4
+VFA (%)
+the amount of asphalt(%)
+12
+13
+14
+15
+16
+17
+18
+4.2 4.5 4.8 5.1 5.4
+VMA (%)
+the amount of asphalt(%)
+0
+1
+2
+3
+4
+5
+6
+4.2 4.5 4.8 5.1 5.4
+FL (mm)
+the amount of asphalt(%)
+VFA
+VMA
+FL
+MS
+VV
+γƒ
+OAC
+min
+OAC
+max0
+1
+2
+3
+4
+5
+6
+4.2 4.5 4.8 5.1 5.4
+the amount of asphalt(%)
+1 1 2 3 4OAC =(a +a +a +a ) / 4
+2 min maxOAC =(OAC +OAC ) / 2
+12OAC=(OAC +OAC ) / 2
+
+=== PDF PAGE 6 ===
+CISAT 2018
+IOP Conf. Series: Journal of Physics: Conf. Series 1168 (2019) 022053
+IOP Publishing
+doi:10.1088/1742-6596/1168/2/022053
+5
+ 
+ 
+cigarette butt mixing amount can be obtained by changing different cigarette butt mixing amount and 
+comparing Marshall stability and flow value. 
+2.5.2 Selection and determination of raw materials. Choose cigarette end, gravel 1, 2, aggregate chips, 
+mineral powder. 
+2.5.3 The Specific method to determine the content of cigarette butt . In the beginning, three kinds of 
+cigarette butts (1%, 3% , and 5%) were prepared. Because of serious segregation when mixing the 
+mixture of 3% cigarette butts, three kinds of cigarette butts (1%, 1.5% , and 2%) were prepared again 
+for making parts, and the reasonable proportion was determined by Marshall test conclusion. 
+2.5.4 The Marshall test. As shown in figure 3, the optimal value of stability and flow value is selected, 
+so the optimal amount of cigarette butt is determined to be 2%. 
+ 
+Figure 3. Test results of Marshall test of modified asphalt mixture with a cigarette butt 
+2.5.5 Pavement performance test. For the method of  common asphalt mixture , the specific values are 
+shown in figure 6 and 7. 
+2.5.6 Conclusions. The target mixture proportion of the material of the Marshall specimens of 
+modified asphalt mixture is 16:23:55: 6:2,and the asphalt content is 4. 8%. The results of the rut test of 
+cigarette modified asphalt Marshall specimens , ordinary asphalt mixture and cigarette butt modified 
+asphalt mixture is compared as shown in figure 4 and figure 5.  
+ 
+Figure4. The sample of cigarette butt 
+Marshall 
+ 
+Figure5. Comparison of rut specimens 
+3. Test results 
+3.1 Comparison of Marshall test results of two asphalt mixtures 
+Marshall test instrument is used to evaluate the collapsing strength and anti-deforming capability of 
+general bituminous mixtures and bituminous modified bituminous mixtures. See figure 6.  
+4.71 5.86 3.93 
+8.45 
+4.17 
+9.50 
+0.00
+5.00
+10.00
+1% 1.5%butt dosage
+FL MS
+
+
+=== PDF PAGE 7 ===
+CISAT 2018
+IOP Conf. Series: Journal of Physics: Conf. Series 1168 (2019) 022053
+IOP Publishing
+doi:10.1088/1742-6596/1168/2/022053
+6
+ 
+ 
+ 
+Figure6. Comparison of Marshall specimens 
+Conclusion 1: The stability of modified asphalt pavement with cigarette butts (the maximum 
+damage load) is higher than that of ordinary asphalt pavement , indicating that the road anti-deforming 
+capability has been improved.  
+3.2 Comparison of test results of two kinds of asphalt mixture in rut test 
+Marshall rutting test used to evaluate the high-temperature stability of ordinary asphalt mixture and 
+butt modified asphalt mixture. See figure 7.  
+ 
+Figure 7. Comparison of rutting experiment between ordinary asphalt mixture and cigarette modified 
+asphalt mixture 
+Conclusion 2: The flow value of  modified asphalt pavement  is less than that of ordinary asphalt  
+pavement, indicating that the anti-deformation ability is improved compared with that of  the ordinary 
+asphalt mixture.  
+To sum up , the pavement collapsing strength, anti -deformation ability  and high -temperature 
+stability of modified bituminous mixtures are superior to ordinary bituminous mixtures.  
+4. Discussion 
+4.1 Cause analysis 
+⚫ Pre-processing method of cigarette butts: to avoid the influence of different source and physical 
+state of recycled cigarette butts on the experiment, the cigarette butts were pretreated. At the same 
+time, considering the method of treating cigarette butt s with a shearing machine, it will destroy its 
+fiber structure, unable to give play to its advantages. 
+⚫ The influence of the drying temperature of the cigarette butts: The temperature should be in 
+the main components of the cigarette butts under the melting point o f polypropylene (164~170℃),the 
+drying temperature of Marshall mold is known to be 105℃, set the 105℃, convenient experiment  
+operation. 
+⚫ Selection of  cigarette butt s input method: due to limited experimental conditions, no 
+appropriate instrument was used to mix the cigarette butts and asphalt. 
+⚫ For determination of optimum dosage of cigarette butts: according to the control variable 
+method, determine the optimal amount of cigarette butts modified asphalt mixture. 
+⚫ Selection of the pavement performance parameter: the experimental results of stability , flow 
+degree, dynamic stability respectively represents it can withstand the peak load, its maximum breaking 
+4.17
+9.50
+3.92
+13.56
+0.00
+5.00
+10.00
+15.00
+FL MS
+common asphalt mixture（4.8%） butt asphalt mixture（2%）
+1031.10 1082.47 
+1653.54 
+1265.06 1171.00 1088.08 
+0.00
+400.00
+800.00
+1200.00
+1600.00
+2000.00
+butt asphalt mixture common asphalt mixture
+butt asphalt mixture（2%） common asphalt mixture
+
+=== PDF PAGE 8 ===
+CISAT 2018
+IOP Conf. Series: Journal of Physics: Conf. Series 1168 (2019) 022053
+IOP Publishing
+doi:10.1088/1742-6596/1168/2/022053
+7
+ 
+ 
+weight on vertical deformation of the specimens , the standard axle load carried by the number of 
+walking. Comparing the size of the correlation value  that can represent the  pavement performance of 
+the cigarette butts modified asphalt mixture.  
+4.2 Economic and social benefits 
+On the basis that the maximum life of the original grade road is 15 years , if the new method proposed 
+in this paper is applied to road engineering, the  anti-rutting performance of the asphalt mixture can be 
+improved, and the ne gative impact of traffic volume. Moreover, vehicle load on the road can be 
+avoided to some extent, and the service life of the road can be extended. The cost of asphalt pavement 
+is reduced by collecting abandoned tobacco as a modifier. 
+5. Conclusions 
+The next experiment will further calibrate the test date: 
+The subsequent trial  will explore the chemical bond between the base and asphalt based on the 
+micro-interface of the base material and the framework structure of the base material, and then study 
+the permeability performance of the modified asphalt mixture of the base and giv e play to its physical 
+characteristics [3].  
+To sum up, this paper first introduced cigarette butts as modified agents into the application of 
+pavement materials. This resource-oriented utilization technology is environment-friendly, in line with 
+the national economic and social development needs, and by the road performance requirements and 
+the engineering characteristics of cigarette butts, the pre -treatment method of cigarette butts is 
+systematically proposed. This research also creates a new recycling method for the substantial number 
+and low utilization of cigarette butts, which not onl y improves the road performance  but also extends 
+the service life of the road [4].  
+Acknowledgments 
+Firstly, I would like to extend my most sincere gratitude to the instructor of this subject. Secondly, 
+thanks for the support from Tongji Zhejiang College. Finally, we would like to thank the organizer of 
+ISTTCA 2018for giving us the opportunity to publish the research article. 
+References: 
+[1] Zhang, Y.H. (2015)Study on the mechanism and road performance of SBS modified asphalt 
+and rubber powder modified asphalt . Chang’an University, Xi 'an. 
+[2] Ren , R.B., GengL.T, Xu Q, TanT.(2015)Study on -road performance of stabilized 
+rubber-plastic modified asphalt mixture. Highway, 60(07):11-15.  
+[3] Jiang, X.H. (2010)Experimental study on properties of modified asphalt of life waste plastics. 
+ChongqingJiaotong University, Chongqing. 
+[4] Xiao, P., Chen, Y.Y. (2010)Comparative experimental study on properties of rubber powder 
+physical and chemical modified asphalt. Highway, 03:130 -133. 

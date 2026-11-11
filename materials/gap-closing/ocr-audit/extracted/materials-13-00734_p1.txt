@@ -1,0 +1,55 @@
+          materials
+Article
+Possible Recycling of Cigarette Butts as Fiber
+Modifier in Bitumen for Asphalt Concrete
+Md Tareq Rahman * , Abbas Mohajerani              and Filippo Giustozzi
+ School of Engineering, RMIT University, Melbourne 3000, Australia; abbas.mohajerani@rmit.edu.au (A.M.);
+ filippo.giustozzi@rmit.edu.au (F.G.)
+ * Correspondence: md.tareq.rahman@student.rmit.edu.au
+                                                                                                    
+ Received: 9 January 2020; Accepted: 4 February 2020; Published: 6 February 2020                    
+
+
+ Abstract: Littering waste is among the top environmental issues in the world, and the management
+ of the waste has turned into a challenge in almost every city. It has been reported that 75% of
+ smokers dispose of their cigarette butts (CBs) on the ground, even in public places. Researchers
+ have discovered that CBs make up more than one-third of the total littered waste on the planet.
+ Cigarette butts predominantly consist of a cellulose acetate fiber (plastic)-based filter wrapped in
+ paper. Waste CBs contain burnt tobacco and tar, along with many other toxic chemicals. They take
+ years to biodegrade depending on the environmental conditions, and toxic chemicals leach out
+ and contaminate the environment. As part of an ongoing project, this paper presents a novel and
+ sustainable technique to recycle cigarette butts in bitumen for the construction of flexible pavements.
+ In this research, CBs have been pre-processed and mixed with bitumen classes C320, C170, and PMB
+ A10E as a fiber modifier. Comprehensive laboratory investigations, including a penetration test,
+ softening point test, and viscosity test, have been performed along with a binder drain off test to
+ evaluate the performance of the modified samples. During this investigation, samples were prepared
+ with 0.3% cellulose fiber, 0.2%, 0.3% 0.4%, and 0.5% CBs. The results of the CB-modified samples were
+ compared with the sample with cellulose fiber and fresh bitumen (0% fiber). The results show that
+ the physical and rheological properties of bitumen incorporating CBs improve significantly, and CBs
+ could be used instead of virgin cellulose fiber as a fiber modifier.
+
+ Keywords: recycling; cigarette butts; bitumen; asphalt concrete; environmental sustainability;
+ waste management
+
+
+
+
+1. Introduction
+
+1.1. Cigarette Butt Pollution
+     Cigarette Butts (CBs) are the lower part of the cigarette, which generally comprises the filter.
+Max Roser and Hannah Ritchie investigated the number of smokers in the world and concluded
+by mentioning that there had been a drastic increase in the number of smokers around the world.
+The number had already crossed 1 billion by 2012 [1,2]. In 2018, the World Health Organization
+summarized the number of smokers in the world as totaling 1.1 billion, even after numerous health
+awareness campaigns [3]. Notwithstanding the statistics, the actual number of smokers is probably
+much higher and continuing to increase, as shown in Figure 1, which was adapted from the Institute for
+Health Metrics and Evaluation (IHME) 2014 and the World Health Organization [3,4]. The production
+of cigarettes has increased to support the increasing need. A recent study shows that the current
+production of cigarettes is 6 trillion, of which 5.8 trillion are consumed every year [5]. According to the
+World Health Organization, production will reach 9 trillion by 2025 [5–7]. Figure 2 shows the sale of
+cigarettes per adult smoker per day in some of the countries of the world [1,2].
+
+
+Materials 2020, 13, 734; doi:10.3390/ma13030734                               www.mdpi.com/journal/materials
+

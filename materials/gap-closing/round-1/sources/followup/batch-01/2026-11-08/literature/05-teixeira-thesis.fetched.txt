@@ -1,0 +1,56 @@
+Repositório Institucional da UnB: Caracterização do efluente da produção de polpa celulósica por bitucas de cigarro e proposta de tratamento
+
+1. Repositório Institucional da UnB
+2. Produção Acadêmica e Científica
+3. Teses, dissertações e produtos pós-doutorado
+
+Please use this identifier to cite or link to this item:
+`http://repositorio.unb.br/handle/10482/22749`
+
+Files in This Item:
+
+|File|Description|Size|Format| |
+|--|--|--|--|--|
+|2016_MariaBetâniaD’HeniTeixeira.pdf| |2,01 MB|Adobe PDF|View/Open|
+
+Full metadata record
+
+|DC Field|Value|Language|
+|--|--|--|
+|dc.contributor.advisor|Suarez, Paulo Anselmo Ziani|-|
+|dc.contributor.author|Teixeira, Maria Betânia d’Heni|-|
+|dc.date.accessioned|2017-02-23T15:34:04Z|-|
+|dc.date.available|2017-02-23T15:34:04Z|-|
+|dc.date.issued|2017-02-23|-|
+|dc.date.submitted|2016-11-11|-|
+|dc.identifier.citation|TEIXEIRA, Maria Betânia d’Heni. Caracterização do efluente da produção de polpa celulósica por bitucas de cigarro e proposta de tratamento. 2016. xiii, 107 f. il. Tese (Doutorado em Química) – Universidade de Brasília, 2016.|en|
+|dc.identifier.uri|http://repositorio.unb.br/handle/10482/22749|-|
+|dc.description|Tese (doutorado) – Universidade de Brasília, Instituto de Química, Programa de Pós-Graduação em Tecnologias Química e Biológica, 2016.|en|
+|dc.description.abstract|As bitucas de cigarro têm sido reconhecidas como resíduos tóxicos, pois podem conter contaminantes do cigarro e compostos gerados durante a combustão. Como normalmente têm sido jogadas no chão ou em lixos comuns, os contaminantes das bitucas podem ser lixiviados pela chuva até às águas superficiais e contaminar esses ambientes. No Brasil, após a criação da Política Nacional de Resíduos, todos os resíduos devem ter destinação ambientalmente adequada. Apesar das bitucas de cigarro não serem mencionadas nessa Lei, elas podem, devido às suas características, ser classificadas como resíduos perigosos. O Instituto de Química e o Instituto de Artes da Universidade de Brasília desenvolveram um processo de produção de polpa de celulose a partir de bitucas de cigarro por polpação alcalina. Assim, esse processo é apresentado como uma alternativa à destinação ambientalmente adequada desse resíduo. Durante o processo, um licor escuro é gerado, o qual foi caracterizado por demanda química de oxigênio (DQO), demanda bioquímica de oxigênio (DBO), carbono orgânico total (COT), carbonilas, metais, nicotina e nitrosaminas específicas do tabaco. O licor escuro foi tratado por acidificação para promover a precipitação da lignina, coagulação com quitosana e Al2(SO4)3 para remover compostos orgânicos e ozonização para oxidar compostos químicos resistentes. O licor escuro apresentou DQO elevada (29.986 mg/L), que foi parcialmente removida por precipitação (20 %), coagulação com quitosana (66 %) e ozonização (45,8 %). Como o restante da DQO ainda permanecia elevado, foi proposto fazer o reúso do efluente clarificado obtido por precipitação ácida do licor escuro, o que apresentou-se como um procedimento mais simples, eficiente e com menor custo operacional.|en|
+|dc.language.iso|Português|en|
+|dc.rights|Acesso Aberto|en|
+|dc.title|Caracterização do efluente da produção de polpa celulósica por bitucas de cigarro e proposta de tratamento|en|
+|dc.title.alternative|Characterization of wastewater pulp production by cigarette butts and proposed treatment|en|
+|dc.type|Tese|en|
+|dc.subject.keyword|Efluentes indústrias|en|
+|dc.subject.keyword|Fumo|en|
+|dc.subject.keyword|Resíduos sólidos|en|
+|dc.subject.keyword|Cigarros|en|
+|dc.subject.keyword|Celulose|en|
+|dc.rights.license|A concessão da licença deste item refere-se ao termo de autorização impresso assinado pelo autor com as seguintes condições: Na qualidade de titular dos direitos de autor da publicação, autorizo a Universidade de Brasília e o IBICT a disponibilizar por meio dos sites www.bce.unb.br, www.ibict.br, http://hercules.vtls.com/cgi-bin/ndltd/chameleon?lng=pt&skin=ndltd sem ressarcimento dos direitos autorais, de acordo com a Lei nº 9610/98, o texto integral da obra disponibilizada, conforme permissões assinaladas, para fins de leitura, impressão e/ou download, a título de divulgação da produção científica brasileira, a partir desta data.|en|
+|dc.identifier.doi|http://dx.doi.org/10.26512/2016.11.T.22749|-|
+|dc.contributor.advisorco|Costa, Thérèse Hofmann Gatti Rodrigues da|-|
+|dc.description.abstract1|Cigarette butts, which are usually thrown on the ground or into ordinary bins, have been recognized as toxic residues since may contain cigarette contaminants and chemicals produced during combustion. Therefore, contaminants in cigarette butts can be leached by rain into surface water and thereby contaminate the environment. In Brazil, according to the National Policy on Solid Waste, all residues must be disposed of in an environmentally friendly manner. Although cigarette butts are not mentioned in the law, due to their characteristics, they may be classified as hazardous waste. At the Institute of Chemistry and the Institute of Arts of University of Brasilia, a cellulose pulp production process from cigarette butts has been developed employing alkaline pulping. This process is presented as an alternative to environmentally friendly final disposal of this residue. During the process, a dark liquor is generated, which was found to contain chemical oxygen demand (COD), biochemical oxygen demand (BOD), total organic carbon (TOC), carbonyls, metals, nicotine and specific tobacco nitrosamines. The dark liquor was treated by acidification to promote lignin precipitation, coagulation with chitosan and Al2(SO4)3 to remove organic compounds and ozonized to oxidize resistant chemicals. The dark liquor presented a high COD (29,986 mg/L), which was partially removed by precipitation (20 %), chitosan coagulation (66 %) and ozonation (45.8 %). As the remaining COD was still high, we proposed reusing the clarified effluent in alkaline pulping, which seemed to be the easiest and most efficient procedure with the lowest cost.|en|
+|dc.description.unidade|Instituto de Química (IQ)|pt_BR|
+|dc.description.ppg|Programa de Pós-Graduação em Química|pt_BR|
+|Appears in Collections:|Teses, dissertações e produtos pós-doutorado|Teses, dissertações e produtos pós-doutorado|
+
+Show simple item record " class="statisticsLink btn btn-primary" href="/handle/10482/22749/statistics">
+
+Items in DSpace are protected by copyright, with all rights reserved, unless otherwise indicated.
+
+Universidade de Brasília - Biblioteca Central
+
+Coordenadoria de Gestão da Informação Digital - GID
+(61) 3107-2683
+repositorio@unb.br

@@ -1,0 +1,122 @@
+diff --git a/state/session-log.md b/state/session-log.md
+index 2098e67..09269ae 100644
+--- a/state/session-log.md
++++ b/state/session-log.md
+@@ -237,4 +237,72 @@ workflow.
+ State after this entry: Stage 1/2 complete_scoped; Stage 3 complete_accepted; Stage 4
+ complete_accepted; Stage 5 complete_scoped with operator review pending. No experiment
+ authorized; this is desk synthesis, not experimental validation or a safety/legal
+-opinion.
+\ No newline at end of file
++opinion.
++
++## 2026-11-08: Operator-commissioned batch-01 gap retrieval, first checkpoint
++
++The operator supplied another assistant's gap-closing plan and commissioned a
++checkbox tracker, Priority-1 retrieval and a source folder with transparent
++missing-file status. This is a follow-up, not acceptance of the final reports,
++not a sixth research stage, and not experiment/contact/purchase authorization.
++
++Remote main was fetched and reconciled at 98131dc. The two final reports match
++the prior supplied report bytes; the operator's newer workflow/log were preserved.
++A separate worktree/branch followup/batch-01-gap-retrieval-2026-11-08 is based on
++that remote snapshot; no automatic merge, commit, push or remote write is made.
++
++Outputs:
++- reports/final/gap-closing-tracker.md: all four priority categories, separate
++  retrieval/review/closure states and item-level checkboxes.
++- reports/followup/batch-01/FR3066128B1-disclosure-review.md: focused primary-text
++  disclosure versus J-H-01 assumptions, with page/claim/figure references.
++- reports/followup/batch-01/manual-and-ekb-retrieval-queue.md: exact missing
++  documents, failures, next access routes, and focused prompts.
++- sources/followup/batch-01/2026-11-08/: eight PDF files, patent/company HTML,
++  extracted search text, 24 numbered search/content receipts and binary-transfer
++  receipts, reproducible transfer script, hashes and inventory.
++
++Sources read: attachment's full gap plan; orientation, AGENTS, charter, workflow,
++current state, operator coordinator note, final reports, relevant prior worker
++references and cautionary notes. Full FR3066128B1 extracted description/claims
++and search-report text were read and its drawings visually inspected. Other
++documents are not claimed fully reviewed: INERIS summaries and the 2017 HP14
++discussion, UnB metadata/abstract/selected reuse and conclusion passages, Chinese
++grant cover/claim extraction, French scanned-patent covers, Cerdia description/
++claim availability, and retrieved company pages were inspected to their stated
++limits. No full laboratory-data audit or technical/legal translation is claimed.
++
++New source boundary: the granted F1 text specifies coagulation/flocculation,
++settling, recycled-water storage and separated organic/paper material handling.
++It asserts depollution but provides no read analyte-resolved performance table,
++measured purge rule or final characterized residual acceptance. Figure 3's
++unlabeled recycler outlet is preserved rather than erased. J-H-01 remains an
++unvalidated hypothesis; F3 minority dissent and metals objections remain.
++
++Acquired PDFs: FR3066128B1 and A1; INERIS DRC-17-162405-01313C (2017) and
++DRC-18-177385-09634B (2019), including annexes; full Teixeira UnB thesis;
++CN106928486B; FR3110470A1; FR3102180A1. Patent facsimiles are mirror-hosted,
++not separately verified live office-register downloads. Both latter French PDFs
++are image-only under pdftotext; saved mirror description/claims remain searchable
++but are not certified transcription. No OCR-language data were installed.
++
++Missing/partial: DOI redirect fetch failed for the requested Teixeira paper;
++Brazilian patent index returned no hits and a broad web query was unproductive;
++BMJ Korean-article address hit the retrieval service's robots-policy failure.
++Cerdia description/claims are saved as mirror HTML but original WIPO PDF remains
++unobtained. Company pages/hub do not provide a retrieved full primary LCA or
++actual recipient/product acceptance dossier. These are access/search outcomes,
++not evidence the documents or measurements do not exist.
++
++Checkpoint: 24 search/content calls saved, followed by eight direct transfers
++of already-discovered binary document URLs (no further discovery). Eight PDFs
++have valid signatures, parsable page counts, SHA-256 and separate derived text.
++Only PDFs with substantive text are classified searchable. Failures and sparse
++extractions are visible rather than miscounted as successful full-text reviews.
++
++No experiment, purchase, contact, standards purchase, login credential collection,
++safety/novelty/legal/deployment/environmental clearance, public publication or
++remote repository push. Public source files are not automatically licensed for
++redistribution; EKB entitlements are not assumed. Stage 1-5 dictionaries and
++operator acceptance statements remain unchanged; a separate follow_ups
++checkpoint records this work while final-report operator review remains pending.
+diff --git a/state/workflow.yaml b/state/workflow.yaml
+index 5f37e3a..26e0f3c 100644
+--- a/state/workflow.yaml
++++ b/state/workflow.yaml
+@@ -1,5 +1,5 @@
+ version: 2
+-updated: '2026-11-07'
++updated: '2026-11-08'
+ base_commit: fda66af351a37d38287792ed3b578a258eedf7fc
+ batch: batch-01
+ current_stage: 5
+@@ -163,3 +163,31 @@ permissions:
+   progress_updates: checkpoint and session log as approved proposed edits
+   external_writes: host approval required
+   experiments: not authorized
++follow_ups:
++  batch_01_gap_closing:
++    status: partial_checkpoint
++    scope: Operator-commissioned desk retrieval; not Stage 6 or final-report acceptance
++    base_commit: 98131dc
++    last_actor: Perplexity Computer follow-up researcher (this session)
++    last_run: '2026-11-08'
++    tracker: reports/final/gap-closing-tracker.md
++    source_folder: sources/followup/batch-01/2026-11-08
++    completed_in_this_unit:
++      - reports/final/gap-closing-tracker.md
++      - reports/followup/batch-01/FR3066128B1-disclosure-review.md
++      - reports/followup/batch-01/manual-and-ekb-retrieval-queue.md
++      - sources/followup/batch-01/2026-11-08/receipts/downloads.json
++      - sources/followup/batch-01/2026-11-08/inventory.csv
++    search_content_calls_used: 24
++    search_content_call_ceiling: 24
++    linked_binary_transfers: 8
++    pdf_files_saved: 8
++    no_experiment_authorized: true
++    remaining: >-
++      Full review of downloaded INERIS/thesis/patents; missing Teixeira article
++      and Brazilian patent, Cerdia original PDF, Korean article/underlying assay,
++      primary LCAs and actual treatment/product acceptance dossiers.
++    next_action: >-
++      Operator can inspect tracker and source bundle; resume with INERIS/thesis
++      evidence review and the targeted manual/EKB queue. Stage-5 final-report
++      acceptance remains undecided and stages 1-5 are unchanged.

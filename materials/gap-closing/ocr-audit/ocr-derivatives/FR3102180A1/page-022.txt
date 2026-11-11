@@ -1,0 +1,67 @@
+[Revendication 1|
+
+[Revendication 2]
+
+[Revendication 3]
+
+[Revendication 4|
+
+[Revendication 5]
+
+[Revendication 6]
+
+[Revendication 7|
+
+[Revendication 8]
+
+[Revendication 9]
+
+21
+
+Revendications
+
+Procédé de nettoyage de mégots de cigarette comprenant les étapes
+suivantes :
+
+- un traitement (S1_1, S1_2, S1_3, S1_4, S1_5) desdits mégots pour en
+extraire des fibres à dépolluer ; et
+
+- une dépollution (S2_0, S2_1, S2_2, S2 3, S2 4, S2 5, S2_ 6) desdites
+fibres par une mise en contact (S2_4) de celles-ci avec un fluide dense
+SOUS pression.
+
+Procédé selon la revendication 1, dans lequel le fluide est dans un état
+supercritique, ledit fluide étant un fluide dit supercritique.
+
+Procédé selon la revendication 1 ou 2, dans lequel lesdites fibres sont
+préalablement introduites (S2_0) dans une chambre de nettoyage.
+Procédé selon au moins la revendication 2, dans lequel le fluide est
+comprimé (S2_1) jusqu’à une pression (P..) déterminée dite super-
+critique et est chauffé (S2_2) jusqu’à une température (T..) déterminée
+dite supercritique, lesdites pression (P..) et température (T,.) super-
+critiques étant déterminées en fonction dudit fluide.
+
+Procédé selon la revendication 4, dans lequel ladite température super-
+critique (T..) est comprise entre 0° et 400° Celsius, de préférence entre
+15° et 80° Celsius, et ladite pression supercritique (P.) est comprise
+entre 0 et 2000 bars, de préférence entre 50 et 350 bars, de préférence
+entre 280 et 320 bars.
+
+Procédé selon l’une quelconque des revendications précédentes, dans
+lequel ledit fluide est sélectionné parmi : le dioxyde de carbone ; des
+liquides organiques comme le méthanol ou l’éthanol ; l’eau ; le Tétra-
+fluoroéthane ; les alcanes légers, , tels que par exemple le méthane, le
+propane, le butane, l’isobutane et le pentane ; le monoxyde de di-
+hydrogène ; les alcènes comme l’éthylène et le propylène.
+
+Procédé selon la revendication 6 rattachée à la revendication 5, dans
+lequel ledit fluide est le dioxyde de carbone et dans lequel ladite tem-
+pérature supercritique (T..) est supérieure ou égale à 31° Celsius et ladite
+pression supercritique (P..) est supérieure ou égale à 73.85 bars.
+Procédé selon l’une quelconque des revendications 1 à 7, dans lequel un
+cosolvant est ajouté (S2_5) audit fluide pour extraire desdites fibres des
+substances organiques.
+
+Procédé selon la revendication 8, dans lequel le cosolvant est sé-
+
+lectionné parmi : monoxyde de dihydrogène ; les alcools, par exemple

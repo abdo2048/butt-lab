@@ -1,0 +1,88 @@
+[0056]
+
+[0057]
+
+[0058]
+
+[00591
+[00601
+[0061]
+[0062]
+[0063]
+[0064]
+[0065]
+
+[0066]
+
+[0067]
+[0068]
+
+[00691
+
+[00701
+
+[0071]
+
+[0072]
+
+[0073]
+
+[0074]
+
+varier.
+
+Ainsi, les paramètres (pression, température, débit, temps de nettoyage, etc.) ainsi
+que l’utilisation ou non de cosolvants et/ou d’extractants peuvent varier selon les
+résultats souhaités.
+
+Avantageusement, l’étape de dépollution comprend, préalablement à la mise en
+contact, une humidification des fibres.
+
+D'autres paramètres associés à la mise en contact du fluide dense sous pression (par
+exemple un fluide supercritique) peuvent être envisagés : débit et/ou vitesse du fluide,
+durée de mise en contact, etc.
+
+Avantageusement, la mise en contact comprend une action d’un jet du fluide en
+direction des fibres.
+
+De préférence, le jet présente une vitesse comprise entre 1 et 500 mètres par seconde.
+
+De préférence, le jet comprend un débit compris entre 1 et 4000 litres par heure.
+
+De préférence, la mise en contact est réalisée pendant une durée comprise entre une
+minute et huit heures.
+
+Le débit et la durée du nettoyage peuvent ainsi varier, ceci notamment en fonction de
+la quantité de matière à traiter, des paramètres et des substances ciblées.
+
+On peut aussi prévoir par exemple la mise en rotation des fibres par exemple dans un
+tambour rotatif à l’intérieur de la chambre de nettoyage.
+
+On peut encore prévoir des variations de pression selon des cycles de compression et
+de dépression.
+
+Plus largement, on peut prévoir durant le cycle de nettoyage que la pression, la tem-
+pérature et le débit du fluide sont susceptibles de rester constant ou de varier.
+
+Avantageusement, la phase de traitement comprend un broyage des mégots.
+
+De préférence, un tel broyage est réalisé par exemple dans un broyeur ou une cuve
+dite de traitement après une phase de collecte et éventuellement une opération de tri.
+
+Les mégots broyés sont alors entraînés sur une chaîne de production pour subir une
+pluralité d'opérations de traitement (friction et/ou tamisage et/ou cyclonage et/ou
+broyage secondaire).
+
+Avantageusement, la phase de traitement comprend notamment un tamisage.
+
+Ce ou ces différentes opérations visent principalement à séparer les fibres des autres
+déchets, les autres déchets étant du type feuilles, cendres et/ou tabacs.
+
+Seule la fibre constituée en partie d’acétate de cellulose est récupérée. De préférence,
+les autres déchets (feuilles, tabacs, cendres) sont recyclés sous forme de compost.
+
+Ces opérations de traitement peuvent être réalisées dans une cuve de traitement
+adaptée à cet effet ; cette cuve peut être indépendante de l’autoclave ou éventuellement
+être directement intégrée dans l’autoclave.
+
+L’objet de la présente invention concerne selon un deuxième aspect une fibre

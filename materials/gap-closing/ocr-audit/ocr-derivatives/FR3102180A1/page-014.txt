@@ -1,0 +1,65 @@
+[0153]
+
+[0154]
+
+[0155]
+[0156]
+
+[0157]
+[0158]
+
+[0159]
+
+13
+
+L'installation 200 comprend en outre une chambre de nettoyage 10 se présentant
+sous la forme d’un autoclave, ladite chambre 10 étant configurée pour nettoyer les
+fibres provenant des filtres de cigarette par une mise en contact de ces fibres avec le
+fluide à l’état supercritique.
+
+La chambre 10 est donc configurée pour contenir un fluide à l’état supercritique, et
+donc supporter des températures et pressions élevées.
+
+Dans l’exemple décrit ici, cette chambre 10 est une enceinte fermée hermétiquement.
+
+La première étape S2_0 de cette phase de dépollution P2 comprend donc
+l'introduction et le positionnement des fibres à dépolluer dans la chambre de nettoyage
+10.
+
+Ici, les fibres sont introduites dans un contenant fixe.
+
+Cependant plusieurs alternatives peuvent être envisagées lors du nettoyage pour
+optimiser et réduire les paramètres utilisés à l’intérieur de la chambre de nettoyage. En
+effet, en combinant la technologie supercritique à d’autres moyens mécaniques,
+électriques ou chimiques, il est possible de réduire les éléments nécessaires au
+nettoyage. Pour optimiser le procédé, c’est-à-dire réduire le temps, la quantité de
+fluide, la pression et/ou la température, le nettoyage peut être complété de l’un ou
+l’autre de ces éléments :
+
+- un tambour rotatif placé dans la cuve et entrainé par un couple magnétique ou
+mécanique permettant de mettre en mouvement la matière afin de faciliter la diffusion
+du fluide supercritique (de forme crible ou bétonnière) ; et/ou
+
+- un système de vibration et d’ultrasons permettant que les substances ciblées soient
+extraites plus facilement, en combinant les avantages de l’ultrasons à celui du dioxyde
+de carbone supercritique ; et/ou
+
+- des moyens de compression mécanique, notamment par vérin pneumatique ou hy-
+draulique, ou vis sans fin afin de compresser la fibre et forcer l’extraction des
+molécules à extraire ; et/ou
+
+- un mélangeur situé à l’intérieur permettant d’homogénéiser le nettoyage ; et/ou
+
+- un système centrifuge afin de diriger toutes les substances extraites vers l’extérieur
+évitant ainsi qu’elles soient ré-adsorbées à un autre endroit de la fibre ; et/ouune mise
+sous tension à l’intérieur de la cuve, afin d’électrocuter la fibre et faciliter l’extraction ;
+et/ou
+
+- un trempage dans une solution aqueuse durant le cycle de nettoyage (configuration
+fluide-liquide supercritique).
+
+Toutes ces améliorations peuvent être utilisées seules ou bien cumulées. L’agitation,
+les vibrations, la compression, la tension ou tout autre mouvement et action pourront
+être ajoutés afin d’améliorer ou d’optimiser avantageusement les conditions de
+
+nettoyage sur n’importe quelle quantité de matière.

@@ -1,0 +1,527 @@
+FR3066128B1 - Procede de valorisation des megots de cigarette 
+        - Google Patents
+Search tools
+Text
+Classification
+Chemistry
+Measure
+Numbers
+Full documents
+Title
+Abstract
+Claims
+All
+Any
+Exact
+Not
+Add AND condition
+These CPCs and their children
+These exact CPCs
+Add AND condition
+Exact
+Exact Batch
+Similar
+Substructure
+Substructure (SMARTS)
+Full documents
+Claims only
+Add AND condition
+Add AND condition
+Application Numbers
+Publication Numbers
+Either
+Add AND condition
+Procede de valorisation des megots de cigarette
+Abstract
+translated from
+L'invention concerne un procédé de valorisation des mégots de cigarette (40), composé d'un filtre (41) et de matière organique (32) composée de cendres, de feuilles de papier et de tabac, ledit filtre (41) étant composé d'acétate de cellulose (33) et de papier (34), caractérisé en ce que le procédé comporte les étapes suivantes de : a) premier broyage (22) à partir de mégots de cigarette (40) dans un premier broyeur pour séparer le filtre (41) de la matière organique (32) ; b) tamisage (23) du filtre (41) et de la matière organique (32), pour récupérer l'acétate de cellulose (33) contenu dans le filtre ; c) lavage (24) du filtre (41) pour une séparation de l'acétate de cellulose (33) et du papier (34) avec de l'eau, dans une cuve de lavage ; d) lavage de dépollution (25) de l'acétate de cellulose (33) avec de l'eau dans une cuve de dépollution pour obtenir de l'acétate de cellulose dépollué (37) ; e) recyclage de l'eau (26) des étapes c) et d) par un recycleur à eau ; f) séchage par pré-cuisson (27) pour obtenir de l'acétate de cellulose séché (38) ; g) deuxième broyage (28) pour obtenir de fines particules fibreuses d'acétate de cellulose (39).
+Classifications
+machine-classified
+cpc-machine-classified
+fterm-machine-classified
+fterm-family-classified
+The classifications are assigned by a computer and are not a legal conclusion.
+Google has not performed a legal analysis and makes no representation as to the
+              accuracy of the classifications listed.
+The CPC classifications are assigned by a computer and are not a legal conclusion.
+Google has not performed a legal analysis and makes no representation as to the
+              accuracy of the classifications listed.
+The F-term classifications are assigned based on a patent family member containing
+              these classification codes.
+The F-term classifications are assigned by a computer and are not a legal conclusion.
+Google has not performed a legal analysis and makes no representation as to the
+              accuracy of the classifications listed.
+B
+PERFORMING OPERATIONS; TRANSPORTING
+B09
+DISPOSAL OF SOLID WASTE; RECLAMATION OF CONTAMINATED SOIL
+B09B
+DISPOSAL OF SOLID WASTE NOT OTHERWISE PROVIDED FOR
+B09B3/00
+Destroying solid waste or transforming solid waste into something useful or harmless
+B09B3/70
+Chemical treatment, e.g. pH adjustment or oxidation
+A
+HUMAN NECESSITIES
+A24
+TOBACCO; CIGARS; CIGARETTES; SIMULATED SMOKING DEVICES; SMOKERS' REQUISITES
+A24F
+SMOKERS' REQUISITES; MATCH BOXES; SIMULATED SMOKING DEVICES
+A24F47/00
+Smokers' requisites not otherwise provided for
+B
+PERFORMING OPERATIONS; TRANSPORTING
+B09
+DISPOSAL OF SOLID WASTE; RECLAMATION OF CONTAMINATED SOIL
+B09B
+DISPOSAL OF SOLID WASTE NOT OTHERWISE PROVIDED FOR
+B09B3/00
+Destroying solid waste or transforming solid waste into something useful or harmless
+B09B3/30
+Destroying solid waste or transforming solid waste into something useful or harmless involving mechanical treatment
+B09B3/32
+Compressing or compacting
+B
+PERFORMING OPERATIONS; TRANSPORTING
+B09
+DISPOSAL OF SOLID WASTE; RECLAMATION OF CONTAMINATED SOIL
+B09B
+DISPOSAL OF SOLID WASTE NOT OTHERWISE PROVIDED FOR
+B09B3/00
+Destroying solid waste or transforming solid waste into something useful or harmless
+B09B3/30
+Destroying solid waste or transforming solid waste into something useful or harmless involving mechanical treatment
+B09B3/35
+Shredding, crushing or cutting
+C
+CHEMISTRY; METALLURGY
+C08
+ORGANIC MACROMOLECULAR COMPOUNDS; THEIR PREPARATION OR CHEMICAL WORKING-UP; COMPOSITIONS BASED THEREON
+C08J
+WORKING-UP; GENERAL PROCESSES OF COMPOUNDING; AFTER-TREATMENT NOT COVERED BY SUBCLASSES C08B, C08C, C08F, C08G or C08H
+C08J11/00
+Recovery or working-up of waste materials
+C08J11/04
+Recovery or working-up of waste materials of polymers
+C08J11/06
+Recovery or working-up of waste materials of polymers without chemical reactions
+C
+CHEMISTRY; METALLURGY
+C08
+ORGANIC MACROMOLECULAR COMPOUNDS; THEIR PREPARATION OR CHEMICAL WORKING-UP; COMPOSITIONS BASED THEREON
+C08J
+WORKING-UP; GENERAL PROCESSES OF COMPOUNDING; AFTER-TREATMENT NOT COVERED BY SUBCLASSES C08B, C08C, C08F, C08G or C08H
+C08J2301/00
+Characterised by the use of cellulose, modified cellulose or cellulose derivatives
+C08J2301/08
+Cellulose derivatives
+C08J2301/10
+Esters of organic acids
+C08J2301/12
+Cellulose acetate
+D
+TEXTILES; PAPER
+D21
+PAPER-MAKING; PRODUCTION OF CELLULOSE
+D21C
+PRODUCTION OF CELLULOSE BY REMOVING NON-CELLULOSE SUBSTANCES FROM CELLULOSE-CONTAINING MATERIALS; REGENERATION OF PULPING LIQUORS; APPARATUS THEREFOR
+D21C5/00
+Other processes for obtaining cellulose, e.g. cooking cotton linters ; Processes characterised by the choice of cellulose-containing starting materials
+D21C5/02
+Working-up waste paper
+Y
+GENERAL TAGGING OF NEW TECHNOLOGICAL DEVELOPMENTS; GENERAL TAGGING OF CROSS-SECTIONAL TECHNOLOGIES SPANNING OVER SEVERAL SECTIONS OF THE IPC; TECHNICAL SUBJECTS COVERED BY FORMER USPC CROSS-REFERENCE ART COLLECTIONS [XRACs] AND DIGESTS
+Y02
+TECHNOLOGIES OR APPLICATIONS FOR MITIGATION OR ADAPTATION AGAINST CLIMATE CHANGE
+Y02W
+CLIMATE CHANGE MITIGATION TECHNOLOGIES RELATED TO WASTEWATER TREATMENT OR WASTE MANAGEMENT
+Y02W30/00
+Technologies for solid waste management
+Y02W30/50
+Reuse, recycling or recovery technologies
+Y02W30/62
+Plastics recycling; Rubber recycling
+Y
+GENERAL TAGGING OF NEW TECHNOLOGICAL DEVELOPMENTS; GENERAL TAGGING OF CROSS-SECTIONAL TECHNOLOGIES SPANNING OVER SEVERAL SECTIONS OF THE IPC; TECHNICAL SUBJECTS COVERED BY FORMER USPC CROSS-REFERENCE ART COLLECTIONS [XRACs] AND DIGESTS
+Y02
+TECHNOLOGIES OR APPLICATIONS FOR MITIGATION OR ADAPTATION AGAINST CLIMATE CHANGE
+Y02W
+CLIMATE CHANGE MITIGATION TECHNOLOGIES RELATED TO WASTEWATER TREATMENT OR WASTE MANAGEMENT
+Y02W30/00
+Technologies for solid waste management
+Y02W30/50
+Reuse, recycling or recovery technologies
+Y02W30/64
+Paper recycling
+View 8 more classifications
+Hide more classifications
+Landscapes
+Engineering & Computer Science
+Environmental & Geological Engineering
+Show more
+Show less
+Other languages
+English
+Inventor
+Bastien Lucas
+Andrianina Lucas
+Guillaume Andre
+Toinelo Monteiro
+Current Assignee
+The listed assignees may be inaccurate.
+Google has not performed a legal analysis and makes no representation or
+                    warranty as to the accuracy of the list.
+Mego!
+Worldwide applications
+2017
+FR
+Application number: FR1754267A
+Filing date: 2017-05-15
+Legal status: Active
+Application FR1754267A events
+A timeline of key events for this patent application, including priority claims,
+        publications, legal status, reassignments, and litigation.
+Google has not performed a legal analysis and makes no representation as to the accuracy or
+        completeness of the events listed.
+2017-05-15
+Application filed by Mego!
+2017-05-15
+Priority to FR1754267A
+2018-11-16
+Publication of FR3066128A1
+2019-07-19
+Application granted
+2019-07-19
+Publication of FR3066128B1
+Status
+Active
+2037-05-15
+Anticipated expiration
+Info
+Patent citations (2)
+Cited by (11)
+Legal events
+Similar documents
+Priority and Related Applications
+External links
+Espacenet
+Global Dossier
+Discuss
+Description
+translated from
+DOMAINE TECHNIQUE DE L’INVENTION
+La présente invention concerne un procédé de valorisation des mégots de cigarette. Elle s’applique, en particulier, à la valorisation des déchets toxiques contenus dans les mégots de cigarette et notamment au recyclage de l’acétate de cellulose.
+La valorisation des déchets est un ensemble de procédés par lesquels on transforme un déchet matériel ou organique dans l'objectif d'un usage spécifique comme le recyclage, pour à terme produire un revenu. L'acétate de cellulose est une matière plastique et se présente sous forme de fibres.
+Des zones de collecte sont installées dans des entreprises, des places publiques, des rues, des plages, des stations de ski, des campings...
+Dans un exemple, les zones de collecte sont des colonnes de stockage des mégots de cigarette. Ainsi, la collecte est réalisée pour le procédé de valorisation.
+ETAT DE LA TECHNIQUE
+Le procédé de valorisation est approprié pour le recyclage du mégot de cigarette restant après utilisation. Le mégot de cigarette se compose d’un filtre composé notamment d’acétate de cellulose et d’une enveloppe papier. Les filtres composant le mégot de cigarette absorbent plus de quatre milles substances chimiques nocives ayant une action irritante, nocive, toxique, mutagène et cancérigène dans le milieu environnant car ils entrent dans le système respiratoire du fumeur.
+Pour les raisons présentées ci dessus, chaque cigarette est donc munie d’un filtre à l’une de ses extrémités permettant de retenir une partie des substances chimiques nocives précitées. Lorsque la cigarette est consommée, le filtre est donc placé de telle manière que la fumée passe à travers le filtre avant d’atteindre les poumons du fumeur.
+Par conséquent, une partie de ces substances nocives est donc emprisonnée dans le filtre et contamine la partie de cigarette non fumée, autrement appelée mégot de cigarette. Parmi les contaminants des mégots de cigarette, sont présents la nicotine, le benzène, les gaz toxiques, l’éthylphénol, l’acide cyanhydrique, les composés radioactifs et de l’acétate de cellulose, qui définie comme étant la matière plastique de laquelle le filtre est fait.
+Le temps de décomposition d’un mégot de cigarette est de plusieurs années, jusqu’à quinze ans.
+Les mégots de cigarettes sont considérés comme des déchets dangereux pour l’environnement, ils représentent 40% des déchets présents dans la mer Méditerranée. Les oiseaux et animaux marins meurent suite à l’indigestion directe de mégots de cigarette.
+Certains procédé de traitement de mégots de cigarette existent et permettent d’obtenir un produit à base de plastique et d’un pourcentage de mégots de cigarette et de plastique. Toutefois, on retrouve des traces de résidus toxiques dans les mégots de cigarette et donc le produit issu de ce type de procédé.
+Un des objectifs de l’invention est de fournir un procédé permettant le recyclage des mégots de cigarette afin d’éviter d’avoir des résidus toxiques dans le produit issu du procédé.
+Un autre but de la présente invention est de créer un procédé simple à mettre en oeuvre tout en respectant des contraintes écologiques.
+OBJET DE L’INVENTION
+La présente invention vise à remédier à ces inconvénients. A cet effet la présente invention vise un procédé de valorisation des mégots de cigarette, composé d’un filtre et de matière organique composée de cendres, de feuilles de papier et de tabac, ledit filtre étant composé d’acétate de cellulose et de papier, caractérisé en ce que le procédé comporte les étapes suivantes de : - a) premier broyage à partir de mégots de cigarette dans un premier broyeur pour séparer le filtre de la matière organique ; - b) tamisage du filtre et de la matière organique, issus de l’étape de premier broyage pour récupérer l’acétate de cellulose contenu dans le filtre ; - c) lavage du filtre pour une séparation de l’acétate de cellulose et du papier issue du tamisage avec de l’eau, dans une cuve de lavage ; - d) lavage de dépollution de l’acétate de cellulose avec de l’eau dans une cuve de dépollution pour obtenir de l’acétate de cellulose dépollué ; - e) recyclage de l’eau des étapes c) et d) par un recycleur à eau ; - f) séchage par pré-cuisson à partir de l’acétate de cellulose dépollué pour obtenir de l’acétate de cellulose séché ; - g) deuxième broyage à partir de l’acétate de cellulose séchée pour obtenir des fines particules fibreuses d’acétate de cellulose.
+Le procédé de valorisation des mégots de cigarette permet de produire des fines particules fibreuses d’acétate de cellulose complément dépolluée et utilisable pour la fabrication d’objet divers.
+Grâce à ces dispositions, l’étape de tamisage permet la séparation graduelle des déchets. En effet, le tabac, la cendre, les feuilles de papier et le filtre sont séparés au fur et à mesure, ainsi c’est plus facile et simple de récupérer l’acétate de cellulose.
+Grâce à l’étape du lavage du filtre, on sépare l’acétate de cellulose du papier, ce qui permet de récupérer uniquement l’acétate de cellulose.
+Le lavage dans la cuve de dépollution entraîne l’élimination des substances nocives polluantes retenues par l’acétate de cellulose. L’analyse de l’eau contenue dans la cuve de lavage et la cuve de dépollution montre une diminution des quantités de substances nocives polluantes. Le recyclage de l’eau permet d’avoir de l’eau déjà utilisée sans substances nocives. L’invention est avantageusement mise en oeuvre selon les modes de réalisation et les variantes exposées ci-après, lesquelles sont à considérer individuellement ou selon toute combinaison techniquement opérante.
+Dans un mode de réalisation, l’étape d) comporte deux autres cuves de dépollution pour dépolluer l’acétate de cellulose, l’acétate de cellulose passe d’une cuve de dépollution à l’autre.
+Dans un mode de réalisation, l’étape d) est répétée trois fois. La triple répétition du lavage dans les trois cuves de dépollution entraîne une amélioration de la qualité et de la propreté du produit fini.
+Dans un mode de réalisation, le lavage du filtre de l’étape c) et le lavage de dépollution de l’étape d) se fait avec un solvant, préférentiellement de l’eau.
+Dans un mode de réalisation, le recyclage de l’eau de l’étape e) est effectué en circuit fermé.
+Dans un mode de réalisation, le recycleur à eau, de l’étape e) comporte une étape de coagulation et une étape de floculation. Le recycleur à eau traite jusqu’à 1000 litres par cycle dans le but de recycler l’eau des cuves de lavage et de dépollution. Le recycleur à eau permet la régénération de l’eau par clarif loculation.
+Dans un mode de réalisation, le procédé comporte une étape h) de thermo compression dans une presse à thermo compression. L’acétate de cellulose est fondu pour faire des plaques de l’épaisseur voulue grâce aux deux vérins hydrauliques, cette méthode combine un poste de chauffe et un poste de refroidissement. Le cycle de travail de la presse à thermo compression est automatique et programmable. L’invention concerne également un procédé pour la fabrication de plaques d’acétate de cellulose à base d’acétate de cellulose.
+Ainsi, les plaques de plastique sont réutilisables et permettent la fabrication de palette de manutention et/ou de mobiliers urbains. De nombreux objets pourront ainsi être créés à partir des plaques de plastiques obtenues tels que des sous verre, du parquet, des meubles, des supports de publicité, des cendriers extérieurs et pots de fleurs...
+BREVE DESCRIPTION DES FIGURES D’autres avantages, buts et caractéristiques de la présente invention ressortent de la description qui suit faite, dans un but explicatif et nullement limitatif, en regard des dessins annexés, dans lesquels :
+La figure 1 représente les étapes du procédé selon l’invention selon un premier mode de réalisation,
+La figure 2 représente l’ensemble des étapes du procédé selon un autre mode de réalisation,
+La figure 3 représente une vue similaire du procédé selon l’invention, faisant apparaître le cycle de recyclage de l’eau 26 des cuves.
+DESCRIPTION D’EXEMPLES DE REALISATION DE L’INVENTION
+La figure 1 montre les étapes d’un procédé de valorisation des mégots de cigarettes.
+Le procédé utilise des mégots de cigarette 40, composés d’un filtre 41 et de matière organique 32. La matière organique 32 est composée de cendres, de feuilles de papier et de tabac. Le filtre 41 est composé d’acétate de cellulose 33 et de papier 34.
+Le procédé comporte une étape de premier broyage 22 à partir de mégots de cigarette 40 qui consiste à faire transiter dans un premier broyeur les mégots de cigarette 40 en flux continu. Le premier broyeur cisèle les mégots de cigarette 40 à un rythme de 1kg de mégots de cigarette 40 par minute. Le premier broyeur permet de séparer le filtre 41 de la matière organique 32. En sortie du premier broyage 22, on retrouve la matière organique 32 séparée du filtre 41.
+Après l’étape de premier broyage 22, le procédé comporte une étape de tamisage 23. L’étape de tamisage 23 comprend un tamis dans lequel sont envoyés le filtre 41 et la matière organique 32. L’étape de tamisage 23 consiste en la séparation du filtre 41 de la matière organique 32, pour récupérer uniquement le filtre 41. Le tamis utilisé dans l’étape de tamisage 23 fonctionne à l’aide d’un moteur vibrateur qui fait vibrer le tamis jusqu’à ce que les filtres 41 soient complètement séparés de la matière organique 32. Ce système de tamisage 23 entraîne la séparation des divers arrivages de filtres 41 et de matière organique 32 en séparant au fur et à mesure, la matière organique 32 et le filtre 41 par un gradient de trois niveaux. Dans un exemple de réalisation, la vitesse est de 1kg par minute. La matière organique 32 est retenue à cette étape du procédé. La matière organique 32 est stockée pour être en partie dépolluée ultérieurement dans un bain d’eau, non représenté.
+Après l’étape de tamisage 23, le procédé comporte une étape de lavage du filtre 24.
+Dans une variante, les étapes 22 et 23 sont réalisées ensemble. L’étape de lavage 24 du filtre 41 sépare le papier 34 de l’acétate de cellulose 33 dans une cuve de lavage. La cuve de lavage a un but de nettoyage des filtres 41. Dans un exemple de réalisation, le solvant utilisé dans la cuve de lavage est de l’eau. Dans un autre exemple de réalisation, on utilise de l’acétone comme solvant. La séparation est basée sur la densité du papier 34 et de l’acétate de cellulose 33 présents dans la cuve de lavage. La durée est d’au moins vingt minutes, de préférence de trente minutes. En effet le papier 41 et l’acétate de cellulose 33 ne possèdent pas la même densité, le papier 41 a une densité plus élevée que l’acétate de cellulose 33, le papier 41 se retrouve donc au fond de la cuve et l’acétate de cellulose 33 se retrouve à la surface de la cuve de lavage. Les papiers 41 sont éliminés de la cuve de lavage et dirigés vers la filière du recyclage non représentée. Le produit issu de cette étape est l’acétate de cellulose 33.
+Après l’étape lavage 24 du filtre 41, le procédé comporte une étape de lavage de dépollution 25 de l’acétate de cellulose 33. L’étape de lavage de dépollution 25 dépollue dans une cuve de dépollution l’acétate de cellulose 33 des substances nocives polluantes. Le solvant utilisé dans la cuve de dépollution est l’eau. Dans un autre exemple de réalisation, on utilise de l’acétone ou tout autre type de solvant pour éliminer les substances nocives. Ce nettoyage utilise la technique du flux fermé permettant de nettoyer considérablement l’acétate de cellulose 33, les quantités de substances nocives polluantes diminuent drastiquement et ce, parce que certains résidus tels que la nicotine présents dans l’acétate de cellulose 33 se dissolvent dans l’eau. L’acétate de cellulose 33 reste au moins vingt minutes dans la cuve de dépollution, de préférence trente minutes. Le produit de l’étape de lavage de dépollution 25 est de l’acétate de cellulose dépollué 37.
+Dans un exemple de réalisation, la cuve de dépollution est utilisée plusieurs fois. L’opération de dépollution dans la cuve de dépollution est répétée trois fois. La répétition améliore la qualité et la propreté du produit final, étant donné que certains polluants tels que le goudron nécessitent un autre type de solvant.
+Dans un autre exemple de réalisation, il existe plusieurs cuves de dépollution comme décrit ci-après, figure 3.
+Le produit issu de l’étape de lavage de dépollution 25 est de l’acétate de cellulose dépollué 37.
+Après l’étape de lavage de dépollution 25, le procédé comporte une étape de recyclage de l’eau 26 de la cuve de dépollution. L’étape de recyclage de l’eau 26 de la cuve de dépollution dans un recycleur d’eau sale possède un système fonctionnant sur des processus chimiques et physiques de clarifloculation appliqués à l’eau pour la traiter et la purifier. Le traitement par clarifloculation est basé sur une première phase dite de coagulation correspondant à une déstabilisation des substances colloïdales présentes (substance en suspension qui ne diffuse pas à travers une membrane semi-perméable) et une seconde phase dite de floculation avec l’agglomération des particules sous forme de micro-flocons et de flocons grossissant progressivement jusqu’à l’obtention d’une séparation claire appelée décantation, non représentée. La réaction chimique a lieu à l’intérieur d’un réservoir, non représenté. Dans un exemple, le réservoir est en plastique. Dans un exemple de réalisation, le dosage des produits chimiques ainsi que la réalisation des processus de floculation et de décantation se déroulent dans le réservoir, de manière totalement automatique. Le recycleur à eau 26 est capable de traiter jusqu’à mille litres d’eau par cycle, chaque cycle dure environ deux heures. Le coût énergétique de ce recyclage est faible car le recycleur à eau 26 n’utilise qu’un kilowatt par heure sachant que la durée d’un cycle est d’environ deux heures, seuls deux kilowatt sont nécessaires. L’eau ainsi recyclée est alors stockée dans un réservoir d’eau recyclée 36 avant d’être envoyée de nouveau dans la cuve de lavage et la cuve de dépollution.
+Après l’étape de lavage de dépollution 25, le procédé comporte une étape de séchage par pré-cuisson 27. L’étape de séchage par pré-cuisson 27 est effectuée à partir de l’acétate de cellulose dépollué 37 issu de l’étape 25. L’étape de séchage par pré-cuisson 27 est réalisée dans un four de pré-cuisson pour obtenir de l’acétate de cellulose séché 38. L’étape de séchage par pré-cuisson 27 est réalisée au moins à 100°C, de préférence 120°C. L’éape de séchage par précuisson est terminée lorsque la vapeur d’eau n’est plus présente au niveau de l’évacuation de l’air.
+Après l’étape de séchage par pré-cuisson 27, le procédé comporte une étape de deuxième broyage 28. L’étape de deuxième broyage 28 à partir l’acétate de cellulose séchée 38 est réalisée pour obtenir des fines particules fibreuses d’acétate de cellulose 39. L’étape de deuxième broyage 28 se termine lorsque l’acétate de cellulose séchée 38 est déchiquetée en fines particules. On entend par fines particules, des particules de diamètre inférieur à 1500 pm, mais de préférence proche de 1000 pm.
+La figure 2 montre un autre procédé de valorisation des mégots de cigarettes.
+Les étapes 22, 23, 24, 25, 26, 27 et 28 correspondent à la description ci-avant. L’étape de collecte et stockage 20 des mégots de cigarettes 40 se fait par exemple dans les entreprises, auprès des collectivités. La collecte doit être sélective, c'est-à-dire que les mégots de cigarette doivent être recueillis dans un contenant ne récupérant que ceux-ci afin d’en faciliter la récupération et le traitement. Une fois collectés, les mégots de cigarette sont acheminés vers le site de valorisation pour stockage. L’étape de tri 21 est réalisée manuellement et permet d’éliminer des déchets non désirés destinés au recyclage 31 tels que les chewing-gums, les allumettes, l’aluminium des paquets de cigarettes ou tout autre objet autre que les mégots de cigarette. En sortie de l’étape de tri 21, on obtient seulement des mégots de cigarette. L’étape de thermo compression 29 des fines particules fibreuses d’acétate de cellulose 39 dans une presse à thermo compression. La presse à thermo compression est utilisée dans le but de fondre les fines particules fibreuses de cellulose 39 et d’en faire des plaques d’acétate de cellulose 30 de l’épaisseur voulue en fonction des découpes et des objets à fabriquer. La presse à thermo compression combine un poste de chauffe et un poste de refroidissement. Dans un exemple, la presse à thermo compression a les caractéristiques suivantes: puissance 314 tonnes, surface de travail de 80x60cm, chauffage à 350°C. La réalisation de plaqies d’acétate de cellulose 30 d’épaisseur précise est possible de par ses butées mécaniques intégrées aux deux vérins hydrauliques presseurs.
+La figure 3 montre une réalisation du recyclage de l’eau 26 intégré au procédé de valorisation des mégots de cigarette. L’étape 29 correspond à la description ci-avant. L’étape de lavage de dépollution 25 dans trois cuves de dépollution, dépollue l’acétate de cellulose 33 des substances nocives polluantes qui s’y sont incrustées lors de la combustion du tabac. Le solvant utilisé dans les cuves de dépollution est de l’eau.
+Le passage d’une cuve de dépollution à l’autre se fait à l’aide d’une pompe. L’opération de dépollution dans les trois cuves de dépollution est répétée trois fois. La répétition améliore la qualité et la propreté du produit final.
+NOMENCLATURE 20 Collecte et stockage 21 Tri 22 Premier broyage 23 Tamisage 24 Lavage du filtre 25 Lavage de dépollution 26 Recyclage de l’eau 27 Séchage par pré-cuisson 28 Deuxième broyage 29 Thermo compression 30 Plaques d’acétate de cellulose 31 Déchets divers 32 Matière organique : cendres, feuille de papier et tabac 33 Acétate de cellulose 34 Papier 36 Réservoir d’eau recyclée 37 Acétate de cellulose dépollué 38 Acétate de cellulose séché 39 Fines particules fibreuses d’acétate de cellulose 40 Mégots de cigarette 41 Filtre
+Claims
+(8)
+Hide Dependent
+translated from
+REVENDICATIONS
+1. Procédé de valorisation des mégots de cigarette (40), composé d’un filtre (41) et de matière organique (32) composée de cendres, de feuilles de papier et de tabac, ledit filtre (41) étant composé d’acétate de cellulose (33) et de papier (34), caractérisé en ce que le procédé comporte les étapes suivantes de : - a) premier broyage (22) à partir de mégots de cigarette (40) dans un premier broyeur pour séparer le filtre (41) de la matière organique (32) ; - b) tamisage (23) du filtre (41) et de la matière organique (32), issus de l’étape de premier broyage (22) pour récupérer l’acétate de cellulose (33) contenu dans le filtre ; - c) lavage (24) du filtre (41) pour une séparation de l’acétate de cellulose (33) et du papier (34) issue du tamisage (23) avec de l’eau, dans une cuve de lavage ; - d) lavage de dépollution (25) de l’acétate de cellulose (33) avec de l’eau dans une cuve de dépollution pour obtenir de l’acétate de cellulose dépollué (37) ; - e) recyclage de l’eau (26) des étapes c) et d) par un recycleur à eau ; - f) séchage par pré-cuisson (27) à partir de l’acétate de cellulose dépollué (37) pour obtenir de l’acétate de cellulose séché (38) ; - g) deuxième broyage (28) à partir de l’acétate de cellulose séchée (38) pour obtenir de fines particules fibreuses d’acétate de cellulose (39) .
+2. Procédé selon la revendication 1, dans lequel l’étape d) comporte deux autres cuves de dépollution pour dépolluer l’acétate de cellulose (33), l’acétate de cellulose (33) passe d’une cuve de dépollution à l’autre.
+3. Procédé selon la revendication 1, dans lequel l’étape d) est répétée trois fois.
+4. Procédé selon la revendication 1, dans lequel le lavage (24) du filtre (41) de l’étape c) et le lavage de dépollution (25) de l’étape d) se fait avec un solvant, préférentiellement de l’eau.
+5. Procédé selon la revendication 1, dans lequel le recyclage de l’eau (26) de l’étape e) est effectué en circuit fermé.
+6. Procédé selon la revendication 1, dans lequel le recycleur à eau, de l’étape e) comporte une étape de coagulation et une étape de floculation.
+7. Procédé selon la revendication 1, dans lequel le procédé comporte une étape h) de thermo compression (29) dans une presse à thermo compression.
+8. Procédé selon la revendication 1 pour la fabrication de plaques d’acétate de cellulose (30) à base de fines particules fibreuses d’acétate de cellulose (33).
+Patent Citations (2)
+Publication number
+Priority date
+Publication date
+Assignee
+Title
+Family To Family Citations
+US5504119A
+*
+1993-04-30
+1996-04-02
+Hoechst Celanese Corporation
+Recycling cellulose esters from the waste from cigarette manufacturing
+EP2520184A1
+*
+2011-05-02
+2012-11-07
+Matteri Fabio TT S.r.l.
+Procédé de recyclage des mégots de cigarette et similaire
+* Cited by examiner, † Cited by third party
+Cited By (11)
+Publication number
+Priority date
+Publication date
+Assignee
+Title
+Family To Family Citations
+IT201900002915A1
+*
+2019-02-28
+2020-08-28
+Marco Fimognari
+Metodo per l’ottenimento di una materia prima termoplastica, metodo per la fabbricazione di un oggetto in acetato di cellulosa, nonché metodo ed impianto per l’ottenimento di una materia prima termoplastica da mozziconi di sigaretta
+FR3102076B3
+2019-10-22
+2021-10-22
+Julien Paque
+Procede de recyclage de megots et utilisation du procede pour la fabrication d’un isolant thermique et/ou acoustique
+SE543881C2
+*
+2020-01-31
+2021-09-14
+Eoe Eyewear Ab
+Eyewear recycling method and recycled material
+FR3107069B1
+*
+2020-02-06
+2022-04-01
+Desplain Hugo
+Isolant thermique avec des mégots de cigarettes.
+IT202000003608A1
+*
+2020-02-21
+2021-08-21
+Essequadro S R L
+Procedimento per il recupero di acetato di cellulosa da mozziconi di sigaretta
+EP3892393A1
+*
+2020-04-10
+2021-10-13
+Luca Crivellin
+Procédé de recyclage de filtres de cigarette
+FR3110470B1
+2020-05-19
+2022-08-12
+Keenat
+Procédé de recyclage des mégots de cigarette
+CN113815151B
+*
+2021-09-14
+2023-03-14
+云南恒罡科技有限公司
+一种卷烟废弃滤棒的回收方法
+MA59018B1
+*
+2022-12-30
+2024-09-30
+Université Abdelmalek Essaâdi
+Méthode d’extraction de la cellulose des mégots de cigarettes pour le développement de floculants anioniques.
+IT202400013423A1
+*
+2024-06-12
+2025-12-12
+Human Maple S R L S
+Metodo per il riciclaggio e lo smaltimento di mozziconi di sigarette e simili
+WO2026074041A2
+*
+2024-10-01
+2026-04-09
+Cerdia International GmbH
+Procédé et installation de récupération d'acétate de cellulose à partir d'embouts post-consommation et/ou de filtres post-consommation contenant de l'acétate de cellulose, en particulier de produits ht
+* Cited by examiner, † Cited by third party, ‡ Family to family citation
+Similar Documents
+Publication
+Publication Date
+Title
+FR3066128A1
+2018-11-16
+Procede de valorisation des megots de cigarette
+EP0243243B1
+1991-07-31
+Procédé et installation de séparation des constituants d&#39;une suspension
+FR3102075A1
+2021-04-23
+Utilisation de fibres issues des mégots de cigarette pour la fabrication d’un isolant thermique et/ou phonique, de filtres et/ou d’objets plastiques biodégradables
+JP2011140653A
+2011-07-21
+Ｐｅｔ組成物をリサイクルする方法及びその方法を実施する装置
+CA2780861A1
+2011-06-23
+Procede de potabilisation et/ou d&#39;epuration d&#39;eau comprenant l&#39;elimination d&#39;un compose cible et une filtration au sein d&#39;un tambour filtrant
+CZ307720B6
+2019-03-20
+Způsob zpracování odpadu vznikajícího po recyklaci papíru z použitých nápojových kartónů
+FR3029517A1
+2016-06-10
+Procede de traitement d&#39;eau comprenant une etape d&#39;adsorption sur resine echangeuse d&#39;ions et une etape de coagulation/floculation lestee et de separation, et installation correspondante.
+WO2009132464A1
+2009-11-05
+Methode pour retirer des sols les contaminants inorganiques par une technique d&#39;extraction physico- chimique
+CA2931572A1
+2015-06-04
+Procede et dispositif de traitement de boues liquides, et galettes de boues obtenues avec un tel procede
+EP1001913B1
+2004-06-16
+Procede et installation de traitement de verre feuillete
+EP0057642A1
+1982-08-11
+Procédé pour l&#39;épuration du verre de récupération
+FR3036635A1
+2016-12-02
+Procede de traitement des poussieres retirees d&#39;une surface par un outil et equipement permettant la mise en oeuvre dudit procede
+JP2010064197A5
+2011-10-13
+EP3009405A1
+2016-04-20
+Procédé de traitement d&#39;eau par adsorption sur charbon actif et clarification, et installation correspondante
+WO2014128362A1
+2014-08-28
+Procédé de préparation d&#39;une poudre de macroalgues brunes et procédé de fabrication d&#39;objets rigides à partir de ladite poudre
+EP0152711A2
+1985-08-28
+Procédé de concentration d&#39;une suspension de particules microscopiques, dispositif pour la mise en oeuvre de ce procédé et applications de celui-ci
+EP4129604B1
+2023-12-20
+Procédé de broyage et de recyclage de big-bags usagés et installation pour la mise en oeuvre du procédé
+BE1016637A3
+2007-03-06
+Procede de recuperation d&#39;argile, en particulier provenant de sables de fonderie et de terres industrielles a assainir.
+JP2011136872A
+2011-07-14
+人工骨材製造システム、攪拌装置及び濾過装置
+FR2819799A1
+2002-07-26
+Procede de traitement d&#39;effluents liquides charges et installation pour la mise en oeuvre du procede
+WO2013132183A1
+2013-09-12
+Procede et installation pour le tri selectif de materiaux broyes de natures differentes comprenant des matieres plastiques
+WO2020035476A1
+2020-02-20
+Procédé de traitement des matières ultimes issues de papeteries et installation de traitement mettant en oeuvre ledit procédé
+EP4219826A1
+2023-08-02
+Procédé et installation pour la récupération de carton polylaminé, et matériau composite obtenu par un tel procédé et/ou installation
+JP2026067779A
+2026-04-21
+再生樹脂ペレットの製造方法
+CA2740354A1
+2010-04-29
+Procede et installation pour l&#39;extraction d&#39;hydrocarbures presents dans des matieres minerales solides granulaires ou fragmentees
+Priority And Related Applications
+Priority Applications (1)
+Application
+Priority date
+Filing date
+Title
+FR1754267A
+2017-05-15
+2017-05-15
+Procede de valorisation des megots de cigarette
+Applications Claiming Priority (2)
+Application
+Filing date
+Title
+FR1754267
+2017-05-15
+FR1754267A
+2017-05-15
+Procede de valorisation des megots de cigarette
+Legal Events
+Date
+Code
+Title
+Description
+2018-05-31
+PLFP
+Fee payment
+Year of fee payment
+: 2
+2018-11-16
+PLSC
+Publication of the preliminary search report
+Effective date
+: 20181116
+2019-05-31
+PLFP
+Fee payment
+Year of fee payment
+: 3
+2020-05-29
+PLFP
+Fee payment
+Year of fee payment
+: 4
+2021-05-28
+PLFP
+Fee payment
+Year of fee payment
+: 5
+2022-05-25
+PLFP
+Fee payment
+Year of fee payment
+: 6
+2023-04-07
+PLFP
+Fee payment
+Year of fee payment
+: 7
+2024-03-15
+PLFP
+Fee payment
+Year of fee payment
+: 8
+2025-04-03
+PLFP
+Fee payment
+Year of fee payment
+: 9
+2026-04-16
+PLFP
+Fee payment
+Year of fee payment
+: 10
+Data provided by IFI CLAIMS Patent Services
+Learn more about data coverage, search syntax and other features.
+About
+Send feedback about technical issues or feature requests for Google Patents.
+Send Feedback
+Public Datasets
+Terms
+Privacy Policy
+Help

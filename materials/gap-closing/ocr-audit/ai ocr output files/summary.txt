@@ -1,0 +1,19 @@
+﻿## Summary
+
+**1. `catalogue.csv` (34 rows)**
+- Full inventory of all 34 PDFs with SHA-256, page counts, verified bibliographic metadata (title, authors, year, DOI/document ID), language, document type, identification confidence, extraction status, proposed filename, duplicate_of mapping, and verification notes
+- 4 exact duplicate groups identified by SHA-256 (Teixeira thesis, FR3066128B1, INERIS-DRC-17, Guide-pratique-Labels)
+- 24 PDFs: extraction_status `OK`, 6 `PARTIAL_OCR_INTEGRATED`, 3 `EMPTY_OCR_INTEGRATED`, 1 `PARTIAL_OCR_INTEGRATED` (WO2026)
+
+**2. `proposed-renames.csv` (34 rows)**
+- Maps each original path/stem to proposed filename/stem (kept factual — original stems preserved as they encode bibliographic identity)
+- Duplicate_of column shows canonical path for each duplicate
+
+**3. `extraction-problems.md`**
+- **Blank pages (pure white, OCR impossible):** INERIS-DRC-17 (pp. 2,48,92), INERIS-DRC-18 (pp. 2,82,83), INPI BOPI (40 pages including 11,13,15,161,163,179,201,283), WO2026 p.29 (low contrast — OCR recovered "FIG. 2")
+- **OCR attempted, no output:** INPI BOPI 40 pages — all 0-byte derivatives
+- **Partial extractions with OCR integration:** FR3066128B1 (p.15), FR3102180A1 (all 29 pp), FR3110470A1 (all 14 pp), INERIS-DRC-17 (9 pp), INERIS-DRC-18 (4 pp), BR_0305004_B1 (all 9 pp), WO2026 (p.29)
+- **Exact duplicates:** 4 SHA-256 groups documented
+- **Tool limitations:** pypdf/pdftotext fail on Type1 custom WinAnsi fonts; Tesseract 5 at 300 DPI with fra/deu/eng/por/zh packs; no fontTools/qpdf/ocrmypdf
+
+No repository modifications were made — original PDFs and bytes are untouched. All outputs are in the temp audit directory for your review before any write.

@@ -1,0 +1,72 @@
+[0032]
+
+[0033]
+
+[0034]
+
+[0035]
+
+[0036]
+
+[0037]
+
+[0038]
+
+[0039]
+
+[00401
+
+[0041]
+
+[0042]
+
+broyeur à couteaux.
+
+A la fin de cette étape d’extraction, un mélange comprenant le tabac, le papier et les
+filtres séparés les uns des autres est obtenu.
+
+A partir de ce mélange, le procédé selon l’invention met en œuvre une étape a) de sé-
+paration des différents constituants du mélange. Cela permet d’obtenir dans une
+première fraction F1 les filtres et dans une deuxième fraction F2 le tabac et le papier
+issu du mélange obtenu lors de l’étape précédente, puis la première fraction F1 est
+récupérée.
+
+La séparation en deux fractions lors de l’étape a) est effectuée avec un moyen de tri.
+Un tel moyen de tri peut être un tamis ou un cribleur rotatif, préférentiellement un
+trommel. De façon particulièrement préférée, le diamètre de la grille du tamis est
+compris entre 3 et 6mm.
+
+Préférentiellement, l’étape a) est répétée de 3 à 5 fois sur la fraction F1 comprenant
+les filtres.
+
+Le tabac et le papier contenu dans la deuxième fraction F2 seront alors transformés
+en combustibles de substitution solides (CSS), à haut pouvoir calorifique et valorisés à
+travers les filières de valorisation énergétique telles que les usines d’incinération.
+
+La première fraction F1 comprenant les filtres est ensuite séchée et dépolluée par
+chauffage à une température comprise en 80 et 160°C, préférentiellement à une tem-
+pérature de 90°C. Le chauffage permet à la fraction F1 d’être, d’une part séchée pour
+faciliter le broyage lors de l’étape suivant, et d’autre part de dépolluer partiellement les
+filtres.
+
+Selon un mode de réalisation, le chauffage est suivi d’un passage dans une étuve sous
+vide qui permet d’éliminer des substances telles que le Fluoranthène, le
+Benzo(a)pyrène ou le Benzo(b)fluoranthène.
+
+La durée de l’étape de séchage et de dépollution, préférentiellement par chauffage,
+lors de l’étape b) est comprise entre 3 et 12 heures.
+
+Le séchage et la dépollution peuvent être effectués par tout moyen de chauffage
+adapté. Toutefois, selon un mode de réalisation préféré, le moyen de chauffage est une
+cuve à étuver.
+
+De façon particulièrement préférée, ledit procédé comprend une étape supplé-
+mentaire de séchage entre l’étape b) et c). Cette étape de séchage supplémentaire est
+mise en œuvre dans une étuve sous vide qui permet de maximiser la dépollution des
+filtres. A faible taux d’oxygène, la température de dégradation de la cellulose plus
+élevée associée à une pression faible favorise l’évaporation des polluants organiques.
+
+La fraction F1 une fois séchée et dépolluée lors de l’étape b) est alors broyée de
+nouveau lors d’une étape c) avec un broyeur. L’étape c) permet de broyer gros-
+
+sièrement les filtres comprenant l’acétate de cellulose afin de faciliter l’étape d)

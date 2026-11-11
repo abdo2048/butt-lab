@@ -1,0 +1,80 @@
+[Revendication 10]
+
+[Revendication 11]
+
+[Revendication 12]
+
+[Revendication 13]
+
+[Revendication 14|
+
+[Revendication 15]
+
+[Revendication 16]
+
+[Revendication 17]
+
+[Revendication 18]
+
+[Revendication 19]
+
+[Revendication 20]
+
+[Revendication 21]
+
+[Revendication 22]
+
+[Revendication 23]
+
+22
+
+les alcools aliphatiques, tels que l’éthanol, le méthanol, le butanol ; les
+solutions aqueuses (par exemple de l’eau) ; les terpènes ; le benzène ; les
+cyclohexanes et leurs mélanges ; les cétones ; les hydrofluoroéthers.
+Procédé selon l’une quelconque des revendications 1 à 9, dans lequel un
+extractant est ajouté (S2_ 6) au fluide pour extraire desdites fibres des
+substances inorganiques de type par exemple métaux lourds.
+
+Procédé selon la revendication 10, dans lequel ledit extractant ap-
+partenant à la famille des molécules du type calixarènes.
+
+Procédé selon l’une quelconque des revendications 1 à 11, dans lequel la
+dépollution comprend, préalablement à la mise en contact (S2_4), une
+humidification (S2_3) desdites fibres.
+
+Procédé selon l’une quelconque des revendications précédentes, dans
+lequel la mise en contact (S2_4) comprend une action d’un jet dudit
+fluide en direction desdites fibres.
+
+Procédé selon la revendication 13, dans lequel ledit jet présente une
+vitesse comprise entre 1 et 500 mètres par seconde.
+
+Procédé selon la revendication 13 ou 14, dans lequel ledit jet comprend
+un débit compris entre 1 et 4000 litres par heure.
+
+Procédé selon l’une quelconque des revendications précédentes, dans
+lequel la mise en contact (S2_4) est réalisée pendant une durée comprise
+entre une minute et huit heures.
+
+Procédé selon l’une quelconque des revendications précédentes, dans
+lequel le traitement comprend un broyage (S1_2) desdits mégots.
+Procédé selon la revendication 17, dans lequel le traitement comprend,
+suite à l’étape de broyage (S1_2), un tamisage (S1_ 4) afin de séparer les
+fibres des autres déchets, les autres déchets étant du type feuilles,
+cendres et/ou tabacs.
+
+Procédé selon la revendication 18, dans lequel les autres déchets sont
+recyclés sous forme de compost.
+
+Procédé selon l’une quelconque des revendications précédentes, dans
+lequel lesdites fibres comprennent des fibres d’acétate de cellulose.
+Procédé selon l’une quelconque des revendications précédentes, lequel
+comprend une étape initiale de collecte (S0) desdits mégots.
+
+Fibre nettoyée obtenue à l’issue d’une mise en œuvre d’un procédé de
+nettoyage selon l’une quelconque des revendications précédentes.
+Installation (200) de nettoyage de mégots de cigarette comprenant :
+
+- une cuve de traitement configurée pour traiter lesdits mégots afin d’en
+
+extraire des fibres à dépolluer ; et

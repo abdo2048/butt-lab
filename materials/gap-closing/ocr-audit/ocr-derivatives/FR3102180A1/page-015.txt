@@ -1,0 +1,82 @@
+[0160]
+
+[0161]
+
+[0162]
+
+[0163]
+
+[0164]
+
+[0165]
+
+[0166]
+
+[0167]
+
+[0168]
+
+[0169]
+
+[0170]
+
+[0171]
+
+[0172]
+
+[0173]
+
+14
+
+Ces applications restent bien évidemment optionnelles et ne présentent en aucun cas
+un caractère limitatif.
+
+Le concept sous-jacent à la présente invention est de mettre en contact ces fibres dans
+la chambre 10 avec un fluide à l’état supercritique, ici le dioxyde de carbone.
+
+Dans cet exemple, on prévoit donc de relier la chambre de nettoyage 10 à un
+réservoir 20 contenant le dioxyde de carbone.
+
+On prévoit à cet effet un jeu de vannes, de buses et de canalisations d’entrée et de
+sortie (non représentées ici) configurées pour relier la chambre de nettoyage 10 et le
+réservoir 20.
+
+De préférence, ces éléments sont munis de grilles à fin cadrillage afin de retenir et
+filtrer les fines particules de fibres pouvant être entrainées lors de l’évacuation du
+fluide transportant les substances indésirables.
+
+De telles grilles évitent que ces fines fibres soient transportées hors de la chambre
+pendant le nettoyage et se retrouvent avec les résidus indésirables extraits à la sortie.
+
+Préalablement à la mise en contact du fluide avec les fibres à dépolluer, il est sou-
+haitable d’amener ledit fluide à l’état supercritique.
+
+Dans cet exemple, on prévoit alors que la chambre de nettoyage 10 comprend des
+moyens de compression 30 et des moyens de chauffe 40 configurés respectivement
+pour comprimer lors d’une étape S2_1 ledit fluide jusqu’à une pression cible super-
+critique P.. et pour chauffer lors d’une étape S2_2 ledit fluide jusqu’à une température
+cible supercritique T...
+
+Dans cet exemple, les moyens de compression 30 et de chauffe 40 sont com-
+mandables par une unité centrale 50.
+
+Cette unité de centrale 50 comprend ainsi des moyens de stockage électronique (non
+représentés 1c1) stockant les informations relatives aux paramétrages associés au
+nettoyage supercritique tels que les température et pression supercritiques T,. et P. en
+fonction du fluide utilisé.
+
+Dans cet exemple, ces température et pression supercritiques T,,. et P. correspondent
+respectivement à une température supérieure ou égale à 31° Celsius et une pression su-
+périeure ou égale à 73.85 bars. Ces paramètres sont ici associés au dioxyde de carbone
+comme énoncé précédemment.
+
+On notera ici que les ressources en énergie pour atteindre ces paramètres sont très
+faibles et peu énergivores.
+
+Dans l’exemple décrit ici, c’est l’unité centrale 50 qui commande les moyens de
+compression 30 et de chauffe 40 pour amener le fluide à l’état supercritique.
+
+Dans cet exemple, on peut prévoir en outre une étape supplémentaire
+d’humidification S2_3 des fibres. Une telle humidification S2_3 joue le rôle de
+
+cosolvant des fibres et permet de solubiliser plus facilement la nicotine durant

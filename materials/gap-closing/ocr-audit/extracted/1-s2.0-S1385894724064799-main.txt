@@ -1,0 +1,1183 @@
+=== PDF FILE: 1-s2.0-S1385894724064799-main.pdf ===
+sha256: ba83913ae1a26470b39f343eba26b0912a8cb548a8c27564a1e6a0f78f88ed7e
+pages: 14
+printed_page_labels: PDF p.1=printed 1, PDF p.2=printed 2, PDF p.3=printed 3, PDF p.4=printed 4, PDF p.5=printed 5, PDF p.6=printed 6, PDF p.7=printed 7, PDF p.8=printed 8, PDF p.9=printed 9, PDF p.10=printed 10, PDF p.11=printed 11, PDF p.12=printed 12, PDF p.13=printed 13, PDF p.14=printed 14
+
+=== PDF PAGE 1 ===
+Beyond Plastic: Oleogel as gel-state biodegradable thermoplastics
+Leonardo Lamanna a,*, Gabriele Corigliano b,c, Athira Narayanan a, Stefania Villani a,  
+Marco Friuli a, Francesco P. Chietera a, Benedetta Di Chiara Stanca d, Laura Giannotti e,  
+Luisa Siculella e, Riccardo Colella a, Luca Catarinucci a, Athanassia Athanassiou b,  
+Pietro Cataldi b, Christian Demitri e, Mario Caironi f, Alessandro Sannino e
+a Department of Engineering for Innovation, Campus Ecotekne, University of Salento, Via Per Monteroni, 73100 Lecce, Italy
+b Smart Materials, Istituto Italiano di Tecnologia, Via Morego 30, 16163 Genoa, Italy
+c Department of Earth and Environmental Sciences (DISAT), University of Milan – Bicocca, Piazza Della Scienza 20126 Milan, Italy
+d Department of Biological and Environmental Sciences and Technologies, University of Salento, Via Per Monteroni 73100 Lecce, Italy
+e Department of Experimental Medicine, University of Salento, Via Per Monteroni 73100 Lecce, Italy
+f Center for Nano Science and Technology, Istituto Italiano di Tecnologia, Via Rubattino 81, 20134 Milan, Italy
+ARTICLE INFO
+Keywords:
+Bioplastic
+Oleogel
+Green packaging
+Green electronics
+Biocompatible materials
+Gel-state thermoplastic
+ABSTRACT
+The crisis of plastic waste highlights the urgent need for sustainable alternatives. Bioplastics are seen as a po-
+tential solution; however, challenges persist as many are still derived from petroleum, lack biodegradability, or 
+fall short in essential properties such as mechanical strength, chemical stability, and ease of processing. This 
+study pioneers the use of ethyl cellulose-based oleogels as bioderived and biodegradable thermoplastics. These 
+groundbreaking bioplastics, obtained from renewable sources and waste oils, represent an environmentally 
+friendly and high-performance alternative to traditional plastics. The bioplastic named OleoPlast is processed at 
+temperatures ranging from 130 to 165 ◦C, utilizing different biobased oils and adjusting the oil-to-polymer ratio 
+from 10:3.5 to 1:2. This process yields a high level of versatility, offering broad opportunities for customized 
+applications in both research and industry. Remarkable stability under harsh environmental conditions and 
+biocompatibility pave the way for the adoption of such bioplastics in biocomposite structures, food packaging, 
+green electronics, and tissue engineering. Scalability is ensured by compatibility with both large-scale and high- 
+resolution manufacturing processes, including injection and compression molding, computer numeric control 
+(CNC) milling, and 3D fusion deposition modeling.
+Overall, this work lays the foundation for a new class of gel-state bioplastics, favoring the transition from 
+traditional thermoplastics to sustainable options with vast perspectives of further exploration and customization 
+in both laboratory and industrial environments.
+1. Introduction
+Traditional petroleum-based plastics, known for their affordability 
+and durability, are extensively utilized in various industries, including 
+packaging, construction, electronics, and aerospace [1–4]. Such plastics 
+pose a significant environmental threat due to their slow degradation, 
+spanning hundreds to thousands of years. Predictions suggest an 
+alarming accumulation of approximately 11 billion tons of plastic waste 
+in both landfills and the oceans by 2025 [5], driving another critical 
+issue of our century: the proliferation of microplastics and their bio-
+accumulation in different organisms, including humans [6]. Starting 
+from ‘70 s/‘80 s, recycling programs were implemented to address the 
+issue. However, the scale of the problem makes it evident that recycling 
+is an insufficient mitigation measure [7]. Different plastics require 
+separate recycling streams, which frequently results in higher costs than 
+using virgin plastic. Additionally, the recycling process often degrades 
+the quality of the plastic, requiring the addition of additives to restore its 
+original properties [8].
+Bioplastics have been proposed as a potential solution to address the 
+challenges posed by traditional plastics [9,10]. Bioplastics, derived from 
+renewable resources or produced through biological processes, provide 
+substantial benefits, including a reduced footprint on both production 
+workflows and waste management systems, aligning with the Sustain-
+able Development Goals outlined by the United Nations [11]. Currently, 
+* Corresponding author.
+E-mail address: leonardo.lamanna@unisalento.it (L. Lamanna). 
+Contents lists available at ScienceDirect
+Chemical Engineering Journal
+journal homepage: www.elsevier.com/locate/cej
+https://doi.org/10.1016/j.cej.2024.154988
+Received 20 May 2024; Received in revised form 1 August 2024; Accepted 18 August 2024  
+Chemical Engineering Journal 498 (2024) 154988 
+Available online 19 August 2024 
+1385-8947/© 2024 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). 
+
+=== PDF PAGE 2 ===
+bio-based bioplastics represent approximately 2 % of the global plastics 
+production [12]. Nevertheless, not all bioplastics are inherently biode-
+gradable and most of them still face limitations in terms of stability, 
+mechanical properties, processability, and recycling [10,13]. Moreover, 
+it is crucial to develop simple, solvent-free and sustainable methods for 
+fabricating bioplastics using abundant natural resources [14]. While 
+mechanical strength and robustness during use are a prerequisite and an 
+ongoing challenge for bio-based bioplastics, a delicate trade-off with 
+biodegradability and recyclability at the end of their lifespan must be 
+found to ensure sustainability.
+A critical consideration in the implementation and development of 
+new bioplastics is their compatibility with existing large-scale 
+manufacturing techniques for plastics and composites, such as injec-
+tion and compression molding, as well as extrusion. This entails the need 
+for a thermoplastic material with distinct melting and degradation 
+temperatures, coupled with favorable rheological properties. Concur-
+rently, the use of thermoplastic materials should ensure the adaptability 
+of bioplastics to high-resolution prototyping techniques, including 
+micro-compression molding and 3D printing. Such a level of versatility 
+would facilitate seamless adoption across a broad spectrum of produc-
+tion and prototyping workflows, ensuring easy integration into existing 
+production lines.
+As the most widespread natural polymer, cellulose is earmarked as 
+the leading material for future biodegradable bioplastics innovations 
+[3,15]. However, its high degree of crystallinity poses challenges as it is 
+insoluble in common solvents and prone to strong degradation during 
+the melting process [16,17]. Despite cellulose derivatives have been 
+studied for over a century, they face limitations in thermal processability 
+and often exhibit poor mechanical properties due to their susceptibility 
+to moisture and UV light [15,18]. Ethyl cellulose (EC) stands out as an 
+exception to many of these limitations [19,20]. Being hydrophobic, it 
+can be solubilized in oils above its glass transition temperature, resulting 
+in the formation of stable oleogels, i.e. three-dimensional polymer net-
+works that immobilize oils [21,22], similarly to how hydrogel traps 
+water molecules [23].
+Currently, oleogels are mainly used in the food industry as functional 
+ingredients to enhance the texture, stability, and sensory properties of 
+food products [24–27]. They have been employed to improve the mouth 
+feel creaminess, and stability of various food formulations, including 
+spreads, bakery products, confectionery, and dressings. A key advantage 
+of oleogels, setting them apart from hydrogels, lies in their remarkable 
+thermal and chemical stability, effectively preventing issues tied to 
+evaporation. Additionally, oleogels offer a versatile platform for incor-
+porating a wide array of hydrophobic molecules. These unique features 
+allow precise modifications of the mechanical, physical, and chemical 
+properties.
+Here we introduce ethyl cellulose-based oleogels as the first eco- 
+friendly, gel-state thermoplastics. The exploitation of oleogels as bio-
+plastics represents a unique and captivating avenue, offering an un-
+conventional and promising alternative that has yet to be investigated, 
+with far-reaching implications for material science and engineering, as 
+well as for diverse industries seeking sustainable and scalable solutions.
+This study investigates the development and evaluation of EC-based 
+oleogels, hereafter referred as OleoPlast, which is fully biobased and 
+produced using a range of vegetable oils (sunflower, soybean, and 
+peanut) with different EC ratios. The research aims to understand how 
+these factors influence key properties such as melting temperature, 
+processability, and mechanical performance. Techniques including in-
+jection molding, compression molding, CNC milling, extrusion, and 3D 
+printing are utilized to explore the manufacturing flexibility and po-
+tential applications of OleoPlast. The study also highlights the envi-
+ronmental benefits of the material, including its recyclability, use of 
+exhausted oil, and biodegradability, show up its alignment with circular 
+economy principles. Proofs of concept have also been developed to 
+demonstrate the versatility of OleoPlast in various applications, such as 
+biofiber-reinforced composites, food packaging, green electronics, and 
+innovative building materials for tissue engineering scaffolds.
+2. Results and discussion
+OleoPlast was produced through a straightforward method involving 
+the hot mixing of EC with vegetable oil at 165 ◦C until a clear and 
+viscous solution was obtained. Detailed production protocol is reported 
+in material and method section. Widespread and cost-effective vegetable 
+oils   sunflower (SF), soybean (SB), and peanut (PEA)   were used in 
+this study to develop an entirely biobased material. Additionally, 
+exhausted cooking oils were evaluated for the production of OleoPlast. 
+The resulting material, OleoPlast, was then ground to obtain pellets used 
+to produce the samples characterized in this work. The pellets can be 
+processed with various techniques and shapes, including filaments 
+suitable for 3D printing and thin sheets, Fig. 1a. These sheets can be 
+printed on using a standard inkjet printer, much like regular paper, as 
+demonstrated by the printed University of Salento logo and the EC 
+chemical formula. Differential scanning calorimetry (DSC) character-
+ization was conducted to prove the thermoplastic nature of OleoPlast. In 
+Fig. 1b, the DSC analysis between   30 and 180 ◦C of pure EC, oil, and 
+OleoPlast with varying EC content, is presented. The EC exhibited a glass 
+transition at ~135 ◦C, while the oil displayed a linear heat flow across 
+the tested range, with a melting temperature centered at ~  5 ◦C. 
+OleoPlast shows an endothermic/exothermic peak at a temperature of 
+~110 ◦C, indicating the melting and solidification of the materials, 
+respectively. Significantly, the DSC analysis demonstrates the gel nature 
+of OleoPlast, evidenced by the peaks corresponding to the fusion and 
+solidification of the oil (<  5 ◦C), confirming the presence of oil in a 
+liquid state in the OleoPlast, highlighting its gel-state at room temper-
+ature. Moreover, DSC analyses were performed on OleoPlast samples 
+using various oils, including PEA, SB, SF and exhausted oil (Extended 
+Data Fig. 1). The DSC analyses indicated no significant differences in the 
+thermodynamic behavior of OleoPlast when different oils were used, 
+except for the fusion and solidification temperatures of the oil itself, 
+which depended on the varying content of saturated and unsaturated 
+fatty acids. Table 1 details the average fatty acid composition of the 
+different oils employed in the study [28–30]. The exact fatty acid pro-
+files for each oil employed in the study are detailed in the Materials and 
+Methods section. Within the analyzed range, OleoPlast displays 
+remarkable stability, as evidenced by thermogravimetric analysis (TGA; 
+details in Extended Data Fig. 2), where the degradation temperature was 
+recorded above ~350 ◦C. This emphasizes a significant difference be-
+tween the processing temperatures (<170 ◦C) and the degradation 
+temperature, a desired characteristic in thermoplastics and often absent 
+in biopolymers (e.g. PHB [31]).
+A critical aspect of a thermoplastic material is its ease of adoption in 
+large-scale manufacturing processes such as injection molding or 
+extrusion. For this reason, it is crucial to assess the flow behavior of the 
+material. Fig. 1c reports a temperature sweep rheological characteriza-
+tion was performed to highlight the crossover points of the material, 
+marking the transition from a solid-like to a liquid-like behaviour 
+[22,32] The storage modulus (G’) and loss modulus (G’’) of OleoPlast 
+increase with the polymer concentration. At temperatures below 100 ◦C, 
+G’ consistently exceeds G’’, indicating a predominantly elastic behavior. 
+The crossover temperature, where G’’ becomes greater than G’, also 
+rises with increasing polymer concentrations. Extended Data Fig. 3 re-
+ports the phase angle, highlighting the gel behavior of the material and 
+the shift of the curve towards higher temperatures with increasing 
+polymer content. These temperatures were found to range between 140 
+and 160 ◦C (Fig. 1d), showing minimal variations with the type of oil 
+used and being primarily influenced by the polymer concentration in the 
+OleoPlast. Defining these temperatures is essential for establishing the 
+reprocessing conditions (e.g., injection molding, hot pressing, 3D 
+printing) of OleoPlast, where its viscous behavior plays a critical role. An 
+X-ray diffraction (XRD) analysis was conducted to assess the crystallinity 
+of OleoPlast, revealing an amorphous-like structure (Fig. 1e). Notably, 
+L. Lamanna et al.                                                                                                                                                                                                                               Chemical Engineering Journal 498 (2024) 154988 
+2 
+
+=== PDF PAGE 3 ===
+the peak at 10◦ associated with EC is strongly reduced in the OleoPlast 
+due to the plasticizing effect of the oil within the polymer matrix 
+(Extended Data Fig. 4 reports the XRD analysis on different OleoPlasts). 
+In Fig. 1f, the FTIR analysis illustrates the chemical fingerprint of the 
+material, showing a distinctive overlap of EC and oil spectra that char-
+acterizes the OleoPlast. Fig. 1g–h report specific peaks, particularly at 
+~1745 cm  1 corresponding to the ester groups in triglycerides [33] and 
+at ~3477 cm  1 corresponding to the hydroxyl groups in cellulose 
+[20,34]. As observed, OleoPlast formulations exhibit both peaks pro-
+portionally to the oil and polymer content, without significant frequency 
+Fig. 1. a) picture of OleoPlast in different forms: pellets, casted forms, and extruded filament. On the side, OleoPlast film was utilized as a substrate to print the 
+University logo and the chemical formula of Ethyl Cellulose; b) DSC characterization of EC, SB oil, and SB OleoPlast with varying polymer concentrations. Three ramp 
+cycles were conducted: one from   30 ◦C to 180 ◦C, the second from 180 ◦C to   30 ◦C, and the third from   30 ◦C to 180 ◦C. On the side, zooms are reported to 
+highlight the endothermic and exothermic peaks of fusion and solidification in OleoPlast; c) The figure shows the storage modulus (G’) and loss modulus (G’’) of 
+OleoPlast at different polymer concentrations. The data indicates that both G’ and G’’ increase with higher polymer content. Initially, G’ is greater than G’’, 
+signifying a predominantly elastic behavior. The crossover temperature, where G’’ surpasses G’, also rises with increasing polymer concentration. d)The temperature 
+crossovers of OleoPlast, marking the transition from a solid-like to a liquid-like behavior; e) XRD analysis of EC and SB OleoPlasts with different polymer con-
+centrations; f) FTIR fingerprint of SB OleoPlasts. g-h) show zoomed-in views and overlays of the peaks at 1745 cm  1 and 3477 cm  1, which are characteristic of the 
+ester groups in fatty acids of the oils and the hydroxyl groups in EC, respectively. These peaks align with the concentrations of oil and EC.
+Table 1 
+Saturated Monounsaturated and polyunsaturated fatty acid average composition 
+(%) of employed vegetable oils.
+Oil Saturated Monounsaturated Polyunsaturated
+SF 9–13 25–33 55–65
+SB 14–16 20–25 55–65
+PEA 16–20 50–60 20–30
+L. Lamanna et al.                                                                                                                                                                                                                               Chemical Engineering Journal 498 (2024) 154988 
+3 
+
+=== PDF PAGE 4 ===
+shifts. This confirms that the oleogels are primarily structured by weak 
+bonds such as van der Waals and hydrogen bonds [23]. A comprehensive 
+FTIR characterization is reported in Extended Data Fig. 5.
+The elongation at break, maximum sustained stress, and Young’s 
+modulus of OleoPlast were assessed through tensile testing. Injection 
+molding was employed to process OleoPlasts, generating dog bone 
+specimens (Extended Data Fig. 6). Stress–strain curves for different SB 
+oil and EC ratios are shown in Fig. 2a. The values of the maximum 
+sustained strain, stress, and Young’s modulus are shown for all the 
+pristine oils types (i.e. SF, PEA, SB), and oil-EC ratios (i.e. 10:2, 10:3.5, 
+10:5 and 1:1) in Fig. 2a (experimental details in the Materials and 
+Methods section). In general, with the increase in polymer content, a rise 
+in modulus and maximum sustained stress was observed, accompanied 
+by a reduction in maximum sustained strain. Noteworthy, OleoPlast can 
+own a wide range of Young modulus, spanning from ~2 MPa to ~250 
+MPa, emphasizing the significant tunability of its mechanical properties. 
+Fig. 2. a) stress–strain curves of SB Oil OleoPlast at different polymer oil concentrations and their respective elongation at break, maximum sustained stress, and 
+Young’s modulus; b) Stress–strain curves of SB OleoPlast 1:1 aged in a climatic chamber and the respective elongation at break, maximum sustained stress, and 
+Young’s modulus. The inset shows a picture of the OleoPlast at different time points; c) Stress–strain curves of UV-aged SB OleoPlast 1:1 and their respective 
+elongation at break, maximum sustained stress, and Young’s modulus. The inset displays a picture of the OleoPlast at different time points.
+L. Lamanna et al.                                                                                                                                                                                                                               Chemical Engineering Journal 498 (2024) 154988 
+4 
+
+=== PDF PAGE 5 ===
+Interestingly, samples with SB oil exhibited superior stretchability, with 
+an ~80 % average increase of maximum sustained strain with respect to 
+other oils. This is attributed to the higher affinity of SB oil with the EC, 
+which enhances chain mobility and improves the plasticity of the 
+OleoPlast [32]. Each type of oil has distinct compositions of saturated, 
+monounsaturated, and polyunsaturated fatty acids, significantly influ-
+encing the polymer matrix interaction [35]. It is plausible that further 
+exploration or incorporation of different oils, fatty acids and their blends 
+could finely tune and augment these characteristics. The utilization of 
+different vegetable oils does not impact the water wettability of Oleo-
+Plast, which remains around 90◦ (Extended Data Fig. 7).
+The study investigated the impact of increasing the polymer con-
+centration to a 1:2 oil-to-EC ratio, assessing the maximum solubility of 
+EC in oil. OleoPlast with this ratio exhibited an increase in Young’s 
+modulus, reaching approximately 500 MPa, and maximum sustained 
+stress around 10 MPa, though extensibility decreased to less than 5 % 
+compared to the 1:1 ratio, as shown in Extended Data Fig. 8. However, 
+small benefits from higher polymer concentration were offset by longer 
+solubilization times and potential cost increases. Additionally, the work 
+evaluated the use of exhausted cooking oil, a common food industry by- 
+product, in OleoPlast to test its compatibility with the production pro-
+cess. The use of such oil did not significantly affect the mechanical 
+properties of OleoPlast in terms of Young’s modulus, elongation at 
+break, and maximum sustained stress, as illustrated in Extended Data 
+Fig. 8. This demonstrates the adaptability of OleoPlast and its suitability 
+for circular economy applications. However, since OleoPlast produced 
+with the different oils exhibited similar mechanical properties, except 
+for OleoPlast made with SB which displayed the highest elongation at 
+break, subsequent characterizations were carried out using SB oil as the 
+standard. Systematic use of exhausted oil was avoided to ensure the 
+reliability of the study, as the formulation of such oil is inherently var-
+iable and can differ significantly from batch to batch.
+One of the main problems of bioplastics is their poor stability to 
+environmental conditions such as humidity, temperature, and UV light 
+[36–39]. OleoPlast has been aged under harsh conditions in a climatic 
+chamber and under UV exposure in order to assess its stability. Fig. 2b 
+comprehensively illustrates the mechanical properties of OleoPlast after 
+3, 7, 14, 21, and 30 days of conditioning within a climatic chamber 
+maintained at 90 % humidity and 40 ◦C. OleoPlast highlighted a 
+decrease in its maximum strain (~40 % after 30 days) and an increase in 
+its Young modulus (~20 % after 30 days). This process might be 
+attributed to the recrystallization of EC, caused by the increased 
+mobility of polymer chains within the gel during aging in the climatic 
+chamber [40,41]. However, no significant change in the crystalline 
+degree is observed, likely due to the high oil content in the material, as 
+shown in Extended Data Fig. 9. Extended Data Fig. 10 reports a reduc-
+tion in water contact angle likely linked to a segregation phenomenon 
+concerning EC during the aging process. This segregation alters the 
+surface dynamics, affecting the interaction between the material and 
+water. Noteworthy, the samples kept at room temperature showed no 
+change in the mechanical properties even after 3 months, Extended Data 
+Fig. 11.
+OleoPlast was subjected to a 7-day UV aging process, providing an 
+equivalent of approximately 3.5 years of UV exposure (details in the 
+methods section). Interestingly, the UV exposure positively affects the 
+plastic field deformation of the material increasing the maximum sus-
+tained stress (+35 %) and doubling the stretchability of OleoPlast, 
+Fig. 2c. The change in mechanical properties is primarily due to the 
+chemical modifications of OleoPlast, as observed in the FTIR in 
+Extended Data Fig. 12. UV exposure leads to the formation of epoxides 
+on the double bonds of the fatty acids in SB oil and to transesterification 
+reactions between these and the cellulose [42,43]. Additionally, UV 
+exposure resulted in a bleaching effect on the OleoPlast, as visibly 
+depicted in the inset picture, confirming alterations at a molecular level 
+[44]. The UV exposure does not affect the water contact angle Extended 
+Data Fig. 13.
+Importantly, no additives (e.g. plasticizers, thermal stabilizers, 
+radical inhibitors, UV stabilizers, antioxidants) were introduced to 
+assess the intrinsic mechanical properties and stability of the OleoPlast 
+under challenging environmental conditions, representing a founda-
+tional stage that can be further enhanced with potential additives in the 
+future.
+The end-of-life management of plastics is an enduring challenge. 
+Many plastics encounter difficulties in terms of reusability and recy-
+clability due to molecular degradation and the prevalent use of additives 
+in finished products [45,46]. The recycling processes tend to be detri-
+mental to plastics, whether they are petroleum-based or bio-based. This 
+results in substantial declines in their mechanical properties [10,47–49]. 
+For instance, PET experiences a reduction of over 75 % in elongation at 
+break and more than 50 % in tensile strength after undergoing five 
+recycling cycles [50]. Similarly, Polylactic acid (PLA), a widely pro-
+duced biopolymer globally, can only be recycled a few times, as its 
+physical properties, including stress and strain at break, consistently 
+decrease by more than 40 % after five recycling cycles [13,51]. Oleo-
+Plast displays significant mechanical recyclability, successfully with-
+standing up to 5 recycling cycles, Fig. 3a. During this process, OleoPlast 
+has shown only a minor reduction in maximum sustained stress (~5%) 
+associated with a darkening of the material. Notably, Young’s modulus 
+and elongation at break remained consistently stable as well as the water 
+contact angle (Extended Data Fig. 14). The notable recyclability po-
+tential of OleoPlast is linked to two key factors: i) its gel state nature, 
+being 50 % polymer, results in lower polymeric degradation during 
+mechanical recycling processes; ii) the notable difference between its 
+processing and degradation temperature (ΔT>100 ◦C), as evidenced by 
+DSC and TGA studies. These findings emphasize the promising potential 
+for material reusability, highlighting its capacity to significantly 
+contribute to a sustainable circular economy.
+Unfortunately, even though recycling is the preferable route for a 
+circular economy, a considerable amount of plastic ends up dispersed in 
+the environment, particularly in the oceans, leading to severe environ-
+mental impacts [9]. As such, recyclability does not suffice, and a high 
+degree of biodegradation in the environment is necessary to ensure 
+sustainability. An assessment of OleoPlast biodegradation in seawater 
+was therefore conducted, adopting a Biochemical Oxygen Demand 
+(BOD) analysis for a 30-day period [52]. The biodegradation process 
+starts after 3 days in seawater and progresses until the end of the 
+experiment (Extended Data Fig. 15 for detail). In Fig. 3b, the final BOD 
+values of OleoPlasts are compared with those of other common bio-
+plastics. OleoPlast exhibited notable biodegradation, with a final BOD 
+comparable to that of polyhydroxybutyrate (PHB), a widely recognized 
+biodegradable bioplastic [53].
+The solubility and stability assessment of OleoPlast in the most 
+common organic solvents, water, and a phosphate buffer saline (PBS) 
+solution was evaluated. This characterization defines the reprocess-
+ability of OleoPlast via solvent-based methods, paving the way for ap-
+plications like solvent casting and thin coating. Simultaneously, it 
+explores the recovery potential of OleoPlast components—EC and oil-
+—enabling integration into new supply chains. This approach aligned 
+with sustainability goals promotes the circular use of OleoPlast con-
+stituents in different industrial processes. OleoPlast demonstrated high 
+solubility in nearly all pure organic solvents, but not in water and PBS, in 
+which it exhibited stability for over 10 days, Extended Data Fig. 16. 
+Realistically, plastics rarely encounter pure solvents in typical use cases. 
+The OleoPlast stability in diluted solvent solutions of 80 % and 50 % has 
+been evaluated, Fig. 3c and d. In the 80 % diluted solutions, OleoPlast 
+dissolved within a day in THF and alcoholic solutions, within 3 days in 
+an acetic acid solution, and displayed swelling when exposed to acetone. 
+On the contrary, at a 50 % dilution, the material remained stable in all 
+organic solutions except THF, Extended Data Fig. 17. The results high-
+light how OleoPlast could be incorporated and reprocessed in different 
+industrial streams through the use of organic solvents while remaining 
+compatible with common applications.
+L. Lamanna et al.                                                                                                                                                                                                                               Chemical Engineering Journal 498 (2024) 154988 
+5 
+
+=== PDF PAGE 6 ===
+One of the most promising applications of OleoPlast is in food 
+packaging, which represents approximately 40 % of the total plastic 
+usage. However, plastic currently adopted in food packaging has a very 
+short lifespan ranging from days to months, representing the first source 
+of plastic pollution [7,54]. OleoPlast is made by EC (authorized by the 
+European Food Safety Authority with E number 462) and vegetable oil, 
+both approved for human consumption, which makes oleogels inher-
+ently suitable for food contact applications and potentially as edible 
+food packaging [55]. Oxygen and water vapor transport rates (Fig. 4a 
+and b) and UV–vis transmittance (Fig. 4c), key properties for food 
+packaging film development, were assessed for various OleoPlast for-
+mulations. A lower permeability has been observed in OleoPlast with 
+higher polymer content, suggesting that the polymer plays a role in 
+enhancing the gas barrier properties. Concerning oxygen transmission 
+rate (OTR), OleoPlast showed comparable levels to low-density poly-
+ethylene (LDPE) and cellulose acetate (CA), ~5k ml/m2/day. In terms of 
+water vapor transmission rates (WVTR), the values fell within the range 
+of the most common bioplastics used in packaging: PLA, Poly-
+hydroxyalkanoates (PHA), and Polycaprolactone (PCL), ~400 ml/m2/ 
+day. Food products typically require also protection from UV light 
+exposure, as it induces or accelerates degradation [56]. OleoPlast 
+favorably shows a remarkably high absorbance in terms of UV light 
+(<380 nm), as shown in Fig. 4c. The ability to directly print onto the 
+surface, as illustrated in Fig. 1a, introduces an attractive additional food- 
+packaging feature, which could enable the direct printing of food labels 
+onto OleoPlast without the need for additional layers or films, improving 
+sustainability and recyclability of the material.
+Another pivotal and rapidly expanding market that necessitates 
+sustainable and biodegradable plastic substrates is electronics, in de-
+mand of effective tools to tackle the electronic waste management 
+problem [51]. OleoPlast, with inherent mechanical tunability, recycla-
+bility, biodegradability, and edibility, can emerge as a substrate of 
+choice for growing sectors such as green electronics, flexible electronics, 
+and even edible electronics [57–61]. In this regard, the dielectric 
+properties of OleoPlast have been assessed, revealing a dielectric con-
+stant (εr) spanning from 2.7 to 3.1 and a loss tangent (tan δ) of 
+approximately 0.05 in the frequency range 1.5–3.5 GHz [62] (Fig. 4d 
+and e). Notably, these properties remained stable across various oil 
+types, with only a slight reduction in εr observed in OleoPlast with lower 
+polymer content. These values align precisely with those of poly-
+dimethylsiloxane (PDMS) and polyimide (e.g. Kapton), which currently 
+stands as a gold standard in soft and flexible electronics [63,64]. To 
+Fig. 3. a) stress–strain curves of recycled OleoPlast and their respective elongation at break, maximum sustained stress, and Young’s modulus. The inset displays 
+pictures of the OleoPlast after each recycling cycle; b) Final Biological Oxygen Demand (BOD) of OleoPlasts and a comparison with other plastics, CTR is represented 
+by the empty bottle. A picture of OleoPlast placed on green grass in the inset.; c) Solvent stability of OleoPlast in different solvents at 50% and 80%.
+L. Lamanna et al.                                                                                                                                                                                                                               Chemical Engineering Journal 498 (2024) 154988 
+6 
+
+=== PDF PAGE 7 ===
+(caption on next page)
+L. Lamanna et al.                                                                                                                                                                                                                               Chemical Engineering Journal 498 (2024) 154988 
+7 
+
+=== PDF PAGE 8 ===
+demonstrate the potential of OleoPlast as a dielectric component in 
+electromagnetic devices, a proof of concept of a wide-band monopole 
+antenna with circular polarization has been redesigned for the OleoPlast 
+substrate [65]. The resonance of the antenna, realized using an edible 
+gold leaf as electrode, was tuned within the frequency range spanning 
+from 1.5 GHz to 3 GHz [65], a bandwidth encompassing communication 
+technologies such as WiFi, Bluetooth, GPS, etc. Simulation results, per-
+formed using the tool CST Microwave Studio [66], displayed a good 
+match with the experimental impedance data (Fig. 4f). The reflection 
+scattering parameter S11 below   10 dB indicates efficient electromag-
+netic coupling in terms of impedance and maximum power transfer with 
+a 50 Ω reference port [67], Fig. 4g.
+Biocompatibility of alternative thermoplastics is of paramount 
+importance, given the increasing demand for sustainable materials 
+serving emerging applications such as implantable and wearable devices 
+and drug release systems, as well as systems for tissue engineering. 
+Biocompatibility of OleoPlast was preliminary assessed using the 
+immortalized human hepatocarcinoma cell line HepG2, commonly 
+employed as a model for investigating cytotoxicity, metabolism, and 
+drug release systems [68,69]. OleoPlast exhibits excellent biocompati-
+bility according to non-contact [70,71] MTT assays, (Fig. 4h), demon-
+strating no release of toxic compounds into the medium, regardless of 
+the polymer concentration and the type of oil used (Extended Data 
+Fig. 18). After confirming the non-contact biocompatibility of OleoPlast, 
+a comprehensive assessment of its biocompatibility was undertaken 
+through in-contact testing [72], which encompassed a morphological, 
+live/dead (green) and DAPI (blue) fluorescent analysis. Notably, both 
+bright-field and fluorescent staining images revealed regular cell 
+morphology in both control and OleoPlast groups. On the contrary, the 
+positive control group (20 % Dimethyl sulfoxide   DMSO) showed se-
+vere cell death as indicated by the bright blue color typical of apoptotic 
+nuclei using DAPI staining, Fig. 4i. MTT assays further confirmed the 
+results obtained, indicating high cell viability with no significant dif-
+ferences compared to the control group.
+Bioplastics can play a key role also in the highly demanded and 
+emerging field of sustainable composites, exploiting renewable and 
+waste products to produce alternatives to composites made from resins 
+and inorganic fibers, posing challenging waste management issues 
+[73,74]. Fig. 4j and k illustrates the mechanical properties and SEM 
+cross-section of a cotton fabric (CF) impregnated with the OleoPlast 
+through compression molding, obtaining a fiber-reinforced composite. 
+The stress–strain curve shows a remarkable enhancement in material 
+properties, triplicating the modulus to ~700 MPa and increasing ~5 
+times the breaking load to ~40 MPa, with respect to the pristine Oleo-
+Plast (Extended Data Fig. 19 reports the complete characterization). The 
+impregnation is efficiently performed resulting in a defect-free and ho-
+mogeneous fiber-OleoPlast interface, which leads to the aforementioned 
+reinforcement, as can be appreciated in the SEM images in Fig. 4k. The 
+demonstrated capability to develop OleoPlast-based composites could 
+pave the way for a broad range of biobased and biodegradable com-
+posite materials utilizing different matrices and fiber combinations.
+The processability of bioplastics, especially those derived from cel-
+lulose, has long been a significant challenge due to their thermal and 
+mechanical degradation, along with the need for solvents or plasticizers 
+[10,15,20]. OleoPlast, however, shows remarkable versatility in this 
+regard, showing compatibility with various prevalent large-scale and 
+high-resolution industrial and laboratory manufacturing techniques, all 
+achieved without the use of any solvent. In addition to the conventional 
+thermoplastics production process of injection molding and hot pressing 
+adopted to fabricate the samples under test in the previous experiments, 
+OlePlast compatibility with more refined techniques was tested, CNC 
+milling, micro compression molding, and 3D printing.
+Fig. 5a shows pictures of “LEGO” like pieces produced through 
+milling. The process yields a smooth finish, enabling a good fit between 
+the pieces. Notably, the process avoids material overheating and fusion, 
+a common occurrence with plastics (e.g. PLA). Furthermore, micro-
+patterning capability of OleoPlast has been demonstrated through 
+compression molding, producing a replica of an Arundo donax leaf 
+(Fig. 5b and c), wherein structures of a few microns, such as stomata 
+[75], can be appreciated in the inset. This property positions the ma-
+terial as a potential new platform for bio-soft robotics and microfluidics, 
+presenting itself as a sustainable thermoplastic alternative to PDMS, 
+which currently stands as a preferred choice in these fields. OleoPlast 
+has also been extruded to produce a standard 1.75 mm filament 
+(Fig. 5d), specifically for utilization in Fused Filament Fabrication (FFF) 
+3D printing. This enabled the prototyping of a simple porous scaffold 
+with details as fine as 300 µm (Fig. 5e). These results mark a significant 
+milestone, introducing a new bio-based, biodegradable, biocompatible, 
+and even edible material into the field of 3D printing, offering OleoPlast 
+as a novel platform material, an alternative to petroleum-based plastics 
+and PLA, in the rapid prototyping for both academics and industry.
+3. Conclusion and perspectives
+OleoPlasts, namely ethyl cellulose-based oleogels, were introduced 
+as a gel-state sustainable bioplastic platform. OleoPlast stands out as a 
+versatile gel-state bioplastic, offering tunable mechanical, electrical and 
+biocompatible properties, showing stability in harsh environmental 
+conditions and holding high potential for a broad range of applications. 
+It exhibits exceptional processability across large-scale and high- 
+resolution manufacturing processing, including injection molding, 3D 
+printing, CNC milling, and micro-compression molding. The exceptional 
+tunability of OleoPlasts in mechanical properties, ranging from ~2 MPa 
+to ~600 MPa, and their capability to form fiber-based reinforced com-
+posites, with Proof-of-concept prototypes in fields as diverse as struc-
+tural composites, food packaging, green electronics, and tissue 
+engineering, demonstrate OleoPlast potential in several sectors neces-
+sitating a transition to sustainable approaches. The possibility to 
+incorporate exhausted oils and the notable stability of properties upon 
+reuse further emphasize the alignment of OleoPlast with the principles 
+of a circular and green economy.
+The remarkable thermoplastic properties of OleoPlast, which ach-
+ieves an unprecedented trade-off with biodegradability in seawater with 
+the combination of vegetable oil and EC, mark the starting point of a 
+broad field of research. In the future, further explorations will involve 
+additional oils, not necessarily of vegetable origin, to modulate both 
+biodegradability and mechanical properties. To clearly position Oleo-
+Plast within the plastic landscape, Table 2 provides a comparison of keys 
+OleoPlast mechanical and physical properties with LDPE, the prevalent 
+petroleum-based plastic, and PLA, a prominent biobased alternative.
+This work demonstrates the use of oleogels, currently predominantly 
+employed in food science, in applications previously unexplored in the 
+realm of materials science. In the future, the OleoPlast concept can be 
+widely extended, by studying the incorporation of additional molecules 
+Fig. 4. a-b)Oxygen transmission rate (OTR) and water vapor transmission rate (WVTR), compared with common polymers, respectively. A picture of a coffee capsule 
+coated with OleoPlast in the inset.; c) UV–Vis absorbance of OleoPlasts obtained with different polymer concentrations and oils; d-e) Dielectric constant (εr) and loss 
+tangent (tan δ) of OleoPlast obtained with different polymer concentrations and oils; f) Measured and simulated impedance of the developed antenna; g) Measured 
+and simulated reflection scattering parameter S11 of the OleoPlast antenna. A picture of the developed antenna in the inset; h) Quantification of HepG2 cell viability 
+in different incubation groups, non-contact mode; i) On the left, quantification of HepG2 cell viability in different incubation groups, in-contact mode. On the right, 
+bright-field, live/dead (green), and DAPI (blue) fluorescent images of the same cell groups. (* p < 0.05, ** p < 0.01, *** p < 0.001, **** p < 0.0001); j) Comparison 
+of stress–strain curves among OleoPlasts and cotton fabric-OleoPlast composites; k) SEM cross-section of OleoPlast 1:1   Cotton fabric (scale bar 100 µm), inset 
+details the fiber impregnation (scale bar: 50 µm).
+L. Lamanna et al.                                                                                                                                                                                                                               Chemical Engineering Journal 498 (2024) 154988 
+8 
+
+=== PDF PAGE 9 ===
+such as free fatty acids, waxes, stabilizers, plasticizers, synthetic oils and 
+chemical crosslinking agents. Concerning packaging, barrier properties 
+can be tuned and improved with the addition of free fatty acids and 
+waxes that have already proven their barrier capabilities [76,77]; 
+moreover, the development of phase-changing food packaging that ex-
+ploits the gel state of OleoPlast can be envisioned [78]. In electronics, 
+OleoPlast has the potential to offer powerful new opportunities within 
+the emerging domains of organic, green and even edible electronics. 
+Both dielectric and conductive properties could be modified in OleoPlast 
+through the addition of salts, ceramics, or conductive fillers (e.g., 
+carbon-based or metallic), paving the way for 3D- OleoPlast printable 
+electronics. Furthermore, the possibility to micropattern the OleoPlast 
+will open the door to new microfluidics systems based on OleoPlast. In 
+tissue engineering, OleoPlast could represent a game changer in the 
+Fig. 5. a) the 1:1 OleoPlast has been processed with CNC to fabricate LEGO-like structures. The dark coloration was achieved by incorporating 0.1 % w/w Oil Blue 
+into the OleoPlast; b) SEM image of an OleoPlast-replicated Arundo donax leaf using compression molding (scale bar: 400 µm). Inset highlights microstructure details 
+of stomata (scale bar: 20 µm); c) SEM image of the same microstructure tilted at a 45◦ angle, highlighting the 3D pattern of the leaf (scale bar: 100 µm); d) Extruded 
+1:1 OleoPlast filament with a 1.75 mm diameter, along with a cross-section detail provided in the inset (scale bar: 100 µm); e) 3D-printed 1:1 OleoPlast scaffold with 
+details of approximately 300 µm and 400 µm, from left to right respectively. SEM image of the scaffold with a detail of ~300 µm in the inset (scale bar: 1 mm).
+Table 2 
+Comparison of OleoPlast mechanical and physical properties with LDPE and 
+PLA.
+LDPE PLA OleoPlast
+Bio-based No Yes Yes
+Melting temperature (◦C) ~110 ~180 ~150
+Degradation temperature (◦C) ~390 ~290 ~350
+Young Modulus (GPa) 0.1–0.4 1–3 0.003–0.6
+Elongation at break (%) 200–500 2–5 20–25
+Biodegradation in seawater No No Yes
+Recyclability Yes Poor Yes
+OTR (ml/m2/day) ~5k ~1k ~5k
+WVTR (ml/m2/day) ~10 ~200 ~400
+L. Lamanna et al.                                                                                                                                                                                                                               Chemical Engineering Journal 498 (2024) 154988 
+9 
+
+=== PDF PAGE 10 ===
+development of 3D-printable systems for tissue engineering that can be 
+easily modified by researchers and clinical requests. This is facilitated by 
+the gel state of OleoPlast, allowing for the addition of bioactive proteins 
+or ceramics.
+This foundational work sets the stage for further tailoring and cus-
+tomization of a sustainable bioplastic system, paving the way for the 
+evolution of this material platform to meet the evolving demands of 
+sustainable scientific and industrial landscapes, spanning from pack-
+aging to electronics and tissue engineering. Looking forward, the vast 
+potential of OleoPlast holds exciting prospects for the development of 
+innovative, eco-friendly solutions across different domains.
+4. Materials and methods
+4.1. Materials
+Ethylcellulose (48–49.5 w/w ethoxyl basis), Oil Blue, and all the 
+solvents were bought from Sigma Aldrich. Vegetable Oils (Peanuts, 
+Soybean, and Sunflower) were bought in a supermarket. Specifically, we 
+chose Desantis brand oil. The peanut oil contains 19 % saturated fatty 
+acids, 53 % monounsaturated fatty acids, and 28 % polyunsaturated 
+fatty acids. The soybean oil contains 15 % saturated fatty acids, 24 % 
+monounsaturated fatty acids, and 61 % polyunsaturated fatty acids. The 
+sunflower oil contains 12 % saturated fatty acids, 32 % mono-
+unsaturated fatty acids, and 56 % polyunsaturated fatty acids. Edible 
+gold leaf was bought from Kinno (thickness < 500 nm). Exhausted oil, 
+kindly provided by local fast food, was used after being filtered using a 
+paper-based method to remove solid particles. Plain-woven and 
+bleached 100 % cotton fabric, with 180 ± 5 g/m2 mass density, was 
+purchased from a market for use in the experiments. The fabric has a 
+thread density of 24 threads/cm in both the warp and weft directions.
+4.2. Methods
+4.2.1. OleoPlast production
+OleoPlast was produced via hot mixing at 165 ◦C. In general, oleogels 
+form at temperatures above the glass transition temperature (of EC, 
+approximately 135 ◦C, as confirmed by DSC (Fig. 1b). The optimal 
+mixing temperature for our setup was determined to be 165 ◦C, which is 
+around 10 ◦C above the crossover temperature observed in rheological 
+analyses (Fig. 1b and c). This temperature ensures a significant reduc-
+tion in viscosity by about three orders of magnitude, as estimated by the 
+Williams-Landel-Ferry equations, facilitating efficient material mixing.
+In the production process, the oil was heated to 165 ◦C while stirring 
+at 50 RPM. EC was gradually introduced to the heated oil to prevent 
+clumping and ensure uniform incorporation. Once all EC was added, the 
+mixture was maintained at temperature until a clear solution was ach-
+ieved, indicating complete dissolution. The dissolution times varied 
+depending on the polymer concentration: formulations with a 10:3.5 
+and 10:5 ratio required 30 to 40 min, the 1:1 ratio formulation needed 
+about 60 min, and the 2:1 ratio formulation, due to its higher viscosity, 
+required approximately 120 min.
+Following mixing, the material was allowed to cool to room tem-
+perature and then frozen at   20 ◦C. This freezing step is essential for 
+facilitating subsequent grinding, which was carried out using a vertical 
+mill.
+4.2.2. Injection molding
+The ASTM D638 Type V specimens were fabricated using Injection 
+molding (BOY Machine XS). Specifically, the feeding chamber was set to 
+a temperature of 160 ◦C, the central chamber to 150 ◦C, and the nozzle 
+to 135 ◦C. The injection pressure was maintained at 20 bar, the holding 
+pressure at 15 bar, and the plasticization pressure at 1 bar.
+4.2.3. Extrusion
+The extrusions were conducted using the Felfil Evo Filament 
+Extruder at a temperature of ~130 ◦C to obtain a uniform filament with 
+a diameter of 1.75 mm.
+4.2.4. CNC and 3D printing
+Computer numerical control (CNC) and Fused Filament Fabrication 
+(FFF) printing were conducted using a Creality CP01. Specifically, CNC 
+operations were performed using a 3 mm diameter cutting tool, while 3D 
+printing was conducted at a temperature of ~140 ◦C, utilizing nozzles 
+with diameters of 0.3 mm and 0.4 mm.
+4.2.5. Compression molding
+Compression molding was carried out with a hot press at 165 ◦C. The 
+master employed in this procedure was a freshly harvested leaf of 
+Arundo donax.
+4.2.6. DSC
+DSC analysis was carried out using a DSC Q2500 (TA Instruments). 
+Samples weighing 20.0 ± 1 mg were securely sealed in aluminum pans 
+and subjected to a series of heating and cooling cycles. Each sample 
+underwent heating from   30 ◦C to 180 ◦C at a rate of 5 ◦C/min, followed 
+by cooling to   30 ◦C at the same rate, and then heating again to 180 ◦C 
+at 5 ◦C/min. An empty aluminum pan served as the reference.
+4.2.7. TGA
+TGA analysis was conducted using a TGA Q500 instrument manu-
+factured by TA Instruments with aluminum pans. Measurements were 
+conducted using 3–5 mg of the samples, which were placed in an 
+aluminum pan and exposed to a flow of inert N2 gas at a rate of 50 mL/ 
+min. The pan underwent heating from 0 to 800 ◦C at a rate of 10 ◦C/min. 
+The recording of weight loss was performed, tracking its variation over 
+time and temperature.
+4.2.8. Rheology
+The rheological temperature tests were conducted using a parallel 
+plate rheometer (Malvern Kinexus Pro + -Worcestershire, UK) on 1 mm 
+thick films of OleoPlast. The tests were performed in a temperature 
+range from 40 ◦C to 180 ◦C, with a controlled ramp rate of 5 ◦C per 
+minute at frequency of 1 Hz and amplitude of 0.1 %. During these tests, 
+both the elastic shear modulus G’ and the viscous shear modulus, G’’ 
+have been recorded.
+4.2.9. XRD
+The crystallinity of OleoPlast and EC was analyzed using X-ray 
+diffraction (XRD) technique. The measurements were conducted with a 
+Rigaku Ultima X-ray diffractometer (Rigaku, Tokyo, Japan), employing 
+monochromatic Cu Kα radiation (λ = 0.154 nm) at an operating voltage 
+of 40 kV and current of 20 mA. Diffractograms were recorded at a 
+scanning rate of 0.02◦ min  1 within the angle range of 2◦ to 50◦.
+4.2.10. FTIR
+FTIR measurements were conducted using a Perkin Elmer Spectrum 
+instrument (Waltham, USA) within the spectral range of 4000–500 
+cm  1, employing a resolution of 0.1 cm  1.
+4.2.11. Stress–strain
+The mechanical properties were evaluated at room temperature 
+through uniaxial tensile testing utilizing a Zwick/Roell universal testing 
+machine (Ulm, Germany) and employing dogbone-shaped ASTM D638 
+Type V specimens. A testing velocity of 5 mm/s was utilized for the 
+assessments. Each measurement was performed in triplicate, and an 
+average value was calculated for analysis.
+4.2.12. Aging climatic chamber
+The aging experiments in controlled temperature and humidity 
+conditions were conducted in a Binder climatic chamber set at 40 ◦C and 
+90 % relative humidity (RH) for 30 days.
+L. Lamanna et al.                                                                                                                                                                                                                               Chemical Engineering Journal 498 (2024) 154988 
+10 
+
+=== PDF PAGE 11 ===
+4.2.13. Aging UV
+The UV lamp power was calculated using CR10 radiometer, yielding 
+UV-A and UV-B values of 0.6 and 0.73 W/m2 at 340 and 310 nm, 
+respectively. This translates to daily energy levels of 52 and 63 kWh/m2. 
+Extrapolating to an annual UV exposure of approximately 100 kWh/m2, 
+constituting 10 % of the total solar UV radiation on Earth, the 7-day 
+aging in this study simulates about 3.5 years of UV exposure.
+4.2.14. Contact angle
+The contact angle of OleoPlasts was measured using the sessile drop 
+method at room temperature. In this method, a droplet of water was 
+carefully placed on the surface of the OleoPlast film. The static contact 
+angle, which is the angle at which the droplet meets the surface, was 
+measured. This was done using First Ten Angstroms, FTA 1000 software 
+(Newark, California, USA) equipped with a CDD camera.
+4.2.15. SEM
+The morphological characterization of OleoPlast was performed by 
+Zeiss Field-emission Scanning Electron Microscope (FESEM), (Sigma VP, 
+Carl Zeiss, Jena, Germany) with an accelerating voltage of 10 kV. The 
+morphological analysis of (CF)-OleoPlast was carried out using a JEOL 
+JSM-6490LA SEM microscope. The cross-sectional samples were sub-
+jected to immersion in liquid nitrogen followed by fracturing. These 
+fractured samples were affixed to aluminum stubs using carbon tape and 
+coated with a 10 nm layer of carbon through sputter coating. Micro-
+graphs were captured at various magnifications, employing a 5 kV 
+accelerating voltage and a load current of 78 μA.
+4.2.16. Recycling
+Mechanical recycling involved grinding the OleoPlast, followed by 
+thermoforming using the injection molding process.
+4.2.17. BOD
+We investigated the biodegradation in water by assessing the 
+biochemical oxygen demand (BOD) using the OxiTop-IDS system. Ox-
+ygen consumption was observed in a sealed bottle containing 432 mL of 
+seawater, serving as the sole carbon source, along with a small quantity 
+of each sample. The experiments were conducted at room temperature 
+using dark glass bottles hermetically sealed with the OxiTop measuring 
+head. Sodium hydroxide was used as a CO2 scavenger to capture carbon 
+dioxide generated during biodegradation. The biotic consumption of 
+oxygen in the bottles’ free volume was recorded based on the pressure 
+decrease. Raw data of oxygen consumption (mg O2/L) were analyzed by 
+subtracting the mean values of the blanks, determined by measuring the 
+oxygen consumption of seawater without any test samples. Following 
+this correction, the values were normalized to the mass of the individual 
+samples and expressed as mg O2/100 mg of a sample.
+4.2.18. Solubility
+The chemical solubility of OleoPlasts was evaluated in 50 % and 80 
+% solutions of the following solvents: water, PBS, ethanol, methanol, 
+acetone, tetrahydrofuran, and acetic acid. For this purpose, 1 cm2 
+squared specimens were cut and immersed in 10 mL of solution. The 
+dimensions and weight were measured for up to 10 days. The experi-
+ment was conducted in triplicate.
+4.2.19. Composite development
+The composite material (CF)- OleoPlast was obtained via compres-
+sion molding within a 10 × 10 cm2 frame with a thickness of 200 mm. 
+2.2 g of OleoPlast pellets were distributed below and above a layer of 
+cotton fabric, cut to fit the 10 x 10 frame, the ensemble was molded 
+between thin Teflon sheets at a temperature of 165 ◦C using a CARVER 
+4122 hydraulic press [51]. The molding sequence included a 5-minute 
+heating phase without applying pressure, followed by an additional 5 
+min under a load of 4 tons and subsequent water cooling.
+4.2.20. Gas barrier properties
+The gas barrier properties of OleoPlast were assessed through mea-
+surements of water vapor permeability (WVP) and oxygen permeability 
+(O2P). To determine WVP, aluminum-based permeation capsules (7 mm 
+inner diameter and 10 mm inner depth) were filled with 350 μL Milli-Q 
+water, creating a humid environment (100 % RH). These capsules were 
+sealed on top with the OleoPlast samples using two O-rings and a ring- 
+shaped lid secured with screws. The analysis was conducted in triplicate 
+for all samples. The sealed capsules were stored in a chamber at 0 % RH, 
+simulated with dried silica gel. The weight of the capsules was moni-
+tored over time. The weight loss (g) of the capsules against time (s) was 
+plotted, and the slope obtained after linear fitting was divided by the 
+exposed film area (m2) to determine the water vapor transmission rate 
+(WVTR). To obtain the WVP (g m  1 s  1 Pa  1) was employed the formula 
+WVP=WVTR×t/PH2O×ΔRH. t is the mean thickness of each sample 
+(m), PH2O (Pa) is the vapor pressure of water at saturation and testing 
+temperature (20 ◦C), and ΔRH is the variation in vapor pressure across 
+the film. The measurement of O2P for the OleoPlast was conducted using 
+an Oxysense 5250i instrument (Oxysense, USA), equipped with a film 
+permeation chamber. This chamber comprises a cylinder divided in two 
+parts: a measurement well and a drive well. The sensing well contains a 
+fluorescent sensor, the OxyDot, sensitive to oxygen concentration. The 
+sensing well is purged with nitrogen while the driving well is exposed to 
+the environment. Rectangular pieces of the films (6 cm × 6 cm) are 
+placed in the chamber to separate the two wells. A fiber optic OxySense 
+pen measures oxygen from the OxyDot at specific intervals. The oxygen 
+transmission rate (OTR), defined as the volumetric flow rate of oxygen 
+per unit area of film per unit time (mL m  2 day  1), is measured by the 
+instrument until a steady state is achieved. The oxygen permeability 
+(O2P) of the films is then calculated using the following formula: O2P 
+(mL μm m  2 day  1 atm  1) = OTR. t/ ΔP, where t is the film thickness 
+(μm), and ΔP is the partial pressure of oxygen (1 atm). All tests were 
+conducted under ambient conditions (23 ◦C and 50 % relative humidity) 
+following the ASTM method F3136-15 [79].
+4.2.21. UV–vis
+The absorbance of OleoPlast was experimentally evaluated using a 
+Cary 6000i UV–Vis-NIR spectrophotometer (Agilent Technologies, USA) 
+in the range of 210–800 nm. The reported data corresponds to the 
+absorbance of a 500 µm film obtained through hot pressing.
+4.2.22. RF characterization
+To evaluate the dielectric constant (εr), and the loss tangent (tanδ) of 
+the materials under test, the method of the T-Resonator has been used 
+and properly implemented according to the methodology proposed in 
+[80]. This last consists in a two-port microwave circuit that has a 
+microstrip line with an open-ended stub resonating at odd-integer 
+multiples of its quarter-wavelength corresponding frequency. By 
+measuring the scattering parameter S21 both the dielectric constant (εr) 
+and loss tangent (tanδ) of the substrate under test can be determined. 
+This is possible because the former is related to the frequency point of 
+the resonance, while the latter is related to the Q-factor of the resonator. 
+A lab-made instrument [62] exploiting this method has been used to 
+characterize the material, previously cast in the form of a substrate of 
+size 100x50x3 mm3. Dielectric constant and tanδ values have been used 
+to define the new dielectric material in a full-wave simulation software, 
+allowing the precise simulation of the final device which has been 
+chosen to be a wideband monopolar antenna, whose design was previ-
+ously published in [65].
+4.2.23. Cell culture and biocompatibility assay
+HepG2 cell line were maintained in high-glucose Dulbecco’s Modi-
+fied Eagle’s Medium (HG-DMEM D5796, Sigma-Aldrich, Milano, Italy), 
+supplemented with 10 % Fetal Bovine Serum (FBS), penicillin/strepto-
+mycin (100 IU/ml), and 2 mM L-glutamine, and incubated at 37 ◦C with 
+5 % CO2. Cell proliferation assay was performed by using the 3-[4,5- 
+L. Lamanna et al.                                                                                                                                                                                                                               Chemical Engineering Journal 498 (2024) 154988 
+11 
+
+=== PDF PAGE 12 ===
+dimethylthiazol-2-yl]-2,5 diphenyl tetrazolium bromide (MTT) test at 
+different time points (1 and 3 days). MTT is a colorimetric method used 
+to assess the cellular viability through the metabolic activity of viable 
+cells in converting the yellow tetrazolium salt into an insoluble purple 
+formazan precipitate. By spectrophotometric analysis, it is possible to 
+quantitatively assess the intensity of the staining, which is related to the 
+amount and vitality of cells.
+Non-contact: To evaluate the biocompatibility and the eventual 
+release of potentially toxic compounds over time, circle-shaped Oleo-
+Plast with a diameter of 15 mm and 0.5 mm thickness were put in 
+contact with 500 µl of cell culture medium described above and left at 
+37 ◦C with 5 % CO2 for 1 and 3 days. For each experimental condition, 
+HepG2 cells were cultured at a density of 6 × 104 cells/well in a 24-well 
+plate in HG-DMEM medium. After 24 h, the culture medium from each 
+well was replaced with 500 µl of the conditioned medium obtained from 
+the incubation with OleoPlast sample, whereas control cells (CTR) were 
+incubated with fresh medium. After 24 h, the proliferation assay was 
+performed by adding 5 mg/ml MTT that had been 1:10 diluted and after 
+2 h formazan crystals formed in the cells were dissolved in 1 ml acidified 
+isopropanol (37 % HCl in isopropanol). The absorbance was measured at 
+570 nm using a Multiskan FC ELISA reader (Thermo Fisher Scientific, 
+Rodano-Italy). The viability is shown as a percentage of absorbance 
+relative to untreated CTR cells, which will be green for the Live/Dead 
+assay and blue for the DAPI assay.
+In-contact: Further investigations were done to exclude the cell 
+cytotoxicity of OleoPlast directly added to HepG2 cells, (ISO 10993- 
+5:2009). For this purpose, HepG2 cells were seeded at a density of 6 
+× 104 cells/well in a 24-well plate in HG-DMEM medium. After 24 of 
+incubation, the culture medium was replaced with 500 µl of fresh me-
+dium together with 15 mm diameter OleoPlast. 20 % DMSO/full me-
+dium mixture was adopted as a positive control and pure culture 
+medium was added as a negative control. All samples were incubated at 
+37 ◦C with 5 % CO2 for 24 h. At the end of the incubation period, an MTT 
+assay was performed to quantify the cell viability following the same 
+protocol as described above. Furthermore, Live/Dead assay (Fixable 
+Aqua Dead Cell Stain, Thermo Fisher, Hong Kong) and DAPI assay were 
+used to qualitatively appreciate the cellular viability. In particular, live 
+cells interact with the reactive dye only on the surface, showing a weak 
+fluorescence signal, while cells with compromised membranes interact 
+throughout their volume, observing a brighter signal.
+4.3. Statistical analysis
+The data are presented as the Mean ± Standard Deviation (SD) for 
+the indicated number of experiments. The statistical analysis was con-
+ducted by using One Way ANOVA, followed by Tuckey’s test for mul-
+tiple c omparisons with respect to the control (CTRL). In all 
+comparisons, p < 0.05 was considered statistically significant, and the 
+significance level was reported when present.
+CRediT authorship contribution statement
+Leonardo Lamanna: Writing – review & editing, Writing – original 
+draft, Visualization, Validation, Supervision, Project administration, 
+Methodology, Investigation, Funding acquisition, Formal analysis, Data 
+curation, Conceptualization. Gabriele Corigliano: Investigation, Data 
+curation. Athira Narayanan: Investigation, Data curation. Stefania 
+Villani: Investigation, Data curation. Marco Friuli: Writing – review & 
+editing, Investigation, Formal analysis, Data curation. Francesco P. 
+Chietera: Investigation, Data curation. Benedetta Di Chiara Stanca: 
+Investigation, Data curation. Laura Giannotti: Investigation, Data 
+curation. Luisa Siculella: Supervision, Funding acquisition. Riccardo 
+Colella: Investigation, Data curation. Luca Catarinucci: Supervision, 
+Resources. Athanassia Athanassiou: Supervision, Resources. Pietro 
+Cataldi: Writing – review & editing, Investigation, Formal analysis, 
+Data curation. Christian Demitri: Supervision, Resources. Mario 
+Caironi: Writing – review & editing, Supervision. Alessandro Sannino: 
+Supervision, Resources, Funding acquisition.
+Declaration of competing interest
+The authors declare the following financial interests/personal re-
+lationships which may be considered as potential competing interests: 
+Leonardo Lamanna has patent pending to ND. If there are other authors, 
+they declare that they have no known competing financial interests or 
+personal relationships that could have appeared to influence the work 
+reported in this paper.
+Data availability
+Data will be made available on request.
+Acknowledgment
+M.C. acknowledges support from European Research Council (ERC) 
+under the European Union’s Horizon 2020 research and innovation 
+programme “ELFO”, Grant Agreement No. 864299. P.C. acknowledges 
+funding from the Marie Skłodowska-Curie actions (project name: Bio-
+ConTact, grant agreement no. 101022279) under the European Union’s 
+Horizon 2020 research and innovation programme. S.V. acknowledges 
+funding from the Italian Minister of Research with the Ministerial De-
+cree n. 351/2022 –PNRR Mission 4, Component 1. A.N. acknowledges 
+the financial support from the PON scholarship funded from the re-
+sources allocated by the MUR (Ministry of University and Research) with 
+the Ministerial Decree for ESF resources REACT-EU and funds from the 
+University of Salento. The authors acknowledge Lara Marini for her help 
+in performing DSC and TGA measurements.
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.cej.2024.154988.
+References
+[1] M.J. Kirwan, S. Plant, J.W. Strawbridge, Plastics in food packaging, Food. Beverage 
+Packaging Technol. (2011) 157–212.
+[2] T. Someya, Z. Bao, G.G. Malliaras, The rise of plastic bioelectronics, Nature 540 
+(7633) (2016) 379–385.
+[3] Q. Xia, C. Chen, Y. Yao, J. Li, S. He, Y. Zhou, T. Li, X. Pan, Y. Yao, L. Hu, A strong, 
+biodegradable and recyclable lignocellulosic bioplastic, Nat. Sustainability 4 (7) 
+(2021) 627–635.
+[4] L. Lamanna, Recent progress in polymeric flexible surface acoustic wave devices: 
+materials, processing, and applications, Adv. Mater. Technol. 2300362 (2023).
+[5] J. Brahney, M. Hallerud, E. Heim, M. Hahnenberger, S. Sukumaran, Plastic rain in 
+protected areas of the United States, Science 368 (6496) (2020) 1257–1260.
+[6] M.S. Bank, D.M. Mitrano, M.C. Rillig, C. Sze Ki Lin, Y.S. Ok, Embrace complexity to 
+understand microplastic pollution, Nature Rev. Earth Environ. 3 (11) (2022) 
+736–737.
+[7] R. Geyer, J.R. Jambeck, K.L. Law, Production, use, and fate of all plastics ever 
+made, Sci. Adv. 3 (7) (2017) e1700782.
+[8] U. Salahuddin, J. Sun, C. Zhu, M. Wu, B. Zhao, P.X. Gao, Plastic recycling: a review 
+on life cycle, methods, misconceptions, and techno-economic analysis, Adv. 
+Sustain. Sys. 7 (7) (2023) 2200471.
+[9] M. MacLeod, H.P.H. Arp, M.B. Tekman, A. Jahnke, The global threat from plastic 
+pollution, Science 373 (6550) (2021) 61–65.
+[10] J.-G. Rosenboom, R. Langer, G. Traverso, Bioplastics for a circular economy, Nat. 
+Rev. Mater. 7 (2) (2022) 117–137.
+[11] J.D. Sachs, G. Schmidt-Traub, M. Mazzucato, D. Messner, N. Nakicenovic, 
+J. Rockstr¨om, Six transformations to achieve the sustainable development goals, 
+Nat. Sustainability 2 (9) (2019) 805–814.
+[12] P. Skoczinski, M. Carus, G. Tweddle, P. Ruiz, D. de Guzman, J. Ravenstijn, H. K¨ab, 
+N. Hark, L. Dammer, A. Raschka, Bio-based Building Blocks and Polymers: global 
+Capacities, Production and Trends 2022–2027, Ind. Biotechnol. 19 (4) (2023) 
+185–194.
+[13] I. Pillin, N. Montrelay, A. Bourmaud, Y. Grohens, Effect of thermo-mechanical 
+cycles on the physico-chemical properties of poly (lactic acid), Polym. Degrad. 
+Stab. 93 (2) (2008) 321–328.
+[14] Y. Zhu, C. Romain, C.K. Williams, Sustainable polymers from renewable resources, 
+Nature 540 (7633) (2016) 354–362.
+L. Lamanna et al.                                                                                                                                                                                                                               Chemical Engineering Journal 498 (2024) 154988 
+12 
+
+=== PDF PAGE 13 ===
+[15] G. Zhou, H. Zhang, Z. Su, X. Zhang, H. Zhou, L. Yu, C. Chen, X. Wang, 
+A. Biodegradable, Waterproof, and Thermally Processable Cellulosic Bioplastic 
+Enabled by Dynamic Covalent Modification, Adv. Mater. 2301398 (2023).
+[16] D. Klemm, B. Heublein, H.P. Fink, A. Bohn, Cellulose: fascinating biopolymer and 
+sustainable raw material, Angew. Chem. Int. Ed. 44 (22) (2005) 3358–3393.
+[17] H. Seddiqi, E. Oliaei, H. Honarkar, J. Jin, L.C. Geonzon, R.G. Bacabac, J. Klein- 
+Nulend, Cellulose and its derivatives: towards biomedical applications, Cellul. 28 
+(4) (2021) 1893–1931.
+[18] H. Zhou, H. Tong, J. Lu, Y. Cheng, F. Qian, Y. Tao, H. Wang, Preparation of bio- 
+based cellulose acetate/chitosan composite film with oxygen and water resistant 
+properties, Carbohydr. Polym. 270 (2021) 118381.
+[19] L. Lamanna, G. Pace, I.K. Ilic, P. Cataldi, F. Viola, M. Friuli, V. Galli, C. Demitri, 
+M. Caironi, Edible cellulose-based conductive composites for triboelectric 
+nanogenerators and supercapacitors, Nano Energy 108168 (2023).
+[20] A. Narayanan, M. Friuli, A. Sannino, C. Demitri, L. Lamanna, Green synthesis of 
+stretchable Ethyl cellulose film plasticized with Transesterified Sunflower Oil, 
+Carbohydrate Polymer Technologies and Applications 100378 (2023).
+[21] A. Singh, F.-I. Auzanneau, M. Rogers, Advances in edible oleogel technologies–A 
+decade in review, Food Res. Int. 97 (2017) 307–317.
+[22] L. Lamanna, F. Rizzi, C. Demitri, M. Pisanello, E. Scarpa, A. Qualtieri, A. Sannino, 
+M. De Vittorio, Determination of absorption and structural properties of cellulose- 
+based hydrogel via ultrasonic pulse-echo time-of-flight approach, Cellul. 25 (8) 
+(2018) 4331–4343, https://doi.org/10.1007/s10570-018-1874-4.
+[23] A.J. Gravelle, A.G. Marangoni, M. Davidovich-Pinhas, Ethylcellulose oleogels, 
+Elsevier, Edible oleogels, 2018, pp. 331–362.
+[24] W. Zhao, Z. Wei, C. Xue, Y. Meng, Development of food-grade oleogel via the 
+aerogel-templated method: oxidation stability, astaxanthin delivery and 
+emulsifying application, Food Hydrocoll. 134 (2023) 108058.
+[25] S. Manzoor, F. Masoodi, F. Naqash, R. Rashid, Oleogels: promising alternatives to 
+solid fats for food applications, Food Hydrocolloids for Health 2 (2022) 100058.
+[26] W. Zhao, Z. Wei, C. Xue, Recent advances on food-grade oleogels: fabrication, 
+application and research trends, Crit. Rev. Food Sci. Nutr. 62 (27) (2022) 
+7659–7676.
+[27] T.J. Silva, D. Barrera-Arellano, A.P.B. Ribeiro, Oleogel-based emulsions: concepts, 
+structuring agents, and applications in food, J. Food Sci. 86 (7) (2021) 2785–2801.
+[28] J. Santos, I. Santos, M. Conceiç˘ao, S. Porto, M.F. Trindade, A. Souza, S. Prasad, 
+V. Fernandes, A. Araújo, Thermoanalytical, kinetic and rheological parameters of 
+commercial edible vegetable oils, J. Therm. Anal. Calorim. 75 (2004) 419–428.
+[29] H. Yalcin, O.S. Toker, M. Dogan, Effect of oil type and fatty acid composition on 
+dynamic and steady shear rheology of vegetable oils, J. Oleo Sci. 61 (4) (2012) 
+181–187.
+[30] B. Ganesan, C. Brothersen, D.J. McMahon, Fortification of foods with omega-3 
+polyunsaturated fatty acids, Crit. Rev. Food Sci. Nutr. 54 (1) (2014) 98–114.
+[31] M. Kervran, C. Vagner, M. Cochez, M. Ponçot, M.R. Saeb, H. Vahabi, Thermal 
+degradation of polylactic acid (PLA)/polyhydroxybutyrate (PHB) blends: a 
+systematic review, Polym. Degrad. Stab. 201 (2022) 109995.
+[32] P.J. Flory, Principles of polymer chemistry, Cornell University Press, 1953.
+[33] G.C. de Carvalho, M.d.F.V. de Moura, H.G.C. de Castro, J.H. da Silva Júnior, H.E. 
+B. da Silva, K.M. dos Santos, Z.M.S. Rocha, Influence of the atmosphere on the 
+decomposition of vegetable oils: study of the profiles of FTIR spectra and evolution 
+of gaseous products, J. Therm. Anal. Calorim. 140 (5) (2020) 2247–2258.
+[34] B. Ahmad, O. Gunduz, S. Stoyanov, E. Pelan, E. Stride, M. Edirisinghe, A novel 
+hybrid system for the fabrication of a fibrous mesh with micro-inclusions, 
+Carbohydr. Polym. 89 (1) (2012) 222–229.
+[35] V. Dubois, S. Breton, M. Linder, J. Fanni, M. Parmentier, Fatty acid profiles of 80 
+vegetable oils with regard to their nutritional potential, Eur. J. Lipid Sci. Technol. 
+109 (7) (2007) 710–732.
+[36] M.K. Mitchell, D.E. Hirt, Degradation of PLA fibers at elevated temperature and 
+humidity, Polym. Eng. Sci. 55 (7) (2015) 1652–1660.
+[37] H. Ventura, J. Claramunt, M. Rodríguez-P´erez, M. Ardanuy, Effects of 
+hydrothermal aging on the water uptake and tensile properties of PHB/flax fabric 
+biocomposites, Polym. Degrad. Stab. 142 (2017) 129–138.
+[38] C.G. Amza, A. Zapciu, F. Baciu, M.I. Vasile, D. Popescu, Aging of 3D printed 
+polymers under sterilizing UV-C radiation, Polymers 13 (24) (2021) 4467.
+[39] M. Yu, Y. Zheng, J. Tian, Study on the biodegradability of modified starch/ 
+polylactic acid (PLA) composite materials, RSC Adv. 10 (44) (2020) 26298–26307.
+[40] M. Gahleitner, J. Fiebig, J. Wolfschwenger, G. Dreiling, C. Paulik, Post- 
+crystallization and physical aging of polypropylene: material and processing 
+effects, J. Macromol. Sci. Part B 41 (4–6) (2002) 833–849.
+[41] J. Rault, The αc transition in semicrystalline polymers: a new look at crystallization 
+deformation and aging process, J. Macromol. Sci. Polym. Rev. 37 (2) (1997) 
+335–387.
+[42] P. Saha, B.S. Kim, Preparation, characterization, and antioxidant activity of 
+β-carotene impregnated polyurethane based on epoxidized soybean oil and malic 
+acid, J. Polym. Environ. 27 (2019) 2001–2016.
+[43] T.N. Nguyen, A. Rangel, D.W. Grainger, V. Migonney, Influence of spin finish on 
+degradation, functionalization and long-term storage of polyethylene terephthalate 
+fabrics dedicated to ligament prostheses, Sci. Rep. 11 (1) (2021) 4258.
+[44] K.D. Sullivan, V. Gugliada, Fluorescence photobleaching of microplastics: a 
+cautionary tale, Mar. Pollut. Bull. 133 (2018) 622–625.
+[45] H. Luo, C. Liu, D. He, J. Sun, J. Li, X. Pan, Effects of aging on environmental 
+behavior of plastic additives: migration, leaching, and ecotoxicity, Sci. Total 
+Environ. 849 (2022) 157951.
+[46] A.T.N. Do, Y. Ha, J.-H. Kwon, Leaching of microplastic-associated additives in 
+aquatic environments: a critical review, Environ. Pollut. 305 (2022) 119258.
+[47] F.M. Lamberti, L.A. Rom´an-Ramírez, J. Wood, Recycling of bioplastics: routes and 
+benefits, J. Polym. Environ. 28 (2020) 2551–2571.
+[48] Z.O. Schyns, M.P. Shaver, Mechanical recycling of packaging plastics: a review, 
+Macromol. Rapid Commun. 42 (3) (2021) 2000415.
+[49] S. Budin, N. Maideen, M. Koay, D. Ibrahim, H. Yusoff, A comparison study on 
+mechanical properties of virgin and recycled polylactic acid (PLA), Journal of 
+Physics: Conference Series, IOP Publishing, 2019, p. 012002.
+[50] F.P. La Mantia, M. Vinci, Recycling poly (ethyleneterephthalate), Polym. Degrad. 
+Stab. 45 (1) (1994) 121–125.
+[51] A. Honarbari, P. Cataldi, A. Zych, D. Merino, N. Paknezhad, L. Ceseracciu, 
+G. Perotto, M. Crepaldi, A. Athanassiou, A green conformable thermoformed 
+printed circuit board sourced from renewable materials, ACS Appl. Electron. Mater. 
+(2023).
+[52] G. Spallanzani, M. Najafi, M. Zahid, E.L. Papadopoulou, L. Ceseracciu, M. Catalano, 
+A. Athanassiou, P. Cataldi, A. Zych, Self-Healing, Biodegradable, Electrically 
+Conductive Vitrimer Coating for Soft Robotics, Advanced Sustainable Systems, 
+Recyclable, 2023.
+[53] L. Savenkova, Z. Gercberga, V. Nikolaeva, A. Dzene, I. Bibers, M. Kalnin, 
+Mechanical properties and biodegradation characteristics of PHB-based films, 
+Process Biochem. 35 (6) (2000) 573–579.
+[54] L.K. Ncube, A.U. Ude, E.N. Ogunmuyiwa, R. Zulkifli, I.N. Beas, Environmental 
+impact of food packaging materials: a review of contemporary development from 
+conventional plastics to polylactic acid based materials, Materials 13 (21) (2020) 
+4994.
+[55] E.P.o.F. Additives, N.S.a.t. Food, M. Younes, P. Aggett, F. Aguilar, R. Crebelli, A. Di 
+Domenico, B. Dusemund, M. Filipiˇc, M. Jose Frutos, P. Galtier, Re-evaluation of 
+celluloses E 460 (i), E 460 (ii), E 461, E 462, E 463, E 464, E 465, E 466, E 468 and 
+E 469 as food additives, EFSA Journal 16(1) (2018) e05047.
+[56] V. Goudarzi, I. Shahabi-Ghahfarrokhi, A. Babaei-Ghazvini, Preparation of 
+ecofriendly UV-protective food packaging material by starch/TiO2 bio- 
+nanocomposite: characterization, Int. J. Biol. Macromol. 95 (2017) 306–313.
+[57] A.S. Sharova, F. Modena, A. Luzio, F. Melloni, P. Cataldi, F.A. Viola, L. Lamanna, N. 
+F. Zorn, M. Sassi, C. Ronchi, Chitosan gated organic transistors printed on ethyl 
+cellulose as a versatile platform for edible electronics and bioelectronics, Nanoscale 
+(2023).
+[58] I.K. Ilic, L. Lamanna, D. Cortecchia, P. Cataldi, A. Luzio, M. Caironi, Self-Powered 
+Edible Defrosting Sensor, ACS sensors (2022).
+[59] P. Cataldi, L. Lamanna, C. Bertei, F. Arena, P. Rossi, M. Liu, F. Di Fonzo, D.G. 
+Papageorgiou, A. Luzio, M. Caironi, An Electrically Conductive Oleogel Paste for 
+Edible Electronics, Advanced Functional Materials n/a(n/a) 2113417. https://doi. 
+org/https://doi.org/10.1002/adfm.202113417.
+[60] I.K. Ilic, V. Galli, L. Lamanna, P. Cataldi, L. Pasquale, V.F. Annese, A. Athanassiou, 
+M. Caironi, An edible rechargeable battery, Adv. Mater. 2211400 (2023).
+[61] L. Lamanna, P. Cataldi, M. Friuli, C. Demitri, M. Caironi, Monitoring of drug 
+release via intra body communication with an edible Pill, Adv. Mater. Technol. 
+2200731 (2022).
+[62] L. Catarinucci, R. Colella, P. Coppola, L. Tarricone, Microwave characterisation of 
+polylactic acid for 3D-printed dielectrically controlled substrates, IET Microwaves 
+Antennas Propag. 11 (14) (2017) 1970–1976.
+[63] D. Qi, K. Zhang, G. Tian, B. Jiang, Y. Huang, Stretchable electronics based on PDMS 
+substrates, Adv. Mater. 33 (6) (2021) 2003155.
+[64] Y. Liu, X.-Y. Zhao, Y.-G. Sun, W.-Z. Li, X.-S. Zhang, J. Luan, Synthesis and 
+applications of low dielectric polyimide, Resour. Chem. Mater. 2 (1) (2023) 49–62.
+[65] B. Chen, Y.-C. Jiao, F.-C. Ren, L. Zhang, Broadband monopole antenna with 
+wideband circular polarization, Progress In Electromagnetics, Res. Lett. 32 (2012) 
+19–28.
+[66] F. Hirtenfelder, Effective antenna simulations using CST MICROWAVE STUDIO®, 
+2007 2nd International ITG Conference on Antennas, IEEE, 2007, pp. 239-239.
+[67] P. Cataldi, J.A. Heredia-Guerrero, S. Guzman-Puyol, L. Ceseracciu, L. La Notte, 
+A. Reale, J. Ren, Y. Zhang, L. Liu, M. Miscuglio, Sustainable electronics based on 
+crop plant extracts and graphene: a “bioadvantaged” approach, Advanced 
+Sustainable Systems 2 (11) (2018) 1800069.
+[68] J.T. Nandhini, D. Ezhilarasan, S. Rajeshkumar, An ecofriendly synthesized gold 
+nanoparticles induces cytotoxicity via apoptosis in HepG2 cells, Environ. Toxicol. 
+36 (1) (2021) 24–32.
+[69] T. Wang, M. Ma, C. Chen, X. Yang, Y. Qian, Three widely used pesticides and their 
+mixtures induced cytotoxicity and apoptosis through the ROS-related caspase 
+pathway in HepG2 cells, Food Chem. Toxicol. 152 (2021) 112162.
+[70] R. Podg´orski, M. Wojasi´nski, T. Ciach, Nanofibrous materials affect the reaction of 
+cytotoxicity assays, Sci. Rep. 12 (1) (2022) 9047.
+[71] R. Guarnieri, R. Reda, D. Di Nardo, G. Miccoli, A. Zanza, L. Testarelli, In vitro direct 
+and indirect cytotoxicity comparative analysis of one pre-hydrated versus one 
+dried acellular porcine dermal matrix, Materials 15 (5) (2022) 1937.
+[72] Z. Ma, Q. Huang, Q. Xu, Q. Zhuang, X. Zhao, Y. Yang, H. Qiu, Z. Yang, C. Wang, 
+Y. Chai, Permeable superelastic liquid-metal fibre mat enables biocompatible and 
+monolithic stretchable electronics, Nat. Mater. 20 (6) (2021) 859–868.
+[73] V. Shanmugam, R.A. Mensah, M. F¨orsth, G. Sas, ´A. Rest´as, C. Addy, Q. Xu, L. Jiang, 
+R.E. Neisiany, S. Singha, Circular economy in biocomposite development: state-of- 
+the-art, challenges and emerging trends, Composites Part c: Open Access 5 (2021) 
+100138.
+[74] M.J. John, S. Thomas, Biofibres and biocomposites, Carbohydr. Polym. 71 (3) 
+(2008) 343–364.
+[75] J. Pay´a, J. Rosell´o, J.M. Monz´o, A. Escalera, M.P. Santamarina, M.V. Borrachero, 
+L. Soriano, An approach to a new supplementary cementing material: arundo 
+donax straw ash, Sustainability 10 (11) (2018) 4273.
+L. Lamanna et al.                                                                                                                                                                                                                               Chemical Engineering Journal 498 (2024) 154988 
+13 
+
+=== PDF PAGE 14 ===
+[76] M. Chiumarelli, M.D. Hubinger, Evaluation of edible films and coatings formulated 
+with cassava starch, glycerol, carnauba wax and stearic acid, Food Hydrocoll. 38 
+(2014) 20–27.
+[77] S. Despond, E. Espuche, N. Cartier, A. Domard, Barrier properties of 
+paper–chitosan and paper–chitosan–carnauba wax films, J. Appl. Polym. Sci. 98 (2) 
+(2005) 704–710.
+[78] K. Faraj, M. Khaled, J. Faraj, F. Hachem, C. Castelain, Phase change material 
+thermal energy storage systems for cooling applications in buildings: a review, 
+Renew. Sustain. Energy Rev. 119 (2020) 109579.
+[79] G. Tedeschi, S. Guzman-Puyol, L. Ceseracciu, J.J.s. Benitez, P. Cataldi, M. Bissett, 
+A. Heredia, A. Athanassiou, J.A. Heredia-Guerrero, Sustainable, high-barrier 
+polyaleuritate/nanocellulose biocomposites, ACS Sustain. Chem. Eng. 8 (29) 
+(2020) 10682–10690.
+[80] R. Colella, F.P. Chietera, L. Catarinucci, Analysis of FDM and DLP 3D-printing 
+technologies to prototype electromagnetic devices for RFID applications, Sensors 
+21 (3) (2021) 897.
+L. Lamanna et al.                                                                                                                                                                                                                               Chemical Engineering Journal 498 (2024) 154988 
+14 

@@ -1,0 +1,77 @@
+[0043]
+
+[0044]
+
+[0045]
+
+[0046]
+
+[0047]
+
+[0048]
+
+[00491
+
+[00501
+
+[0051]
+
+[0052]
+
+[0053]
+
+[0054]
+
+[0055]
+
+pression (pression supérieure ou égale à 73.85 bars) pour amener le dioxyde à l’état su-
+percritique sont satisfaisantes et peuvent être atteintes sans difficulté dans une enceinte
+telle qu’un autoclave.
+
+Bien évidemment, l’homme du métier pourra sélectionner d’autres fluides et/ou
+d’autres paramètres de pression et/ou de température pour cette opération de dé-
+pollution.
+
+On comprend ici que le degré d’extraction et les capacités de transport du fluide
+peuvent varier en agissant sur ces paramètres de température et de pression. A travers
+cette technologie, on possède un fluide solubilisant avec un pouvoir modulable,
+notamment des contaminants à extraire de la fibre issue du filtre.
+
+Avantageusement, un cosolvant est ajouté au fluide pour extraire des fibres des
+substances organiques non souhaitées, tout en conservant la qualité et les caracté-
+ristiques techniques de la fibre.
+
+L’ajout d’un tel cosolvant permet de retirer des fibres certaines substances or-
+ganiques présentes dans les fibres afin d'améliorer le process de nettoyage.
+
+On comprendra que cet ajout de cosolvant peut être réalisé avant, pendant et/ou
+encore après la mise en contact du fluide avec les fibres à dépolluer.
+
+Avantageusement, le cosolvant est sélectionné parmi : le monoxyde de dihydrogène ;
+les alcools, par exemple les alcools aliphatiques, tels que l’éthanol, le méthanol, le
+butanol ; les solutions aqueuses (par exemple de l’eau) ; les terpènes ; le benzène ; les
+cyclohexanes et leurs mélanges ; les cétones ; les hydrofluoroéthers et tous autres co-
+solvants capables de dépolluer les substances indésirables présentent dans la fibre.
+
+Avantageusement, un extractant est ajouté au fluide pour extraire des fibres des
+substances inorganiques de type par exemple métaux lourds.
+
+L’ajout d’un tel extractant permet de retirer des fibres certaines substances inor-
+ganiques présentes dans les fibres afin d’améliorer les performances de la phase de dé-
+pollution.
+
+On comprendra que cet ajout d’extractant peut être réalisé avant, pendant et/ou
+encore après la mise en contact du fluide avec les fibres à dépolluer.
+
+De préférence, l’extractant comprend une gamme de molécules du type calixarènes
+et/ou des solutions d’agents capables d’extraire les substances inorganiques
+(complexants, chelatants, antioxydants, solutions tampons).
+
+L’ajout de cosolvant(s) peut aussi avoir un impact sur les molécules inorganiques, et
+inversement, l’ajout d’extractant(s) peut aussi avoir un impact sur les molécules or-
+ganiques.
+
+On comprendra que les cosolvants et les extractants sont choisis en fonction des
+substances indésirables à extraire, selon les normes correspondantes aux débouchés.
+
+En effet, selon les débouchés, les résultats de pureté de la fibre souhaitée peuvent

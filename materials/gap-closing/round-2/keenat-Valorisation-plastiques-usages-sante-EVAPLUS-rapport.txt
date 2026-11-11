@@ -1,0 +1,3191 @@
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     1 
+  
+ 
+ 
+ 
+ 
+ETUDE SUR LA 
+VALORISATION DES 
+PLASTIQUES USAGES 
+EN SANTE  
+ 
+ 
+ 
+ 
+ 
+EVAPLUS 
+ 
+RAPPORT FINAL 
+Octobre 2024 
+  
+
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     2 
+ 
+REMERCIEMENTS 
+Les membres du projet remercient l’ADEME, en particulier : 
+• Aline Grudet, 
+• Stéphanie Loret 
+Des remerciements sincères sont aussi  adressés aux représentants des acteurs suivants ayant participé à 
+l’étude en tant que contributeur : Ahlstrom, ARaymondLife, B.Braun, Benvic, le CHU de Bordeaux, Clayens NP 
+Plastibell, Enovis, Gerflor, Mitsubishi Chemical, Peters Surgical, Resah, Saint -Gobain, Sartorius, Sterimed et 
+Suez. 
+ 
+CITATION DE CE RAPPORT 
+MAGNES Valentine, ROLIN Marie (Alcimed), LONGHITANO Nicolas (POLYMERIS), RABOYEAU Gaëlle (adi 
+Nouvelle Aquitaine). 2024. Etude sur la valorisation des plastiques usages en santé, projet EVAPLUS. 75 
+pages. 
+ 
+Cet ouvrage est disponible en ligne https://librairie.ademe.fr/ 
+ 
+ 
+Toute représentation ou reproduction intégrale ou partielle faite sans le consentement de l’auteur ou de ses ayants droit ou ayants  cause est illicite selon le 
+Code de la propriété intellectuelle (art. L 122-4) et constitue une contrefaçon réprimée par le Code p énal. Seules sont autorisées (art. 122-5) les copies ou 
+reproductions strictement réservées à l’usage privé de copiste et non destinées à une utilisation collective, ainsi que les a nalyses et courtes citations 
+justifiées par le caractère critique, pédagogique ou d’information de l’œuvre à laquelle elles sont incorporées, sous réserve, toutefois, du respect des 
+dispositions des articles L 122-10 à L 122-12 du même Code, relatives à la reproduction par reprographie.  
+ 
+Ce document est diffusé par l'ADEME  
+ADEME  
+20, avenue du Grésillé  
+BP 90 406  |  49004 Angers Cedex 01 
+Numéro de contrat : 23RAD0455 
+ 
+Projet de recherche coordonné par : ALCIMED 
+Coordination technique - ADEME : Mme Aline GRUDET 
+Direction/Service : Service Ecoconception et Recyclage   
+ 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     3 
+TABLE DES MATIERES  
+1. EXECUTIVE SUMMARY 5 
+2. REMERCIEMENTS 10 
+3. CONTEXTE & OBJECTIFS 14 
+4. METHODOLOGIE, PERIMETRE & MOYENS 15 
+4.1. Methodologie ................................................................................................................................ 15 
+4.2. Perimètre de l’étude ..................................................................................................................... 15 
+4.3. Moyens ........................................................................................................................................... 16 
+5. UN SYSTEME DE SANTE FRANÇAIS REPRESENTANT UN GISEMENT POTENTIEL CONSEQUENT 
+DE MATIERE PLASTIQUE 17 
+5.1. Pourquoi la santé représente-t-elle un gisement de plastiques important ? ......................... 17 
+5.2. Ou se situent les gisements de plastiques en sante ? ............................................................. 18 
+3.3. Que representent les gisements de plastiques d’intérêt en santé ? ............................................ 21 
+3.3.1. Une quantification des gisements difficile a opérer 21 
+3.3.2.  Méthodologies de quantification proposées 22 
+3.3.3. Résultats du chiffrage 24 
+6. UNE FILIERE DU RECYCLAGE / DE LA VALORISATION DES DECHETS PLASTIQUES DE SANTE 
+EN COURS DE STRUCTURATION EN FRANCE 28 
+7. UNE CHAINE DE VALEUR INCITEE A SE MOBILISER POUR METTRE EN PLACE DES VOIES DE 
+VALORISATION / RECYCLAGE… 29 
+7.1. … Pour répondre a des enjeux règlementaires ......................................................................... 29 
+7.1.1. Règlementations concernant les metteurs sur le marche 29 
+7.1.2. Règlementations et mesures concernant les STRUCTURES DE SOINS 33 
+7.1.3. Mesures impactant les recycleurs 38 
+7.2. … Pour repondre aux attentes actuelles ou a venir de ses clients ET/OU de ses salaries  .. 39 
+8. UNE CHAINE DE VALEUR QUI FAIT FACE A UN CERTAIN NOMBRE D’ENJEUX POUR METTRE EN 
+PLACE LA FILIERE DE RECYCLAGE / VALORISATION DES PLASTIQUES DE SANTE  41 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     4 
+9. RELEVER LE DEFI DU RECYCLAGE DES PLASTIQUES EN SANTE : INSPIRATION ET FACTEURS 
+CLES DE SUCCES 52 
+9.1. Tour d’horizon des voies de valorisation de plastiques de santé existantes en Europe  ..... 52 
+9.2. Facteurs cles de succes a la mise en place de filieres de recyclage des plastiques de sante
+ 57 
+10. PRISE DE RECUL, POURQUOI NE PENDRE EN COMPTE QUE LE RECYCLAGE ? 70 
+11. RECOMMANDATION ET MISE EN PERSPECTIVE 72 
+ 
+ 
+  
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     5 
+1. EXECUTIVE SUMMARY  
+ 
+Composant essentiel d’une grande variété de produits médicaux (seringues, cathéters, poches 
+de perfusion, gants, blouses ou encore emballages d’instruments stériles…), le plastique est 
+aujourd’hui l’un des matériaux prépondérants dans les produits de santé. Or, ces produits étant 
+pour une grande part à usage unique, ils génèrent une quantité importante de déchets plastiques 
+qui, à l’heure actuelle, ne sont pas pleinement recyclés/valorisés et finissent souvent par être enfouis 
+ou incinérés. 
+Se pose ainsi la question de la valorisation des plastiques de santé en France : existe- t-il des 
+voies de valorisation pertinentes pour les plastiques de santé en France, ou quels sont les 
+facteurs clés de succès pour en former de nouvelles ? 
+------------------------------------------------------ 
+UNE FILIERE DU RECYCLAGE / DE LA VALORISATION DES DECHETS PLASTIQUES  
+DE SANTE QUI DOIT ETRE STRUCTUREE EN FRANCE 
+ 
+Chaque année en France, 23 000 à 170 000 tonnes 1 de plastiques issus de déchets de santé 
+hospitaliers, hors déchets d’activités de soins à risques infectieux (DASRI), seraient générées : 
+- Provenant majoritairement des produits à usage unique (seringues, équipements de 
+protection individuelle, poches de perfusion) et leurs emballages, et des flaconnages ; 
+- Générés dans tous les services de soins et de support aux soins (laboratoire de biologie), le 
+plus gros volume provenant des services de chirurgie et de maternité ; 
+- Composés majoritairement de PP, PVC et PELD ; 
+- Et pour jusqu’à 37% d’entre eux, étant mixtes (c’est-à-dire mélangés à d’autres matériaux). 
+ 
+Ces déchets, classifiés comme assimilables aux ordures ménagères (DAOM), intègrent 
+aujourd’hui le flux des déchets d’ordure ménagères. Certains sont donc envoyés vers des filières de 
+recyclage déjà existantes pour certains types de résines plastiques, mais beaucoup, trop complexes 
+à trier, ou composés de multi -matériaux difficilement séparables , finiront enfouis ou incinérés. 
+Pourtant, les applications médicales requérant des plastiques d’un certain grade de qualité et 
+présentant des propriétés techniques s pécifiques (antimicrobiennes, tenue à la stérilisation…), ces 
+plastiques de santé pourraient être bien mieux valorisés ! Recyclés mécaniquement pour la 
+majorité puis reformulés avec de la matière vierge et différents additifs pour garantir le maintien de 
+leurs propriétés initiales (ou faiblement dégradées), ils pourraient ensuite être valorisés dans des 
+applications de haute valeur ajoutée. Or, aujourd’hui en France, il n’existe à date aucune filière 
+structurée à grande échelle de recyclage dédié à ces plastiques de santé.  
+ 
+Aussi, l’équation économique reste pour le moment en défaveur des établissements de soins, 
+aujourd’hui responsables de la gestion de la fin de vie de leurs déchets, qui financent des collecteurs, 
+centres de tri et recycleurs mais ne peuvent récupérer que peu ou pas de gains liés à la revente de 
+leurs plastiques recomposés – puisque la plupart ne sont pas recyclés.  Mais cette équation est 
+amenée à changer. 
+ 
+ 
+1 Chiffrage de marché réalisé par Alcimed sur la base de données de quantification de plastiques partielles , sur 4 hôpitaux français ou européens. 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     6 
+UNE CHAINE DE VALEUR INCITEE A SE MOBILISER POUR METTRE EN PLACE 
+ DES VOIES DE VALORISATION / RECYCLAGE DES PLASTIQUES DE SANTE 
+ 
+Depuis les 10 dernières années, de nombreuses évolutions réglementaires européennes 
+et françaises entrent en vigueur, qui ont pour conséquence d’inviter à mettre en place des voies de 
+valorisation / recyclage pour assurer la fin de vie de produits. Les avancées les plus notables portent 
+sur : 
+- L’attribution de la gestion de la fin de vie des produits aux metteurs sur le marché,  
+selon le principe de pollueur-payeur : si la loi sur la taxonomie verte européenne de 2018 
+et la directive européenne sur la CSRD de 2023 semblent indiquer une volonté de l’Europe 
+d’impliquer davantage les metteurs sur le marché dans une démarche RSE, c’est la loi AGEC 
+(Loi Anti-Gaspillage pour une Economie Circulaire) de février 2020 en France qui établit 
+clairement l’obligation pour les metteurs sur le marché de  se préoccuper de la fin de vie de 
+leurs produits. En découle la mise en place de filières REP  (Responsabilité Elargie du 
+Producteur) : les metteurs sur le marché doivent ainsi financer, organiser et mettre en place 
+les solutions de collecte, de réutilisation ou de recyclage appropriées pour leurs produits ; soit 
+par eux -mêmes individuellement ou en se regroupant sous la forme d’un éco- organisme, 
+structure à but non lucratif à laquelle ils versent une écocontribution.  
+4 filières REP concernent les produits de santé et/ou leurs emballages contenant du 
+plastique, hors DASRI : 
+o REP emballages ménagers, déjà en vigueur (éco- organismes : CITEO, LEKO, et 
+ADELPHE  ) 
+o REP Textiles sanitaires à usage unique (initialement prévue le 1er janvier 2024 mais 
+encore non établie) 
+o REP Aides techniques médicales (date d’entrée en vigueur non communiquée à date) 
+o REP Emballages professionnels et commerciaux (prévue pour début 2025) 
+ 
+- L’intégration de critères d’achat liés à l’environnement pour la commande publique : le 
+Décret n° 2024-134 du 21 février 2024  (relatif à l'obligation d'acquisition par la commande 
+publique de biens issus du réemploi ou de la réutilisation ou intégrant des matières recyclées 
+et à l'interdiction d'acquisition par l'Etat de produits en plastique à usage unique) traduit une 
+dynamique de prise en compte de considérations sociales et environnementales dans les 
+procédures de passation de marché.  En complément, d’ici août 2026, la commande 
+publique aura l’obligation de prendre en compte au moins un critère environnemental 
+dans chaque marché, tel que défini dans l’article R2152-7 du CCP (Code de la Commande 
+Publique). En pratique, les appels d’offres commencent déjà à augmenter le poids des critères 
+environnementaux dans la décision d’attribution des marchés, et des outils de scoring de 
+l’impact environnemental/social des produits de santé sont développés pour orienter les 
+acheteurs (lancement du scoring développé par le SNITEM  et le C2DS , avec l’appui de 
+l’AFNOR, d’ici fin 2024). 
+ 
+- Les obligations de tri dans les structures de soins  : depuis la loi LTECV (Loi de 
+Transition Energétique pour la Croissance Verte) de 2015,  plusieurs règlementations se 
+sont succédées et impliquent la mise en place d’un tri dans les structures de soins selon 5 
+(ou plus) flux dont le plastique. Par ailleurs, des propositions de changements de pratiques 
+tendant à se diffuser au niveau national quant au tri des DASRI , pour en diminuer les 
+quantités, ce qui aurait pour impact d’augmenter le flux de plastiques classés en DAOM. 
+ 
+- Le soutien à l’augmentation des capacités de production des recycleurs : la Stratégie 
+d’accélération recyclabilité, recyclage, réincorporation des matériaux recyclés publiée 
+en 2020 vise à développer une matière première de recyclage adaptée en quantité et en 
+qualité au marché français et pose une ambition de « Développer des capacités 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     7 
+industrielles capables de produire 2 millions de tonnes de matières plastiques à 
+recycler par an, à l’horizon 2025 ».  
+ 
+Ces évolutions réglementaires, si elles peuvent être vécues comme des contraintes par les acteurs 
+concernés, devraient toutefois avoir pour effet :  
+- D’augmenter la qualité et la quantité des gisements de plastiques disponibles, 
+- D’augmenter l’intérêt présagé de chaque maillon de la chaine de valeur pour recycler , 
+cela étant un moyen de valoriser ses engagements RSE auprès de ses clients ou de ses 
+salariés, pour aujourd’hui se différencier de ses concurrents, et à terme ne pas être sorti du 
+marché. 
+ 
+ 
+DE FORTS ENJEUX A LA MISE EN PLACE  
+DE FILIERES DE RECYCLAGE DES PLASTIQUES DE SANTE 
+ 
+5 types d’enjeux seront à adresser pour pouvoir concrètement mettre en œuvre des filières de 
+recyclage des plastiques de santé, qui concernent tous les maillons de la chaîne de valeur : structures 
+de soins, collecteurs & centres de tri, recycleurs, compounders & plasturgistes, transformateurs & 
+metteurs sur le marché de produits de santé, et distributeurs & centrales d’achats. 
+ 
+- Des enjeux liés au modèle économique : l’étude d’initiatives de recyclage de plastiques de 
+santé mises en place en Europe nous enseigne que la rentabilisation de la filière est le plus 
+gros enjeu à la mise en œuvre d’une voie de valorisation. En effet les coûts élevés de mise 
+en place de la collecte et du tri, sont à mettre au regard de la faible quantité de plastique 
+collectée et donc revalorisable (si les plastiques de santé sont volumineux, ils représentent 
+lorsque compactés une faible masse, qui n’intéresse donc pas les recycleurs). 
+ 
+- Des enjeux logistiques : la majorité des structures de soins en France ne disposent pas de 
+suffisamment de foncier pour pouvoir stocker dans une zone dédiée les déchets plastiques, 
+très volumineux, ce qui explique pourquoi plusieurs structures n’ont toujours pas mis en œuvre 
+les 5 flux de déchets, pourtant obligatoire depuis 2015. 
+ 
+- Des enjeux techniques : si les difficultés à reconnaître les plastiques pour les trier de 
+façon adéquate, ou à démanteler les produits de santé pour en séparer le plastique sont 
+des enjeux pour l’amont de la chaîne de valeur (structures de soins / centre de tri), les metteurs 
+sur le marché peuvent eux faire preuve de frilosité à intégrer du plastique recyclé dans leurs 
+produits car ils manquent de garanties. Bien qu’aucune interdiction n’existe à incorporer 
+du plastique recyclé dans des Dispositifs Médicaux, quelle que soit leur classe, l’enjeu 
+repose sur la démonstration de la qualité du plastique recyclé et sa traçabilité (qui doit 
+être démontrée d’un bout à l’autre de la chaîne de valeur).  
+ 
+- Des enjeux organisationnels : qui doit opérer le premier tri du plastique (personnels de 
+structures de soins ?, centres de tri ?), comment inciter ses équipes à une démarche de mise 
+en œuvre de recyclage,  sont autant de questions organisationnelles qui se posent. Au centre 
+de ces questionnements, la méconnaissance des enjeux mutuels de chacun des maillons 
+de la chaîne de valeur semble être le nœud du problème. 
+ 
+- Des enjeux environnementaux : pré-requis à la mise en œuvre de toute filière, la garantie 
+de l’aspect vertueux du recyclage par rapport aux voies actuelles de fin de vie  des 
+plastiques de santé reste un frein pour se lancer. 
+ 
+------------------------------------------------------ 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     8 
+ 
+ Alors qu’aucune filière structurée à grande échelle de recyclage dédié de 
+plastiques de santé n’existe en France aujourd’hui, Alcimed recommande de 
+fédérer tous les maillons de cette chaîne de valeur autour d’un référent national, 
+qui structurera et rendra  visibles des initiatives de valorisation des plastiques 
+de santé, s’appuyant sur les REP existantes et capitalisant sur 5 facteurs clés 
+de succès. 
+ 
+1/ Trouver un modèle économique rentable et pérenne 
+- En instaurant des modèles économiques écoresponsables (contrats de performance par 
+exemple) qui lèvent certains freins à la mise en place (ex  : investissements nécessaires) et 
+œuvrent comme une preuve de concept de rentabilité du modèle. 
+- En développant des stratégies de massification des gisements pour diminuer les coûts de 
+collecte et de tri qui leur sont associés et éveiller l’intérêt des recycleurs avec un gisement 
+suffisamment conséquent : massification entre structures de soins et autres utilisateurs de 
+produits de santé contenant du plastique (services de soins à domicile, laboratoires 
+biomédicaux de ville, pharmacies d’officine, cliniques vétérinaires, acteurs de la recherche en 
+santé…), voire autres secteurs d’activité utilisant des plastiques de haute valeur ajoutée. 
+- En démontrant que les caractéristiques techniques de ces plastiques recyclés  leur 
+permettent d’être intégrés à des exutoires à haute valeur ajoutée , afin d’œuvrer à la 
+rentabilité de la voie de valorisation dans son ensemble  
+- En favorisant l’implication et l’adhésion des différentes parties prenantes de la chaîne de 
+valeur et des clients finaux par la mise en place de mécanismes incitatifs, par exemple : 
+o Mise en place de critères de recyclabilité de la matière dans les décisions d’attribution 
+des marchés, pour inciter les metteurs sur le marché à investir dans de la R&D pour 
+l’éco-conception de leurs produits (et formation des équipes achats des centrales 
+d’achats hospitalières et hôpitaux à l’évaluation des ces critères) 
+o Mise en place de bonus pour les plasturgistes intégrant systématiquement de la 
+matière recyclée dans leur portefeuille produits 
+o Mise en place de « crédits achats » pour les structures de soins mettant en place des 
+actions de valorisation de leurs déchets ou de diminution de l’empreinte carbone des 
+produits achetés par une politique achats dédiée 
+o Etc. 
+2/ Favoriser un fonctionnement qui lève les freins logistiques au tri et à la collecte tout 
+en massifiant les gisements 
+- En intégrant dès l’étape de conception des hôpitaux  une réflexion sur les modalités de 
+collecte et de tri des déchets et leur impact sur le foncier. 
+- En mettant à disposition tous les outils nécessaires au tri et au stockage à l’échelle d’une 
+structure de soins : installation de broyeurs et compacteurs par exemple. 
+3/ Lever les freins techniques liés au tri et à la traçabilité des produits 
+- En facilitant le tri des plastiques et leur traçabilité avec des moyens de reconnaissance du 
+polymère (ex : étiquetage systématique des numéros de polymères sur le produit) et 
+d’automatisation (ex : inclusion d’additifs ou de traceurs permettant un tri et un suivi de la 
+traçabilité automatiques) 
+- En facilitant le démantèlement et recyclage  des produits plastiques de santé dès leur 
+conception par les metteurs sur le marché : préférence pour des mono-matériaux / matériaux 
+simples dans la conception des produits de santé, réflexion sur le démantèlement du produit 
+en fin de vie… 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     9 
+4/ Assurer une organisation fructueuse qui prend en compte les enjeux de chaque 
+maillon de la chaîne de valeur 
+- En impliquant les collaborateurs de tous les niveaux dans la démarche de mise en place 
+d’une voie de valorisation, par exemple 
+o Metteurs sur le marché : importance de recueillir l’adhésion de son service 
+règlementaire pour la mise en place d’une voie de valorisation pour ses produits et/ou 
+pour l’intégration de matière plastique recyclée ou recyclable dans ses produits, car 
+souvent conditionné à des validations juridiques. 
+o Structures de soins : importance de recueillir l’adhésion des personnels qui 
+opéreront le premier tri (et sont généralement réticents du fait de contraintes de 
+temps), via une information et formation dédiée, portée par la Direction et des 
+ambassadeurs par service. 
+- En favorisant une meilleure connaissance et compréhension mutuelle des besoins et 
+des enjeux de chacun des maillons de la chaîne de valeur  : les exemples de filières de 
+recyclage de plastiques de santé existant en Europe montrent que la majorité de ces initiatives 
+est portée par au moins un duo d’acteurs, et intègre nécessairement une coordination avec 
+tous les maillons de la chaîne de valeur. 
+5/ Garantir l’aspect vertueux de la démarche 
+- En mettant en place des mécanismes incitatifs / de soutien à l’utilisation d’outils 
+d’Analyse du Cycle de Vie des produits (ACV) par les metteurs sur le marché dès leur 
+conception, qui permettront une analyse du recyclage : 
+o En comparaison à l’enfouissement ou à l’incinération des déchets plastiques, 
+logistique (tri, collecte) comprise ;  
+o Sur différents aspects (ex : impact carbone, impact sur la biodiversité, etc.) ;  
+o S’appuyant sur des études ou des méthodologies de calcul solides et reconnues. 
+- En accompagnant tous les maillons de la chaîne de valeur à une réflexion plus large sur la 
+hiérarchisation des déchets, pour inciter, avant de recycler, à se questionner sur la 
+réutilisation, la minimisation, voire l’évitement des déchets ; et en mettant en place des 
+modèles d’économie de la fonctionnalité ou économie collaborative favorisant ces 
+issues. 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     10 
+2. REMERCIEMENTS  
+ 
+Dans le cadre de cette étude, il convient d'exprimer une profonde gratitude envers l'ensemble des 
+membres du consortium EVAPLUS pour leur précieuse collaboration. Des remerciements sincères 
+sont ainsi adressés aux représentants des acteurs suivants ayant participé à l’étude en tant que 
+contributeur : Ahlstrom, ARaymondLife, B.Braun, Benvic, le CHU de Bordeaux, Clayens NP Plastibell, 
+Enovis, Gerflor, Mitsubishi Chemical, Peters Surgical, Resah, Saint -Gobain, Sartorius, Sterimed et 
+Suez. Vous trouverez ci-dessous la liste de ces contributeurs. N’hésitez pas à les contacter si besoin. 
+ALHSTROM 
+Ahlstrom is the global leader in fiber-based specialty materials. Our purpose is to Purify and Protect 
+with Every Fiber, for a Sustainable World. Our vision is to be the Preferred Sustainable Specialty 
+Materials Company for all our stakeholders. Ahlstrom has three divisions that are aligned to address 
+global trends: Filtration & Life Sciences, Food & Consumer Packaging, and Protective Materials. We 
+add value by combining fibers with our advanced technology and innovative and entrepreneurial 
+culture, constantly exploring novel materials and new applications. Sustainability, innovation and 
+quality are central in all our solutions such as compostable food and beverage processing and 
+packaging materials, liquid and air filtration media, diagnostic materials and protective medical fabrics. 
+Ahlstrom provides operating rooms and theaters around the world with a high level of infection 
+protection with single-use medical substrates. Our diverse product portfolio of fabrics for use in the 
+manufacture of surgical drapes, gowns and sterile barrier systems is designed to meet the demanding 
+performance needs of high-risk surgeries, protecting patients and keeping healthcare professionals 
+safe. 
+ARAYMOND LIFE 
+Créé en 2007, ARaymondlife est un établissement pharmaceutique français qui conçoit et produit des 
+solutions de packaging à destination des industries de la santé. 
+ARaymondlife propose un dispositif de fermeture tout plastique pour les flacons d’injectables en 
+alternative à la capsule aluminium.  
+BENVIC 
+www.benvic.com 
+Contacts :  
+Philippe Gressier – Directeur Commercial France :  philippe.gressier@benvic.com 
+Eric Grange – Group Maketing Manager  :   eric.grange@benvic.com 
+Eric Roubez  - Développement des formulations PVC  eric.roubez@benvic.com 
+CHU BORDEAUX 
+Premier établissement de santé de Nouvelle- Aquitaine, le CHU de Bordeaux a un rôle important 
+d’hôpital de proximité mais aussi un rayonnement régional, national et international au travers de ses 
+activités de soin, d’enseignement et de recherche clinique. L’exercice de ces missions contribue au 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     11 
+changement climatique dont les conséquences sanitaires affectent aussi fortement le CHU. Conscient 
+de ces enjeux et de sa responsabilité, le CHU s’est engagé dès 2009 dans une démarche de 
+développement durable.  
+L’accélération de la transition écologique et solidaire est aujourd’hui une nécessité pour le CHU de 
+Bordeaux et une demande de tous ses professionnels et usagers. Le projet d’établissement 2021 -
+2025 prévoit d’œuvrer résolument afin de limiter l’impact environnemental des activités, de conduire 
+le projet de transformation du nouveau CHU avec des critères environnementaux et d’adapter les 
+organisations et fonctionnements aux crises écologiques.  
+CLAYENS HEALTHCARE 
+CLAYENS HEALTHCARE, la division Santé du Groupe CLAYENS, accompagne les acteurs 
+industriels de la santé (dispositifs médicaux, pharmaceutiques et diagnostics) dans le développement, 
+l'industrialisation et la fabrication de dispositifs médicaux et composant s plastiques sur mesure, en 
+conformité avec les normes réglementaires internationales. 
+CLAYENS Healthcare offre un service complet, de la R&D à la production, en passant par 
+l’industrialisation, la qualification, la validation et l’accompagnement réglementaire. 
+Présent dans 9 pays, le Groupe CLAYENS compte près de 5 000 personnes et 32 sites de fabrication. 
+Les 8 salles blanches du Groupe sont situées en France (ISO7), aux États-Unis (ISO8) et au Mexique 
+(ISO7). 
+Contacts :  
+Mickael ROUACH, Healthcare Market Manager, mickael.rouach@clayens.com 
+Matthieu BESSE, Healthcare R&D Manager, matthieu.besse@clayens.com      
+GERFLOR 
+Contact : Alexia Balamoutoff (responsable recyclage),  alexia.balamoutoff@gerflor.com 
+PETERS SURGICAL 
+Peters Surgical est une société française, qui conçoit, fabrique et distribue des dispositifs médicaux 
+dans plus de 90 pays.  Reconnue comme experte dans les domaines des  Sutures, des Clips 
+hémostatiques et de la Colle chirurgicale,  Peters Surgical place la qualité au cœur de ses priorités, 
+tout en veillant à minimiser son impact environnemental et à promouvoir le bien-être de ses employés. 
+Peters Surgical collabore au quotidien avec des experts de référence pour contribuer non seulement 
+à l’amélioration des soins de santé à travers le monde, mais aussi à la création d’un avenir plus 
+durable et équitable pour tous. 
+Contact : Marie COMPAGNON RIOBÉ, Chief  Regulatory & Sustainability Officer, m.compagnon-
+riobe@peters-surgical.com 
+ 
+ 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     12 
+ 
+ 
+RESAH 
+Le Resah  est un groupement d’intérêt public dont l’objectif est d’appuyer la mutualisation et la 
+professionnalisation des achats et de la logistique pour les acteurs intervenant dans les secteurs 
+sanitaire et médico-social, mais aussi social, public et privé non lucratif.   
+Il dispose d'une centrale d’achat couvrant la majorité des besoins des établissements et dotée d’un 
+centre d’innovation par les achats ainsi que d'un centre de ressources et d’expertise visant à appuyer 
+la professionnalisation des équipes achat et logistique. 
+SAINT-GOBAIN BIOPROCESS SOLUTIONS 
+« Nous concevons, fabriquons et fournissons des composants et des assemblages de gestion des 
+fluides utilisés dans les processus de fabrication (bio-)pharmaceutiques. » 
+Besoin : Recherche de réseau d’entreprises de recyclage des polymère et silicone, Consolidation de 
+volume de même déchets ave d’autres sources 
+Contact : Caroline Calmels, Sustainability Market Manager at Saint -Gobain Bioprocess Solutions, 
+caroline.calmels@saint-gobain.com 
+SARTORIUS 
+Sartorius est spécialisé dans le développement et la fabrication de technologies de transfert, de 
+stockage et de traitement des fluides utilisés dans les processus de développement et de production 
+de l'industrie biopharmaceutique.  
+Besoin : Recherche de réseau d’entreprises de recyclage des polymères et silicones, Consolidation 
+de volume de mêmes déchets avec d’autres sources  
+Contact : Magali Barbaroux, Corporate Research Fellow, magali.barbaroux@sartorius.com  
+ 
+STERIMED 
+Sterimed Infection Control est un groupe français, leader mondial dans la fabrication d'emballages 
+médicaux et de services associés.  Sterimed maîtrise à la fois la fabrication de substrats spécialisés 
+(papier, polybond®, film...) et la fabrication et la distribution d'emballages de stérilisation prêts à 
+l'emploi et de consommables, garantissant ainsi une maîtrise totale de la qualité to ut au long de la 
+chaîne d’approvisionnement pour une sécurité optimale des patients et personnels soignants.  
+Soucieux d’une dynamique permanente d’innovation, les équipes de R&D de Sterimed travaillent sur 
+des développements sur mesure pour leurs clients et élaborent en permanence des matériaux, des 
+procédés et des designs nouveaux dans lesquels elles intègrent u n maximum de ressources 
+renouvelables, au service de la performance, des usages des produits et des clients.  
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     13 
+Le groupe compte 1500 collaborateurs sur les 3 continents, avec 24 sites à travers le monde dont 14 
+sites de production 
+Contact : contact@sterimed.fr   
+ 
+Il est également important de souligner la contribution significative de tous les interlocuteurs qui ont 
+généreusement partagé leur savoir et / ou leurs données lors des investigations de l’étude 
+EVAPLUS : établissements de soins public et privés, recycleurs, metteurs sur le marché, 
+plasturgistes, acteurs du règlementaires et éco -organismes. Leur ouverture et leur disponibilité ont 
+permis d'enrichir considérablement la compréhension des enjeux abordés et d'approfondir l'analyse 
+menée.
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     14 
+ 
+3. CONTEXTE & OBJECTIF S  
+ 
+Polymeris est l’unique pôle de compétitivité dédié aux caoutchoucs, plastiques et 
+composites. Il s'appuie sur 15 ans d'expertise et d'expérience dans l'accompagnement des 
+entreprises, avec une connaissance approfondie des techniques et des marchés de demain.  
+L’un des objectifs du pôle est de promouvoir l’innovation et de stimuler les échanges et 
+projets collaboratifs entre les acteurs des différents secteurs qu’il recouvre.  Pour ceci, Polymeris 
+propose à l’ensemble de ses adhérents et partenaires un nouveau format d’implication dans la 
+démarche d’innovation : les clubs industriels, centrés sur des thématiques clés pour le développement 
+et l’avenir du secteur de la plasturgie, des composites et du caoutchouc. C’est ainsi qu’a été mis en 
+place le club «  Innovation & Médical  » qui s’intéresse notamment au sujet  de la fin de vie et 
+recyclage des dispositifs médicaux et leurs emballages. 
+En parallèle, l’Agence de Développement et d’Innovation de la région Nouvelle- Aquitaine ( ADI 
+Nouvelle Aquitaine) s’est intéressée à la même thématique via les travaux du programme LOOP 
+Santé qui visent à développer des produits de santé plus durables en Nouvelle-Aquitaine. 
+ Les réflexions liées à ce sujet ont été le point de départ de cette étude qui s’appuie sur les 
+deux constats initiaux suivants :  
+ La premier, porté par de très nombreux acteurs du domaine de la santé en France, nous 
+indique que cette filière est une très grande consommatrice de matière plastique 
+notamment en raison de la nécessité d’utiliser des équipements et des fournitures 
+stériles pour assurer la sécurité des patients et des professionnels de santé. Les plastiques 
+sont utilisés pour fabriquer une grande variété de produits médicaux tels que des 
+seringues, des cathéters, des sacs de perfusion, des gants, des blouses ou encore des 
+emballages (primaires/secondaires) pour les instruments chirurgicaux. Or, une fois en fin de 
+vie, ces produits semblent générer une quantité très importante de déchets qui, à l’heure 
+actuelle, ne sont  pas pleinement recyclés /valorisés et finissent souvent par être 
+incinérés ou enfouis. 
+ Le second provient du fait que les producteurs de matières plastiques spécialisés dans la 
+santé voient planer dans les années prochaines des obligations d’intégration de matière 
+recyclée dans leurs produits. Si la réglementation ne semble pas encore prête à suivre cette 
+voie, notamment dans tout ce qui concerne les emballages primaires et les dispositifs 
+médicaux en contact direct avec l’ Homme, des premiers essais commencent à voir le jour 
+dans les emballages secondaires et les orthèses fabriquée s à partir de matières 
+recyclées. Cependant, l’utilisation de matière s recyclées dans les produits de santé 
+nécessite des normes de qualité et sécurité élevées pour garantir leur efficacité et leur 
+sécurité pour les patients. Cela impose donc aux fabricants de s’assurer que ces matériaux 
+recyclés sont de qualité et ne contiennent pas de contaminants ou d’autres impuretés  
+potentiellement dangereuses. 
+ 
+Face à ces constats, le pôle Polymeris et l’ADI Nouvelle Aquitaine, rejoints par l’ADEME au niveau 
+national, ont eut pour objectif de mener une étude de marché sur les démarches et initiatives 
+existantes quant à la réutilisation des déchets plastiques dans le domaine de la santé pour 
+comprendre quelles sont les voies de (re)valorisation existantes ou à imaginer pour ces 
+matériaux. Cette étude porte le nom d’EVAPLUS. 
+L’objectif d’Alcimed a été de quantifier de façon macroscopique les gisements de plastiques 
+à disposition dans les services de santé et c aractériser les pratiques actuelles en termes 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     15 
+d'utilisation de produits plastiques avec matières recyclées et de voies de revalorisation existantes 
+des déchets plastiques issus du secteur de la santé dans le domaine de la santé.  L’objectif étant in 
+fine de permettre au pôle Polymeris et à l’ADI Nouvelle Aquitaine de proposer à leurs adhérents, mais 
+surtout à toutes les structures de la chaîne de valeur souhaitant s’impliquer,  des projets de 
+valorisation et d’intégration de matière plastique avec lesquels s’associer ou d’avoir toutes les 
+clefs pour en développer de nouveaux. 
+ 
+4. METHODOLOGIE , PERIMETRE & MOYENS  
+4.1.  METHODOLOGIE  
+ 
+L’étude EVAPLUS comporte deux phases :  
+• Une première phase visant à caractériser  et approfondir la chaîne de valeur et ses 
+enjeux : identification de la chaîne de valeur, identification macroscopique des gisements de 
+plastique et premier regard sur la règlementation via des investigations bibliographiques, la 
+capitalisation sur l’expertise interne Alcimed et des investigations terrain auprès de quelques 
+experts du secteur. 
+• Une seconde phase visant à identifier et analyser des voies de valorisation existantes  
+pour ces matériaux plastiques : première caractérisation des principales voies de valorisation 
+existantes de ces matériaux dans le secteur de la santé via un benchmark flash inspirationnel 
+et une étude de réceptivité auprès des industriels clés de la chaîne de valeur. 
+ 
+Figure 1. Organisation méthodologique du projet EVAPLUS. 
+ 
+4.2.  PERIMETRE DE L’ETUDE  
+ 
+En terme de périmètre, l’étude EVAPLUS se focalise sur les plastiques des produits de santé 
+humaine et leurs emballages (hors DASRI ) utilisés en milieu hospitalier uniquement , en 
+France. Ces plastiques seront par la suite désignés « plastiques d’intérêt pour l’étude ». En effet, 
+ce choix a été fait car ces plastiques occupent une part importante des plastiques de santé et qu’il 
+s’agit des plastiques pour lesquels un plus grand nombre de données étaient disponibles.  
+
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     16 
+ 
+Figure 2. Etendue des utilisateurs des plastiques en santé. 
+Légende :  
+• Vert : lieux présentant une utilisation des plastiques d’intérêt pour l’étude dont les gisements et les voies 
+de valorisation sont explorés dans le cadre de l’étude EVAPLUS. 
+• Violet : lieux présentant une utilisation des plastiques dont les gisements et les voies de valorisation ne 
+sont pas explorés dans le cadre de l’étude EVAPLUS. 
+ 
+4.3.  MOYENS  
+ 
+Figure 3. Récapitulatif des entretiens réalisés au cours de l’étude EVAPLUS. 
+En complément des investigations bibliographiques et terrains réalisées, une réunion de travail  avec le 
+consortium a eu lieu. 
+Structures de soins.
+• Conseiller en charge de la
+transition énergétique – CHU
+• Ingénieur environnement – CHU
+• Ingénieur hospitalier, responsable
+filière – CHU
+• Coordinateur de filières
+médicales, achats – CHU
+• Responsable du pôle logistique
+intégrée – CHU
+• Responsable logistique – CHU
+• Responsable des ressources
+hôtelières – Clinique privée
+• Directeur innovation &
+responsable RSE – Clinique
+privée (x2)
+Recycleurs.
+• Co-fondateur d’une société
+française de recyclage
+• Directeur développement et
+stratégie, recycleur membre du
+consortium EVAPLUS
+• Fondateur GreenCycl
+• CEO Zirq Solutions
+Metteurs sur le
+marché.
+• Directeur R&D, metteur sur le
+marché membre du consortium
+EVAPLUS.
+• Sustainability manager – Ambu
+• Director Market Access &
+directrice de la politique
+industrielle Melanor.
+Acteurs
+règlementaires &
+éco-organismes.
+• Directeur des affaires technico
+règlementaires au SNITEM.
+• Chargé d'animation territoriale et
+développement économique, en
+charge du scoring avec le CD2S
+au SNITEM.
+• Responsable des opérations
+chez TWIICE.
+Plasturgistes.
+• Technical and Environmental Sr
+Manager VinylPlus + Consultant
+économie Circulaire – T erra
+Autres.
+• Co-fondateur de l’agence
+Primum Non Nocere.
+• Directeur de l’Observatoire des
+Déchets d’Occitanie –
+ORDECO.
+Soit un total de
+entretiens
+réalisés
+9
+9
+4
+3
+1
+2
+22
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     17 
+5. UN SYSTEME DE SANTE FRANÇAIS REPRESENTANT UN GISEMENT  
+POTENTIEL CONSEQUENT DE MATIERE PLASTIQUE  
+5.1.  POURQUOI LA SANTE REPRESENTE- T-ELLE  UN GISEMENT DE 
+PLASTIQUES IMPORTANT  ? 
+ 
+• Pour des raisons d’hygiène, de sécurité et parce que des alternatives réutilisables aux 
+plastiques de santé ne sont pas toujours disponibles voire souhaitables, la santé 
+représente un gisement de plastiques certain. 
+Les dernières décennies ont été marquées dans le domaine de la santé par le remplacement de 
+produits de santé réutilisables par des produits de santé à usage unique dits jetables. Cette 
+tendance, notamment motivée par des considérations d’hygiène et de sécurité a conduit à la 
+fermeture d’infrastructures de nettoyage et de stérilisation dans de nombreux hôpitaux en Europe.  
+Aujourd’hui, bien que de nombreuses initiatives remett ent à l’honneur  le réutilisable en santé, un 
+retour à ce type de produits de santé représenterait un effort considérable pour les systèmes de santé 
+(réouverture des infrastructures de nettoyage et de stérilisation, prestation de services de nettoyage 
+et de stérilisation, etc.). De plus, aujourd’hui, les alternatives réutilisables à l’utilisation du plastique à 
+usage unique ne seraient pas disponibles sur tous les produits  (ex : tubulures intraveineuses, 
+pansements, etc.). 2  Par ailleurs, dans certains cas spécifiques et pour un même produit, des 
+références à usage unique pourraient être plus vertueuses d’un point de vue environnemental que 
+des références réutilisables.  
+ 
+• Cependant, en raison de certaines pratiques de tri (erreurs de tri, classement 
+systématique de déchets en DASRI*), ce gisement n’est pas toujours captable dans son 
+intégralité. 
+* DASRI : Déchets d’Activité de Soins à Risque Infectieux (cf. définition plus détaillée p. 26). 
+Les plastiques d’intérêt pour l’étude, bien que consommés dans les structures de soins, ne sont pas 
+toujours captables pour être introduits dans une voie de valorisation. En effet, bien que ces plastiques 
+ 
+2  Mesurer et réduire les plastiques dans le secteur de la santé – 2021 - HCWH Europe 
+« Pour nos endoscopes, selon le type de procédure dans lesquelles ils sont impliqués 
+et le type de patients que cela concerne, nous pouvons parfois proposer des 
+endoscopes réutilisables. Nous avons donc mené une étude d’ampleur depuis 5 ans 
+pour comparer d’un point de vue environnemental le réutilisable à l’usage unique et 
+il se trouve que, parfois, l’impact environnemental du réutilisable est supérieur à celui 
+de l’usage unique ! On continue donc à développer  de l’usage unique également , 
+tout en se posant la question de son recyclage. » Sustainability Manager  
+- Metteur sur le marché de dispositifs médicaux. 
+N.B. Durant la pandémie de COVID -19, la consommation de plastiques de santé, à plus forte 
+raison à usage unique, a considérablement augmenté dans le monde. L’Organisation Mondiale de 
+la Santé avait par exemple demandé, lors de la pandémie, une augmentation de 40% de la 
+production d’EPI (Equipements de Protection Individuelle) jetables . (Source : Accumulation of plastic 
+waste during COVID-19 – 2020 – Sciences) 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     18 
+ne soient pas DASRI, des erreurs de tri peuvent conduire à classer, volontairement ou par accident, 
+des plastiques d’intérêt en DASRI. 
+• A noter que la part de plastiques d’intérêt captée n’est pas nécessairement ni 
+recyclable, ni recyclée dans son intégralité. 
+En effet, dans le périmètre des plastiques d’intérêt pour l’étude EVAPLUS  (plastiques des produits 
+de santé humaine et leurs emballages , hors DASRI , utilisés en milieu hospitalier ), certaines 
+caractéristiques intrinsèques des produits ou de leurs emballages semblent être 
+incompatibles avec les technologies de recyclage actuelles et locales.  
+En voici quelques exemples  : flaconnages avec étiquettes , dispositifs médicaux difficiles voire 
+impossibles à démanteler ou encore produits de santé ou emballages en multi -couches / matériaux 
+mixtes. Selon une étude réalisée par la HCWH, sur trois des cinq audits de déchets réalisés, 37% de 
+tous les articles en plastique étaient des matériaux mixtes notamment des mélanges plastique / 
+papier.3 
+ 
+Ainsi, bien que le gisement de plastiques d’intérêt pour l’étude EVAPLUS soit potentiellement grand, 
+entre les difficultés liées à la captation des déchets et celles liées à leur recyclabilité, il est probable 
+que seule une faible proportion soit recyclée à l’heure actuelle. A titre d’exemple, seulement 5% 
+au maximum des plastiques de santé étaient recyclés au Royaume-Uni en 2020.4 
+ 
+5.2.  OU SE SITUENT LES GISEMENTS DE PLASTIQUES EN SANTE ? 
+ 
+• En termes de localisation à l’hôpital, les gisements de plastiques d’intérêt  semblent 
+être inégalement répartis entre les services, avec une forte production en chirurgie et 
+à la maternité. 
+ 
+3 Mesurer et réduire les plastiques dans le secteur de la santé – 2021 - HCWH Europe 
+4 Material flow analysis of single-use plastics in healthcare : A case study of a surgical hospital in Germany  – T. Ivanovic and al. – 2022 – Ressources, 
+Conservation & Recycling. 
+« Aujourd’hui, nous ne trouvons pas de recycleur qui accepte nos flaconnages 
+plastiques avec étiquettes .» Responsable ressources hôtelières  
+- Clinique privée 
+« Nous, on ne peut recycler que des emballages simples (…) malheureusement, 
+dans de nombreux emballages de produits de santé, on retrouve des matériaux 
+mixtes, par exemple de l’aluminium, qui rendent le recyclage impossible. A l’hôpital 
+on retrouve aussi un certain nombre de kits en matériaux mixtes. On peut faire la 
+séparation de ces matériaux mais à un coût économique exorbitant , via un recyclage 
+chimique dont l’impact environnemental n’est pas favorable. Pour ces raisons, nous 
+ne recyclons généralement pas ces plastiques mixtes.» Co-fondateur d’une société 
+de recyclage française 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     19 
+Selon certaines études, les déchets de bloc opératoire et de maternité, principalement en plastique, 
+représenteraient à eux seuls près de 30% des déchets hospitaliers et jusqu’à 67% des déchets 
+cliniques hospitaliers.5 
+ 
+Au-delà de la chirurgie et de la maternité, les services d’urgences, de soins intensifs et les laboratoires 
+d’analyses médicales semblent générer de grandes quantités de plastiques d’intérêt. 
+Le taux de déchets plastiques dans les déchets d’activité de soins d’un service de soins intensifs 
+pourrait atteindre 30%. 6 
+ 
+• En termes de produits, les gisements de plastiques d’intérêt  se concentrent sur les 
+dispositifs à usage unique (incluant les EPI) , leurs emballages et, dans une moindre 
+mesure, le flaconnage ; ces produits pouvant représenter 60%  du gisement  de 
+plastiques (en poids) dans certains hôpitaux. 
+Le poids et la représentativité des dispositifs médicaux à usage unique, de leurs emballages  et des 
+flaconnages ont été soulignés lors des échanges menés. 
+ 
+ 
+ 
+5 Mesurer et réduire les plastiques dans le secteur de la santé – 2021 - HCWH Europe 
+6 Material flow analysis of single-use plastics in healthcare : A case study of a surgical hospital in Germany  – T. Ivanovic and al. – 2022 – Ressources, 
+Conservation & Recycling. 
+N.B. Dans le cadre des études précédemment évoquées, l es déchets cliniques sont les déchets 
+issus des soins présentant potentiellement un risque infectieux ou considérés comme dangereux 
+car contenant des substances pharmaceutiques ou chimiques. Les déchets hospitaliers quant à 
+eux incluent les déchets cliniques, les déchets sanitaires (sans risque infectieux, sans substance 
+dangereuse) et les déchets généraux. 
+ 
+« Un gisement important de plastiques de santé se trouve aux urgences et en soins 
+intensifs.» Responsable pôle logistique intégrée - CHU  
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     20 
+ 
+Plus précisément, l’audit réalisé par la HCWH Europe  a mis en avant avec le cas d’un hôpital 
+participant au projet « Towards Plastic-free Healthcare in Europe » que seulement 6 catégories de 
+produits représenteraient plus de 60% de la quantité totale annuelle de plastiques utilisés.  
+Cette tendance serait générale chez les établissements participants au projet. 7 
+ 
+Figure 3. Catégories de produits de santé représentant la majorité des plastiques utilisés dans un hôpital du 
+projet « Towards Plastic-free Healthcare in Europe », HCWH  
+(source : Mesurer et réduire les plastiques dans le secteur de la santé – 2021 - HCWH Europe) 
+Cette tendance se trouve également dans les données d’approvisionnement de la NHS (National 
+Health Service – Service de santé britannique)  d’Angleterre où 13 catégories de produits 
+représentaient en 2014-2015 plus de 60% du poids total des plastiques utilisés.  
+ 
+ 
+ 
+7 Mesurer et réduire les plastiques dans le secteur de la santé – 2021 - HCWH Europe 
+« Les dispositifs médicaux à usage unique et les flaconnages sont des sources de 
+plastiques significatives, une approche de quantification pourrait être de se focaliser 
+sur celles-ci.» Coordinateur filières médicales achats - CHU  
+« Oui, sur les plastiques considérés, les dispositifs médicaux et les flaconnages 
+représentent une part importante des gisements considérés (…) il ne faut néanmoins 
+pas négliger les plastiques d’emballage primaires et secondaires qui y sont 
+associés.» Responsable RSE - Clinique privée 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     21 
+Tableau 1. Catégories de produits de santé représentant la majorité des plastiques utilisés par la NHS 
+d’Angleterre en 2014-2015.8 
+Catégorie de produits % du poids des plastiques totaux 
+Vêtements de protection usage unique pour bloc opératoire (incluant les champs 
+opératoires) 9% 
+Gants d’examen 8% 
+Lingettes jetables et produits de nettoyage des vêtements 7% 
+Produits en polymères (tabliers et sacs) 5% 
+Articles divers médicaux 5% 
+Produits de continence jetables 5% 
+Systèmes de prélèvements sanguins (tubes, seringues) 5% 
+Soins généraux des plaies 4% 
+Aspiration de produits consommables (cathéters, tubes, drains) 4% 
+Seringues, aiguilles et produits associés 3% 
+Emballages médicaux et produits complémentaires stériles 3% 
+Système de connexion sans aiguille 2% 
+Produits d’urologie (poches de drainage, cathéters, etc.) 2% 
+TOTAL 62% 
+ 
+3.3. QUE REPRESENTENT LES GISEMENTS DE PLASTIQUES D’INTERET EN 
+SANTE ? 
+3.3.1. UNE QUANTIFICATION DES GISEMENTS DIFFICILE A OPERER  
+ 
+• La diversité de pratiques d’un établissement à l’autre et la multiplicité des clés d’entrée 
+dans la quantification des gisements de plastiques en santé rendent l’exercice de 
+chiffrage des volumes de plastiques associés difficile à opérer , et les résultats peu 
+concordants. 
+Liste des clés d’entrée possibles identifiées :  
+- Entrée par type de déchet (déchet clinique, sanitaire ou autre) ;  
+- Entrée par type de produit de santé ou emballages associés contenant du plastique (ex : 
+tubulure, masque, etc.) ;  
+- Entrée par résine de plastique contenu dans les produits (ex : PE, PP, etc.) ;  
+- Entrée par type de service hospitalier (blocs opératoires, maternité, urgences, etc.) ; 
+- Entrée par type d’utilisateur (patients, grand public, personnels de soins, etc.). 
+ 
+• En France, pour l’heure,  peu de structures de soins (hôpitaux, cliniques) semblent 
+avoir quantifié les quantités de plastiques utilisées (gisements) et le communiquent. 
+ 
+ 
+ 
+8 Is green the new blue – NHS England & NHS Improvement – Sustainable Development Unit - PowerPoint Presentation (swsenate.nhs.uk) 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     22 
+ 
+ 
+ 
+ 
+3.3.2.  METHODOLOGIES DE QUANTIFICATION PROPOSEES 
+3.3.2.1.  VUE D’ENSEMBLE  
+ 
+• D’un point de vue méthodologique, Alcimed s’est concentré sur la quantification des 
+gisements de plastiques achetés et captables, la part de plastique recyclables étant 
+difficile à estimer. 
+Figure 4. Représentation schématique des types d’informations disponibles pour la quantification des 
+gisements de plastiques  
+Dans le cadre de l’étude EVAPLUS, seule une quantité restreinte de données chiffrées 
+sur les gisements de plastiques d’intérêt ont pu être récupérées par l’analyse de la 
+littérature ou par la récolte de données issues des achats ou de la caractérisation des 
+déchets des structures de soins. Les données récoltées sont soumises à un certain nombre 
+de biais qui pourraient affecter leur représentativité. Les quantifications de gisements de 
+plastiques de santé décrites ci-dessous sont donc à considérer et à interpréter avec 
+toutes les précautions nécessaires. 
+*Détail de la méthodologie utilisée en partie 5.2.2. 
+N.B. Les trois GHT lauréats de l’appel à projets national de la DGOS visant à mener une 
+expérimentation pour la réduction et la valorisation du plastique à usage unique (GHT Alliance 
+Gironde, GHT Eure Seine Pays d’Ouche et GHT de l’AP-HM) semblent travailler actuellement sur 
+la question de la quantification de leurs gisements de plastiques de santé, sans données rendues 
+publiques à date. 
+ 
+
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     23 
+3.3.2.2. QUANTIFICATION DES GISEMENTS DE PLASTIQUES ACHETES  (ACHATS ANNUELS)  
+ 
+• Une première méthode de quantification a visé à mesurer les gisements de plastiques 
+d’intérêt achetés à l’échelle d’une année par les structures de soins en France. 
+Méthodologie :  
+A partir des données de volumes annuels d'achats de produits contenant du plastique pour plusieurs 
+structures de soins, GHT ou centrales d'achat, un calcul du volume annuel  d'achat de produits 
+plastiques d'intérêt par jour-patients peut s’opérer. La connaissance du nombre de patients traités et 
+de séjours effectués à l’hôpital  en MCO (Médecine- Chirurgie-Obstétrique) permet alors une 
+extrapolation des données achats obtenues à l’échelle nationale. 
+ 
+• Malgré les moyens mis en œuvre par Alcimed, le manque de données disponibles et 
+les freins ressentis par les services ou centrales d’achats à leur partage n’ont pas 
+permis de quantifier le gisement français de plastiques achetés par les structures de 
+soins. 
+ 
+En effet, il ne semble pas toujours possible, pour les services achats des structures de soins voire 
+pour les centrales d’achat, d’identifier, à partir de leurs bases de données :  
+- Les produits contenant du plastique. 
+- La proportion de matière plastique (et à plus forte raison le type de résine plastique)  
+contenue dans un produit de santé  acheté ou dans son emballage, cette information n’étant 
+pas toujours répertoriée par les achats voire précisée dans les fiches techniques des produits. 
+- Le poids du produit de santé en question. 
+ 
+De plus, lorsqu’elles sont disponibles, les données sur les quantités achetées semblent être 
+subdivisées en de nombreuses catégories et leur extraction est donc extrêmement chronophage. 
+ 
+ 
+3.3.2.3. QUANTIFICATION DES GISEMENTS DE DECHETS PLASTIQUES (DECHETS 
+CAPTABLES)  
+ 
+• Une seconde approche, par confrontation de données de caractérisation de déchets 
+hospitaliers, a permis une première évaluation de la quantification des gisements de 
+déchets plastiques d’intérêt.  
+ 
+Méthodologie :  
+A partir des données de caractérisation des déchets de plusieurs structures de soins (faite à 
+l'échelle d'un ou de plusieurs services, de la structure ou d'un réseau de structures), les volumes 
+moyens obtenus (en tonnes) ont été rapportés au nombre de jour-patients. La connaissance du 
+« C’est extrêmement chronophage d’extraire ce type de données car cela nécessite 
+de définir une liste précise des produits contenant du plastique d’intérêt et de faire le 
+lien avec leur fiches techniques pour comprendre combien ils en contiennent (…) Si 
+on prend l’exemple des  seringues, outre le fait qu’il faille obtenir les quantités 
+achetées pour tous les fournisseurs, il faut également les obtenir pour toutes les 
+références. Par exemple, moi j’ai des seringues de 1 mL, de 2 mL, de 10 mL, 
+etc. C’est un gros travail qui néces site du temps pour les  services achats. »  
+Coordinateur filières médicales achats - CHU  
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     24 
+nombre de patients traités et de séjours effectués à l’hôpital en MCO (Médecine- Chirurgie-
+Obstétrique) permet alors une extrapolation des données achats obtenues à l’échelle nationale. 
+ 
+• Cependant, ces résultats sont à prendre avec précaution car, outre le fait qu’ils se 
+basent sur un faible nombre de données, plusieurs biais peuvent les impacter  : taille 
+de la structure, durée et représentativité de la caractérisation des déchets effectuée et 
+pratiques de tri des structures considérées.  
+Biais pouvant impacter les résultats de la quantification des déchets plastiques d’intérêt captables :  
+- Taille de l’hôpital : de façon générale (et donc probablement également pour les plastiques 
+d’intérêt), la production de déchets pourrait varier d’un facteur  1,86 selon la taille des 
+structures de soins considérées, les plus grands hôpitaux émettant le plus.9 
+- Durée et représentativité de la caractérisation des déchets effectuée : est-ce que le jour 
+ou les quelques jours sur lesquels la caractérisation des déchets a été effectuée étaient 
+représentatifs de l’activité normale / moyenne de la structure ? 
+o En termes de quantités  : le nombre de patients hospitalisés était -il représentatif de 
+l’activité normale / moyenne de la structure ?  
+o En termes de typologie de plastiques  : les typologies de soins ou d’interventions 
+effectuées étaient-ils représentatifs de l’activité normale / moyenne de la structure ? 
+- Pratiques, parfois structure-dépendantes, du classement de produits de santé en DASRI 
+ou non : quelles étaient les critères de classement de produits de santé en DASRI dans la 
+structure considérée ? En effet, le guide du Cpias et de l’ARS Occitanie encourage à limiter 
+la quantité de déchets DASRI, notamment plastiques. Par exemple, le CHU de Lille a mené 
+une expérimentation sur deux de ses sites aboutissant à une réduction du volume de DASRI 
+de 18 tonnes sur chacun des sites investigués ( -35% sur le site de St Vincent / -23% sur le 
+site de St Philibert).10 Cette tendance pourrait être nationale. 
+ 
+3.3.3. RESULTATS DU CHIFFRAGE  
+ 
+• Les gisements français de déchets plastiques issus des produits de santé humaine et 
+leurs emballages, hors DASRI, utilisés en milieu hospitalier captables seraient compris 
+entre 23 000 et 170 000 tonnes par an en France, soit entre 350 et 2500g par patient et 
+par jour à l’hôpital. 
+ 
+9 Material flow analysis of single-use plastics in healthcare : A case study of a surgical hospital in Germany  – T. Ivanovic and al. – 2022 – Ressources, 
+Conservation & Recycling. 
+10 Un nouveau tri des DASRI : Evaluer les risques pour adapter sa filière – Groupement des hôpitaux de l’institut catholique de Lille - Présentation 
+PowerPoint (chu-lille.fr) 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     25 
+ 
+Alcimed / Name of the client Date 3
+CHU – France (2616 lits  & places  MCO / 662 162
+journées  MCO / 275 259 entrées  et s éances  MCO)
+Données brutes et méthode de récolte
+Av i s :
+haut niv eau
+de f iabilité
+des données
+Principaux résultats
+400
+76
+54
+17
+55
+Films
+plastiques
+EPI
+Seringues
+Flaconnage
+Emballage DM
+Quantité de déchets
+plas tiques, hors DASRI,
+en g / patient / jour
+603 g / patient / jour en moyenne
+de plastiques issus des soins , hors DA SRI,
+soit 577 tonnes au CHU / an
+Les plastiques étudiés ici représentent la grande majorité des déchets
+plastiques totaux d’activités de soins d’un CHU *.
+CH – Allemagne (580 lits  majorité MCO– 53
+000 entrées  et s éances  majorité MCO)
+Données brutes et méthode de récolte
+Av i s :
+haut niv eau
+de f iabilité
+des données
+Principaux résultats
+PP et latex s ont les  principaux polymères  en mas s e (45 et 25%).
+496 g / patient / jour en moyenne
+de consommables plastiques issus des soins et
+leurs emballages, hors DA SRI,
+soit 107 tonnes au CH / an
+52%Les  EPI représ entent des  polymères  étudiés.
+3%Les  emballages  en plas tique représ entent s upplémentaires
+du poids  des  cons ommables.
+Les  produits  étudiés  représ entent 20% des  déchets  totaux de
+l'hôpital .
+20%
+Poids moyen des principaux déchets
+plastiques issus de soins, hors DASRI
+(flaconnage , s eringues, emballages de
+DM, films plas tiques, équipements de
+protection individuelle ),pes és su r 24h en
+so rti ede différents services, en 2023, ou
+analys és par les données de
+cons ommation globales du CHU.
+Evaluation des données d’achat et de
+cons ommation de consommables
+médicaux en plastique (dis pos itifs de
+contact – aiguilles ,cathéters, s eringues…,
+mas ques d’anes thés ie, EPI, articles de
+s oins généraux et d’incontinence – gants
+de toilette , hygiène pers onnelle, tampons ,
+couches …, articles de s térilis ation– sa cs
+et bouchons ), avec DASRI, su r 2018-
+2019.
+Données de
+consom m ation
+pour tout le
+CHU
+Déchets pesés
+Sources : *étude noharm -europe .org 2021 + entretiens Alcimed Sources : Ivanovic et al., Material flow analysis of single -use plastics in
+healthcare : A case study of a surgical hospital in Germ any, 2022
+HYPOTHÈSES
+Seuls les emballages des produits médicaux en plastique sont
+comptés ,mais pas tous les emballages (f ilmsplastiques ) de tous les
+autres produits. Le résultat f inalest donc probablement sous-estimé.
+LIMITES
+Probablem ent sous-e s t i mé
+CH – F rance(325 lits  & places  MCO)
+Données brutes et méthode de récolte
+Av i s :
+bon niv eau de f iabilité des
+données (pesée sur 1 an, mais
+seulement dans un seul serv ice
+donc représentativ ité partielle
+d’un hôpital)
+Principaux résultats
+Poids moyen de tous
+les déchets
+plastiques issus de
+soins, hors DASRI,
+pes és su r 1 an à la
+so rti ede tous les blocs
+de chirurgie de
+l'hôpital.
+2645Le bloc opératoire génère k g de déchets  plas tiques, hors
+352 g / patient / jour au bloc opératoire
+de plastiques issus des soins , hors DA SRI
+1/3Les  blis ters  PET représ entent des  volumes  collectés.
+DASRI, par an , pour 7512 interventions .
+Entre 350g et 2500g de déchets
+plastiques générés par patient et par
+jour à l’hôpital
+Soit 23 000 à 170 000 T/an en France
+350g 2500g
+CH – France (164 lits  & places  MCO / 117 295
+journées  MCO / 43 784 entrées  et s éances  MCO)
+Données brutes et méthode de récolte
+Av i s :
+Niv eau f aible de f iabilité des
+données (collecte sur seulement
+2j, dans seulement 2 serv ices,
+donc représentativ ité très partielle
+d’un hôpital)
+Principaux résultats
+2565 g / patient / jour maximum
+de plastiques issus des soins , hors DA SRI
+Poids moyen de tous
+les déchets, dont
+plastiques issus de
+soins, hors DASRI,
+pes és su r 2j dans les
+services de pédiatrie et
+réanimation ,en 2022.
+2565
+1700
+Réanimation
+Pédiatrie
+La quantité de déchets générés dans ces 2 serv ices semble assez
+élev ée. Il serait intéressant de connaître la proportion de déchets DASRI
+pour év aluersi la mise en place de pratiques de diminution de déchets
+DASRI peut expliquer ces résultats.
+LIMITES
+Quantité de déchets
+plas tiques, hors DASRI,
+en g / patient / jour
+Les matériaux mixtes représ entent plus de 32 % des déchets
+plas tiques audités .
+32%
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     26 
+ 
+• En terme de complexité des matériaux, 37% du gisement de plastique pourrait être  
+composé de matériaux mixtes, soit entre 8 500 et 63 000 T/an en France. 
+Selon une étude réalisée par la HCWH, sur trois des cinq audits de déchets réalisés, 37% de tous 
+les articles en plastique étaient des matériaux mixtes notamment des mélanges plastique / papier.11 
+• Bien que toutes les sources ne soient pas convergentes sur le sujet, le PP 
+(polypropylène), le PVC (chlorure de polyvinyle) et  le PELD (polyéthylène basse 
+densité) semblent être les trois résines les plus représentées dans le gisement de 
+plastiques de produits de santé et leurs emballages, hors DASRI. 
+Figure 5. Représentation schématique des résines de plastiques contenues dans les plastiques de santé et 
+leurs emballages, hors DASRI. (cf. Annexe 1)  
+ 
+11 Mesurer et réduire les plastiques dans le secteur de la santé – 2021 - HCWH Europe 
+PVC
+Chlorure de
+polyvinyle
+PET
+Polyéthylène
+téréphtalate
+Estimation des
+% des
+plastiques
+d’intérêt totaux
+Exemples de
+produits
+concernés
+PP
+Polypropylène
+Env. 12 %
+(jusqu’à 45%
+dans les
+consommables
+et leurs
+emballages)
+EPI (masques,
+blouses, sur-
+chaussures, etc.),
+champs opératoires,
+seringues, cathéters,
+protections
+hygiéniques, etc.
+7 à 9%
+Masques respiratoires,
+poches à sang,
+poches à perfusions,
+tubulures, gants,
+emballages, etc.
+PEBD
+Polyéthylène basse
+densité
+4 à 9%
+Emballages films
+plastiques souples,
+flaconnages,
+bouchons, poches de
+stérilisation, textiles
+usage unique dont
+EPI, seringues,
+cathéters, etc.
+2 à 4%
+Flaconnage, etc.
+PEHD
+Polyéthylène haute
+densité
+1 à 4%
+Flaconnage, récipients
+etc.
+Autres
+Polystyrène,
+Polyuréthane, etc.
+-
+Abaisse-langues, etc.
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     27 
+  
+ 
+23 000 à
+170 000
+T/an *
+TOP 3 des résines : PP, PVC,
+PELD
+Les trois résines qui semblent le plus
+représentées dans les gisements de
+plastiques d’intérêt semblent être le PP
+(env. 12%), le PVC (7 à 9%) et le PELD (4
+à 9%).
+Jusqu’à 37% de
+plastiques mixtes
+Dans certains hôpitaux, les déchets
+mixtes, incluant notamment des
+mélanges plastiques – papiers
+représenteraient plus du tiers des
+déchets plastiques d’intérêt pour
+l’étude EVAPLUS.
+Produits usage unique (et
+emballages) & flaconnages
+Les produits à usage unique (incluant les
+EPI), leurs emballages et les flaconnages
+seraient les sources principales de
+plastiques d’intérêt pour l’étude
+EVAPLUS. Dans certains hôpitaux ces
+produits représenteraient jusqu’à 60% des
+plastiques d’intérêt.
+Chirurgie & Maternité
+Les services produisant le plus de
+plastiques d’intérêt pour l’étude
+EVAPLUS semblent être la chirurgie
+et la maternité.
+Synthèse intermédiaire 
+* Dans le cadre de l’étude EVAPLUS, seule une quantité 
+restreinte de données chiffrées sur les gisements de 
+plastiques d’intérêt ont pu être récupérées. Les 
+quantifications de gisements de plastiques de santé 
+décrites ci-dessus sont donc à considérer et à interpréter 
+avec toutes les précautions nécessaires. Un travail plus 
+exhaustif de quantification ne pourra s’opérer qu’à condition 
+que davantage de données de quantification des gisements 
+soient obtenues et partagées par les structures de soins. 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     28 
+ 
+6. UNE FILIERE DU RECYCLAGE / DE LA VALORISATION DES DECHETS 
+PLASTIQUES DE SANTE EN COURS DE STRUCTURATION EN FRANCE  
+ 
+• La mise en place d’une filière de recyclage des déchets plastiques utilisés en milieu 
+hospitalier nécessite la coordination de 6  typologies d’acteurs , du metteur sur le 
+marché de produits de santé aux acteurs en charge de leur fin de vie. 
+Figure 6. Représentation schématique de la chaîne de valeur. 
+ 
+ 
+• A date, aucune filière structurée et d’ampleur ( à l’échelle d’un GHT par exemple) pour 
+le recyclage ou la valorisation de plastiques d’intérêt pour l’étude EVAPLUS ne semble 
+exister en France. 
+En e ffet, le recyclage ou la valorisation des déchets plastiques d’intérêt pour l’étude EVAPLUS 
+semble, à date, être organisé autour d’initiatives à l’échelle d’une structure de soins ou d’un réseau 
+restreint de structures de soins (ex : CHU).  
+ 
+ 
+ 
+ 
+N.B. La circularité de la chaîne de valeur (recycler des produits de santé pour que le plastique 
+recyclé entre dans la composition de nouveaux produits de santé) sera investigué plus loin dans 
+le document. 
+ 
+Structures de soins
+Disposent des gisements de
+plastiques et organisent leur fin de vie selon le
+circuit suivant : Production de déchets > Tri par
+filière de déchets > Conditionnement des déchets
+> Collecte interne> Stockage / entreposage >
+Enlèvement / Transport (réalisé par les
+collecteurs)
+Lorem ipsum dolor sit amet, nibh est. A
+magna maecenas, quam magna nec
+quis, lorem nunc. Suspendisse viverra
+sodales.
+Recycleurs
+Se chargent du broyage mécanique ou recyclage
+chimique de la matière et peuvent opérer à
+une regranulation.
+Collecteurs / Centres de tri
+Collectent et trient les différents plastiques, notamment
+dans les structures de soins.
+Ces acteurs prennent parfois la forme d'ESS (Entreprises
+fondées sur l'économie Sociale et Solidaire).
+Compounders /
+Plasturgistes
+Se chargent de la reformulation de la matière
+recyclée avec de la matière vierge et différents
+additifs, facilitant la mise en œuvre et apportant
+différentes propriétés (antimicrobienne, tenue à la
+stérilisation, etc.)
+Transformateurs / Metteurs sur
+le marché
+Fabriquent des produits (dispositifs médicaux et leurs
+emballages, équipements à destination de l’industrie
+pharmaceutique, équipements à destination des
+établissements de soin,…) ayant une composante
+plastique.
+Distributeurs / centrales
+d’achats
+Distribuent et achètent des produits ayant une composante
+plastique.
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     29 
+7. UNE CHAINE DE VALEUR INCITEE A SE MOBILISER POUR METTRE EN 
+PLACE DES VOIES DE VALORISATION / RECYCLAGE…  
+7.1.  … POUR REPONDRE A DES ENJEUX REGLEMENTAIR ES  
+ 
+7.1.1.  REGLEMENTATIONS CONCERNANT LES METTEURS SUR LE MARCHE  
+• Les règlementations et directives européennes récentes, notamment la taxonomie 
+verte et la CSRD (Corporate Sustainability Reporting Directive), semblent indiquer une 
+volonté de l’Europe d’impliquer davantage les metteurs sur le marché dans une 
+démarche RSE. 
+Deux règlementations complémentaires semblent , à l’échelle européenne, avoir un impact sur les 
+pratiques RSE des metteurs sur le marché : 
+- La taxonomie verte européenne (2018) qui classifie d’un point de vue environnemental 
+les activités économiques des entreprises  en quantifiant la part durable de leur chiffre 
+d’affaires, de leurs investissements et de leurs dépenses.  L’ambition de la taxonomie verte 
+est d’offrir des bases de comparaisons environnementales objectives entre les 
+entreprises afin d’aider à orienter les investissements vers des activités plus durables.12  
+- La directive CSRD (2023) qui vise à harmoniser le reporting extra-financier obligatoire 
+des entreprises  de l’Union Européenne en obligeant notamment les entreprises 
+européennes à communiquer sur de nombreux indicateurs environnementaux, sociaux et de 
+gouvernance.13 
+ 
+• Dans le cadre de cette démarche RSE, les mesures en vigueur (loi AGEC, filières REP) 
+en France incitent notamment les metteurs sur le marché à se préoccuper de la fin de 
+vie de leurs produits. 
+Au niveau français, la loi AGEC (Loi Anti-Gaspillage pour une Economie Circulaire) de février 2020 
+fixe 4 objectifs :  
+- Mettre fin au gaspillage pour préserver les ressources naturelles notamment via le 
+principe de pollueur payeur (principe qui rend responsable celui qui fabrique ou distribue un 
+produit du financement de sa fin de vie) . Cet objectif se traduit donc par des obligations 
+renforcées pour les producteurs et la mise en place de nouvelles filières REP (Responsabilité 
+Elargie du Producteur) – cf. paragraphe suivant. 
+- Mobiliser les industriels pour transformer les méthodes de production (bonus / malus 
+écologiques, indices de réparabilité, etc.). 
+- Renforcer l'information du consommateur. 
+- Améliorer la collecte des déchets et lutter contre les dépôts sauvages.14,15 
+ 
+• Au-delà de celles déjà en vigueur, t rois nouvelles filières REP impacteront 
+prochainement les metteurs sur le marché de produits de santé et/ou d’emballages 
+contenant du plastique, hors DASRI (périmètre de l’étude EVAPLUS)  : REP textile 
+ 
+12 Taxonomie européenne – Ecoact- Taxonomie européenne | EcoAct (eco-act.com) 
+13 La nouvelle règlementation CSRD : ce que vous devez savoir – BPI France - La nouvelle règlementation CSRD : ce que vous devez savoir (bpifrance.fr)  
+14 Webinaire Loop Santé – Déchets en santé : Quelles solutions de recyclage – ADI Nouvelle Aquitaine - Webinaire Déchets en santé : Quelles solutions de 
+recyclage (youtube.com) 
+15 Loi antigaspillage -  Document_LoiAntiGaspillage _2020.pdf (ecologie.gouv.fr)  
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     30 
+sanitaires à usage unique, REP emballages professionnels / commerciaux et REP aides 
+techniques médicales. 
+Qu’est-ce qu’une « filière REP » ? 
+Les filières REP ont pour objectif d’agir sur l’ensemble du cycle de vie des produits pour construire 
+une économie plus durable et s’appuient sur le principe de pollueur-payeur précédemment décrit. 
+Les metteurs sur le marché (producteurs, distributeurs) doivent ainsi financer, organiser et mettre en 
+place les solutions de collecte, de réutilisation ou de recyclage appropriées pour leurs produits.16 
+Cette charge peut être assurée par les metteurs sur le marché eux-mêmes individuellement ou en se 
+regroupant sous la forme d’un éco-organisme, structure à but non lucratif à laquelle ils versent une 
+écocontribution.17,18 
+Outre la filière  REP emballages ménagers déjà en vigueur (éco- organismes : CITEO, LEKO, et 
+ADELPHE 19), voici en synthèse les filières REP nouvellement entrées en vigueur ou qui le seront 
+prochainement en lien avec les produits de santé et/ou les emballages contenant du plastique, hors 
+DASRI : 
+ 
+16Décryptage des filières REP -  19049_Decryptons_Filières_REP.pdf (ecologie.gouv.fr)  
+17 Cadre général des filières à responsabilité élargie des producteurs – Ministère de la transition écologique et de la cohésion des territoires – 2017-  Cadre 
+général des filières à responsabilité élargie des producteurs | Ministère de la Transition Écologique et de la Cohésion des T erritoires (ecologie.gouv.fr) 
+18 Les filières à Responsabilité Élargie du Producteur – ADEME - Les filières à Responsabilité Élargie du Producteur | Filières à Responsabilité Élargie du 
+Producteur (ademe.fr) 
+19 Webinaire Loop Santé – Déchets en santé : Quelles solutions de recyclage – ADI Nouvelle Aquitaine - Webinaire Déchets en santé : Quelles solutions de 
+recyclage (youtube.com) 
+« Le principe des filières REP c’est de dire que le metteur sur le marché, le fabricant 
+ou le distributeur donc, doit financer la fin de vie des produits. Généralement il a deux 
+solutions : soit il l’organise lui-même, soit il souscrit à un éco-organisme qui récupère 
+par mandat la responsabilité des fabricants et organise la collecte. Les metteurs sur 
+le marché contribuent financièrement à la fin de vie des produits en fonction du poids 
+que représent ent leurs produits (…) Il existe par ailleurs certains critères d’éco-
+modulation qui permettent aux metteurs sur le marché de DM utilisant du plastique 
+recyclé de payer moins cher par exemple.  » Directeur des affaires technico -
+règlementaires - SNITEM  
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     31 
+ 
+Tableau 2. Récapitulatif des nouvelles filières REP concernant les plastiques d’intérêt dans cette étude. 
+Filière REP (date 
+d’entrée en 
+vigueur) 
+Produits de santé et/ou emballages 
+contenant du plastique, hors DASRI, 
+concernés 
+Mesures phares proposées 
+pour l’éco-modulation et 
+concernant potentiellement les 
+plastiques (lorsque disponible) 
+ 
+Textiles 
+sanitaires à 
+usage unique 
+(initialement 
+prévue le 1er 
+janvier 2024)20 
+ 
+Produits d’hygiène absorbants à usage 
+unique 
+Ex : Couches et inserts jetables pour 
+couche lavables, produits d’incontinence 
+dont protections, sous -vêtements et 
+alèses absorbants. 
+Équipements de protection individuelle, 
+linges et vêtements jetables : 
+Ex : Masques, blouses, sur -chaussures, 
+charlottes, draps, couvertures et taies 
+d’oreiller jetables, serviettes 
+absorbantes, etc. 
+ 
+Dispositifs de soins :  
+Ex : champs opératoires, pansements 
+(voile synthétique) 
+Primes possibles pour tous les 
+produits notamment s’ils intègrent 
+de la matière recyclée. 
+ 
+Pénalités possibles si des résines 
+perturbatrices du recyclage sont 
+présentes dans les masques, EPI 
+et dispositifs de soin. 
+Aides techniques 
+médicales* 
+(non 
+communiquée à 
+date) 21 
+Aides à la mobilité : fauteuil roulant, aides 
+à la marche, etc. (plastiques en 
+proportions minoritaires) 
+Aide à la vision : lunettes, lentilles , etc. 
+(plastiques majoritairement) 
+Aides aux activités du quotidien :  
+- Vêtements et chaussures 
+adaptés, aides à l’habillage : 
+protèges jambes, bandes de 
+contention, corset , etc. 
+(plastiques majoritaires) 
+- Aide à l’hygiène du corps  : 
+matériel pour sondage vésical, 
+matériel pour stomie digestive, 
+etc. (plastiques majoritaires) 
+- Aide pour manger  : poches 
+entérales, etc. ( plastiques 
+minoritaires) 
+- Aides médicales  : prothèses / 
+orthèses & aides à la médication 
+(coupe-comprimés, etc.  
+(plastiques majoritaires) 
+ 
+ 
+ 
+20 Synthèse de l’étude de préfiguration de la filière REP textiles sanitaires à usage unique – ADEME - Synthèse de l'étude de préfiguration de la filière REP 
+textiles sanitaires à usage unique (ademe.fr) 
+21 Etude de préfiguration de la filière REP des aides techniques – ADEME – 2024 -  Etude de préfiguration de la filière REP des aides techniques (anfe.fr)  
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     32 
+Emballages 
+professionnels et 
+commerciaux 
+(début 2025) 22 
+Palettes et caisses en palettes : utilisées 
+pour le conditionnement 
+Caisses : plastiques rigides 
+Emballages plastiques de séparation : 
+intercalaires plastiques  
+Big bag  
+ 
+*La REP aides techniques médicales n’est pas rendue obligatoire par la loi AGEC. 
+ 
+• Si la question de la légalité de l’incorporation de matière recyclée dans les produits de 
+santé et leurs emballages semble être au cœur des préoccupations des metteurs sur le 
+marché, aucune interdiction n’est en vigueur mais l’enjeu se situe autour de la 
+traçabilité et de la stabilité des produits. 
+Cas d’usage des Dispositifs Médicaux (DM) 
+Dans le cadre des DM, l’enjeu est avant tout de remplir la règlementation du marquage CE basée 
+sur un rapport bénéfice – risque favorable pour le patient. Cela implique, quelle que soit la classe 
+du DM, des enjeux de traçabilité et de stabilité des plastiques dans le temps . Les metteurs sur le 
+marché de DM partagent ces obligations avec leurs fournisseurs de matières premières.  
+ 
+22 Etude de préfiguration de la filière REP emballages industriels et commerciaux -  ADEME – ÉTUDE DE PREFIGURATION DE LA FILIERE REP 
+EMBALLAGES INDUSTRIELS ET COMMERCIAUX (ademe.fr)  
+« A la question : peut-on intégrer du plastique recyclé dans des DM, la réponse est 
+à la fois oui et non (…) le vrai enjeu est de démontrer un rapport bénéfice risque 
+favorable pour le patient comme l’impose le marquage CE. Si du plastique recyclé 
+peut démontrer un rappor t bénéfice / risque favorable et stable dans le temps pour 
+le patient, en ayant si nécessaire, selon les applications, des preuves de sa 
+biocompatibilité ou de sa résistance mécanique alors cela ne pose pas de problème 
+d’en utiliser. » Directeur des affaires technico-règlementaires - SNITEM  
+« Pour le moment, la sortie de la nouvelle REP emballages professionnels et 
+commerciaux reste prévue début 2025 (…) comme pour les autres éco-organismes, 
+il y aura une éco- participation et une éco- modulation de cette éco- participation. 
+L’éco-participation sera fonction de la quantité et de la typologie d’emballages et 
+l’éco-modulation pourra être fonction par exemple du type de matéri au, du taux de 
+matière recyclée, etc. » Responsable des opérations - TWIICE (futur éco-organisme 
+des emballages professionnels et commerciaux) 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     33 
+En pratique, plus la classe du DM est élevée, plus les exigences en termes de traçabilité et de 
+stabilité sont élevées et plus il est difficile de remplir ces exigences (notamment pour les preuves 
+de biocompatibilité).  
+Ex : ENOVIS, membre du consortium EVAPLUS, utilise désormais du plastique recyclé pour les 
+talonnettes de ses bottes d’immobilisation (dispositif médical de classe I). 
+A noter que la règlementation du DM n’impose pas une obligation de moyens mais une obligation de 
+résultats. Ainsi les moyens de vérification de la traçabilité / stabilité peuvent varier selon les 
+normes et les pratiques. Certains metteurs sur le marché utilisent des matrices de traçabilité 
+permettant de comparer un certain nombre de caractéristiques techniques  (données du cahier des 
+charges, données de validation, données de vérification, données de sortie). 
+ 
+7.1.2.  REGLEMENTATIONS ET MESURES CONCERNANT LES  STRUCTURES DE SOINS  
+4.1.2.1. REGLEMENTATIONS ET MESURES CONCERNANT LES ACHATS 
+ 
+• Une dynamique certaine est en train de s’installer en France et favorise l’intégration de 
+critères d’achat liés à l’environnement pour la commande publique, notamment à court 
+terme, par l’intégration obligatoire d’au moins un critère environnemental pour 
+l’attribution d’un marché. 
+En effet, le Décret n° 2024-134 du 21 février 2024 (relatif à l'obligation d'acquisition par la commande 
+publique de biens issus du réemploi ou de la réutilisation ou intégrant des matières recyclées et à 
+l'interdiction d'acquisition par l'Etat de produits en plastique à usage unique) traduit une dynamique 
+de prise en compte de considérations sociales et environnementales dans les procédures de 
+passation de marché. 23  Aujourd’hui, ce décret ne concernerait pas pour le moment des produits 
+d’intérêt dans le cadre de l’étude EVAPLUS (ex : concerne les textiles, mais pas les EPI). Cependant 
+l’ambition pour les produits concernés à date, se traduirait par des  exigences de pourcentages de 
+réemploi et de pourcentages de matières recyclées dans les produits à une échéance donnée. 
+En complément, d’ici août 2026, la commande publique aura l’obligation de prendre en compte 
+au moins un critère environnemental dans chaque marché, tel que défini dans l’article R2152-7 
+du CCP (Code de la Commande Publique) . Cette règlementation devrait laisser la place à deux 
+options d’exécution : 
+- Attribution des marchés selon un critère unique de prix mais via une approche CCV (Coût 
+du Cycle de Vie) par exemple. Il s’agit d’une approche qui calcule :  
+o Les coûts pour l’acheteur / utilisateur : coûts d’acquisition, d’utilisation, de maintenance 
+et de fin de vie (collecte, recyclage) ;  
+ 
+23 Que sont les achats publics durables ? – Ministère de l’économie des finances et de la souveraineté économique – 2024 -  Que sont les achats publics 
+durables ? | economie.gouv.fr 
+« Ce sera sans doute plus difficile sur un dispositif de classe III de prouver qu’avec 
+de la matière recyclée on remplit toujours les attendus en termes de biocompatibilité. 
+Vraisemblablement, l’intégration de plastiques recyclés dans les DM pourrait 
+concerner plutôt les DM de classe I et II, même s’il n’y a aucune interdiction formelle 
+pour aucun DM. » Directeur des affaires technico-règlementaires - SNITEM  
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     34 
+o Le coût des externalités environnementales et liés au produit pendant son cycle de 
+vie. 
+- Attribution des marchés selon une pluralité de critères  dont au moins l’un d’entre eux 
+est environnemental. 24 
+ 
+• D’autres pays voisins, potentiellement moteurs pour l’uniformisation des pratiques à 
+l’échelle européenne, vont plus loin en faisant reposer la décision de financement des 
+appels d’offres publics à 30% sur des critères environnementaux. 
+En France, il n’y a pas encore de seuil prévu pour l’intégration de critères environnementaux 
+dans les marchés publics . Cependant, des dynamiques des pays voisins  sur le sujet sont 
+intéressantes à étudier : la dynamique norvégienne par exemple.  
+Exemple de la Norvège : 
+La Norvège applique, depuis le 1er janvier 2024, une nouvelle règlementation impliquant que 30% de 
+la décision de financement des appels d’offres publics se basera sur des critères 
+environnementaux.25  
+A l’instar de la Sustainability Reporting Act adoptée par la Suède en 2016 et ayant contribué à la mise 
+en place de la CSRD à l’échelle européenne en 2023, il semble usuel de voir, en matière 
+d’environnement, des règlementations poussées par un pays voisins se généraliser à l’ensemble de 
+l’Union Européenne via une règlementation commune. Ainsi, l’exemple de la Norvège pourrait infuser 
+et toucher, à terme, les achats français.  
+• En pratique en France, les appels d’offres commencent déjà à augmenter le poids des 
+critères environnementaux dans la décision d’attribution des marchés mais de façon 
+hétérogène pour le moment. 
+ 
+ 
+ 
+• En parallèle, des outils, à destination des achats, comme le scoring  développé par le 
+SNITEM et le C2DS  appuyés par l’AFNOR , se développent pour aider à orienter les 
+acheteurs vers des dispositifs médicaux plus écoresponsables. 
+ 
+ 
+24 Note juridique – Transition écologique – FHF – 2023 - Note_Trans_Eco_Achats1 (fhf.fr) 
+25Stricter environmental requirements in public procurement – Haavind- 2023-  Stricter environmental requirements in public procurement - Haavind EN 
+« En France on n’a pas encore cette contrainte des 30% de la décision reposant sur 
+des critères environnementaux mais il est vrai que ces questions sont de plus en plus 
+présentes. Cela fait naître une nouvelle difficulté pour les metteurs sur le marché de 
+dispositifs médicaux  : l’hétérogénéité des pratiques  avec des critères 
+environnementaux qui peuvent aller de 5 à 30%.  » Chargé d’animation territoriale 
+et développement économique, en charge de l’éco -score avec le CD2S - 
+SNITEM  
+« Nous on n'est pas encore aux 30%, on est plutôt entre 10 et 20% et cela fait souvent 
+partie d’un critère général .» Ingénieur environnement - CHU 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     35 
+Le SNITEM et le C2DS  travaillent actuellement sur le développement d’un scoring  pour les 
+dispositifs médicaux basé sur des critères environnementaux et sociaux : carbone, eau, chimie 
+/ toxicité, déchets, diversité / inclusion et santé / sécurité au travail. 
+Ce scoring n’a pas vocation à être affiché directement sur les dispositifs médicaux mais se présentera 
+comme un outil d’aide à la décision à destination des acheteurs hospitaliers et des fournisseurs 
+/ metteurs sur le marché de dispositifs médicaux notamment. Les objectifs sont de :  
+- Permettre aux achats de discriminer les dispositifs médicaux selon des critères RSE ;  
+- Permettre aux metteurs sur le marché de comprendre ce que l’on attend d’eux d’un point de 
+vue RSE. 
+Pour l’heure, l’intégration d’un critère sur le taux de plastiques recyclés dans les dispositifs 
+médicaux n’a pas été discutée.  
+Le lancement de ce scoring est prévu avant fin 2024. 
+ 
+4.1.2.2. REGLEMENTATIONS ET MESURES CONCERNANT LE TRI DES DECHETS DANS LES 
+STRUCTURES DE SOINS  
+ 
+• Les obligations concernant les structures semblent être majoritairement des 
+obligations de tri. 
+ 
+• Depuis 2015, plusieurs règlementations se sont succédé et impliquent la mise en place 
+d’un tri dans les structures selon 5 (ou plus) flux dont le plastique. 
+La loi LTECV (Loi de Transition Energétique pour la Croissance Verte) a mis en place, en 2015, une 
+obligation de tri séparé selon les flux de matière pour les professionnels dont les structures de 
+soins. Ces 5 flux sont les suivants : les papiers/cartons, les métaux, le verre, le plastique et le bois. 
+26 
+Cette règlementation a ensuite évolué au cours du temps et atteindra les 8 flux en 2025 : les papiers 
+/ cartons, les métaux, le plastique, le verre, le bois, les textiles (à partir du 1er janvier 2024), les déchets 
+de plâtre et les déchets de fraction minérales. 27 
+ 
+26 Loi sur la transition énergétique pour la croissance verte  – Ministère de la transition écologique et de la cohésion des territoires –  2017-  Loi de transition 
+énergétique pour la croissance verte | Ministère de la Transition Écologique et de la Cohésion des Territoires (ecologie.gouv .fr) 
+27 Note juridique – Transition écologique – FHF – 2023 - Note_Trans_Eco_Achats1 (fhf.fr) 
+« Aujourd’hui on n’a pas encore identifié de questions sur le plastique recyclé mais 
+cela peut évoluer car on n’a pas encore déterminé précisément le scoring.. » Chargé 
+d’animation territoriale et développement économique, en charge de l’éco -
+score avec le CD2S - SNITEM  
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     36 
+En pratique, dans les structures hospitalières, la mise en place des 5 flux (dont le plastique) ne 
+semble pas avoir été systématique , principalement en raison de contraintes liées au foncier 
+(manque d’espace dans les structures hospitalières).  
+• L’un des enjeux associés au tri du plastique dans les structures de soins est la 
+clarification de la définition des déchets DASRI, aujourd’hui sujette à interprétation de 
+la part des structures. 
+Du point de vue des structures hospitalières , le tri des DASRI manque d’uniformisation à 
+l’échelle nationale, parfois même à l’échelle d’un regroupement de structures de soins. 
+• Le contexte actuel général (économique et environnemental) ainsi que les difficultés 
+rencontrées par les personnels hospitaliers sont à l’origine de propositions de 
+changements de pratiques tendant à se diffuser au niveau national quant au tri des 
+DASRI. 
+D’un point de vue économique , la gestion des DASRI représente un coût élevé que l’Etat 
+souhaiterait réduire. 
+En effet, le c oût de gestion des DASRI est particulièrement onéreux, de l’ordre de  450 à 1000 € 
+HT/tonne. A noter qu’une étude nationale donne un coût à 854€/tonne (DGOS, projet ARMEN). En 
+comparaison, le coût de gestion des DASND  (Déchets d’Activité de Soins Non Dangereux)  s’étend 
+de moins de 100€/tonne à près de 200€/tonne.28 
+ 
+28 Déchets d’activités de soins et risque infectieux : mise au point – Cpias Occitanie et ARS Occitanie - 2021- Dechets-doc-version-definitive.pdf (cpias-
+occitanie.fr) 
+« Aujourd’hui l’une des difficultés que nous rencontrons est lié e au fait qu’il y ait 
+presque autant de pratiques de tri, notamment au sujet des DASRI, que 
+d’hôpitaux ! » Co-fondateur d’une société française de recyclage.  
+« Tous les hôpitaux n’ont pas encore mis en place le tri des 5 ou 7 flux. En particulier, 
+certains hôpitaux n’ont pas mis en place le tri du plastique.  » Conseiller en charge 
+de la transition énergétique – CHU  
+« Nous, on ne peut pas sur l'hôpital nord appliquer la loi des 7 ou 8 flux notamment 
+sur le plastique car d'un point de vue foncier on n'a pas la place.  » Ingénieur 
+environnement – CHU 
+« Certaines structures hospitalières choisissent de classer ou non en DASRI les 
+blouses utilisées au bloc opératoire selon le nombre d’éclaboussures de sang 
+présentes dessus, ce qui implique  une variabilité inter -opérateurs importante. (…) 
+On observe également à l’échelle d’un CHU par exemple des pratiques de tri 
+différentes selon les sites, souvent dues à l’historique du CHU et à la chronologie de 
+rattachement au CHU des différents sites. » Co-fondateur d’une société française 
+de recyclage.  
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     37 
+Récemment, le Ségur de la santé (2020) a mis en avant la volonté de l’Etat de réduire les coûts 
+associés aux DASRI  (Mesure du pilier 2 «  Définir une nouvelle politique d’investissement et de 
+financement au service de la qualité des soins » - Ségur de la santé 2020). 29 
+D’un point de vue environnemental , le Plan national de gestion des déchets  de 2019 vis e 
+notamment à progresser en matière de hiérarchie du traitement des plastiques. 30  
+Des dynamiques éco- responsables sont également à noter à l’échelle des structures hospitalières 
+elles-mêmes.  
+Exemple : Lauréats catégorie "Projets à dupliquer" - Vers un bloc opératoire éco-responsable et Sub-
+Or de l’AMI Développement Durable de l’APHP . Le projet, porté par le Dr El Mahdi Hafiani et le Dr. 
+Paries, vise à introduire le développement durable au bloc opératoire via  4 axes dont l’amélioration 
+du tri et la réduction du volume des DASRI. 31 
+• Si la définition règlementaire du DASRI n’a pas changé, le guide du Cpias et de l’ARS 
+Occitanie de 2021 semble avoir lancé une dynamique de révision des critères de tri des 
+DASRI, notamment plastiques qui pourrait aboutir à un reclassement de DASRI en  
+DASND (Déchets d’Activité de Soins Non Dangereux). 
+Rappel de définition :  
+La définition d’un DASRI est régit par le Code de la Santé Publique : articles R1335-1 à R1335-8-
+1 B et R4211-27. En découlent plusieurs arrêtés notamment sur les modalités d’entreposage. 32 
+Classiquement, deux pans sont décrits dans la définition DASRI  et sont nécessaires pour être 
+considérés comme tels :  
+- Premier pan  lié au r isque infectieux  : représenté par la présence de micro -organismes 
+viables ou de leurs toxines qui pourraient causer une maladie chez l’Homme ou un autre être 
+vivant. 
+ET/OU 
+- Deuxième pan lié aux :  
+o Matériels ou matériaux piquants / coupants ;  
+o Produits sanguins à usage thérapeutique incomplètement utilisés ou arrivés à 
+péremption ;  
+o Déchets anatomiques humains, correspondant à des fragments humains non 
+facilement identifiables. 
+ 
+29 Ségur de la santé – Les conclusions – Dossier de presse – Ministère des solidarités et de la santé - 2020 -  Ségur De La Santé Les Conclusions 
+(sante.gouv.fr) 
+30 Ministère de l’écologie - Titre (ecologie.gouv.fr) 
+31AMI développement durable à l’hôpital. Lauréat : « Vers un bloc opératoire éco-responsable & Sub-Or » - AP-HP AMI développement durable à l'hôpital. 
+Lauréat : " Vers un bloc opératoire éco-responsable & Sub-Or" (youtube.com) 
+32 Déchets d’activités de soins et risque infectieux : mise au point – Cpias Occitanie et ARS Occitanie - 2021- Dechets-doc-version-definitive.pdf (cpias-
+occitanie.fr) 
+« Cela fait bien longtemps que la définition des DASRI n’a pas changé d’un point de 
+vue règlementaire. » Co-fondateur Primum Non Nocere , relecteur du guide du 
+Cpias et de l’ARS Occitanie. 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     38 
+Cependant, aucune liste règlementaire restrictive des produits entrant dans la catégorie DASRI 
+n’existe. Ainsi, le tri repose en partie sur une évaluation / interprétation des professionnels des 
+structures de santé / soins.33,34 
+En 2021, le guide du Cepias – ARS Occitanie propose de reconsidérer la notion de DASRI à partir 
+du risque infectieux réel. Il propose de revoir certaines consignes de tri en s’appuyant sur la distinction 
+à faire entre danger (présence d’un microorganisme pathogène dans le déchet) et risque (présence 
+d’un microorganisme pathogène dans le déchet et possibilité de pénétration dans l’organisme).  
+Ainsi, il propose de définir les DASRI par la présence des deux critères suivants :  
+- Présence d’un micro-organisme potentiellement pathogène ;  
+- Existence d’une voie de pénétration du germe chez l’Homme  : aérienne, digestive, 
+percutanée, transmuqueuse.35 
+ 
+A noter également que la feuille de route de la planification écologique du système de santé 
+propose de redéfinir le périmètre DASRI , de permettre leur revalorisation et de développer la 
+réutilisation des emballages DASRI. 36 
+Si les hôpitaux restent a priori libres de s’appuyer sur le guide du Cpias et de l’ARS Occitanie pour 
+leur tri ou non, certains s’en sont saisis pour mener des expérimentations.  
+Exemple : le CHU de Lille a mené cette expérimentation sur deux de ses sites aboutissant à une 
+réduction du volume de DASRI de 18 tonnes sur chacun des sites investigués du CHU de Lille (-35% 
+sur le site de St Vincent / -23% sur le site de St Philibert). 37 
+Ainsi, une augmentation du volume des DASND (incluant des plastiques) pourrait être 
+attendue suite à la diminution des volumes de DASRI. 
+7.1.3.  MESURES IMPACTANT LES RECYCLEURS  
+• L’Etat français semble s’inscrire dans une dynamique de soutien  aux recycleurs et à 
+l’augmentation de leurs capacités de production.  
+La stratégie d’accélération recyclabilité, recyclage, réincorporation des matériaux recyclés 
+vise à développer une matière première de recyclage adaptée en quantité et en qualité au marché 
+ 
+33  La gestion des déchets d’activités de soins produits en dehors des établissements sanitaires, regard sur l’activité libérale état des lieux et perspectives   - 
+EHESP  
+34 Déchets d’activités de soins et risque infectieux : mise au point – Cpias Occitanie et ARS Occitanie - 2021- Dechets-doc-version-definitive.pdf (cpias-
+occitanie.fr) 
+35 Déchets d’activités de soins et risque infectieux : mise au point – Cpias Occitanie et ARS Occitanie - 2021- Dechets-doc-version-definitive.pdf (cpias-
+occitanie.fr) 
+36 Feuille de route Planification écologique du système de santé – 2023 - planification-ecologique-du-systeme-de-sante-feuille-de-route-mai-2023.pdf 
+37 Un nouveau tri des DASRI : Evaluer les risques pour adapter sa filière – Groupement des hôpitaux de l’institut catholique de Lille – 2023 -Présentation 
+PowerPoint (chu-lille.fr) 
+Liste non exhaustive des déchets non DASRI (qui potentiellement pourraient basculer en DASND si cela 
+n’est pas encore fait) : Abaisse-langue, bandelettes de mesure, changes, protections gynécologiques, fils de 
+suture (sans aiguille), mèches, cotons, compresses, pansements, bandes, seringues (sans aiguille), champs, 
+doigtiers, EPI (masques, tabliers, sur -blouses, gants, coiffes), embouts auriculaires jetables, matériel de 
+prélèvement sans perforant, matériel de perfusion (tubulures, prolongateurs, robinets, poches vides…), 
+sondes, poches, tubes et flacons de liquides biologiques incassables vides ou non, crachoirs, seringues, 
+cathéters.  
+ 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     39 
+français. L’une des ambitions du plan est de « Développer des capacités industrielles capables de 
+produire 2 millions de tonnes de matières plastiques à recycler par an, à l’horizon 2025 ». 38 
+ 
+7.2.  … POUR REPONDRE AUX ATTENTES ACTUELLES OU A VENIR DE SES 
+CLIENTS ET/OU DE SES SALARIES 
+ 
+• Face aux nouveaux enjeux environnementaux et sociaux, la RSE se positionne de 
+plus en plus , pour tous les maillons de la chaîne de valeur  comme un axe cl é à 
+valoriser auprès de ses clients (CSRD, scoring des dispositifs médicaux, etc.) et/ou 
+de ses salariés. 
+Outre les attentes des clients, la RSE semble se positionner comme un axe clé à valoriser auprès de 
+ses salariés car correspondant à leurs attentes. 
+  
+ 
+38 Stratégie d’accélération recyclabilité, recyclage, réincorporation des matériaux recyclés  – Ministère de la transition écologique et de la cohésion des 
+territoires – 2022 - Stratégie d’accélération recyclabilité, recyclage, réincorporation des matériaux recyclés | Ministère de la Transition Écologique et de la 
+Cohésion des Territoires (ecologie.gouv.fr) 
+« Nous, on a été précurseurs sur ces questions de recyclage à l’échelle française, 
+aujourd'hui nous sommes vraiment dans une situation dans laquelle on doit freiner 
+nos salariés sur leurs envies de tri et non les motiver ! En effet, ils souhaiteraient trier 
+autant qu'à la maison mais en tant qu'établissement on se doit d'organiser les choses 
+différemment. Même si c’est très agréable, cela reste une dynamique qu'il faut animer 
+pour la voir perdurer . » Responsable pôle de logistique intégrée  
+- CHU  
+« Il y a beaucoup d'initiatives de recyclage qui proviennent du personnel. Parfois ils 
+organisent même la valorisation par leurs propres moyens (…) certains ont ainsi mis 
+en place des systèmes de collecte de bouchons en plastiques dont la matière 
+première est revendue. Avec les bénéfices, des éléments de décoration ou d’accueil 
+pour le patient ou alors des éléments de bien- être pour les personnels comme du 
+mobilier sont achetés. » Responsable des opérations - TWIICE (futur éco -
+organisme des emballages professionnels et commerciaux) 
+« Nous, nous avions des difficultés à recycler les champs d'intissé bleu. Nos équipes 
+ont alors on a réfléchi sur ce que nous pourrions en faire. Nous sommes passés par 
+de nombreuses idées comme en faire des maillots de bain puis finalement nous 
+avons opté pour la fabrication de sac s pour lunch box à destination des personnels. 
+Nous avons mis en place à l'échelle du CHU une collecte et des membres du 
+personnels doués en couture et volontaires les transforment en sacs pour lunch box 
+destinés aux membres du personnel . » Responsable de gestion des déchets 
+hospitaliers - CHU 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     40 
+ 
+La réglementation évolue et devrait avoir pour effet :  
+- D’augmenter la qualité et la quantité des 
+gisements de plastiques disponibles, 
+- D’augmenter l’intérêt présagé de chaque maillon 
+de la chaine de valeur pour recycler (cf. tableau). 
+A noter que ces dynamiques sont sujettes à l’implication 
+réelle des acteurs de la chaîne de valeur. 
+ 
+Synthèse intermédiaire 
+
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     41 
+8. UNE CHAINE DE VALEUR QUI FAIT FACE A UN CERTAIN NOMBRE D’ENJEUX 
+POUR METTRE EN PLACE LA FILIERE DE RECYCLAGE / VALORISATION DES 
+PLASTIQUES DE SANTE  
+ 
+• Les structures de soins semblent principalement concernées par des difficultés 
+liées au tri des déchets, des difficultés économiques et des difficultés liées au 
+recyclage et à la valorisation. 
+ 
+• Les collecteurs et les centres de tri semblent principalement concernés par des 
+difficultés liées à la diversité des pratiques de tri / démantèlement et aux exigences 
+de traçabilité requises pour une réutilisation des plastiques recyclés en santé. 
+ 
+ 
+• Les recycleurs semblent principalement concernés par des difficultés techniques à 
+recycler les déchets des structures de soins (manque d’éco -conception, de 
+collaboration avec les achats), des difficultés liées aux gisements parfois faibles et 
+diversifiés et des difficultés à trouver des exutoires en santé. 
+ 
+• Les compounders / plasturgistes semblent principalement concernés par des 
+difficultés techniques (traçabilité des polymères, qualité) et économiques (faible 
+parts de marché représentée par la santé abaissant le pouvoir de négociation, prix 
+élevé des plastiques recyclés). 
+ 
+ 
+• Les transformateurs et les metteurs sur le marché semblent principalement 
+concernés par des difficultés liées au tri (logistiques principalement), des difficultés 
+liées au recyclage et à son impact sur l’environnement, des difficultés techniques 
+(traçabilité, qualité), des difficultés internes (adhésion des salariés à la démarche) 
+et marché (réceptivité des clients à la proposition de valeur, prix). 
+ 
+• Les distributeurs et les centrales d’achats semblent principalement concernés par 
+des difficultés liées à l’attribution des marchés : critères RSE et adhésion des 
+soignants à la décision d’attribution de marché. 
+ 
+ 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     42 
+ 
+Alcimed / Name of the client Date 16
+Enjeux Alternatives / Solutions envisagées
+Structures de soins (1/3)
+ENJEUX LIÉS AU MODÈLE ÉCONOMIQUE
+Difficultés liées au coût de mise en place d’une
+filière de tri / de valorisation : absence de
+rentabilité à date pour les structures de soins (coûts
+logistiques du tri et de la collecte > rachat matière),
+d’autant plus sur les petits gisements.
+Difficultés liées à la dépendance aux partenaires
+impliqués : dans le cadre des marchés publics
+notamment, il n’est pas toujours possible de
+changer de prestataires régulièrement pour le tri /
+collecte / recyclage ainsi certaines structures se
+sentent limitées par l’offre de collecte ou de
+valorisation proposée par le prestataire avec lequel
+elles ont contractualisé, voire démunies / bloquées
+lorsqu’un prestataire arrête une voie de valorisation.
+ENJEUX ENVIRONNEMENTAUX
+Difficultés à s’assurer que le recyclage soit plus
+vertueux d’un point de vue environnemental,
+préoccupation croissante des structures de soins, au
+regard de l’impact carbone de la collecte des déchets.
+S’assurer de la fiabilité des
+nouveaux prestataires et
+collaborer, dans l’optique de co-
+construire des voies de
+valorisation, avec les partenaires
+existants.
+« La valorisation des plastiques n'est pas rentable pour
+l'hôpital (...) oui on nous rachète les déchets mais pour un
+prix (qui suit la bourse) et qui ne permet pas de couvrir
+tous les frais liés aux déchets dont les frais de logistique.»
+Coordinateur filières médicales achats - CHU
+Elaborer des modèles
+économiques, idéalement
+rentables, a minima à moindre
+coûts, pour le tri et la valorisation
+des plastiques.
+« Depuis que le prestataire a arrêté son activité, la filière
+est en arrêt dans ma structure (…) en effet, trouver un
+autre prestataire implique de changer les pratiques de tri
+voire de collecte. C’est un vrai frein. . » Responsabledes
+RessourcesHôtelières – Clinique privée.
+« Cela m’est déjà arrivé de recevoir des acteurs locaux du
+recyclage qui proposent des solutions de valorisation qui
+certes me conviendraient mais que ne peux décemment
+pas accepter en raison du prix (…) pourtant je ne
+recherche pas la rentabilité avec la mise en place de ce
+type de filières ! .» Responsable des Ressources
+Hôtelières – Clinique privée
+S’assurer que la mise en place
+d’une filière de recyclage soit
+plus vertueuse que les
+techniques actuelles par des
+études d’impacts comparant
+l’incinération voire l’enfouissement
+(peu d’impact carbone, mais autres
+impacts importants, comme sur la
+biodiversité) au recyclage
+mécanique et chimique, sur toutes
+les étapes du parcours des déchets.
+« C’est toujours une question d’équilibre, le recyclage
+peut être intéressant mais à condition que la logistique,
+notamment le transport jusqu’à l’usine de recyclage, ne
+soit pas délétère pour l’environnement. » Coordinateur
+filières médicales achats - CHU
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     43 
+ 
+Alcimed / Name of the client Date 17
+Enjeux Alternatives / Solutions envisagées
+Structures de soins (2/3)
+ENJEUX LOGISTIQUES
+Difficultés liées au foncier : manque global de
+surface pour la mise en place de la filière de tri,
+hétérogénéité dans la surface des locaux
+disponibles à l’échelle d’une structure ou d’un
+groupe de structure.
+ENJEUX D’ORGANISA TION
+Difficultés liées au manque de temps des
+personnels pour l’acte de tri: dépriorisation de
+l’acte de tri par les personnels face à d’autres
+enjeux de soins, dans un contexte de tension
+hospitalière. A noter que les avis divergent sur le
+fait de demander un nouvel acte de tri aux
+professionnels de santé :
+« Tous les hôpitaux n'ont pas encore mis en place les 7
+flux notamment pour des contraintes liées au foncier (…)
+c’est surtout le cas en milieu urbain..» Conseiller en
+charge de la transition énergétique - CHU
+« Nous ne pouvons pas, sur l'hôpital Nord, ne serait-ce
+que mettre en place la filière plastique comme la loi de 7
+flux nous l’oblige. En effet, d'un point de vue foncier nous
+n’avons pas la place pour cette filière supplémentaire.
+rentabilité avec la mise en place de ce type de filières ! .»
+Ingénieur environnemental- CHU
+« C’est parfois compliqué de mettre en place une filière
+coordonnée quand nous n’avons pas les mêmes
+possibilités de stockage des déchets d’un bâtiment à
+l’autre .» .» Ingénieur environnemental- CHU
+Mettre à disposition des outils
+pour réduire le volume des
+déchets.
+Identifier les services dans
+lesquels mettre en place en
+priorité les filières de
+tri/valorisation : compromis entre
+tension subie par le service et
+volume de production de déchets.
+Initier le changement en
+identifiant ou en devenant des
+structures de soins motrices sur le
+sujet.
+« Aujourd'hui nous sommes vraiment dans une situation
+dans laquelle on doit freiner nos salariés sur leurs envies
+de tri et non les motiver ! » Responsable pôle de
+logistique intégrée
+- CHU
+« Par exemple nous avons cherché à mettre en place une
+filière de recyclage des masques à usage unique pour en
+faire des règles en plastique, cela a fonctionné un temps
+mais maintenant dans les poubelles de collecte il y a tout
+sauf des masques. » Coordinateur filières médicales
+achats - CHU
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     44 
+ 
+Alcimed / Name of the client Date 18
+Enjeux Alternatives / Solutions envisagées
+Structures de soins (3/3)
+ENJEUX TECHNIQUES
+Difficultés dans la reconnaissance des
+plastiques pour les équipes de soins :
+présence de plastiques non étiquetés (jusqu’à
+45% des plastiques dans les structures de soins
+auditées par la HCWH) ou facilement
+identifiables (par des fiches techniques, par
+l’indication du type de résine utilisé sur l’étiquette
+ou le produit par exemple). Ceci peut conduire à
+des erreurs de tri, qui peuvent être
+particulièrement onéreuses pour l’hôpital, en cas
+de classement en excessif en DASRI par exemple
+et qui peuvent impacter la qualité du gisement
+considéré.
+Difficultés liées au démantèlement : produits de
+santé qui ne sont pas toujours conçus pour
+faciliter le démantèlement dans les structures de
+soins, manipulations de démantèlement parfois
+techniquement difficiles.
+Former / Sensibiliser les
+personnels sur les pratiques de
+tri pour faciliter la mise en place
+d’une filière.
+« Le tri sur le DASRI n'est pas toujours respecté, on a
+trop de DASRI. (...) à titre d'exemple sur un hôpital que j'ai
+en tête les erreurs de tri coûtent 100 000€ à l'année. »
+Responsabledes opérations - TWIICE
+« Si on veut pouvoir utiliser ces gisements, les vendre
+notamment, alors il est nécessaire qu'ils soient purs. Ainsi
+il y a de vrais enjeux de séparation / de tri du plastique
+pour les utilisateurs. » Coordinateur filières médicales
+achats - CHU
+« Les données de composition exacte des DM et de leurs
+emballages sont compliquées à obtenir de la part des
+fournisseurs, ce ne sont pas forcément des informations
+que l'on retrouve dans les fiches techniques.»
+Coordinateur filières médicales achats - CHU
+Mettre à disposition des moyens
+efficaces de tri pour faciliter la
+mise en place d’une filière :
+Réflexions sur l’étiquetage
+systématique du numéro du
+polymère sur l’emballage,
+Réflexions sur l’inclusion d’additifs,
+de traceurs pour faciliter le tri
+automatiquedes plastiques.
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     45 
+ 
+Alcimed / Name of the client Date 19
+Enjeux Alternatives / Solutions envisagées
+Collecteurs / Centres de tri
+ENJEUX TECHNIQUES
+Difficultés liées à la diversité des pratiques de
+tri et de démantèlement : critères de tri et
+pratiques de démantèlement qui peuvent varier
+d’une structure de soin à l’autre, y compris au sein
+d’un même CHU et qui peuvent obliger le
+collecteur (ou le recycleur) à une étape de
+préparation au recyclage qui est onéreuse.
+Difficultés à assurer la traçabilité du plastique
+recyclé pour des applications de santé.
+S’adapter aux différentes
+pratiques de tri et de collecte de
+structures de soins, en
+réfléchissant aux modalités qui
+simplifieraient / optimiseraient la
+collecte et le tri : collecte en pied
+d’établissement, aide à la collecte,
+etc.
+«On observe également à l’échelle d’un CHU par
+exemple des pratiques de tri différentes selon les sites,
+souvent dues à l’historique du CHU et à la chronologie de
+rattachement au CHU des différents sites. » Co-
+fondateur d’une société française de recyclage.
+Identifier des moyens de
+traçabilité pour les collecteurs,
+recycleurs et plasturgistes
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     46 
+ 
+Alcimed / Name of the client Date 20
+Enjeux Alternatives / Solutions envisagées
+Recycleurs
+ENJEUX LIÉS AU MODÈLE ÉCONOMIQUE
+Difficultés à trouver un exutoire en santé : de
+façon générale, peu ou pas d’exutoires pour des
+produits de santé recyclés en produits de santé
+semblent exister et, lorsque des exutoires liés à la
+santé ou au bien-être sont trouvés, certains
+recycleurs indiquent se heurter parfois à des
+réticences des clients potentiels car cela touche à
+la sphère intime.
+Difficultés à s’adapter à de petits gisements
+diffus.
+ENJEUX TECHNIQUES
+Difficultés techniques rencontrées pour le
+recyclage, les produits de santé (ou emballages)
+n’étant généralement pas conçus pour en faciliter
+le recyclage (difficultés liées aux matériaux mixtes
+/ multimatériaux, difficultés liées au
+démantèlement, etc.)
+Difficultés à assurer la traçabilité du plastique
+recyclé pour des applications de santé.
+S’affranchir d’un exutoire en
+santé (au sens produit de santé)
+et faire de la pédagogie sur les
+matériaux recyclés pour les faire
+accepter aux consommateurs.
+Identifier des moyens de
+traçabilité pour les collecteurs,
+recycleurs et plasturgistes
+« Aujourd’hui, on réfléchit le recyclage en réaction : on a
+des déchets, on essaie de s’en accommoder pour les
+recycler. Pour moi, l’enjeu est de demain, réfléchir en
+proaction : changer les choses en amont, possiblement
+en collaboration avec les achats, surtout pour les produits
+que l’on n’arrive pas à faire rentrer dans une filière
+aujourd’hui. » Directeur développement et stratégie –
+Recycleur.
+«Le premier pas pour mettre en place le recyclage c’est la
+collaboration avec les achats, pour les sensibiliser voire
+les former aux contraintes de recyclage des produits afin
+que ce critère puisse être pris en considération lors de la
+passation de marché. » Responsablepôle de logistique
+intégrée - CHU
+Réfléchir à l’éco-conception des
+produits pour en faciliter le
+recyclage et à des collaboration
+avec les achats des structures de
+soins. Par exemple travailler
+davantage en proaction qu’en
+réaction avec les Achats, pour :
+favoriser l’utilisation de
+monomatériaux, inciter à l’éco-
+conception des produits, faciliter
+l’acte de démantèlement via des
+notices, etc. Cela passera par un
+travail collaboratif afin d’améliorer
+la compréhension réciproque des
+contraintes de tous les maillons de
+la chaîne de valeur.
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     47 
+ 
+Alcimed / Name of the client Date 21
+Enjeux Alternatives / Solutions envisagées
+Compounders / Plasturgistes
+ENJEUX LIÉS AU MODÈLE ÉCONOMIQUE
+Difficultés liées au pouvoir de négociation
+altéré auprès des fournisseurs sur le marché
+de la santé car les parts de marché y sont
+limitées, en comparaison à d’autres industries
+comme l’automobile par exemple.
+ENJEUX TECHNIQUES
+Difficultés liées aux preuves attendues sur la
+qualité de la matière recyclée : difficultés à
+prouver que la matière recyclée (en mélange avec
+un certain % de matière vierge) peut présenter les
+mêmes caractéristiques techniques que de la
+matière vierge ou à communiquer sur les
+certifications / normes existantes.
+Difficultés à assurer la traçabilité du plastique
+recyclé pour des applications de santé.
+S’affranchir d’un exutoire en
+santé (au sens produit de santé)
+Identifier des moyens de
+traçabilité pour les collecteurs,
+recycleurs et plasturgistes
+«De notre point de vue, une des contraintes majeures à la
+meilleure valorisation possible des matières recyclées
+reste le tri et la traçabilité sur la nature des polymères. »
+Compounder, membre du consortium EVAPLUS.
+« Il manque des études techniques qui prouvent que
+l'intégration de matière plastique recyclée est possible
+techniquement(sans détérioration de la qualité) » Chargé
+d’animation territoriale et développement
+économique - SNITEM
+Prouver par l’exemple,
+certifications à l’appui, qu’un
+plastique intégrant du recyclé peut
+présenter des caractéristiques
+techniques suffisantes à un usage
+en santé
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     48 
+ 
+Alcimed / Name of the client Date 22
+Enjeux Alternatives / Solutions envisagées
+Transformateurs / Metteurs sur le marché (1/2)
+ENJEUX LIÉS AU MODÈLE ÉCONOMIQUE
+Difficultés liées au coût de mise en place
+d’une filière de tri / valorisation
+Faible pouvoir de négociation auprès des
+fournisseurs de plastiques de santé pour y
+intégrer du recyclé, car parts de marché
+limitées
+Réceptivité limitée des clients à la démarche
+d’incorporation de matière recyclée dans les
+produits de santé, amenant donc à des
+difficultés de répondre à de futurs critères
+RSE plus stricts d’attribution des marchés :
+- Difficultés à obtenir l’adhésion des clients
+lorsque l’incorporation de matière première
+recyclée change les caractéristiques,
+notamment esthétiques des produits (ex :
+plastique jaunâtre, non translucide).
+- Difficultés à obtenir l’adhésion des clients à une
+hausse de prix consécutive à l’incorporation de
+matière première recyclée.
+ENJEUX D’ORGANISA TION
+Difficultés liées à l’adhésion des salariés,
+notamment des services règlementaires car un
+projet d’utilisation de plastiques recyclés peut être
+perçu comme plus contraignant.
+Eviter l’utilisation de plastique
+recyclé en surface des produits et
+/ ou faire de la pédagogie pour le
+faire accepter.
+« Les clients finaux veulent du recyclé sans augmentation
+du prix. On pense à tort que le recyclage ne coûte rien car
+la matière première est issue d’un déchet, cependant
+c’est le coût de la collecte/tri/préparation/transport qui
+malheureusement induit une hausse du prix. » Metteur
+sur le marché, membre du consortium EVAPLUS.
+Massifier la collecte à l’échelle
+locale pour rentabiliser la filière.
+« C’est très compliqué et onéreux de mettre en place le
+recyclage de nos dispositifs car ils sont vendus partout à
+travers l’Europe. » Metteur sur le marché, membre du
+consortium EVAPLUS.
+Engager le service
+réglementaire dans la démarche
+sur l’incorporation de plastiques
+recyclés dès le début de la
+réflexion.
+« L’adhésion des équipes règlementaires à un projet
+d’incorporation de matière plastique recyclée est
+essentielle. » Metteur sur le marché, membre du
+consortium EVAPLUS.
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     49 
+ 
+Alcimed / Name of the client Date 23
+Enjeux Alternatives / Solutions envisagées
+Transformateurs / Metteurs sur le marché (2/2)
+ENJEUX TECHNIQUES
+Difficultés liées à la traçabilité du plastique
+recyclé incorporé dans les produits : manque
+de traçabilité sur la provenance et la composition
+des plastiques utilisés, notamment le fait qu’ils
+remplissent les attendus règlementaires pour les
+produits de santé.
+Difficultés liées aux preuves attendues sur la
+qualité de la matière recyclée : manque de
+garanties perçues par les metteurs sur le marché
+prouvant que la matière recyclée (en mélange
+avec un certain % de matière vierge) peut
+présenter les mêmes caractéristiques techniques
+que de la matière vierge.
+ENJEUX ENVIRONNEMENTAUX
+Difficultés à s’assurer que le recyclage soit
+plus vertueux d’un point de vue
+environnemental, préoccupation croissante des
+metteurs sur le marché.
+Prouver par l’exemple,
+certifications à l’appui, qu’un
+plastique intégrant du recyclé peut
+présenter des caractéristiques
+techniques suffisantes à un usage
+en santé
+« Il manque des études techniques qui prouvent que
+l'intégration de matière plastique recyclée est possible
+techniquement(sans détérioration de la qualité) » Chargé
+d’animation territoriale et développement
+économique - SNITEM
+Identifier des moyens de
+traçabilité pour les collecteurs,
+recycleurs et plasturgistes
+S’assurer que la mise en place
+d’une filière de recyclage soit
+plus vertueuse que les
+techniques actuelles par des
+études d’impacts comparant
+l’incinération voire l’enfouissement
+(peu d’impact carbone, mais
+autres impacts importants, comme
+sur la biodiversité) au recyclage
+mécanique et chimique.
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     50 
+ 
+Alcimed / Name of the client Date 24
+Enjeux Alternatives / Solutions envisagées
+Distributeurs / Centrales d’achats
+ENJEUX LIÉS AU MODÈLE ÉCONOMIQUE
+Difficultés liées aux critères d’attribution des
+marchés : difficultés rencontrées à savoir quels
+critères demander sur le plan RSE, notamment
+sur la question du plastique recyclé / la
+recyclabilité, sans diminuer le poids des critères
+techniques.
+Développer des critères RSE
+dans les marchés et former les
+services Achats à l’évaluation des
+produits selon ces critères
+ENJEUX D’ORGANISA TION
+Difficultés liées à l’adhésion des médecins :
+parfois, manque de flexibilité de la part du
+personnel médical à vouloir changer de référence
+produit.
+Faire de la pédagogie auprès des
+services de soins et assurer
+l’engagement de la Direction
+pour faire passer les messages
+« Les services achats ne savent généralement pas quoi
+demander aux fournisseurs et on se retrouve dans des
+situations où soit ils demandent des choses préconisées
+par un fournisseur ce qui lui permet d'avoir plus de
+chances de remporter le marché, soit ils demandent des
+choses complètement naïves comme par exemple le fait
+que les palettes utilisées pour le conditionnement
+proviennent de forêts gérées écologiquement. »
+Coordinateurfilières médicales achats - CHU
+« C'est aussi une question d'adaptation médicale, les
+médecins quand ils veulent passer une commande ils ont
+déjà une référence en tête, si je commence à leur dire
+que 30% de la décision repose sur des critères
+environnementaux, cela pourra fonctionner auprès des
+médecins vraiment engagés en faveur de l'environnement
+mais certainement pas de tous. » Coordinateur filières
+médicales achats - CHU
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     51 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Synthèse intermédiaire 
+La chaîne de valeur du recyclage du plastique de santé fait face à 5 catégories d’enjeux :  
+• Enjeux liés au modèle économique ;  
+• Enjeux logistiques ;  
+• Enjeux techniques ;  
+• Enjeux d’organisation ;  
+• Enjeux environnementaux. 
+ 
+ 
+Tableau 5. Enjeux et limitations de chacun des maillons de la chaîne de valeur à mettre en place une filière 
+de valorisation des plastiques en santé. 
+ 
+
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     52 
+  
+9.   RELEVER LE DEFI DU RECYCLAGE DES PLASTIQUES EN SANTE : 
+INSPIRATION ET FACTEURS CLES DE SUCCES  
+ 
+9.1.  TOUR D’HORIZON DES VOIES DE VALORISATION DE PLASTIQUES DE SANTE 
+EXISTANTES EN EUROPE 
+ 
+• Si aucune filière complète et coordonnée incluant tous les plastiques d’intérêt 
+ne semble exister en Europe, plusieurs initiatives mises en place par des 
+metteurs sur le marché d’un produit spécifique ou d’un groupe de metteurs sur 
+le marché / plasturgistes pour une résine spécifique existent ou se développent. 
+ 
+Voici quelques exemples d’initiatives rencontrées en Europe, portées par des metteurs sur le marché 
+(ou groupes de metteurs sur le marché / plasturgistes) qui pourraient s’étendre ou se dupliquer en 
+France :  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+FONCTIONNEMENT
+Tri : opéré à l’hôpital  VinylPlus apprend aux
+personnels à reconnaitre 4 familles de DMs et incite à les
+classer dans le même sac (liste de référence vouée à
+évoluer)
+Collecte : enjeu à ne pas pousser l’hôpital à changer de
+prestataire ou en ajouter un, travaille avec les partenaires
+en place / collaboration
+Démantèlement : réalisé par un préparateur au
+recyclage ou par le recycleur lui-même (en France
+pourrait être une ESS).
+Recyclage mécanique
+VinylPlus
+Belgique
+Programme d’engagement de l'industrie
+européenne du PVC en faveur du
+développement durable
+Financement d’une initiative de
+valorisation des PVC souples médicaux
+auprès de 30 hôpitaux belges pour
+amorcer la mise en place d’une voie de
+valorisation à plus grande échelle.
+DM usage unique en PVC souple (masques
+à oxygène et d’anesthésie, tubulures, poches
+de perfusion intraveineuse et de dialyse, etc.)
+ Propres
+ Respectant REACH (exclure DEHP?)
+ Pas de multicouches
+Produits / plastiques concernésNature de l’initiative GéographieExutoire
+Revêtements muraux notamment pour
+les établissements de santé
+Santé > Santé
+Produits de santé > Produit de santé
+Business model
+Non rentable à date
+Propose un service à coût
+zéro pour le moment aux
+structures (car VinylPlus a
+besoin de volumes pour
+viser à rentabiliser la voie
+de valorisation).
+Pérennisation envisagée de l’initiative
+POC : en 2023, 30 hôpitaux intégrés en Belgique , 3T de
+PVC valorisé
+Ambition : étendre l’initiative en France à l’échelle d’un
+groupe d’hôpitaux ou d’un territoire
+Question à trancher : pertinence écologique en France
+(coût environnemental du transport à évaluer sachant que
+l’usine de recyclage est en Belgique)
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     53 
+ 
+ 
+ 
+Alcimed / Pôle Polymeris 14/03/24 2
+Global (avec des
+projets pilotes en
+cours en France,
+en Allemagne et au
+Royaume Uni)
+ 
+FONCTIONNEMENT
+Tri : opéré à l’hôpital  Des systèmes de collecte sont
+installés dans les hôpitaux pour que le personnel puisse y
+déposer les DM des metteurs sur le marché partenaires
+(Novo Nordisk)
+Collecte : opérée par le recycleur Zirq Medical en Norvège
+Préparation au recyclage : 8 étapes de tri successives
+opérées par Zirq Medical au Danemark (démantèlement
+pour retirer les aiguilles notamment, tri selon le type de
+résine de plastique, etc.)
+Recyclage mécanique
+MELANOR (Association de metteurs sur le marché de DM) & ZIRq Medical (Recycleur)
+Norvège
+Financement d’une initiative de
+valorisation des plastiques médicaux à
+usage unique, infectieux et non infectieux,
+par l’association des metteurs sur le
+marché des dispositifs médicaux, en
+collaboration avec un recycleur Danois
+(Zirq Medical).
+DM usage unique a priori quelle que soit la
+composition.
+Produits / plastiques concernésNature de l’initiative GéographieExutoire
+Isolants thermiques
+Santé > Autres industries (isolation)
+Santé > Santé  objectif à terme
+Business model
+Non rentable à date,
+difficultés de scale-up
+(quantité de DM
+insuffisante).
+Le financement de la filière
+est assuré par les metteurs
+sur le marché de DM avec
+pour ambition de
+développer ainsi un
+écolabel facilitant
+l’obtention des appels
+d’offres.
+Pérennisation envisagée de l’initiative
+POC : en Norvège
+Ambition :
+• Etendre l’initiative à d’autres DM similaires pour
+augmenter les volumes et rendre plus rentable la collecte
+et l’opération au global.
+• Développer une nouvelle usine de recyclage dans le sud
+de l’Allemagne pouvant notamment opérer au recyclage
+des déchets plastiques français.
+Question à trancher : pertinence écologique de
+l’initiative au global (recyclage uniquement au Danemark
+de déchets norvégiens) et en France (coût environnemental
+du transport à évaluer sachant que l’usine de recyclage la
+plus proche serait en France)
+
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     54 
+ 
+ 
+  
+FONCTIONNEMENT
+Tr i/ Collecte : en pharmacie / à l’hôpital
+Stockage : sur sites logistiques (Orléans / Chartes) jusqu’à
+obtention d’un volume critique de stylos à insuline. Collecte
+également en parallèle des déchets de production.
+Préparation au recyclage & recyclage : Réalisé au Danemark
+par Zirq Medical. Process de traitement :
+1.Démantèlement
+2.Tr ioptique (élimine 20% des stylos)
+3.Broyage
+4.Décontamination
+5.Tr imagnétique(élimine les ressorts en fer)
+6.Tr ipar flottabilité (élimine les PP)
+7.Tr ioptique (élimine les POM, le verre et le fer)
+Novo Nordisk(Association de metteurs sur le marché de DM) & ZIRq Medical(Recycleur)
+Danemark, UK,
+France
+(développementà venir
+US, Japon, Chine,
+Allemagne, Italie).
+Recyclage de stylos à insuline initié par Novo
+Nordisk. Le programme est mis en place à
+différent niveaux. L’initiative prend le nom de
+Returpen en France.
+750 millions de stylos ont été produits par
+Novo Nordisk en 2022. D’autres industriels s’y
+associent : Sanofi, Eli Lilly, Merck.
+Stylos à insuline. Ceux-ci sont principalement
+composés de PP, POM et ABS.
+Produits / plastiques concernésNature de l’initiative GéographieExutoire
+Mobilier de bureau
+Santé > Autres industries (mobilier :
+chaises)
+Santé > Santé  objectif à terme
+Business model
+Non rentable à date (100
+tonnes de déchets médicaux
+traités  35 000€ de CA
+généré, ce qui ne permet pas
+de couvrir les coûts du
+process)
+Pérennisation envisagée de l’initiative
+Challenge :
+• Dépasser certaines contraintes règlementaires notamment sur
+le transport des déchets en termes de traçabilité (enjeu à
+spécifier toute la route des camions).
+• Trouver une forme d’équilibre financier.
+Question à trancher : pertinence écologique de l’initiative au
+global (recyclage uniquement au Danemark de déchets
+norvégiens) et en France (coût environnemental du transport à
+évaluer sachant que l’usine de recyclage la plus proche serait en
+France)
+ 
+FONCTIONNEMENT
+Tr i/ Collecte assuré par Renewi
+Préparation au recyclage & recyclage :
+1. Fonte
+2. Mise en blocs
+3. Granulation
+4. Injection
+GreenCYcl& RENEWI (Recycleurs)
+Pays-Bas, Belgique
+(tests sur 43 hôpitaux
+aux Pays-Bas, dont 3
+CHU)
+En collaboration avec Renewi, Greencycl
+recycle des plastiques de santé (principalement
+du PP issus des blocs opératoires) en divers
+produits, certains étant destinés à la santé.
+Produits de santé en PP, principalement issus des
+blocs opératoires (papiers bleus) mais également
+en PET.
+Produits / plastiques concernésNature de l’initiative GéographieExutoire
+Santé > Autres industries (couvercles,
+pots de fleurs, etc.)
+Santé > Santé  grattoirs à ongles et
+mains pour chirurgie, granulés de rPP
+avec grade médical.
+Business model
+Non communiqué
+Pérennisation envisagée de l’initiative
+Question à trancher : pertinence écologique de l’initiative au
+global et en France (coût environnemental du transport à évaluer
+sachant que l’usine de recyclage la plus proche serait en Belgique
+ou aux Pays Bas)
+
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     55 
+• Les voies de valorisation investiguées mettent en avant deux catégories 
+d’exutoires : des exutoires en santé, présentés comme un objectif à terme 
+difficilement atteignable pour le moment, et des exutoires hors santé, 
+vraisemblablement plus pertinent à court et moyen-terme. 
+ 
+• Si, à l’échelle européenne, les initiatives de valorisation semblent plutôt initiées 
+et portées par des industriels, certaines structures de soins se distinguent pour 
+leur proactivité sur la mise en place de filières de tri permettant le recyclage, sur 
+le test de solutions de valorisation  ou d’intégration de critères d’achats liés au 
+recyclage. 
+A titre d’exemple, des premiers tests pour démontrer la faisabilité de recycler des plastiques 
+médicaux avec des exutoires en santé sont en cours entre l’hôpital de Jessa (Belgique) et le 
+plasturgiste SABIC. Ces plastiques médicaux seraient convertis en huile de pyrolyse utilisée comme 
+matière première circulaire pour la production de polymères TRUCIRCLE de qualité médicale 
+par SABIC. Ceux-ci présenteraient les mêmes performances, la même pureté et la même sécurité 
+physiologique que les polymères vierges de qualité médicale. 39 
+Sur la question de la mise en place de filières de tri, certains CHU français semblent précurseurs, 
+c’est le cas du CHU de Clermont -Ferrand, pionnier sur la question. Le CHU de Clermont -Ferrand 
+dispose en effet de 4 filières plastiques :  
+- La filière PP, qui c onsiste principalement à récupérer les flacons d'eau stérile et de sérum 
+physiologique usagés.  
+- La filière PS (principalement emballages), dont l’exutoire reste le PS d’emballage. 
+- La filière plastiques souples qui est en cours de création sur les plastiques d’emballage. 
+- La filière masques (EPI), dont l’exutoire se situe dans l’automobile (tableau de bord des 
+voitures).40 
+Le CHU d’Aarhus au Danemark a développé un projet, coordonné avec le service achat de l’hôpital, 
+pour augmenter le taux de recyclage et pour créer des solutions plus circulaires au sein de la chaîne 
+de valeur des déchets d’ emballage plastique médicaux. Le projet a débuté sur une seule typologie 
+de produits : les bouteilles pour les liquides d’irrigation car il s’agit d’un produit simple et largement 
+utilisé à l’hôpital. Les résultats préliminaires démontreraient que l’introduction de critères de 
+recyclabilité dans les appels d’offres n’entraîneraient pas nécessairement de hausse de prix, ceux-ci 
+pourraient même diminuer de plus de 20%. A noter que, dans le cadre de l’expérimentation, l’inclusion 
+des critères de recyclabilité a été un frein pour plus de 50% des fournisseurs sur le produit considéré.  
+Liste des critères d’achat utilisés dans le cadre de l’expérimentation au CHU d’Aarhus :  
+- Emballage réduit 
+- Inclusions de matériaux recyclés dans les emballages secondaires et tertiaires 
+- Développement de systèmes de reprise lorsque cela est pertinent/possible 
+- Favorisation des emballages monopolymères en polypropylène (PP), polyéthylène (PE) ou 
+polyéthylène téréphtalate (PET) afin qu’ils puissent être recyclés 
+- Identification des produits recyclables 
+A noter que les matériaux et caractéristiques suivants sont moins privilégiés: polychlorure de 
+vinyle (PVC), stratifiés, combinaisons de papier et de plastique.41 
+ 
+39 SABIC and Jessa Hospital converts used medical plastic into circular polymers  – Medical Plastics News – 2024 -  SABIC and Jessa Hospital converts used 
+medical plastic into circular polymers - Medical Plastics News 
+40 Entretiens Alcimed. 
+41 Sustainable Health in Procurement Project (SHiPP) case study : Aarhus University Hospital, Denmark -  Étude de cas du projet de santé durable dans 
+l’approvisionnement (SHiPP) : Hôpital universitaire d’Aarhus, Danemark | Des soins de santé sans préjudice (noharm -global.org) 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     56 
+La question de la RSE au sens large, notamment dans les services les plus générateurs de déchets 
+tels que la chirurgie, semble prendre une place de plus en plus centrale.  Ainsi, l’AP-HP a lancé en 
+2019 un  appel à manifestation d’intérêt sur le développement durable. Le projet « Sub-Or » présenté 
+par le Dr.  El Mahdi Hafiani s’inscrit dans une démarche globale Sensibilisation Mobilisation Action 
+Collaboration (SMAC) pour réduire l’impact environnemental des blocs opératoires. Cette démarche 
+s’exprime à travers la poursuite de 4 objectifs : 
+- Tri et recyclage des déchets, 
+- Réduction de l’excédent de matériel anesthésique préparé et non utilisé, 
+- Réduction de l’émission de gaz à effet de serre liés aux gaz anesthésiques, 
+- Réduction de la consommation d’énergie.42 
+Dans la même optique, l’initiative portée par l’ARS Île- de-France via le label green bloc peut être 
+soulignée. Ce label vise à soutenir les équipes chirurgicales  intégrant des pratiques éco-
+responsables.43 
+ 
+• Enfin, quels que soient les porteurs à l’origine des initiatives, les enjeux de modèle 
+économique, logistiques, techniques, organisationnels et environnementaux semblent 
+être clés dans la mise en place et  la pérennisation de voies de valorisation pour les 
+plastiques de santé. 
+Si les enjeux logistiques, techniques, ou organisationnels sont les premiers à être adressés dans la 
+mise en place d’une nouvelle voie de valorisation, il ressort de l’analyse des cas présentés ci-dessus 
+que les enjeux de modèle économique et de pertinence environnementale des initiatives de voies de 
+valorisation de plastiques de santé restent plus complexes à résoudre : 
+- Enjeu de modèle économique : du moins dans les phases initiales  de développement de 
+ces voies de valorisation, la rentabilité semble difficile, voire impossible à atteindre , 
+notamment du fait du coût logistique de mise en place de la collecte qui n’est pas 
+contrebalancé par le coût de revient de la revente des plastiques collectés. L’enjeu de 
+massification de la collecte pour la rentabiliser par un effet d’échelle apparaît donc comme 
+l’un des leviers clés dans la recherche d’un modèle économique pérenne.  
+- Enjeux environnementaux : pour la plupart des exemples présentés plus haut (VinylPlus, 
+Melanor & Zirq Medical, NovoNordisk & Zirq Medical, GreenCycl & Renewi,…), la question de 
+la pertinence écologique de la mise en place de filières de recyclage de plastiques de santé 
+n’est pas encore tranchée et reste à évaluer au regard des modalités envisagées de mise en 
+œuvre de la filière. Ces évaluations fines par ACV par exemple pourraient permettre 
+d’orienter vers des modalités différentes de mise en œuvre de ces filières (par exemple 
+l’intégration, lors de la mise à l’échelle d’une initiative, d’autres centres de recyclage plus 
+proche des points de collecte).
+ 
+42 AMI développement durable à l’hôpital. Lauréat : « Vers un bloc opératoire éco-responsable & Sub-Or »- AP-HP 
+https://www.youtube.com/watch?v=9kWptAvkVSw&list=PLcMM5jv7Zmd9shR6Yie1BPr4YHIlcsXeh&index=2   
+43Transition écologique en chirurgie- ARS Île-De-France – 2023- Guide à usage interne (sante.fr) 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     57 
+9.2.  FACTEURS CLES DE SUCCES A LA MISE EN PLACE DE FILIERES DE 
+RECYCLAGE DES PLASTIQUES DE SANTE 
+ 
+ 
+Légende :  
+- Encart gris : exemple inspirationnel issu d’une autre industrie. 
+- Encart rose : exemple ou idée directement applicable à la mise en place de filières de 
+recyclage des plastiques de sante. 
+ 
+ 
+Figure 7. Représentation schématique des facteurs clés de succès. 
+ 
+ 
+ 
+ 
+ 
+01
+02
+03
+04
+05
+Lorem IpsumLorem ipsum dolor sit amet, nibh est.
+Lorem ipsum dolor sit amet, nibh est.
+Trouver un modèle économique
+Travailler autour d’un fonctionnement logistique
+Travailler autour des aspects techniques
+Travailler autour d’une organisation fructueuse pour le recyclage
+Garantir l’aspect vertueux du recyclage
+• Qui lève les freins à la mise en place du tri et de la collecte au sein des structures de
+soins ;
+• Qui œuvre à massifier les gisements de plastiques.
+• Qui soit à terme rentable ou à moindre coût pour le tri, la collecte et la valorisation des
+plastiques ;
+• Qui identifie clairement, pérennise et sécurise des exutoires à haute valeur ajoutée ;
+• Qui incite à l’adhésion des acteurs de la chaîne de valeur et des clients finaux à la
+démarche.
+• Pour faciliter le tri et/ou le démantèlement des produits ;
+• Pour œuvrer à assurer le suivi et la qualité des plastiques recyclés.
+• Qui puisse s’appuyer sur l’adhésion de l’ensemble des collaborateurs des parties
+prenantes, en prenant en compte notamment les contraintes de temps de chacun ;
+• Qui s’adapte à la diversité des pratiques de tri et de collecte des structures de soins ;
+• Qui favorise une meilleure connaissance et compréhension mutuelle des besoins et des
+enjeux de chacun des maillons de la chaîne de valeur.
+.
+• En comparaison à l’enfouissement ou à l’incinération des déchets plastiques,
+logistique (tri, collecte) comprise ;
+• Sur différents aspects (ex : impact carbone, impact sur la biodiversité, etc.) ;
+• S’appuyant sur des études ou des méthodologies de calcul solides et reconnues.
+.
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     58 
+  
+Trouver un modèle 
+économique : 
+• Qui soit à terme rentable ou à moindre coût 
+pour le tri, la collecte et la valorisation des 
+plastiques ;  
+ 
+• Qui identifie clairement, pérennise et 
+sécurise des exutoires à haute valeur 
+ajoutée ;  
+ 
+• Qui incite à l’adhésion des acteurs de la 
+chaîne de valeur et des clients finaux à la 
+démarche. 
+1 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     59 
+Par exemple :  
+• En incitant au changement via des modèles économiques (contrats de performance par 
+exemple) qui lèvent certains freins à la mise en place (ex : investissements 
+nécessaires) et œuvrent comme une preuve de concept de rentabilité du modèle. 
+En effet, dans les structures de soins, les freins observés à la mise en place ou au changement d’une 
+voie de valorisation des plastiques peuvent  notamment être liés aux investissements initiaux 
+nécessaires et à l’incertitude liée à la rentabilité du modèle.  
+Afin de pallier ces deux freins, certaines industries ont mis en place des contrats de performance, 
+passés entre un fournisseur ou un prestataire de services et son client et qui sont fondés sur une 
+obligation de résultats du fournisseur ou du prestataire de service, liée à la clause de prix.  Ainsi, les 
+fournisseurs ou prestataires de services se rémunèrent sur l’économie réalisée. 44 
+ 
+• En favorisant des exutoires à plus haute valeur ajoutée que le produit à recycler afin 
+d’œuvrer à la rentabilité de la voie de valorisation dans son ensemble, il s’agit du « sur-
+cyclage ». 
+ 
+ 
+44 Les contrats de performance environnementale, accélérateurs de la transition des chaînes d’approvisionnement – Deloitte France - Les contrats de 
+performance environnementale, accélérateurs de la transition des chaînes d’approvisionnement (deloitte.com)  
+Exemple issu du secteur de l’énergie : Schneider Electric 
+Schneider Electric est un acteur majeur dans la fourniture de solution de gestion de l’énergie. En particulier, 
+les solutions à visée d’économie d’énergie proposées par Schneider Electric  ont pu avoir des difficultés à 
+rencontrer leur clientèle notamment parce qu’elles sont relativement longues à amortir  : les 
+investissements réalisés par l’entreprise cliente ne trouvent leur rentabilité qu’au bout d’un certain nombre 
+d’années. Ainsi, Schneider Electric  a développé des contrats de performance énergétique  avec ses 
+clients. Concrètement, Schneider Electric finance la rénovation des installations du client (en prenant donc 
+à sa charge l’installation des équipements) et en contrepartie, se rémunère, durant une période définie, sur 
+les économies d’énergie générées par les équipements nouvellement installés. A la fin du contrat, les 
+installations et les bénéfices générés par l’économie d’énergie réalisée reviennent pleinement à l’entreprise 
+cliente. 
+                  
+Exemple issu du secteur du revêtement de sols : Desso 
+Desso est un acteur majeur de la production de moquettes (202 millions d’euros de chiffres d’affaires en 
+2021) proposant désormais des moquettes presque entièrement recyclables. Depuis le milieu des années 
+2000, Desso n’intègre dans son procédé de fabrication que  des matières premières pouvant être « sur-
+cyclées » et donc générer plus de valeur. En l’occurrence, la laine contenue dans la moquette Desso 
+(produit à recycler de plus faible valeur ajoutée) est  recyclée en nouvelle laine et en plastiques de haute 
+valeur ajoutée. 
+Source : (Ré)Inventez votre business model avec l’approche Odyssée 3.14 – Laurence Lehmann-Ortega, Hélène Musikas & Jean-Marc Schoettl 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     60 
+• En développant des stratégies et des outils de massification  des gisements pour 
+diminuer les coûts de collecte et de tri  qui leur sont associés et ainsi  d’œuvrer à la 
+rentabilité de la voie de valorisation dans son ensemble. 
+En effet,  comme évoqué précédemment, l’un des enjeux  du développement d’une filière de 
+valorisation des plastiques de santé est la possibilité de massifier les gisements, afin d’en favoriser 
+la rentabilité.  
+ 
+Au-delà des stratégies de massification qui pourraient être développées, la question des outils pour 
+y parvenir pourrait être posée :  
+ 
+Idées issues des discussions avec le consortium EVAPLUS : Stratégies de massification intra ou 
+inter-sectorielles 
+Dans l’objectif de diminuer les coûts inhérents à la collecte et au tri, plusieurs stratégies de 
+massification non investiguées dans le cadre cette étude pourraient être étudiées :  
+- Massification entre structures de soins (hôpitaux, cliniques) et autres utilisateurs 
+de produits de santé contenant du plastique (cf. figure 2)  comme par exemple les 
+services de soins à domicile, les laboratoires biomédicaux de ville, les pharmacies 
+d’officine, les cliniques vétérinaires ou encore les acteurs de la recherche en santé. 
+- Massification entre structures de soins et autres industries générant des déchets  
+plastiques similaires (en termes de résines par exemple)  dans le cadre d’un projet 
+d’Ecologie Industrielle et Territoriale (ETI) par exemple. 
+ 
+Exemple issu du secteur du bâtiment : Concular 
+Concular est une entreprise qui a développé une plateforme visant à rendre plus circulaire l’industrie de la 
+construction. En effet, peu de matériaux utilisés dans le secteur de la construction sont réutilisés ou 
+recyclés. Ainsi, Concular propose une plateforme en ligne qui recense les matériaux issus des projets de 
+démolition et qui seront donc bientôt disponibles pour les constructeurs.  La mise en perspective de l’offre 
+et de la demande est alors réalisée par intelligence artificielle. Outre l’impact envi ronnemental positif, 
+Concular met en avant un gain économique pour le constructeur acheteur (qui achète moins cher sa matière 
+première) et pour le constructeur vendeur (qui évite des frais liés à la mise en décharge).  
+Source : (Ré)Inventez votre business model avec l’approche Odyssée 3.14 – Laurence Lehmann-Ortega, Hélène Musikas & Jean-Marc Schoettl 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     61 
+• En favorisant l’implication et l’adhésion des différentes parties prenantes de la chaîne 
+de valeur et des clients finaux par la mise en place de mécanismes incitatifs. 
+ 
+ 
+ 
+ 
+Si des critères de recyclabilité, ou des scoring environnementaux de produits se généralisent, ils 
+devront être accompagné de la formation des centrales d’achats ou services achats des 
+structures de soins dans le choix de produits de santé plus facilement recyclables. L ’intervention 
+d’experts du recyclage pour fournir un avis consultatif a par exemple été évoquée lors de l’étude 
+EVAPLUS, notamment lors d’une discussion avec le CHU de Nice :  
+Exemple issu du secteur des réseaux sociaux : RecycleBank 
+Recyclebank est un réseau social qui incite ses adhérents à mettre en place des actions concrètes en faveur 
+de l’environnement. Plus les membres font des actions vertueuses pour l’environnement (réduction de la 
+consommation d’énergie, recyclage, etc.) plus ils gagnent de points qui sont ensuite utilisables chez des 
+entreprises partenaires. Du point de vue du recyclage par exemple, l’évaluation des quantités recyclées par 
+les membres se fait via la mise à disposition d’un bac à recyclage avec puce intégrée connectée au camion 
+de collecte qui mesure les quantités recyclées. 
+Source : (Ré)Inventez votre business model avec l’approche Odyssée 3.14 – Laurence Lehmann-Ortega, Hélène Musikas & Jean-Marc Schoettl 
+Idées issues des discussions avec le consortium EVAPLUS  : Critères sur la recyclabilité dans 
+l’attribution des marchés pour inciter les metteurs sur le marché 
+La mise en place de critères de recyclabilité de la matière dans les décisions d’attribution des 
+marchés, pourrait permettre d’inciter les metteurs sur le marché à investir dans de la R&D pour 
+l’éco-conception de leurs produits. Ce travail pourrait être à mettre en perspective avec le travail 
+de scoring environnemental et social actuellement effectué par le SNITEM, le CD2S et l’AFNOR.  
+Idées issues des discussions avec le CHU de Nice, dans le cadre de l’étude EVAPLUS  : Avis 
+consultatif d’experts du recyclage dans l’attribution des marchés 
+Au CHU de Nice, une nouvelle organisation semble être en train de se déployer progressivement. 
+A terme celle-ci permettrait à un responsable logistique ou développement durable d’avoir accès 
+à un échantillon des produits de santé avant décision d’attribution des marchés. L’obtention de 
+cet échantillon permettrait la mise en place d’une analyse des déchets potentiellement émis par 
+le produit, notamment au regard de leur potentiel de recyclabilité dans les conditions de tri et de 
+collecte propres à la structure de soins considérée. Un avis consultatif sur la recycl abilité des 
+produits serait alors émis auprès des achats.  Ainsi, à terme, les acheteurs pourraient être 
+davantage formés sur les questions de recyclabilité des produits. 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     62 
+ 
+Travailler autour 
+d’un fonctionnement 
+logistique :  
+• Qui lève les freins à la mise en place du tri 
+et de la collecte au sein des structures de 
+soins ;  
+ 
+• Qui œuvre à massifier les gisements de 
+plastiques. 
+ 
+ 
+2 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     63 
+Par exemple :  
+• En réfléchissant à l’organisation du foncier des hôpitaux en construction  (ou dans le 
+cadre de réaménagements) pour intégrer des espaces de stockage suffisants pour la 
+mise en place de nouvelles filières de recyclage. 
+ 
+• En œuvrant à mettre à disposition tous les outils et l’organisation nécessaires à la 
+massification des gisements de plastique, notamment à l’échelle d’une structure de 
+soins. 
+ 
+Idées issues des discussions avec le consortium EVAPLUS  : Moyens de massification des déchets 
+plastiques 
+L’un des enjeux associés au tri des plastiques de santé réside souvent dans les volumes 
+journaliers de plastiques générés à l’échelle d’une structure de soins, qui sont très élevés, mais 
+ne représentent qu’une faible masse volumique et donc finalement peu de matière à 
+revaloriser. Ainsi, l’un des enjeux logistiques pour la mise en place d’une filière de recyclage est 
+de réduire les volumes de déchets  pour permettre une accumulation plus importante en 
+masse. Dans le cadre des plastiques de santé, des solutions de broyage ou de compactage 
+des plastiques pourraient être investiguées. 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     64 
+ 
+Travailler autour 
+des aspects 
+techniques :  
+• Pour faciliter le tri et/ou le démantèlement 
+des produits ;  
+ 
+• Pour œuvrer à assurer le suivi et la 
+qualité des plastiques recyclés. 
+ 
+3 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     65 
+Par exemple :  
+• En œuvrant à lutter contre les difficultés liées au tri et à la traçabilité du plastique, tant 
+dans la reconnaissance du polymère (ex : étiquetage systématique)  que dans 
+l’automatisation du tri et de la traçabilité de celui-ci (ex : additifs, traceurs, etc.). 
+ 
+ 
+• En favorisant l’éco-conception des produits de santé, notamment pour en faciliter le 
+recyclage et le démantèlement. 
+ 
+Idées issues des discussions avec le consortium EVAPLUS  : Moyens de reconnaissance du polymère 
+Certaines études indiquant que jusqu’à 45% des plastiques analysés dans un audit déchet ne 
+comportent pas d’étiquette précisant le type de polymère, sa reconnaissance apparaît comme un 
+enjeu clé pour son tri. Ainsi, des étiquetages systématiques des numéros des polymères sur 
+l’emballage voire sur le produit lui-même pourraient être plus amplement étudiés. 
+Source : Mesurer et réduire les plastiques dans le secteur de la santé – 2021 - HCWH Europe 
+ 
+Idées issues des discussions avec le consortium EVAPLUS  : Moyens d’automatisation du tri et de la 
+traçabilité 
+Des réflexions sur l’inclusion d’additifs ou de traceurs permettant  un tri et suivi automatique des 
+plastiques pourraient être plus amplement investiguées. 
+ 
+ 
+Idées issues des discussions avec le consortium EVAPLUS  : Eco-conception des produits de santé 
+Côté metteurs sur le marché, l’éco -conception est un outil permettant de lever certains points 
+bloquant le recyclage des produits de santé, notamment en favorisant les mono -matériaux / 
+matériaux simples dans la conception des produits de santé.  
+Il pourrait également s’agir d’investiguer la modularité des produits de santé afin d’en faciliter le 
+démantèlement en structure de soins.  Celui-ci pourrait par ailleurs être facilité par la 
+systématisation de fourniture de notices sur le démantèlement par les metteurs sur le marché à 
+destination des utilisateurs. 
+Exemple issu du secteur de la téléphonie : Fairphone 
+Fairphone vend ou loue des téléphones mobiles éco- conçus. En effet Fairphone fait en sorte d’intégrer un 
+maximum de matériaux recyclés ou issus de fournisseurs respectueux de l’environnement dans ses produits. 
+Fairphone est aussi particulièrement attentif à l’indice de réparabilité de ses produits qu’il veut le plus haut 
+possible. Par ailleurs, dans le cadre de la location de smartphones, la tarification incite à conserver le 
+téléphone le plus longtemps possible, en réduisant au fur et à mesure les mensuali tés de la location. 
+Source : (Ré)Inventez votre business model avec l’approche Odyssée 3.14 – Laurence Lehmann-Ortega, Hélène Musikas & Jean-Marc Schoettl 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     66 
+ 
+ 
+ 
+Travailler autour 
+d’une organisation 
+fructueuse pour le 
+recyclage :  
+• Qui puisse s’appuyer sur l’adhésion de 
+l’ensemble des collaborateurs des parties 
+prenantes, en prenant en compte notamment 
+les contraintes de temps de chacun ;  
+ 
+• Qui s’adapte à la diversité des pratiques de 
+tri et de collecte des structures de soins ;  
+ 
+• Qui favorise une meilleure connaissance et 
+compréhension mutuelle des besoins et des 
+enjeux de chacun des maillons de la chaîne 
+de valeur. 
+4 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     67 
+Par exemple :  
+ 
+• En s’efforçant d’impliquer les collaborateurs de tous les niveaux dans la démarche de 
+mise en place d’une voie de valorisation. 
+Chez les metteurs sur le marché de produits de santé :  
+ 
+Dans les structures de soins où il semble que le succès de la démarche soit à la fois conditionné  
+à la prise d’engagement à la fois par la direction et par les salariés à tous les niveaux. 
+ 
+• En initiant une dynamique collaborative entre les différents maillons de la chaîne de 
+valeur. 
+ 
+Les exemples de filières de recyclage de plastiques de santé existant en Europe et renseignés dans 
+ce document sont frappants à cet égard : la majorité de ces initiatives est portée par au moins un 
+duo d’acteurs, et intègre nécessairement une coordination avec tous les maillons de la chaîne de 
+valeur. 
+ 
+ 
+Idées issues des discussions avec le consortium EVAPLUS  : Implication du règlementaire dans la 
+démarche 
+Les discussions avec le consortium EVAPLUS ont mis en évidence l’importance, pour un metteur 
+sur le marché de produits de santé, de recueillir l’adhésion de son service règlementaire pour la 
+mise en place d’une voie de valorisation pour ses produits et/ou pour l’intégration de matière 
+plastique recyclée ou recyclable dans ses produits. En effet, ces démarches pouvant être plus 
+contraignantes d’un point de vue règlementaire, l’adhésion de ce service semble clé. 
+Idées issues des discussions avec le CHU de Clermont-Ferrand dans le cadre de l’étude EVAPLUS  : 
+Engagement de la direction et des salariés à tous les niveaux 
+L’organisation mise en place au CHU de Clermont -Ferrand suit la politique de développement 
+durable du CHU. Elle a notamment consisté à mettre en place :  
+• Une direction du développement durable ;  
+• Des ambassadeurs de développement durable en charge d’alerter la direction en cas de 
+problème, notamment lié à la gestion des déchets ;  
+• Des groupes de travail sur les déchets et leur gestion impliquant les collaborateurs à tous 
+les niveaux (médecins, infirmiers, etc.) ;  
+• Une communication large des chiffres qui entourent la question du recyclage pour la 
+sensibilisation des équipes. 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     68 
+  
+Garantir l’aspect 
+vertueux du 
+recyclage :  
+• En comparaison à l’enfouissement ou à 
+l’incinération des déchets plastiques, 
+logistique (tri, collecte) comprise ;  
+ 
+• Sur différents aspects (ex : impact carbone, 
+impact sur la biodiversité, etc.) ;  
+ 
+• S’appuyant sur des études ou des 
+méthodologies de calcul solides et reconnues. 
+5 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     69 
+Par exemple :  
+• En renforçant l’utilisation d’outils d’Analyse du Cycle de Vie des produits (ACV)  des 
+produits, dès leur conception. 
+Idées issues des discussions avec le consortium EVAPLUS  : utilisation systématique d’outils d’ACV 
+dans la conception des produits 
+Les discussions avec le consortium EVAPLUS ont permis de mettre en avant la pratique d’un des 
+metteurs sur le marché membre du consortium : l’utilisation d’ACV. En effet, chez cet acteur, tous 
+les produits sont évalués avec un logiciel d’ACV (dès leur conception désormais), et la pertinence 
+de la mise en place d’une pratique de recyclage des produits (dispositifs médicaux de classe I) a 
+ainsi pu être validée d’un point de vue environnemental grâce à cette analyse de cycle de vie. 
+Cette analyse constitue par ailleurs un premier pas  vers l’éco -conception puisqu’à l’issue de 
+l’analyse, des matériaux par exemple peuvent être changés. 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     70 
+10.  PRISE DE RECUL, POURQUOI NE PENDRE EN COMPTE QUE LE 
+RECYCLAGE ? 
+ 
+• Si dans le cadre de l’étude EVAPLUS l’investigation a principalement porté sur le 
+recyclage, les recommandations en matière de déchets plastiques toutes filières 
+confondues s’orientent plutôt d’abord vers la réduction des déchets, leur minimisation 
+voire leur réutilisation.  
+ 
+Figure 7. Représentation schématique de la hiérarchisation des déchets (source : EnergyStreams – 
+Wavestone)  
+ 
+Sur le volet réutilisation, la société Vanguard en Allemagne a par exemple mis en place un service 
+de reprocessing permettant de réutiliser des dispositifs médicaux initialement à usage unique (ex  : 
+cathéters) à la suite d’un nettoyage, une stérilisation et des réparations si nécessaire.  
+A noter qu’en France, le retraitement des DM à usage unique, qui consiste à permettre leur 
+réutilisation sûre à l’issue d’un processus de stérilisation et de remise en état, est interdit depuis les 
+années 80. Malgré le cadre posé au niveau européen par le Règlement 2017/745, la France a 
+rappelé en 2022 cette interdiction , contrairement à neuf États membres qui autorisent cette 
+pratique. En conséquence, il n’existe pas sur le territoire national de filière industrielle de retraitement. 
+A noter toutefois que l’avantage écologique du retraitement de DM reste à objectiver et remettre 
+en perspective avec les autres moyens de décarboner les DM , comme le suggère le rapport 
+« Retraitement des dispositifs médicaux à usage unique dans le cadre de la transition écologique du 
+système de santé  » publié le 5 juillet 2024 par l’Inspection Générale des Affaires Sociales et 
+l’Inspection Générale de l’Environnement et du Développement Durable. Le rapport met notamment 
+en avant la stratégie retenue par l e NHS en Grande-Bretagne (« Greener NHS »)  : utiliser le levier 
+des achats hospitaliers pour inciter les fabricants à éco- concevoir les DM et à proposer des DM à 
+usage multiple. 
+
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     71 
+Sur le volet  minimisation, certains modèles économiques appliqués dans d’autres industries 
+pourraient être intéressants à avoir en tête :  
+- Clarslight, un exemple de modèle d’économie de la fonctionnalité basé sur le concept de 
+« service as a product ». Ce concept consiste à remplacer le concept de vente de bien par 
+la vente de l’usage de ce bien. Ici, ce n’est plus le luminaire qui est vendu mais la lumière qu’il 
+produit. Ainsi, le fournisseur de luminaire, qui en reste propriétaire, a tout intérêt à allonger sa 
+durée de vie, ce qui conduit donc à minimiser le nombre de luminaires vendus et donc de 
+déchets associés 45 ;  
+- Blablacar, un exemple d’économie collaborative via un modèle économique de partage 
+entre pairs (pairs à pairs). Ce concept consiste à partager ou échanger entre pairs des biens, 
+des services ou des connaissances en contrepartie d’une rémunération et souvent par 
+l’intermédiaire d’une plateforme digitale. Ici, le covoiturage est le service échangé en tre 
+particuliers par l’intermédiaire d’une plateforme, participant ainsi à minimiser les émissions de 
+CO2 liées à l’utilisation de la voiture. 46 
+Quels que soient les modèles économiques envisagés, la réflexion sur l’aspect vertueux de la 
+pratique mise en place reste essentielle, comme pour le recyclage. Des analyses du cycle de vie du 
+produit peuvent ainsi être réalisées. 
+ 
+45 CLARSLIGHT SAS - Grand prix économie circulaire – Ministères Ecologie Territoires - CLARSLIGHT SAS - Grand prix économie circulaire (youtube.com) 
+46 L’économie collaborative : un nouveau modèle socio- économique ? – Vie Publique - L’économie collaborative : un nouveau modèle socio- économique ? | 
+vie-publique.fr 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     72 
+ 
+11.  RECOMMANDATION ET MISE EN PERSPECTIVE  
+ 
+Au regard de l’étude menée,  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Un certain nombre de points de questionnement restent toutefois à adresser … 
+Quel référent national pour porter cette filière ?  
+• Par exemple parmi les acteurs suivants :   
+• Représentants des metteurs sur le marché : SNITEM (Syndicat National de l'Industrie 
+des Technologies Médicales) ? … 
+• Représentants des établissements de santé : FHP / FHF (Fédérations hospitalières) ? 
+ANAP (Agence Nationale d'Appui à la Performance des établissements de santé et 
+médico-sociaux) ? … 
+• Représentants des plasturgistes  : Pôle Polymeris  (pôle de compétitivité dédié aux 
+caoutchoucs, plastiques et composites) ? Polyvia (syndicat professionnel de la filière 
+plasturgie et composites) ? … 
+• Représentants des recycleurs  : FEDEREC (Fédération professionnelle des 
+entreprises du recyclage), FNADE (Fédération Nationale de la Dépollution et de 
+l’Environnement), SRP (Syndicat des Régénérateurs de matières Plastiques), ARI 
+(Association des Recycleurs Indépendants) ? … 
+• Institutionnels : ADEME ? 
+• … 
+En tant qu’acteur de la chaîne de valeur, comment aborder ce sujet ? 
+• Metteurs sur le marché : élargir la réflexion sur le recyclage à tous les pans de l’éco-conception 
+des produits : 
+• En dédiant un vrai temps de réflexion sur le sujet, pour repenser la circularité de son 
+produit dans tous ses aspects : design (matériaux, modularité, déconditionnement du 
+produit...), production (choix des fournisseurs, process de production…), usage (durée 
+de vie, maintenance, business model…), fin de vie (recyclage, réemploi) , en utilisant 
+des outils tels que des ACV (Analyses du Cycle de Vie). 
+• En identifiant des ressources pour se faire accompagner : 
+Alcimed recommande de fédérer tous les 
+maillons de la chaîne de valeur des plastiques 
+de santé en France autour d’un référent 
+national, qui structurera et rendra visibles des 
+initiatives de valorisation des plastiques en 
+santé, s’appuyant sur les REP existantes et à 
+venir et capitalisant sur les 5 facteurs clés de 
+succès présentés. 
+ 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     73 
+• Formation, par exemple en sollicitant les centres de formation autour d’études 
+de cas spécifiques. 
+• Bureaux d’études 
+• Sources de financement. 
+A titre d’exemple, en Nouvelle- Aquitaine, l’ADI, l’ADEME et la CCI mettent en place des 
+formations auprès des entreprises pour les aider à monter en compétence sur le sujet de 
+l’éco-conception, et leur flécher des partenaires pour les accompagner, ainsi que des 
+possibles sources de financement. 
+• Etablissements de soins : effectuer un audit de ses déchets (par caractérisation des déchets 
++ analyse des achats/consommations) et réévaluer ses pratiques actuelles de gestion des 
+déchets (ex : vérifier si son contrat actuel privilégie le recyclage plutôt que la valorisation ou 
+l'enfouissement, mettre en place des mesures incitatives de tri pour le personnel,…)  
+• Tous : Se rapprocher des éco-organismes candidates à la mise en œuvre des REP à venir 
+(TWIICE pour la REP Emballages professionnels et Commerciaux, Citeo pour la REP textile 
+sanitaires à usage unique…) pour s’y insérer. 
+• Tous : Se connecter aux autres acteurs de la chaîne de valeur  pour se rapprocher des 
+acteurs partageant des intérêts communs, afin d'initier des projets communs ou s’inspirer des 
+projets déjà établis (cf partie 7.1 de ce rapport) 
+ 
+Quel pourrait-être le rôle des pouvoirs publics ? 
+• Un rôle de coordination dans la mise en place de projets pilotes sur des territoires 
+d'expérimentation définis, afin de démontrer par l'exemple la faisabilité d'une filière et ses 
+facteurs clés de succès. 
+• Un rôle de mise en réseau à l’échelle locale. 
+• Un rôle d’accompagnement d’acteurs à l’échelle individuelle , via les agences de 
+développement économique et d’innovation ou les pôles de compétitivités / clusters  – par 
+exemple, accompagnement des PME du Dispositif Médical au sujet de l'éco-conception.  
+• Un rôle de soutien financier auprès de la filière (BPI, Caisse des Dépôts, ADEME, Région…).  
+• Un rôle de valorisation des hôpitaux qui travaillent sur le sujet, via des mécanismes incitatifs 
+financiers par exemple. 
+• … 
+ 
+  
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     74 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+L'ADEME EN BREF  
+ 
+À l’ADEME - l’Agence de la transition écologique -, 
+nous sommes résolument engagés dans la lutte 
+contre le réchauffement climatique et la 
+dégradation des ressources. 
+Sur tous les fronts, nous mobilisons les citoyens, 
+les acteurs économiques et les territoires, leur 
+donnons les moyens de progresser vers une 
+société économe en ressources, plus sobre en 
+carbone, plus juste et harmonieuse. 
+Dans tous les domaines - énergie, économie 
+circulaire, alimentation, mobilité, qualité de l’air, 
+adaptation au changement climatique, sols… - 
+nous conseillons, facilitons et aidons au 
+financement de nombreux projets, de la recherche 
+jusqu’au partage des solutions. 
+À tous les niveaux, nous mettons nos capacités 
+d’expertise et de prospective au service des 
+politiques publiques. 
+ 
+L’ADEME est un établissement public sous la 
+tutelle du ministère de la Transition écologique et 
+de la Cohésion des territoires, du ministère de 
+l’économie, des finances et de la souveraineté 
+industrielle et numérique et du ministère de 
+l'Enseignement supérieur et de la Recherche. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+LES COLLECTIONS DE L’ADEME  
+   FAITS ET CHIFFRES 
+L’ADEME référent : Elle fournit des analyses 
+objectives à partir d’indicateurs chiffrés 
+régulièrement mis à jour. 
+    CLÉS POUR AGIR 
+L’ADEME facilitateur : Elle élabore des guides 
+pratiques pour aider les acteurs à mettre en 
+œuvre leurs projets de façon méthodique et/ou 
+en conformité avec la réglementation. 
+    ILS L’ONT FAIT 
+L’ADEME catalyseur : Les acteurs témoignent 
+de leurs expériences et partagent leur savoir-
+faire. 
+    EXPERTISES 
+L’ADEME expert : Elle rend compte des résultats 
+de recherches, études et réalisations collectives 
+menées sous son regard. 
+    HORIZONS 
+L’ADEME tournée vers l’avenir : Elle propose 
+une vision prospective et réaliste des enjeux de 
+la transition énergétique et écologique, pour un 
+futur désirable à construire ensemble. 
+ 
+ 
+ 
+ 
+ETUDE SUR LA VALORISATION DES PLASTIQUES USAGES EN SANTE     75 
+ 
+ 
+ 
+ 
+ 
+ETUDE SUR LA 
+VALORISATION DES 
+PLASTIQUES USAGES 
+EN SANTE  
+ 
+ 
+Composant essentiel d’une grande 
+variété de produits médicaux 
+(seringues, cathéters, poches de 
+perfusion, gants, blouses ou encore 
+emballages d’instruments stériles…), le 
+plastique est aujourd’hui l’un des 
+matériaux prépondérants dans les 
+produits de santé. Or, ces produits 
+étant pour une grande part à usage 
+unique, ils génèrent une quantité 
+importante de déchets plastiques qui, à 
+l’heure actuelle, ne sont pas 
+pleinement recyclés/valorisés et 
+finissent souvent par être enfouis ou 
+incinérés. 
+Se pose ainsi la question de la 
+valorisation des plastiques de santé en 
+France : existe-t-il des voies de 
+valorisation pertinentes pour les 
+plastiques de santé en France, ou 
+quels sont les facteurs clés de succès 
+pour en former de nouvelles ? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

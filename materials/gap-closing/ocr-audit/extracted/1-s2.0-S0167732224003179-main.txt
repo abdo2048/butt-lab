@@ -1,0 +1,1088 @@
+=== PDF FILE: 1-s2.0-S0167732224003179-main.pdf ===
+sha256: 868e9dc001fe774d0b3629e702dfa310d2213601b0a025cef77b125994467998
+pages: 14
+printed_page_labels: PDF p.1=printed 1, PDF p.2=printed 2, PDF p.3=printed 3, PDF p.4=printed 4, PDF p.5=printed 5, PDF p.6=printed 6, PDF p.7=printed 7, PDF p.8=printed 8, PDF p.9=printed 9, PDF p.10=printed 10, PDF p.11=printed 11, PDF p.12=printed 12, PDF p.13=printed 13, PDF p.14=printed 14
+
+=== PDF PAGE 1 ===
+Journal of Molecular Liquids 398 (2024) 124261
+Available online 15 February 2024
+0167-7322/© 2024 Elsevier B.V. All rights reserved.
+Novel photocatalyst for dye degradation: Cu2O/Ag2MoO4 nanocomposite 
+on cellulose fibers from recycled cigarette butts 
+Van-Dat Doan a, Thi Thanh Ngan Nguyen a, Hoang Ai Le Pham a, Thi Lan Huong Nguyen b, 
+Olga Evgenievna Lebedeva c, Huu Phuc Dang d, Anh-Tien Nguyen e, Vy Anh Tran f,g,*, 
+Van Thuan Le h,i,* 
+a Faculty of Chemical Engineering, Industrial University of Ho Chi Minh City, Ho Chi Minh City, 700000, Viet Nam 
+b Institute of Biotechnology and Food Technology, Industrial University of Ho Chi Minh City, Ho Chi Minh City, 700000, Viet Nam 
+c Department of General Chemistry, Belgorod State National Research University, 85 Pobeda, Belgorod City, 308015, Russian Federation 
+d Faculty of Fundamental Science, Industrial University of Ho Chi Minh City, Ho Chi Minh City, 700000, Viet Nam 
+e Faculty of Chemistry, Ho Chi Minh City University of Education, 280 An Duong Vuong, Ho Chi Minh City, 70000, Viet Nam 
+f Institute of Applied Technology and Sustainable Development, Nguyen Tat Thanh University, Ho Chi Minh City, 700000, Viet Nam 
+g Faculty of Environmental and Food Engineering, Nguyen Tat Thanh University, Ho Chi Minh City, 700000, Viet Nam 
+h Center for Advanced Chemistry, Institute of Research & Development, Duy Tan University, 03 Quang Trung, Danang City, 550000, Viet Nam 
+i Faculty of Natural Sciences, Duy Tan University, 03 Quang Trung, Da Nang City, 550000, Viet Nam   
+ARTICLE INFO  
+Keywords: 
+Cigarette butt waste 
+Recycling 
+Cellulose fiber 
+Cu2O/Ag2MoO4 nanocomposite 
+Reactive blue 19 degradation 
+ABSTRACT  
+Environmental and health concerns stemming from cigarette butt waste and water contamination by reactive 
+dyes underscore the need for sustainable solutions. This study presented an innovative approach that repurposes 
+discarded cigarette butts as a source of cellulose fibers (CFs). These CFs served as an eco-friendly substrate for the 
+deposition of Cu2O/Ag2MoO4 nanocomposite catalysts (Cu2O/Ag2MoO4/CF), offering a sustainable and efficient 
+method for the removal of reactive dyes, with specific focus on reactive blue 19 (RB19). The prepared hetero-
+structure photocatalyst was thoroughly characterized using various analytical techniques, including XRD, UV–vis 
+DR spectroscopy, SEM, TEM, TGA, photocurrent response, EIS measurements, PL spectroscopy, and FTIR spec-
+troscopy. Cu2O/Ag2MoO4/CF photocatalysts exhibited exceptional photodegradation performance toward RB19, 
+surpassing monomeric and binary materials 3.6–7.6 times. Enhanced performance resulted from improved 
+visible-light absorbance and efficient e–/h+ pair separation. Mechanistic insights gained from radical scavenger 
+experiments identify hydroxyl radicals (⋅OH) and holes (h+) as the primary active species responsible for pho-
+tocatalysis. Reusability tests demonstrated the robustness and potential for multiple applications, maintaining a 
+photocatalytic efficiency exceeding 86 % after five cycles, with negligible metal ion leaching. With superior 
+visible-light photocatalytic performance, durability, and versatility, Cu2O/Ag2MoO4/CF can hold significant 
+potential for addressing challenges in wastewater treatment and environmental remediation, contributing to a 
+cleaner and healthier environment.   
+1. Introduction 
+In recent years, escalating global environmental concerns have 
+precipitated an intensified quest for sustainable remedies to combat the 
+pressing issue of environmental pollution. Among the myriad of envi-
+ronmental contaminants, textile dyes have become a significant threat 
+due to their persistence, toxicity, and harmful effects on ecosystems and 
+human health [1]. Reactive dyes, a subgroup of vibrant organic 
+compounds extensively used in textile coloring, form enduring covalent 
+bonds with textile fibers, ensuring remarkable colorfastness. One such 
+dye, Reactive Blue 19 (RB19; C22H16N2Na2O11S3), commonly known as 
+Remazol Brilliant Blue R, is extensively used in coloring and printing 
+cellulosic fibers [2]. Nevertheless, when wastewater containing RB19 
+contaminates natural ecosystems or is used for irrigation, it poses risks to 
+aquatic life, plant health, and human well-being. Contact with RB19 has 
+been linked to various health conditions, including skin allergies, 
+* Corresponding authors at: Institute of Applied Technology and Sustainable Development, Nguyen Tat Thanh University, Ho Chi Minh City, Viet Nam (Vy Anh 
+Tran). Center for Advanced Chemistry, Institute of Research & Development, Duy Tan University, 03 Quang Trung, Danang City 550000, Viet Nam (Van Thuan Le). 
+E-mail addresses: tavy@ntt.edu.vn (V.A. Tran), levanthuan3@duytan.edu.vn (V.T. Le).  
+Contents lists available at ScienceDirect 
+Journal of Molecular Liquids 
+journal homepage: www.elsevier.com/locate/molliq 
+https://doi.org/10.1016/j.molliq.2024.124261 
+Received 16 November 2023; Received in revised form 22 January 2024; Accepted 11 February 2024   
+
+=== PDF PAGE 2 ===
+Journal of Molecular Liquids 398 (2024) 124261
+2
+contact dermatitis, occupational asthma, allergic conjunctivitis, and 
+allergic rhinitis [3]. Consequently, there is a growing interest in 
+exploring innovative and eco-friendly materials and technologies to 
+efficiently remove these pollutants. 
+Photocatalytic methods have gained prominence in recent years as 
+sustainable and efficient approaches for degrading organic pollutants, 
+particularly textile dyes, in wastewater treatment. These methods are 
+valued for their eco-friendliness, low energy consumption, high effi-
+ciency, and minimal generation of harmful byproducts [4]. Among the 
+diverse semiconductors explored for their potential as photocatalytic 
+materials, Ag2MoO4 has emerged as a noteworthy candidate due to its 
+outstanding electrical conductivity, antimicrobial properties, lumines-
+cent characteristics, and photocatalytic activity. However, Ag2MoO4 
+primarily responds to ultraviolet light due to its wide bandgap (>3.0 
+eV), limiting its use in visible light photocatalysis [5]. To overcome this 
+limitation, researchers have adopted strategies such as noble metal 
+loading [6] and the fabrication of heterojunction structures [7,8] to 
+broaden the light absorption range of semiconductors. Heterojunction 
+structures, in particular, have proven highly effective, leading to sig-
+nificant advancements in photocatalytic performance. Ag2MoO4′s 
+unique characteristic of having notably low conduction and valence 
+band positions compared to other semiconductors has enabled the 
+construction of heterojunction photocatalysts by combining it with 
+various semiconductors [9]. This synergistic approach effectively sepa-
+rates photoinduced electron-hole pairs, extending their lifetime, and 
+enhances the photocatalytic activity and stability of the resulting ma-
+terials. Consequently, numerous heterojunction photocatalysts 
+combining Ag2MoO4 with different semiconductors, such as ZnIn2S4/ 
+Ag2MoO4 [10], Ag2CrO4/Ag2MoO4 [11], MgS/Ag2MoO4 [12], FeS2/ 
+Ag2MoO4 [13], CoS/Ag2MoO4 [14], Ag2MoO4/Bi4Ti3O12 [9], Ag/ 
+Ag3PO4/Ag2MoO4 [15], Fe3O4-C3N4-Ag2MoO4 [16], have been suc-
+cessfully developed for the treatment of organic waste. 
+Copper(I) oxide (Cu2O) is a p-type semiconductor with a narrow 
+bandgap (1.8–2.5 eV) and a broad response range to solar spectrum 
+[17]. Cu2O is considered a promising visible-light photocatalyst for 
+constructing heterojunction photocatalysts aimed at achieving 
+enhanced photocatalytic efficiency. It offers several advantages, 
+including non-toxicity, environmental friendliness, low production 
+costs, abundant resources, and high activity [18]. For example, Pahi 
+et al. have integrated Cu2O with Ag3PO4 to create p-n heterojunctions for 
+photocatalytic applications. The resulting Ag3PO4/Cu2O p-n hetero-
+junction photocatalyst exhibited remarkable performance, with a 
+hydrogen (H2) generation rate of 737.4 μmol g  1h  1 and an endosulfan 
+degradation efficiency of 91 %, surpassing pure Ag3PO4 by 12 and 9 
+times, respectively [19]. The p-n heterojunction photocatalyst demon-
+strated improved electron-hole migration efficiency and higher current 
+density, synergistically enhancing catalytic activity through the inter-
+facial space charge junction. Similarly, Gao et al. designed S-scheme 
+heterojunction photocatalysts based on Cu2O/BiOBr and studied their 
+efficiency in photocatalytic degradation under saline solutions and real 
+water conditions containing various organic dye contaminants [20]. 
+This configuration enhanced the separation of photogenerated carriers 
+and generated •OH radicals through the interaction of Cu(I) and H2O2, 
+resulting in efficient photocatalytic degradation. 
+In this context, the aim of this study is to enhance the photocatalytic 
+efficiency for RB19 degradation by incorporating Cu2O/Ag2MoO4 
+nanoheterojunctions. To further improve catalyst longevity and recy-
+clability, a strategic immobilization onto cellulose fibers (CFs) derived 
+from discarded cigarette butts (CBs) has been employed. This approach 
+serves a dual purpose: preventing catalyst agglomeration to ensure 
+sustained catalytic activity and enabling easy recovery, reducing mate-
+rial loss. Cellulose-supported metal nanoparticles have found extensive 
+applications in green and sustainable chemical transformations, allow-
+ing for multiple recycling rounds without compromising their reactivity 
+[21]. The choice of CBs waste as the source of CFs is based on the pre-
+dominant presence of cellulose acetate, a primary constituent of CBs. 
+This cellulose acetate can be readily converted into cellulose through 
+alkaline treatment. Notably, approximately 6 trillion cigarettes are 
+consumed worldwide annually, with approximately half of the CBs not 
+disposed of properly [22]. These discarded butts, composed mainly of 
+non-biodegradable plasticized cellulose acetate, toxic nicotine, and 
+traces of heavy metals, present a significant environmental challenge. 
+Repurposing them for environmental remediation aligns seamlessly 
+with the principles of the circular economy and waste valorization, 
+making a meaningful contribution to pollution control and resource 
+conservation. 
+2. Materials and methods 
+2.1. Materials and chemicals 
+Silver nitrate (AgNO3, 99.5 %), sodium molybdate dihydrate 
+(Na2MoO4⋅2H2O, 99 %), ascorbic acid (C6H8O6, 99.7 %), reactive blue 
+19 (C22H16N2Na2O11S3), potassium dichromate (K2Cr2O7, ≥ 99 %), 4-p- 
+benzoquinone (BQ, 99 %), isopropyl alcohol ((CH3)2CHOH, > 98 %), 
+and ethylenediaminetetraacetic acid (EDTA, 99 %) were purchased from 
+Merck. Copper sulfate pentahydrate (CuSO4⋅5H2O, 99 %), ethylene 
+glycol (C2H6O2, 99 %), sodium hydroxide (NaOH, ≥ 98.0 %), hydro-
+chloric acid (HCl, 37 %), and ethanol (CH3CH2OH, ≥ 99.8 %) were 
+obtained from Sinopharm Chemical Reagent Company (Shanghai, 
+China). 
+2.2. Characterisation techniques 
+The crystal structure was analyzed using X-ray diffraction (XRD) 
+with a Rigaku Ultima IV diffractometer (Japan). Morphological char-
+acteristics were observed under a field emission scanning electron mi-
+croscope (FE-SEM) S-4800 (Hitachi, Japan) and a transmission electron 
+microscope (TEM) JEM 2100 (JEOL, Japan). Spectral data, including 
+Photoluminescence (PL), Fourier-transform infrared spectroscopy 
+(FTIR), and UV–visible diffuse reflectance spectroscopy (UV–vis DRS), 
+were collected using various instruments: a Cary 4000 Eclipse Fluores-
+cence Spectrometer (Agilent, USA), Bruker Tensor 27 spectrophotom-
+eter (Germany), and Shimadzu UV-2401 PC UV–Visible 
+spectrophotometer (Japan). Thermogravimetric analysis (TGA) was 
+performed on a LABSYS Evo TG-DTA instrument (USA) with a heating 
+rate of 5 ◦C min  1, covering the temperature range from 50 to 900 ◦C. 
+Photocurrent curves and electrochemical impedance spectroscopy (EIS) 
+Nyquist plots were acquired using a CHI 650E electrochemical work-
+station in conjunction with a three-electrode cell immersed in a Na2SO4 
+(0.1 M) electrolyte solution. The concentration of RB19 was determined 
+using a Cary 60 UV–Vis spectrophotometer (Agilent, USA). The extent of 
+contaminant mineralization was evaluated by analyzing the total 
+organic carbon (TOC) data utilizing an Analytikjena Multi N/S 2100S 
+TOC analyzer (Germany). Metal ion concentrations in the solution were 
+determined using inductively coupled plasma mass spectrometry (ICP- 
+MS) with an Agilent 7700 instrument (USA). 
+2.3. Synthesis of photocatalysts 
+2.3.1. Preparation of CFs 
+The CFs were prepared from CBs following a procedure outlined in 
+our previous study [23]. In brief, the collected CBs were stripped of their 
+outer paper wrapping, cut into approximately 1 mm-sized segments, and 
+thoroughly washed with hot water. The CBs were then soaked in 50 % 
+ethanol for 2 h to remove organic impurities and subsequently dried. 
+Afterward, the dried CBs were immersed in a 5 % NaOH solution and 
+heated to 60 ◦C for 4 h with continuous stirring. After treatment, the 
+samples were filtered and rinsed with distilled water until reaching 
+neutral pH. Finally, the resulting products were dried overnight at 60 ◦C. 
+V.-D. Doan et al.                                                                                                                                                                                                                                
+
+=== PDF PAGE 3 ===
+Journal of Molecular Liquids 398 (2024) 124261
+3
+2.3.2. Preparation of Ag2MoO4/CF 
+Initially, 0.1 g of CFs were dispersed in 30 mL of distilled water using 
+ultrasonication for 10 min. A solution (Solution A) was prepared by 
+adding 0.5 g of AgNO3 to the CFs suspension and stirring for 1 h. 
+Concurrently, another solution (Solution B) was created by dissolving 
+0.36 g of Na2MoO4 in 30 mL of distilled water. The Ag2MoO4/CF 
+nanocomposite was formed by slowly adding Solution B to Solution A 
+while continuously stirring for 4 h. After synthesis, the product was 
+separated via centrifugation, washed with distilled water and ethanol to 
+remove impurities, and then dried at 60 ℃ overnight. 
+2.3.3. Preparation of Cu2O/Ag2MoO4/Cellulose fibers 
+To fabricate the Cu2O/Ag2MoO4/CF nanocomposite, the as- 
+synthesized Ag2MoO4/CF product was utilized as the starting material. 
+First, it was immersed in a 50 mL solution of 0.1 M CuSO4 and stirred at 
+60 ◦C for 1 h. Subsequently, a slowly added 50 mL mixture of (0.5 M 
+NaOH + 0.25 M ascorbic acid) solution was introduced, and the mixture 
+was further stirred for 4 h. The resulting product was separated by 
+centrifugation, followed by thorough washing with distilled water and 
+ethanol to remove any residual impurities. The nanocomposite was then 
+dried at 60 ◦C overnight. The process for fabricating Cu2O/Ag2MoO4/CF 
+is visually depicted in Fig. 1. Additionally, to assess catalytic activity, 
+comparative samples of Cu2O, Ag2MoO4, and Cu2O/Ag2MoO4 were also 
+synthesized. Details of their synthesis processes are provided in the 
+Supplementary Materials for reference. 
+2.4. Catalytic experimental procedures 
+The photocatalytic properties of the Cu2O/Ag2MoO4/CF nano-
+composite was evaluated for the degradation of RB19 dye. A quartz 
+reactor was employed for the photocatalytic experiments, where the 
+prepared composite (100 mg) was dispersed into an RB19 solution (100 
+mL, 25 mg/L). The reaction was performed at room temperature. Before 
+irradiation, the suspension was stirred in the dark for 60 min to achieve 
+adsorption–desorption equilibrium between the catalyst and the dye. 
+Visible light, generated by a 250 W Xenon lamp equipped with a UV 
+cutoff filter (λ > 420 nm), was then applied to the reaction mixture. 
+Sampling at predefined time intervals (15 min) allowed for the moni-
+toring of the degradation progress. The concentration of RB19 in the 
+collected samples was determined using a Cary 60 UV–Vis spectropho-
+tometer at 625 nm, enabling the assessment of degradation kinetics. 
+Control experiments using Cu2O, Ag2MoO4, Cu2O/Ag2MoO4, and 
+Ag2MoO4/CF followed the same procedure, providing comparative data 
+for evaluating the photocatalytic activity of the Cu2O/Ag2MoO4/CF 
+nanocomposite. Key factors examined encompassed solution pH, which 
+ranged from 3 to 9, catalyst dosage varying from 0.5 to 3 g/L, and RB19 
+concentration in the range of 15 to 45 mg/L. Data collected from these 
+experiments were analyzed to ascertain the efficiency of the nano-
+composite in degrading RB19 under visible light irradiation. 
+The degradation efficiency (DE%) and mineralization efficiency (ME, 
+%) of RB19 were calculated according the Eq. (1) and (2), respectively. 
+DE(%)= C0  Ct
+C0
+x100% (1)  
+ME(%)= TOC0  TOCt
+TOC0
+x100% (2)  
+where C0 represents the initial RB19 concentration, and Ct is the RB19 
+concentration at time t; TOC0 and TOCt are the initial and final TOC 
+values, respectively. 
+The kinetic degradation rates were determined by fitting the con-
+centration–time data to pseudo-first-order kinetics using the formula ln 
+(Ct/C0) = -kt, where k represents the apparent rate constant. 
+3. Results and disccusion 
+3.1. Characterization of photocatalysts 
+The XRD patterns of the examined materials, including pure CF, 
+Cu2O, Ag2MoO4, Ag2MoO4/CF, and Cu2O/Ag2MoO4/CF, were analyzed 
+to elucidate their crystallographic properties, as presented in Fig. 1a. 
+The XRD pattern of the CF sample exhibits distinct peaks at 2θ values of 
+Fig. 1. Schema for synthesizing Cu2O/Ag2MoO4/CF composite.  
+V.-D. Doan et al.                                                                                                                                                                                                                                
+
+=== PDF PAGE 4 ===
+Journal of Molecular Liquids 398 (2024) 124261
+4
+12.3◦, 20.4◦, 21.2◦, and 29.6◦, which are characteristic of cellulose II 
+[24]. These diffraction peaks exhibit relatively low intensity, suggesting 
+the amorphous nature of CF. Additionally, an intense peak at 25.9◦ is 
+observed in the XRD pattern of CF, potentially attributed to carbon 
+(002), likely resulting from cellulose degradation induced by NaOH 
+treatment. For Cu2O, the XRD pattern displays well-defined diffraction 
+peaks at 2θ angles of approximately 29.5◦, 36.43◦, 36.4◦, 42.3◦, 61.3◦, 
+73.5◦, and 77.4◦, corresponding to the (101), (111), (200), (220), 
+(311), and (222) crystallographic planes, respectively. These peaks are 
+consistent with the Cu2O phase (PDF Card No. 05–0667) [20]. The sharp 
+and resolved Cu2O XRD peaks affirm the high purity of the synthesized 
+Cu2O sample, with minimal presence of copper oxides or residual re-
+actants. In the case of Ag2MoO4, the XRD pattern reveals characteristic 
+peaks at 2θ angles of 16.5◦, 27.0◦, 31.8◦, 33.3◦, 38.6◦, 42.3◦, 47.8◦, 
+50.8◦, 55.8◦, 63.1◦, 65.6◦, 66.6◦, 69.9◦, 72.3◦, 76.5◦, and 78.8◦, corre-
+sponding to the (110), (220), (311), (222), (400), (331), (422), 
+(511), (440), (620), (533), (622), (444), (711), (642), and (731) 
+planes, respectively. These diffraction peaks align with the crystal 
+structure of Ag2MoO4 (JCPDS No. 08–0473) [25]. In the ternary Cu2O/ 
+Ag2MoO4/CF nanocomposite, the XRD pattern retains the characteristic 
+diffraction peaks of CF, Cu2O, and Ag2MoO4, confirming the successful 
+formation of the composite material. The observed peaks at 2θ angles 
+corresponding to Cu2O and Ag2MoO4 indicate that the individual phases 
+are well-preserved within the composite, signifying excellent dispersion 
+and interaction between the components. 
+The FTIR analysis results reveal the presence of distinct functional 
+groups in the tested materials (Fig. 2b). In the CFs sample, the FTIR 
+spectrum exhibits characteristic bands at wavenumbers of 3448, 1645, 
+Fig. 2. XRD pattern (a) and FTIR spectra (b) of the synthesized samples.  
+V.-D. Doan et al.                                                                                                                                                                                                                                
+
+=== PDF PAGE 5 ===
+Journal of Molecular Liquids 398 (2024) 124261
+5
+1068, and 1004 cm  1, corresponding to the hydroxyl (–OH), carbonyl 
+(C = O), acetyl ester (CH3–C = O), and ether (C–O–C) groups, respec-
+tively [23]. Additional peaks are observed at 2934 cm  1 and 2778 cm  1, 
+representing the symmetric and asymmetric stretching vibrations of 
+methyl groups (C–H). A peak at 1433 cm  1 corresponds to C–H asym-
+metric deformation, while the peaks at 1157 cm  1 can be assigned to 
+C–O stretching. Notably, the absorption band at 898 cm  1 is charac-
+teristic of the β-glycosidic linkage between glucose units [22]. Upon 
+analyzing the FTIR spectrum of the Cu2O/Ag2MoO4/CF composite, 
+similarities with the CFs spectrum are evident, albeit with variations in 
+the intensity and location of functional groups. Specifically, the –OH, –C 
+= O, –CH3–C = O, C–O–C, as well as –C–H and –CH2 groups all expe-
+rience a notable decrease in intensity in this composite spectrum. This 
+reduction suggests interactions and chemical bonding between Cu2O, 
+Ag2MoO4, and cellulose within the nanocomposite structure. Distinctive 
+peaks at 630 cm  1 are assigned to the Cu–O group, while the band at 
+840 cm  1 corresponds to the O–Mo–O group, which aligns with previous 
+reports [20,26]. The presence of these peaks indicates that Cu2O and 
+Ag2MoO4 have combined with cellulose, forming specific chemical 
+bonds within the nanocomposite system. 
+The FE-SEM analysis of CFs, Ag2MoO4, Cu2O, and Cu2O/Ag2MoO4/ 
+CF samples provides valuable insights into their morphological charac-
+teristics (Fig. 3). In the FE-SEM micrograph of CF (Fig. 3a), the material 
+appears as a network of fibers with an approximate diameter of 15 µm, 
+interconnected with each other. The surface of CF exhibits a rugged 
+structure with numerous ridges and folds, indicating its fibrous and 
+porous nature. Fig. 3b displays FE-SEM images of the Ag2MoO4 sample, 
+revealing that the Ag2MoO4 particles are observed as individual potato- 
+like-shaped entities with smooth surfaces. The size of the Ag2MoO4 
+particles varies within the range of 1–3 µm. Similar morphological 
+characteristics of Ag2MoO4 have also been reported in previous publi-
+cations [27,28]. In Fig. 3c, SEM micrographs of Cu2O showcase 
+octahedral-shaped particles clearly identified with sizes ranging from 75 
+to 150 nm. The even distribution of Cu2O particles indicates a consistent 
+and controlled synthesis process. It’s worth noting that octahedral Cu2O 
+with exposed (111) facets is known to exhibit significantly higher 
+photocatalytic activity compared to the cubic structure [29]. FE-SEM 
+images of the Cu2O/Ag2MoO4/CF nanocomposite in Fig. 3d-f demon-
+strate the successful deposition of Cu2O and Ag2MoO4 particles onto the 
+CF substrate. The composite exhibits heterogeneous morphology with 
+the presence of potato-like Ag2MoO4 particles and octahedral Cu2O 
+particles adhering to the CF network. It is noteworthy that the size of 
+Ag2MoO4 in the composite is much smaller (<200 nm) than when 
+synthesized separately (>1 µm). This phenomenon may be attributed to 
+the in-situ growth of Ag2MoO4 crystals on the CF support with more 
+nucleation sites. This enhances the catalytic activity of the composite by 
+increasing the surface area. 
+The TEM technique was further employed to scrutinize the 
+morphology of catalyst nanoparticles anchored onto CFs. Fig. 4a offers a 
+clear visual representation of nano Cu2O and Ag2MoO4 particles firmly 
+adhering to the CFs substrate. Furthermore, Fig. 4b unveils the precise 
+dimensions and configurations of these catalyst nanoparticles. The 
+Ag2MoO4 crystals adopt a distinctive potato-like morphology, while 
+Cu2O takes on an octahedral form, echoing the observations made 
+through FE-SEM. The HR-TEM analysis unequivocally validates the 
+presence of Ag2MoO4 and Cu2O, characterized by distinctive d-spacing 
+values, which were determined using ImageJ software. Specifically, a d- 
+spacing of 0.27 nm corresponds to the (311) crystallographic plane of 
+Ag2MoO4, while a d-spacing of 0.24 nm corresponds to the (111) 
+crystallographic plane of Cu2O. These findings are in concordance with 
+prior researches [30,31]. 
+The elemental composition and spatial distribution of the Cu2O/ 
+Ag2MoO4/CF composite were comprehensively analyzed through EDX 
+and element mapping techniques, as illustrated in Fig. 5. The EDX 
+spectrum quantitatively characterizes the composite’s elemental 
+composition, identifying carbon (C), oxygen (O), copper (Cu), molyb-
+denum (Mo), and silver (Ag) with respective weight percentages of 
+42.45 %, 40.93 %, 12.02 %, 1.45 %, and 3.15 %. Elemental mapping 
+images vividly depict the dispersion of these elements across the com-
+posite material. These mappings visually confirm the integration of 
+these elements within the Cu2O/Ag2MoO4/CF sample, showcasing their 
+even distribution and uniform dispersion throughout the composite’s 
+microstructure. These findings not only substantiate the successful 
+synthesis of Cu2O/Ag2MoO4/CF but also validate the presence of its 
+constituent elements, consistent with SEM and HR-TEM observations. 
+The UV–Vis DRS spectra (Fig. 6a) were analyzed to differentiate the 
+optical properties of the prepared materials and estimate the corre-
+sponding bandgap energies. As illustrated in the spectra, each material 
+exhibits characteristic absorption patterns in the UV and visible regions. 
+The UV–Vis DRS spectrum of CF primarily shows absorption in the UV 
+region, with an absorption edge at 352 nm, which is typical for organic 
+materials. In contrast, bare Ag2MoO4 exhibits significant light absorp-
+tion in the UV and visible regions, with an absorption edge at 388 nm. 
+However, when combined with CF (Ag2MoO4/CF composite), its light- 
+absorbing capacity is reduced. Cu2O on its own exhibits notably high 
+light absorption, particularly in the 400–500 nm range, visible as a sharp 
+Fig. 3. FE-SEM images of (a) CFs, (b) Ag2MoO4, (c) Cu2O, (d, e, f) Cu2O/Ag2MoO4/CF.  
+V.-D. Doan et al.                                                                                                                                                                                                                                
+
+=== PDF PAGE 6 ===
+Journal of Molecular Liquids 398 (2024) 124261
+6
+absorption peak. The ternary Cu2O/Ag2MoO4/CF composite demon-
+strates enhanced light absorption in both the ultraviolet and visible 
+ranges compared to bare Ag2MoO4 and the binary composites 
+Ag2MoO4/CF and Cu2O/Ag2MoO4. The light absorption behavior of the 
+ternary composite and bare Cu2O is quite similar in the wavelength 
+range below 520 nm. However, at longer wavelengths, the composite 
+exhibits superior light absorption compared to Cu2O alone, attributed to 
+the synergistic effect of Ag2MoO4. 
+The bandgap energy (Eg) of a semiconductor materials was deter-
+mined by the Tauc method using the Eq (3) [14]: 
+(αhν)2 = A(hν  Eg) (3)  
+where, α is the absorption coefficient, h is Planck’s constant, ν is the 
+frequency of light, A is the arbitrary constant, and Eg is the bandgap 
+energy. By plotting (αhν)2 versus hν, the bandgap energy can be calcu-
+lated from the intercept of the linear portion of the curve (Fig. 6b). The 
+Eg values for CF, Cu2O, Ag2MoO4, Ag2MoO4/CF, Cu2O/Ag2MoO4, and 
+Cu2O/Ag2MoO4/CF were determined to be 3.44, 2.17, 3.18, 3.39, 2.23, 
+and 2.17 eV, respectively. The reduction in the composite’s band gap 
+can be explained by its extensive absorption of visible light, resulting in 
+an increased concentration of charge carriers within its transition region 
+[19]. The band edge potential of the pure component was further 
+calculated Mulliken-electronegativity model according the Eq. (4) and 
+(5). 
+EVB = χ  Ee+ 0.5Eg (4)  
+ECB = EVB  Eg (5) 
+In this context, EVB represents the energy level of the valence band 
+(VB), ECB represents the energy level of the conduction band (CB), and 
+Eg denotes the band-gap energy. Additionally, χ signifies the absolute 
+electronegativity value of the semiconducting material, which was 5.32 
+for Cu2O [32] and 5.92 for Ag2MoO4 [25]. The reference energy of the 
+free electron (Ee) was set at 4.5 eV, relative to the hydrogen scale. The 
+calculated energy band positions for Cu2O were   0.26 eV (CB) and +
+1.91 eV (VB), while for Ag2MoO4, they were   0.17 eV (CB) and + 3.01 
+eV (VB). These results align with prior research findings [19,25,33]. 
+Photoluminescence spectroscopy was employed to assess the 
+electron-hole recombination behavior of the prepared materials. It is a 
+well-established fact that the PL spectrum of semiconductor materials 
+predominantly originates from the recombination of photo-induced 
+charge carriers. Generally, a lower PL intensity signifies a reduction in 
+the rate of charge carrier recombination [34]. As depicted in Fig. 6c, the 
+PL spectrum of the Ag2MoO4 sample displayed three peaks at 485 nm, 
+530 nm, and 542 nm, corresponding to specific electronic transitions 
+within the MoO4 tetrahedra [35]. When combined with CFs, a notice-
+able decrease in the PL intensity of Ag2MoO4 was observed. This 
+reduction in PL intensity can be attributed to several factors. First, the 
+presence of CFs may act as electron transport pathways, facilitating the 
+migration of charge carriers and reducing their recombination rate, ul-
+timately leading to a decrease in PL emission. Second, CFs may effec-
+tively quench the excitons formed within Ag2MoO4, further contributing 
+to the decrease in PL emission. Furthermore, with the addition of Cu2O 
+to form the composite Cu2O/Ag2MoO4/CF, there was a further reduction 
+in PL intensity compared to Ag2MoO4/CF. This observation demon-
+strates that the level of electron-hole recombination is significantly 
+constrained due to the heterojunction [36]. The decrease in the PL in-
+tensity suggests that the inclusion of Cu2O enhances the charge carrier 
+separation within the composite, resulting in fewer excitons reaching 
+the radiative recombination pathways, and consequently, a decrease in 
+PL emission. 
+The photo-generated electron and hole transfer efficiency, as well as 
+spatial separation, were further investigated through transient photo-
+current and EIS analyses. Fig. 6d illustrates the photocurrent responses 
+Fig. 4. TEM images (a, b) and HR-TEM images (c, d) for Cu2O/Ag2MoO4/CF.  
+V.-D. Doan et al.                                                                                                                                                                                                                                
+
+=== PDF PAGE 7 ===
+Journal of Molecular Liquids 398 (2024) 124261
+7
+of the prepared samples under visible light, providing insights into the 
+efficiency of charge transfer and separation. The results demonstrate the 
+excellent stability and consistency of the photocurrent generation, 
+evident from the consistent on/off responses to light stimuli. The 
+photovoltaic intensity of the Cu2O/Ag2MoO4 composite outperformed 
+that of individual Ag2MoO4 and Cu2O. Notably, the Cu2O/Ag2MoO4 
+composite exhibited a significantly higher photocurrent, measuring 3.33 
+and 7.69 times greater than that of Cu2O and Ag2MoO4, respectively. 
+This enhancement suggests the superior capability of the Cu2O/ 
+Ag2MoO4 composite in effectively separating photo-induced electron- 
+hole pairs, predominantly attributed to the formation of heterojunctions 
+between the two materials [37]. To further characterize the charge 
+transfer properties, the EIS Nyquist plot of Cu2O, Ag2MoO4, and Cu2O/ 
+Ag2MoO4 composites is presented in Fig. 6e. Notably, the nano-
+composite material comprising Cu2O/Ag2MoO4 exhibited the shortest 
+semicircular radius on the EIS spectrum. The semicircle radius is often 
+Fig. 5. EDX spectra, chemical composition and element mapping of Cu2O/Ag2MoO4/CF sample.  
+V.-D. Doan et al.                                                                                                                                                                                                                                
+
+=== PDF PAGE 8 ===
+Journal of Molecular Liquids 398 (2024) 124261
+8
+associated with charge transfer resistance, where a smaller radius in-
+dicates more facile electron movement and efficient charge transfer 
+[38]. Therefore, the EIS results strongly support the notion that the 
+combination of Cu2O and Ag2MoO4 facilitates the effective separation 
+and transfer of electron-hole pairs generated on the surface, consistent 
+with the transient photocurrent response. While the transient photo-
+current and EIS analyses were not extended to include the Cu2O/ 
+Ag2MoO4/CF composite due to challenges in securing cellulose fiber 
+adhesion, it is reasonable to anticipate that the Cu2O/Ag2MoO4/CF 
+composite could potentially exhibit enhanced charge transfer proper-
+ties. The synergistic effects of cellulose fibers, serving as a substrate, and 
+the Cu2O/Ag2MoO4 heterojunction may contribute to improved electron 
+movement and efficient charge separation, suggesting promising pros-
+pects for the overall photoelectrochemical behavior of the composite. 
+These findings underscore the enhanced photoelectrochemical perfor-
+mance of the Cu2O/Ag2MoO4 and Cu2O/Ag2MoO4/CF composite, 
+affirming its potential as a novel photocatalyst for dye degradation. 
+The stability of the synthesized materials was assessed through 
+thermogravimetric analysis in the temperature range of 50–900 ◦C, as 
+depicted in Fig. 6f. The CFs sample exhibit notable resilience at tem-
+peratures below 200 ◦C, experiencing only a marginal 6 % reduction in 
+initial mass. Beyond 200 ◦C, CFs undergo substantial decomposition, 
+with nearly 94 % mass loss observed by 500 ◦C, indicating their 
+vulnerability to elevated temperatures. In contrast, Ag2MoO4 demon-
+strates remarkable thermal stability, evidenced by a mere 2 % mass loss 
+across the entire temperature range from 50 ◦C to 900 ◦C. For Cu2O, a 
+modest mass reduction of approximately 3.5 % is observed up to 250 ◦C, 
+likely associated with the release of adsorbed water within the sample. 
+Fig. 6. UV–vis-DRS spectra (a), Tauc’s plots (b), PL spectra excitated at wavelength of 400 nm (c), transient photocurrent response curves (d), EIS spectra (e), and TG 
+curves (f) for as-synthesized samples. 
+V.-D. Doan et al.                                                                                                                                                                                                                                
+
+=== PDF PAGE 9 ===
+Journal of Molecular Liquids 398 (2024) 124261
+9
+Intriguingly, a distinct weight gain (about 5 % compared to the initial 
+weight) is observed in the 250 – 850 ◦C range for Cu2O. This weight 
+increase is attributed to the presence of residual air between the fine 
+powder particles, as the loosely structured synthesized materials can 
+readily adsorb gases and air. Consequently, this leads to the oxidation of 
+Cu2O → CuO transformation. This phenomenon has been reported in 
+studies by Alekseeva et al. [39]. The transformation also contributes to 
+the observed weight gain in samples containing Cu2O, such as Cu2O/ 
+Ag2MoO4 and Cu2O/Ag2MoO4/CF. Another noteworthy finding in all 
+Cu2O-containing samples in this study is the initiation of mass reduction 
+at temperatures higher than 850 ◦C. The reason given is the reversible 
+decomposition of CuO into Cu2O [40]. The mass loss in this temperature 
+range for the Cu2O/Ag2MoO4/CF sample is the highest, as it involves the 
+additional reduction of CuO and Cu2O to Cu by carbon generated from 
+the decomposition of CF. The thermal behavior of the Cu2O/Ag2MoO4 
+sample closely resembles that of Cu2O, with a slight weight increase 
+occurring at higher temperatures (330 ◦C) due to the presence of ther-
+mally stable Ag2MoO4. The Cu2O/Ag2MoO4 and Cu2O/Ag2MoO4/CF 
+composites exhibit similar thermal behaviors at temperatures below 
+285 ◦C, displaying almost negligible mass loss up to 250 ◦C (approxi-
+mately 4 % mass loss). However, at temperatures exceeding 300 ◦C, 
+Cu2O/Ag2MoO4/CF experiences greater mass loss due to the thermal 
+decomposition of CFs. Upon heating to 900 ◦C, Cu2O/Ag2MoO4 and 
+Cu2O/Ag2MoO4/CF exhibit mass reductions of 25 % and 68 %, 
+respectively. 
+3.2. Photocatalytic activity 
+The photocatalytic activity of various fabricated photocatalysts was 
+assessed in the visible-light degradation of RB19. Fig. 7a illustrates the 
+comparative degradation of RB19 by Cu2O, Ag2MoO4, Ag2MoO4/CF, 
+Cu2O/Ag2MoO4, and Cu2O/Ag2MoO4/CF. Evidently, photolysis of RB19 
+exhibited negligible degradation, with only approximately 3 % of RB19 
+removed over 150 min of visible light irradiation, indicating RB19′s 
+relative stability under visible light. After 150 min of visible light 
+exposure, the RB19 degradation efficiency was 49.1 %, 60.3 %, 66.7 %, 
+74.3 %, and 98.9 % in the presence of Ag2MoO4, Ag2MoO4/CF, Cu2O, 
+Cu2O/Ag2MoO4, and Cu2O/Ag2MoO4/CF, respectively. These results 
+highlight that the incorporation of Cu2O significantly enhances the 
+catalytic activity of Ag2MoO4, primarily due to the reduction in the 
+recombination rate of electron-hole pairs. Notably, the ternary Cu2O/ 
+Ag2MoO4/CF composite exhibited superior RB19 degradation compared 
+to Cu2O, pristine Ag2MoO4, or Cu2O/Ag2MoO4. The attachment of the 
+Cu2O/Ag2MoO4 nanocomposite onto CFs clearly proves to be effective 
+due to the creation of an efficient solid–solid interface between Cu2O 
+and Ag2MoO4 on the CFs’ surface. This interface is where the separation 
+of photo-induced electrons and holes occurs most effectively, preventing 
+their recombination and providing favorable conditions for complex 
+photochemical reactions during RB19 degradation. By being immobi-
+lized on the CFs, Cu2O and Ag2MoO4 nanoparticles can interact closely, 
+allowing for efficient charge transfer and preventing the rapid 
+Fig. 7. Photocatalytic activity (a) and rate constants of photocatalysts (b), UV–Vis spectra of RB19 solution (c) and ME (d) during photodegradation by Cu2O/ 
+Ag2MoO4/CF. Experimental condition: [RB19] = 25 mg/L, catalyst dosage of 1 g/L, 25 ◦C, pH 7. 
+V.-D. Doan et al.                                                                                                                                                                                                                                
+
+=== PDF PAGE 10 ===
+Journal of Molecular Liquids 398 (2024) 124261
+10
+recombination of electrons (e  ) and holes (h+) [41]. This phenomenon 
+provides highly favorable conditions for complex photochemical re-
+actions during the degradation of RB19. 
+The degradation kinetics of RB19 were analyzed using the Langmuir- 
+Hinshelwood model. Fig. 7b illustrates a linear relationship of ln(Ct/C0) 
+against time, exhibiting high R2 values ranging from 0.9396 to 0.9891. 
+These elevated R2 values suggest conformity to pseudo-first-order ki-
+netics. The rate constants (k) for Ag2MoO4, Ag2MoO4/CF, Cu2O, Cu2O/ 
+Ag2MoO4, and Cu2O/Ag2MoO4/CF were determined to be 3.69 x 10  3, 
+6.21 x 10  3, 5.54 x 10  3, 7.84 x 10  3, and 28.12 x 10  3 min  1, 
+respectively. Remarkably, Cu2O/Ag2MoO4/CF exhibited significantly 
+higher catalytic activity than those of the pristine Ag2MoO4, Cu2O, and 
+their heterojunctions, surpassing these photocatalysts by 3.6–7.6 times. 
+Furthermore, compared to several recently published photocatalytic 
+materials for RB19 degradation listed in Table 1, Cu2O/Ag2MoO4/CF 
+demonstrates comparable catalytic activity, underscoring its potential 
+practical application. 
+Fig. 7c illustrates the time-dependent degradation spectra of RB19 
+under visible light in the presence of Cu2O/Ag2MoO4/CF. As time pro-
+gresses, a noticeable reduction in the peak intensity can be observed. 
+This degradation of the RB19 chromophore is responsible for the 
+observed color change and the decrease in absorption spectra. 
+Furthermore, the mineralization of RB19 was assessed by measuring the 
+TOC content, as depicted in Fig. 7d. Remarkably, 87.8 % of TOC was 
+successfully removed, which closely corresponds to the 98.9 % degra-
+dation observed over 150 min. The significant mineralization achieved 
+suggests the effective breakdown of RB19 into simpler and less harmful 
+byproducts, highlighting the efficiency of the photocatalytic process. 
+3.3. Effects of operating parameters and reusability 
+Comprehending the influence of variables like catalyst dosage, RB19 
+concentration, and pH levels on photocatalytic performance is crucial 
+for enhancing the real-world applicability of Cu2O/Ag2MoO4/CF. In 
+these experiments, C0 represents the RB19 concentration after 60 min of 
+adsorption. The relationship between catalyst dosage and photocatalytic 
+efficiency was investigated at various catalyst dosages (0.5, 1.0, 2.0, and 
+3.0 g/L), as presented in Fig. 8a. It is observed that increasing the 
+catalyst dosage from 0.5 to 2.0 g/L leads to an enhancement in photo-
+catalytic efficiency from 57.6 % to 99.5 % within 150 min of illumina-
+tion. This improvement can be attributed to the increased number of 
+active sites provided by the catalyst’s surface as the dosage is increased 
+[47]. However, when the catalyst dosage is further increased to 3.0 g/L, 
+the RB19 degradation efficiency decreases to 73.5 %. This phenomenon 
+may be attributed to an excess of catalyst, which could shield RB19 and 
+light from reaching the catalytic centers [44]. Although the highest 
+degradation efficiency is achieved at a 2.0 g/L catalyst dosage, the ef-
+ficiency at 1.0 g/L is also comparable (97.1 %). Therefore, 1.0 g/L is 
+considered the most effective catalyst dosage. 
+The influence of pH on the RB19 degradation by Cu2O/Ag2MoO4/CF 
+was investigated within the pH range of 3–9 under RB19 concentration 
+of 25 mg/L and a catalyst dosage of 1 g/L. The experimental results, as 
+depicted in Fig. 8b, unequivocally affirm that the initial pH of the RB19 
+solution significantly impacts the catalytic activity of the material. The 
+RB19 degradation efficiency after 150 min of reaction is found to be 
+58.8 %, 76.9 %, 97.1 %, and 47.8 % at pH values of 3, 5, 7, and 9, 
+respectively. This trend suggests a distinct pH-dependent behavior. The 
+observed behavior can be attributed to the point of zero charge (PZC) of 
+Cu2O/Ag2MoO4/CF, which is determined to be 7.6 (as presented in 
+Fig. S1 of supplementary information). Below the pHPZC (pH 3), the 
+catalyst’s surface becomes positively charged, enhancing the adsorption 
+of negatively charged RB19 molecules. While this stronger adsorption 
+theoretically favors photocatalytic activity, it can reach a point where 
+excessive adsorption creates a dense RB19 layer on the catalyst’s sur-
+face. This layer, in turn, limits the penetration of light into the catalyst, 
+reducing the overall efficiency of the photocatalytic process [40]. 
+Conversely, at pH values above the pHPZC, the catalyst’s surface becomes 
+negatively charged, leading to repulsion between the catalyst and RB19 
+molecules, resulting in reduced adsorption capacity. However, the 
+relatively higher pH values (pH 7) bring the surface charge closer to 
+neutrality, optimizing the catalyst’s performance by maintaining a bal-
+ance between adsorption and photocatalytic activity. 
+The influence of the initial concentration of RB19 on Cu2O/ 
+Ag2MoO4/CF photocatalysis is crucial due to the varying pollutant 
+concentrations in industrial wastewater. Experiments were conducted at 
+different initial RB19 concentrations (15, 25, 35, and 45 mg/L) while 
+maintaining a constant pH of 7 and a catalyst dosage of 1 g/L. Fig. 8c 
+reveals a significant trend: as the initial RB19 concentration increases, 
+the photocatalytic efficiency of Cu2O/Ag2MoO4/CF decreases. This 
+decrease in efficiency can be attributed to several factors. At higher 
+RB19 concentrations, competitive adsorption onto the catalyst’s active 
+sites intensifies, reducing interactions between RB19 molecules and 
+active sites and impeding the photocatalytic process [49]. Mass transfer 
+limitations may also occur at elevated RB19 concentrations due to the 
+high concentration of RB19 molecules in the bulk solution, decreasing 
+the contact time between RB19 molecules and the catalyst’s surface 
+[50]. Additionally, beyond a certain RB19 concentration threshold, the 
+catalyst’s active sites may become saturated with RB19 molecules, 
+leading to diminishing returns in terms of photocatalytic efficiency. 
+Furthermore, at higher RB19 concentrations, the dye molecules can 
+absorb a significant portion of incident light, limiting the amount of light 
+available for photocatalytic reactions [44]. This light absorption phe-
+nomenon can result in reduced photocatalytic efficiency as the RB19 
+concentration increases. 
+The long-term stability and reusability of the Cu2O/Ag2MoO4/CF 
+composite are critical considerations for its practical utility. To assess its 
+stability, a series of RB-19 degradation cycles was performed, as illus-
+trated in Fig. 8d. The results demonstrate that even after undergoing five 
+successive degradation cycles, the photocatalytic activity of Cu2O/ 
+Ag2MoO4/CF remains remarkably consistent, with the RB-19 degrada-
+tion rate consistently exceeding 86.48 %. 
+To further evaluate the stability, the leaching of metal ions, specif-
+ically Cu and Ag, was monitored during the photocatalytic reactions. 
+The concentration of leached metals across multiple reuse cycles is 
+depicted in Fig. 8e. Notably, there is a gradual decrease in the leached 
+metal concentrations with each successive cycle. This phenomenon can 
+be attributed to the fact that surface-bound metals are initially more 
+prone to leaching in the early cycles due to their higher availability for 
+interaction with the reacting species. Noticeably, the total amount of Cu 
+and Ag leached into the solution over five reuse cycles was only 0.182 
+mg/L and 0.025 mg/L, respectively. Considering the chemical compo-
+sition of the material’s surface, as determined by EDX analysis (Fig. 5), 
+Table 1 
+Comparison of catalytic activity of various catalysts toward RB19.  
+Catalyst Type of 
+reaction 
+Experimental 
+conditions 
+(C0 (mg/L)/ catalyst 
+dosage (g/L)/pH 
+DE(%)/k 
+(min  1) 
+Ref. 
+Cu2O/Fe3O4/ 
+UiO-66 
+Fenton 100/1.6/7 83.9 
+/0.019 
+[42] 
+CdIn2S4/g- 
+C3N4 
+Photo-Fenton 20/1/3 ~100/ 
+0.073 
+[43] 
+Fe3O4/MnO2 Photocatalytic 100/0.3/7 62.5/ 
+0.015 
+[44] 
+Bi2MoO6/ 
+Bi2WO6/ 
+MWCNTs 
+Photocatalytic 50/0.6/- 96.9/ 
+0.013 
+[45] 
+α-Fe2O3/WO3 Photocatalytic 30/1/2 83/- [46] 
+BiPO4/g-C3N4 Photocatalytic 20/1/3 70.1/ 
+0.016 
+[47] 
+TiO2/KBrO3 Photocatalytic 20/1/7 98.9/- [48] 
+Cu2O/ 
+Ag2MoO4/CF 
+Photocatalytic 25/1/7 98.9/ 
+0.028 
+This 
+study  
+V.-D. Doan et al.                                                                                                                                                                                                                                
+
+=== PDF PAGE 11 ===
+Journal of Molecular Liquids 398 (2024) 124261
+11
+the leached Cu and Ag accounted for approximately 0.15 % and 0.08 %, 
+respectively, of the initial Cu and Ag content in the composite. This 
+achievement can be attributed, in part, to the neutral conditions under 
+which the photocatalytic process was conducted. Importantly, the con-
+centrations of leached Cu and Ag ions remained consistently low 
+throughout the reuse cycles and remained well below the permissible 
+limits for Cu (2 mg/L) and silver (0.1 mg/L) in drinking water, as 
+established by the World Health Organization (WHO). 
+Fig. 8f provides a closer look at the Cu2O/Ag2MoO4/CF photo-
+catalyst’s morphology after five cycles of RB-19 photodegradation, as 
+observed through FE-SEM. Notably, no significant changes in the 
+morphology of the Cu2O/Ag2MoO4/CF composite are observed. The 
+nano-sized Cu2O and Ag2MoO4 catalyst particles maintain strong 
+adhesion to the CFs substrate. Collectively, these findings affirm that the 
+Cu2O/Ag2MoO4/CF heterojunction exhibits exceptional stability and 
+holds substantial promise for practical applications in various produc-
+tion processes. 
+3.4. Possible photocatalytic degradation mechanism 
+Before proposing a suitable mechanism for RB19 degradation, the 
+influence of radical scavengers within the photodegradation system was 
+investigated. Specific scavengers (1 mM) such as benzoquinone (p-BQ), 
+isopropyl alcohol (IPA), EDTA, and K2Cr2O7 were employed to trap 
+superoxide radicals (•O2 –), hydroxyl radicals (•OH), holes (h+), and 
+electrons (e  ), respectively [51,52]. As depicted in Fig. 9a, the presence 
+of scavengers had a notable impact on the degradation efficiency of 
+Cu2O/Ag2MoO4/CF. Specifically, the degradation efficiency dropped 
+Fig. 8. Effect of catalyst dosage (a), solution pH (b), and RB19 concentration (c), DE of RB19 (d) and leaching concentration of Cu and Ag in recycles (e), SEM image 
+of Cu2O/Ag2MoO4/CF after reuse. 
+V.-D. Doan et al.                                                                                                                                                                                                                                
+
+=== PDF PAGE 12 ===
+Journal of Molecular Liquids 398 (2024) 124261
+12
+from 98.9 % to 70.2 % in the presence of •O2– scavenger, to 61.5 % with 
+e  scavenger, to 16.7 % with h+ scavenger, and to 3.8 % with •OH 
+scavenger. These results strongly suggest that the primary active species 
+involved in the RB19 degradation process were •OH and h+. 
+To elucidate the charge transfer pathways, we specified the energy 
+band positions of the valence band (VB) and conduction band (CB) for 
+each semiconductor. The calculated energy band positions for Cu2O 
+were   0.26 eV (CB) and + 1.91 eV (VB), while for Ag2MoO4, they were 
+  0.17 eV (CB) and + 3.01 eV (VB). Considering that the reduction po-
+tential of O2/•O2 – is approximately   0.33 eV, which is more negative 
+than the CB potential of Cu2O and Ag2MoO4, it can be inferred that the 
+CB electrons of both catalysts cannot effectively reduce O2 to •O2 – 
+radicals [14]. The VB potential of Ag2MoO4 (+3.01 eV) is significantly 
+more positive than the standard oxidation potentials of H2O/•OH 
+(+2.40 eV) and OH–/•OH (+1.99 eV). This observation implies that the 
+photo-induced holes generated in Ag2MoO4 VB band can directly 
+oxidize OH– and H2O, yielding a substantial quantity of •OH radicals [5]. 
+Concurrently, due to the energy band potential difference, a portion of 
+the h+ from Ag2MoO4 will migrate to the VB band of Cu2O. The observed 
+migration of photo-excited electrons and holes strongly supports the 
+categorization of the Cu2O/Ag2MoO4/CF composite as a type-II heter-
+ojunction [53]. This migration enables direct oxidation of RB19 and 
+reduces the recombination rate of electron-hole pairs, aligning well with 
+the results of radical quenching experiments. Based on the foregoing 
+results, a possible type-II heterojunction charge transfer mechanism for 
+RB19 degradation by Cu2O/Ag2MoO4/CF is illustrated in Eqs. (6)-(10) 
+and Fig. 9b. 
+Fig. 9. Effect of scavengers (a) and possible mechanisms of the ternary type II Cu2O/Ag2MoO4/CF heterojunctions (b) for the RB19 degradation.  
+V.-D. Doan et al.                                                                                                                                                                                                                                
+
+=== PDF PAGE 13 ===
+Journal of Molecular Liquids 398 (2024) 124261
+13
+Cu2O/Ag2MoO4/CF + hν → Cu2O/Ag2MoO4/CF(e(CB)  + h(VB)+ )             (6)  
+h+(Ag2MoO4) + OH  → •OH                                                           (7)  
+h+(Ag2MoO4) + H2O → H++•OH                                                  (8)  
+•OH + RB19 → Degradation products                                                (9)  
+h+(Cu2O) + RB19 → Degradation products                                       (10)  
+4. Conclusions 
+The successful synthesis of Cu2O/Ag2MoO4 nanoheterojunctions 
+supported on CFs has been rigorously confirmed through a compre-
+hensive series of characterizations. This novel composite has exhibited 
+remarkable photocatalytic prowess in the degradation of RB19 under 
+visible light. Notably, the ternary Cu2O/Ag2MoO4/CF composite has 
+outperformed its constituent parts, Cu2O, pristine Ag2MoO4, or Cu2O/ 
+Ag2MoO4, by a substantial margin, achieving degradation rates 3.6–7.6 
+times higher. This remarkable enhancement can be primarily ascribed to 
+the composite’s enhanced visible-light absorbance and its ability to 
+effectively separate and transfer photo-generated electron/hole (e–/h+) 
+pairs. Following 150 minof visible light irradiation, the 1.0 g/L Cu2O/ 
+Ag2MoO4/CF photocatalyst successfully degraded 98.9 % of the 25 mg/ 
+L RB19 dye solution at pH 7. Furthermore, the research has underscored 
+the substantial influence of pH and catalyst dosage on the catalytic ac-
+tivity of the ternary composite. The outcomes of free radical capture 
+experiments have unequivocally highlighted the pivotal roles played by 
+hydroxyl radicals (⋅OH) and holes (h+) in the photocatalytic process, 
+whereas superoxide radicals (⋅O2–) exhibited negligible effects. Further-
+more, reusability experiments have convincingly demonstrated the 
+composite’s robustness and its potential for repeated utilization. Even 
+after undergoing five consecutive cycles, the composite maintained a 
+photocatalytic efficiency exceeding 86 %. In summary, the Cu2O/ 
+Ag2MoO4/CF ternary composite emerges as a highly promising photo-
+catalyst for the degradation of RB19. It boasts superior visible-light 
+photocatalytic performance, durability, and the potential for wide-
+spread applications in wastewater treatment and environmental 
+remediation. 
+CRediT authorship contribution statement 
+Van-Dat Doan: Writing – original draft, Validation, Methodology, 
+Investigation, Methodology, Software. Thi Thanh Ngan Nguyen: Data 
+curation, Writing – original draft. Hoang Ai Le Pham: Visualization, 
+Investigation. Thi Lan Huong Nguyen: Investigation, Methodology. 
+Olga Evgenievna Lebedeva: Software, Validation, Methodology. Huu 
+Phuc Dang: Resources, Visualization, Writing – original draft. Anh- 
+Tien Nguyen: Data curation, Formal analysis. Vy Anh Tran: Resources, 
+Software. Van Thuan Le: Writing – review & editing, Supervision. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Data availability 
+Data will be made available on request. 
+Acknowledgements 
+The authors express their gratitude to all the valuable support from 
+Industrial University of Ho Chi Minh City and Duy Tan University, the 
+last one is going to celebrate its 30th anniversary of establishment (Nov. 
+11, 1994–Nov. 11, 2024) towards “Integral, Sustainable and Stable 
+Development". 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.molliq.2024.124261. 
+References 
+[1] Y. Liu, A. Yan, L. Ding, J. Wei, Y. Liu, Y. Niu, R. Qu, Simultaneous and ultrafast 
+removal of anionic and cationic dyes from aqueous solution by Zr-based MOFs 
+hybridized by attapulgite and adsorption performance research, Colloids Surf. A 
+Physicochem. Eng. Asp. 680 (2024) 132643, https://doi.org/10.1016/j. 
+colsurfa.2023.132643. 
+[2] H. Kumari, S.C. Sonia, P. Suman, A. Kumar, R.P. Kumar, Photocatalytic 
+degradation of RB dye via cerium substituted SnO2 photocatalysts, Mater. Sci. Eng. 
+B 296 (2023) 116654, https://doi.org/10.1016/j.mseb.2023.116654. 
+[3] L. Liang, X. Shi, Electrochemical and photocatalytic properties of ZnO 
+nanostructures deposited on nanoporous anodized aluminum oxide membrane and 
+its application for degradation of reactive blue 19 in textile wastewater, Int. J. 
+Electrochem. Sci. 18 (2023) 100272, https://doi.org/10.1016/j. 
+ijoes.2023.100272. 
+[4] H. Seyyedbagheri, R. Alizadeh, B. Mirzayi, A novel heterostructure ZnO/PbBiO2Cl 
+as a type-II photocatalyst for persulfate activation in tetracycline degradation 
+under visible light, J. Mol. Liq. 383 (2023) 122067, https://doi.org/10.1016/j. 
+molliq.2023.122067. 
+[5] G. Fan, C. Cai, Z. Chen, J. Luo, B. Du, S. Yang, J. Wu, Visible-light-drivenself- 
+floating Ag2MoO4/TACN@LF photocatalyst inactivation of Microcystis aeruginosa: 
+Performance and mechanisms, J. Hazard. Mater. 441 (2023), https://doi.org/ 
+10.1016/j.jhazmat.2022.129932. 
+[6] R.P. Singh, A.K. Mourya, P.S. Khagar, G.S. Gaikwad, A.V. Maldhure, U.R. Pratap, S. 
+P. Zodape, A.V. Wankhade, Zero-valent silver decorated Ag2MoO4 nanorods: an 
+excellent visible light active photocatalyst for persulfate ion activation with 
+intrinsic bactericidal activity, SSRN Electron, J. (2022) 111375, https://doi.org/ 
+10.2139/ssrn.4125526. 
+[7] D.G. Della Rocca, R.M. Peralta, R.A. Peralta, R. de F. Peralta Muniz Moreira, Recent 
+development on Ag2MoO4-based advanced oxidation processes: a review, React. 
+Kinet. Mech. Catal. 132 (2021) 1–35, https://doi.org/10.1007/s11144-021-01934- 
+9. 
+[8] S. Balasurya, A. Das, A.A. Alyousef, A. Alqasim, N. Almutairi, S. Sudheer Khan, 
+Facile synthesis of Bi2MoO6-Ag2MoO4 nanocomposite for the enhanced visible light 
+photocatalytic removal of methylene blue and its antimicrobial application, J. Mol. 
+Liq. 337 (2021) 116350, https://doi.org/10.1016/j.molliq.2021.116350. 
+[9] T. Cheng, H. Gao, X. Sun, T. Xian, S. Wang, Z. Yi, G. Liu, X. Wang, H. Yang, An 
+excellent Z-scheme Ag2MoO4/Bi4Ti3O12 heterojunction photocatalyst: 
+Construction strategy and application in environmental purification, Adv. Powder 
+Technol. 32 (2021) 951–962, https://doi.org/10.1016/j.apt.2021.01.039. 
+[10] S. Li, Z. Dong, Q. Wang, X. Zhou, L. Shen, H. Li, W. Shi, Antibacterial Z-scheme 
+ZnIn2S4/Ag2MoO4 composite photocatalytic nanofibers with enhanced 
+photocatalytic performance under visible light, Chemosphere 308 (2022) 136386, 
+https://doi.org/10.1016/j.chemosphere.2022.136386. 
+[11] J.M.P. Silva, N.F. Andrade Neto, M.D. Teodoro, A.E.M. Paiva, M.R.D. Bomio, F. 
+V. Motta, Fabrication of new Ag2CrO4/Ag2MoO4 and Ag2CrO4/Ag2WO4 
+heterostructures with enhanced degradation of the mixture of dyes by 
+photocatalysis, J. Alloy. Compd. 928 (2022) 167136, https://doi.org/10.1016/j. 
+jallcom.2022.167136. 
+[12] S. Kokilavani, A. Syed, B.H. Kumar, A.M. Elgorban, A.H. Bahkali, B. Ahmed, A. Das, 
+S.S. Khan, Facile synthesis of MgS/Ag2MoO4 nanohybrid heterojunction: 
+Outstanding visible light harvesting for boosted photocatalytic degradation of MB 
+and its anti-microbial applications, Colloids Surf. A Physicochem. Eng. Asp. 627 
+(2021) 127097, https://doi.org/10.1016/j.colsurfa.2021.127097. 
+[13] S. Kokilavani, A. Syed, L.L. Raju, S. Al-Rashed, A.M. Elgorban, A.M. Thomas, S. 
+S. Khan, Synthesis of novel heterostructured FeS2/Ag2MoO4 nanocomposite: 
+Characterization, efficient antibacterial and enhanced visible light driven 
+photocatalytic activity, Surf. Interfaces 23 (2021) 101003, https://doi.org/ 
+10.1016/j.surfin.2021.101003. 
+[14] S.H. Ammar, H.J. Hadi, E.M. Khudhair, H.J. Khadim, Y.R. Abdulmajeed, Z. 
+H. Jabbar, Facile assembly of CoS/Ag2MoO4 nanohybrids for visible light- 
+promoted Z-type-induced synergistically improved photocatalytic degradation of 
+antibiotics, J. Photochem. Photobiol. A Chem. 444 (2023) 115000, https://doi. 
+org/10.1016/j.jphotochem.2023.115000. 
+[15] Z. Xu, J. Zhong, M. Li, Ionic liquid-assisted construction of Z-scheme Ag/Ag3PO4/ 
+Ag2MoO4 heterojunctions with enhanced photocatalytic performance, Inorg. 
+Chem. Commun. 152 (2023) 110734, https://doi.org/10.1016/j. 
+inoche.2023.110734. 
+[16] X. Liu, W. Li, H. Li, C. Ren, X. Li, Y. Zhao, Efficient Fe3O4-C3N4-Ag2MoO4 ternary 
+photocatalyst: Synthesis, outstanding light harvesting, and superior hydroxyl 
+radical productivity for boosted photocatalytic performance, Appl. Catal. A 568 
+(2018) 54–63, https://doi.org/10.1016/j.apcata.2018.09.018. 
+V.-D. Doan et al.                                                                                                                                                                                                                                
+
+=== PDF PAGE 14 ===
+Journal of Molecular Liquids 398 (2024) 124261
+14
+[17] F. Bayat, S. Sheibani, Enhancement of photocatalytic activity of CuO-Cu2O 
+heterostructures through the controlled content of Cu2O, Mater. Res. Bull. 145 
+(2022) 111561, https://doi.org/10.1016/j.materresbull.2021.111561. 
+[18] J. Nie, X. Yu, Z. Liu, Y. Wei, J. Zhang, N. Zhao, Z. Yu, B. Yao, Boosting principles for 
+the photocatalytic performance of Cr-doped Cu2O crystallites and mechanisms of 
+photocatalytic oxidation for levofloxacin, Appl. Surf. Sci. 576 (2022) 151842, 
+https://doi.org/10.1016/j.apsusc.2021.151842. 
+[19] S. Pahi, B. Mahapatra, A. Behera, S.K. Singh, R.K. Patel, Fermi level induced band 
+edge alignment and band bending in Ag3PO4/Cu2O p-n heterojunction for 
+proficient photocatalytic applications, Mater. Chem. Phys. 305 (2023) 127992, 
+https://doi.org/10.1016/j.matchemphys.2023.127992. 
+[20] M. Gao, W. Li, X. Su, Z. Li, X. Ding, X. Du, Y. Ren, H. Zhang, J. Feng, T. Wei, 
+A regenerable Cu2O/BiOBr S-scheme heterojunction photocatalysts for efficient 
+photocatalytic degradation of mixed organic pollutants, Sep. Purif. Technol. 313 
+(2023) 123447, https://doi.org/10.1016/j.seppur.2023.123447. 
+[21] S. Kamel, T.A. Khattab, Recent advances in cellulose supported metal nanoparticles 
+as green and sustainable catalysis for organic synthesis, Cellul. 28 (2021) 
+4545–4574, https://doi.org/10.1007/s10570-021-03839-1. 
+[22] Z. Wang, L. Yang, Z. Shan, L. Tang, C. Chen, Y. Lan, W. Li, Fabrication of magnetic 
+cobalt-iron composite moored on carbon derived from cigarette butts (Co–Fe@ 
+CCB) for peroxymonosulfate activation to efficiently degrade Rhodamine B, 
+J. Water Process Eng. 53 (2023) 103845, https://doi.org/10.1016/j. 
+jwpe.2023.103845. 
+[23] T.K.N. Tran, V.T. Le, T.H. Nguyen, V.D. Doan, Y. Vasseghian, H.S. Le, Enhanced 
+adsorption of cationic and anionic dyes using cigarette butt-based adsorbents: 
+Insights into mechanism, kinetics, isotherms, and thermodynamics, Korean J. 
+Chem. Eng. 40 (2023) 1650–1660, https://doi.org/10.1007/s11814-022-1373-z. 
+[24] S.A. Ogundare, V. Moodley, W.E. van Zyl, Nanocrystalline cellulose isolated from 
+discarded cigarette filters, Carbohydr. Polym. 175 (2017) 273–281, https://doi. 
+org/10.1016/j.carbpol.2017.08.008. 
+[25] H. Huo, X. Li, Y. Li, R. Duan, S. Yi, J. Shi, Z. Sun, S. Li, L. Gao, Fabrication ternary 
+dual electron transfer Ag2MoO4/SrWO4/g-C3N4 heterojunction photocatalyst for 
+the highly efficient visible-light-driven degradation of tetracycline, Colloids Surf. A 
+Physicochem. Eng. Asp. 675 (2023) 131945, https://doi.org/10.1016/j. 
+colsurfa.2023.131945. 
+[26] M. Padervand, F. Nasiri, S. Hajiahmadi, A. Bargahi, S. Esmaeili, M. Amini, 
+R. Karimi Nami, Z. Shahsavari, S. Karima, Ag@Ag2MoO4 decorated 
+polyoxomolybdate/C3N4 nanostructures as highly efficient photocatalysts for the 
+wastewater treatment and cancer cells killing under visible light, Inorg. Chem. 
+Commun. 141 (2022) 109500, https://doi.org/10.1016/j.inoche.2022.109500. 
+[27] F.C. Fraga, D.G. Della Rocca, H.J. Jos´e, H.F.V. Vict´oria, J.B. Gabriel Filho, 
+K. Krambrock, E. Rodríguez-Castell´on, R., de F´atima Peralta Muniz Moreira, 
+Evaluation of reactive oxygen species and photocatalytic degradation of ethylene 
+using β-Ag2MoO4/g-C3N4 composites, J. Photochem. Photobiol. A Chem. 432 
+(2022), https://doi.org/10.1016/j.jphotochem.2022.114102. 
+[28] J.V. Kumar, R. Karthik, S.-M. Chen, V. Muthuraj, C. Karuppiah, Fabrication of 
+potato-like silver molybdate microstructures for photocatalytic degradation of 
+chronic toxicity ciprofloxacin and highly selective electrochemical detection of 
+H2O2, Sci. Rep. 6 (2016) 34149, https://doi.org/10.1038/srep34149. 
+[29] M.E. Aguirre, R. Zhou, A.J. Eugene, M.I. Guzman, M.A. Grela, Cu2O/TiO2 
+heterostructures for CO2 reduction through a direct Z-scheme: Protecting Cu2O 
+from photocorrosion, Appl. Catal. B Environ. 217 (2017) 485–493, https://doi.org/ 
+10.1016/j.apcatb.2017.05.058. 
+[30] J. Li, M. He, J. Yan, J. Liu, J. Zhang, J. Ma, Room temperature engineering crystal 
+facet of Cu2O for photocatalytic degradation of methyl orange, Nanomaterials 12 
+(2022) 1697, https://doi.org/10.3390/nano12101697. 
+[31] Y. Song, W. Xie, C. Yang, D. Wei, X. Su, L. Li, L. Wang, J. Wang, Humic acid- 
+assisted synthesis of Ag/Ag2MoO4 and Ag/Ag2WO4 and their highly catalytic 
+reduction of nitro- and azo-aromatics, J. Mater. Res. Technol. 9 (2020) 5774–5783, 
+https://doi.org/10.1016/j.jmrt.2020.03.102. 
+[32] H. Ali, A. Guler, M. Masar, P. Urbanek, M. Urbanek, D. Skoda, P. Suly, 
+M. Machovsky, D. Galusek, I. Kuritka, Solid-state synthesis of direct Z-scheme 
+Cu2O/WO3 nanocomposites with enhanced visible-light photocatalytic 
+performance, Catalysts 11 (2021) 293, https://doi.org/10.3390/catal11020293. 
+[33] A. Serr`a, E. G´omez, J. Michler, L. Philippe, Facile cost-effective fabrication of Cu@ 
+Cu2O@CuO–microalgae photocatalyst with enhanced visible light degradation of 
+tetracycline, Chem. Eng. J. 413 (2021) 127477, https://doi.org/10.1016/j. 
+cej.2020.127477. 
+[34] P. Ma, Y. Yu, J. Xie, Z. Fu, Ag3PO4/CuO composites utilizing the synergistic effect 
+of photocatalysis and Fenton-like catalysis to dispose organic pollutants, Adv. 
+Powder Technol. 28 (2017) 2797–2804, https://doi.org/10.1016/j. 
+apt.2017.08.004. 
+[35] K. Sudarshan, S.K. Gupta, K. Sonawane, R.M. Kadam, Room temperature synthesis, 
+concentration quenching study and defect formation in β-Ag2MoO4:Dy3+- 
+photoluminescence and positron annihilation spectroscopy, J. Lumin. 212 (2019) 
+293–299, https://doi.org/10.1016/j.jlumin.2019.04.031. 
+[36] O. Intharaksa, S. Nanan, N. Patdhanagul, T. Panphojan, T. Srikakul, 
+N. Tantisuwichwong, N. Tantisuwichwong, R. Dulyasucharit, Preparation of 
+magnetic CuO/Fe3O4/ZnO photocatalyst for complete degradation of methylene 
+blue under natural sunlight irradiation, J. Phys. Chem. Solid 182 (2023) 111577, 
+https://doi.org/10.1016/j.jpcs.2023.111577. 
+[37] X. Yu, H. Chen, Q. Ji, Y. Chen, Y. Wei, N. Zhao, B. Yao, p-Cu2O/n-ZnO 
+heterojunction thin films with enhanced photoelectrochemical properties and 
+photocatalytic activities for norfloxacin, Chemosphere 267 (2021) 129285, 
+https://doi.org/10.1016/j.chemosphere.2020.129285. 
+[38] X. Yu, J. Zhang, J. Zhang, J. Niu, J. Zhao, Y. Wei, B. Yao, Photocatalytic 
+degradation of ciprofloxacin using Zn-doped Cu2O particles: Analysis of 
+degradation pathways and intermediates, Chem. Eng. J. 374 (2019) 316–327, 
+https://doi.org/10.1016/j.cej.2019.05.177. 
+[39] O.V. Alekseeva, N.R. Vokhidova, V.D. Shibaeva, A.V. Evdokimova, A.V. Noskov, A. 
+V. Agafonov, Three-stage synthesis and characterization of bimetallic Ag/Cu/Cu2O 
+nanoparticles for antimicrobial applications, Mater. Sci. Eng. B 299 (2024) 
+116984, https://doi.org/10.1016/j.mseb.2023.116984. 
+[40] W. Hu, F. Donat, S.A. Scott, J.S. Dennis, The interaction between CuO and Al2O3 
+and the reactivity of copper aluminates below 1000 ◦C and their implication on the 
+use of the Cu–Al–O system for oxygen storage and production, RSC Adv. 6 (2016) 
+113016–113024, https://doi.org/10.1039/C6RA22712K. 
+[41] M.J. Ndolomingo, N. Bingwa, R. Meijboom, Review of supported metal 
+nanoparticles: synthesis methodologies, advantages and application as catalysts, 
+J. Mater. Sci. 55 (2020) 6195–6241, https://doi.org/10.1007/s10853-020-04415- 
+x. 
+[42] T. Thanh, N. Le, H. Bang, L. Thi, H. Sinh, Heliyon Cu2O/Fe3O4/UiO-66 
+nanocomposite as an efficient fenton-like catalyst : Performance in organic 
+pollutant degradation and influencing factors based machinelearning, 9 (2023) 
+0–12. 
+[43] Y. Li, X. Wang, H. Huo, Z. Li, J. Shi, A novel binary visible-light-driven 
+photocatalyst type-I CdIn2S4/g-C3N4 heterojunctions coupling with H2O2: 
+Synthesis, characterization, photocatalytic activity for Reactive Blue 19 
+degradation and mechanism analysis, Colloids Surf. A Physicochem. Eng. Asp. 587 
+(2020) 124322, https://doi.org/10.1016/j.colsurfa.2019.124322. 
+[44] V.T. Le, H.S. Le, V.A. Tran, L. Sang-Wha, V.D. Doan, S.W. Joo, Y. Vasseghian, 
+Enhanced photocatalytic degradation of reactive blue 19 using zeolitic imidazolate 
+framework-8 composited with Fe3O4/MnO2 heterojunction, J. Ind. Eng. Chem. 115 
+(2022) 345–354, https://doi.org/10.1016/j.jiec.2022.08.018. 
+[45] J. Tian, Z. Zhu, B. Liu, Novel Bi2MoO6/Bi2WO6/MWCNTs photocatalyst with 
+enhanced photocatalytic activity towards degradation of RB-19 under visible light 
+irradiation, Colloids Surf. A Physicochem. Eng. Asp. 581 (2019) 123798, https:// 
+doi.org/10.1016/j.colsurfa.2019.123798. 
+[46] M. Delnavaz, J. Farahbakhsh, S.S. Mahdian, Photodegradation of reactive blue 19 
+dye using magnetic nanophotocatalyst α-Fe2O3/WO3: A comparison study of 
+α-Fe2O3/WO3 and WO3/NaOH, Water Sci. Eng. 14 (2021) 119–128, https://doi. 
+org/10.1016/j.wse.2021.06.007. 
+[47] Y. Li, Z. Li, Y. Xia, H. Li, J. Shi, A. Zhang, H. Huo, S. Tan, L. Gao, Fabrication of 
+ternary AgBr/BiPO4/g-C3N4 heterostructure with dual Z-scheme and its visible 
+light photocatalytic activity for Reactive Blue 19, Environ. Res. 192 (2021) 
+110260, https://doi.org/10.1016/j.envres.2020.110260. 
+[48] M.D.R. Vuˇci´c, J.Z. Mitrovi´c, M.M. Kosti´c, N.D. Velinov, S.M. Najdanovi´c, D. V. 
+Boji´c, A.L. Boji´c, Heterogeneous photocatalytic degradation of anthraquinone dye 
+reactive blue 19: Optimization, comparison between processes and identification of 
+intermediate products, Water SA. 46 (2020) 291–299. 10.17159/wsa/2020.v46. 
+i2.8245. 
+[49] V. Vaiano, M. Matarangolo, J.J. Murcia, H. Rojas, J.A. Navío, M.C. Hidalgo, 
+Enhanced photocatalytic removal of phenol from aqueous solutions using ZnO 
+modified with Ag, Appl. Catal. B Environ. 225 (2018) 197–206, https://doi.org/ 
+10.1016/j.apcatb.2017.11.075. 
+[50] V.T. Le, V.D. Doan, V.A. Tran, H.S. Le, D.L. Tran, T.M. Pham, T.H. Tran, H. 
+T. Nguyen, Cu/Fe3O4@carboxylate-rich carbon composite: One-pot synthesis, 
+characterization, adsorption and photo-Fenton catalytic activities, Mater. Res. Bull. 
+129 (2020) 110913, https://doi.org/10.1016/j.materresbull.2020.110913. 
+[51] F. Yang, X. Yu, K. Wang, Z. Liu, Z. Gao, T. Zhang, J. Niu, J. Zhao, B. Yao, 
+Photocatalytic degradation of methylene blue over BiVO4/BiPO4/rGO 
+heterojunctions and their artificial neural network model, J. Alloy. Compd. 960 
+(2023) 170716, https://doi.org/10.1016/j.jallcom.2023.170716. 
+[52] Y. Zhao, X. Liang, X. Hu, J. Fan, rGO/Bi2WO6 composite as a highly efficient and 
+stable visible-light photocatalyst for norfloxacin degradation in aqueous 
+environment, J. Colloid Interface Sci. 589 (2021) 336–346, https://doi.org/ 
+10.1016/j.jcis.2021.01.016. 
+[53] M. Edwin Malefane, P. John Mafa, T. Thokozani Innocent Nkambule, M. Elizabeth 
+Managa, A. Tawanda Kuvarega, Modulation of Z-scheme photocatalysts for 
+pharmaceuticals remediation and pathogen inactivation: Design devotion, concept 
+examination, and developments, Chem. Eng. J. 452 (2023) 138894, https://doi. 
+org/10.1016/j.cej.2022.138894. 
+V.-D. Doan et al.                                                                                                                                                                                                                                

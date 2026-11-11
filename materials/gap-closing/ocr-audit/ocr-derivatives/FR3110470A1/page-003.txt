@@ -1,0 +1,67 @@
+[0008]
+
+[00091
+
+[00101
+
+[0011]
+
+[0012]
+
+[0013]
+
+[0014]
+
+[0015]
+
+aux problématiques de l’art antérieur en proposant un procédé permettant de recycler
+les mégots de cigarette en éliminant certaines substances chimiques présentes.
+
+Pour y répondre, l’invention propose ainsi un procédé de recyclage des mégots de
+cigarette, chaque mégot de cigarette comprenant au moins du tabac, du papier et un
+filtre, ledit filtre comprenant de l’acétate de cellulose et du papier.
+
+De manière surprenante, les inventeurs ont observé l’élimination de la plupart des
+substances chimiques par chauffage des filtres. Ils ont notamment sélectionné une
+gamme de température particulière, comprise entre 80 et 100°C pour obtenir la dé-
+pollution des filtres de mégots de cigarette, suivie d’une seconde étape de chauffage
+d’au moins 170°C.
+
+Ainsi, les filtres dépollués peuvent être réutilisés pour fabriquer des matériaux
+composites comprenant des filtres de mégots recyclés et au moins un polymère ther-
+moplastique.
+
+De tels matériaux sont ensuite destinés à être utilisés comme matériaux non ali-
+mentaires, préférentiellement pour la fabrication de mobilier, tuyau, pieds, cendrier,
+support de communication, panneaux.
+
+Les inventeurs ont également observé le maintien ou l’amélioration des performances
+mécaniques telles que la rigidité, la résistance, la déformation à la rupture, la tenue au
+choc, la dureté lorsque le matériau composite incorpore les filtres de mégots recyclés,
+en particulier l’acétate de cellulose.
+
+L'invention a ainsi pour objet un procédé de recyclage des mégots de cigarette,
+chaque mégot de cigarette comprenant au moins du tabac, du papier et un filtre, ledit
+filtre comprenant de l’acétate de cellulose et du papier, caractérisé en ce que le procédé
+comprend les étapes suivantes:
+
+a) séparer dans une première fraction F1 les filtres et dans une deuxième fraction F2
+le tabac et le papier issu d’un mélange comprenant le tabac, le papier et les filtres
+séparés les uns des autres, puis récupérer la première fraction F1,
+
+b) sécher et dépolluer ladite fraction F1 contenant les filtres à une température
+comprise en 80 et 100°C,
+
+c) broyer la fraction F1 contenant les filtres séchés et dépollués issu de l’étape b)
+
+d) mélanger et dépolluer simultanément dans une extrudeuse les filtres broyés
+obtenus à l’étape c) avec au moins un polymère thermoplastique pour obtenir un
+matériau composite.
+
+L'invention a également pour objet un matériau composite comprenant entre 10 et
+30% de filtres de mégots recyclés et entre 70 et 90% d’au moins un polymère thermo-
+plastique. Le matériau composite est préférentiellement sous forme de granulé.
+
+Enfin, l’invention a pour objet l’utilisation du matériau composite selon l’invention,
+
+comme matériau non alimentaire, préférentiellement pour la fabrication de mobilier,

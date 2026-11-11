@@ -1,0 +1,79 @@
+[0118]
+
+[0119]
+
+[0120]
+
+[0121]
+
+[0122]
+
+[0123]
+[0124]
+
+[0125]
+[0126]
+
+[0127]
+
+10
+
+toxiques et des mauvaises odeurs lors de la combustion.
+
+Parmi ces substances, on retrouve des substances organiques et inorganiques, dont
+notamment :
+
+- de la nicotine,
+
+- des métaux lourds,
+
+- des acides organiques (acide acétique et/ou acide tartrique),
+
+- des nitrosamines,
+
+- des flumétralines, pendiméthalines et/ou trifluralines,
+
+- des phénols,
+
+- des hydrocarbures aromatiques polycycliques (HAP),
+
+- des formaldéhydes et acétaldéhydes,
+
+- des dioxines et/ou des furanes,
+
+- des anions (chlorures, nitrates, phosphates, sulfates et/ou ammonium).
+
+Le nettoyage et la dépollution de ces fibres consistent à extraire ces substances
+toxiques adsorbées dans ces fibres lors de la combustion afin de transformer le mégot
+de cigarette, déchet dangereux (classé : HP 14 : écotoxique et HP6 : toxicité aigüe), en
+matière première exploitable.
+
+Le concept sous-jacent à la présente invention est d’exploiter la technologie des
+fluides dense sous pression, et notamment les fluides supercritiques, en retirant ces
+substances pour nettoyer efficacement les fibres des filtres pollués.
+
+L'utilisation des fluides dense sous pression, et notamment les fluides supercritiques,
+se présente comme une technologie émergente efficace qui présente des propriétés de
+transport très intéressantes.
+
+Le Demandeur observe que la technologie des fluides supercritiques est clas-
+siquement utilisée pour l’extraction des arômes (café ou huiles essentielles par
+exemple).
+
+Cette technologie est également utilisée pour teindre des textiles sans eau.
+
+En revanche, l’utilisation de tels fluides supercritiques n’a Jamais été envisagée
+jusqu’à présent pour le nettoyage et la dépollution des mégots de cigarette et
+notamment des fibres de mégots de cigarette.
+
+Dans l’exemple décrit ici, on utilise comme fluide le dioxyde de carbone.
+
+Le Demandeur soumet que l’utilisation du dioxyde de carbone présente l’avantage
+d’être un déchet industriel produit en grande quantité. La réutilisation de ce déchet
+s’avère donc très intéressante : Le dioxyde de carbone est disponible à haute pureté et à
+bas prix.
+
+L’homme du métier comprendra que d’autres fluides comme ceux énumérés pré-
+cédemment dans la description pourront être réutilisés dans le cadre de la présente
+
+invention.

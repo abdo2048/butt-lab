@@ -1,0 +1,70 @@
+[0011]
+
+[0012]
+[0013]
+
+[0014]
+
+[0015]
+
+[0016]
+
+[0017]
+[0018]
+
+[0019]
+
+[00201
+
+[0021]
+
+également une étape de nettoyage à base d’eau.
+La dépollution des mégots de cigarettes impliquant un nettoyage à base d’eau (par
+
+trempage, aspersion, essuyage, etc.) requiert nécessairement une étape additionnelle de
+traitement et de filtrage de l’eau polluée qui a servi pour le nettoyage.
+
+Ceci rend le procédé coûteux et fastidieux.
+
+Le Demandeur soumet en outre que certaines substances toxiques présentes dans les
+mégots ne peuvent pas se solubiliser dans l’eau de sorte que les performances
+associées à ce type de technologie ne sont pas satisfaisantes.
+
+D’autres technologies sont proposées pour le recyclage des mégots de cigarette
+comme par exemple celle proposée dans le document WO 2019167054 AI qui propose
+un recyclage des mégots de cigarettes utilisant des absorbants naturels tels que par
+exemple de la terre pour nettoyer la fibre des mégots de cigarettes et fabriquer des
+tampons hygiéniques ; un tel document vise principalement à améliorer les conditions
+sanitaires dans des pays défavorisés.
+
+En revanche, l’enseignement technique de ce document ne s’applique pas au
+nettoyage et à la dépollution des mégots de cigarettes.
+
+Le Demandeur soumet, après de nombreuses recherches sur le sujet, qu’il n’existe
+pas à ce Jour de solution fiable et performante assurant un nettoyage et une dépollution
+à grande échelle et à moindre des coûts pour nettoyer et dépolluer les mégots de
+cigarette afin de recycler les fibres et notamment les fibres d’acétate de cellulose.
+Résumé de l'invention
+
+La présente invention vise à améliorer la situation décrite ci-dessus.
+
+La présente invention vise plus particulièrement à remédier à au moins un des
+différents inconvénients mentionnés ci-dessus en proposant une technique de nettoyage
+et de dépollution innovante mettant en œuvre une mise en contact desdits mégots avec
+un fluide dense sous pression, et notamment un fluide à l’état supercritique.
+
+A cet effet, l’objet de la présente invention concerne selon un premier aspect un
+procédé de nettoyage de mégots de cigarette comprenant les étapes suivantes :
+
+- un traitement des mégots pour en extraire des fibres à dépolluer ; et
+
+- une dépollution des fibres à dépolluer par une mise en contact de celles-ci avec un
+fluide dense sous pression, de préférence un fluide à l’état supercritique, dit fluide su-
+percritique.
+
+La mise en contact d’un fluide dense sous pression, de préférence un fluide super-
+critique, avec les fibres à dépolluer permet d’extraire desdites fibres une très grande
+mayorité, voire la totalité, des substances toxiques et des odeurs accumulées dans les
+filtres de cigarette.
+
+Le fluide dense sous pression (de préférence un fluide amené à l’état supercritique)

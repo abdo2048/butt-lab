@@ -1,0 +1,1214 @@
+=== PDF FILE: 1-s2.0-S2352554126001762-main.pdf ===
+sha256: 86d289f627a96e544c24bf3afeb5baebbb4a941fa86c0d813b694015dfda06fc
+pages: 28
+printed_page_labels: PDF p.1=printed 1, PDF p.2=printed 2, PDF p.3=printed 3, PDF p.4=printed 4, PDF p.5=printed 5, PDF p.6=printed 6, PDF p.7=printed 7, PDF p.8=printed 8, PDF p.9=printed 9, PDF p.10=printed 10, PDF p.11=printed 11, PDF p.12=printed 12, PDF p.13=printed 13, PDF p.14=printed 14, PDF p.15=printed 15, PDF p.16=printed 16, PDF p.17=printed 17, PDF p.18=printed 18, PDF p.19=printed 19, PDF p.20=printed 20, PDF p.21=printed 21, PDF p.22=printed 22, PDF p.23=printed 23, PDF p.24=printed 24, PDF p.25=printed 25, PDF p.26=printed 26, PDF p.27=printed 27, PDF p.28=printed 28
+
+=== PDF PAGE 1 ===
+Recycled cigarette butts as a sustainable additive in PAN-based 
+nanofiber membranes for high-efficiency air filtration
+Binhasan Akid a, Bo Zheng b,*, Changwei Wang c, Jian Wang d, Qun Wang a,c,**, 
+Jun Gao a, Dongmei Xu a, Jianlu Liu c
+a College of Chemical and Biological Engineering, Shandong University of Science and Technology, Qingdao, 266590, PR China
+b Weifang Science and Technology Innovation Promotion Center, Weifang, 261071, PR China
+c Shandong Haihua Group Co., Ltd, Weifang, 262737, PR China
+d The Institute of Seawater Desalination and Multipurpose Utilization, MNR, Tianjin, 300192, PR China
+ARTICLE INFO
+Keywords:
+Polyacrylonitrile (PAN)
+Cigarette butts
+Hybrid nanofibrous membrane
+Waste utilization
+Air filtration
+ABSTRACT
+Cigarette butts (CBs), the world's most abundant plastic litter, pose severe environmental threats 
+due to their non-biodegradable cellulose acetate (CA) content. This study presents a circular 
+economy solution by recovering CA from discarded CBs and co-electrospinning it with poly-
+acrylonitrile (PAN) to fabricate high-performance air filtration membranes. Systematic optimi-
+zation of PAN:CBs ratios and total solid content (8-18 wt%) revealed that hybrid nanofibers with 
+10 wt% PAN and 6 wt% CBs achieved exceptional PM1.0 filtration efficiency (99.99%), low 
+pressure drop (173 Pa), and a high quality factor (0.0558 Pa-1), outperforming pure PAN coun-
+terparts. The incorporation of waste-derived CA not only enhanced specific surface area and fiber 
+morphology but also reduced raw material costs by 27%. Coupled with a techno-economic 
+assessment, this work demonstrates a scalable, eco-efficient pathway to transform hazardous 
+urban waste into value-added functional materials, aligning with circular economy principles for 
+simultaneous mitigation of plastic pollution and air quality degradation.
+1. Introduction
+Cigarette butts (CBs) represent the most discarded form of plastic litter globally, with an estimated 4.5 trillion discarded annually 
+out of the 6 trillion cigarettes consumed worldwide (Torkashvand and Farzadkia, 2019). According to methodologically robust 
+organizational audits, such as the Keep America Beautiful (2020) survey (Tobacco and the environment Apr. 26, 2023), estimates that 
+this staggering volume translates to approximately 9.7 billion tons of waste, posing serious ecological and public health risks when 
+improperly disposed of. Most CBs are made of cellulose acetate (CA), a type of non-biodegradable plastic that can persist in the 
+environment for decades (Kurmus and Mohajerani, 2020). During this time, they leach harmful chemical substances, including 
+nicotine, heavy metals (such as cadmium and lead), and polycyclic aromatic hydrocarbons (PAHs), into soil and aquatic ecosystems 
+(Torkashvand and Farzadkia, 2019). As global cigarette consumption and cigarette waste continues to rise, effective management 
+strategies remain challenging (De Fenzo et al., 2020). Therefore, CBs offer a compelling opportunity for circular economy initiatives, 
+* Corresponding author.
+** Corresponding author. College of Chemical and Biological Engineering, Shandong University of Science and Technology, Qingdao, 266590, PR 
+China.
+E-mail addresses: bo.zheng@pku-iaas.edu.cn (B. Zheng), wangqun87@sdust.edu.cn (Q. Wang). 
+Contents lists available at ScienceDirect
+Sustainable Chemistry and Pharmacy
+journal homepage: www.elsevier.com/locate/scp
+https://doi.org/10.1016/j.scp.2026.102484
+Received 24 April 2026; Received in revised form 1 June 2026; Accepted 17 June 2026  
+Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+Available online 30 June 2026 
+2352-5541/© 2026 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 
+
+=== PDF PAGE 2 ===
+given their potential for valorization through chemical recycling and repurposing into high-value materials (Kurmus and Mohajerani, 
+2021).
+The need for effective particulate matter (PM) filtration has grown increasingly urgent as air pollution levels rise, especially in 
+urban areas (Flood-Garibay et al., 2023). PM, including PM10, PM2.5, and PM1.0, consist of microscopic airborne particles that pose 
+serious health risks, such as lung cancer (Giammona et al., 2024), chronic respiratory conditions, and heart disease, leading to 
+increased healthcare burdens and reduced life expectancy (Nakhjirgan et al., 2023). The World Health Organization (WHO) identifies 
+PM as one of the most significant environmental health threats worldwide, with the heaviest burden falling on densely populated cities 
+((WHO) 2021). To protect individuals from the harmful effects of PM, two approaches have been proposed: reducing PM emissions at 
+the source and employing filtration methods. Comparatively, the latter method proves superior, offering a swift and effective means of 
+shielding people from PM pollutants. In light of these severe public health consequences, there is an urgent need for innovative, 
+high-performance, and sustainable air filtration technologies capable of efficiently capturing both fine and ultrafine particles. Such 
+solutions are vital not only for safeguarding human health but also for addressing the wider environmental and economic costs 
+associated with air pollution.
+Aligned with the principle of transforming waste into environmental solutions, CBs have been repurposed across a wide range of 
+application (Akid et al., 2025). Previous literature highlights their use in construction, where they serve as fillers or binders in bricks 
+(Paulista et al., 2024), road paving (Guo et al., 2024), and insulation materials (Maderuelo-Sanz, 2021). In environmental engineering, 
+CBs have been transformed into functional materials for removing pollutants from water, including organic contaminants (Premchand 
+et al., 2025), oils (Doyan et al., 2021), dyes (Fahanwi et al., 2024), and heavy metals (Zhang et al., 2021). Much of these work focuses 
+on converting CBs fibers into activated carbon via methods such as alkaline activation with microwave heating or low-temperature 
+hydrothermal carbonization for applications like methylene blue adsorption (Dalmaz and S˙IVr˙IKaya ¨OZak, 2024). Despite these 
+promising developments, the utilization of CBs-derived materials for air filtration remains notably underexplored. While electrospun 
+nanofibers are well established for high-efficiency particulate air (HEPA) filtration, most studies focus on biopolymers such as lignin, 
+chitosan, poly (lactic acid) (Russo et al., 2022), polyvinvlyl alcohol (PVA) (Zhang et al., 2019), polyvinylidene fluoride (PVDF) (Zhang 
+et al., 2022) and polyacrylonitrile (PAN) (Lakshmanan et al., 2021). To date, only Kakoria et al. have demonstrated air filtration using 
+cellulose acetate recovered from waste cigarette butts (Kakoria and Sinha-Ray, 2022). By employing supersonic solution blowing, they 
+fabricated ultrafine nanofibers with a mean diameter of approximately 92.4 nm, achieving a filtration efficiency exceeding 99.7% 
+against PM0.1. However, the rapid evaporation of acetone, a highly volatile and flammable solvent prone to forming explosive air 
+mixtures, induced sporadic bead formation during processing. While the resulting membrane exhibited exceptional filtration per-
+formance, these morphological defects may compromise fiber uniformity, mechanical robustness, and long-term operational stability, 
+particularly during large scale manufacturing. In contrast, recent studies have successfully leveraged electrospinning to fabricate 
+nanofibrous membranes from alternative feedstocks derived from waste. For instance, ¨Ozen et al., (2025) developed hemp hurd and 
+polyvinyl alcohol composite membranes. Their optimal formulation with 15 wt% hemp hurd achieved filtration efficiencies of 98.74% 
+for PM2.5 and 98.73% for PM10, alongside a quality factor of 0.049 inverse pascals. Similarly, Scaffaro et al., (2026) engineered a 
+sandwich structured waste wool and polylactic acid membrane that delivered superior filtration efficiency with minimal pressure drop, 
+yielding a higher quality factor of 0.079 inverse pascals. Collectively, these findings demonstrate that integrating materials derived 
+from waste with biopolymers, particularly via electrospinning, can simultaneously enhance filtration efficiency, reduce pressure drop, 
+and optimize the overall quality factor, offering a sustainable and scalable pathway for next generation air filters. Crucially, no study 
+has yet explored the use of CBs-derived CA in conventional electrospun nanofiber membranes for air filtration, a critical gap, given that 
+electrospinning offers superior control over fiber morphology, diameter, and alignment, enabling precise tuning of pore structure and 
+surface functionality. The blending of CBs-derived CA with polyacrylonitrile (PAN) has the potential to create hybrid nanofiber 
+membranes with enhanced air filtration properties. PAN, a widely used polymer in electrospinning, is prized for its excellent spinn-
+ability, mechanical robustness, and thermal stability, together with good efficiency for gaseous pollutants filtration in respect to other 
+polymer fibers (Zhang et al., 2023a). However, its reliance on petroleum-based sources and high production cost Kakorias remain 
+limitations. Integrating waste-derived CA into PAN could reduce the demand for virgin polymer materials, while introducing polar 
+ester and hydroxyl groups that may enhance surface-particle interactions, thereby improving filtration efficiency. Recent studies have 
+suggested that the hybridization of natural fibers with synthetic polymers can lead to synergistic effects in nanofiber properties, 
+including improved mechanical performance and filtration efficiency (Deng et al., 2021; Wang et al., 2016). Moreover, despite 
+growing interest in waste-to-resource strategies, there remains a lack of systematic techno-economic assessments of CBs-derived air 
+filtration materials. Critical performance indicators, such as filtration efficiency, pressure drop, quality factor, production cost, and 
+dust-holding capacity, are essential for evaluating both functional efficacy and commercial viability. These metrics not only reflect a 
+filter's ability to capture particulate matter under realistic operating conditions but also determine its service life, energy consumption, 
+and scalability. To date, such comprehensive evaluations are largely absent in studies on CBs-based filters, highlighting an urgent need 
+for integrated performance and cost analyses to bridge the gap between laboratory innovation and real-world deployment.
+To address these gaps, this study presents the comprehensive investigation into the fabrication of hybrid PAN/CBs nanofiber 
+membranes for air filtration applications. Given the potential toxicity of waste CBs, the cleaned samples were subjected to compre-
+hensive characterization using FT-IR, GPC, XPS, ICP-MS, and GC-MS. These analyses confirmed the effective removal of contaminants 
+and substantiated the environmental safety of the treated material. PAN serves as the structural matrix, and a series of PAN/CBs 
+nanofiber membranes were fabricated via blend electrospinning under systematically varied formulation conditions: series A: fixed 
+total concentrations of 8 wt% with varying PAN:CBs mass ratios 1:0 to 1:1, series B: fixed total concentrations of 10 wt%, and 14 wt% 
+with varying PAN:CBs mass ratios 1:0 and 1:1, series C: PAN-only solutions at concentrations 8-18 wt% in 2 wt% increments, no CBs, 
+and series D: fixed PAN mass 8, 10, 14 wt% with increasing CBs to push total solids to 18 wt%. Within the described series of 
+B. Akid et al.                                                                                                                                                                                                            Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+2 
+
+=== PDF PAGE 3 ===
+preparation, a simple, fast, and low-cost procedure was introduced to recover CA from CBs, and to prepare a sustainable membrane 
+sorbent for air filtration purposes. In addition, a selected nanofiber membrane (prepared from the PAN/CBs 8 wt% solution with a 1:1 
+PAN:CB mass ratio) was further subjected to heat-press post-treatment at 100◦C, 120◦C, and 140◦C to evaluate the impact of thermal 
+densification on fiber morphology and filtration performance. All membranes were thoroughly characterized using SEM-EDS, BET, 
+water contact angle measurement, ATR-FTIR, thickness profiling, tensile strength testing, BET specific surface area, and zeta potential 
+analysis. The air filtration performance is evaluated against incense-generated PM across multiple size fractions, with a focus on 
+achieving high filtration efficiency (>99%) and low pressure drop. Additionally, this work also includes a comprehensive techno- 
+economic analysis, integrating key performance indicators, including filtration efficiency, pressure drop, quality factor, estimated 
+production cost, and dust-holding capacity tests, to evaluate both functional efficacy and commercial viability. By demonstrating that 
+waste CBs can serve not merely as fillers but as performance-enhancing additives in PAN-based nanofiber membranes, this work 
+contributes to both the advancement of sustainable urban waste valorization and could lead to the development of next-generation, 
+eco-efficient air purification technologies.
+2. Materials and methods
+2.1. Chemical reagents
+Cigarette butts were collected from cigarette butts’ collectors located in restaurants, walking road, and buildings from the campus 
+of Shandong University of Science and Technology. Polyacrylonitrile (PAN, Mw = 150,000 g/mol), Cellulose acetate (CA, 
+Mw = 30,000 g/mol) were purchased from Shanghai Macklin Biochemical Technology Co., Ltd, Shanghai, China, whereas N, N- 
+dimethylformamide (DMF, 99.5%) was purchased from Sinopharm Chemical Reagent Co. Ltd. (China), anhydrous ethanol (EtOH, 
+99.7% w/w) was purchased from Tianjin Fuyu Fine Chemical Co., Ltd, Tianjin, China., and deionized water was self-made by the 
+laboratory. All the materials and reagents were used as received without any purification.
+Fig. 1. Schematic diagram of preparation process for nanofiber membranes by using recycled CBs.
+B. Akid et al.                                                                                                                                                                                                            Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+3 
+
+=== PDF PAGE 4 ===
+2.2. Extraction and characterization of CA from waste CBs
+The procedure depicted in Fig. 1 outlines the method for extracting CA from discarded CBs. The discarded CBs were manually 
+stripped to retrieve the cotton cores. These cores were then carefully cut into coarse fiber segments measuring 1-2 cm, which contained 
+contaminants including nicotine, heavy metals, and priority polycyclic aromatic hydrocarbons (PAHs), thereby requiring further 
+treatment. To obtain pristine regenerated CA, the extracted material underwent a series of pressing, soaking, and washing cycles using 
+deionized water (at a ratio of 1 g CBs to 10 mL water) followed by anhydrous ethanol (at a ratio of 1 g CBs to 20 mL anhydrous ethanol) 
+for a designated period, repeated at least 5-6 times until all traces of dirt were eradicated to solubilize and extract hydrophobic 
+contaminants such as nicotine. Ethanol was chosen for its selectivity toward organic impurities while preserving CA polymer integrity. 
+Once the remnants were thoroughly cleansed, a final rinse with distilled water was administered to eliminate any residual ethanol and 
+water-soluble toxins that may prevent re-adsorption of contaminants during drying. The soaked fibers, or remnants, were then sub-
+jected to a drying process in a vacuum dryer set at 65◦C for approximately 7-8 h, eliminating any remaining moisture and evaporating 
+the lingering solvent, thereby yielding pure regenerated cellulose acetate segments. Higher temperatures might induce deacetylation 
+or polymer chain scission. It is of utmost importance to consistently cover the recycled remnants when not in use to prevent evapo-
+ration of the cellulose acetate. All work should be conducted under a fume hood, and basic protective gear should be worn, including 
+gloves, a mask, and safety goggles, as even small amounts of residual nicotine can be harmful.
+Once purified, recycled CA must pass safety checks to ensure no harmful residues remain. To verify this requirement, X-ray 
+photoelectron spectroscopy (Thermo Fisher ESCALAB Xi+) was used to analyze the elemental composition and chemical structure of 
+the CBs. Inductively coupled plasma mass spectrometry (Agilent 7800 ICP-MS, USA) was performed to determine the concentrations of 
+heavy metals, specifically arsenic (As), chromium (Cr), lead (Pb), and cadmium (Cd), in the CBs’ samples. Gas Chromatography-Mass 
+Spectrometry (ISQ7000+TRACE1300) was employed to quantify the concentrations of 16 PAHs in CBs before and after the cleaning 
+process. The molecular weight distribution of CA obtained from discarded CBs was measured via Gel Permeation Chromatography 
+(GPC) on a PL-GPC120 (Agilent Technologies, USA) instrument equipped with a refractive index (RI) detector.
+2.3. Membrane fabrication
+PAN and CBs polymer solutions were prepared under four different series (series A: fixed total concentrations of 8 wt% with varying 
+PAN:CBs mass ratios 1:0 to 1:1, series B: fixed total concentrations 10, and 14 wt% with varying PAN:CBs mass ratios 1:0 and 1:1, series 
+C: PAN concentrations 8-18 wt% in 2 wt% increments, no CBs and series D: fixed PAN mass 8, 10, 14 wt% with increasing CBs to push 
+total solids to 18 wt%) by dissolving in DMF at 68◦C under constant stirring for at least 7 h. During this time, ensure that the mixture 
+thoroughly blends and dissolves, to form a homogeneous mixture. Allow the liquid to rest for a brief period before extracting it using a 
+syringe for the spinning process. Table S1 summarizes specific electrospinning parameters for PAN/CBs electrospinning, whereas the 
+whole procedure is shown in Fig. 1. A 3 mL spinning solution was electrospun directly onto non-woven paper. The PAN/CBs nanofiber 
+was placed in vacuum dryer for at least 7 h at 60◦C to completely evaporate the solvent. In addition, a selected nanofiber membrane 
+(prepared from the PAN/CBs 8 wt% solution with a 1:1 PAN:CBs mass ratio) was subjected to heat-press post-treatment using a paper 
+laminator (M&G stationary Inc. China) at a temperature of 100◦C, 120◦C, and 140◦C, to investigate its effect on fiber morphology and 
+filtration performance.
+2.4. Membrane characterization
+Surface morphology and elemental distribution of the nanofiber membranes were characterized using field-emission scanning 
+electron microscopy (FE-SEM, Regulus 8220, Hitachi, Japan) equipped with energy-dispersive X-ray spectroscopy (EDS, ULTIM-Max, 
+Oxford Instruments, UK). Quantitative analysis of fiber diameter was performed using ImageJ software (National Institutes of Health, 
+USA) by randomly measuring at least 50 individual fibers per image across three representative fields of view, and data are reported as 
+mean ± standard deviation (SD). Pore size distribution was determined by applying consistent thresholding parameters to delineate 
+pore boundaries in SEM images, followed by conversion of pore area to equivalent circular diameter, with results expressed as mean 
+pore diameter ± SD based on analysis of no fewer than 100 pores per sample. Membrane surface wettability was indicated by static 
+water contact angle (WCA) measured on a goniometer (Shanghai, Zhongchen, JC2000D2). The samples were dried sufficiently before 
+the measurement, then a dangling droplet of 1 μL of deionized water was carefully dropped on the sample's surface for at least five 
+times at different position. Three positions on a single sample were randomly chosen for measuring and the mean value was used as the 
+test result. Membrane surface zeta potential was measured on an electrokinetic (SurPASS 3, Anton Paar) with 1 mM KCl solution as 
+background solution, 0.05 mol/L HCl and 0.05 mol/L NaOH were used to adjust the pH from 9.5 to 3. Each sample was tested three 
+times and the average was taken as the measured result. The chemical compositions of samples were characterized by a Fourier 
+transform infrared spectroscopy (FTIR, Nicolet iS10, Thermo Scientific, USA) between 400 and 4000 cm-1 to confirm the chemical 
+integrity of PAN and the successful incorporation of cigarette butt-derived components (CA). The mechanical properties were per-
+formed on a Floor Model Universal Testing System (5300, Instron Corporation, USA). During the test, samples of 130 × 25 mm size 
+were clamped at both ends with 100 mm of interval and pulled in tension, the tensile speed was 100 mm/min, at least five specimens 
+were tested for each sample. Surface areas were calculated using the Branauer-Emmett-Teller (BET) nitrogen absorption-desorption 
+method. Membrane thickness of each sample were measured using a digital micrometer at multiple points (n ≥ 10) across the sam-
+ple to ensure consistency and the average was taken as the measure result. Finally, the porosities (ε) of the electrospun PAN and PAN/ 
+CB nanofiber membranes were determined using a gravimetric liquid-displacement method with anhydrous ethanol. Specifically, Wwet 
+B. Akid et al.                                                                                                                                                                                                            Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+4 
+
+=== PDF PAGE 5 ===
+denotes the weight of the membrane after a 1-h immersion in anhydrous ethanol, and Wdry is the weight of the dry membrane after 
+drying in a vacuum oven at 50◦C for 24 h. The total porosity was calculated according to Equation (1): 
+ε= Wwet  Wdry
+ρalc× A× z× 100% (1) 
+where ρalc is the density of anhydrous ethanol, A is the effective area of the membrane, and z is the membrane thickness.
+2.5. Filtration performance testing
+The experimental setup used to evaluate the particulate matter (PM) filtration efficiency and pressure drop is schematically 
+illustrated in Fig. 2. The air filtration performance of the electrospun PAN/CBs nanofiber membranes (cut into 40 × 40 mm2 pieces) 
+was evaluated using a custom-built air filtration testing system. During the experiments, the airflow velocities were maintained at 
+constant values of 3.3, 5.3, and 7.3 cm/s. To simulate severely polluted ambient air, PM aerosols were generated via the controlled 
+combustion of sandalwood incense, which yields a high-concentration aerosol rich in organic, insoluble particles across multiple size 
+fractions (i.e., PM1.0, PM2.5, and PM10). Long-term filtration performance was assessed over an extended duration of 130 min under 
+varied environmental conditions, with temperature and relative humidity (RH) precisely regulated by air conditioning units and a 
+humidifier. To evaluate environmental stability, the PAN/CBs nanofiber membranes were preconditioned at extreme temperatures 
+(  50◦C and 85◦C) for 2 h, followed by PM1.0 filtration testing at 75% RH across all the aforementioned airflow velocities. Furthermore, 
+the reusability of the membranes was investigated through five consecutive filtration-cleaning cycles. After each filtration cycle, the 
+membranes were gently washed with a water/anhydrous ethanol mixture (70:30, v/v) to remove the deposited particulate matter, and 
+then air-dried at room temperature for 4 h prior to the subsequent test. The particle removal efficiency, η, is shown by the following 
+formula: 
+η=
+(
+1  Cdown
+Cup
+)
+× 100% (2) 
+where Cup and Cdown are the mass concentrations of PM before and after the filtration (μg m-3).
+The quality factor (QF, Pa  1) was then determined to balance filtration efficiency and flux, which is calculated using the following 
+formula: 
+QF=  ln(1  η)ΔP (3) 
+where η is the filtration efficiency for PM and Δ P is the pressure drop before and after the air filtration (Pa). All of the tests were 
+conducted in triplicate under controlled laboratory conditions (25 ± 2◦C, 40–50% RH) to ensure reproducibility (Fan et al., 2025; Sun 
+et al., 2025).
+Fig. 2. Schematic diagram of the equipment to the evaluate the air filtration performance of nanofiber membranes.
+B. Akid et al.                                                                                                                                                                                                            Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+5 
+
+=== PDF PAGE 6 ===
+2.6. Economic evaluation of PAN/CBs nanofiber membrane
+Beyond initial filtration efficiency and pressure drop, the long-term economic viability of air filters is critically determined by their 
+dust-holding capacity and the evolution of flow resistance during operation. To evaluate the practical cost-effectiveness of the 
+developed PAN/CBs nanofiber membranes, dust-loading tests were conducted under controlled aerosol conditions. The maximum 
+dust-holding capacity (Cmax), defined as the dust loading at which the pressure drop reaches a practical upper limit (in this study, 
+ΔPmax = 450 Pa), was calculated as (Lee et al., 2025): 
+Cmax=(mmax  m0)/ A (4) 
+where m0 and mmax represent the weights of nanofiber membranes without and with dust, and A is the effective area of nanofiber 
+membranes. Accordingly, the max dust capacity ratio, Rdust, introduced and defined as the ratio of Cmax for the PAN/CBs membrane to 
+that of the pure PAN membrane: 
+Rdust= Cmax,PAN/CBs
+/
+Cmax,PAN (5) 
+Finally, the cost ratio, Rcost, is defined to quantify the economic benefit of incorporating recycled CBs. It is calculated as the material 
+cost required to prepare the PAN/CBs nanofiber membrane relative to that of the pure PAN membrane exhibiting the optimal quality 
+factor: 
+Rcost= Cost(PAN/ CBs)/ Cost(PAN) (6) 
+The material cost includes the consumption of both solute, either PAN or CA derived from discarded CBs, and solvent (DMF). The 
+operational cost of the electrospinning process is assumed to be identical across all samples, as they were processed under the same 
+conditions. Material costs are based on industrial market prices: PAN at ¥35-50/kg, DMF at ¥3.5-4.5/kg, and recycled cellulose acetate 
+from CBs at ¥2.0-3.0/kg. Notably, DMF is not recovered in this analysis, as it is fully utilized to prepare the polymer spinning solution 
+and undergoes evaporation during electrospinning without a dedicated recovery infrastructure. In contrast, the anhydrous ethanol 
+used for the initial washing and cleaning of CBs can be efficiently recovered via distillation and reused in the following batches, 
+thereby reducing the effective pretreatment solvent cost. The quoted price range of ¥2.0-3.0/kg for recycled CA is a realistic industrial 
+estimate, as it already covers all steps, from collecting cigarette butts to producing purified cellulose acetate. For the purpose of this 
+Fig. 3. FT-IR spectra of pure CA and recycled CBs. CBs I and CBs II represent cigarette butts collected in two batches.
+B. Akid et al.                                                                                                                                                                                                            Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+6 
+
+=== PDF PAGE 7 ===
+analysis, representative unit prices of ¥40/kg for PAN, ¥2.5/kg for CBs-derived cellulose acetate, and ¥4.0/kg for DMF are used in next 
+section.
+3. Results and discussion
+3.1. Sustainable evaluation of recycled CA from waste CBs
+Two independent extraction trials were conducted to recover CA from waste CBs, and the corresponding yields are presented in 
+Fig. S1. Both trials achieved a consistent recovery rate of approximately 79.9% CA, demonstrating high reproducibility under the 
+applied experimental conditions. This consistent yield indicates that the selected solvent system and extraction protocol effectively and 
+selectively dissolve CA while leaving behind non-acetate components such as paper, residual tobacco, and filter additives. The 
+reproducibility across both trials further underscores the robustness of the method, supporting its potential for scale-up in recycling 
+initiatives aimed at valorizing CBs waste.
+FT-IR spectra of the recovered CA from both batches were compared with those of pure CA, as shown in Fig. 3. Key characteristic 
+bands of cellulose acetate are clearly evident in the recycled samples. Notably, the strong and sharp carbonyl (C––O) stretching vi-
+bration of the acetate group appears at 1734 cm-1, an isolated and diagnostic region in the FT-IR spectrum (Yue et al., 2022). Additional 
+characteristic peaks include the asymmetric C–O–C stretching (associated with ester linkages in the glycosidic backbone) at 1215 cm-1, 
+the C–O stretching vibration of the ester linkage at 1032 cm-1, and C–H bending vibrations at 1367 cm-1. A weak O–H stretching band is 
+observed around 3500 cm-1, consistent with partial retention of hydroxyl groups; however, its reduced intensity reflects the high 
+degree of acetylation, confirming successful substitution of hydroxyl groups during CA synthesis. Therefore, the spectral similarity 
+between the recycled material and pure CA confirms that the extracted product retains the essential chemical structure of virgin CA, 
+supporting its potential as a viable substitute in future applications (Torkashvand et al., 2021). Furthermore, GPC analysis of CA 
+extracted from waste CBs, as shown in Table S2, was conducted using DMF as the mobile phase and calibrated against narrow 
+polystyrene (PS) standards. The average molecular weights, reported as polystyrene-equivalent values, are: number-average molecular 
+weight (Mn) = 52,515 g/mol, weight-average molecular weight (Mw) = 180,382 g/mol, and peak molecular weight (Mp) = 150, 
+908 g/mol. The polydispersity index (PDI = Mw/Mn) is 3.43, indicating a broad molecular weight distribution, commonly observed in 
+polymers recovered from post-consumer waste due to partial degradation during use, environmental exposure, or extraction process 
+variability. These molecular weights are sufficient for electrospinning, though the high dispersity may affect solution viscosity and 
+fiber uniformity.
+To comprehensively verify safety compliance of the recycled cellulose acetate, surface chemistry, heavy metal content, and organic 
+contaminants were systematically characterized by XPS, ICP-MS, and GC-MS, respectively. XPS analysis was firstly employed to 
+determine surface chemical composition of CBs before and after cleaning. The C 1s spectra of used and cleaned CBs reveal dramatic 
+differences (Figures S2 (a-1) and (b-1)). For used CBs, the deconvoluted C 1s spectrum exhibits two peaks: 284.66 eV assigned to C–C/ 
+C–H bonds from adsorbed polycyclic aromatic hydrocarbons (PAHs) and tar deposits, and 285.54 eV attributed to C–N bonds from 
+nicotine and nitrogenous tobacco combustion products. Notably, characteristic cellulose acetate peaks are completely obscured by 
+smoke-derived contaminants, indicating extensive surface coverage by hydrophobic tar residues. In contrast, the C 1s spectrum of 
+cleaned CBs exhibits three well-resolved deconvoluted peaks corresponding to cellulose acetate: 284.65 eV (C–C/C–H bonds in the CA 
+polymer backbone), 286.49 eV (C–O functional groups, including ether linkages and secondary hydroxyls), and 288.87 eV (ester 
+carbonyl of acetate groups). The N 1s spectra provide direct evidence of nitrogenous contaminant removal (Figure S2 (a-2) and (b-2). 
+Used CBs exhibit a strong N 1s signal comprising two components: 399.25 eV (pyridinic/pyrrolic nitrogen from nicotine) and 
+400.33 eV (amide nitrogen from protein-derived compounds). Following cleaning, the N 1s signal intensity decreases by 90-95%, with 
+only a weak residual peak at 398.72 eV (pyridinic/pyrrolic N). This near-complete elimination demonstrates the cleaning protocol's 
+high efficacy in extracting nicotine and other nitrogen-containing contaminants, confirming the material's suitability for nanofiber 
+membrane fabrication with surface chemistry comparable to virgin cellulose acetate. This finding is further corroborated by the GC-MS 
+quantification of nicotine and 16 priority PAHs in CBs before and after cleaning (Table S3). The results demonstrate the highly effective 
+removal of nicotine and low-to-medium molecular weight PAHs, with removal efficiencies exceeding 97% for most detectable com-
+pounds, many of which fell below the limit of detection (LOD = 0.20 μg/g) post-cleaning. Notably, although the removal efficiencies 
+for nicotine and naphthalene reached 99.64% and 80.80%, respectively, their residual concentrations remained at 17.55 μg/g and 
+0.405 μg/g. Meanwhile, benzo [g,h,i]perylene exhibited an anomalous detection pattern, being quantified at 0.426 μg/g post-cleaning 
+despite being undetectable in the pristine samples. Based on these results, core toxic substances such as benzo [a]pyrene were un-
+detected (<LOD), fully complying with the stringent limit of ≤1 mg/kg (1 μg/g) for plastic components in consumer articles stipulated 
+by the EU REACH Regulation (Annex XVII, Entry 50) ((ECHA) 2025). Regarding the residual nicotine (17.55 μg/g), although there is 
+currently no specific mandatory standard targeting static nicotine residues in air filter media, this level is considered toxicologically 
+safe. This conclusion is supported by the United Nations GHS classification cut-off values for mixtures, as the concentration is far below 
+the 1% (10,000 μg/g) trigger threshold (Nations, 2021), and aligns with the exemption principles for trace impurities under the REACH 
+Regulation, remaining well below the 0.1% threshold (1000 μg/g) (Council, 2006).
+Moreover, ICP-MS analysis shows the cleaning process removed most heavy metals: approximately 75-77% of lead (Pb), 90–93% of 
+cadmium (Cd), 60–80% of chromium (Cr), and 50–55% of arsenic (As) (Table S4). Post-cleaning metal levels were significantly 
+reduced (Pb: 1738–1815 μg/kg; Cd: 62-88 μg/kg; Cr: 306-723 μg/kg; As: 1080–1167 μg/kg), all below U.S. EPA hazardous waste limits 
+(5000 μg/kg for Pb, As, Cr; 1000 μg/kg for Cd) ((EPA) 10 NOV 2023) and WHO drinking water guidelines (Environment 21 March 
+2022). This confirms the cleaned CBs material is safe for membrane fabrication and air filtration without risk of harmful metal 
+B. Akid et al.                                                                                                                                                                                                            Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+7 
+
+=== PDF PAGE 8 ===
+release. Torkashvand et al. (2022) demonstrated the efficacy of recycled CB membranes for water treatment (Torkashvand et al., 
+2022), and our results confirm this material meets safety standards for commercial use, reduces heavy metal exposure risks, and 
+provides a practical route to repurpose cigarette waste into air purification applications, advancing environmental sustainability goals.
+3.2. Air filtration performance of PAN/CBs hybrid nanofiber membranes
+3.2.1. Effect of PAN-to-CBs weight ratio
+3.2.1.1. Performance comparison. The filtration performance of electrospun nanofiber membranes is typically evaluated based on two 
+key parameters: particle removal efficiency and airflow resistance (pressure drop). As shown in Fig. 4(a), the membrane fabricated 
+from a total polymer concentration of 8 wt% with a PAN-to-CBs weight ratio of 1:1 was tested for its ability to capture PM1.0, PM2.5, 
+and PM10 at air velocities of 3.3, 5.3, and 7.3 cm/s over time. For particles in the 2.5-10 μm range (PM2.5 and PM10), the membrane 
+consistently achieved filtration efficiencies exceeding 99.9% across all tested airflow velocities throughout the entire filtration period. 
+In contrast, the efficiency for PM1.0 was slightly lower, at 99.45%. Given the excellent performance for larger particulates, it is crucial 
+to explore strategies to further enhance PM1.0 capture, particularly by tuning the composition of the membrane.
+One promising approach involves systematically varying the weight ratio of PAN to CBs while maintaining a constant total solids 
+concentration (8 wt%). Such an investigation can reveal how compositional changes affect nanofiber morphology, pore architecture, 
+and ultimately, the capture efficiency of ultrafine particles like PM1.0. To holistically assess filtration performance, the quality factor 
+was calculated and used as a comparative metric. As illustrated in Fig. 4(b), QF values for PM1.0 capture were evaluated across different 
+PAN/CBs weight ratios at the same total concentration (8 wt%) and under varying airflow velocities. Membranes with lower CBs 
+content, specifically PAN/CBs ratios of 1:0 and 1:0.1, exhibited superior QF values (both~0.012 Pa-1), primarily due to their signif-
+icantly lower pressure drops, as confirmed in Fig. 4(c). Fig. 4(c) shows a clear trend: increasing the CBs fraction leads to a progressive 
+Fig. 4. (a) Filtration efficiency of PAN/CBs nanofiber membranes (1:1 wt ratio, 8 wt% total concentration) for PM1.0, PM2.5, and PM10 at airflow 
+velocities of 3.3, 5.3, and 7.3 cm/s, (b) QF for PM1.0 capture under the same conditions, (c) Corresponding pressure drop across the membranes at 
+different CBs loadings, and (d) PM1.0 filtration efficiency of PAN/CBs membranes (8 wt% total concentration) as a function of PAN-to-CBs weight 
+ratio and airflow velocity.
+B. Akid et al.                                                                                                                                                                                                            Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+8 
+
+=== PDF PAGE 9 ===
+rise in pressure drop. At an airflow velocity of 3.3 cm/s, the pressure drop increased from 583 Pa (0% CB) to 738 Pa (higher CBs 
+loading); at 5.3 cm/s, it rose from 875 Pa to 1029 Pa; and at 7.3 cm/s, from 1082 Pa to 1162 Pa. This increase is attributed to the 
+formation of agglomerated CBs-derived residues on or within the fiber matrix, which reduces membrane porosity and impedes airflow. 
+Notably, a sharp rise in pressure drop was observed after approximately 30 min of continuous filtration for CBs-containing membranes, 
+likely due to fine particles becoming trapped in the tighter interstitial spaces between fibers. SEM analysis further confirmed that fibers 
+containing CBs exhibit smaller diameters compared to pure PAN fibers, contributing to denser packing and higher flow resistance. 
+Furthermore, as shown in Fig. 4(d), increasing the CBs content also led to a modest but consistent decline in PM1.0 filtration efficiency. 
+At airflow velocities of 3.3, 5.3, and 7.3 cm/s, the efficiency decreased from 99.90%, 99.94%, and 99.98% (for 0% CBs) to 99.46%, 
+99.45%, and 99.46% (at higher CBs loadings), respectively. This reduction is likely caused by morphological disruptions in the 
+nanofibrous network, such as non-uniform fiber distribution, increased surface roughness, or enlarged inter-fiber voids, induced by the 
+incorporation of heterogeneous CBs-derived components. These structural irregularities may compromise the membrane's ability to 
+effectively intercept ultrafine particles via mechanisms like diffusion and interception.
+Nevertheless, even at elevated CBs loadings, the filtration efficiency for PM1.0 remains above 99.4%, underscoring the robust 
+performance of these hybrid membranes. Critically, this demonstrates that waste cigarette butts can be successfully valorized into 
+functional air filtration materials without significantly compromising performance, offering a sustainable pathway for upcycling a 
+Fig. 5. SEM images of electrospun PAN/CB nanofiber membranes (8 wt% total concentration) with varying PAN-to-CBs weight ratios: (a) 1:0, (b) 
+1:0.1, (c) 1:0.2, (d) 1:0.4, (e) 1:0.6, (f) 1:0.8, and (g) 1:1. All images were acquired at a magnification of 10,000×. The corresponding fiber diameter 
+distributions are shown in Fig. S3, whereas the pore-size distributions are presented in Figure S4 (h, i) SEM images (magnification: 2000×) of the 
+membranes after 30 min of filtration testing with incense smoke: (h) PAN/CBs (1:0) and (i) PAN/CBs (1:1). (j, k) EDS elemental mapping of (j) PAN/ 
+CBs (1:0) and (k) PAN/CBs (1:1) membranes, highlighting the spatial distribution of nitrogen (from PAN) and oxygen (from cellulose acetate in 
+CBs). Inset (Inverted Table 1): Summary of BET-specific surface area, average fiber diameter, and average pore size for PAN/CBs (8 wt%) mem-
+branes as a function of PAN-to-CBs weight ratio.
+B. Akid et al.                                                                                                                                                                                                            Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+9 
+
+=== PDF PAGE 10 ===
+pervasive environmental pollutant.
+3.2.1.2. Membrane characterization and mechanism analysis. Following the evaluation of filtration performance in Fig. 4, a compre-
+hensive suite of physicochemical and structural characterizations was carried out to elucidate the underlying mechanisms governing 
+the observed trends in particle capture efficiency, pressure drop, and quality factor. SEM was employed to investigate how the 
+incorporation of CBs-derived components influences the morphology, diameter, and surface architecture of PAN-based nanofibers at a 
+fixed total concentration of 8 wt%, while varying the PAN-to-CBs weight ratio. As shown in Fig. 5(a–g), the electrospun fibers maintain 
+continuous and smooth morphologies across all compositions, from pure PAN (1:0) to a 1:1 PAN/CBs blend, indicating good dispersion 
+of CBs components within the PAN/DMF solution and compatibility during electrospinning. However, a clear reduction in average 
+fiber diameter is observed, decreasing from 120.91 nm (1:0) to 72.93 nm (1:1), as showed in Fig. S3. This thinning effect is consistent 
+with established literature indicating that carbon-based additives incorporation can reduce polymer solution viscosity and enhance 
+charge density on the electrospinning jet, thereby intensifying stretching forces in the electric field and yielding finer fibers (Jo et al., 
+2024). A similar trend is seen in pore size (Fig. S4), which contracts from 0.62 μm (1:0) to 0.45 μm (1:1), further confirming the 
+densification of the fibrous network with higher CBs content. Post-filtration SEM images, as illustrated in Fig. 5(h–i), reveal that the 
+PAN/CBs (1:1) membrane appears more heavily loaded with captured particles compared to pure PAN (1:0), with visible fiber 
+bending, breakage, and displacement, suggesting greater particle adhesion, as illustrated in Fig. 6. Paradoxically, despite this apparent 
+“dirtier” appearance, its PM1.0 filtration efficiency is slightly lower than that of pure PAN. This counterintuitive result underscores a 
+critical principle in filtration science: performance is not solely determined by particle retention but also by airflow dynamics and 
+structural integrity. The denser, thinner-fiber structure of the 1:1 membrane leads to faster clogging and significantly higher resistance 
+to airflow, as corroborated by the elevated pressure drop in Fig. 4(c), making it less energy-efficient despite its high initial capture 
+capacity (Zhang et al., 2019). EDS mapping illustrated in Fig. 5(j–k) provides direct evidence of molecular-level integration between 
+PAN and CBs components. Nitrogen (N), characteristic of PAN's nitrile groups, and oxygen (O), primarily from cellulose acetate in CBs, 
+are co-localized across individual fibers. With increasing CBs content (from 0% to 50%), N intensity decreases while O increases, 
+confirming uniform blending rather than phase separation (Lakshmanan et al., 2021).
+Notably, under identical electrospinning conditions, the thickness of all membranes ranges from 48 μm (pure PAN (1:0)) to 45 μm 
+(PAN/CBs (1:1)), with the exception of the 1:0.8 sample (32 μm), as shown in Fig. 7(a). At this intermediate loading, the addition of 
+cellulose acetate from CBs may transiently reduce solution viscosity or alter jet stretching dynamics, yielding finer fibers and/or lower 
+deposition rates. However, this trend was reproducible across ≥5 independent electrospinning batches (Table S5). And, even with 
+substantial incorporation of hydrophilic cellulose acetate, the membranes retain strong hydrophobicity, as evidenced by water contact 
+Fig. 6. Schematic diagram of the possible mechanism to illustrate the difference of PAN and PAN/CBs membranes in the particle removal efficiency.
+B. Akid et al.                                                                                                                                                                                                            Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+10 
+
+=== PDF PAGE 11 ===
+angles consistently above 120◦ (Fig. 7(b)). In contrast, pure PAN unexpectedly transitions from hydrophobic (~118◦) to hydrophilic 
+(<90◦) within 60 s (Fig. 7(c)), likely due to surface hydrolysis of nitrile groups into carboxylic acids during storage or processing. The 
+sustained hydrophobicity in PAN/CBs composites suggests that PAN remains dominant at the fiber surface, effectively shielding the 
+internal hydrophilic CA domains, a feature highly beneficial for air filtration, as it prevents moisture-induced pore clogging under 
+humid conditions. This structural and surface behavior directly influences specific surface area, as quantified by BET analysis (sum-
+marized in the inset table of Fig. 5). The addition of CBs increases surface area from 16.14 m2/g (1:0) to a peak of 24.47 m2/g at the 
+1:0.8 ratio, despite the latter membrane being physically thinner, highlighting how nanoscale roughness and reduced fiber diameter 
+can compensate for reduced thickness. Overall, surface area inversely correlates with fiber diameter: finer fibers yield higher surface- 
+to-mass ratios, enhancing potential interaction sites for particle capture. However, mechanical robustness presents a trade-off. Tensile 
+strength declines markedly with CBs loading, from 0.0021 MPa (1:0) to 0.0008 MPa (1:1), due to poor interfacial adhesion, filler 
+agglomeration, and disruption of the continuous PAN network (Fig. 7(d–e)). While low CBs content offers marginal reinforcement, 
+higher loadings induce brittleness, emphasizing the need for compositional optimization or hybrid strategies, such as increased the 
+spinning time during electrospinning or blending with some other materials, to balance filtration performance with mechanical 
+durability (Zhou et al., 2025). Finally, FT-IR spectroscopy illustrated in Fig. 7(f) confirms the chemical coexistence of both components 
+without degradation. The signature nitrile (C ––– N) stretch of PAN at ~2242 cm-1 and CH2 bending at ~2940 cm-1 remain present 
+across all samples, though their intensity diminishes with increasing CBs content (Zhou et al., 2025). Concurrently, new peaks emerge, 
+most notably the ester carbonyl (C––O) stretch at ~1748 cm-1, along with C–O–C (~1235 cm-1), C–O (~1046 cm-1), and CH bending 
+(~1374 cm-1), all characteristic of cellulose acetate (Kakoria and Sinha-Ray, 2022). The broad band between 3502 and 3908 cm-1 
+corresponds to adsorbed moisture. Crucially, peak positions remain unchanged regardless of composition, indicating no chemical 
+reaction between PAN and CBs during electrospinning. Thus, CBs function not as inert fillers but as functional additives that introduce 
+polar ester groups into the matrix, potentially enhancing electrostatic or dipole-based particle interactions, while preserving the 
+structural backbone of PAN.
+Collectively, these characterizations reveal that while CBs incorporation refines fiber morphology, increases surface area, and 
+imparts functional chemical groups, it also introduces trade-offs in pressure drop, mechanical strength, and ultrafine particle capture 
+efficiency. Nevertheless, the PAN/CBs hybrid membranes, particularly at moderate CBs loadings, demonstrate a compelling balance of 
+high filtration performance (>99.4% for PM1.0), hydrophobic stability, and waste valorization potential, positioning them as prom-
+ising candidates for sustainable air filtration technologies.
+3.2.2. Effect of post-heat treatment
+After investigating the effect of varying the PAN to CBs weight ratio at a fixed 8 wt% total polymer concentration on air filtration 
+performance, the results obtained particularly for PM1.0 capture however did not yet meet the desired efficiency targets, despite 
+promising performance for PM2.5 and PM10. Among the formulations tested, the PAN/CBs 8 wt% membrane with a 1:1 wt ratio 
+exhibited a favorable balance of fine fiber morphology, reduced pore size, and relatively high surface area, making it the most suitable 
+Fig. 7. (a) Membrane thickness, (b) water contact angle, (c) water contact angle over 60s, (d) stress-strain curves, (e) tensile stress (TS) and 
+elongation at break (EB), and (f) FT-IR spectra of PAN/CBs 8 wt% total concentration nanofiber membranes under different weight ratio of PAN 
+to CBs.
+B. Akid et al.                                                                                                                                                                                                            Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+11 
+
+=== PDF PAGE 12 ===
+candidate for further optimization. Consequently, nanofiber membrane was selected to study the impact of post-electrospinning heat 
+treatment at 100, 120, and 140◦C on both air filtration performance and membrane morphology, with the aim of enhancing structural 
+integrity and ultrafine particle capture efficiency through controlled thermal stabilization. As illustrated in Fig. 8(a), the filtration 
+performance of the PAN/CBs 1:1 8 wt% at different heat-treatment temperature at air-flow velocity of 5.3 cm/s, over-time to capture 
+PM1.0, PM2.5, and PM10. Through heat-treatment, it can be seen an improved on the particle removal efficiency especially for PM1.0 
+capture from 99.78% at 100◦C to 99.88% at 140◦C. These promising results however accomplished with a higher airflow resistance 
+(pressure drop in Fig. 8(b)) of all air-flow velocity from 738 Pa to 1002 Pa at 3.3 cms-1, 1029 Pa to 1550 Pa at 5.3 cms-1, and 1162 Pa to 
+1995 Pa at 7.3 cms-1. Thus, resulting in a lower quality factor (QF) in Fig. 8(c), which balances efficiency against pressure drop.
+Morphological analysis of the SEM images in Fig. 9(a–c) reveals that increasing the heat-pressing temperature from ambient (0◦C, 
+reference sample shown in Fig. 5(g)) to 140◦C progressively induces fiber expansion and coalescence. Consequently, the average fiber 
+diameter increases from 72.93 nm (0◦C) to 81.08 nm (100◦C), 90.42 nm (120◦C), and 90.82 nm (140◦C), as illustrated in Fig. S5. 
+Concurrently, the average pore size (Fig. S6) decreases from 0.045 μm (0◦C) to 0.038 μm (100◦C), 0.034 μm (120◦C), and slightly 
+rebounds to 0.037 μm (140◦C). This reduction in pore size may enhance particle interception; however, the thicker fibers and denser 
+fibrous network significantly compromise air permeability (Zhang et al., 2020). As evidenced by the post-filtration surface morphology 
+in Fig. 9(d), this structural densification leads to a marked increase in pressure drop without commensurate gains in filtration effi-
+ciency, particularly for fine particles such as PM1.0. Moreover, the membrane thickness (illustrated in Fig. 9(g)) become flattered after 
+heat pressing treatment from 0.05 mm at 0◦C to approximately 0.025 mm across all temperature of 100-140◦C, which can be ascribe to 
+an improve in the nanofibers’ adhesion and tighten their inter-junction bonding to cause physical fusion among fibers with impeding 
+fiber slippage while restricting their mobility. Collectively, these findings indicate that, under the current processing conditions, heat 
+pressing alone is insufficient to simultaneously achieve high filtration efficiency and low airflow resistance. This underscores the need 
+for complementary strategies, such as optimizing polymer solution concentration, to achieve high-performance, low-resistance air 
+filtration membranes from recycled cigarette butts.
+Additionally, EDS elemental mapping of the nanofiber membrane after heat treatment at 120◦C and exposure to incense smoke 
+(Fig. 9(e–f)) confirms the capture of a diverse array of combustion byproducts. Detected elements include nitrogen (N), oxygen (O), 
+silicon (Si), sulfur (S), chlorine (Cl), and potassium (K). Notably, potassium serves as a well-established tracer for incense smoke, 
+originating from potassium-based additives such as potassium nitrate used as oxidizers or binders. Sulfur and chlorine likely derive 
+Fig. 8. (a) Particle removal efficiency of PM1.0, PM2.5, and PM10 at 5.3 cm/s air-flow velocity, (b) pressure drop, and (c) quality factor under 
+different post-heat treatment temperature of PAN/CBs 1:1 8 wt% total concentration.
+B. Akid et al.                                                                                                                                                                                                            Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+12 
+
+=== PDF PAGE 13 ===
+from dyes, fragrances, or impurities that release sulfurous or chlorinated compounds upon combustion. Silicon is probably associated 
+with inorganic fillers (e.g., talc or silica) commonly incorporated into incense sticks (Mannix et al., 1996). Meanwhile, N and O signals 
+arise both from the membrane matrix (comprising PAN and cellulose acetate from cigarette butts) and from oxygen- and 
+nitrogen-containing organic pollutants (e.g., VOCs and aromatic compounds) present in the smoke. The detection of this broad 
+spectrum of elements on the membrane surface demonstrates its capability not only to capture particulate matter but also to adsorb 
+complex chemical constituents generated during real-world incense burning, highlighting its promising potential for practical indoor 
+air purification applications.
+3.2.3. Effects of total weight ratio of PAN to CBs
+3.2.3.1. Performance comparison. Following the initial investigation into the effect of varying the PAN-to-CBs weight ratio at a fixed 
+total polymer concentration of 8 wt%, it was observed that while the particle removal efficiency for larger particulates (PM2.5 and 
+PM10) remained excellent, PM1.0 capture by PAN/CBs (1:1) membranes fell slightly short of the performance achieved by pure PAN, 
+despite still exceeding 99.4%. To further understand how both total polymer concentration and CBs incorporation jointly influence 
+membrane microstructure and filtration behavior, an expanded series of formulations was prepared and evaluated: PAN/CBs (1:0 and 
+1:1) at total concentrations of 8, 10, and 14 wt%. This systematic approach allows for a direct assessment of how increasing polymer 
+content, either with or without CBs, affects fiber morphology, packing density, and the critical trade-off between particle capture 
+efficiency and airflow resistance.
+Fig. 10(a) presents the PM1.0 filtration efficiencies of pure PAN (1:0) and PAN/CBs (1:1) nanofiber membranes across the three 
+polymer concentrations and at airflow velocities of 3.3, 5.3, and 7.3 cm/s. At 8 wt%, pure PAN consistently achieves >99.9% effi-
+ciency, whereas PAN/CBs (1:1) shows a modest reduction (99.45-99.6%), likely due to structural heterogeneities introduced by the 
+recycled CBs material. However, when the total concentration is increased to 10 wt%, the PAN/CBs (1:1) membrane not only matches 
+but slightly exceeds pure PAN, reaching 99.97-99.99% efficiency, even at the highest airflow velocity. This indicates that a higher 
+polymer concentration promotes the formation of a denser, more cohesive fibrous network that effectively compensates for the 
+disruptive effects of CBs incorporation. At 14 wt%, PAN/CBs (1:1) maintains robust performance (≥99.83%), while pure PAN exhibits 
+a slight decline at 7.3 cm/s (99.62%), possibly due to excessive thickness or reduced porosity that leads to non-uniform airflow and 
+particle bypass. This behavior may be attributed to the residual static charges retained from the electrospinning process, especially 
+when the CBs is present. During electrospinning, the high voltage and rapid solvent drying lock electric charges into the solidified 
+fibers, and due to CBs fibers are mainly composed of cellulose acetate, a polar material that naturally holds onto static charges well, 
+they help stabilize these electric fields within the composite nanofibers during fiber formation. These electrostatic forces attract and 
+capture fine particles through direct electrical attraction, at higher airflow speed (Kim et al., 2024). This helps compensate for the 
+shorter contact time between PM particles and the filter when air moves faster. Similar mechanisms were also found in the scientific 
+literature (Jiang et al., 2024; Scaffaro et al., 2026). Collectively, these results demonstrate that CBs incorporation becomes advan-
+tageous at higher polymer concentrations, with the 14 wt% PAN/CBs (1:1) membrane delivering near-complete PM1.0 removal across 
+all conditions, highlighting its potential as a high-performance, sustainable air filter in which waste-derived CBs enhance rather than 
+Fig. 9. SEM images of PAN/CBs 1:1 8 wt% nanofiber under different post-heat treatment of (a) 100◦C, (b) 120◦C, (c) 140◦C. The corresponding 
+fiber diameter distributions are shown in Fig. S5, whereas the pore-size distributions are presented in Fig. S6. (d) SEM images of PAN/CBs 1:1 8 wt% 
+nanofiber at 120◦C before and after the capture of incense smoke for 30 min, (e) original EDS mapping image, (f) component revealed attract to the 
+fiber surface EDS mapping image of PAN/CBs 1:1 8 wt% at 120◦C after filtering incense smoke, and (g) the membrane thickness of PAN/CBs 1:1 
+8 wt% under heat pressing treatment.
+B. Akid et al.                                                                                                                                                                                                            Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+13 
+
+=== PDF PAGE 14 ===
+compromise functionality when properly formulated.
+Pressure drop measurements are shown in Fig. 10(b). Remarkably, despite the substantial improvement in filtration efficiency, 
+increasing the total polymer concentration from 8 to 14 wt% leads to a significant reduction in pressure drop for both membrane types 
+across all airflow velocities. For pure PAN, the pressure drop at 7.3 cm/s decreases dramatically from 1082 Pa (8 wt%) to 566 Pa (10 wt 
+%) and further to just 197 Pa (14 wt%). Similarly, for PAN/CB (1:1), it drops from 1162 Pa (8 wt%) to 1133 Pa (10 wt%) and then to 
+434 Pa (14 wt%). This counterintuitive trend suggests that higher polymer concentrations yield more open, uniform, or better- 
+organized fibrous architectures during electrospinning, enhancing permeability even as more material is deposited. Nevertheless, 
+PAN/CBs (1:1) membranes consistently exhibit higher pressure drops than their pure PAN counterparts at equivalent concentrations, 
+confirming that CBs incorporation increases structural density or reduces effective porosity. Importantly, the 14 wt% PAN/CBs 
+membrane still achieves a relatively low pressure drop (269 Pa at 3.3 cm/s; 434 Pa at 7.3 cm/s) while maintaining >99.8% PM1.0 
+efficiency, demonstrating an excellent balance between high capture performance and pressure drop.
+The quality factor (QF), which integrates efficiency and pressure drop into a single metric of overall filtration performance, is 
+summarized in Fig. 10(c). In all cases, QF improves markedly with increasing polymer concentration. For pure PAN at 3.3 cm/s, QF 
+rises from 0.0119 Pa-1 (8 wt%) to 0.0246 Pa-1 (10 wt%) and sharply to 0.0575 Pa-1 (14 wt%). PAN/CB (1:1) shows a parallel trend, 
+increasing from 0.0071 Pa-1 (8 wt%) to 0.0127 Pa-1 (10 wt%) and 0.0356 Pa-1 (14 wt%). This enhancement persists even at 7.3 cm/s, 
+where the 14 wt% PAN and PAN/CBs membranes achieve QFs of 0.0413 Pa-1 and 0.0147 Pa-1, respectively, both substantially higher 
+than their 8 wt% counterparts. Although PAN/CBs nanofiber membranes consistently exhibit lower QF values than pure PAN at 
+matched concentrations (due to higher pressure drops), their performance improves significantly with increased polymer loading. 
+Notably, the 14 wt% PAN/CBs nanofiber membrane attains a respectable QF of 0.0356 Pa  1 at 3.3 cm/s, confirming that recycled CBs 
+can be integrated into high-efficiency filters without severely compromising the efficiency-resistance balance.
+Finally, Fig. 10(d) directly compares the filtration performance of PAN/CBs (1:1) nanofiber membranes at 10 wt% and 14 wt% with 
+Fig. 10. (a) Particle removal efficiency, (b) pressure drop, and (c) quality factor (QF) for PM1.0 capture by electrospun pure PAN (1:0) and PAN/CBs 
+(1:1) nanofiber membranes at total polymer concentrations of 8, 10, and 14 wt%, evaluated under airflow velocities of 3.3, 5.3, and 7.3 cm/s. (d) 
+Comparison of air filtration performance between PAN/CBs (1:1) membranes at 10 wt% and 14 wt% total polymer concentration and pure PAN 
+(1:0) at 8 wt%.
+B. Akid et al.                                                                                                                                                                                                            Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+14 
+
+=== PDF PAGE 15 ===
+that of pure PAN at 8 wt%. The results reveal a key insight: by fixing the PAN:CBs ratio at 1:1 and simply increasing the total polymer 
+concentration, the composite membrane can match or even surpass the performance of a pure PAN nanofiber membrane containing 
+twice as much PAN. This is particularly significant given that PAN is a high-performance but costly polymer, whereas CBs are 
+abundant, low-cost waste materials. While CBs alone lack sufficient filtration capability, blending them equally with PAN and pro-
+cessing at higher concentrations (10-14 wt%) yields membranes with fine, densely packed fibers and optimized pore structures that 
+efficiently capture PM1.0 while maintaining acceptable airflow. Thus, replacing half of the PAN with valorized cigarette butt waste 
+does not degrade (indeed, under optimal conditions, it can enhance) overall filtration performance, offering a compelling strategy for 
+sustainable, cost-effective air purification.
+3.2.3.2. Membrane characterization and mechanism analysis. Following the observation of enhanced air filtration performance for 
+PAN/CBs nanofiber membranes at higher polymer concentrations (Fig. 10), a comprehensive set of morphological, surface, and 
+chemical characterizations was carried out to elucidate the underlying mechanisms. SEM images in Fig. 11(a–d) reveal that increasing 
+the total polymer concentration from 8 wt% to 14 wt% leads to a pronounced thickening of fibers: the average diameter of pure PAN 
+(1:0) rises from 121 nm (8 wt%, Fig. 5(a)) to 261.75 nm (10 wt%, Fig. 11(a)) and further to 505.26 nm (14 wt%, Fig. 11(c)), while 
+PAN/CB (1:1) fibers increase from 73 nm (8 wt%, Fig. 5(g)) to 153.30 nm (10 wt%, Fig. 11(b)) and 453.95 nm (14 wt%, Fig. 11(d)), 
+Fig. 11. SEM images of PAN/CBs nanofiber membranes at total polymer concentrations of 10 wt% and 14 wt% with PAN:CBs weight ratios of (a) 
+1:0, (b) 1:1, (c) 1:0, and (d) 1:1, respectively. All images are acquired at a magnification of 10,000×. The corresponding fiber diameter distributions 
+are shown in Fig. S7, whereas the pore-size distributions are presented in Figure S8 (e-h) SEM images of the same membranes after 30 min of incense 
+smoke filtration, imaged at 2000× magnification. (i-l) EDS elemental mapping of the as-spun membranes corresponding to (i) 10 wt% (1:0), (j) 
+10 wt% (1:1), (k) 14 wt% (1:0), and (l) 14 wt% (1:1). (m–o) SEM-EDS mapping of a pure PAN (1:0) membrane at 14 wt% after filtrations under 
+airflow velocities of (m) 3.3 cm/s, (n) 5.3 cm/s, and (o) 7.3 cm/s, showing particulate deposition patterns. Inverted Table 2. BET-specific surface 
+area, along with measured average fiber diameter and pore size, for PAN (1:0) and PAN/CBs (1:1) nanofiber membranes at 10 wt% and 14 wt% total 
+polymer concentrations.
+B. Akid et al.                                                                                                                                                                                                            Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+15 
+
+=== PDF PAGE 16 ===
+whereas their fiber diameter distributions are shown in Fig. S7. Concurrently, pore sizes expand from 0.062 μm (pure PAN) and 
+0.045 μm (PAN/CBs) at 8 wt% (Fig. 5(a–g)) to 0.118 μm and 0.124 μm at 14 wt% (Fig. 11(c–d)), whereas their pore-size distributions 
+are shown in Fig. S8, and membrane thickness increases, with pure PAN growing from 51 μm (Fig. 7(a)) to 69 μm (Fig. 12(a)). Although 
+larger pores might intuitively compromise filtration, the combined effect of greater thickness and denser fiber packing enables depth 
+filtration, allowing particles to be captured throughout the membrane bulk rather than solely on the surface, thereby improving PM1.0 
+capture efficiency without a proportional rise in pressure drop. Notably, even though PAN/CBs membranes are thinner than their pure 
+PAN counterparts at equivalent concentrations, they maintain high filtration efficacy, especially at 14 wt%, owing to their relatively 
+finer fibers that form a tighter, more tortuous network capable of compensating for reduced thickness. Post-filtration SEM images 
+(Fig. 11(e–h)) confirm that both membrane types retain structural integrity after exposure to incense smoke, with PAN/CBs mem-
+branes exhibiting denser particle deposition, a feature consistent with earlier reports that CBs incorporation promotes a more compact 
+fibrous architecture. EDS mapping of membranes at 10 wt% and 14 wt% (Fig. 11(i–l)) further supports this: nitrogen signals (from 
+PAN's nitrile groups) dominate in pure PAN, while oxygen content (originating from cellulose acetate in CBs) is significantly elevated 
+in PAN/CBs composites. Importantly, this elemental trend persists even at higher polymer loadings, indicating uniform dispersion and 
+chemical stability of CBs within the fibers. Moreover, SEM-EDS analysis of pure PAN (14 wt%) after filtration under varying airflow 
+velocities (Fig. 11(m–o)) demonstrates a clear dependence of particle loading on flow rate: minimal deposition occurs at 3.3 cm/s, 
+moderate accumulation at 5.3 cm/s, and heavy particle adhesion at 7.3 cm/s. This behavior arises because faster airflow increases the 
+number of particles, fiber collisions per second, enhancing capture probability; however, excessive accumulation may accelerate pore 
+clogging, leading to higher pressure drop and potentially shortened filter lifespan (Cui et al., 2021). The absence of significant particle 
+rebound suggests that inertial impaction and interception remain highly effective across all tested velocities.
+Complementing these morphological insights, BET surface area measurements (Inverted Table 2 in Fig. 11) show that PAN/CBs 
+(1:1) membranes possess higher specific surface areas, 18.58 m2/g at 10 wt% and 10.38 m2/g at 14 wt%, compared to pure PAN 
+(10.06 m2/g and 6.60 m2/g, respectively). This indicates that despite fiber coarsening with increasing concentration, which typically 
+reduces surface area, the inclusion of CBs introduces micro-roughness or internal porosity that partially offsets this loss. Nevertheless, 
+the overall decline in surface area with higher polymer content reflects the dominant influence of fiber thickening. Surface wettability, 
+assessed via water contact angle (WCA, Fig. 12(b)), reveals strong hydrophobicity across all formulations, with values ranging from 
+123◦ to 130◦. Droplets remain stable over 60 s (Fig. 12(c)), confirming robust water repellency and high chain crystallinity that limits 
+moisture penetration. This stems from PAN's preferential migration to the fiber surface during electrospinning, effectively encapsu-
+lating the hydrophilic hydroxyl and ester groups of cellulose acetate within the fiber core. A slight WCA reduction for PAN/CBs 
+(123.2◦) versus pure PAN (130.3◦) at 14 wt% may reflect minor surface exposure of CBs components at very high concentrations (Ding 
+et al., 2006), yet the membrane remains distinctly hydrophobic. Additionally, the subtle increase in WCA with rising polymer con-
+centration suggests that thicker, smoother fibers further enhance surface non-wettability.
+Mechanical testing (Fig. 12(d and e)) uncovers a nuanced trade-off between strength and flexibility. While pure PAN exhibits 
+superior ductility, elongating by 40.86% before failure compared to only 14.26% for PAN/CB, indicating greater flexibility and energy 
+absorption capacity, an unexpected reversal occurs at 14 wt%: PAN/CB (1:1) achieves a tensile strength of 0.0036 MPa, over three 
+Fig. 12. (a) Membrane thickness, (b) water contact angle, (c) water contact angle over 60s, (d) stress-strain curves, (e) tensile stress (TS) and 
+elongation at break (EB), and (f) FT-IR spectra of PAN/CBs 10 wt% and 14 wt% total concentration nanofiber membranes under different weight 
+ratio of PAN to CBs of (1:0 and 1:1).
+B. Akid et al.                                                                                                                                                                                                            Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+16 
+
+=== PDF PAGE 17 ===
+times higher than pure PAN (0.001 MPa). This implies that at high polymer concentrations, CBs may facilitate the formation of a more 
+cohesive or densely packed fibrous network that better resists fracture under load (Han et al., 2007; Jo et al., 2024). Thus, although 
+PAN/CBs membranes are stiffer and less stretchable, their enhanced strength at elevated concentrations renders them mechanically 
+suitable for practical air filtration applications where handling durability matters.
+Finally, FT-IR analysis (Fig. 12(f)) confirms the physical nature of the PAN/CB blend. Characteristic peaks of PAN, including C–H 
+stretching at ~2939 cm-1 and C ––– N stretching at ~2242 cm-1, are present in all samples, while PAN/CBs membranes additionally 
+display peaks from cellulose acetate at ~1748 cm-1 (C––O), ~1234 cm-1 (C–O–C), ~1046 cm-1 (C–O), and ~1374 cm-1 (C–H), along 
+with broad O–H bands (3446-3948 cm-1) from adsorbed water. Crucially, no peak shifts are observed across 8 wt% (Figs. 7(f)), 10 wt%, 
+and 14 wt% formulations (Fig. 12(f)), demonstrating that PAN and CBs do not undergo chemical reaction during electrospinning but 
+instead form a homogeneous physical mixture. Consequently, tuning the total polymer concentration modulates only the relative 
+abundance of each component, not their intrinsic chemistry, enabling precise optimization of filtration performance while preserving 
+the fundamental material structure.
+3.2.4. CBs as one sustainable additive to enhance PAN membrane performance in air filtration
+3.2.4.1. Performance comparison. Following the evaluation of the air filtration performance of pure PAN and PAN/CB (1:1) nanofiber 
+membranes electrospun from 10 wt% and 14 wt% total polymer solutions, a distinct enhancement in filtration efficiency alongside a 
+reduction in pressure drop was observed as the polymer concentration increased. Notably, porosity measurements reveal that the pure 
+PAN nanofiber membranes exhibit a slight decrease in porosity when the polymer concentration increases from 10 wt% 
+(77.60 ± 4.21%) to 14 wt% (74.63 ± 1.25%), as detailed in Table S5. This indicates that the superior filtration performance at 14 wt% 
+is not attributed to increased void space, but rather to a more optimized fibrous network. At the higher concentration, the fibers exhibit 
+greater uniformity and fewer structural defects, forming well-defined air channels that reduce airflow resistance while maintaining 
+robust particle capture capability. This optimal balance between filtration efficiency and air permeability is further corroborated by 
+the maximum QF achieved at 14 wt%.
+This observation motivates a systematic investigation into the electrospinnability limits of pure PAN and PAN/CBs blends, with 
+CBs-derived material incorporated as a functional additive. To this end, PAN concentrations are fixed at 8 wt%, 10 wt%, and 14 wt%, 
+and CBs are added to achieve a total polymer concentration of 18 wt%, the highest concentration attainable without needle clogging or 
+disruption of continuous fiber formation under the given processing conditions. This approach enables maximized utilization of 
+recycled CBs while remaining within the electrospinnable window defined by pure PAN. Fig. 13 presents the quality factor results, 
+which reveal a distinct trend in how CBs incorporation influences filtration performance relative to pure PAN membranes. While, their 
+filtration efficiency and pressure drop can be seen in Figs. S9 and S10. Among all samples, the nanofiber membrane fabricated from 
+pure PAN at 14 wt% exhibits the highest overall filtration performance across all tested face velocities (3.3, 5.3, and 7.3 cm/s), with QF 
+values of 0.0575 Pa-1, 0.05097 Pa-1, and 0.04131 Pa-1, respectively. This superior performance is supported by post-filtration SEM-EDS 
+images (Fig. 11(m–o)), which show that most captured particles are retained on the topmost layer of the fibrous network, indicative of 
+efficient surface filtration with minimal penetration into the membrane depth. Importantly, the addition of CBs significantly enhances 
+the performance of membranes formulated with lower PAN content (≤10 wt%). At an air velocity of 3.3 cm/s, the PAN 8 wt% + CBs 8 
+wt% and PAN 10 wt% + CBs 6 wt% blends achieve QF values of 0.05398 Pa-1 and 0.05576 Pa-1, respectively, values approaching that 
+of pure PAN 14 wt%. This indicates that CBs can effectively compensate for the lower polymer concentration, enabling near-optimal 
+filtration performance under mild operating conditions (Fig. 13(a)). At medium (5.3 cm/s) and high (7.3 cm/s) air velocities, CBs- 
+containing membranes consistently outperform their pure PAN counterparts at equivalent PAN concentrations (Fig. 13(b–c)). 
+Fig. 13. The QF of pure PAN at the concentration from 8 to 18 wt% and fixed PAN with the concentration of 8, 10, and 14 wt% with rising the total 
+solids concentration (PAN + CBs) up to 18 wt% by adding CBs as additives under different air-flow velocity of (a) 3.3 cm/s, (b) 5.3 cm/s, and (c) 7.3 
+cm/s.
+B. Akid et al.                                                                                                                                                                                                            Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+17 
+
+=== PDF PAGE 18 ===
+Specifically, PAN 8 wt% + CBs > pure PAN 8 wt%, and PAN 10 wt% + CBs > pure PAN 10 wt%. This enhancement is likely attributed 
+to the finer fiber morphology and modified surface chemistry introduced by CBs, which facilitate more effective particle capture 
+without excessive increase in pressure drop. Nevertheless, none of the CBs-containing membranes surpass the performance of pure 
+PAN 14 wt%. Notably, the PAN 14 wt% + CBs blend exhibits inferior QF compared to pure PAN 14 wt%, suggesting that at high 
+polymer loadings, the presence of CBs disrupts the optimal fiber packing density, uniformity, or inter-fiber architecture responsible for 
+the exceptional performance of the pure PAN system. Therefore, CBs act as a performance-enhancing additive only when the PAN 
+content is moderate or low (≤10 wt%). Under these conditions, blending with waste-derived CBs enables the fabrication of high- 
+efficiency air filters using reduced amounts of virgin PAN, with minimal compromise in filtration performance, particularly under 
+typical indoor air filtration conditions. This strategy offers a sustainable pathway to valorize post-consumer cigarette waste while 
+maintaining competitive membrane functionality.
+3.2.4.2. Membrane characterization and mechanism analysis. Polymer concentration, solution viscosity, and molecular weight are key 
+Fig. 14. SEM images of PAN nanofiber membranes under different total polymer concentration of (a) 12 wt%, (b) 16 wt%, and (c) 18 wt%. 
+Magnitude is 10000. The corresponding fiber diameter distributions are shown in Fig. S11, whereas the pore-size distributions are presented in 
+Fig. S12. SEM images after the capture of incense smoke for 30 min of PAN nanofiber membranes corresponding to (d) 12 wt%, (e) 16 wt%, and (f) 
+18 wt%. Magnitude is 2000. EDS mapping analysis of PAN nanofiber membranes corresponding to (g) 12 wt%, (h) 16 wt%, and (i) 18 wt%. Inverted 
+Table 3. Specific Surface Area (BET), and evaluation of the measured average diameter and pore size of pure PAN nanofiber membranes at 12 wt%, 
+16 wt% and 18 wt% total concentration.
+B. Akid et al.                                                                                                                                                                                                            Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+18 
+
+=== PDF PAGE 19 ===
+determinants of electrospinnability, as they directly govern the viscoelastic properties of the precursor solution. In general, for a given 
+polymer system, an increase in solution concentration leads to higher viscosity, which typically results in larger fiber diameters and 
+correspondingly enlarged inter-fiber pore sizes. Conversely, lower concentrations yield finer fibers due to reduced chain entanglement 
+and weaker resistance to jet elongation during electrospinning. Fig. 14(a–c) presents SEM images of electrospun polyacrylonitrile 
+(PAN) nanofibers fabricated from solutions with polymer concentrations ranging from 12 wt%, 16 wt%, and 18 wt%, while 8 wt%, 
+10 wt%, and 14 wt%, can be observed from (Figure 5(a), (11a), and (11c), respectively). All samples exhibit uniform, smooth, and 
+bead-free morphologies, indicating that the selected PAN molecular weight, combined with the applied electrospinning parameters 
+(15 kV voltage, 0.008 mL/h flow rate), is sufficient to stabilize the Taylor cone even under relatively dilute conditions. The average 
+fiber diameter (Fig. S11) increases monotonically with concentration: 120.91 nm (8 wt%), 261.75 nm (10 wt%), 286.29 nm (12 wt%), 
+505.26 nm (14 wt%), 908.49 nm (16 wt%), and 1035.16 nm (18 wt%), as illustrated in Inverted Table (1-3). This trend is consistent 
+with the expected rise in solution viscosity, which suppresses jet thinning and promotes thicker fiber deposition. Similarly, the average 
+pore size (Fig. S12) expands from 0.062 μm at 8 wt% to 0.136 μm at 18 wt%, reflecting a more open and loosely packed fibrous network 
+at higher concentrations. However, membrane thickness does not follow a linear trend: it increases from 0.0824 mm (12 wt%) to 
+0.099 mm (16 wt%), but then decreases to 0.0673 mm at 18 wt%. This non-monotonic behavior suggests that while moderate polymer 
+loading enhances fiber deposition and thus membrane thickness, excessively high viscosity at 18 wt% impedes stable jet formation and 
+uniform fiber spreading. The resulting poor spinnability leads to reduced fiber delivery to the collector, ultimately yielding a thinner 
+membrane despite the higher polymer content, a phenomenon also reported in highly viscous systems. Inverted Table 3 quantifies the 
+correlation between fiber diameter, pore size, and concentration for 12, 16, and 18 wt% PAN membranes. The progressive increase in 
+fiber diameter contributes to reduced airflow resistance, which can enhance particle capture efficiency by promoting inertial 
+impaction and interception mechanisms. This observation aligns with prior studies demonstrating that moderately thick fibers 
+improve filtration performance by balancing permeability and capture capacity (Muadtrap et al., 2025; Zhang et al., 2023b).
+Beyond the 18 wt% threshold, further increasing PAN concentration to 20 wt% (Fig. S13a) exceeds the critical concentration for 
+stable electrospinning under the current conditions. At this point, rapid solvent evaporation at the needle tip causes premature 
+polymer solidification, leading to nozzle clogging and discontinuous fiber formation, consistent with established failure modes in over- 
+concentrated systems (Haider et al., 2018). Conversely, concentrations below 8 wt% (Fig. S13b) fail to achieve sufficient chain 
+entanglement, resulting in electrospraying rather than fiber formation, as droplets dominate the ejected jet due to insufficient 
+viscoelastic recovery (Shenoy et al., 2005).
+Fig. 15. SEM images of PAN/CBs nanofiber membranes under different total polymer concentration of (a) PAN 8 wt% + CBs 4 wt%, (b) PAN 8 wt% 
++ CBs 6 wt%, (c) PAN 8 wt% + CBs 8 wt%, (d) PAN 8 wt% + CBs 10 wt%, (e) PAN 10 wt% + CBs 2 wt%, (f) PAN 10 wt% + CBs 4 wt%, (g) PAN 10 
+wt% + CBs 6 wt%, (h) PAN 10 wt% + CBs 8 wt%, (i) PAN 14 wt% + CBs 2 wt%, and (j) PAN 14 wt% + CBs 4 wt%. Overlaid on its images are the 
+EDS mapping analysis. The corresponding fiber diameter distributions are shown in Figure (S14, S16, and S18(a, b)), whereas the pore-size dis-
+tributions are presented in Figure (S15, S17, and S18(c, d)). Inverted Table 4 Specific Surface Area (BET), and evaluation of the measured average 
+diameter and pore size.
+B. Akid et al.                                                                                                                                                                                                            Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+19 
+
+=== PDF PAGE 20 ===
+Post-filtration SEM images (Fig. 14(d–f)) reveal that membranes fabricated at higher PAN concentrations appear less loaded with 
+captured particles. This is not indicative of poor filtration performance, but rather stems from two interrelated factors: (i) the 
+significantly larger fiber diameter reduces specific surface area, limiting available adsorption sites; and (ii) particles are more likely to 
+be trapped within the deeper layers of the porous network or between fibers, rather than adhering to the surface, rendering them less 
+visible in top-view SEM. Additionally, the smoother surface and lower surface energy of thick fibers may reduce particle adhesion, 
+allowing some particles to rebound rather than deposit. Supporting this interpretation, BET surface area measurements (Inverted 
+Table 3 in Fig. 14) show a marked decline with increasing polymer concentration: 8.97 m2/g (12 wt%), 5.33 m2/g (16 wt%), and 
+2.88 m2/g (18 wt%). The inverse relationship between fiber diameter and specific surface area directly explains the reduced apparent 
+particle coverage in SEM. Furthermore, EDS elemental mapping of pure PAN membranes (Fig. 14(g–i)) shows an increasing nitrogen 
+(N) signal intensity with higher polymer concentration, consistent with greater PAN mass per unit area. This confirms successful fiber 
+formation across the concentration range and validates the compositional homogeneity of the membranes. Therefore, these results 
+demonstrate that while higher PAN concentrations produce thicker fibers and more open pore structures, beneficial for reducing 
+pressure drop, the associated loss in specific surface area and altered particle deposition behavior must be carefully balanced against 
+filtration efficiency requirements. Optimal membrane design thus requires tuning concentration to achieve a trade-off between 
+pressure drop, structural integrity, and particle capture capability.
+Further morphological investigations were conducted on PAN/CBs composite nanofibers to elucidate the impact of cigarette butt- 
+derived material (CBs) incorporation under fixed PAN concentrations. Based on the electrospinnability window established in this 
+study, spanning total polymer concentrations from 8 wt% to 18 wt%, PAN solutions at 8 wt%, 10 wt%, and 14 wt% were selected as 
+base formulations. CBs were then added incrementally to raise the total solids concentration (PAN + CBs) up to 18 wt%, enabling 
+systematic evaluation of high-solids electrospinning feasibility. Upon CBs addition, a progressive increase in fiber diameter was 
+observed across all PAN base concentrations: for PAN 8 wt%+CBs, diameters rose from 274.71 nm to 874.95 nm (Fig. 15(a–d)); for 
+PAN 10 wt%+CBs, from 284.16 nm to 841.62 nm (Fig. 15(e–h)); for PAN 14 wt%+CBs, from 763.68 nm to 830.49 nm (Fig. 15(i–j)), 
+whereas their fiber diameter distribution are showed in Figs. S14, S16, and S17(a, b). This fiber thickening is primarily attributed to the 
+sharp increase in solution viscosity resulting from higher total solids content. Although CBs may enhance electrical conductivity, which 
+typically promotes jet elongation, the dominant effect of elevated viscosity restricts chain mobility and suppresses jet thinning during 
+electrospinning. At high CBs loadings, intensified polymer chain entanglement and particle crowding further reduce jet drawability, 
+outweighing any conductive benefits. Concurrently, average pore size decreased monotonically with increasing total solids concen-
+tration across all PAN/CBs systems. This reflects denser fiber packing and reduced inter-fiber spacing, consistent with the formation of 
+thicker, less flexible fibers that settle more compactly on the collector.
+Membrane thickness exhibited a non-linear trend with total solids concentration (Fig. 16(a) and Figure S19 (a)): it increased from 
+8 wt% up to 16 wt% total solids but decreased at 18 wt%. This counterintuitive reduction at the highest concentration arises from two 
+competing effects: (i) enhanced deposition rate due to higher polymer content, and (ii) suppressed fiber whipping instability caused by 
+excessive viscosity, which limits lateral spreading of the jet. The net result is a more compact, densely packed mat with reduced loft, 
+leading to thinner overall membrane thickness despite greater mass loading, a behavior previously observed in highly viscous 
+Fig. 16. (a) Membrane thickness, (b) water contact angle, (c) water contact angle over 60s, (d) stress-strain curves, (e) tensile stress (TS) and 
+elongation at break (EB), and (f) FT-IR spectra of pure PAN nanofiber membranes at 12 wt%, 16 wt% and 18 wt% total concentration.
+B. Akid et al.                                                                                                                                                                                                            Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+20 
+
+=== PDF PAGE 21 ===
+electrospinning systems. Notably, smooth, continuous, and bead-free fibers were successfully fabricated even at 18 wt% total solids, 
+confirming the feasibility of high-concentration electrospinning when CBs are used as a co-component. This contrasts sharply with 
+earlier experiments in which total solids concentration was held constant while the PAN:CBs ratio was varied; in those cases, CBs 
+incorporation led to thinner fibers, likely due to improved charge carrying capacity and enhanced jet stretching. This apparent 
+contradiction underscores the context-dependent role of CBs: at fixed total concentration, CBs act as a conductive or rheology- 
+modifying additive that promotes jet elongation, yielding finer fibers. At increasing total solids, CBs primarily contribute to viscos-
+ity buildup, which dominates over conductive effects and results in fiber thickening. Inverted Table 4 (in Fig. 14) summarizes the 
+evolution of fiber diameter, pore size, and specific surface area across the three PAN base systems as total solids increase. Consistent 
+with morphological trends, BET surface area decreases significantly with rising CBs content: from 8.17 to 4.34 m2/g for PAN 8 wt% +
+CBs, from 8.65 to 4.54 m2/g for PAN 10 wt% + CBs, and from 4.91 to 3.32 m2/g for PAN 14 wt% + CBs. This decline directly correlates 
+with increasing fiber diameter, as thicker fibers inherently possess lower surface-to-volume ratios. The reduction in specific surface 
+area aligns with fundamental geometric principles and explains the diminished apparent particle adhesion observed in post-filtration 
+SEM imaging. Based on aforementioned analysis, while CBs enable processing at high total solids concentrations without bead for-
+mation, their impact on filtration-relevant properties, such as pore structure, surface area, and fiber morphology, is governed by the 
+overall solution rheology rather than CBs content alone. Therefore, optimizing PAN/CBs membranes for air filtration requires careful 
+balancing of total solids concentration to avoid excessive fiber thickening and surface area loss, particularly when targeting appli-
+cations demanding high adsorption capacity or fine particle capture.
+The surface wettability of the electrospun membranes was evaluated via WCA measurements. As shown in Fig. 16(b), pure PAN 
+membranes fabricated at 12, 16, and 18 wt% exhibit strong hydrophobicity, with WCAs ranging from 118◦ to 129◦. The water droplets 
+remain nearly unchanged over a 60-s observation period (Fig. 16(c)), confirming the stability of the hydrophobic surface and negli-
+gible water absorption under ambient conditions. Similarly, PAN/CBs composite membranes also display hydrophobic behavior 
+(Fig. S19(b)). A slight decrease in WCA is observed over time for all CBs-containing samples (Fig. 17(a)), indicating minimal surface 
+interaction or slow uptake of trace moisture. However, the magnitude of this change is small, and all membranes retain WCAs well 
+above 90◦, preserving their overall hydrophobic character. This behavior can be attributed to two factors: (i) the inherent hydro-
+phobicity of cellulose acetate derived from cigarette butts, enhanced by residual acetyl groups that reduce surface polarity compared to 
+standard cellulose acetate; and (ii) the dominance of PAN on the fiber surface, as CBs are incorporated at relatively low loadings and do 
+not significantly alter the surface chemistry of the composite fibers.
+Concurrent evaluation of mechanical performance reveals a clear dependence on polymer concentration and CBs incorporation. 
+Fig. 16(d) presents the stress–strain curves of pure PAN membranes at 12, 16, and 18 wt%. Tensile strength increases with concen-
+tration, 0.0017 MPa (12 wt%), 0.0025 MPa (16 wt%), and 0.0038 MPa (18 wt%), reflecting enhanced fiber cohesion and network 
+integrity at higher solids content. However, elongation at break shows a non-monotonic trend: it rises from 38.5% (12 wt%) to 44.1% 
+(16 wt%), but drops sharply to 5.3% (18 wt%), consistent with the formation of stiffer, more brittle fibers at elevated viscosity. In 
+contrast, the addition of CBs generally leads to a modest reduction in tensile strength but introduces notable changes in ductility. For 
+instance, the PAN 8 wt%+CBs 10 wt% and PAN 10 wt% + CBs 8 wt% membranes exhibit tensile strengths of 0.0045 MPa and 0.0032 
+MPa, respectively, accompanied by limited elongation (7.5% and 10.1%) (Fig. 17(b)). Other CBs-containing formulations follow 
+similar trends, as summarized in Fig. 17(c). The slight strength enhancement in the PAN 8 wt%+CBs 10 wt% sample, despite its low 
+PAN content, may arise from improved fiber packing or interfacial interactions between PAN and CBs-derived components. Never-
+theless, the overall reduction in strain-to-failure across most composites suggests that CBs act as rigid fillers that restrict polymer chain 
+mobility, thereby increasing stiffness at the expense of flexibility. Together, these results indicate that while CBs incorporation pre-
+serves the hydrophobic nature of PAN nanofibers and can marginally enhance mechanical strength under specific formulations, it 
+concurrently reduces membrane ductility and specific surface area (as discussed previously). The trade-offs among wettability, me-
+chanical robustness, and filtration-relevant morphology must therefore be carefully balanced when designing sustainable air filters 
+from waste-derived additives like CBs.
+Finally, FT-IR analysis further confirms that the characteristic absorption of both pure PAN (Fig. 16(f)) and PAN/CBs (Fig. S20) 
+blend membranes appear at identical wavenumbers, indicating no significant chemical bonding or structural alteration, as discussed 
+Fig. 17. (a) Time-dependent water contact angle over 60 s, (b) representative stress-strain curves, and (c) tensile stress (TS) and elongation at break 
+(EB) of PAN/CBs nanofiber membranes prepared at constant PAN concentrations of 8, 10, and 14 wt% with varying total polymer concentrations. In 
+addition, the corresponding membrane thickness and water contact angle can be found in Fig. S19.
+B. Akid et al.                                                                                                                                                                                                            Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+21 
+
+=== PDF PAGE 22 ===
+earlier. However, peak sharpness increases with higher total polymer concentration, suggesting enhanced molecular ordering or 
+reduced chain mobility.
+3.3. Techno-economic performance evaluation of PAN/CBs nanofiber membranes across variable airflow conditions
+The spider web charts in Fig. 18 present a comprehensive techno-economic analysis comparing the performance and cost- 
+effectiveness of PAN/CBs hybrid nanofiber membranes against a baseline pure PAN (14 wt%) membrane under three distinct 
+airflow velocities: 3.3 cm/s, 5.3 cm/s, and 7.3 cm/s. The evaluation integrates key filtration metrics, including filtration efficiency (η), 
+pressure drop, maximum dust-holding capacity, quality factor (QF), and material cost, to assess the trade-offs between performance 
+and sustainability across varying operational conditions.
+At the lowest airflow velocity of 3.3 cm/s, the PAN/CBs membranes demonstrate significant techno-economic advantages over the 
+pure PAN reference. Notably, blends with higher CBs content exhibit substantially enhanced dust-holding capacities. For instance, the 
+PAN 10 wt% + CBs 6 wt% formulation (Fig. 18(d)) achieves a maximum dust capacity ratio of 2.07, while PAN 8 wt% + CBs 10 wt% 
+(Fig. 18(a)) reaches 1.65, indicating more than double the service life before reaching the critical 450 Pa pressure drop threshold. 
+These improvements are achieved without compromising filtration efficiency, as η ratios remain above 0.998, comparable to the 
+baseline. Moreover, the incorporation of low-cost, waste-derived CBs reduces material costs by approximately 26-27% (cost ratios ≈
+0.73-0.74). While some formulations show elevated initial pressure drops (e.g., PAN 8 wt% + CBs 4 wt%, pressure drop ratio = 3.43), 
+optimal compositions such as PAN 10 wt% + CBs 6 wt% and PAN 10 wt% + CBs 8 wt% strike an excellent balance: moderate pressure 
+increase (ratios of 1.28–1.11), high QF ratios (0.97 and 0.79), and superior dust retention. These results highlight their strong potential 
+for low-velocity applications, such as indoor air purification systems and residential HVAC filters.
+At 5.3 cm/s, performance trends shift due to increased aerodynamic stress. The PAN 10 wt% + CBs 6 wt% membrane (Fig. 18(e)) 
+remains the most promising, maintaining a high dust capacity ratio (1.47) and a favorable QF ratio (0.65), albeit reduced from lower 
+velocities. In contrast, PAN 8 wt% + CBs 8 wt% (Fig. 18(b)) shows a more modest improvement in dust capacity (0.83×) and a lower 
+QF ratio (0.34), while PAN 8 wt% + CBs 10 wt% underperforms with only half the dust capacity of the reference. Nevertheless, all 
+tested blends continue to offer 18–27% cost savings, and filtration efficiency remains virtually unchanged (η ratios ≈ 0.999-1.001). 
+Pressure drop ratios increase moderately (1.08-1.69), suggesting that although these membranes remain functional at moderate flow 
+rates, their resistance to clogging and overall filtration quality decline relative to low-velocity operation. This indicates a sensitivity to 
+airflow dynamics, where structural integrity and pore stability become critical factors.
+Fig. 18. Spider web plots comparing techno-economic performance of PAN/CBs nanofiber membranes versus pure PAN 14 wt% under three airflow 
+velocities of 3.3 (a, d), 5.3 (b, e), and 7.3 (c, f) cm/s. Parameters include filtration efficiency (η), pressure drop, maximum dust capacity, quality 
+factor (QF), and material cost ratio. Each subplot corresponds to a specific blend composition, highlighting trade-offs between performance and 
+sustainability.
+B. Akid et al.                                                                                                                                                                                                            Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+22 
+
+=== PDF PAGE 23 ===
+At the highest tested velocity of 7.3 cm/s, the dust-holding performance of most PAN/CBs membranes deteriorates significantly. As 
+shown in Fig. 18(c) and (f), the previously top-performing PAN 10 wt% + CBs 6 wt% blend now exhibits only 24.5% of the reference's 
+dust capacity, while PAN 8 wt% + CBs 8 wt% drops to just 6.7%. Interestingly, the PAN 10 wt% + CBs 8 wt% formulation demonstrates 
+relatively better resilience, retaining 80% of the baseline dust capacity, suggesting that higher CBs loading may enhance structural 
+robustness under high-stress conditions. However, its QF ratio remains limited at 0.58. Despite this, all blends maintain excellent 
+filtration efficiency (η ratios >1.001) and substantial cost reductions (cost ratios 0.73-0.82). Notably, pressure drop ratios rise sharply, 
+up to 2.44 for PAN 8 wt% + CBs 8 wt%, indicating rapid fouling and shortened operational lifespan.
+Therefore, this techno-economic assessment reveals that the integration of upcycled cigarette butts into PAN-based nanofiber 
+membranes not only reduces production costs but also enhances dust-holding performance under favorable operating conditions. The 
+optimal composition, PAN 10 wt% + CBs 6 wt%, emerges as a particularly promising candidate for sustainable air filtration systems, 
+especially in indoor settings where airflow is typically low to moderate. The results support the viability of waste-derived materials in 
+high-performance filtration applications and emphasize the importance of matching membrane design to specific operational 
+demands.
+3.4. Stability, recyclability, and comparative assessment of CBs-derived nanofiber membranes
+The sustained performance over time and across varying flow rates indicates that the nanofiber membrane is highly resistant to 
+rapid clogging and structural degradation, which are typical limitations in ultrafine particle filtration. Accordingly, the long-term 
+PM1.0 purification efficiencies of the PAN (10 wt%) + CB (6 wt%) nanofiber membranes were evaluated, as depicted in Fig. 19(a). 
+After 130 min of continuous operation, the membrane maintained a remarkable PM1.0 removal efficiency of 99.98% across all tested 
+air flow velocities (3.3, 5.3, and 7.3 cm/s), demonstrating both its robust particle capture capability and reliable operational stability. 
+Moreover, to evaluate their performance under challenging environmental conditions, the PAN (10 wt%) + CB (6 wt%) nanofiber 
+membranes were exposed to extreme temperatures (  50◦C and 85◦C, 2 h each), prior to PM1.0 filtration testing at 75% relative hu-
+midity across the aforementioned air flow velocities. After such environmental conditioning, the PM1.0 removal efficiency remained 
+exceptionally high, ranging from 99.98% to 99.995%, accompanied by a modest increase in pressure drop (approximately 5-12%), as 
+shown in Fig. 19(b). This slight increase in pressure drop is likely attributable to minor fiber relaxation at elevated temperatures and 
+transient moisture adsorption on the fiber surface. These findings can be explained by the thermomechanical behavior of the 
+Fig. 19. PM1.0 purification performance of the PAN (10 wt%) + CB (6 wt%) nanofiber membrane. (a) Long-term filtration efficiency during a 130- 
+min continuous test. (b) PM1.0 removal efficiency before and after exposure to extreme temperatures (  50◦C and 85◦C for 2 h each) and subsequent 
+testing at 75% relative humidity. (c) Filtration efficiency after five washing cycles, and (d) photographs of the membrane obtained after each 
+washing cycle.
+B. Akid et al.                                                                                                                                                                                                            Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+23 
+
+=== PDF PAGE 24 ===
+membrane: when heated to 85◦C, the PAN polymer softens slightly, allowing the ultrafine fibers to pack more closely, which may 
+induce minor intermolecular bonding and a marginal reduction in pore size. Conversely, when cooled to   50◦C, the fibers temporarily 
+stiffen but regain their normal flexibility upon returning to room temperature without incurring permanent structural damage. 
+Furthermore, under high humidity, surface electrostatic charges, which assist in particle capture, may partially dissipate, and a thin 
+adsorbed water layer can form on the membrane surface. Nevertheless, given that the filtration process is primarily driven by me-
+chanical mechanisms (i.e., diffusion and interception within the dense nanofiber network), the overall performance remains robust 
+even when electrostatic contributions diminish.
+The reusability of the PAN (10 wt%) + CB (6 wt%) nanofiber membrane was evaluated through five consecutive filtration- 
+regeneration cycles. Following each cycle, the membrane was regenerated using a mixture of deionized water and anhydrous 
+ethanol. Subsequently, both the filtration efficiency and pressure drop were measured under standard ambient conditions at airflow 
+velocities of 3.3, 5.3, and 7.3 cm/s, as illustrated in Fig. 19(c)–(d). The membrane demonstrated exceptional durability throughout 
+repeated use, maintaining a PM1.0 filtration efficiency of approximately 99.97% across all tested airflow velocities even after five 
+complete cycles. Concurrently, the pressure drop exhibited a modest increase of approximately 10-15%. These minor variations are 
+primarily attributed to slight fiber rearrangement, partial dissipation of surface electrostatic charges during wet cleaning, and the 
+accumulation of residual particulates within the pore structure, collectively leading to a progressive reduction in air permeability. 
+Nevertheless, given that particle capture is predominantly governed by mechanical trapping within the dense nanofiber network, the 
+overall filtration performance remains highly stable.
+To benchmark the air filtration performance of the PAN (10 wt%) + CB (6 wt%) nanofiber membrane against other waste-derived 
+alternatives, the optimal filtration efficiency, pressure drop, and quality factor of various electrospun nanofibrous membranes are 
+summarized in Table 1. Evaluated across these key parameters, the overall performance of the PAN (10 wt%) + CB (6 wt%) membrane 
+is highly competitive with state-of-the-art counterparts. Notably, the proposed membrane achieves an approximately 27% reduction in 
+production costs. Furthermore, while previous studies primarily focus on the initial utilization of waste materials, they often lack a 
+comprehensive circular economy solution for the continuous recovery and valorization of waste-derived components during the 
+membrane fabrication process.
+Table 1 
+Air filtration performances of waste-derived electrospun nanofibrous membranes.
+Materials Airflow 
+velocity 
+(cm/s)
+Particulate matter Filtration 
+efficiency
+Pressure 
+drop (Pa)
+QF 
+(Pa  1)
+Cost 
+reduction 
+(%)
+Refs.
+PAN/Fly ash (lignate) - TVOCs (mg/m3) 59.0% - - - Zehra et al. (2025)
+PLA/lignin (LIG) 
+particles
+32 L/min ≤0.3 (incense smoke) 99.6% 105 0.073 - Scaffaro and Citarrella 
+(2024)
+EPS waste 5.3 ≤2.5 (incense smoke) 99.99% 145 0.15 - Rajak et al. (2020)
+Recycled PET_50Ag 15.83 ≤1.0 (KCl aerosol) 99.97% - - - Kije´nska-Gawro´nska 
+et al. (2025)
+Recycled PET/BAC 85 L/min ≤0.025-0.15 (NaCl 
+aerosol)
+98.8% 550-623 0.0071 - Russell and Jana (2025)
+Recycled PET 4.8 ≤0.3 (bioaerosol) 98.4% 212 0.0195 - Bonfim et al. (2021)
+Waste plastic bottles 
+(PET)
+28-77 ≤1.0 (aerosol particles 
+generator)
+99.7% 11.56 Pa/ 
+cm2
+0.03 - Kakoria et al. (2021)
+Recycled TPU&PLA - ≤2.5 (burning tissue 
+paper smoke)
+99.0% 140 0.0329 - Chambers et al. (2024)
+HIPS waste 5.3 ≤2.5 (incense smoke) 98.75% - - - Zulfi et al. (2019a)
+Recycled PS and PET 4.8 ≤85 nm particles sizes 
+from (aerosol particles 
+generator)
+94.49% 58.5 0.0448 - Lima et al. (2026)
+Recycled CBs 10-96 ≤2.5 (aerosol particles 
+generator)
+99.99% 
+PM2.5 
+99.7% PM0.1
+50.4 0.06 - Kakoria and Sinha-Ray 
+(2022)
+Waste-acrylonitrile 
+butadiene styrene 
+(ABS)
+5.3 ≤2.5 (NaCl aerosol) 96.17% 86.6 0.0376 - Munir et al. (2022)
+Textile waste rPA/ 
+MAG
+5 ≤0.1-2.5 (aerosol 
+particles generator)
+96% 189 0.024 - Op´alkov´a ˇSiˇskov´a et al. 
+(2022)
+ABS waste 5.3 ≤2.5 (aerosol particles 
+generator)
+95.16% 118.7 0.0255 - Zulfi et al. (2019b)
+Food waste BPE, PVA 0.01 ≤2.5 (NaCl aerosol) 98.3% 156 0.026 - Agrawal and Nawaz 
+(2025)
+PAN/CBs 5.3 ≤1.0-10 (incense smoke) 99.99% 
+PM1.0
+256 0.03759 18-27% This work
+PAN/CBs 3.3 ≤1.0-10 (incense smoke) 99.99% 
+PM1.0
+173 0.05576 26-27% This work
+B. Akid et al.                                                                                                                                                                                                            Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+24 
+
+=== PDF PAGE 25 ===
+3.5. A sustainable circular approach: transforming discarded CBs into high-performance nanofiber membranes for air and water filtration
+The development of hybrid polyacrylonitrile/cellulose acetate from cigarette butts (PAN/CBs) nanofiber membranes represents a 
+sustainable and circular strategy to address the global challenge of cigarette butt waste, one of the most prevalent forms of litter 
+worldwide. As illustrated in Fig. 20, this study presents a closed-loop process that converts discarded CBs, commonly found in public 
+spaces, beaches, and landfills, into high-performance filtration materials, thereby transforming environmental pollutants into valuable 
+resources. The process begins with the collection of used CBs from urban and natural environments, preventing their accumulation in 
+ecosystems and reducing pollution. Collected CBs undergo chemical pretreatment to recover CA, the primary component of cigarette 
+filters. This involves sorting, washing with absolute ethanol to remove tar, nicotine, and other toxic residues, followed by rinsing and 
+drying. Critically, the ethanol used in this step is recovered via distillation and reused, minimizing solvent waste and supporting green 
+processing principles. The recovered CA is then blended with PAN as a renewable, low-cost additive and electrospun into nanofiber 
+membranes. This approach not only reduces reliance on virgin polymers but also enables the upcycling of waste into functional 
+materials through scalable and sustainable fabrication. The resulting PAN/CBs nanofiber membranes exhibit excellent structural and 
+surface properties suitable for dual applications in air and liquid filtration. In air filtration, the as-spun membranes demonstrate strong 
+hydrophobicity (water contact angle >120◦), high porosity, and a fine fibrous network, enabling efficient capture of airborne par-
+ticulate matter, including PM1.0, PM2.5, and PM10, with minimal pressure drop. These characteristics make them ideal candidates for 
+use in indoor air purifiers, HVAC systems, and personal protective face masks, offering effective protection against airborne pollutants. 
+For liquid filtration, zeta potential measurements (Figure S21 and Table S6) reveal that the membranes possess a predominantly 
+negative surface charge across a wide pH range (pH 5-9), particularly under neutral and alkaline conditions. This intrinsic negative 
+charge enhances electrostatic repulsion against negatively charged contaminants such as bacteria, organic molecules, and colloidal 
+particles commonly present in wastewater and natural water sources. Consequently, the membranes exhibit improved fouling resis-
+tance and stable filtration performance, making them highly suitable for microfiltration and ultrafiltration applications. Furthermore, 
+the retained negative charge facilitates compatibility with thin-film composite (TFC) membrane fabrication (Gohain et al., 2024; 
+Luthfiana et al., 2025; Mahto et al., 2022). A simple NaOH post-treatment renders the support layer hydrophilic, enabling uniform 
+deposition of a polyamide selective layer, a critical step in producing high-flux, durable TFC membranes. In membrane distillation 
+(MD) for desalination, the hydrophobic nature of the PAN/CBs membranes (WCA >120◦) ensures efficient separation of clean water 
+vapor from saline or contaminated feed solutions. Their robust water-repellent surface prevents wetting, even under harsh operating 
+conditions, thereby enhancing long-term stability and performance in saline environments. Finally, at end-of-life, the membranes can 
+be collected and recycled either through chemical reclamation or repurposing, completing the circular lifecycle. This closed-loop 
+system, from waste collection to membrane fabrication, application, and recycling, demonstrates a full circular economy model: 
+waste CBs → green processing → high-value membranes → dual air and water filtration → reuse/recycling. By converting a ubiquitous 
+pollutant into multifunctional filtration materials, this work advances the integration of waste management and environmental 
+technology. It offers a practical, scalable, and environmentally responsible solution that simultaneously supports cleaner air, sus-
+tainable water treatment, and reduced plastic pollution. The proposed strategy exemplifies how circular innovation can drive both 
+environmental stewardship and technological advancement, aligning closely with the goals of resource conservation and sustainable 
+development.
+4. Concluding remarks and future prospect
+This study demonstrates that discarded cigarette butts can be upcycled into high-performance hybrid nanofiber membranes for air 
+filtration, effectively transforming a ubiquitous plastic waste stream into a valuable raw material. The integration of cigarette butt- 
+derived cellulose acetate with polyacrylonitrile via blend electrospinning establishes a scalable pathway that simultaneously en-
+hances filtration performance and reduces raw material costs. The optimal formulation (10 wt% PAN and 6 wt% CBs) achieves near- 
+complete removal of fine particulate matter while maintaining a low pressure drop, validating both the technical and economic 
+feasibility of integrating waste-derived polymers. Importantly, this performance enhancement is accompanied by a 27% reduction in 
+raw material costs compared to virgin PAN, highlighting the strong economic incentives for utilizing waste-derived polymers. 
+Furthermore, integrating comprehensive filtration testing with a techno-economic analysis of CB-based air filters provides critical 
+evidence supporting their industrial scalability. Therefore, the present findings provide a compelling foundation for scaling CB 
+valorization as a practical and sustainable solution within modern materials management frameworks.
+However, the practical implementation of this approach requires overcoming several real-world challenges. First, the nanofiber 
+membrane filters must be thoroughly evaluated to ensure they maintain high performance over extended periods under fluctuating 
+humidity, temperature, and continuous exposure to complex air pollutants. Second, establishing consistent quality control for CB 
+collection, developing scalable production methods, and ensuring the safe disposal or recycling of spent filters are essential to prevent 
+secondary microplastic pollution and comply with environmental regulations. Finally, although heat-pressing enhances the me-
+chanical robustness of the membranes, this post-treatment step requires further optimization for large-scale manufacturing to ensure 
+structural stability under continuous airflow. Therefore, future research should prioritize full-scale life cycle assessments to evaluate 
+the true environmental and economic impacts of these nanofiber membrane filters from production to end-of-life. Pilot-scale 
+manufacturing trials are necessary to increase production throughput, ensure consistent fiber quality, and optimize post-treatment 
+parameters under continuous operation. Additionally, exploring surface functionalization or catalytic doping could further expand 
+the utility of these membranes to include the capture of harmful volatile organic compounds or antimicrobial filtration. Concurrently, 
+collaboration with policymakers is essential to establish performance standards, support reliable recycling supply chains, and integrate 
+B. Akid et al.                                                                                                                                                                                                            Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+25 
+
+=== PDF PAGE 26 ===
+cigarette butt collection into extended producer responsibility programs.
+CRediT authorship contribution statement
+Binhasan Akid: Data curation, Investigation, Methodology, Writing – original draft. Bo Zheng: Supervision, Validation, Writing – 
+review & editing. Changwei Wang: Resources, Supervision. Jian Wang: Resources, Supervision. Qun Wang: Conceptualization, Data 
+curation, Methodology, Supervision, Writing – review & editing. Jun Gao: Resources, Supervision. Dongmei Xu: Resources. Jianlu 
+Liu: Resources, Supervision, Validation.
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to 
+influence the work reported in this paper.
+Acknowledgement
+The authors gratefully acknowledge the funding support from Shandong Provincial Key Research and Development Program 
+(2023CXGC010416), and Shandong Provincial Enterprise Technology Innovation Project (No. 202360007028).
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at https://doi.org/10.1016/j.scp.2026.102484.
+Fig. 20. Schematic illustration of the circular lifecycle of PAN/CBs hybrid nanofiber membranes: from collection of discarded CBs in urban and 
+natural environments, through green pretreatment and ethanol recovery, to electrospinning into multifunctional membranes for dual air and liquid 
+filtration applications, and finally to end-of-life recycling, demonstrating a closed-loop, waste-to-resource strategy that integrates environmental 
+remediation with sustainable materials engineering.
+B. Akid et al.                                                                                                                                                                                                            Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+26 
+
+=== PDF PAGE 27 ===
+Data availability
+Data will be made available on request.
+References
+Agrawal, S., Nawaz, T., 2025. A closed-loop sustainable method for the fabrication of electrospun nanofiber using food waste for filtration of particulate matters (PMs) 
+and volatile organic matter (VOCs) from air. Sep. Purif. Technol. 358, 130416.
+Akid, B., Qi, W., Wang, X., Wang, B., Wang, Q., Sun, J., Wei, Q., Yue, M., Yang, Y., Wang, J., Xu, D., Gao, J., Liu, J., 2026. A comprehensive review on nanofiber 
+revolution: transforming waste cigarette butts into filter solutions. Kor. J. Chem. Eng. 43, 537–576.
+Bonfim, D.P.F., Cruz, F.G.S., Bretas, R.E.S., Guerra, V.G., Aguiar, M.L., 2021. A Sustainable Recycling Alternative: Electrospun PET-membranes for Air Nanofiltration, 
+p. 1166.
+Chambers, R.J., Rajput, B.S., Scofield, G.B., Reindel, J., O'Shea, K., Li, R.J., Simkovsky, R., Mayfield, S.P., Burkart, M.D., Cai, S., 2024. Mechanically robust and 
+biodegradable electrospun membranes made from bioderived thermoplastic polyurethane and polylactic acid. ACS Appl. Polym. Mater. 6 (20), 12528–12537.
+Council, E.P.a.t., 2006. Regulation (EC) no 1907/2006 concerning the registration. Evaluation, Authorisation and Restriction of Chemicals (REACH).
+Cui, J., Wang, Y., Lu, T., Liu, K., Huang, C., 2021. High performance, environmentally friendly and sustainable nanofiber membrane filter for removal of particulate 
+matter 1.0. J. Colloid Interface Sci. 597, 48–55.
+Dalmaz, A., Si˙vr˙IKaya ¨Ozak, S., 2024. Methylene blue dye efficient removal using activated carbon developed from waste cigarette butts: adsorption, thermodynamic 
+and kinetics. Fuel 372, 132151.
+De Fenzo, A., Giordano, M., Sansone, L., 2020. A Clean Process for Obtaining High-Quality Cellulose Acetate from Cigarette Butts.
+Deng, Y., Lu, T., Cui, J., Keshari Samal, S., Xiong, R., Huang, C., 2021. Bio-based electrospun nanofiber as building blocks for a novel eco-friendly air filtration 
+membrane: a review. Sep. Purif. Technol. 277, 119623.
+Ding, B., Li, C., Hotta, Y., Kim, J., Kuwaki, O., Shiratori, S., 2006. Conversion of an electrospun nanofibrous cellulose acetate mat from a super-hydrophilic to super- 
+hydrophobic surface. Nanotechnology 17 (17), 4332.
+Doyan, A., Leong, C.L., Bilad, M.R., Kurnia, K.A., Susilawati, S., Prayogi, S., Narkkun, T., Faungnawakij, K., 2021. Cigarette butt waste as material for phase inverted 
+membrane fabrication used for oil/water emulsion separation. Polymers 13 (12), 1907.
+(ECHA), E.C.A., 2025. In: (ECHA), E.C.A. (Ed.), Restriction of Eight Polycyclic Aromatic Hydrocarbons (PAHs) in Articles Supplied to the General Public (Annex XVII, 
+Entry 50 of REACH Regulation).
+Environment, C.C.a.H.E., Water, Sanitation, Hygiene and Health (WSH), 2022. Guidelines for drinking-water Quality: Fourth Edition Incorporating the First and 
+Second Addenda. World health organization (WHO.
+EPA, R.C.a.R.A.R.b.t.U.S.E.P.A., 2023. The RCRA 8 Metals: what you Need to Know.
+Fahanwi, A.N., Yasir, M., Nguyen, H.T., Saha, N., Saha, T., Sedlaˇrík, V., Saha, P., 2024. In situ polyaniline polymerization on electrospun cellulose acetate nanofibers 
+derived from recycled waste filter butts of cigarettes for the enhanced removal of methyl orange and rhodamine. Chem. Eng. Res. Des. 201, 18–30.
+Fan, Y., Ye, J., Kang, J., Huang, Y., Wang, H., Wang, L., Li, X., Wang, X., 2025. Microfibrillated cellulose enhanced paper filter for efficient antibacterial air filtration. 
+J. Environ. Chem. Eng. 13 (6), 119604.
+Flood-Garibay, J.A., Angulo-Molina, A., M´endez-Rojas, M.´A., 2023. Particulate matter and ultrafine particles in urban air pollution and their effect on the nervous 
+system. Environ. Sci. Process. Impacts 25 (4), 704–726.
+Giammona, A., Remedia, S., Porro, D., Lo Dico, A., Bertoli, G., 2024. The biological interplay between air pollutants and miRNAs regulation in cancer. Front. Cell Dev. 
+Biol. 12, 2024. 
+Gohain, M.B., Karki, S., Ingole, P.G., 2024. Cellulose acetate, a source from discarded cigarette butts for the development of mixed matrix loose nanofiltration 
+membranes for selective separation. Int. J. Biol. Macromol. 271, 132197.
+Guo, Y., Tataranni, P., Tarsi, G., Balzano, F., Dai, J., Sangiorgi, C., 2024. Recycling of waste E-cigarette butts as engineered pelletized fibres for sustainable stone 
+mastic asphalt. Journal of Road Engineering 4 (4), 468–477.
+Haider, A., Haider, S., Kang, I.-K., 2018. A comprehensive review summarizing the effect of electrospinning parameters and potential applications of nanofibers in 
+biomedical and biotechnology. Arab. J. Chem. 11 (8), 1165–1188.
+Han, C., Ran, X., Zhang, K., Zhuang, Y., Dong, L., 2007. Thermal and mechanical properties of poly(ε-caprolactone) crosslinked with γ radiation in the presence of 
+triallyl isocyanurate. J. Appl. Polym. Sci. 103 (4), 2676–2681.
+Jiang, L., Zhu, X., Li, J., Shao, J., Zhang, Y., Zhu, J., Li, S., Zheng, L., Li, X.-P., Zhang, S., Li, H., Zhong, G.-J., Xu, H., 2024. Electroactive and breathable protective 
+membranes by surface engineering of dielectric nanohybrids at poly(lactic acid) nanofibers with excellent self-sterilization and photothermal properties. Sep. 
+Purif. Technol. 339, 126708.
+Jo, G., Kwon, J., Kang, H.S., 2024. Engineering electrospun PAN/PCL blend for high-performance and eco-friendly particulate matter filtration. React. Funct. Polym. 
+204, 106026.
+Kakoria, A., Chandel, S.S., Sinha-Ray, S., 2021. Novel supersonically solution blown nanofibers from waste PET bottle for PM0.1-2 filtration: from waste to pollution 
+mitigation. Polymer 234, 124260.
+Kakoria, A., Sinha-Ray, S., 2022. Ultrafine nanofiber-based high efficiency air filter from waste cigarette butts. Polymer 255, 125121.
+Kije´nska-Gawro´nska, E., Wierci´nska, K., Werner, Ł., Bil, M., Staniszewska, M., 2025. From PET bottle waste to antimicrobial air filters. Macromol. Rapid Commun. 46 
+(13), 2400944.
+Kim, J., Park, J., Tsai, P.-J., Yoon, C., 2024. The effects of temperature and humidity on electrostatic changes in respirators and their filtration efficiency. Indoor Air 
+2024 (1), 5503400.
+Kurmus, H., Mohajerani, A., 2020. The toxicity and valorization options of cigarette butts. Waste Manag. 104, 104–118.
+Kurmus, H., Mohajerani, A., 2021. Energy savings, thermal conductivity, micro and macro structural analysis of fired clay bricks incorporating cigarette butts. Constr. 
+Build. Mater. 283, 122755.
+Lakshmanan, A., Gavali, D.S., Thapa, R., Sarkar, D., 2021. Synthesis of CTAB-functionalized large-scale nanofibers air filter media for efficient PM2.5 capture capacity 
+with low airflow resistance. ACS Appl. Polym. Mater. 3 (2), 937–948.
+Lee, J.H., Kim, Y., Hwang, H.S., Lee, G., Doh, S.J., Youn, C., Lee, H., Choi, S.-J., Yoon, K.R., 2025. Stretched PTFE nanofiber nonwovens for superior air permeability 
+and dust holding capacity in PM filtration. J. Membr. Sci. 733, 124292.
+Lima, F.d.A., Chagas, P.A.M., Vieira, A.C.C., Blanco, G.E.d.O., Aguiar, M.L., Guerra, V.G., 2026. Recycled PS and PET hybrid nanofiber filter media: enhancing 
+mechanical strength for air filtration. J. Ind. Eng. Chem. 154, 695–711.
+Luthfiana, A., Mulyati, S., Arahman, N., Bilad, M.R., Aulia, M.P., 2025. Cigarette butt filter as membrane material with tannic acid and FeCl3 additives for improve 
+antifouling properties. Case Stud. Chem. Environ. Eng. 11, 101105.
+Maderuelo-Sanz, R., 2021. Characterizing and modelling the sound absorption of the cellulose acetate fibers coming from cigarette butts. J. Environ. Health Sci. Eng. 
+19 (1), 1075–1086.
+Mahto, A., Halakarni, M.A., Maraddi, A., D'Souza, G., Samage, A.A., Thummar, U.G., Mondal, D., Nataraj, S.K., 2022. Upcycling cellulose acetate from discarded 
+cigarette butts: conversion of contaminated microfibers into loose-nanofiltration membranes for selective separation. Desalination 535, 115807.
+Mannix, R.C., Nguyen, K.P., Tan, E.W., Ho, E.E., Phalen, R.F., 1996. Physical characterization of incense aerosols. Sci. Total Environ. 193 (2), 149–158.
+Muadtrap, M., Khampieng, T., Choipang, C., Ngamplang, P., Phuking, P., Chaiarwut, S., Intarapong, P., Supaphol, P., 2025. Bifunctional electrospun PAN/ε-Polylysine 
+composite membranes for high-efficiency PM2.5 and PM10 filtration with antimicrobial protection. ACS Omega 10, 53503–53515.
+B. Akid et al.                                                                                                                                                                                                            Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+27 
+
+=== PDF PAGE 28 ===
+Munir, M.M., Kamil, A.I., Burhanuddin, M., 2022. High-performance blow spun waste-acrylonitrile butadiene styrene (ABS) fibrous membrane for air filter. J. Mater. 
+Res. Technol. 18, 4564–4577.
+Nakhjirgan, P., Kashani, H., Kermani, M., 2023. Exposure to outdoor particulate matter and risk of respiratory diseases: a systematic review and meta-analysis. 
+Environ. Geochem. Health 46 (1), 20.
+Nations, U., 2021. In: Nations, U. (Ed.), Globally Harmonized System of Classification and Labelling of Chemicals (GHS).
+Op´alkov´a ˇSiˇskov´a, A., Pleva, P., Hrůza, J., Frajov´a, J., Sedlaˇríkov´a, J., Peer, P., Kleinov´a, A., Janalíkov´a, M., 2022. Reuse of Textile Waste to Production of the Fibrous 
+Antibacterial Membrane with Filtration Potential, p. 50.
+Paulista, C.R., Ferreira, E.P., Guimar˜aes, C.A.d.O., Delaqua, G.C.G., Lopera, H.A.C., da Silva, M.G., Vieira, C.M.F., 2024. A new proposal to reduce microplastics from 
+cigarette butts: production of eco-friendly fired clay bricks. Constr. Build. Mater. 449, 138514.
+Premchand, P., Mead, S., Fino, D., Demichelis, F., Bensaid, S., Chiaramonti, D., Antunes, E., 2025. Sustainable valorisation of cigarette butts waste through pyrolysis: 
+an insight into the pyrolytic products and subsequent aqueous heavy metals removal by pyrolytic char. Chem. Eng. Sci. 302, 120906.
+Rajak, A., Hapidin, D.A., Iskandar, F., Munir, M.M., Khairurrijal, K., 2020. Electrospun nanofiber from various source of expanded polystyrene (EPS) waste and their 
+characterization as potential air filter media. Waste Manag. 103, 76–86.
+Russell, A., Jana, S.C., 2025. Antibacterial filter media from recycled polyethylene terephthalate and reclaimed facemasks. Sep. Purif. Technol. 378, 134712.
+Russo, F., Castro-Mu˜noz, R., Santoro, S., Galiano, F., Figoli, A., 2022. A review on electrospun membranes for potential air filtration application. J. Environ. Chem. 
+Eng. 10 (5), 108452.
+Scaffaro, R., Gulino, E.F., Citarrella, M.C., 2026. Sandwich-structured bimodal polymeric fiber/waste wool fiber bio-composite membrane for high-performance and 
+eco-friendly air filtration. Sep. Purif. Technol. 380, 135543.
+Scaffaro, R., Citarrella, M.C., 2024. Stable and reusable electrospun bio-composite fibrous membranes based on PLA and natural fillers for air filtration applications. 
+Sustain. Mater. Technol. 42, e01146.
+Shenoy, S.L., Bates, W.D., Frisch, H.L., Wnek, G.E., 2005. Role of chain entanglements on fiber formation during electrospinning of polymer solutions: good solvent, 
+non-specific polymer–polymer interaction limit. Polymer 46 (10), 3372–3384.
+Sun, W., Dong, S., Gao, M., Diao, H., Song, Y., Zhang, L., Wang, H., Yuan, D., 2025. Recyclable supramolecular nanofibrous composite membranes for efficient air 
+filtration, 46 (10), 2401019.
+Tobacco and the environment, I.T.I., 2023. Harmful Effects of Tobacco.
+Torkashvand, J., Godini, K., Jafari, A.J., Esrafili, A., Farzadkia, M., 2021. Assessment of littered cigarette butt in urban environment, using of new cigarette butt 
+pollution index (CBPI). Sci. Total Environ. 769, 144864.
+Torkashvand, J., Saeedi-Jurkuyeh, A., Rezaei Kalantary, R., Gholami, M., Esrafili, A., Yousefi, M., Farzadkia, M., 2022. Preparation of a cellulose acetate membrane 
+using cigarette butt recycling and investigation of its efficiency in removing heavy metals from aqueous solution. Sci. Rep. 12 (1), 20336.
+Torkashvand, J., Farzadkia, M., 2019. A systematic review on cigarette butt management as a hazardous waste and prevalent litter: control and recycling. Environ. 
+Sci. Pollut. Control Ser. 26 (12), 11618–11630.
+Wang, L., Zhang, C., Gao, F., Pan, G., 2016. Needleless electrospinning for scaled-up production of ultrafine chitosan hybrid nanofibers used for air filtration. RSC Adv. 
+6 (107), 105988–105995.
+(WHO), W.h.o, 2021. WHO Global Air Quality Guidelines: Particulate Matter (PM2.5 and PM10), ozone, nitOogen dNoxide, sDlfur dioSide anD carbon monCxide.
+Yue, Y., Liu, Y., Zhang, W., Guo, J., Gong, Y., Yu, Y., 2022. Amidoxime functionalized low-cost cellulose-based adsorbent derived from waste cigarette filters for 
+efficient heavy metal removal. J. Environ. Chem. Eng. 10 (3), 107846.
+Zehra, F., Ali, M.A., Mayer, A.C.R., Rajinikanth, P.S., Khan, M., Lawrence, A., 2025. Mitigation of total volatile organic compounds from earthen stove emissions using 
+industrial waste-derived nanofiber sheets. ACS Omega 10 (49), 60912–60927.
+¨Ozen, H.A., Mutuk, T., Yontar, O., Gürbüz, M., 2025. Fabrication of biodegradable and sustainable hemp Hurds/PVA composite membrane and application to 
+particulate matter filtration. Arabian J. Sci. Eng. 50 (13), 10185–10198.
+Zhang, H., Fang, S., Wu, Z., Islam, S.R., Qin, X., 2023a. PAN/PAN-FPU double-layer composite nanofiber air filter fabricated by electrospinning for filtering oil and 
+salt particles. ACS Appl. Nano Mater. 6 (9), 7619–7628.
+Zhang, H., Jia, L., Li, P., Yu, L., Liu, Y., Zhao, W., Wang, H., Li, B., 2022. Large-scale blow spinning of nanofiber membranes for highly efficient air mechanical 
+filtration with antibacterial activity. ACS Appl. Polym. Mater. 4 (3), 2081–2090.
+Zhang, Q., Li, Q., Young, T.M., Harper, D.P., Wang, S., 2019. A novel method for fabricating an electrospun Poly(Vinyl Alcohol)/Cellulose nanocrystals composite 
+nanofibrous filter with low air resistance for high-efficiency filtration of particulate matter. ACS Sustain. Chem. Eng. 7 (9), 8706–8714.
+Zhang, Q., Li, Q., Zhang, L., Wang, S., Harper, D.P., Wu, Q., Young, T.M., 2020. Preparation of electrospun nanofibrous poly(vinyl alcohol)/cellulose nanocrystals air 
+filter for efficient particulate matter removal with repetitive usage capability via facile heat treatment. Chem. Eng. J. 399, 125768.
+Zhang, W., Sun, Q., Shen, Z., liu, J., Wang, X., 2023b. Effect of diameter on the structural evolution and tensile properties of electrospun PAN-based carbon nanofiber 
+mats. ACS Omega 8 (21), 19002–19005.
+Zhang, X., Yu, M., Li, Y., Cheng, F., Liu, Y., Gao, M., Liu, G., Hu, L., Liang, Y., 2021. Effectiveness of discarded cigarette butts derived carbonaceous adsorbent for 
+heavy metals removal from water. Microchem. J. 168, 106474.
+Zhou, W., Liao, Z., Shi, Y., Sun, D., 2025. Robust hierarchical flower-like ZnO/PAN nanofibrous membranes for efficient air filtration. Ind. Eng. Chem. Res. 64 (42), 
+20242–20253.
+Zulfi, A., Ahmad Hapidin, D., Saputra, C., Sinta Mustika, W., Miftahul Munir, M., Khairurrijal, K., 2019a. The synthesis of fiber membranes from high-impact 
+polystyrene (HIPS) waste using needleless electrospinning as air filtration media. Mater. Today Proc. 13, 154–159.
+Zulfi, A., Hapidin, D.A., Munir, M.M., Iskandar, F., Khairurrijal, K., 2019b. The synthesis of nanofiber membranes from acrylonitrile butadiene styrene (ABS) waste 
+using electrospinning for use as air filtration media. RSC Adv. 9 (53), 30741–30751.
+B. Akid et al.                                                                                                                                                                                                            Sustainable Chemistry and Pharmacy 52 (2026) 102484 
+28 

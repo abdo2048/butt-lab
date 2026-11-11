@@ -1,0 +1,57 @@
+3/3
+
+[Fig. 3]
+
+cosoivant
+
+extractant
+
+S2 5 _
+
+Es AIOUT 1
+S2 6 —…
+
+Ne AJOUT 2
+
+e HUMIDIF_
+S2.3 —
+
+Fibres dépoiluées
+
+à
+
+Contaminants 4
+
+COLLECT 7
+' Si 1 7
+TRI 7
+, > S1_2
+BROY_ er
+Î
+: - S13 L p{
+FRICT_ TT
+: - St 4
+TAMES_ —
+ï
++ SE 5
+CYCLON_ … -
+: Fibres à dépolluer
+*
+- S2_0
+INTR —
+Te
+Lu .
+covr. De S2 1 D)
+donnee x Fluide à fétat liquide
+> $2_2 Les
+CHAUFF_ 7 7
+CONDENS F—
+QAuide à l'état supercritique =
+DEPOLLUT_ es T S2_4 L
+À Fluide à l'état supercritique + contaminants
+DETENT_ 53
+i fluide à l’état gazeux + contaminants
+SEPARAT_ LT S4
+
+Fluide à l’état gazeux
+

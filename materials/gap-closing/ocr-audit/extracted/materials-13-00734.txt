@@ -1,0 +1,1624 @@
+=== PDF FILE: materials-13-00734.pdf ===
+sha256: 79ae28a06e27a5304fa366b58ee21230fb4d8edad25df928eba93ed96281081e
+pages: 20
+printed_page_labels: PDF p.1=printed 1, PDF p.2=printed 2, PDF p.3=printed 3, PDF p.4=printed 4, PDF p.5=printed 5, PDF p.6=printed 6, PDF p.7=printed 7, PDF p.8=printed 8, PDF p.9=printed 9, PDF p.10=printed 10, PDF p.11=printed 11, PDF p.12=printed 12, PDF p.13=printed 13, PDF p.14=printed 14, PDF p.15=printed 15, PDF p.16=printed 16, PDF p.17=printed 17, PDF p.18=printed 18, PDF p.19=printed 19, PDF p.20=printed 20
+
+=== PDF PAGE 1 ===
+materials
+Article
+Possible Recycling of Cigarette Butts as Fiber
+Modiﬁer in Bitumen for Asphalt Concrete
+Md Tareq Rahman *
+ , Abbas Mohajerani
+ and Filippo Giustozzi
+School of Engineering, RMIT University, Melbourne 3000, Australia; abbas.mohajerani@rmit.edu.au (A.M.);
+ﬁlippo.giustozzi@rmit.edu.au (F.G.)
+* Correspondence: md.tareq.rahman@student.rmit.edu.au
+Received: 9 January 2020; Accepted: 4 February 2020; Published: 6 February 2020
+/gid00030/gid00035/gid00032/gid00030/gid00038/gid00001/gid00033/gid00042/gid00045/gid00001
+/gid00048/gid00043/gid00031/gid00028/gid00047/gid00032/gid00046
+Abstract: Littering waste is among the top environmental issues in the world, and the management
+of the waste has turned into a challenge in almost every city. It has been reported that 75% of
+smokers dispose of their cigarette butts (CBs) on the ground, even in public places. Researchers
+have discovered that CBs make up more than one-third of the total littered waste on the planet.
+Cigarette butts predominantly consist of a cellulose acetate ﬁber (plastic)-based ﬁlter wrapped in
+paper. Waste CBs contain burnt tobacco and tar, along with many other toxic chemicals. They take
+years to biodegrade depending on the environmental conditions, and toxic chemicals leach out
+and contaminate the environment. As part of an ongoing project, this paper presents a novel and
+sustainable technique to recycle cigarette butts in bitumen for the construction of ﬂexible pavements.
+In this research, CBs have been pre-processed and mixed with bitumen classes C320, C170, and PMB
+A10E as a ﬁber modiﬁer. Comprehensive laboratory investigations, including a penetration test,
+softening point test, and viscosity test, have been performed along with a binder drain o ﬀ test to
+evaluate the performance of the modiﬁed samples. During this investigation, samples were prepared
+with 0.3% cellulose ﬁber, 0.2%, 0.3% 0.4%, and 0.5% CBs. The results of the CB-modiﬁed samples were
+compared with the sample with cellulose ﬁber and fresh bitumen (0% ﬁber). The results show that
+the physical and rheological properties of bitumen incorporating CBs improve signiﬁcantly, and CBs
+could be used instead of virgin cellulose ﬁber as a ﬁber modiﬁer.
+Keywords: recycling; cigarette butts; bitumen; asphalt concrete; environmental sustainability;
+waste management
+1. Introduction
+1.1. Cigarette Butt Pollution
+Cigarette Butts (CBs) are the lower part of the cigarette, which generally comprises the ﬁlter.
+Max Roser and Hannah Ritchie investigated the number of smokers in the world and concluded
+by mentioning that there had been a drastic increase in the number of smokers around the world.
+The number had already crossed 1 billion by 2012 [ 1,2]. In 2018, the World Health Organization
+summarized the number of smokers in the world as totaling 1.1 billion, even after numerous health
+awareness campaigns [3]. Notwithstanding the statistics, the actual number of smokers is probably
+much higher and continuing to increase, as shown in Figure 1, which was adapted from the Institute for
+Health Metrics and Evaluation (IHME) 2014 and the World Health Organization [3,4]. The production
+of cigarettes has increased to support the increasing need. A recent study shows that the current
+production of cigarettes is 6 trillion, of which 5.8 trillion are consumed every year [5]. According to the
+World Health Organization, production will reach 9 trillion by 2025 [5–7]. Figure 2 shows the sale of
+cigarettes per adult smoker per day in some of the countries of the world [1,2].
+Materials 2020, 13, 734; doi:10.3390/ma13030734 www.mdpi.com /journal/materials
+
+=== PDF PAGE 2 ===
+Materials 2020, 13,
+Materials 2020, 13, 734
+                    x FOR PEER REVIEW                                                                                     of 20
+                                                                                                                       22 of 20
+Materials 2020, 13, x FOR PEER REVIEW                                                                                   2 of 20
+
+
+                    Increasing trend in the number of smokers in the
+                    Increasing trend in the number of smokers in the
+                                          world
+                                          world
+        1300 Million
+        1300 Million
+        1100 Million
+        1100 Million
+         900 Million
+         900 Million
+         700 Million
+         700 Million
+         500 Million
+         500 Million
+                     1975 1980 1985 1990 1995 2000 2005 2010 2015 2020 2025
+                     1975 1980 1985 1990 1995 2000 2005 2010 2015 2020 2025
+      Figure 1. Increased rate of the number of daily smokers in the world from 1980–2019; adapted from
+      Figure
+      Figure
+      the     1. Increased
+              1.  Increased
+          Institute         rate  ofthe
+                                 of  thenumber
+                             rateMetrics
+                     for Health          numberofofdaily
+                                                    daily
+                                         and Evaluation  smokers
+                                                           smokers
+                                                          (2014)     the
+                                                                  in in
+                                                                 and     world
+                                                                        the
+                                                                       World   from
+                                                                            world    1980–2019;
+                                                                                  from
+                                                                             Health             adapted
+                                                                                        1980–2019;
+                                                                                     Organization   adapted
+                                                                                                   [3,4].  fromfrom
+                                                                                                                 the
+      Institute  for Health
+      the Institute         Metrics
+                     for Health           Evaluation
+                                      and and
+                                 Metrics              (2014)
+                                              Evaluation     and and
+                                                          (2014) World    Health
+                                                                       World     Organization
+                                                                             Health           [3,4].[3,4].
+                                                                                     Organization
+
+
+
+
+                      Figure 2. Sales of cigarettes in some of the countries of the world [1,2,4].
+                      Figure 2. Sales of cigarettes in some of the countries of the world [1,2,4].
+                      Figure 2. Sales of cigarettes in some of the countries of the world [1,2,4].
+      However, these smoked cigarette butts have a damaging impact on the environment.
+“The However,       these smoked
+       Terramar project”               cigarette butts
+                              has determined             have a damaging
+                                                   that throughout                impact
+                                                                         the world,     2.3 on  the environment.
+                                                                                                       cigarette butts“The
+                                                                                            million                       are
+      However,      these   smoked     cigarette  butts have thea damaging        impact    on  the environment.         “The
+Terramar      project” has   determined    that  throughout
+littered every minute, and out of ten discarded CBs, one CB is going into a water bodybutts
+                                                                     world,   2.3   million  cigarette               littered
+                                                                                                                 areresearch
+                                                                                                          [8]. The
+Terramar
+every              and has
+              project”
+        minute,         out  determined
+                             of ten        that throughout
+                                     discarded    CBs,          the
+                                                        one CBbutts   world,into
+                                                                  is going    2.3 million    cigarette    butts  are littered
+by  “truth   initiative”  (2017)   has  found that   cigarette          make up a38%  water   body
+                                                                                          of the     [8].littered
+                                                                                                  total    The research     by
+                                                                                                                   waste [9].
+every
+“truth  minute,    and
+         initiative”    out
+                      (2017) of  ten discarded    CBs,  one  CB   is going   into   a water   body   [8].  The  research[9].by
+It has been    reported  that has   found
+                               around      that
+                                         75%     cigarettethrow
+                                             of smokers     butts make      up 38%
+                                                                    their CBs   on the    the totaleven
+                                                                                      of ground,     littered   wasteplaces.
+                                                                                                            in public        It
+“truth
+has been initiative”
+            reported  (2017)
+                       that    has
+                             around found
+                                       75% that
+                                            of   cigarette
+                                               smokers      butts
+                                                          throw     make
+                                                                   their    up
+                                                                          CBs   38%
+                                                                               on     of
+                                                                                    the   the
+                                                                                        ground,total littered
+                                                                                                   even    in   waste
+                                                                                                              public    [9]. It
+                                                                                                                      places.
+      The littered part of a cigarette mostly contains a filter, which is predominantly based on cellulose
+has been    reported
+      Thefiber
+            littered   that
+                     part    around    75%mostly
+                           ofwith
+                              a cigarette   of smokers    throw
+                                                    contains       theirwhich
+                                                              a filter,   CBs on    the ground, even       in public  places.
+acetate          wrapped           paper and    termed   the cigarette     butt. is predominantly
+                                                                                  The                   based
+                                                                                       chemical structure       on cellulose
+                                                                                                                of cellulose
+      The
+acetate is  littered
+          fiber      part
+                 wrapped   of a cigarette  mostly   contains  a  filter, which   is predominantly       based
+                             with3.paper and termed the cigarette butt. The chemical structure of cellulose     on  cellulose
+acetate      shown   in Figure
+acetate is
+acetate   fiber  wrapped
+             shown           with3.paper and termed the cigarette butt. The chemical structure of cellulose
+                     in Figure
+acetate is shown in Figure 3.
+
+
+=== PDF PAGE 3 ===
+Materials 2020, 13, 734 3 of 20
+Materials 2020, 13, x FOR PEER REVIEW 3 of 20 
+ 
+ 
+Figure 3. Polymer structure of cellulose acetate. One of the cellulose acetate groups is marked with a 
+red circle. 
+Burnt CBs contain nicotine, tar, CO, arsenic, and many other toxic chemicals [10,11]. When CBs 
+are disposed of on the ground, chemicals start leaching into the environment [12–14]. These chemicals 
+contaminate the soil, plants, animals, and water bodies [12]. When CBs are in contact with flowing 
+water, the chemicals spread faster and cause contam ination to life in the water and deteriorate the 
+water quality. 
+The management of waste CBs is a pressing issu e. Most countries manage cigarette butts by 
+disposing of them in landfills along with other waste, while, in others, they are incinerated, which 
+generates toxic fumes and leads to severe air poll ution [15,16]. Research has been carried out to 
+recycle CBs in different manufactured materials. A recent approach to recycle CBs along with other 
+waste products like bagasse fiber, palm oil fruit bunch fiber in noise control materials and sound 
+absorption property has found promising results [17,18]. Teixeira et al. (2016) investigated a method 
+to recycle CBs in cellulose pulp for the paper in dustry; however, the mana gement of effluent and 
+organic materials was found to be challenging [19]. 
+1.2. Use of Waste Cigarette Butts in Construction Materials 
+The recycling of CBs and turning this waste into a resource can be a solution to cigarette butt 
+pollution. Researchers have developed methods to recycle different waste materials as aggregates in 
+construction materials [20]. Góra et al. (2019) util ized recycled LCD (liquid crystal display) as fine 
+aggregate in concrete. Samples exhibited good fr eeze-thaw resistance and performed similarly to 
+C50/60 concrete [21]. Based on a comprehensive study, Mohajerani et al. (2016) proposed that the CB 
+pollution problem can be solved globally by incorporating 1% CBs in 2.5% of the world’s brick 
+production. The study involved incorporating variou s percentages of CBs in clay bricks, including 
+2.5%, 5%, 7.5%, and 10% [14,22–24]. Furthermore, Mohajerani et al. (2017) revealed a new method to 
+recycle CBs in asphalt concrete for the construction of flexible pavement [10]. In their study, cigarette 
+butts were encapsulated by paraffin wax and bitumen and the encapsulated CBs were incorporated 
+in dense asphalt. This comprehensive study invest igated the effects of incorporating encapsulated 
+CBs as aggregate in different percentages of up to 15 kg/m 3, on the physical and mechanical 
+properties of dense asphalt and found very promising results [10]. This paper is part of a study from 
+the same ongoing research at RMIT University focusing on exploring a method to recycle CBs in 
+bitumen as a fiber modifier that will introduce a unique form of recycling approach. This research 
+aims to recycle CBs as a fiber modifier for bitume n for the construction of flexible pavements. The 
+preparation and incorporation of CBs in differen t classes of bitumen are investigated, and some 
+results from the ongoing exploration are presented and discussed in this paper. 
+1.3. Use of Waste Materials in Bitumen 
+Bitumen is a viscoelastic complex hydrocarbon that is black or brown. Although there are a few 
+natural sources of bitumen available, bitumen is generally sourced from cr ude oil refineries [25]. 
+Because of its waterproofing and viscoelastic na ture, bitumen is used as the binder for the 
+construction of flexible pavement all over the world. Bitumen can be classified into three categories: 
+penetration grade, performance grade, and viscosity. Nowadays, bitumen classification based on the 
+viscosity grade is gaining popularity, and the available types according to the Australian Standard 
+Figure 3. Polymer structure of cellulose acetate. One of the cellulose acetate groups is marked with a
+red circle.
+Burnt CBs contain nicotine, tar, CO, arsenic, and many other toxic chemicals [10,11]. When CBs
+are disposed of on the ground, chemicals start leaching into the environment [12–14]. These chemicals
+contaminate the soil, plants, animals, and water bodies [12]. When CBs are in contact with ﬂowing
+water, the chemicals spread faster and cause contamination to life in the water and deteriorate the
+water quality.
+The management of waste CBs is a pressing issue. Most countries manage cigarette butts by
+disposing of them in landﬁlls along with other waste, while, in others, they are incinerated, which
+generates toxic fumes and leads to severe air pollution [15,16]. Research has been carried out to recycle
+CBs in diﬀerent manufactured materials. A recent approach to recycle CBs along with other waste
+products like bagasse ﬁber, palm oil fruit bunch ﬁber in noise control materials and sound absorption
+property has found promising results [17,18]. Teixeira et al. (2016) investigated a method to recycle CBs
+in cellulose pulp for the paper industry; however, the management of eﬄuent and organic materials
+was found to be challenging [19].
+1.2. Use of Waste Cigarette Butts in Construction Materials
+The recycling of CBs and turning this waste into a resource can be a solution to cigarette butt
+pollution. Researchers have developed methods to recycle diﬀerent waste materials as aggregates in
+construction materials [20]. G óra et al. (2019) utilized recycled LCD (liquid crystal display) as ﬁne
+aggregate in concrete. Samples exhibited good freeze-thaw resistance and performed similarly to
+C50/60 concrete [21]. Based on a comprehensive study, Mohajerani et al. (2016) proposed that the
+CB pollution problem can be solved globally by incorporating 1% CBs in 2.5% of the world’s brick
+production. The study involved incorporating various percentages of CBs in clay bricks, including
+2.5%, 5%, 7.5%, and 10% [14,22–24]. Furthermore, Mohajerani et al. (2017) revealed a new method to
+recycle CBs in asphalt concrete for the construction of ﬂexible pavement [10]. In their study, cigarette
+butts were encapsulated by paraﬃn wax and bitumen and the encapsulated CBs were incorporated in
+dense asphalt. This comprehensive study investigated the eﬀects of incorporating encapsulated CBs
+as aggregate in diﬀerent percentages of up to 15 kg/m3, on the physical and mechanical properties
+of dense asphalt and found very promising results [10]. This paper is part of a study from the same
+ongoing research at RMIT University focusing on exploring a method to recycle CBs in bitumen as a
+ﬁber modiﬁer that will introduce a unique form of recycling approach. This research aims to recycle
+CBs as a ﬁber modiﬁer for bitumen for the construction of ﬂexible pavements. The preparation and
+incorporation of CBs in diﬀerent classes of bitumen are investigated, and some results from the ongoing
+exploration are presented and discussed in this paper.
+1.3. Use of Waste Materials in Bitumen
+Bitumen is a viscoelastic complex hydrocarbon that is black or brown. Although there are a
+few natural sources of bitumen available, bitumen is generally sourced from crude oil reﬁneries [25].
+Because of its waterprooﬁng and viscoelastic nature, bitumen is used as the binder for the construction
+of ﬂexible pavement all over the world. Bitumen can be classiﬁed into three categories: penetration
+grade, performance grade, and viscosity. Nowadays, bitumen classiﬁcation based on the viscosity
+
+=== PDF PAGE 4 ===
+Materials 2020, 13, 734                                                                                     4 of 20
+
+
+Materials 2020, 13, x FOR PEER REVIEW                                                                       4 of 20
+grade is gaining popularity, and the available types according to the Australian Standard which is
+namedisafter
+which            after theviscosity
+             the typical
+         named                      of bitumen
+                            typical viscosity of at 60 ◦ C except
+                                                 bitumen           forexcept
+                                                            at 60 °C   PMB class  (polymer
+                                                                             for PMB         modified modified
+                                                                                                      bitumen)
+                                                                                      class (polymer
+for the construction
+bitumen)             of flexibleof
+          for the construction    pavements    are provided
+                                    flexible pavements     are in Figure 4in[26].
+                                                                provided      Figure 4 [26].
+
+                                        Classification of
+                                           Bitumen
+
+                          C170          C320        C600         PMB
+
+
+                          A10E       A15E       A20E       A25E       A27F       A35P
+      Figure 4. Classification of bitumen according to Australian standard for the construction of pavements.
+      Figure 4. Classification of bitumen according to Australian standard for the construction of
+      pavements.
+      Around the world, researchers are working to improve the properties of these materials to ensure
+sustainability in the pavement construction sector [25,27,28]. Recycling waste materials in asphalt is
+      Around the world, researchers are working to improve the properties of these materials to
+recognized as a very efficient method, as it improves the pavement quality, and, at the same time,
+ensure sustainability in the pavement construction sector [25,27,28]. Recycling waste materials in
+helps to manage and recycle different waste products [27]. Many researchers have investigated the
+asphalt is recognized as a very efficient method, as it improves the pavement quality, and, at the same
+use of different waste materials in bitumen. Plastic and polymer-based modifiers have been used
+time, helps to manage and recycle different waste products [27]. Many researchers have investigated
+extensively for a long time. Many industries have adopted plastic rubber and polymer modified
+the use of different waste materials in bitumen. Plastic and polymer-based modifiers have been used
+bitumen for the construction of roads [28–30], while numerous researchers have investigated the use of
+extensively for a long time. Many industries have adopted plastic rubber and polymer modified
+regular household residue like waste cooking oil in bitumen. In some cases, they have recommended
+bitumen for the construction of roads [28–30], while numerous researchers have investigated the use
+an optimum amount of waste cooking oil in bitumen, which is up to 5% (by weight), to ensure that
+of regular household residue like waste cooking oil in bitumen. In some cases, they have
+any resultant compromise in the performance is minimized [28,31]. Intending to achieve better aging
+recommended an optimum amount of waste cooking oil in bitumen, which is up to 5% (by weight),
+resistance, researchers have used palm oil fuel ash (POFA) to modify bitumen and found that POFA in
+to ensure that any resultant compromise in the performance is minimized [28,31]. Intending to
+bitumen can work as a rejuvenator for the binder [28,32,33]. Different types of fiber have been used
+achieve better aging resistance, researchers have used palm oil fuel ash (POFA) to modify bitumen
+in construction materials to alleviate the global waste management issue [34]. A number of studies
+and found that POFA in bitumen can work as a rejuvenator for the binder [28,32,33]. Different types
+have found that fiber can improve the performance of bitumen [34–37]. Researchers have investigated
+of fiber have been used in construction materials to alleviate the global waste management issue [34].
+the use of synthetic fibers like polymer fiber, steel fiber, and carbon fibers in asphalt concrete [34].
+A number of studies have found that fiber can improve the performance of bitumen [34–37].
+It has been found that carbon fiber can improve the electrical property of asphalt but compromise the
+Researchers have investigated the use of synthetic fibers like polymer fiber, steel fiber, and carbon
+mechanical performance of asphalt concrete while steel fiber improves the stability of asphalt [38,39].
+fibers in asphalt concrete [34]. It has been found that carbon fiber can improve the electrical property
+Industry uses cellulose fiber to reduce binder drain off during the transportation of the mix from the
+of asphalt but compromise the mechanical performance of asphalt concrete while steel fiber improves
+plant to the construction site [40,41]. As cigarette butt filter is cellulose acetate based fiber, it can be a
+the stability of asphalt [38,39]. Industry uses cellulose fiber to reduce binder drain off during the
+potential replacement of natural cellulose fiber used in stone mastic asphalt. Recycling suitable waste
+transportation of the mix from the plant to the construction site [40,41]. As cigarette butt filter is
+in bitumen in a proper manner is a sustainable way to contribute to solving the waste management
+cellulose acetate based fiber, it can be a potential replacement of natural cellulose fiber used in stone
+problem of the world.
+mastic asphalt. Recycling suitable waste in bitumen in a proper manner is a sustainable way to
+contribute
+2. Materials   solving
+            toand      the waste management problem of the world.
+                   Method
+     The types
+2. Materials      bitumen were selected based on the most popular types of bitumen used in asphalt
+                ofMethod
+              and
+concrete in Australia. Samples were prepared in laboratory conditions with CBs, and the results
+     The types of bitumen were selected based on the most popular types of bitumen used in asphalt
+were compared with the control sample and the samples prepared with conventional cellulose fiber.
+concrete in Australia. Samples were prepared in laboratory conditions with CBs, and the results were
+Incorporation of cellulose fiber in stone mastic asphalt is a common practice in the industry to prevent
+compared with the control sample and the samples prepared with conventional cellulose fiber.
+bitumen drain off during mixing and the transportation of materials.
+Incorporation of cellulose fiber in stone mastic asphalt is a common practice in the industry to prevent
+bitumen  drain off during mixing and the transportation of materials.
+2.1. Materials
+      In this research, three types of bitumen were used to investigate this novel approach. Bitumen
+2.1. Materials
+class 320, 170, and PMB A10E were used as a binder. Nowadays, the industry uses cellulose fiber
+with In  this research,
+      bitumen            three types ofofbitumen
+                 for the construction             were asphalt
+                                          stone mastic          investigate
+                                                       used to (SMA).   Fiberthis novel approach.
+                                                                               prevents            Bitumen
+                                                                                        the drain-off of the
+class  320, 170,  and  PMB   A10E  were   used as a binder. Nowadays,    the  industry  uses cellulose
+bitumen during transportation to the site. Cellulose fiber and shredded cigarette butts were used      fiber
+                                                                                                          to
+with bitumen for the construction of stone mastic asphalt (SMA). Fiber prevents the drain-off of the
+bitumen during transportation to the site. Cellulose fiber and shredded cigarette butts were used to
+modify bitumen in this research. Cigarette butts were pre-processed before blending with bitumen.
+The industry standard for the binders is provided in Table 1.
+
+
+=== PDF PAGE 5 ===
+Materials 2020, 13, 734 5 of 20
+modify bitumen in this research. Cigarette butts were pre-processed before blending with bitumen.
+The industry standard for the binders is provided in Table 1.
+Table 1. Typical properties of bitumen used in this research (adapted from industry approved
+standards) [42–45].
+Sample Type Penetration Test (dm) Softening Point ( ◦C) Viscosity at 135 ◦C (Pa.s)
+PMB A10E 60–70 (Typical) 90 (Minimum) 5 (Typical)
+Bitumen C320 40 (Minimum) 45 (Minimum) 0.53 (Typical)
+Bitumen C170 62 (Minimum) 40 (Minimum) 0.40 (Typical)
+Pre-Processing of CB
+The cigarette butts (CBs) used in this study were supplied by Butt out Australia Pty Ltd. After
+collection, the CBs were stored in a plastic tub. The cigarette butts were dried in the oven for 24 h,
+and excess tobacco was removed from the CB. The dried CBs were shredded into ground ﬁber with a
+grinder in sealed and controlled conditions. The ground CBs were later blended with bitumen samples.
+Figure 5 shows a part of the pre-processing of the CBs.
+Materials 2020, 13, x FOR PEER REVIEW 5 of 20 
+ 
+Table 1. T y p i c a l  p r o p e r t i e s  o f  b i t u m e n  u s e d  i n  t h i s  r e s e a r c h  ( a d a p t e d  f r o m  i n d u s t r y  a p p r o v e d  
+standards) [42–45]. 
+Sample Type Penetration Test (dm) Softening Point (°C) Viscosity at 135 °C (Pa.s) 
+PMB A10E 60–70 (Typical) 90 (Minimum) 5 (Typical) 
+Bitumen C320 40 (Minimum) 45 (Minimum) 0.53 (Typical) 
+Bitumen C170 62 (Minimum) 40 (Minimum) 0.40 (Typical) 
+Pre-Processing of CB 
+The cigarette butts (CBs) used in this study we re supplied by Butt out Australia Pty Ltd. After 
+collection, the CBs were stored in a plastic tub. Th e cigarette butts were dried in the oven for 24 h, 
+and excess tobacco was removed from the CB. The dried CBs were shredded into ground fiber with 
+a grinder in sealed and controlled conditions. The ground CBs were later blended with bitumen 
+samples. Figure 5 shows a part of the pre-processing of the CBs. 
+. 
+Figure 5. Cigarette butts (a) before and (b) after oven drying and the removal of excess tobacco and 
+dirt; (c) ground cigarette butts (CBs) used for sample preparation; (d) view of CB fibers under optical 
+microscope. 
+2.2. Method 
+2.2.1. Blending of Bitumen with Fibers and Sample Preparation 
+The fibers were blended with three different types of bitumen. The blending process was 
+replicated three times to confirm repeatability. A total of eighteen samples were prepared for each 
+blending approach. From each type of bitumen, six types of samples were prepared. The first sample 
+was the control sample without any fiber blended with the sample. The second sample comprised 
+0.3% cellulose fiber. The rest of the samples contained 0.2%, 0.3% 0.4%, and 0.5% shredded CBs, 
+respectively. Tables 2–4 show the blending design for Bitumen Class A10E, C320, and C170 with 
+cellulose fiber and CB fiber for blending approach 1, approach 2 and approach 3 consecutively. 
+Table 2. Blending approach 1 for bitumen modified with cellulose fiber and cigarette butts. 
+Type of 
+Bitumen 
+Type of 
+Fiber 
+% of 
+Fiber 
+Mass of Bitumen 
+(g) 
+Mass of Fiber 
+(g) 
+Mass of Final Blend 
+(g) 
+A10E 
+No fiber 0 181 0.00 181.00 
+CB 
+0.2 197 0.39 197.39 
+0.3 182 0.55 182.55 
+0.4 211 0.84 211.84 
+Figure 5. Cigarette butts ( a) before and ( b) after oven drying and the removal of excess tobacco
+and dirt; (c) ground cigarette butts (CBs) used for sample preparation; ( d) view of CB ﬁbers under
+optical microscope.
+2.2. Method
+2.2.1. Blending of Bitumen with Fibers and Sample Preparation
+The ﬁbers were blended with three diﬀerent types of bitumen. The blending process was replicated
+three times to conﬁrm repeatability. A total of eighteen samples were prepared for each blending
+approach. From each type of bitumen, six types of samples were prepared. The ﬁrst sample was
+the control sample without any ﬁber blended with the sample. The second sample comprised 0.3%
+cellulose ﬁber. The rest of the samples contained 0.2%, 0.3% 0.4%, and 0.5% shredded CBs, respectively.
+Tables 2–4 show the blending design for Bitumen Class A10E, C320, and C170 with cellulose ﬁber and
+CB ﬁber for blending approach 1, approach 2 and approach 3 consecutively.
+
+=== PDF PAGE 6 ===
+Materials 2020, 13, 734                                                                                   6 of 20
+
+
+
+            Table 2. Blending approach 1 for bitumen modified with cellulose fiber and cigarette butts.
+
+           Type of        Type of                        Mass of        Mass of Fiber    Mass of Final
+                                       % of Fiber
+           Bitumen         Fiber                       Bitumen (g)          (g)           Blend (g)
+                          No fiber         0               181               0.00            181.00
+                                           0.2             197               0.39            197.39
+                                           0.3             182               0.55            182.55
+             A10E            CB
+                                           0.4             211               0.84            211.84
+                                           0.5             298               1.49            299.49
+                          Cellulose        0.3             155               0.47            155.47
+                          No fiber         0               205               0.00            205.00
+                                           0.2             201               0.40            201.40
+                                           0.3             236               0.71            236.71
+              C320           CB
+                                           0.4             198               0.79            198.79
+                                           0.5             213               1.07            214.07
+                          Cellulose        0.3             172               0.52            172.52
+                          No fiber         0               229               0.00            229.00
+                                           0.2             194               0.39            194.39
+                                           0.3             182               0.55            182.55
+              C170           CB
+                                           0.4             179               0.72            179.72
+                                           0.5             208               1.04            209.04
+                          Cellulose        0.3             155               0.47            155.47
+
+
+            Table 3. Blending approach 2 for bitumen modified with cellulose fiber and cigarette butts.
+
+           Type of        Type of                        Mass of        Mass of Fiber    Mass of Final
+                                       % of Fiber
+           Bitumen         Fiber                       Bitumen (g)          (g)           Blend (g)
+                          No fiber         0               204               0.00            204.00
+                                           0.2             225               0.45            225.45
+                                           0.3             219               0.66            219.66
+             A10E            CB
+                                           0.4             190               0.76            190.76
+                                           0.5             195               0.98            195.98
+                          Cellulose        0.3             170               0.51            170.51
+                          No fiber         0               197               0.00            197.00
+                                           0.2             186               0.37            186.37
+                                           0.3             194               0.58            194.58
+              C320           CB
+                                           0.4             218               0.87            218.87
+                                           0.5             190               0.95            190.95
+                          Cellulose        0.3             187               0.56            187.56
+                          No fiber         0               142               0.00            142.00
+                                           0.2             167               0.33            167.33
+                                           0.3             154               0.46            154.46
+              C170           CB
+                                           0.4             161               0.64            161.64
+                                           0.5             151               0.76            151.76
+                          Cellulose        0.3             159               0.48            159.48
+
+
+=== PDF PAGE 7 ===
+Materials 2020, 13, 734 7 of 20
+Table 4. Blending approach 3 for bitumen modiﬁed with cellulose ﬁber and cigarette butts.
+Type of
+Bitumen
+Type of
+Fiber % of ﬁber Mass ofBitumen (g) Mass of Fiber(g) Mass of FinalBlend (g)
+A10E
+No ﬁber 0 181 0.00 204.00
+CB
+0.2 197 0.45 225.45
+0.3 182 0.66 219.66
+0.4 211 0.76 190.76
+0.5 298 0.98 195.98
+Cellulose 0.3 155 0.51 170.51
+C320
+No ﬁber 0 205 0.00 197.00
+CB
+0.2 201 0.37 186.37
+0.3 236 0.58 194.58
+0.4 198 0.87 218.87
+0.5 213 0.95 190.95
+Cellulose 0.3 172 0.56 187.56
+C170
+No ﬁber 0 162 0.00 162.00
+CB
+0.2 149 0.30 149.30
+0.3 165 0.50 165.50
+0.4 187 0.75 187.75
+0.5 148 0.74 148.74
+Cellulose 0.3 161 0.48 161.48
+The samples were blended with a shear mixture in laboratory conditions. The blending temperature
+was set at 160 ◦C, and the rotation speed was 500 rpm. After blending all the samples, they were
+labeled and prepared for laboratory investigations. The shear mixture was used to blend bitumen with
+cellulose and CB ﬁber. Nowadays, the industry uses cellulose ﬁber with bitumen for the construction
+of stone mastic asphalt (SMA). Fiber prevents the drain-oﬀ of the bitumen during transportation to the
+site. Figure 6 exhibits few of the samples before the mixture and the blending process.
+Materials 2020, 13, x FOR PEER REVIEW 7 of 20 
+ 
+0.4 187 0.75 187.75 
+0.5 148 0.74 148.74 
+Cellulose 0.3 161 0.48 161.48 
+The samples were blended with a shear mixtur e in laboratory conditions. The blending 
+temperature was set at 160 °C, and the rotation sp eed was 500 rpm. After bl ending all the samples, 
+they were labeled and prepared for laboratory investigations. The shear mixture was used to blend 
+bitumen with cellulose and CB fiber. Nowadays, th e industry uses cellulose fiber with bitumen for 
+the construction of stone mastic asphalt (SMA). Fi ber prevents the drain-off of the bitumen during 
+transportation to the site. Figure 6 exhibits few of the samples before the mixture and the blending 
+process. 
+ 
+Figure 6. (a) Bitumen C170, ( b) Bitumen A10E, ( c) Bitumen C320, and ( d) blending of bitumen with 
+fibers using the shear mixture. 
+2.2.2. Laboratory Tests 
+All the samples were assessed in the laboratory following the AASHTO, ASTM, and Australian 
+Standards (AS). The laboratory tests included a pe netration test, softening point test, and viscosity 
+test. The average result of at least three replicate tests was used for the comparison. The details of the 
+laboratory investigation plan are shown in Figure 7. In addition, a binder drain-off test was 
+performed on the asphalt samples prepared with fiber modified bitumen to assess the drain down 
+properties. 
+Figure 6. (a) Bitumen C170, (b) Bitumen A10E, (c) Bitumen C320, and (d) blending of bitumen with
+ﬁbers using the shear mixture.
+
+=== PDF PAGE 8 ===
+Materials 2020, 13, 734 8 of 20
+2.2.2. Laboratory Tests
+All the samples were assessed in the laboratory following the AASHTO, ASTM, and Australian
+Standards (AS). The laboratory tests included a penetration test, softening point test, and viscosity
+test. The average result of at least three replicate tests was used for the comparison. The details of the
+laboratory investigation plan are shown in Figure 7. In addition, a binder drain-oﬀ test was performed
+on the asphalt samples prepared with ﬁber modiﬁed bitumen to assess the drain down properties.
+Materials 2020, 13, x FOR PEER REVIEW 8 of 20 
+ 
+Laboratory investigation for 
+bitumen
+Physical test Rheological test
+1. Penetration test
+2. Softening point test 1. Viscosity test
+ 
+Figure 7. Adapted laboratory test flow for bitumen followed in this research. 
+2.2.3. Penetration Test 
+The penetration test was carried out according to AASHTO T 49 and AS 2341.12. During the test, 
+samples were collected in penetration cups and cond itioned in the water bath at 25 °C temperature 
+for 2 h. Later, a penetrometer was used to determine the penetration value of the samples. The results 
+were compared with the control sample without any fiber. Figure 8 shows the penetration test of a 
+sample in the laboratory. 
+ 
+Figure 8. Penetration test (on left) and softening point test (on right) of a sample carried out in this 
+study. 
+2.2.4. Softening Point Test 
+The softening point test of all twelve samples was carried out with a ring and ball apparatus. 
+The lab test was conducted according to AASHTO T 53 ASTM D 36 and AG: PT/T131. Figure 8 shows 
+the softening point test carried out for this research. 
+2.2.5. Viscosity Test 
+Figure 7. Adapted laboratory test ﬂow for bitumen followed in this research.
+2.2.3. Penetration Test
+The penetration test was carried out according to AASHTO T 49 and AS 2341.12. During the test,
+samples were collected in penetration cups and conditioned in the water bath at 25 ◦C temperature for
+2 h. Later, a penetrometer was used to determine the penetration value of the samples. The results
+were compared with the control sample without any ﬁber. Figure 8 shows the penetration test of a
+sample in the laboratory.
+Materials 2020, 13, x FOR PEER REVIEW 8 of 20 
+ 
+Laboratory investigation for 
+bitumen
+Physical test Rheological test
+1. Penetration test
+2. Softening point test 1. Viscosity test
+ 
+Figure 7. Adapted laboratory test flow for bitumen followed in this research. 
+2.2.3. Penetration Test 
+The penetration test was carried out according to AASHTO T 49 and AS 2341.12. During the test, 
+samples were collected in penetration cups and cond itioned in the water bath at 25 °C temperature 
+for 2 h. Later, a penetrometer was used to determine the penetration value of the samples. The results 
+were compared with the control sample without any fiber. Figure 8 shows the penetration test of a 
+sample in the laboratory. 
+ 
+Figure 8. Penetration test (on left) and softening point test (on right) of a sample carried out in this 
+study. 
+2.2.4. Softening Point Test 
+The softening point test of all twelve samples was carried out with a ring and ball apparatus. 
+The lab test was conducted according to AASHTO T 53 ASTM D 36 and AG: PT/T131. Figure 8 shows 
+the softening point test carried out for this research. 
+2.2.5. Viscosity Test 
+Figure 8. Penetration test (on left) and softening point test (on right) of a sample carried out in this study.
+
+=== PDF PAGE 9 ===
+Materials 2020, 13, 734 9 of 20
+2.2.4. Softening Point Test
+The softening point test of all twelve samples was carried out with a ring and ball apparatus.
+The lab test was conducted according to AASHTO T 53 ASTM D 36 and AG: PT/T131. Figure 8 shows
+the softening point test carried out for this research.
+2.2.5. Viscosity Test
+The viscosity test was conducted on all the samples using a Fungilab (Barcelona, Spain) rotational
+viscometer according to AASHTO T 316, ASTM D 4402, and AG: PT/T111. Figure 9 shows the viscosity
+test of the binder carried out in the laboratory.
+Materials 2020, 13, x FOR PEER REVIEW 9 of 20 
+ 
+The viscosity test was conducted on all the samples using a Fungilab (Barcelona, Spain) 
+rotational viscometer according to AASHTO T 316, ASTM D 4402, and AG: PT/T111. Figure 9 shows 
+the viscosity test of the binder carried out in the laboratory. 
+ 
+Figure 9. Viscosity test of samples used in this study. Use of rotational viscometer to assess viscosity 
+(left); cylindrical containers used to store and perform viscosity test of bitumen (right). 
+3. Results and Discussion 
+The results of the laboratory tests were obse rved and analyzed; the outcome of which was 
+promising. The outcome of the analysis is presented and discussed in this section. 
+3.1. Penetration and Softening Point Test Results 
+The average result of the penetration and softening point tests for all blending approaches are 
+mentioned in Table 5. 
+Table 5. Penetration and softening point results. 
+Type of 
+Bitumen 
+Type 
+of 
+Fiber 
+% of 
+Fibe
+r 
+Blending Approach 1 Blendi ng Approach 2 Blending Approach 3 Average Resul t 
+Penetratio
+n Test 
+(dmm) 
+Softenin
+g Point 
+(°C) 
+Penetratio
+n Test 
+(dmm) 
+Softenin
+g Point 
+(°C) 
+Penetratio
+n Test 
+(dmm) 
+Softenin
+g Point 
+(°C) 
+Penetratio
+n Test 
+(dmm) 
+Softenin
+g Point 
+(°C) 
+A10E 
+No 
+fiber 0 62.8 91.0 61.0 90.0 62.7 91.0 62.2 90.7 
+CB 
+0.2 62.8 90.0 60.2 90.0 62.6 90.0 61.9 90.0 
+0.3 62.5 89.9 60.4 89.9 62.4 89.9 61.8 89.9 
+0.4 62.4 89.7 60.7 90.0 62.4 89.7 61.8 89.8 
+0.5 62.0 89.3 60.9 90.2 62.0 89.3 61.6 89.6 
+Cellul
+ose 0.3 63.9 90.7 61.6 90.8 63.0 91.0 62.8 90.8 
+C320 
+No 
+fiber 0 41.4 45.2 41.0 46.0 41.9 45.0 41.4 45.4 
+CB 
+0.2 40.8 45.2 41.1 45.2 40.8 45.1 40.9 45.1 
+0.3 42.0 45.2 41.2 45.5 42.5 45.2 41.9 45.3 
+0.4 42.9 45.0 41.6 45.4 43.0 45.6 42.5 45.3 
+0.5 44.2 45.2 42.0 45.5 44.0 45.8 43.4 45.5 
+Cellul
+ose 0.3 39.8 45.9 40.3 45.9 40.0 45.3 40.0 45.7 
+C170 
+No 
+fiber 0 66.0 42.3 62.0 41.0 62.0 41.0 63.3 41.4 
+CB 0.2 62.8 42.8 61.0 40.7 61.0 40.7 61.6 41.4 
+Figure 9. Viscosity test of samples used in this study. Use of rotational viscometer to assess viscosity
+(left); cylindrical containers used to store and perform viscosity test of bitumen (right).
+3. Results and Discussion
+The results of the laboratory tests were observed and analyzed; the outcome of which was
+promising. The outcome of the analysis is presented and discussed in this section.
+3.1. Penetration and Softening Point T est Results
+The average result of the penetration and softening point tests for all blending approaches are
+mentioned in Table 5.
+In the results, it can be observed that, on average, in the case of bitumen PMB A10E, the control
+sample with no ﬁber present had an average penetration value of 62.2 dmm (deci-millimeter). When
+0.3% of cellulose ﬁbers was added, an increase in the penetration value was observed. However,
+after the addition of shredded CBs as ﬁber in the bitumen A10E, a slight decrease in the penetration
+value was found. As more CBs were added, the penetration values started to decrease and maintained
+the range of 61–62 dmm. In the case of bitumen C320, with the addition of CBs ﬁber, the penetration
+value increased, and penetration value stayed within 40–43 dmm. Bitumen C170, without any ﬁbers,
+possessed the maximum penetration value of 63.3 dmm. On the other hand, when Bitumen C170
+was modiﬁed with 0.2% CBs ﬁbers in the mix it exhibited the highest penetration value among all
+the modiﬁed C170 bitumen samples, and the increase in the presence of CBs in the mix reduced
+the penetration value. The probable reason is the soft nature of C170, and the absence of polymer
+
+=== PDF PAGE 10 ===
+Materials 2020, 13, 734                                                                                                                  10 of 20
+
+
+
+content compared to the PMB class. The results suggested that the use of CBs fibers in bitumen is not
+significantly detrimental to the penetration property. In the results, it can be observed that, on average,
+in the case of bitumen PMB A10E, the control sample with no fiber present has a penetration value of
+62.8 dm. When 0.3% of cellulose fibers was added, an increase in the penetration value was observed.
+However, after the addition of shredded CBs as fiber in the bitumen A10E, a slight decrease in the
+penetration value was found. As more CBs were added, the penetration value started to decrease.
+In the case of bitumen C320, with the addition of CB fiber, the penetration value increased. Bitumen
+C170 without any fibers, possessed the maximum penetration value of 66 dm. On the other hand,
+when Bitumen C170 was modified with 0.3% fibers in the mix, it exhibited the highest penetration
+value among all the modified C170 bitumen, and the increase in the presence of CBs in the mix reduced
+the penetration value. The results suggested that the use of CBs fibers in bitumen is not significantly
+detrimental to the penetration performance and a 0.3% addition of CBs does not compromise the typical
+penetration range of bitumen. Variance of the penetration test result was calculated to understand
+the mean differences of the result in all three approaches. Results from bitumen PMB A10E shows
+variance of 0.2, C320 having variance 1.42 and C170 having variance of 0.75. This shows that despite of
+modification of bitumen with CBs, results are very close to each other and CBs fiber do not damage the
+penetration property of bitumen.
+
+                                      Table 5. Penetration and softening point results.
+                                    Blending Approach 1         Blending Approach 2         Blending Approach 3            Average Result
+   Type of     Type of     % of
+   Bitumen      Fiber      Fiber   Penetration   Softening     Penetration   Softening     Penetration   Softening     Penetration   Softening
+                                   Test (dmm)    Point (◦ C)   Test (dmm)    Point (◦ C)   Test (dmm)    Point (◦ C)   Test (dmm)    Point (◦ C)
+               No fiber     0         62.8          91.0          61.0          90.0          62.7          91.0          62.2          90.7
+                            0.2       62.8          90.0          60.2          90.0          62.6          90.0          61.9          90.0
+                            0.3       62.5          89.9          60.4          89.9          62.4          89.9          61.8          89.9
+     A10E         CB
+                            0.4       62.4          89.7          60.7          90.0          62.4          89.7          61.8          89.8
+                            0.5       62.0          89.3          60.9          90.2          62.0          89.3          61.6          89.6
+               Cellulose    0.3       63.9          90.7          61.6          90.8          63.0          91.0          62.8          90.8
+               No fiber     0         41.4          45.2          41.0          46.0          41.9          45.0          41.4          45.4
+                            0.2       40.8          45.2          41.1          45.2          40.8          45.1          40.9          45.1
+                            0.3       42.0          45.2          41.2          45.5          42.5          45.2          41.9          45.3
+     C320         CB
+                            0.4       42.9          45.0          41.6          45.4          43.0          45.6          42.5          45.3
+                            0.5       44.2          45.2          42.0          45.5          44.0          45.8          43.4          45.5
+               Cellulose    0.3       39.8          45.9          40.3          45.9          40.0          45.3          40.0          45.7
+               No fiber     0         66.0          42.3          62.0          41.0          62.0          41.0          63.3          41.4
+                            0.2       62.8          42.8          61.0          40.7          61.0          40.7          61.6          41.4
+                            0.3       61.8          42.6          61.4          40.2          61.4          40.2          61.5          41.0
+     C170         CB
+                            0.4       61.6          42.2          61.3          40.2          61.3          40.2          61.4          40.9
+                            0.5       60.2          42.0          61.2          40.1          61.2          40.1          60.8          40.7
+               Cellulose    0.3       60.8          42.8          61.5          40.9          61.5          40.9          61.3          41.5
+
+
+
+     After analyzing the softening point of samples, it has been found that, use of CBs as fiber in
+PMB A10E decreases the softening point slightly and maintains a range between 89.5–90 ◦ C. Variance
+for softening point difference in three blending was found 0.25. Bitumen C320 modified with CB
+has softening point around 45 ◦ C and variance was as low as 0.03. Softening point of bitumen C170
+modified with CB stayed very close to 41 ◦ C and variance among three approaches was 0.11. This shows
+that results are very similar to the control sample and all these samples might be suitable for the
+construction of flexible pavement.
+
+3.2. Viscosity Test
+     The viscosity test was carried out at two different temperatures, 135 ◦ C and 165 ◦ C. The results
+are given in Table 6.
+
+
+=== PDF PAGE 11 ===
+Materials 2020, 13, 734                                                                                                                                                11 of 20
+
+
+
+                                                            Table 6. Viscosity test results of the samples.
+
+                                                                                                                Viscosity (Pa.s)
+        Type of           Type of                      % of              Blending                      Blending                  Blending              Average
+        Bitumen            Fiber                       Fiber            Approach 1                    Approach 2                Approach 3             Viscosity
+                                                                      135 ◦ C      165 ◦ C       135 ◦ C       165 ◦ C    135 ◦ C     165 ◦ C    135 ◦ C     165 ◦ C
+                       No fiber                         0              6.43            1.03          6.53       1.03        6.5        1.02       6.49         1.03
+                                                        0.2            6.23            1.02          6.24       1.02        6.21       1.02       6.23         1.02
+                                                        0.3            6.25            1.02          6.25       1.09        6.22       1.12       6.24         1.08
+          A10E                     CB
+                                                        0.4            7.01            1.26          7.05       1.29        7.02       1.25       7.03         1.27
+                                                        0.5            7.28            1.32          7.4        1.34        7.37       1.33       7.35         1.33
+                      Cellulose                         0.3            6.59            1.01          6.91       1.02        6.88       1.05       6.79         1.03
+                       No fiber                         0              0.78            0.36          0.72       0.35        0.74       0.35       0.75         0.35
+                                         REVIEW 0.82
+          Materials 2020, 13, x FOR PEER0.2                                            0.37          0.77       0.37        0.76       0.34       0.78     11 of0.36
+                                                                                                                                                                  20
+                                                        0.3            0.85            0.38          0.85       0.37        0.8        0.42       0.83         0.39
+          C320                     CB            0.5           7.28             1.32          7.4            1.34        7.37        1.33       7.35       1.33
+                      Cellulos                          0.4            0.91            0.38          0.91       0.41        0.91       0.51       0.91         0.43
+                                                 0.3           6.59             1.01          6.91           1.02        6.88        1.05       6.79       1.03
+                         e                              0.5            1.08            0.43          1.05       0.44        1.1         0.7       1.08         0.52
+                      No fiber                    0            0.78             0.36          0.72           0.35        0.74        0.35       0.75       0.35
+                      Cellulose 0.2 0.3 0.82 0.77 0.37 0.36 0.77 0.76                                        0.37
+                                                                                                                 0.36       0.74
+                                                                                                                         0.76
+                                                                                                                                        0.04
+                                                                                                                                     0.34
+                                                                                                                                                   0.76
+                                                                                                                                                0.78       0.36
+                                                                                                                                                               0.25
+                      No fiber 0.3 0 0.85 0.65 0.38 0.31 0.85 0.65                                           0.370.31    0.80.65        0.31
+                                                                                                                                     0.42          0.65
+                                                                                                                                                0.83       0.390.31
+                            CB
+            C320                                 0.4     0.91      0.38                       0.91           0.41        0.91        0.51       0.91       0.43
+                                                     0.2      0.67      0.35                       0.67          0.35       0.67        0.35       0.67        0.35
+                                                 0.5     1.08      0.43                       1.05           0.44        1.1         0.7        1.08       0.52
+                      Cellulos                          0.3            0.68            0.35          0.68       0.35        0.68       0.35       0.68         0.35
+          C170                                   0.3           0.77             0.36          0.76           0.36        0.74        0.04       0.76       0.25
+                         eCB                            0.4            0.73            0.39          0.73       0.39        0.73       0.39       0.73         0.39
+                      No fiber    0      0.65      0.31                                       0.65           0.31        0.65        0.31       0.65       0.31
+                                 0.2 0.5 0.67 1.1 0.35 0.44                                   0.67 1.1       0.350.44    0.671.1        0.44
+                                                                                                                                     0.35          1.10
+                                                                                                                                                0.67       0.350.44
+                      Cellulose  0.3 0.3 0.68 0.66 0.35 0.34                                  0.68 0.66      0.350.34    0.680.66    0.35
+                                                                                                                                        0.34    0.68
+                                                                                                                                                   0.66    0.350.34
+                        CB
+            C170                 0.4     0.73      0.39                                       0.73           0.39        0.73        0.39       0.73       0.39
+                                 0.5     1.1       0.44                                       1.1            0.44        1.1         0.44       1.10       0.44
+                      Cellulos
+     The results     show     a positive
+                                 0.3     resemblance
+                                         0.66      0.34 in 0.66viscosity
+                                                          the        0.34 of the         0.34 In the
+                                                                                  samples.
+                                                                               0.66                   case of0.34
+                                                                                                    0.66       PMB A10E,
+                         e
+                                                                                           ◦
+the control sample without any fibers, the viscosity was 6.49 Pa. s at 135 C. However, when PMB
+             The results show a positive resemblance in the viscosity of the samples. In the case of PMB A10E,
+A10E was modified       with cellulose fibers, a slight increase in viscosity was noticed. When it was
+        the control sample without any fibers, the viscosity was 6.49 Pa. s at 135 °C. However, when PMB
+modified with shredded CBs, an increase in the viscosity was found with the increase in the quantity
+        A10E was modified with cellulose fibers, a slight increase in viscosity was noticed. When it was
+of CBs in  the mixture.
+        modified          The presence
+                  with shredded           of the polymer
+                                 CBs, an increase              content
+                                                   in the viscosity wasin   the with
+                                                                          found bitumen    has a vital
+                                                                                     the increase  in therole   in terms of
+                                                                                                          quantity
+higher viscosity.
+        of CBs in the mixture. The presence of the polymer content in the bitumen has a vital role in terms of
+     Onhigher  viscosity.
+         the other   hand, Bitumen C320 and C170, which have low viscosity compared to PMB A10E
+             On
+because of the the   other hand,
+                 absence         Bitumencontent,
+                           of polymer                 C170, which
+                                           C320 andshowed           have low viscosity
+                                                                an increase             comparedwith
+                                                                               in the viscosity      to PMB
+                                                                                                          theA10E
+                                                                                                               increase of
+        because of the absence of polymer content, showed an increase in the viscosity with the increase of
+CBs in the mixture. Figures 10–12 illustrate the comparative average viscosity from different blending
+        CBs in the mixture. Figures 10–12 illustrate the comparative average viscosity from different blending
+approach   for different types of bitumen.
+        approach for different types of bitumen.
+
+
+                                                                                Bitumen PMB A10E
+                                             8
+                                             7
+                                             6
+                          Viscosity (Pa.s)
+
+
+
+
+                                             5
+                                             4
+                                             3
+                                             2
+                                             1
+                                             0
+                                                 0% Fiber              0.3%            0.2% CBs            0.3% CBs      0.4% CBs     0.5% CBs
+                                                                      Cellulose
+
+                                                                                       at 135℃        at 165℃
+
+
+          Figure Figure 10. Comparative
+                 10. Comparative        viscosity
+                                    viscosity        Bitumen PMB
+                                                ofofBitumen      A10Emodified
+                                                             PMB A10E modifiedwithwith
+                                                                                   different types types
+                                                                                        different  of fiber.of fiber.
+
+
+=== PDF PAGE 12 ===
+Materials 2020, 13, 734 12 of 20
+Materials 2020, 13, x FOR PEER REVIEW 12 of 20 
+ 
+ 
+Figure 11. Comparative viscosity of Bitumen C320 modified with different types of fiber. 
+ 
+Figure 12. Comparative viscosity of Bitumen C170 modified with different types of fiber. 
+The viscosity ratio, as a relative change in the state of flow and linear slope for two different 
+temperatures (135 °C and 165 °C), is provided to understand the slope condition of the temperature 
+susceptibility graph. A higher value for the slop e indicates a steep slope; hence, the sample is 
+comparatively more vulnerable to temperature change. A lower value for the slope indicates a 
+comparatively flat slope, and the sample is less susceptible to temperature change. Figures 13–15 
+show the viscosity ratio and the slope of the sample s due to the change of viscosity from 135 °C to 
+165 °C. 
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+0% Fiber 0.3%
+Cellulose
+0.2% CBs 0.3% CBs 0.4% CBs 0.5% CBs
+Viscosity (Pa.s)
+Bitumen C320
+at 135℃ at 165℃
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+0% Fiber 0.3%
+Cellulose
+0.2% CBs 0.3% CBs 0.4% CBs 0.5% CBs
+Viscosity (Pa.s)
+Bitumen C170
+at 135℃ at 165℃
+Figure 11. Comparative viscosity of Bitumen C320 modiﬁed with diﬀerent types of ﬁber.
+Materials 2020, 13, x FOR PEER REVIEW 12 of 20 
+ 
+ 
+Figure 11. Comparative viscosity of Bitumen C320 modified with different types of fiber. 
+ 
+Figure 12. Comparative viscosity of Bitumen C170 modified with different types of fiber. 
+The viscosity ratio, as a relative change in the state of flow and linear slope for two different 
+temperatures (135 °C and 165 °C), is provided to understand the slope condition of the temperature 
+susceptibility graph. A higher value for the slop e indicates a steep slope; hence, the sample is 
+comparatively more vulnerable to temperature change. A lower value for the slope indicates a 
+comparatively flat slope, and the sample is less susceptible to temperature change. Figures 13–15 
+show the viscosity ratio and the slope of the sample s due to the change of viscosity from 135 °C to 
+165 °C. 
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+0% Fiber 0.3%
+Cellulose
+0.2% CBs 0.3% CBs 0.4% CBs 0.5% CBs
+Viscosity (Pa.s)
+Bitumen C320
+at 135℃ at 165℃
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+0% Fiber 0.3%
+Cellulose
+0.2% CBs 0.3% CBs 0.4% CBs 0.5% CBs
+Viscosity (Pa.s)
+Bitumen C170
+at 135℃ at 165℃
+Figure 12. Comparative viscosity of Bitumen C170 modiﬁed with diﬀerent types of ﬁber.
+The viscosity ratio, as a relative change in the state of ﬂow and linear slope for two di ﬀerent
+temperatures (135 ◦C and 165 ◦C), is provided to understand the slope condition of the temperature
+susceptibility graph. A higher value for the slope indicates a steep slope; hence, the sample is
+comparatively more vulnerable to temperature change. A lower value for the slope indicates a
+comparatively ﬂat slope, and the sample is less susceptible to temperature change. Figures 13–15 show
+the viscosity ratio and the slope of the samples due to the change of viscosity from 135 ◦C to 165 ◦C.
+
+=== PDF PAGE 13 ===
+Materials 2020,
+Materials       13, x734
+          2020, 13,   FOR PEER REVIEW                                                                    13 of
+                                                                                                         13    20
+                                                                                                            of 20
+
+
+
+
+     Figure 13. Viscosity ratio and slope of Bitumen PMB A10E with cellulose fiber and different % of
+     Figure 13. Viscosity ratio and slope of Bitumen PMB A10E with cellulose fiber and different % of CB
+     CB content.
+     content.
+      The viscosity ratio of the samples prepared with bitumen PMB A10E shows that the addition of
+     The
+0.3% CBsviscosity   ratio has
+          in the binder   of the   highest prepared
+                               thesamples             with of
+                                            viscosity ratio  bitumen   PMB other
+                                                                6.13 among  A10E modified
+                                                                                   shows that    the addition
+                                                                                              bitumen          of
+                                                                                                         samples.
+0.3%  CBs in the binder  has  the  highest viscosity ratio  of 6.13  among other  modified   bitumen
+In terms of temperature susceptibility, 0.3% CBs in bitumen keeps the binder very similar to the controlsamples.
+In        of temperature
+   termsConsidering
+sample.                     susceptibility,
+                       the slope   condition,0.3%   CBs inwith
+                                              the sample     bitumen   keeps
+                                                                  0.3% CBs     thebinder
+                                                                           hasthe          very similar
+                                                                                    slope closest          to the
+                                                                                                   to the control
+control sample.
+sample as well.  Considering     the  slope condition,  the  sample   with 0.3%  CBs   has the  slope  closest to
+the control sample as well.
+
+
+=== PDF PAGE 14 ===
+Materials 2020, 13, 734                                                                                   14 of 20
+Materials 2020, 13, x FOR PEER REVIEW                                                                     14 of 20
+
+
+
+
+                Viscosityratio
+            14. Viscosity
+     Figure 14.
+     Figure               ratioand
+                                andslope of Bitumen
+                                     slope          C320
+                                            of Bitumen   withwith
+                                                       C320  cellulose fiber and
+                                                                  cellulose  fiberdifferent % of CBs
+                                                                                                   %content.
+                                                                                    and different    of CBs
+     content.
+     In case of bitumen C320, it has been found that the sample with 0.3% and 0.4% CB shows a
+     similar
+very In      temperature
+        case of           susceptibility
+                bitumen C320, it has beentrend compared
+                                           found          to the control
+                                                 that the sample         sample.
+                                                                  with 0.3%       Considering
+                                                                             and 0.4%         theaslope
+                                                                                       CB shows    very
+condition, 0.2%  and 0.3% CBs-modified    samples have  a slope very close to the control sample.
+similar temperature susceptibility trend compared to the control sample. Considering the slope
+condition, 0.2% and 0.3% CBs-modified samples have a slope very close to the control sample.
+
+
+=== PDF PAGE 15 ===
+Materials 2020, 13, 734                                                                                   15 of 20
+Materials 2020, 13, x FOR PEER REVIEW                                                                     15 of 20
+
+
+
+
+                Viscosityratio
+            15. Viscosity
+     Figure 15.           ratioand
+                                andslope of Bitumen
+                                      slope         C170
+                                            of Bitumen   withwith
+                                                       C170  cellulose fiber and
+                                                                  cellulose  fiberdifferent % of CBs
+                                                                                                   %content.
+                                                                                    and different    of CBs
+     content.
+      The viscosity ratio of the samples prepared with bitumen C170 shows that the addition of 0.4%
+CBs in      binder has
+        theviscosity
+      The                 theoflowest
+                      ratio             viscosity
+                                 the samples      ratio of with
+                                               prepared    1.87. bitumen   sample
+                                                                  Even theC170         0.5%the
+                                                                                  withthat
+                                                                                shows         CBs had a viscosity
+                                                                                                addition  of 0.4%
+ratio of 2.5, which   is very   close to the viscosity  ratio of the control sample which  is 2.10. Nevertheless,
+CBs in the binder has the lowest viscosity ratio of 1.87. Even the sample with 0.5% CBs had a viscosity
+considering
+ratio         the linear
+      of 2.5, which       slope
+                      is very     condition,
+                               close          the sample
+                                      to the viscosity     modified
+                                                       ratio          with 0.2%
+                                                              of the control    and 0.3%
+                                                                             sample whichCBs  showed
+                                                                                           is 2.10.    the closest
+                                                                                                    Nevertheless,
+slope after the
+considering         linearsample.
+               thecontrol   slope condition, the sample modified with 0.2% and 0.3% CBs showed the
+closest slope after the control sample.
+3.3. Binder Drain off Test
+3.3. Binder           Test
+            Drain offmaintains
+      The industry             6–7% of bitumen in the SMA during the construction of flexible pavements
+(VicRoads 2012). Because of the higher percentage of bitumen in SMA, binder drain off is significant in
+      The industry maintains 6–7% of bitumen in the SMA during the construction of flexible
+this type of asphalt. The loss of binder occurs during the mixing process and transportation to the site.
+pavements (VicRoads 2012). Because of the higher percentage of bitumen in SMA, binder drain off is
+Cellulose fiber is used in SMA to reduce the loss of bitumen because of binder drain off (VicRoads 2012).
+significant in this type of asphalt. The loss of binder occurs during the mixing process and
+Three types of samples were prepared for this investigation: samples without any fiber, samples with
+transportation to the site. Cellulose fiber is used in SMA to reduce the loss of bitumen because of
+cellulose fiber, and samples prepared with CBs modified bitumen. The samples were prepared and
+binder drain ◦off (VicRoads 2012). Three types of samples were prepared for this investigation:
+mixed at 185 C following VicRoads (2012) specified gradation and materials as mentioned in Table 7.
+samples without any fiber, samples with cellulose fiber, and samples prepared with CBs modified
+bitumen. The samples were prepared and mixed at 185 °C following VicRoads (2012) specified
+gradation and materials as mentioned in Table 7.
+
+
+=== PDF PAGE 16 ===
+Materials 2020, 13, 734                                                                                               16 of 20
+
+
+
+        Table 7. Materials used for the preparation of stone mastic asphalt (SMA) for binder drain off test.
+
+  Materials 2020, 13, x FOR PEER REVIEW                      % of Materials for SMA Mix (by Weight)               16 of 20
+                                Materials
+                                                               With Fiber           Without Fiber
+         Table 7. Materials used for the preparation of stone mastic asphalt (SMA) for binder drain off test.
+                                              9.5 mm               4.36                   4.36
+                                                       % of Materials for SMA Mix (by Weight)
+                                Materials     6.7 mm              52.32                   52.32
+                       Aggregates                           With Fiber          Without Fiber
+                                                  mm
+                                              4.7mm
+                                             9.5               4.362.62              4.36 2.62
+                 (retained in the sieve)
+                                             6.7 mm
+                                              2.36 mm         52.328.72             52.328.72
+                         Aggregates
+                                             4.7 mm            2.62                  2.62
+                   (retained in the sieve)      Fines             19.18                   19.48
+                                            2.36 mm            8.72                  8.72
+                           Filler (limestone) Fines           19.18 6               19.48 6
+                                  (limestone)
+                           Filler Fiber                          6 0.3                 6    -
+                                   Fiber                       0.3                     -
+                                Bitumen                             6.5                    6.5
+                                Bitumen                         6.5                   6.5
+
+      Thebinder
+    The            drain off
+          binderdrain    off test
+                              test was
+                                   was performed
+                                       performed on    stonemastic
+                                                    onstone          asphalt(SMA)
+                                                             masticasphalt    (SMA)     samples
+                                                                                      samples             to to
+                                                                                                  according
+                                                                                               according
+ Austroadstest
+Austroads   teststandard   AG: PT/T235.
+                 standardAG:              Part of
+                                 PT/T235. Part     thebinder
+                                                       binderdrain
+                                               of the               offprocess
+                                                              drainoff  processisisshown
+                                                                                     shown    Figure
+                                                                                          in in      16.16.
+                                                                                                Figure
+
+
+
+
+      Figure      Binder
+        Figure16.16.      drain
+                     Binder      off process.
+                             drain            Asphalt
+                                     off process.     mix prepared
+                                                  Asphalt            with CBs
+                                                           mix prepared       modified
+                                                                           with          bitumenbitumen
+                                                                                 CBs modified     (left); preparation
+                                                                                                             (left);
+         binder drain
+      ofpreparation  ofoff test (middle);
+                        binder             drained
+                                drain off test     off binder
+                                               (middle);      with
+                                                         drained offfine aggregates
+                                                                     binder with fineretained at the
+                                                                                       aggregates    bottomatofthe
+                                                                                                  retained        glass
+      flask (right).
+        bottom  of glass flask (right).
+
+         Table8 8shows
+       Table       showsthe      results of
+                            theresults    of the
+                                             the binder           offtests.
+                                                           drainoff
+                                                  binder drain        tests.The     bitumen
+                                                                               Thebitumen     sample
+                                                                                           sample      prepared
+                                                                                                     prepared      with
+                                                                                                                with 0.3% 0.3%
+  CBsfiber
+CBs             shows0.26%
+         fibershows      0.26% of of binder
+                                     binder drain          whilethe
+                                                      off, while
+                                              drain off,               sampleprepared
+                                                                  thesample       preparedwith
+                                                                                             with   conventional
+                                                                                                  conventional      cellulose
+                                                                                                                 cellulose
+  fiberhas
+fiber     has0.29%
+              0.29%ofofbinder
+                          binderdrain
+                                   drain off. These    resultsshow
+                                               These results   showthatthatthe
+                                                                             theCBs
+                                                                                  CBs  modified
+                                                                                     modified           hashas
+                                                                                                   binder
+                                                                                                binder         a lower
+                                                                                                            a lower      drain
+                                                                                                                     drain
+  off;hence,
+off;    hence,thetheloss
+                     lossofofbinder
+                               binder during
+                                        during transportation      willbe
+                                                 transportation will          less.The
+                                                                         beless.    Theindustry
+                                                                                         industry   maintains
+                                                                                                  maintains     a maximum
+                                                                                                             a maximum
+  binderdrain
+binder      drainoff        0.3%[26,40].
+                    offofof0.3%             Figure 17
+                                   [26,40]. Figure    17 shows
+                                                          showsthe     relativedifference
+                                                                  therelative     difference
+                                                                                           ininthethe percentage
+                                                                                                    percentage      of binder
+                                                                                                                of binder
+  losswith
+loss    withthe     maximumrecommended
+               themaximum          recommendedlimit         practicedby
+                                                     limitpracticed         industry,which
+                                                                                       whichhelps
+                                                                        byindustry,                   oneto
+                                                                                               helpsone       understand the
+                                                                                                           tounderstand
+  the significance
+significance     of theofuse       CBsofinCBs
+                            theofuse           in bitumen
+                                           bitumen               fiber
+                                                              asin
+                                                       as fiber    termsin terms    of improving
+                                                                            of improving            the binder
+                                                                                            the binder           drain
+                                                                                                         drain off      off
+                                                                                                                    property.
+  property.
+
+                                          Table 8. Binder drain off test results.
+
+                                                              Mass, g
+                                                                            Mineral                       Maximum
+                                                                                             Binder
+    Asphalt        Fiber      Type of                   Remaining          Aggregates                     Allowable
+                                                                                             Drain
+     Type          Used       Bitumen       Asphalt    Binder in the       Present in                     Drain Off
+                                                                                             Off (%)
+                                                          beaker           Remaining                         (%)
+                                                                             Binder
+                               PMB
+     SMA         0% Fiber                    896.9          4.1                0.7             0.38
+                               A10E
+                   0.3%                                                                                       0.3%
+                               PMB
+     SMA         cellulose                   851.8          8.9                6.4             0.29
+                               A10E
+                   fiber
+
+
+=== PDF PAGE 17 ===
+Materials 2020, 13, 734 17 of 20
+Table 8. Binder drain oﬀ test results.
+Asphalt
+Type
+Fiber
+Used
+Type of
+Bitumen
+Mass, g
+Binder
+Drain Oﬀ
+(%)
+Maximum
+Allowable
+Drain Oﬀ
+(%)
+Asphalt
+Remaining
+Binder in
+the Beaker
+Mineral
+Aggregates Present
+in Remaining
+Binder
+SMA 0% Fiber PMB A10E 896.9 4.1 0.7 0.38
+0.3%SMA
+0.3%
+cellulose
+ﬁber
+PMB A10E 851.8 8.9 6.4 0.29
+SMA 0.3% CBsﬁber PMB A10E 939 3.1 0.7 0.26
+Materials 2020, 13, x FOR PEER REVIEW 17 of 20 
+ 
+SMA 0.3% CBs fiber PMB A10E 939 3.1 0.7 0.26 
+ 
+Figure 17. Relative view of ‘Binder drain off’ of asphalt mixture prepared with bitumen modified with 
+different types of fiber. 
+4. Conclusion 
+This study has investigated the possible recycling of cigarette butts in bitumen as a fiber modifier 
+for the construction of flexible pavements. Th e materials were selected considering industry 
+standards and all the tests were carried out acco rding to the Australian  Standards, ASTM, and 
+Austroads guidelines.  
+The penetration results indicated that, although there is a slight decrease in the penetration, the 
+results are very close to the standard range for the respective bitumen. The typical penetration value 
+for Bitumen C320 is a minimum of 40 dmm, and all the samples modified with CBs met this condition. 
+On the other hand, the typical penetration valu e for Bitumen 170 is 62 dmm. However, the 
+penetration result of bitumen C170 was found to be slightly lower than 62 dmm. In the case of PMB 
+A10E, the penetration values are very close to the control sample and higher than 62 dmm. It can be 
+concluded from the penetration test that Bitumen C320 and PMB A10E is the most appropriate type 
+of bitumen to be modified with CBs without compromising the penetration property. 
+The softening point of the samples slightly changed after the modification with fiber. However, 
+even after the decrease, it was found that the results are similar to the control sample and within the 
+typical range. During the comparison, it was observed that with the increase in the CBs in the mixture, 
+the softening point moderately decreases except for the case of bitumen C320. The samples with 0.2 
+and 0.3% CBs have a softening point very close to the control samples. 
+The viscosity test has enhanced the understandin g of the rheological behavior of the samples. 
+Although the addition of fiber has slightly increased the viscosity of the samples compared to the 
+control sample without any fiber, the results are within the range for typical values. The temperature 
+susceptible slope shows that the pattern of viscosit y changed with temperature. In the case of PMB 
+A10E, C320, and C170 it was found that when the samples are modified with 0.5% CBs, viscosity 
+increased significantly because fibers work as re inforcement in the binder mixture. It can be 
+concluded from these results that 0.3% CBs as fiber can be used to modify bitumen without 
+compromising the required properties for use in the construction of flexible pavements. 
+An improved binder drain off property was ob served when bitumen was modified with CBs. 
+This will save the loss of bitumen during transportation from plant to site and in the mixing of asphalt 
+0
+0.05
+0.1
+0.15
+0.2
+0.25
+0.3
+0.35
+0.4
+% of Binder drain off
+Type of asphalt mix: Stone Mastic Asphalt
+Binder Drain off
+0% Fiber 0.3% cellulose fiber 0.3% CB fiber Maximum allowable binder drain off
+Figure 17. Relative view of ‘Binder drain oﬀ’ of asphalt mixture prepared with bitumen modiﬁed with
+diﬀerent types of ﬁber.
+4. Conclusions
+This study has investigated the possible recycling of cigarette butts in bitumen as a ﬁber modiﬁer for
+the construction of ﬂexible pavements. The materials were selected considering industry standards and
+all the tests were carried out according to the Australian Standards, ASTM, and Austroads guidelines.
+The penetration results indicated that, although there is a slight decrease in the penetration,
+the results are very close to the standard range for the respective bitumen. The typical penetration
+value for Bitumen C320 is a minimum of 40 dmm, and all the samples modiﬁed with CBs met this
+condition. On the other hand, the typical penetration value for Bitumen 170 is 62 dmm. However,
+the penetration result of bitumen C170 was found to be slightly lower than 62 dmm. In the case of
+PMB A10E, the penetration values are very close to the control sample and higher than 62 dmm. It can
+be concluded from the penetration test that Bitumen C320 and PMB A10E is the most appropriate type
+of bitumen to be modiﬁed with CBs without compromising the penetration property.
+The softening point of the samples slightly changed after the modiﬁcation with ﬁber. However,
+even after the decrease, it was found that the results are similar to the control sample and within the
+typical range. During the comparison, it was observed that with the increase in the CBs in the mixture,
+the softening point moderately decreases except for the case of bitumen C320. The samples with 0.2
+and 0.3% CBs have a softening point very close to the control samples.
+
+=== PDF PAGE 18 ===
+Materials 2020, 13, 734                                                                                     18 of 20
+
+
+
+      The viscosity test has enhanced the understanding of the rheological behavior of the samples.
+Although the addition of fiber has slightly increased the viscosity of the samples compared to the
+control sample without any fiber, the results are within the range for typical values. The temperature
+susceptible slope shows that the pattern of viscosity changed with temperature. In the case of PMB
+A10E, C320, and C170 it was found that when the samples are modified with 0.5% CBs, viscosity
+increased significantly because fibers work as reinforcement in the binder mixture. It can be concluded
+from these results that 0.3% CBs as fiber can be used to modify bitumen without compromising the
+required properties for use in the construction of flexible pavements.
+      An improved binder drain off property was observed when bitumen was modified with CBs.
+This will save the loss of bitumen during transportation from plant to site and in the mixing of asphalt
+concrete. During the construction of flexible pavements, 4–7% of bitumen is used as a binder based
+on the type and requirement of the road. A typical density of asphalt concrete is 2000–2400 kg/m3 .
+This means that around 150 Tons of CBs will be recycled in a sustainable way to construct a typical
+100 km strip of a two-lane roadway as the typical thickness of SMA layer is 35–45 mm. This method can
+contribute to solving the environmental pollution problem of cigarette butts. Cities around the world
+spend millions of dollars on the collection and disposal of cigarette butts. Successful implementation
+of this method of recycling will turn waste cigarette butts into a valuable construction material which
+can be utilized in the construction of roads and highways, which is the largest sector of the world in
+terms of asset management.
+      The results associated with the physical and rheological properties of CBs modified bitumen
+showed that CBs could be used as a fiber modifier for bitumen. Further rheological investigation
+including laboratory tests on different classes of bitumen and aged bitumen modified with CBs
+is recommended.
+
+Author Contributions: A summary of each author’s contribution to this work is provided below.
+Conceptualization: A.M., M.T.R.; Supervision: A.M.; Experimental Design: M.T.R., A.M.; Laboratory Investigation:
+M.T.R.; Writing: M.T.R.; Editing and Reviewing: A.M.; Reviewing and Support: F.G. All authors have read and
+agreed to the published version of the manuscript.
+Funding: This research received no external funding.
+Acknowledgments: This work is part of an ongoing postgraduate study on recycling cigarette butts in bitumen
+and asphalt concrete. The authors would like to thank Butt-Out Australia Pty Ltd., RMIT University, and the
+Australian Government Research Training Program (RTP) scholarship for their financial and in-kind support.
+Also, the supply of the bitumen samples by Boral Asphalt (Victoria) is gratefully acknowledged.
+Conflicts of Interest: The authors declare no conflict of interest.
+
+References
+1.    Ng, M.; Freeman, M.K.; Fleming, T.D.; Robinson, M.; Dwyer-Lindgren, L.; Thomson, B.; Wollum, A.;
+      Sanman, E.; Wulf, S.; Lopez, A.D.; et al. Smoking Prevalence and Cigarette Consumption in 187 Countries,
+      1980-2012Global Smoking Prevalence and Cigarette ConsumptionGlobal Smoking Prevalence and Cigarette
+      Consumption. JAMA 2014, 311, 183–192. [CrossRef] [PubMed]
+2.    Roser, M.; Ritchie, H. Smoking. Available online: https://ourworldindata.org/smoking (accessed on 11 January
+      2020).
+3.    WHO. WHO Global Report on Trends in Prevalence of Tobacco Smoking 2000–2025; The World Health Organization:
+      Geneva, Switzerland, 2018.
+4.    IHME. Global Smoking Prevalence and Cigarette Consumption 1980–2012; Institute for Health Metrics and
+      Evaluation (IHME): Seattle, WA, USA, 2014.
+5.    Zafeiridou, M.; Hopkinson, N.S.; Voulvoulis, N. Cigarette smoking: An assessment of tobacco’s global
+      environmental footprint across its entire supply chain. Environ. Sci. Technol. 2018, 52, 8087–8094. [CrossRef]
+      [PubMed]
+6.    Euromonitor International. Global Tobacco: Key Findings Part. 1—Tobacco Overview, Cigarettes and
+      the Future. Available online: https://www.euromonitor.com/global-tobacco-key-findings-part-1-tobacco-
+      overview-cigarettes-and-the-future/report (accessed on 29 November 2018).
+
+
+=== PDF PAGE 19 ===
+Materials 2020, 13, 734                                                                                             19 of 20
+
+
+
+7.    Pass, H.I. Principles and Practice of Lung Cancer: The official reference Text of the International Association for the
+      Study of Lung Cancer (IASLC); Lippincott Williams & Wilkins: Philadelphia, PA, USA, 2012.
+8.    The Terramar Project.        Breaking Down Cigarette Butt Pollution—The Facts.                     Available online:
+      https://theterramarproject.org/2018/05/21/breaking-down-cigarette-butt-pollution-the-facts/ (accessed on
+      10 January 2020).
+9.    Truth Initiative. 5 Ways Cigarette Litter Impacts the Environment. Available online: https://truthinitiative.
+      org/news/5-ways-cigarette-litter-impacts-environment (accessed on 10 January 2020).
+10.   Mohajerani, A.; Tanriverdi, Y.; Nguyen, B.T.; Wong, K.K.; Dissanayake, H.N.; Johnson, L.; Whitfield, D.;
+      Thomson, G.; Alqattan, E.; Rezaei, A. Physico-mechanical properties of asphalt concrete incorporated with
+      encapsulated cigarette butts. Constr. Build. Mater. 2017, 153, 69–80. [CrossRef]
+11.   Slaughter, E.; Gersberg, R.M.; Watanabe, K.; Rudolph, J.; Stransky, C.; Novotny, T.E. Toxicity of cigarette
+      butts, and their chemical components, to marine and freshwater fish. Tob. control 2011, 20 (Suppl. 1), i25–i29.
+      [CrossRef] [PubMed]
+12.   Novotny, T.E.; Hardin, S.N.; Hovda, L.R.; Novotny, D.J.; McLean, M.K.; Khan, S.J.T.C. Tobacco and cigarette
+      butt consumption in humans and animals. Tob. Control 2011, 20, i17–i20. [CrossRef]
+13.   Moerman, J.; Potts, G.J.T.C. Analysis of metals leached from smoked cigarette litter. BMJ 2011, 20, i30–i35.
+      [CrossRef]
+14.   Kadir, A.A. Density, strength, thermal conductivity and leachate characteristics of light-weight fired clay
+      bricks incorporating cigarette butts. Mater. Sci. 2009, 3, 242–247.
+15.   Knox, A. An overview of incineration and EFW technology as applied to the management
+      of municipal solid waste (MSW). ONEIA Energy Subcommitte, University of Western Ontario.
+      2005.        Available online:         http://www.durhamenvironmentwatch.org/Incinerator%20Files%20II/
+      OverviewOfIncinerationAndEFWKnox.pdf (accessed on 10 January 2020).
+16.   Krishna, R.; Swamy, A.J.I. Chemical Flexi Not-So-Fantastic: A review on How the Versatile Material Harms
+      the Environment and Human Health. Engineering 2016, 2, 36–45.
+17.   Raj, M.; Fatima, S.; Tandon, N. Acoustical Properties of Denim Shoddy based Recycled Material.
+      In Proceedings of the INTER-NOISE and NOISE-CON Congress and Conference Proceedings, Madrid, Spain,
+      16–19 June 2019.
+18.   Kurmus, H.; Mohajerani, A. The toxicity and valorization options of cigarette butts. Waste Manag. 2020, 104,
+      104–118. [CrossRef]
+19.   D’Heni Teixeira, M.B.; Duarte, M.A.B.; Raposo Garcez, L.; Camargo Rubim, J.; Hofmann Gatti, T.; Suarez, P.A.Z.
+      Process development for cigarette butts recycling into cellulose pulp. Waste Manag. 2017, 60, 140–150.
+      [CrossRef] [PubMed]
+20.   Liu, T.; Wei, H.; Zou, D.; Zhou, A.; Jian, H. Utilization of waste cathode ray tube funnel glass for ultra-high
+      performance concrete. J. Clean. Prod. 2020, 249, 119333. [CrossRef]
+21.   Góra, J.; Franus, M.; Barnat-Hunek, D.; Franus, W.J.M. Utilization of Recycled Liquid Crystal Display (LCD)
+      Panel Waste in Concrete. Materials 2019, 12, 2941. [CrossRef]
+22.   Mohajerani, A.; Kadir, A.A.; Larobina, L. A practical proposal for solving the world’s cigarette butt problem:
+      Recycling in fired clay bricks. Waste Manag. 2016, 52, 228–244. [CrossRef] [PubMed]
+23.   Kadir, A.A.; Mohajerani, A. Physico-mechanical properties and leachate analysis of clay fired bricks
+      incorporated with cigarette butts. In Proceedings of the International Conference on Environment, Penang,
+      Malaysia, 15–17 December 2008.
+24.   Kadir, A.A.; Mohajerani, A. Recycling cigarette butts in lightweight fired clay bricks. Proc. Inst. Civ. Eng.
+      Constr. Mater. 2011, 164, 219–229. [CrossRef]
+25.   Rahman, M.T.; Aziz, M.M.A.; Hainin, M.R. Impact of bitumen binder: Scope of bio-based binder for
+      construction of flexible pavement. Engineering 2014, 70. [CrossRef]
+26.   John Rebbechi, L.P. Guide to Pavement Technology Part. 4B: Asphalt. Available online: https://austroads.
+      com.au/assets/pavements/guide-to-pavement-technology (accessed on 4 February 2020).
+27.   Aziz, M.M.A.; Rahman, M.T.; Hainin, M.R.; Bakar, W.A.W.A. An overview on alternative binders for flexible
+      pavement. Constr. Build. Mater. 2015, 84, 315–319. [CrossRef]
+28.   Rahman, M.T.; Hainin, M.R.; Bakar, W.A.W.A. Use of waste cooking oil, tire rubber powder and palm oil fuel
+      ash in partial replacement of bitumen. Constr. Build. Mater. 2017, 150, 95–104. [CrossRef]
+
+
+=== PDF PAGE 20 ===
+Materials 2020, 13, 734                                                                                        20 of 20
+
+
+
+29.   Kalantar, Z.N.; Karim, M.R.; Mahrez, A.J.C.; Materials, B. A review of using waste and virgin polymer in
+      pavement. Constr. Build. Mater. 2012, 33, 55–62. [CrossRef]
+30.   Hunter, R.N.; Self, A.; Read, J.; Hobson, E. The Shell Bitumen Handbook; ICE Publishing: London, UK, 2015.
+31.   Azahar, W.N.A.W.; Bujang, M.; Jaya, R.P.; Hainin, M.R.; Mohamed, A.; Ngad, N.; Jayanti, D.S.J.J.T.
+      The potential of waste cooking oil as bio-asphalt for alternative binder–an overview. Mater. Sci. 2016, 78.
+      [CrossRef]
+32.   Hainin, M.R.; Jaya, R.P.; Ali Akbar, N.; Jayanti, D.S. Influence of palm oil fuel ash as a modifier on bitumen to
+      improve aging resistance. J. Eng. Res. 2014, 2, 34–46.
+33.   Rusbintardjo, G.; Hainin, M.R.; Yusoff, N.I.M.J.C.; Materials, B. Fundamental and rheological properties of
+      oil palm fruit ash modified bitumen. Constr. Build. Mater. 2013, 49, 702–711. [CrossRef]
+34.   Mohajerani, A.; Hui, S.-Q.; Mirzababaei, M.; Arulrajah, A.; Horpibulsuk, S.; Abdul Kadir, A.; Rahman, M.T.;
+      Maghool, F.J.M. Amazing Types, Properties, and Applications of Fibres in Construction Materials. Materials
+      2019, 12, 2513. [CrossRef] [PubMed]
+35.   Poulikakos, L.; Papadaskalopoulou, C.; Hofko, B.; Gschösser, F.; Falchetto, A.C.; Bueno, M.; Arraigada, M.;
+      Sousa, J.; Ruiz, R.; Petit, C.J.R.; et al. Harvesting the unexplored potential of European waste materials for
+      road construction. Resour. Conserv. Recycl. 2017, 116, 32–44. [CrossRef]
+36.   Hu, C.; Lin, W.; Partl, M.; Wang, D.; Yu, H.; Zhang, Z. Waste packaging tape as a novel bitumen modifier for
+      hot-mix asphalt. Constr. Build. Mater. 2018, 193, 23–31. [CrossRef]
+37.   Liu, X.; Wu, S. Study on the graphite and carbon fiber modified asphalt concrete. Constr. Build. Mater. 2011,
+      25, 1807–1811. [CrossRef]
+38.   Serin, S.; Morova, N.; Saltan, M.; Terzi, S. Waste packaging tape as a novel bitumen modifier for hot-mix
+      asphalt. Constr. Build. Mater. 2018, 193, 23–31.
+39.   Razali, M.; Aziz, M.; Jamin, N.; Salehan, N. Modification of bitumen using polyacrylic wig waste. f steel
+      fibers in asphalt concrete mixtures. Constr. Build. Mater. 2012, 36, 238–244. [CrossRef]
+40.   VicRoads. SECTION 404 - STONE MASTIC ASPHALT. Available online: http://webapps.vicroads.vic.gov.
+      au/VRNE/csdspeci.nsf/webscdocs/5916DDA1FE3D3096CA2579E4001945FB/$File/Sec404.doc (accessed on
+      4 February 2020).
+41.   Toraldo, E.; Mariani, E. Laboratory investigation into the effects of fibers on bituminous mixtures. J. Civ. Eng.
+      Manag. 2015, 21, 45–53. [CrossRef]
+42.   Temperature Characteristics of Binders in Asphalt.              Available online: https://www.researchgate.
+      net/publication/236852741_Influence_of_Time_and_Temperature_on_Asphalt_Binders_Rheological_
+      Properties (accessed on 4 February 2020).
+43.   OLEXOBIT® AB6 POLYMER MODIFIED BINDER. Available online: https://www.pumaenergy.com.au/
+      assets/Bitumen/Products/Puma-Bitumen-OLEXOBIT-AB6.pdf (accessed on 4 February 2020).
+44.   Technical Data Sheet: Viva Bitumen C170 Paving Grade Bitumen. Available online: https://www.vivaenergy.
+      com.au/ArticleDocuments/303/C170%20-%20Viva%20Bitumen.pdf.aspx (accessed on 4 February 2020).
+45.   Technical Data Sheet: Viva Bitumen C320 Paving Grade Bitumen. Available online: https://www.vivaenergy.
+      com.au/ArticleDocuments/303/C320%20-%20Viva%20Bitumen%20.pdf.aspx (accessed on 4 February 2020).
+
+                          © 2020 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access
+                          article distributed under the terms and conditions of the Creative Commons Attribution
+                          (CC BY) license (http://creativecommons.org/licenses/by/4.0/).
+

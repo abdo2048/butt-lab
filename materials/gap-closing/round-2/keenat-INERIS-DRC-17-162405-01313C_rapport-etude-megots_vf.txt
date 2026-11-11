@@ -1,0 +1,3746 @@
+RAPPORT D’ÉTUDE 12/09/2017
+INERIS-DRC-17-162405-01313C  
+Etude des filières de collecte et de 
+traitement des mégots de cigarettes 
+
+INERIS-DRC-17-162405-01313C  Page 3 sur 46 
+Etude des filières de collecte et de traitement des mégots 
+de cigarettes 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Rapport réalisé pour le Ministère de la Transition Ecologique et Solidaire 
+ 
+ 
+Liste des personnes ayant participé à l’étude : Lionel AUFAUVRE, Hugues 
+BIAUDET, Olivier BOUR, Laure CHABOT, Ahmad EL  MASRI, Pascal PANDARD, 
+Arnaud PAPIN, Hélène PARTAIX, Benoît SCHNURIGER, Isabelle ZDANEVITCH 
+ 
+INERIS-DRC-17-162405-01313C  Page 4 sur 47 
+PRÉAMBULE 
+Le présent rapport a été étab li sur la base des informations fournies à l'INERIS, 
+des données (scientifiques ou techniques) disponibles et objectives et de la 
+réglementation en vigueur. 
+La responsabilité de l'INERIS ne pourra être engagée si les informations qui lui ont 
+été communiquées sont incomplètes ou erronées. 
+Les avis, recommandations, préconisations ou équivalent qui seraient portés par 
+l'INERIS dans le cadre des prestations qui  lui sont confiées, peuvent aider à la 
+prise de décision. Etant donné la mission qui incombe à l'INERIS de par son 
+décret de création, l'INERIS n'intervient  pas dans la prise de décision proprement 
+dite. La responsabilité de l'INERIS ne peut donc se substituer à celle du décideur. 
+Le destinataire utilisera les résultats inclus dans le présent rapport intégralement 
+ou sinon de manière objective. Son utilisation sous forme d'extraits ou de notes de 
+synthèse sera faite sous la seule et entière  responsabilité du destinataire. Il en est 
+de même pour toute modification qui y serait apportée. 
+L'INERIS dégage toute responsabilité pour chaque utilisation du rapport en dehors 
+de la destination de la prestation. 
+ 
+ Rédaction Vérification Approbation 
+NOM Flore REBISCHUNG Roger REVALOR Martine RAMEL 
+Qualité Ingénieur de l’unité 
+Comportement des 
+Contaminants dans les 
+Sols et les Matériaux 
+Responsable de l’Unité 
+Comportement des 
+Contaminants dans les 
+Sols et les Matériaux 
+Responsable du Pôle 
+Risque et Technologies 
+Durables 
+Visa 
+ 
+ 
+ 
+ 
+ 
+INERIS-DRC-17-162405-01313C  Page 5 sur 47 
+TABLE DES MATIÈRES 
+1.  RESUME ........................................................................................................... 8 
+2.  CONTEXTE ET OBJET DE L’ETUDE .............................................................. 9 
+3.  ETAT DES LIEUX DES FILIERES ................................................................. 10 
+4.  ECHANTILLONS COLLECTES ET PREPARATION ..................................... 11 
+5.  BIBLIOGRAPHIE SCIENTIFIQUE, PROGRAMME ANALYTIQUE ET 
+D’ESSAIS ....................................................................................................... 13 
+6.  RESULTATS D’ESSAIS ET D’ANALYSES SUR LES MEGOTS .................. 15 
+6.1  Essais écotoxicologiques ............................................................................ 15 
+6.2  Analyses chimiques et bilan de masse ........................................................ 21 
+6.3  Analyses sur lixiviats ................................................................................... 24 
+7.  CLASSEMENT EN DANGEROSITE SELON LA REGLEMENTATION 
+DECHETS ....................................................................................................... 25 
+7.1  Evaluation des propriétés HP ...................................................................... 25 
+7.2  Attribution d’une rubrique de la nomenclature ............................................. 32 
+8.  CLASSEMENT AU TITRE DE LA REGLEMENTATION ADR ....................... 33 
+8.1  Les 9 classes de danger de l’ADR .............................................................. 33 
+8.2  Evaluation de la classe 6.1 .......................................................................... 34 
+8.3  Code ONU ................................................................................................... 36 
+9.  EVALUATION DES FILIERES DE GESTION ................................................ 37 
+9.1  Stockage ..................................................................................................... 37 
+9.2  Incinération .................................................................................................. 38 
+9.3  Recyclage ................................................................................................... 40 
+10.  CONCLUSION ................................................................................................ 46 
+11.  LISTE DES ANNEXES ................................................................................... 47 
+ 
+INERIS-DRC-17-162405-01313C  Page 6 sur 47 
+LISTE DES TABLEAUX 
+Tableau 1 : Tableau récapitulatif des essais d’écotoxicité réalisés sur les échantillons de mégots 14 
+Tableau 2 : Résultats des essais d’inhibition de la mobilité de D. magna ....................................... 15 
+Tableau 3 : Résultats des essais d’inhibition de la luminescence de Vibrio fischeri ....................... 16 
+Tableau 4 : Résultats des essais d’inhibition de la croissance de P. subcapitata ........................... 16 
+Tableau 5 : Récapitulatif des CE 20/ CE 50 calculées pour les trois premiers essais d’écotoxicité 
+aquatique .......................................................................................................................................... 17 
+Tableau 6 : Résultats de l’essai d’inhibition de la  reproduction de C. dubia par l’éluat de 16BB634
+ .......................................................................................................................................................... 17 
+Tableau 7 : Résultats de l’essai d’émergence et croissance des végétaux supérieurs (laitue et 
+navet) ................................................................................................................................................ 19 
+Tableau 8 : Résultats de l’essai de mortalité des vers de terre ....................................................... 19 
+Tableau 9 : Résultats de l’essai d’évitement des vers de terre ........................................................ 20 
+Tableau 10 : Résultats de l’essai d’inhibition de l’activité déshydrogénase de Arthrobacter 
+globiformis ........................................................................................................................................ 20 
+Tableau 11 : Récapitulatif des CE50 calculées pour les essais d’écotoxicité terrestre..................... 21 
+Tableau 12 : Bilan de masse obtenu sur les trois échantillons en tenant compte des limites de 
+quantification .................................................................................................................................... 21 
+Tableau 13 : Eléments saillants des analyses menées sur les trois échantillo ns (résultats exprimés 
+en % MS) .......................................................................................................................................... 23 
+Tableau 14 : Eléments essentiels des analyses sur lixiviats menées sur les trois échantillons ...... 24 
+Tableau 15 : Synthèse des résultats des essais écotoxicologiques et classement des trois 
+échantillons de mégots ..................................................................................................................... 27 
+Tableau 16 : Règles de classement applicables pour HP 14 ........................................................... 28 
+Tableau 17 : Indices de dangerosité calculés pour HP 14 ............................................................... 28 
+Tableau 18 : Règles de classement applicables pour HP 4, HP 5, HP 6, HP 7, HP 8, HP 10, HP 11 
+et HP 13 ............................................................................................................................................ 30 
+Tableau 19 : Indices de dangerosité calculés pour HP 4, HP 5, HP 6, HP 7, HP 8, HP 10, HP 11 et 
+HP 13 ................................................................................................................................................ 31 
+Tableau 20 : Classes de danger de l’ADR et situation des mégots au regard de ces classes ........ 33 
+Tableau 21 : Table d’attribution des valeurs ponctuelles estimées de toxicité aigüe d’après les 
+catégories de danger (extrait du règlement CLP) ............................................................................ 35 
+Tableau 22 : Règles d’attribution des groupes d’emballage en fonction des valeurs de ∑ C/T et de 
+TM ...................................................................................................................................................... 36 
+Tableau 23 : Valeurs de TM calculées pour les trois échantillons .................................................... 36 
+Tableau 24 : Critères d’admission en ISDD ..................................................................................... 38 
+Tableau 25 : Seuils de la nomenclature ICPE pour la rubrique 2661 .............................................. 44 
+ 
+ 
+ 
+ 
+ 
+INERIS-DRC-17-162405-01313C  Page 7 sur 47 
+LISTE DES FIGURES 
+Figure 1 : Photographie des trois échantillons bruts et broyés à l’aide du broyeur à couteaux – de 
+haut en bas : 16BB634, 16BB635, 16BB636 ................................................................................... 12 
+Figure 2 : Synthèse des éléments relatifs à la filière de valorisation ............................................... 45 
+ 
+ 
+INERIS-DRC-17-162405-01313C  Page 8 sur 47 
+1. RESUME 
+La présente étude visait à déterminer  la dangerosité, aux sens des 
+réglementations déchets et transports, des mégots de cigarettes collectés 
+séparément et à évaluer les filières de gestion actuelles ou pressenties des 
+mégots, et des conditions dans lesquelles les modes de traitement appliqués 
+seraient appropriés. 
+Des analyses et essais ont été menés sur 3 échantillons de mégots collectés 
+auprès d’entreprises, parmi lesquelles Eco-Action +. Les analyses menées, dont la 
+liste a été établie sur la base de la bi bliographie scientifique réalisée, n’ont pas 
+permis de boucler le bilan de masse de fa çon aussi satisfaisante qu’espérée, 
+mettant ainsi en avant la complexité de la matrice étudiée. 
+Ces éléments se sont toutefois avérés suffisants pour classer les mégots comme 
+des déchets dangereux. En effet, le c ontenu en nicotine, substance analysée au 
+cours des investigations, conduit au classement des mégots au titre de la 
+propriété HP 6 (toxicité aigüe). Les essais  écotoxicologiques réalisés par ailleurs 
+(et prévalant sur une évaluation par calc ul, d’autant plus que le bilan de masse 
+analytique est incomplet) mettent en évi dence une forte toxicité des mégots, de 
+nature à leur attribuer la propriété de danger HP 14 (écotoxique).  
+Etant donné que la rubrique de la nomenclature des déchets qui apparaît 
+aujourd’hui être la plus appropriée pour les mégots es t la 20 01 99, il est 
+nécessaire que les autorités françaises com pétentes notifient ce tte situation à la 
+Commission Européenne. 
+Par ailleurs, la concentration en nicotine conduit également à classer les mégots 
+comme matières dangereuses pour le transpor t, et à leur attribuer le code ONU 
+2811, assorti du groupe d’emballage III. 
+Le caractère dangereux des mégots mis en lumière par cette étude a des 
+répercussions sur les filières de gestion envisageables. Compte-tenu de leur fort 
+contenu en substances organiques, les mégot s ne sont pas acceptables en l’état 
+en installation de stockage, et l’incinératio n semble être à privilégier parmi les 
+filières traditionnelles. Le caractère danger eux des mégots étant  essentiellement 
+porté par la nicotine, et cette subst ance étant dégradée dans les conditions de 
+température atteintes dans les installa tions de traitement thermique des déchets 
+non dangereux, une dérogation similaire à ce lle mise en place pour les DASRI 
+pourrait être étudiée. 
+Toutefois, la hiérarchie des modes de traitement des déchets impose de privilégier 
+les voies de valorisation lorsqu’elles exis tent. Dans le cas des mégots, celles-ci 
+sont encore au stade embryonnaire, et il es t aujourd’hui difficile, sur la base du 
+peu d’éléments disponibles, notamment concernant la performance des procédés 
+de lavage des filtres, d’évaluer leur pertinence et leur respect du cadre 
+réglementaire existant. Compte-tenu des signes forts de développement des 
+filières de valorisation, ce point sera à suivre de près dans les années à venir. 
+ 
+ 
+INERIS-DRC-17-162405-01313C  Page 9 sur 47 
+2. CONTEXTE ET OBJET DE L’ETUDE 
+Par un courrier du 11 mai 2016, le Mini stère de l’Environnement, de l’Energie et 
+de la Mer (MEEM) a sollicité l’INERIS po ur apporter un regard d’expert sur les 
+filières de collecte et de gestion des mégots de cigarettes collectés séparément. 
+Ce travail s’est inscrit dans le cadre de la mission d’appui aux pouvoirs publics de 
+l’INERIS, au sein de deux pr ogrammes additionnels couvrant respectivement les 
+années 2016 et 2017, et avait pour objectifs : 
+- la détermination de la dangerosité, aux  sens des réglementations déchets 
+et transports, des mégots collectés séparément - ce travail d’évaluation de 
+la dangerosité constitue en effet une étape préalable à la mise en place et à 
+l’encadrement par les autorités d’une solution de gestion adaptée ; 
+- l’évaluation des filières de gestion actuelles ou pressenties des mégots, et 
+des conditions dans lesquelles les m odes de traitement appliqués sont 
+appropriés. 
+Pour ce faire, l’INERIS a : 
+- contacté plusieurs organismes réalisant la collecte séparée de mégots, et 
+collecté auprès d’eux des échantillons représentatifs de ce flux ; 
+- fait réaliser des analyses sur ces éc hantillons, orientées selon le double 
+objectif d’obtenir un bilan de masse le plus complet possible, et de 
+quantifier un maximum de polluants susceptibles d’être présents dans les 
+mégots, d’après une étude bibliographique préalablement menée ; 
+- sur la base des données obtenues via ces deux premières tâches, établi 
+une proposition de classement en dangerosité pour les mégots, au titre des 
+réglementations déchets et transport ; 
+- contacté plusieurs organismes pr oposant actuellement, ou cherchant à 
+développer, des solutions de valorisation des mégots ; 
+- émis un avis d’expert sur les risques associés aux filières existantes ou à 
+créer. 
+Le présent document constitue le rapport d’expertise de l’INERIS sur ce sujet. 
+ 
+ 
+ 
+INERIS-DRC-17-162405-01313C            Page 10 sur 47 
+3. ETAT DES LIEUX DES FILIERES 
+Ces dernières années ont vu émerger de n ouvelles structures de collecte séparée 
+des mégots de cigarettes. Des micro-entreprises aux associations, les objectifs et 
+les business models sont variés. La présente étude n’a pas cherché à identifier de 
+façon exhaustive l’ensemble de ces acteur s, qui restent encore peu nombreux sur 
+le territoire, mais a ciblé les plus impor tants (au sens médiatiquement exposés) et 
+accessibles. Deux entreprises ont ainsi été rencontrées au cours de l’étude, qui 
+ont par ailleurs accepté de fournir des échantillons de mégots. 
+Ces deux TPE ont développé leurs propr es systèmes de collecte (cendriers 
+design), et assurent le regroupement des flux en provenance de leurs différents 
+clients. 
+Pour la première, les volumes collectés sont ensuite envoyés en Angleterre 
+auprès de TerraCycle, qui en assure la valorisation. Les données disponibles sur 
+internet concernant le procédé mis en œu vre mettent en évidence une séparation 
+des déchets de mégots en deux flux : d’une part les résidus de papier, tabac et 
+cendres, qui sont envoyés vers une filière  de compostage, d’au tre part le filtre, 
+recyclé en tant que matière plastique. 
+La seconde (Eco-Action +) développait au moment de l’étude un procédé de 
+valorisation sur son installation de Bourg- Blanc (29), dont la mise en service, 
+initialement prévue pour juin 2017, a été reportée à l’automne de la même année. 
+Aucune filière de valorisation active n’a donc été identifiée en France au moment 
+de l’étude. Toutefois, la récente acquisition par Suez de 30 % de la filiale 
+européenne de TerraCycle, ainsi que le proj et de développement d’une filière 
+locale de valorisation des mégots par EcoMégots (soutenu par Bordeaux 
+Métropole, la Nouvelle-Aquitaine, le fonds social européen mais aussi Suez) 
+semblent être les prémices du dévelo ppement du recyclage des mégots sur le 
+territoire national à grande échelle. 
+ 
+INERIS-DRC-17-162405-01313C            Page 11 sur 47 
+4. ECHANTILLONS COLL ECTES ET PREPARATION 
+Trois échantillons ont été collectés au cours de l’étude, auprès d’entreprises 
+réalisant la collecte de mégots : 
+- un premier échantillon « sec » (référence 16BB634) ; 
+- un échantillon « humide », provenant des sites de collecte sur lesquels les 
+bonnes pratiques associées à l’étei gnement des mégots ne sont pas 
+encore acquises, ce qui oblige parfois les utilisateurs à verser de l’eau dans 
+le cendrier, dont les mégots se gorgent (référence 16BB635) ; 
+- un second échantillon « se c » (référence 16BB636). 
+L’échantillonnage, réa lisé par les deux entreprises de collecte, a été réalisé 
+conformément aux recommandations fourni es par l’INERIS. En particulier, la 
+constitution d’échantillons composites , rassemblant des prélèvements issus de 
+plusieurs flux de mégots collectés aupr ès de différents clients de chacune des 
+deux entreprises, a permis une homogénéisati on et une meilleure représentativité 
+des échantillons étudiés. 
+En vue des investigations, les échantillo ns collectés ont été broyés à l’INERIS 
+selon différentes techniques : 
+- un broyage (s’apparentant plutôt à un déchiquetage) a été réalisé à l’aide 
+d’un broyeur à couteaux ; les broyats obtenus ont servi pour la réalisation 
+des lixiviations et des essais écotoxicologiques ; 
+- un broyage cryogénique a également été réalisé, permettant d’obtenir une 
+granulométrie plus fine, et ainsi d’hom ogénéiser plus facilement la prise 
+d’échantillon en vue des analyses nécessi tant peu de matière ; les broyats 
+obtenus ont ainsi été utilisés pour les analyses chimiques. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+INERIS-DRC-17-162405-01313C            Page 12 sur 47 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1 : Photographie des trois échantillons bruts et broyés à l’aide 
+du broyeur à couteaux – de haut en bas : 16BB634, 16BB635, 
+16BB636 
+
+ 
+INERIS-DRC-17-162405-01313C            Page 13 sur 47 
+5. BIBLIOGRAPHIE SCIENTIFIQ UE, PROGRAMME ANALYTIQUE 
+ET D’ESSAIS 
+La bibliographie réalisée avait pour objectif principal d’identifier les substances 
+pertinentes à rechercher spécifiquement dans les mégots de cigarettes, et les 
+éventuels niveaux de concentration mesu rés. Les publications concernant des 
+essais d’écotoxicité ont également été consultées. 
+Sous ces deux angles, la littérature scient ifique sur les mégots de cigarettes est 
+assez peu fournie – on trouve beaucoup plus facilement des articles relatifs au 
+dénombrement de mégots dans l’environnement, en particulier sur les plages. 
+Les références utilisées dans le cadre de la présente étude sont listées ci-après : 
+- de Granda-Orive JI, Girón-Matute W, López-Yepes L. Cigarette butts: The 
+collateral effects of cigarettes on humans, animals and the environment.  
+Arch Bronconeumol. 2016; 52: 285 
+- Novotny TE, Slaughter E. Tobacco Product Waste: An Environmental 
+Approach to Reduce Tobacco Consumption.  Curr Envir Health Rpt. 2014; 
+1: 208-216 
+- Roder Green LA et al. Littered cigarette butts as a source of nicotine in 
+urban waters. Journal of Hydrology. 2014; 519: 3466-3474 
+- Moriwaki H et al. Waste on the roadside, ‘poi-sut e’ waste: Its distribution 
+and elution potential of po llutants into environment . Waste Management. 
+2009; 29: 1192-1197 
+- Slaughter E et al. Toxicity of cigarette butts, and their chemical 
+components, to mari ne and freshwater fish . Tobacco Control. 2011; 20 
+(Suppl 1): i25-i29 
+- Lee W and Lee CC. Developmental toxicity of cigarette butts – An 
+underdeveloped issue. Ecotoxicology and Environmental Safety. 2015; 113: 
+362-368 
+- Booth DJ et al. Impact of cigarette butt leachate on tidepool snails . Marine 
+Pollution Bulletin. 2015; 95: 362-364. 
+Les informations issues de ces publicatio ns, ainsi que les données de la base 
+nationale du LNE portant sur les composants des cigarettes ont permis d’aboutir à 
+la définition du programme analytique suiv ant (les analyses indiquées en italique 
+ont été réalisées à l’INERI S, et les autres sous-traitées à des laboratoires 
+extérieurs) : 
+- métaux, 
+- sels de métaux alcalins (dosage de l’acide acétique et de l’acide tartrique), 
+- nitrosamines, 
+- pesticides ou herbicides, notamment : nicotine , flumétraline, pendiméthaline 
+et trifluraline, 
+- phénols, notamment : éthylphénol et phénol, 
+- HAP (16 congénères classiquement mesurés), 
+ 
+INERIS-DRC-17-162405-01313C            Page 14 sur 47 
+- glycols, notamment : éthylèneglycol et diéthylèneglycol, 
+- sucres et amidon (analyses couvrant notamment le polyacétate de 
+cellulose, principal constituant des filtres), 
+- composés volatils tels que : fo rmaldéhyde, acétaldéhyde, benzène, 
+pyridine, acétone, 
+- dioxines et furanes (17 c ongénères classiquement mesurés). 
+ 
+Par ailleurs, des essais d’écotoxicité aquatique (sur éluat de mégots broyés) et 
+terrestre ont été menés sur les trois échantillons, conformément à la batterie 
+d’essais couramment pratiquée en France, qui comporte six essais. 
+Compte tenu de la cohérence des effets inhibiteurs observés pour les éluats des 
+trois échantillons sur les trois premiers essais aquatiques ( V. fischeri, D. magna et 
+P. subcapitata ), l’essai de toxicité chronique sur C. dubia ainsi que les essais 
+d’écotoxicité terrestre n’ont été menés  que sur un seul des trois échantillons 
+(16BB634). 
+Les investigations, pour cet échantillon, ont alors été complétées par la réalisation 
+des essais d’écotoxicité proposés dans la batterie conventionnelle franco-
+allemande et non-communs avec la batterie d’essais utilisée en France. 
+L’ensemble des essais effectués est présenté dans le Tableau 1 
+ 
+Tableau 1 : Tableau récapitulatif des essais d’écotoxicité réalisés sur les 
+échantillons de mégots 
+Organismes Paramètres mesurés Références normatives Echantillons testés Batterie fr. Batterie fr.-all. 
+Essais aquatiques 
+Bactéries V. fischeri Inhibition de la luminescence NF EN ISO 11348-3 (AFNOR 2009) Eluats des 3 
+échantillons 
+broyés 
+X 
+Micro-
+crustacés D. magna Inhibition de la mobilité NF EN ISO 6341 (AFNOR 2012) X 
+Micro- 
+algues 
+P. 
+subcapitata 
+Inhibition de la 
+croissance 
+NF EN ISO 8692 
+(AFNOR 2012) X 
+Micro-
+crustacés C. dubia Inhibition de la reproduction NF ISO 20665 (AFNOR 2009) Eluat de 16BB634 broyé X  
+Essais terrestres 
+Plantes 
+L. sativa Inhibition de l’émergence et 
+de la 
+croissance 
+NF EN ISO 
+11269-2 (AFNOR 
+2013) 
+16BB634 
+X  
+B. rapa  X 
+Vers de 
+terre E. fetida 
+Mortalité 
+NF EN ISO 11268 
+– 1 (AFNOR 
+2012) 
+X  
+Evitement NF ISO 17512-1 (AFNOR 2009)  X 
+Bactéries A. globiformis 
+Inhibition de 
+l’activité 
+déshydro-
+génase  
+ISO 18187 
+(ISO 2016)  X 
+ 
+INERIS-DRC-17-162405-01313C            Page 15 sur 47 
+6. RESULTATS D’ESSAIS ET D’ANALYSES SUR LES MEGOTS 
+6.1 E SSAIS ECOTOXICOLOGIQUES 
+6.1.1 E SSAIS D’ECOTOXICITE AQUATIQUE 
+Les essais d’écotoxicité aquatique ont été conduits sur des éluats générés, pour 
+les 3 échantillons broyés, conformément aux préconisations de la norme NF EN 
+14735 : 
+- mise en contact avec de l’eau déionisée dans un ratio solide/liquide de 
+1/10, 
+- agitation rotative à 10 cycles / minute pendant 24h, 
+- décantation pendant 15 minutes, 
+- centrifugation à 2 500 G pendant 30 minutes. 
+Les éluats obtenus ont alors été filtrés à 100 µm (essais sur D. magna et C. dubia) 
+puis à 0,45 µm (essai sur algues et bactéries), sur filtres nylon. 
+ 
+Les résultats des essais aquatiques sur le s trois échantillons sont présentés dans 
+les Tableau 2 à Tableau 4. Les CE 20/CE50, lorsqu’elles ont pu être calculées, sont 
+présentées dans le Tableau 5. Le Tableau 6,  quant à lui, synthétise, les résultats 
+de l’essai d’inhibition de la reproduction de C. dubia  sur l’éluat de l’échantillon 
+16BB634. 
+ 
+Tableau 2 : Résultats des essais d’inhibition de la mobilité de D. magna 
+Concentration 
+d’essai (% d’éluat) 
+16BB634 16BB635 16BB636 
+Inhibition de la mobilité après 48h (en %) 
+0,10 0 0 0 
+0,26 0 5 0 
+0,64 5 100 80 
+1,6 100 100 100 
+4 100 100 100 
+10 100 100 100 
+ 
+Pour les éluats des échantillons 16BB634 et  16BB636, une inhibition complète de 
+la mobilité a été observ ée dès 1,6 % d’éluat. Pour le déchet 16BB635, ce 
+pourcentage d’inhibition a été constaté à partir de la concentration 0,64% d’éluat. 
+ 
+ 
+ 
+ 
+INERIS-DRC-17-162405-01313C            Page 16 sur 47 
+Tableau 3 : Résultats des essais d’inhibition de la luminescence de Vibrio fischeri 
+Concentration 
+d’essai (% d’éluat) 
+16BB634 16BB635 16BB636 
+Inhibition de la luminescence après 30 min (en %) 
+0,05 6,2 1,5 13,4 
+0,12 11,4 2,8 18,0 
+0,31 20,6 7,8 33,6 
+0,77 35,6 18,4 47,2 
+1,9 54,4 36,3 62,5 
+4,8 73,6 57,1 73,9 
+12,0 90,2 76,2 86,4 
+30,0 96,3 87,0 93,9 
+ 
+Des relation « effets – concentrations d’éluat » assez similaires ont été constatées 
+pour les trois échantillons testés. 
+ 
+Tableau 4 : Résultats des essais d’inhibition de la croissance de P. subcapitata 
+Concentration 
+d’essai (% d’éluat) 
+16BB634 16BB635 16BB636 
+Inhibition la croissance après 72h (en %)  
+0,05 1,1 0 0 
+0,12 1,5 0 0,8 
+0,31 3,2 0,5 10,7 
+0,77 64,7 26,2 51,5 
+1,9 71,4 43,0 57,8 
+4,8 90,5 83,0 75,4 
+12,0 100 82,6 100 
+30,0 100 100 100 
+ 
+Des effets significatifs sur la croissance des algues ont été observés pour les 
+éluats des trois échantillons à partir de 0,77% d’éluat. 
+Les résultats de ces trois premiers e ssais d’écotoxicité aquatique ont mis en 
+évidence des effets inhibiteurs significati fs pour les éluats des trois échantillons, 
+conduisant à des valeurs de CE 50 inférieures à 2 % à l’exception de l’échantillon 
+16BB635 pour V. fischeri (Cf. Tableau 5). 
+Du fait de la cohérence de ces résultats conduisant au classement de ces trois 
+échantillons en déchets dangereux, l’essai chronique d’inhibition de la 
+reproduction de C. dubia  a été réalisé uniquement sur l’éluat de l’échantillon 
+16BB634. 
+ 
+ 
+INERIS-DRC-17-162405-01313C            Page 17 sur 47 
+Tableau 5 : Récapitulatif des CE20/ CE50 calculées pour les trois premiers essais 
+d’écotoxicité aquatique 
+Essai et paramètre d’étude 
+(intervalle de confiance) 16BB634 16BB635 16BB636 
+Inhibition de la 
+mobilité des daphnies
+CE50 
+(IC 95%) 
+Comprise entre 
+0,64 et 1,6% 
+/ 
+Comprise entre 
+0,26 et 0,64% 
+/ 
+Comprise entre 
+0,26 et 0,64% 
+/ 
+Inhibition de la 
+luminescence de 
+Vibrio fischeri 
+CE50 
+(IC 95%) 
+1,22% 
+(1,07 – 1,39) 
+3,73 % 
+(3,49 – 3,98) 
+0,87% 
+(0,76 – 0,99) 
+Inhibition de la 
+croissance des 
+algues 
+CE50 
+(IC 95%) 
+0,76% 
+(0,63 – 0,92) 
+1,99% 
+(1,75 – 2,31) 
+1,16% 
+(0,92 – 1,44) 
+CE20 
+(IC 95%) 
+0,33% 
+(0,24 – 0,45) 
+0,71% 
+(0,56 – 0,91) 
+0,29% 
+(0,19 – 0,41) 
+Les CEx ont été calculées en utilis ant une régression logistique avec une 
+estimation bootstrap de l’intervalle de confiance à 95 %. 
+ 
+Tableau 6 : Résultats de l’essai d’inhibition de la reproduction de C. dubia par 
+l’éluat de 16BB634 
+Concentration 
+d’essai (% d’éluat) 
+Mortalité des mères 
+(en %) 
+Nombre moyens 
+de juvéniles par 
+mère 
+Nombre moyen de 
+juvéniles par mère 
+vivante en fin d’essai 
+Témoin 0 46,8 46,8 
+0,01 0 35,0 35,0 
+0,03 10 17,9 19,9 
+0,06 100 (après 96h) 0 / 
+0,16 100 (après 24h) 0 / 
+0,4 100 (après 24h) 0 / 
+1,0 100 (après 24h) 0 / 
+2,5 100 (après 24h) 0 / 
+ 
+Les résultats de cet essai ont mis en évidence 
+- une forte toxicité de l’éluat dès  0,06% vis-à-vis des adultes, 
+- un effet statistiquement significatif sur la reproduction dès 0,01% (25,2 % 
+d’inhibition). 
+Ces résultats ont permis de calculer les valeurs suivantes : 
+CE20 = 0,01 % (0,007 - 0,013) 
+CE50 = 0,02 % (0,016 - 0,022) 
+ 
+INERIS-DRC-17-162405-01313C            Page 18 sur 47 
+6.1.2 E SSAIS D’ECOTOXICITE TERRESTRE 
+Les essais d’écotoxicité terrestre de la batterie utilisée en France et ceux de la 
+batterie franco-allemande ont été conduits  sur l’échantillon 16BB634 broyé, 
+présentant les caractéristiques suivantes :  
+- pH (KCl) = 8,3 
+- taux d’humidité = 16,8% 
+- capacité de rétention en eau = 300 %. 
+Pour les essais végétaux et vers de terre, les mélanges ont été réalisés en 
+utilisant un sol artificiel, préparé conformément aux recommandations de la norme 
+NF EN ISO 11268-1, dans lequel on a ra jouté différentes concentrations de 
+broyats de mégots : 
+- tourbe de sphaigne broyée  10 % 
+- Kaolin     20 % 
+- Sable de quartz   70 % 
+- CaCO 3    0,45 % 
+permettant d’ajuster le pH à 6,0 ± 0.5 
+ 
+Pour l’essai utilisant Arthrobacter globiformis, les mélanges ont été préparés dans 
+un sable de quartz, conformément aux recommandations de la norme ISO 18187. 
+ 
+Les résultats des essais terrestres végét aux et vers de terr e sont reportés dans 
+les Tableau 7 à Tableau 9. Les CE 50, lorsqu’elles ont pu être calculées, sont 
+présentées dans le Tableau 11. 
+ 
+Un premier essai d’émergence et croissance des végétaux a été conduit, 
+conformément aux préconisations de la batterie française sur la laitue. Les 
+résultats ont mis en évidence : 
+- un effet significatif de l’ échantillon sur l’émergence des graines à partir de la 
+concentration à 4 %, avec une faible émergence à 10 % et une absence 
+totale d’émergence à 25 % ; 
+- une inhibition significative de la croiss ance de la laitue dès la concentration 
+0,64% (53 % d’inhibition de la masse sèche). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+INERIS-DRC-17-162405-01313C            Page 19 sur 47 
+Tableau 7 : Résultats de l’essai d’émergence et croissance des végétaux 
+supérieurs (laitue et navet) 
+Concentrations 
+testées 
+(% de mégots secs) 
+Inhibition de l’émergence en 
+fin d’essai (en %) 
+Inhibition de la croissance 
+en fin d’essai (en %) 
+Laitue 
+Latuca sativa 
+Navet 
+Brassica rapa 
+Laitue 
+Latuca sativa 
+Navet 
+Brassica rapa 
+0,26 / 5,4 / 14,7 
+0,64 6,6 -5,4 53,0 61,3 
+1,6 16,4 2,7 84,5 85,4 
+4,0 36,1 45,9 88,4 90,7 
+10,0 86,9 100 98,4 100 (Aucune émergence) 
+25,0 100 / 100 (Aucune émergence / 
+ 
+Lors du second essai, sur le navet, espèce recommandée dans la batterie franco-
+allemande, la gamme de concentrations a été modifiée afin de tester une 
+concentration inférieure à 0,64 % (0,26 %). 
+Les effets sur l’émergence sont apparus signi ficatifs à la même concentration que 
+pour la laitue (4 %) et une absenc e d’émergence a été observée à la 
+concentration de 10 %. Pour la croissance,  les résultats montrent une inhibition 
+significative à la concentration de 0,64 %. 
+ 
+L’essai de mortalité des vers de te rre a été conduit pour une gamme de 
+concentrations entre 0,64 % et 25 % de mégots. Les résultats sont présentés dans 
+le Tableau 8. 
+Tableau 8 : Résultats de l’essai de mortalité des vers de terre 
+Concentrations testées 
+(% de mégots secs) 
+Mortalité des vers à 7 jours 
+(%) 
+Mortalité des vers à 14 jours 
+(%) 
+0,64 0 0 
+1,6 0 0 
+4,0 47,5 50 
+10,0 100 100 
+25,0 100 100 
+ 
+Un effet significatif des mégots sur la survie des vers de terre a été observé à 
+partir de la concentration à 4 %. Pour les concentrations à 10 et 25 %, un 
+phénomène de non pénétration dans le sol (ver s en surface) avait été noté dès le 
+premier jour d’essai. 
+ 
+ 
+INERIS-DRC-17-162405-01313C            Page 20 sur 47 
+L’essai de mortalité sur vers de terre a été complété par un essai d’évitement, 
+préconisé la batterie franco-allemande. Les  résultats sont présentés dans le 
+Tableau 9. 
+ 
+Tableau 9 : Résultats de l’essai d’évitement des vers de terre 
+Concentrations testées
+(% de mégots secs) 
+Nombre de vers dans le 
+compartiment témoin 
+Nombre de vers dans le 
+compartiment 
+contaminé 
+% 
+d’évitement 
+0,26 48 2 92 
+0,64 44 6 76 
+1,6 42 8 68 
+4,0 50 0 100 
+10,0 49 0 100 
+ 
+Un évitement significatif du compartiment contenant les mégots en mélange avec 
+le sol artificiel a été observé dès la concentration de 0,26 %. 
+La CE50 n’a pu être calculée précisément mais les résultats obtenus permettent de 
+conclure que celle-ci est inférieure à la concentration 0,26 %. 
+ 
+Un dernier essai d’écotoxicité terr estre a été conduit, conformément aux 
+préconisations de la batterie franco-allema nde, à savoir l’inhibition de l’activité 
+déshydrogénase de la bactérie Arthrobacter globiformis . Les résultats sont 
+présentés dans le Tableau 10. 
+ 
+Tableau 10 : Résultats de l’essai d’inhibition de l’activité déshydrogénase de 
+Arthrobacter globiformis 
+Concentrations testées 
+(% de mégots secs) 
+Inhibition de l’activité 
+déshydrogénase (en %) 
+0,15 3,2 
+0,45 2,7 
+1,35 21,3 
+4,05 56,9 
+12,15 76,9 
+ 
+Les valeurs de CE 50 obtenues pour les différents essa is terrestres sont reportées 
+dans le Tableau 11. 
+ 
+ 
+ 
+ 
+INERIS-DRC-17-162405-01313C            Page 21 sur 47 
+Tableau 11 : Récapitulatif des CE50 calculées pour les essais d’écotoxicité 
+terrestre 
+Organisme Paramètre CE50 (en %) (IC 95%) 
+Laitue 
+Emergence 4,33 (1,84 – 8,96) 
+Croissance 0,56 (0,29 – 0,78) 
+Navet 
+Emergence 4,13 (3,83 – 4,38) 
+Croissance 0,54 (0,47 – 0,64) 
+Vers de terre 
+Mortalité 4,00 (3,84 – 4,13) 
+Evitement < 0,26 
+A. globiformis Activité déshydrogénase 3,64 (3,28 – 4,09) 
+ 
+6.2 A NALYSES CHIMIQUES ET BILAN DE MASSE 
+L’ensemble des résultats des analyses chimiques réalisées sur les trois 
+échantillons est présenté en annexe 1 du présent rapport. Les résultats 
+correspondants ont été sommés afin d’ évaluer la portion massique de chaque 
+déchet dont la composition a été identifiée : le Tableau 12 met ainsi en évidence le 
+bilan massique obtenu sur chaque échantillon à l’aide de ces investigations. 
+ 
+Tableau 12 : Bilan de masse obtenu sur les trois échantillons en tenant compte 
+des limites de quantification 
+16BB634 16BB635 16BB636 
+Analyses % MS % MB % MS % MB % MS % MB 
+Teneur en eau - 22,0 - 76,2 - 17,6 
+Résidu calciné à 550 °C 
+(moins métaux) 5,2 4,1 15,5 3,7 5,5 4,5 
+Teneurs en métaux 3,5 2,7 4,4 1,0 4,5 3,7 
+Substances organiques 
+(hors sucres) 2,4 1,8 0,5 0,1 2,9 2,4 
+Sucres 50,2 39,2 41,1 9,8 47,5 39,2 
+Bilan massique 61,3 69,8 61,5 90,8 60,2 67,3 
+ 
+ 
+ 
+ 
+ 
+INERIS-DRC-17-162405-01313C            Page 22 sur 47 
+On observe une cohérence globale entre les deux échantillons secs (16BB334 et 
+16BB336), également ident ifiée au niveau des analyses indi viduelles. Cela laisse 
+penser que ces deux échantillons  sont globalement similaires et qu’il n’y a pas de 
+différence significative entre les deux flux de déchets obtenus par des opérateurs 
+de collecte différents. 
+L’échantillon humide pr ésente, de façon attendue,  une teneur en eau beaucoup 
+plus importante que les deu x autres (76,2 % contre 17,6 % et 22 %). Cela 
+participe notamment à augmenter le bilan de masse total (qui varie d’environ 70 % 
+pour les échantillons secs à 91 % pour l’éc hantillon humide), mais le bilan sur 
+masse sèche est similaire dans les trois éc hantillons. L’objectif poursuivi à travers 
+la norme expérimentale AFNOR XP X30- 489 d’un bilan massique atteignant 90 % 
+de la masse sèche ou une masse proche la plus élevée possible n’a pu être atteint 
+– ce point constitue une limite dans l’app lication des règles de classement par 
+calcul réalisée ultérieurement, une parti e conséquente de la masse des mégots 
+n’ayant pu être identifiée. Aucune piste n’a pu être identifiée à ce jour, permettant 
+de compléter ce bilan de masse et d’affiner la connaissance des mégots. 
+Les résultats analytiques essentiels pour  le classement en dangerosité présenté 
+ci-après sont mis en exergue dans le Tableau 13. 
+ 
+INERIS-DRC-17-162405-01313C            Page 23 sur 47 
+Tableau 13 : Eléments saillants des analyses menées sur les trois échantillons 
+(résultats exprimés en % MS) 
+Famille Paramètre 16BB634 16BB635 16BB636 
+HAP Somme des 16 HAP <0,0019 <0,0018 <0,0011 
+Métaux Al 0,12 0,12 0,15 
+Métaux As 0,000019 0,000020 0,000017 
+Métaux B 0,022 0,022 0,030 
+Métaux Ba 0,0026 0,0055 0,0040 
+Métaux Ca 1,87 1,99 1,98 
+Métaux Cd 0,000034 0,000052 0,000046 
+Métaux Cr 0,000139 0,000371 0,000231 
+Métaux Cu 0,00165 0,00171 0,000971 
+Métaux Fe 0,161 0,201 0,26 
+Métaux Hg <0,00000063 <0,00000063 0,00000089 
+Métaux K 0,609 1,13 1,24 
+Métaux Li <0,00025 0,000315 0,000364 
+Métaux Mg 0,149 0,333 0,28 
+Métaux Mn 0,00602 0,0116 0,00906 
+Métaux Mo 0,000019 0,000049 0,000033 
+Métaux Na 0,0321 0,0447 0,044 
+Métaux Ni 0,000174 0,001 0,000358 
+Métaux P 0,0655 0,147 0,125 
+Métaux Pb 0,000087 0,000104 0,000053 
+Métaux Sb <0,0000063 0,000012 <0,0000063 
+Métaux Se 0,000017 0,000022 0,000012 
+Métaux Si 0,151 0,161 0,191 
+Métaux Ti 0,316 0,186 0,211 
+Métaux Zn 0,00289 0,0046 0,00285 
+Pesticides Nicotine 0,62 0,38 0,73 
+Pesticides 2-phenylphenol 0,00011 0,00024 7,6E-05 
+Pesticides Biphenyl  0,00026 0,00071 0,00013 
+Pesticides Flumetraline 5,6E-06 <8,4E-06 <2,4E-06 
+Phénols 2-éthylphénol 0,0013 0,00073 0,0012 
+Phénols m+p crésol 0,013 0,0067 0,011 
+Phénols o-crésol 0,018 0,0086 0,015 
+Phénols Phénol 0,058 0,027 0,049 
+Volatils Acétaldéhyde 0,0032 0,0018 0,0023 
+Volatils Formaldéhyde 0,0013 0,0016 0,0012 
+Sucres Amidon 0,94 0,51 1,46 
+Sucres Arabinan 0,57 0,53 0,59 
+Sucres Galactan 0,74 0,66 0,71 
+Sucres Glucan 44,2 36,34 41,72 
+Sucres Mannan 0,9 0,76 0,65 
+Sucres Xylan 2,83 2,28 2,38 
+PCDD/F Somme des dioxines (OMS 2005 PCDD/F- TEQ) sans LQ 1,2E-11 9,5E-12 1,38E-11 
+PCDD/F Somme des dioxines (OMS 2005 PCDD/F- TEQ) avec LQ 2,2E-10 2,47E-10 2,49E-10 
+Nitrosamines NNN 7,7E-05 4,6E-05 7, 1E-05 
+Nitrosamines NNK 5,6E-05 1,8E-05 3,9E-05 
+Nitrosamines NAT 7,5E-05 4,4E-05 6,7E-05 
+Nitrosamines NAB 8,3E-06 5,6E-06 7,0E-06 
+Anions CN- 0,0065 0,0014 0,0038 
+Anions Acide acétique 1,44 <0,04 1,84 
+Anions Acide tartrique 0,047 <0,001 0,047 
+ 
+INERIS-DRC-17-162405-01313C            Page 24 sur 47 
+6.3 A NALYSES SUR LIXIVIATS 
+Des analyses ont également  été menées sur les él uats de mégots broyés, 
+obtenus pour un rapport liquide/solide de 10 L/kg. Le détail des résultats est 
+présenté en annexe 1, et la synthèse en est réalisée dans le Tableau 14. 
+ 
+Tableau 14 : Eléments essentiels des analyses sur lixiviats menées sur les trois 
+échantillons 
+Paramètre Unité 16BB634 16BB635 16BB636 
+pH unité pH 8,5 6,4 7,9 
+As mg/kg MS 0,10 0,083 0,10 
+Ba mg/kg MS 2,5 7,6 2,6 
+Cd mg/kg MS 0,052 0,029 0,061 
+Cr mg/kg MS 0,60 1,3 0,37 
+Cu mg/kg MS 10,2 2,1 8,5 
+Hg mg/kg MS 0,0045 0,0014 0,0011 
+Mo mg/kg MS 0,27 0,019 0,19 
+Ni mg/kg MS 0,77 0,69 0,68 
+Pb mg/kg MS 0,033 0,013 0,025 
+Sb mg/kg MS 0,011 0,011 0,018 
+Se mg/kg MS 0,041 0,024 0,055 
+Zn mg/kg MS 5,2 2,6 12,8 
+F- mg/kg MS <0,5 <0,5 <0,5 
+Cl- mg/kg MS 5 390 2 781 6 319 
+SO42- mg/kg MS 5 560 2 271 5 499 
+Indice phénol mg/kg MS 150 110 160 
+COT mg/kg MS 84 002 59 024 81 988 
+Résidu à sec à 105°C mg/kg MS 187 005 123 050 202 970 
+ 
+INERIS-DRC-17-162405-01313C            Page 25 sur 47 
+7. CLASSEMENT EN DA NGEROSITE SELON LA 
+REGLEMENTATION DECHETS 
+7.1 E VALUATION DES PROPRIETES HP 
+7.1.1 P ROPRIETES HP 1, HP 2, HP 3, HP 9, HP 12 ET HP 15 
+Les propriétés HP 1 (explosif), HP 2 (comburant), HP 3 (i nflammable), HP 9 
+(infectieux), HP 12 (dégagement de gaz toxique au contact de l’eau ou d’un acide) 
+et HP 15 (déchets capables de présenter une des propriétés dangereuses HP 1 à 
+HP 14 que ne présente pas directement le déc het d’origine) ne sont à évaluer que 
+lorsque cela est approprié et proportionné. En particulier, pour les propriétés HP 1, 
+HP 2, HP 3, HP 12 et HP 15, la  présence dans le déchet de substances 
+présentant l’une des menti ons de danger suivantes est de nature à laisser 
+suspecter le caractère dangereux : 
+- H200 – explosif instable, 
+- H201 – explosif, danger d’explosion en masse, 
+- H202 – explosif, danger sérieux de projection, 
+- H203 – explosif, danger d’incendie, d’effet de souffle ou de projection 
+- H204 – danger d’ince ndie ou de projection, 
+- H240 – peut exploser en cas d’échauffement, 
+- H241 – peut s’enflammer ou exploser en cas d’échauffement, 
+- H270 – peut provoquer ou aggrav er un incendie ; comburant, 
+- H271 – peut provoquer un incendie ou une explosion ; comburant puissant, 
+- H272 – peut aggraver un incendie ; comburant, 
+- H220 – gaz extrêmement inflammable, 
+- H221 – gaz inflammable, 
+- H222 – aérosol extrêmement inflammable, 
+- H223 – aérosol inflammable, 
+- H224 – liquide et vapeurs extrêmement inflammables, 
+- H225 – liquide et vapeurs très inflammables, 
+- H226 – liquide et vapeurs inflammables, 
+- H228 – matière solide inflammable, 
+- H242 – peut s’enflammer en cas d’auto-échauffement, 
+- H250 – s’enflamme spontanément au contact de l’air, 
+- H251 – matière auto-échauffante ; peut s’enflammer, 
+- H252 – matière auto-échauffante en grandes quantités ; peut s’enflammer 
+ 
+INERIS-DRC-17-162405-01313C            Page 26 sur 47 
+- H260 – dégage, au contact de l’eau, des gaz inflammables qui peuvent 
+s’enflammer spontanément, 
+- H261 – dégage, au contact de l’eau, des gaz inflammables, 
+- EUH029 – au contact de l’eau, dégage des gaz toxiques, 
+- EUH031 – au contact d’un acide, dégage un gaz toxique, 
+- EUH032 – au contact d’un aci de, dégage un gaz très toxique, 
+- H205 – danger d’explosion en masse en cas d’incendie 
+- EUH001 – explosif à l’état sec 
+- EUH019 – peut former des peroxydes explosifs 
+- EUH044 – risque d’explosion si chauffé en ambiance confinée. 
+Sur la base de la bibliographie réalis ée et des analyses m enées, il apparaît 
+qu’aucun de ces dangers ne doive être suspecté sur les mégots de cigarettes, et 
+les propriétés HP correspondantes peuvent donc être écartées. 
+7.1.2 P ROPRIETE HP 14 
+7.1.2.1 E VALUATION PAR ESSAIS ECOTOXICOLOGIQUES 
+La synthèse des résultats des investigat ions menées et présentées au chapitre 
+6.1, est reprise dans le Tableau 15, où sont mentionnées les propositions de 
+seuils de classement associées, selon les deux approches envisagées : batterie 
+française et batterie franco-allemande. En  complément de ces seuils qui, sans 
+être réglementaires, font consensus chez les utilisateurs de ces approches 
+expérimentales, une proposition alternativ e de valeurs seuils déterminées sur la 
+base d’une étude visant à mettre en cohér ence les méthodes de classement a été 
+également considérée (seuils adaptés). 
+Le classement des échantillo ns au regard de ces seuils est traduit par un code 
+couleur : rouge si le déchet est classé dangereux par l’essai, vert s’il n’est pas 
+classé. On rappelle ici que pour chacune des trois approches, un seul essai 
+classant suffit à attribuer la propriété HP 14 au déchet concerné. 
+ 
+Les résultats obtenus font apparaître une fo rte toxicité des trois échantillons 
+testés, qu’il s’agisse des essais d’écotoxicité aquatique sur éluat (16BB634, 
+16BB635, 16BB636) ou des essais d’écot oxicité terrestres (16BB634). Ces 
+résultats conduisent à classer ces troi s échantillons comme déchets dangereux 
+sur la base de la propriété HP14, que l’on considère la batterie d’essais française 
+ou la batterie d’essais franco-allemande ; les valeurs de CE 20 / CE 50 déterminées 
+pour chacun des essais entrainant le clas sement de l’échantillon testé. En ce qui 
+concerne les seuils alternatifs pour la batterie d’essais franco-allemande, la 
+concordance des résultats n’est pas aussi marquée puisque la valeur de CE 50 
+calculée lors de l’essai d’inhibition déshydrogénase de Arthrobacter globiformis ne 
+conduirait pas au classement en déchet dangereux de l’échantillon 16BB634. 
+ 
+ 
+INERIS-DRC-17-162405-01313C            Page 27 sur 47 
+Tableau 15 : Synthèse des résultats des essais écotoxicologiques et classement 
+des trois échantillons de mégots  
+Essai 
+Règles de classement Résultats 
+Batterie 
+française 
+(bf) 
+Batterie 
+franco-
+allemande 
+(bfa) 
+Batterie 
+franco-
+allemande, 
+seuils 
+adaptés 
+(sa) 
+16BB634 16BB635 16BB636 
+bf bfa sa bf bfa sa bf bfa sa 
+Daphnies CE 50<10% CE 50<7,95%
+[0,64% ; 
+1,6%] 
+[0,26% ; 
+0,64%] 
+[0,26% ; 
+0,64%] 
+         
+Microtox CE 50<10% CE 50<15,8% 1,22 % 3,73 % 0,87%          
+Algues CE 20<1% CE 50<10% CE 50<7,03%
+CE20 = 0,33% 
+CE50 = 0,76% 
+CE20 = 0,71% 
+CE50 = 1,99% 
+CE20 = 0,29% 
+CE50 = 1,16% 
+         
+Cério-
+daphnies CE20<1% / / 0,01% 
+Non réalisé 
+   
+Végétaux 
+(laitue, L. sativa) CE50<10% / / 0,56%    
+Végétaux 
+(navet, B. rapa) / CE 50<10% CE 50<13,7%
+0,54% 
+   
+Vers de terre 
+(mortalité) CE50<10% / / 4,00%    
+Vers de terre 
+(évitement) / CE 50<10% CE 50<3,75% <0,26%    
+Arthrobacter 
+globiformis / CE 50<10% CE 50<2,25% 3,64%    
+ 
+7.1.2.2 E VALUATION PAR CALCUL 
+En alternative aux essais écotoxicol ogiques, deux méthodes d’évaluation de la 
+propriété HP 14 par calcul ont été appliquées : 
+- « M1 », méthode portée par la Commission Européenne, et qui rentrera en 
+application au 5 juillet 2018, et 
+- « M2M », méthode défendue par la France, en cohérence avec la 
+réglementation Seveso, et appliquée sur le territoire national d’ici là. 
+Les règles de calcul appl iquées dans le cadre de ch acune de ces méthodes sont 
+présentées dans le Tableau 16. 
+ 
+ 
+ 
+ 
+ 
+INERIS-DRC-17-162405-01313C            Page 28 sur 47 
+Tableau 16 : Règles de classement applicables pour HP 14 
+Prop. Danger 
+Mentions de danger 
+des substances prises 
+en compte dans les 
+calculs 
+Valeurs 
+seuils 
+(« cut-off 
+values ») 
+Règles de classement 
+HP 14 
+M1 
+Eco-
+toxique 
+H400, H410, H411, 
+H412, H413, H420 / 
+A : ∑ H400 ≥ 25 % 
+B : ∑ (H410/0,25 %) + (H411/2,5%) + 
+(H412/25 %) ≥ 1 
+C : ∑ (H410 + H411 + H412 + H413) ≥ 25 % 
+D : max(H420) ≥ 0,1 % 
+HP 14 
+M2M 
+H400, H410, H411, 
+H420 
+H400 et 
+H410 : 
+0,1 % / M 
+H411 : 1 % 
+A : ∑ H400*Maigu ≥ 25 % 
+B : ∑ H410*Mchronique ≥ 25 % 
+C : ∑ (H410*Mchronique/2,5 %) + (H411/25%) ≥ 1 
+D : max(H420) ≥ 0,1 % 
+ 
+Ces règles ont été appliquées aux trois échantillons, sur la base des résultats 
+analytiques précédemment présentés. Le T ableau 17 présente ai nsi les résultats 
+des calculs des indices de dangerosité, sur la base de deux hypothèses : 
+- d’une part en tenant compte des subs tances les plus dangereuses connues 
+pour chaque règle de classement (« pire cas ») ; 
+- d’autre part en écartant de cette liste  certaines des substances les plus 
+rares – cette seconde approche, probablement plus réaliste, n’a toutefois 
+pas été justifiée au cas par cas pour chaque substance et chaque élément, 
+du fait de l’absence d’enjeux, li ée aux résultats des essais 
+écotoxicologiques précédemment expos és et primant sur l’approche par 
+calculs. 
+ 
+Tableau 17 : Indices de dangerosité calculés pour HP 14 
+Méthode Règle 
+16BB634 16BB635 16BB636 Substances / 
+éléments à 
+enjeu de 
+classement 
+Pire 
+cas 
+Avec 
+excl. 
+Pire 
+cas 
+Avec 
+excl. 
+Pire 
+cas 
+Avec 
+excl. 
+M1 
+A 0,6 0,2 0,3 0,1 1,0 0,2 Ca, K 
+B 59,2 0,1 25,7 0,1 98,0 0,4 Al, B, Ca, Fe, K, Na, Si 
+C 1,6 0,001 0,8 0,01 3,1 0,03 Ca, K 
+D 0,0 0,0 0,0 0,0 0,0 0,0  
+M2M 
+A 13,8 0,01 5,1 0,004 17,7 0,01 Al, Ca, K, Mg, Na 
+B 3,4 0,004 1,5 0,002 5,3 0,004 K, Na 
+C 33,6 0,1 14,8 0,02 52,6 0,1 Al, B, Ca, Fe, K, Na, Si 
+D 0,0 0,0 0,0 0,0 0,0 0,0  
+ 
+Les éléments porteurs d’enj eu de classement pour les règles potentiellement 
+classantes (règles A, B, et C des deux méthodes) sont les suivants : Al, B, Ca, Fe, 
+K, Mg, Na et Si. S’agissant d’éléments ma jeurs, il est probable que les formes en 
+présence dans les mégots ne soient pas des formes dangereuses pour 
+l’environnement – bien qu’elles n’aient pas fait l’objet d’une justification au cas par 
+cas – les exclusions prises en compte dans la seconde approche apparaissent 
+ 
+INERIS-DRC-17-162405-01313C            Page 29 sur 47 
+donc comme vraisemblables, ce qui amènerait à qualifier les mégots de déchets 
+non dangereux au titre de la propriété HP 14, via une évaluation par calcul. 
+ 
+7.1.2.3 D ISCUSSION SUR LES DEUX METHODES D’EVALUATION 
+Les mégots constituent un exemple de cl assement potentiellement discordant au 
+titre de la propriété HP 14 : 
+- l’évaluation par essais met en avant, sans aucune ambiguïté, le caractère 
+dangereux des mégots, à la fo is d’après la batterie fr ançaise et d’après la 
+batterie franco-allemande, avec 9 essais classants sur les 9 réalisés, tandis 
+que 
+- l’évaluation par calcul conduirait quant à elle à considérer les mégots 
+comme des déchets non dangereux. 
+Il est classiquement admis que les résultat s des essais priment sur ceux obtenus 
+par calcul. Dès lors, il est pertinent de se questionner sur les origines de la « sous-
+évaluation » potentielle de la  dangerosité des mégots via l’approche calculatoire. 
+Les hypothèses que nous pouvons formuler à ce sujet sont les suivantes : 
+- malgré des recherches analytiques  poussées, notamment concernant les 
+substances organiques, il est probabl e que certains composés dangereux 
+aient échappé à ces investigations, et soient responsables d’une écotoxicité 
+non prise en compte dans les calculs, 
+- il est également possible que les mentions de danger et/ou facteurs M 
+utilisés dans les calculs pour les substances identifiées soient sous-
+estimés. A titre d’exemple, seule la  mention de danger H411 a été retenue 
+pour la nicotine, conformément à sa classification harmonisée, mais 
+certaines déclarations de notifiant s à l’ECHA proposent également un 
+classement H400 pour cette substance. 
+7.1.3 P ROPRIETES HP 4, HP 5, HP 6, HP 7, HP 8, HP 10, HP 11 ET HP 13 
+Les règles de calcul applicables pour l’évaluation des propriétés de danger pour la 
+santé sont présentées dans le Tableau 18. 
+De la même façon que pour HP 14, ces règles ont été appliquées aux trois 
+échantillons, sur la base des résultats analytiques précédemment présentés. Le 
+Tableau 19 présente ainsi le s résultats des calculs des indices de dangerosité et 
+sur la base de deux hypothèses : 
+- d’une part en tenant compte des subs tances les plus dangereuses connues 
+pour chaque règle de classement (« pire cas ») ; 
+ 
+- d’autre part en écartant de cette liste  certaines des substances les plus 
+rares – cette seconde approche, probablement plus réaliste, n’a toutefois 
+pas été justifiée au cas par cas pour  chaque substance et chaque élément, 
+du fait de l’absence d’enjeux, cette fois-ci liée à la concentration en 
+nicotine, qui s’est avérée classante à elle seule pour la propriété de danger 
+HP 6 sur les deux échantillons secs. 
+ 
+INERIS-DRC-17-162405-01313C            Page 30 sur 47 
+ 
+Tableau 18 : Règles de classement applicables pour HP 4, HP 5, HP 6, HP 7, HP 
+8, HP 10, HP 11 et HP 13 
+Prop. Danger 
+Mentions, classes et 
+catégories de danger 
+des substances prises 
+en compte dans les 
+calculs 
+Valeurs 
+seuils 
+(« cut-off 
+values ») 
+Règles de classement 
+HP 4 Irritant 
+H314 Skin corr. 1A 
+H318 Eye dam. 1 
+H315 Skin irrit. 2, 
+H319 Eye irrit. 2 
+1 % 
+A : ∑ H314 1A ≥ 1 % 
+B : ∑ H318 ≥ 10 % 
+C : ∑ (H315 et H319) ≥ 20 % 
+HP 5 
+Toxicité 
+spéc. pour 
+un organe 
+cible 
+(STOT) / 
+Toxicité 
+par 
+aspiration 
+H370 STOT SE 1 
+H371 STOT SE 2 
+H335 STOT SE 3 
+H372 STOT RE 1 
+H373 STOT RE 2 
+H304 Asp. Tox. 1 
+/ 
+A : max (H370) ≥ 1 % 
+B : max (H371) ≥ 10 % 
+C : max (H335) ≥ 20 % 
+D : max (H372) ≥ 1 % 
+E : max (H373) ≥ 10 % 
+F : max (H304) ≥ 10 % 
+G : ∑ H304 ≥ 10 % et viscosité cinémaƟque 
+gl
+obale du déchet à 40 °C < 20,5 mm²/s 
+HP 6 Toxique 
+Oral: 
+H300 Acute Tox.1 
+H300 Acute Tox. 2 
+H301 Acute Tox. 3 
+H302 Acute Tox 4 
+ 
+Dermal: 
+H310 Acute Tox.1  
+H310 Acute Tox.2  
+H311 Acute Tox. 3 
+H312 Acute Tox 4 
+ 
+Inhal.: 
+H330 Acute Tox 1 
+H330 Acute Tox.2 
+H331 Acute Tox. 3 
+H332 Acute Tox. 4 
+Cat. 1, 2 ou 
+3 : 0,1 % 
+ 
+Cat. 4 : 
+1 % 
+A : ∑ H300 cat. 1 ≥ 0,1 % 
+B : ∑ H300 cat. 2 ≥ 0,25 % 
+C : ∑ H301 ≥ 5 % 
+D : ∑ H302 ≥ 25 % 
+E : ∑ H310 cat. 1 ≥ 0,25 % 
+F : ∑ H310 cat. 2 ≥ 2,5 % 
+G : ∑ H311 ≥ 15 % 
+H : ∑ H312 ≥ 55 % 
+I : ∑ H330 cat. 1 ≥ 0,1
+ % 
+J : ∑ H330 cat. 2 ≥ 0,5 % 
+K : ∑ H331 ≥ 3,5 % 
+L : ∑ H332 ≥ 22,5 % 
+HP 7 Cancé- rogène H350 Carc. 1A et 1B H351 Carc. 2 / A : max (H350) ≥ 0,1 %  B : max (H351) ≥ 1 % 
+HP 8 Corrosif H314 Skin Corr. 1A, 1B et 1C 1 % A : ∑ H314 ≥ 5 % 
+HP 10 
+Toxique 
+pour la 
+repro-
+duction 
+H360 Repr. 1A et 1B 
+H361 Repr. 2 / A : max (H360) ≥ 0,3 %  B : max (H361) ≥ 3 % 
+HP 11 Mutagène H340 Muta. 1A et 1B H341 Muta. 2 / A : max (H340) ≥ 0,1 %  B : max (H341) ≥ 1 % 
+HP 13 Sensi- bilisant H317, H334 / A : max (H317) ≥ 10 %  B : max( H334) ≥ 10 % 
+ 
+ 
+ 
+ 
+ 
+ 
+INERIS-DRC-17-162405-01313C            Page 31 sur 47 
+Tableau 19 : Indices de dangerosité calculés pour HP 4, HP 5, HP 6, HP 7, HP 8, 
+HP 10, HP 11 et HP 13 
+Prop. de 
+danger Règle 
+16BB634 16BB635 16BB636 
+Substances / 
+éléments à 
+enjeu de 
+classement (en 
+gras avec 
+excl.) 
+Pire 
+cas 
+Avec 
+excl. 
+Pire 
+cas 
+Avec 
+excl. 
+Pire 
+cas 
+Avec 
+excl. 
+HP 4 
+A 5,2 0,05 2,5 0,02 9,7 0,07 Al, B, K, Si 
+B 1,2 0,3 0,5 0,1 1,8 0,3 K 
+C 0,5 0,3 0,2 0,1 0,8 0,5  
+HP 5 
+A 0,0 0,0 0,0 0,0 0,0 0,0  
+B 0,1 0,0 0,1 0,0 0,2 0,0  
+C 0,5 0,3 0,2 0,1 0,8 0,4  
+D 28,3 0,0 11,5 0,0 41,1 0,0 Al, B, Ca, Fe, K, Mg, Na, Si 
+E 0,6 0,0 0,3 0,0 1,1 0,0 K 
+F 0,0 0,0 0,0 0,0 0,0 0,0  
+G 0,0 0,0 0,0 0,0 0,0 0,0  
+HP 6 
+A 0,0 0,0 0,0 0,0 0,0 0,0  
+B 16,9 0,0 5,8 0,0 20,4 0,0 Al, B, Ca, Mg, Na 
+C 1,3 0,5 0,6 0,2 2,4 0,8 K 
+D 0,7 0,3 0,3 0,1 1,1 0,5 K 
+E 2,4 1,9 0,5 0,4 3,0 2,4 Nicotine 
+F 0,0 0,0 0,0 0,0 0,0 0,0  
+G 0,5 0,1 0,2 0,0 0,9 0,2  
+H 0,1 0,0 0,0 0,0 0,2 0,0  
+I 0,0 0,0 0,0 0,0 0,0 0,0  
+J 14,1 0,0 6,6 0,0 24,4 0,0 Al, B, Ca, K, Mg, Na 
+K 1,2 0,5 0,6 0,2 2,3 0,8 K 
+L 0,4 0,1 0,2 0,0 0,8 0,1  
+HP 7 A 479,9 0,4 186,7 0,2 671,3 0,4 Al, B, Ca, Fe, K, Mg, Na, Si 
+B 9,1 0,0 4,6 0,0 17,7 0,0 B, K, Si 
+HP 8 A 3,2 0,5 1,4 0,2 5,2 0,9 Ca, K 
+HP 10 A 28,6 0,3 14,6 0,1 56,2 0,5 B, K, Na, Si B 0,1 0,0 0,1 0,0 0,2 0,0  
+HP 11 A 19,0 0,0 10,6 0,0 39,9 0,0 K, Na B 3,3 0,0 1,5 0,0 6,1 0,0 B, K, Si 
+HP 13 A 11,1 0,2 6,0 0,1 22,6 0,4 Ca, K B 1,2 0,2 0,5 0,1 1,7 0,4 Ca, K 
+ 
+Les éléments porteurs d’enj eu de classement pour les règles potentiellement 
+classantes sont les suivants : Al, B, Ca, Fe, K, Mg, Na, Si et la nicotine. En-dehors 
+de cette dernière, s’agissant d’éléments majeurs, il est probable que les formes en 
+présence dans les mégots ne soient pas des formes dangereuses pour 
+l’environnement – bien qu’elles n’aient pas fait l’objet d’une justification au cas par 
+cas, les exclusions prises en comp te dans la seconde approche apparaissent 
+donc comme vraisemblables, ce qui amènerait à qualifier les mégots de déchets 
+non dangereux au titre des propriétés HP 4, HP 5, HP 7, HP 8, HP 10, HP 11 et 
+HP 13, via une évaluation par calcul. 
+ 
+INERIS-DRC-17-162405-01313C            Page 32 sur 47 
+Toutefois, la teneur mesurée en nicoti ne dans les deux déchets de mégots secs 
+(respectivement 0,48 % et 0,6 % sur MB) suffit à classer ces deux échantillons au 
+titre de la propriété HP 6, par dépasse ment du seuil de 0,25 % associé aux 
+substances toxiques par voie cutanée,  de catégorie 1 (mention de danger H310 
+cat. 1). La quantité de nicotine dans l’éch antillon humide (0,09 % sur MB) reste 
+inférieure au seuil de classement – cette non-dangerosité est toutefois imputable à 
+l’effet de « dilution » lié à l’eau ajoutée aux mégots avant le ur collecte, et 
+probablement, toutefois de façon moins signifi cative, à une perte par lixiviation de 
+la nicotine à cette même étape (la t eneur en nicotine sur matière sèche étant 
+diminuée par rapport aux échantillons secs – voir Tableau 13). 
+7.2 A TTRIBUTION D’UNE RUBRIQUE DE LA NOMENCLATURE 
+Parmi les rubriques de la nomenclature européenne des déchets figurant dans la 
+décision n°2000/532/CE du 3 mai 2000 révisée en 2014 par la décision 
+n°2014/955/UE, la plus appropr iée pour les mégots collectés séparément semble 
+être la rubrique 20 01 99 :  
+- Chapitre 20 : déchets municipaux (déchets ménagers et déchets assimilés 
+provenant des commerces, des industries et des administrations), y 
+compris les fractions collectées séparément, 
+o Section 20 01 : fractions collectée s séparément (sauf section 15 01) 
+ Rubrique 20 01 99 : autres frac tions non spécifiées ailleurs. 
+Il convient de noter que la position française relative au statut des rubriques 99 est 
+de considérer celles-ci comme des « entrées  miroirs à elles seules », autrement 
+dit qu’un déchet relevant de cette rubr ique peut être un déc het dangereux ou un 
+déchet non dangereux. 
+Cette position est différente de celle por tée par la Commission Européenne et 
+présentée dans son document de référence « Guidance Document on the 
+definition and classification of hazardous waste  », qui considère la rubrique 20 01 
+99 comme étant une entrée « absolue non danger euse ». Cela signifierait qu’un 
+déchet relevant de cette rubrique serait  à considérer comme un déchet non 
+dangereux par défaut. 
+Dans le cas des mégots de cigarettes, cette seconde interprétation de la 
+nomenclature entre donc en contradict ion avec les éléments précédemment 
+exposés mettant en avant le caractère dangereux de mégots en tant que déchets. 
+Par conséquent, il conviendrait de mettre en application l’alinéa 2 de l’article 7 de 
+la Directive Cadre Déchets : « Un État membre peut c onsidérer des déchets 
+comme dangereux dans le cas où, même s' ils ne figurent pas comme tels sur la 
+liste de déchets, ils présentent une ou plusieurs des propriétés énumérées à 
+l'annexe III. L'État membre notifie sans délai tout cas de ce type à la Commission. 
+Il l'enregistre dans le rapport prévu à l'article 37, paragraphe 1,  et fournit à la 
+Commission toutes les informations s'y r apportant. Au vu des notifications reçues, 
+la liste est réexaminée afin de déterminer s'il y a lieu de l'adapter. » 
+ 
+ 
+INERIS-DRC-17-162405-01313C            Page 33 sur 47 
+8. CLASSEMENT AU TITRE DE  LA REGLEMENTATION ADR 
+8.1 L ES 9 CLASSES DE DANGER DE L’ADR 
+La réglementation ADR prévoit 9 classes de danger qui régissent les conditions de 
+transports applicables à une matière dangereuse. Le Tableau 20 liste ces 
+différentes classes et positionne en première approche les mégots sur la base des 
+données déjà présentées. 
+ 
+Tableau 20 : Classes de danger de l’ADR 
+et situation des mégots au regard de ces classes 
+Classe Danger / Division Cas des mégots 
+1 Matières et objets explosibles Non concerné en raison de la nature et de la composition du matériau 
+2 Gaz Divisions : 2.1, 2.2 et 2.3 Non concerné car le matériau est sous forme solide 
+3 Liquides inflammables Non concerné car le matériau est sous forme solide 
+4 
+4.1 Matières solides 
+inflammables 
+Non concerné en raison de la nature et de la 
+composition du matériau 
+4.2 Matières sujettes à 
+l’inflammation spontanée 
+Non concerné en raison de la nature et de la 
+composition du matériau 
+4.3 Matières qui, au contact 
+de l’eau, dégagent des gaz 
+inflammables 
+Non concerné en raison de la nature et de la 
+composition du matériau 
+5 
+5.1 Matières comburantes Non concerné en raison de la nature et de la composition du matériau 
+5.2 Peroxydes organiques Non concerné en raison de la nature et de la composition du produit  
+6 
+Matières toxiques A vérifier plus précisément 
+Matières infectieuses Non concerné en raison de la nature et de la composition du matériau 
+7 Matières radioactives  Non concerné en raison de la nature et de la composition du matériau 
+8 Matières corrosives Non concerné en raison de la nature et de la composition du matériau 
+9 Matières et objets dangereux divers A retenir par défaut dans le cas où aucune autre classe ne serait retenue, du fait du caractère écotoxicologique précédemment mis en évidence 
+ 
+Cette première approche met en évidence le fait que seule la classe 6.1 
+« matières toxiques » est à investiguer de façon plus approfondie. 
+ 
+INERIS-DRC-17-162405-01313C            Page 34 sur 47 
+8.2 E VALUATION DE LA CLASSE 6.1 
+L’évaluation du caractère toxique des déchets doit couvrir les trois voies 
+d’exposition mentionnées par l’ADR : 
+- inhalation, 
+- ingestion, 
+- absorption cutanée. 
+Concernant la première, l’ADR spécifie que : 
+« 2.2.61.1.3. […] Une matière solide doit être soumise à une épreuve si 10% 
+(masse) au moins de sa masse totale risquent d'être constitués de poussières 
+susceptibles d'être inhalées, par exempl e si le diamètre aérodynamique de cette 
+fraction-particules est au plus de 10 microns. » 
+Les mégots ne remplissent pas cette condition, ce qui permet d’écarter cette 
+première voie d’exposition. 
+Concernant les voies d’ingestion et d’absorption cutanée,  faute de données 
+toxicologiques directement disponibles pour les déchets, la méthode appliquée a 
+été celle décrite au point b) du paragraphe 2.2.61.1.10.2. de l’ADR : 
+« Si un mélange contient plus d'une subs tance active, on peut recourir à trois 
+méthodes possibles pour calculer sa DL50 à l'ingestion ou à l'absorption cutanée. 
+La méthode recommandée consiste à obtenir des données fiables sur la toxicité 
+aiguë à l'ingestion et à l'absorption cu tanée concernant le mélange réel à 
+transporter. S'il n'existe pas de données précises fiables, on aura recours à l'une 
+des méthodes suivantes :  
+a) Classer la préparation en fonction du constituant le plus dangereux du 
+mélange comme s'il était présent dans la même concentration que la 
+concentration totale de tous les constituants actifs ; ou 
+b) Appliquer la formule : 
+ 
+dans laquelle :  
+C = la concentration en pourcentage du constituant A, B, ... Z du mélange ; 
+T = la DL50 à l'ingestion du constituant A, B, ... Z ; 
+TM = la DL50 à l'ingestion du mélange. 
+NOTA : Cette formule peut au ssi servir pour les toxicité s à l'absorption cutanée, à 
+condition que ce renseignement existe  pour les mêmes espèces en ce qui 
+concerne tous les constituants. L'utilisat ion de cette formule ne tient pas compte 
+des phénomènes éventuels de potentialisation ou de protection. » 
+ 
+ 
+ 
+ 
+INERIS-DRC-17-162405-01313C            Page 35 sur 47 
+La démarche appliquée a donc consisté à associer à chacune des substances 
+identifiées dans les mégots une valeur de DL50, à par tir de sa classification 1 
+(mentions et catégorie de danger) sur la base de la table de conversion du 
+règlement CLP reprise dans le  Tableau 21. De même que pour le classement au 
+titre de la réglementation déchets, dans le cas des substances minérales, deux 
+spéciations ont été envisagées : 
+- une spéciation « pire cas » privilégiant  la forme la plus toxique connue de 
+l’élément en question, 
+- une spéciation écartant certaines des substances les plus rares – cette 
+seconde approche, probablement plus réaliste, n’a toutefois pas été 
+justifiée au cas par cas pour chaque s ubstance et chaque élément, du fait 
+de l’absence d’enjeux, liée à nouveau au rôle joué par la nicotine. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Une fois attribuées les DL50 à chaque co mposant, la somme des rapports C/T a 
+été calculée, et la valeur de T M en a été déduite, permettant ainsi d’attribuer un 
+groupe d’emballage, conformément au Tableau 22. 
+Les résultats des calculs correspondant sont présentés dans le  
+Tableau 23. 
+ 
+                                            
+1 La classification retenue pour chaque substance est la classification harmonisée lorsqu’elle existe 
+– en l’absence de classification harmonisée, la classification retenue est celle majoritaire parmi les 
+notifications recensées sur le site de l’ECHA. 
+Tableau 21 : Table d’attribution des valeurs ponctuelles 
+estimées de toxicité aigüe d’après les catégories de danger 
+(extrait du règlement CLP) 
+ 
+INERIS-DRC-17-162405-01313C            Page 36 sur 47 
+Tableau 22 : Règles d’attribution des groupes d’emballage en fonction des valeurs 
+de ∑ C/T et de TM 
+Valeur de la somme des C/T Valeur de TM Groupe d’emballage ADR 
+Par ingestion 
+≥ 20 ≤ 5 I 
+2 ≤   < 20 5 <   ≤ 50 II 
+0,33 ≤   < 2 50 <   ≤ 300 III 
+< 0,33 ≥ 300 non classé 
+Par voie cutanée 
+≥ 2 ≤ 50 I 
+0,5 ≤   < 2 50 <   ≤ 200 II 
+0,1 ≤   < 0,5 200 <   ≤ 1000 III 
+< 0,1 ≥ 1000 non classé 
+ 
+Tableau 23 : Valeurs de TM calculées pour les trois échantillons 
+Classe 
+de 
+danger 
+Voie 
+16BB634 16BB635 16BB636 Substances à 
+enjeu de 
+classement 
+Pire 
+cas 
+Avec 
+excl. 
+Pire 
+cas 
+Avec 
+excl. 
+Pire 
+cas 
+Avec 
+excl. 
+6.1 Orale 1483 > 1483 3318 > 3318 938 > 938  Cutanée 919 1010 4320 5137 724 797 Nicotine 
+ 
+Ces résultats mettent en évidence l’absen ce de classement des trois échantillons 
+pour la voie orale. En ce qui concerne la voie cutanée, le contenu en nicotine de 
+l’échantillon 16BB636 conduit à devoir retenir le groupe d’emballage III. En effet, 
+le seul contenu en nicotine permet d’affirmer que : ∑ C/T ≥  0,6/5, soit 100/T M ≥ 
+0,12, soit T M ≤ 833. Exprimé autrement , la nicotine étant une substance classée 
+H310 cat.1, sa DL50 est estimée à 5 mg/kg. Elle classe donc à elle seule un 
+mélange en groupe de catégorie III dès que sa concentration dans ledit mélange 
+dépasse 0,5 %. Pour l’autre échantillon sec, le contenu en nicotine est légèrement 
+plus faible (0,48 %), ce qui permet à première vue d’éviter le classement. 
+Toutefois, compte-tenu des incertitudes analytiques (les analyses ont été 
+tripliquées, et l’une des prises d’e ssai pour cet échantillon indiquait une 
+concentration de 0,5 %), il apparaît pertinent de retenir le classement au titre de la 
+classe de danger 6.1 par précaution. 
+De même que pour le classement au titre de la réglementation déchets, le contenu 
+en nicotine de l’échantillon humide ne classe pas le déchet – cette absence de 
+classement est toutefois imputable à l’effet de « dilution » lié à l’eau ajoutée aux 
+mégots avant leur collecte, ainsi qu’à une probable perte par lixiviation de la 
+nicotine à cette même étape. Ce flux de déchets n’étant pas issu d’un procédé 
+évaluable et contrôlé, mais résultant de comportements déviant des instructions 
+d’éteignement correct des m égots et ayant vocation à dis paraître (les entreprises 
+de collecte mettent en tout cas en œuvre des moyens en ce sens, notamment en 
+termes de communication), l’attribution de cette même classe 6.1 pour ces flux est 
+proposée. 
+ 
+8.3 C ODE ONU 
+Sur la base des éléments précédemment présentés, l’attribution du code ONU 
+2811 « SOLIDE ORGANIQUE TOXIQUE, N.S.A. », assorti du groupe d'emballage 
+III, est préconisée. 
+ 
+INERIS-DRC-17-162405-01313C            Page 37 sur 47 
+9. EVALUATION DES FILIERES DE GESTION 
+Les filières de collecte qui se développ ent en France visent à proposer le 
+recyclage des mégots. Toutefois, en l’absenc e de filière de valorisation établie à 
+ce jour en France, les alternatives envisageables sur le territoire national restent le 
+stockage et l’incinération. 
+L’objectif de cette partie était donc d’évaluer l’acceptabilité des mégots dans 
+chacune de ces filières, et d’identif ier les éventuels verrous techniques ou 
+réglementaires pouvant être anticipés. 
+Il convient de noter qu’actuellement, en l’absence de collecte séparée largement 
+établie, les mégots de cigare ttes sont dans l’ensemble tr aités simultanément avec 
+les déchets avec lesquels ils sont colle ctés, comme les déchets de nettoyage des 
+rues (20 03 03) ou les déchets ménagers en mélange (20 03 01), et la présente 
+étude s’est limitée à la question des flux de mégots collectés séparément. 
+9.1 S TOCKAGE 
+Les installations de stockage de déchets se divisent en trois catégories : 
+- installations de stockage de déchets inertes (ISDI), 
+- installations de stockage de déchets non dangereux (ISDND), 
+- installations de stockage de déchets dangereux (ISDD). 
+Compte-tenu du caractère dangereux des m égots mis en évidence au chapitre 7, 
+le stockage en ISDI ou en ISDND est exclus. 
+Concernant les ISDD, l’arrêté du 30 décembre 2002 relatif au stockage de déchets 
+dangereux fixe les critères d’admission, repris dans le Tableau 24. 
+Ces éléments mettent en évidence le fait que la charge minérale des mégots n’est 
+pas problématique pour leur admission en ISDD, mais que leur contenu en 
+substances organiques, s’exprimant à travers le COT, est incompatible avec le 
+stockage. De façon moins marquée, la fraction soluble présente également des 
+valeurs rédhibitoires pour les trois échantillons. 
+Ainsi, la filière stockage ne constitue pas  un exutoire accept able pour les mégots 
+collectés séparément. 
+Toutefois, un traitement de la fraction so luble (par lavage) devrait permettre de 
+réduire fortement cette fraction soluble comp renant le COT lixiviable et la nicotine. 
+Le caractère dangereux écotoxique étant probablement liée en grande partie à la 
+nicotine et à d’autres polluants lessivables , ce type de pré-traitement permettrait 
+d’envisager éventuellement un stockage en  ISDD, voire en ISDND. Cette option 
+poserait néanmoins la question du traitement des eaux de lavage ainsi obtenues, 
+et de la pertinence environnementale d’un tel procédé. 
+ 
+ 
+ 
+ 
+INERIS-DRC-17-162405-01313C            Page 38 sur 47 
+Tableau 24 : Critères d’admission en ISDD 
+Paramètre 16BB634 16BB635 16BB636 Critère d’admission 
+pH (unite pH) 8,5 6,4 7,9 4 <    < 13 
+Fraction soluble (% MS) 18,7 12,3 20,3 < 10 
+Siccité (% MS) Non mesurée > 30 
+Fraction lixiviable 
+COT (mg/kg MS) 84 002 59 024 81 988 < 1000 
+Cr (mg/kg MS) 0,60 1,3 0,37 < 70 
+Pb (mg/kg MS) 0,033 0,013 0,025 < 50 
+Zn (mg/kg MS) 5,2 2,6 12,8 < 200 
+Cd (mg/kg MS) 0,052 0,029 0,061 < 5 
+Ni (mg/kg MS) 0,77 0,69 0,68 < 40 
+As (mg/kg MS) 0,10 0,083 0,10 < 25 
+Hg (mg/kg MS) 0,0045 0,0014 0,0011 < 2 
+Ba (mg/kg MS) 2,5 7,6 2,6 < 300 
+Cu (mg/kg MS) 10,2 2,1 8,5 < 100 
+Mo (mg/kg MS) 0,27 0,019 0,19 < 30 
+Sb (mg/kg MS) 0,011 0,011 0,018 < 5 
+Se (mg/kg MS) 0,041 0,024 0,055 < 7 
+Fluorures (mg/kg MS) <0,5 <0,5 <0,5 < 500 
+ 
+9.2 I NCINERATION 
+Compte tenu de la fraction organique attendue dans les mégots, l’incinération 
+semble être une filière pertinente pour  l’élimination des mégots collectés 
+séparément. Au regard des ré sultats de caractérisation de ces déchets présentés 
+dans le Tableau 12, la part résiduelle après combustion devrait être inférieure à 10 
+% des mégots bruts. 
+L’incinération des déchets est réglementée  par les arrêtés ministériels du 20 
+septembre 2002 relatifs : 
+- d’une part aux installations d’incinérat ion et de co-incinération de déchets 
+dangereux et 
+- d’autre part aux installations d’incinér ation et de co-incinération de déchets 
+non-dangereux et aux installations d’inci nération de déchets d’activités de 
+soins à risques infectieux. 
+Les déchets sont orientés vers l’une ou l’a utre des catégories d’incinérateurs en 
+fonction de leur dangerosit é. Il y a cependant une exce ption pour les déchets 
+d’activités de soins à risques infectie ux (DASRI) qui peuvent sous certaines 
+conditions être incinérés conjointement  à des déchets non dangereux dans la 
+même installation.  
+Du point de vue pratique, il convient de noter que : 
+- pour être incinérés, les mégots devront  être conditionnés de façon à éviter 
+une manipulation en vrac qui pourrait entraîner leur dispersion ; 
+ 
+INERIS-DRC-17-162405-01313C            Page 39 sur 47 
+- les conditions minimales d’incinérati on (gaz portés à 850°C en conditions 
+oxydantes pendant au moins 2 seconde s et teneur résiduelle en COT 
+inférieure à 3 % dans les mâchefer s) sont identiques dans les deux 
+catégories d’incinérateur (déchets dangereux vs non dangereux). Ces 
+conditions de combustion paraissent suffisantes pour détruire la nicotine qui 
+se décompose à partir de 247°C. 
+Ainsi, une fois conditionnés, les mégots pou rraient, au même titre que les DASRI, 
+être orientés vers une installation dédiée au traitement de déchets non dangereux, 
+sous réserve du respect de certaines b onnes pratiques. Pour cela, il serait 
+nécessaire d’ajouter des prescriptions analogues à celles faites pour les DASRI 
+dans l’arrêté ministériel du 20/09/2002 aux articl es 8 et 9, respectivement pour la 
+manipulation et l’introduction des déchets dans le four, telles que : 
+- les déchets ne peuvent être acceptés que s’ils sont conditionnés dans 
+des récipients étanches pouvant assurer une bonne résistance, à usage 
+unique avec un marquage indiquant la nature des déchets et leur 
+provenance ; 
+- les récipients sont facilement incinérables ; 
+- le transit par la fosse est interdit ; 
+- les déchets sont incinérés au plus tard 48 h après leur réception ; 
+- les récipients sont introduits direct ement dans le four, sans manipulation 
+humaine, par l’intermédiaire d’une trémie , un sas ou un poussoir, et la 
+détérioration des récipients avant l’entrée dans le four doit être évitée ; 
+- les déchets ne peuvent être enfournés que lors d’un fonctionnement 
+normal du four. 
+Un mode de gestion analogue à celui adopté pour l’incinération des DASRI parait 
+d’autant plus opportun que le s quantités de mégots concer nées restent faibles. 
+Une approximation basée sur la quantité de cigarettes mises sur le marché en 
+France aboutit à une quantité d’environ 13 000 t/an de mégots. A titre de 
+comparaison, la quantité de DASRI à traiter annuellement est estimée à environ 
+170 000 t/an dont 85 % sont incinérés (source ADEME2). 
+L’incinération semble donc être une filiè re adaptée au traitement des mégots 
+collectés séparément dans la mesure où ce  déchet est principalement organique 
+et que la principale substance toxiq ue présente est détruite à une température 
+inférieure à la température minimale  de fonctionnement d’un four. Cependant, 
+s’agissant d’un déchet classé dangereux, il devrait être or ienté a priori vers des 
+installations d’incinération de déchets dangereux. D’un point de vue technique, 
+aucune contre-indication à l’établissem ent d’une dérogation similaire à celle 
+accordée aux DASRI n’a été identifiée ; cette dérogation permettrait d’incinérer les 
+mégots dans des installations de déchet  non dangereux, sous réserve du respect 
+de quelques principes basiques. Il se rait ainsi nécessa ire d’adapter la 
+réglementation actuelle, de façon analogue à ce qui a été mis en place pour les 
+DASRI, pour encadrer réglem entairement cette pratique et permettre une gestion 
+à moindre coût dans cette filière, en profit ant du maillage territorial plus dense des 
+installations d’incinération de déchets non dangereux. 
+ 
+                                            
+2 Etude sur le bilan du traitement des déchets d’activités de soins à risques infectieux en France – 
+Année 2011 et perspectives 2012, ADEME, juin 2013. 
+ 
+INERIS-DRC-17-162405-01313C            Page 40 sur 47 
+9.3 R ECYCLAGE 
+Lors de la réalisation de l’é tude, la filière de recyclage des mégots était encore 
+émergente sur le territoire français (voir chapitre 3). De ce fait, aucune donnée 
+analytique n’a pu être utilisée pour évaluer la performance ou la légitimité de la 
+valorisation des mégots. La présente sous-partie se limitera donc à des aspects 
+théoriques et réglementaires pour l’évaluation de cette fili ère, dans laquelle seront 
+distingués les deux fractions sortantes, à savoir : 
+- la fraction composée des résidus de tabac, papiers et cendres, destinée au 
+compostage outre-Manche par Terracycle – la possibilité d’un tel mode de 
+gestion en France sera donc discutée ; 
+- la fraction « plastique », composée des  filtres de mégots, et destinée à une 
+valorisation en tant que matière première secondaire. Il convient de noter 
+que les modes de valorisation sont susceptibles de varier selon les acteurs 
+(TerraCycle produit des billes de plastiques destinées à être intégrées dans 
+d’autres flux de plastiques recyclés  pour former de nouvelles matrices, 
+tandis qu’Eco-Action + promeut la va lorisation de la matière telle quelle, 
+sans mélange avec d’autres flux de plastiques). 
+9.3.1 C OMPOSTAGE DE LA FRACTION TABAC -PAPIER-CENDRES : ASPECTS 
+REGLEMENTAIRES 
+En France, pour que le compost soit valorisable par retour au sol sans suivi 
+particulier, il doit être conforme à la norme NF U 44-051 : 2006, d’application 
+obligatoire. Le compost devient alors un produit et la responsabilité de son 
+utilisation passe à l’utilisat eur. Si le compost n’est pas conforme, il reste un 
+déchet, et la responsabilité reste au pr oducteur, qui doit, pour un retour au sol, 
+élaborer un plan d’épandage. 
+La situation est différente en Grande-Bret agne, où des déchets trop chargés en 
+contaminants (éléments traces métalliques et/ou hydrocarbures aromatiques 
+polycycliques) pour être incorporés à un co mpost conforme aux prescriptions du 
+PAS 100 du BSI 3, peuvent néanmoins être utilis és pour élaborer un matériau 
+« compost-like », qui garde le statut de déchet, mais peut être utilisé par exemple, 
+pour la couverture d’ISDND ou la réhab ilitation de sols pollués ou de friches 
+industrielles. 
+En ce qui concerne la fraction de « ce ndres » (partie minérale), l’ajout aux 
+matières premières (déchets verts ou FFOM) en vue du compostage n’est 
+normalement pas possible, car selon l’ amendement A1 de la norme NF U 44-051 
+(publié en décembre 2010) : « L’ajout de matières minérales définies au 3.1.4 4 est 
+bien autorisé dans les dénominati ons 3, 4, 5, 7, 8, 9, 10 et 11 correspondant aux 
+composts et aux mélanges ». Or les c endres ne rentrent dans aucune catégorie 
+de matière minérale précisée par cet amendement. 
+                                            
+3 British Standard Institute 
+4 Uniquement : roche volcanique, sable, arg ile expansée ou non, schiste expansé, perlite, 
+vermiculite expansée, laine minérale et les amendements minéraux basiques normalisés. 
+ 
+INERIS-DRC-17-162405-01313C            Page 41 sur 47 
+Les fractions « tabac » et « papier » sont susceptibles d’être composées :  
+ le tabac résiduel des mégots, peu brûl é, est un déchet végétal qui n’est pas 
+considéré nommément dans les cat égories décrites par l’amendement A1 
+de la norme NF U 44-051, mais il pourrait éventuellement rentrer dans la 
+catégorie 6, « mono-produit provenant de la même origine végétale sans 
+addition, sans transformation autre que physique », à condition donc de ne 
+pas avoir subi d’ajouts avant sa mise en œuvre dans les cigarettes – 
+condition aujourd’hui non respectée ; 
+ les résidus de papier sont intéress ants constitués de matière organique 
+pure qui se dégrade facilement. Leur ajout  aux matières premières pour le 
+compostage est ainsi prévu expressém ent dans la catégorie 5, « compost 
+de fermentescibles alimentaires ou ménagers ». 
+Cependant, l’introduction de ces matières ne doit pas augmenter le niveau des 
+contaminants dans le compost fini, de sort e qu’il ne soit plus conforme à la norme 
+NF U 44-051. Par ailleurs, l’amendement A1 de la norme précise que « le 
+mélange de divers déchets ou le retour en tête de composts dans le seul but de 
+diluer les polluants ou indésirables est inte rdit ». Cette prescription ne s’applique 
+pas si les matières entrantes ont des c ontenus en ETM et HAP compatibles avec 
+la conformité à la norme NF U 44-051 5, notamment si de façon répétée sur 
+différents lots d’intrants, les concentrations de tous les contaminants sont 
+inférieures à 50 % des valeurs limites pre scrites par la norme. On admet en effet 
+qu’un procédé de compostage efficace diminue de 50 % le contenu en matière 
+organique des intrants. Comme pour ce type de déchets, le contenu en matière 
+organique est proche du contenu en matière sèche, le compostage a pour effet de 
+concentrer les contaminants d’ un facteur de l’ordre de 2.  Des intrants présentant 
+des teneurs en contaminants inférieures à 50 % des valeurs limites de la norme 
+seront donc toujours conformes à cette norme après compostage. 
+Toutefois, il convient de noter que les mégots cont iennent des polluants 
+spécifiques non couverts par la norme NF U 44-051, qu’il conviendrait de 
+considérer. 
+En conclusion, bien que l’utilisation des résidus tabac et papier des mégots ne soit 
+pas formellement interdite par les normes, il conviendrait de s’assurer de 
+l’innocuité de ces matières (en particulie r vis-à-vis du contenu en ETM et HAP, 
+ainsi que des autres substances non couvertes par la norme NF U 44-051) avant 
+leur utilisation ou leur mélange avec d’autres matières premières pour l’élaboration 
+de composts. De plus, la présence de cendres n’autorise normalement pas 
+l’utilisation de ces matières comme co-intrants en compostage ou en 
+méthanisation. 
+ 
+                                            
+5 Les polluants visés par la norme NF U 44-051 sont les suivants : 
+- ETM : As, Cd, Cr, Hg, Ni, Pb, Se, Cu et Zn 
+- HAP : fluoranthène, benzo(b)fluoranthène, benzo(a)pyrène. 
+ 
+INERIS-DRC-17-162405-01313C            Page 42 sur 47 
+9.3.2 V ALORISATION PLASTIQUE DES FILTRES 
+Selon les procédés décrits par les différents acteurs identifiés, la valorisation en tant 
+que matière première secondaire de la fr action plastique composée des filtres de 
+mégots est envisagée soit pure so it par fabrication de billes de plastiques destinées 
+à être intégrées dans d’autres flux de plastiques recyclés.  
+Les mégots étant des déchets, la fraction pl astique qui en est issue a également le 
+statut de déchet. Toutefois, des dispositions juridiques premettent la sortie du statut 
+de déchet, qu’elle soit implicite ou explicit e. Ces deux cas de figure sont envisagés 
+ci-après. 
+9.3.2.1 S ORTIE EXPLICITE DU STATUT DE DECHET 
+La directive cadre 2008/98/CE 6 relative aux déchets a établi les dispositions 
+permettant à un déchet de sortir  de ce statut pour devenir  un produit (sortie du statut 
+de déchet, ou SSD). 
+Cette procédure, transposée à l’article L. 541-4-3 du Code de l'environnement et aux 
+articles D.541-12-4 et suivant s du Code de l'environnement étab lit les critères précis 
+qui doivent être respectés : 
+« Un déchet cesse d'être un déchet après avoir été traité dans  une installation de 
+type IOTA 7 ou IC 8 et avoir subi une opération de valorisation, notamment de 
+recyclage ou de préparation en vue de la réutilis ation, s'il répond à des critères 
+remplissant l'ensemble des conditions suivantes :  
+- la  substance ou l'objet est couramment utilisé à des fins spécifiques ; 
+- il existe une demande pour une telle s ubstance ou objet ou elle répond à un 
+marché ; 
+- la substance ou l'objet remplit les exi gences techniques aux fins spécifiques et 
+respecte la législation et les normes applicables aux produits ; 
+- son utilisation n'aura pas d'effets globaux nocifs pour l'env ironnement ou la 
+santé humaine. » 
+Ces critères spécifiques sont fixés au ca s par cas, pour chaque type de déchets, par 
+l'autorité administrative compétente : 
+- au niveau européen par règlement ; 
+- en l’absence de décision européenne, au niveau national par arrêté 
+ministériel.  
+A noter que dans ce dernier cas, la Co mmission Européenne, interrogée sur le sujet, 
+a précisé que les critères nationaux n’ayant qu’une port ée nationale, ils ne sauraient 
+être imposés aux états membres qui ne le s auraient pas reconnus. Un produit ayant 
+fait l’objet d’une sortie de statut de déchet en France, re sterait un déchet au regard 
+des législations d’un Etat pour lequel la mê me procédure nationale n’aurait pas été 
+menée9. 
+                                            
+6 Directive 2008/98 du 19 novembre 2008 relative aux déchets et abrogeant certaines directives 
+7 IOTA : Installation, Ouvrage, Travaux ou Am énagements visés à l'article L. 214-1 du code de 
+l’environnement, soumise à autorisation ou à déclaration 
+8 IC : Installation Classée visée à l'article L. 511-1 du code de l’environnement soumise à 
+autorisation, à enregistrement ou à déclaration 
+9 Droit de l’Environnement n°218 – décembre 213 – p423. 
+ 
+INERIS-DRC-17-162405-01313C            Page 43 sur 47 
+Les critères comprennent le cas échéant  des teneurs limites en substances 
+polluantes et sont fixés en prenant en compte les effets nocifs des substances sur 
+l'environnement. 
+Dans le cas des mégots, une étude approfondie sur les substances polluantes 
+résiduelles présentes dans les plastiques issu s de la valorisation des filtres serait 
+ainsi nécessaire pour fixer des critères pertinents. 
+ 
+Par ailleurs, pour la SSD, le déchet doit êt re traité dans une installation visée à 
+l'article L. 214-1 soumise à autorisation ou à déclaration ou dans une installation 
+visée à l'article L. 511-1 s oumise à autorisation, à enregistrement ou à déclaration 
+et avoir subi une opération de va lorisation, notamment de recyclage ou de 
+préparation en vue de la réutilisat ion. L’avis de 13 janvier 2016 10 précise que l’on 
+entend par « installations de traitement de déc het » les installations dont l'activité 
+relève d'un des codes 27XX de la nomenc lature des Installations classées, 
+notamment : 
+- 2790 : Traitement de déchets dangereux, 
+- 2791 : Traitement de déchets non dangereux. 
+Seule la première de ces deux rubr iques serait adaptée au cas des mégots, 
+compte-tenu du caractère dangereux de ce s déchets précédemment mis en avant 
+dans l’étude. 
+ 
+9.3.2.2 S ORTIE IMPLICITE DU STATUT DE DECHET 
+L’avis du 13 janvier 2016 relatif à la SS D implicite indique qu’un article, un 
+assemblage d'articles constituant un objet, une substance ou un mélange, au sens 
+des règlements REACH et CL P, élaborés dans une insta llation de production qui 
+utilise pour tout ou partie des déchets co mme matières premières, n'ont pas le 
+statut de déchet quand le produit ou article en résultant est similaire à la 
+substance ou au mélange qui aurait été produit sans avoir recours à des déchets. 
+Cette notion de SSD implicite, confirmée par la jurisprudence, semble néanmoins 
+être remise en question par la Commission Européenne. 
+Par installation de production, on entend les installations inscrites à la 
+nomenclature des IC (qu'elles soient soumises à un régime d'autorisation, 
+d'enregistrement ou de déclaration ou non) et dont l'intitulé de la rubrique 
+comprend les termes exacts « producti on de… », « fabric ation de… », « 
+préparation de… », « élaboration de… » ou « transformation de… ». 
+Dans le cas des mégots, et quel que soit le procédé de valorisation envisagé pour 
+les filtres, la fraction plastique issue des  mégots devrait forcément passer par une 
+installation entrant dans le champ de la rubrique 2661 « transformation de 
+matières plastiques, caoutchoucs, élastomères, résines et adhésifs synthétiques » 
+(voir Tableau 25). 
+ 
+                                            
+10 Avis aux exploitants d'installations de traitement de déchets et aux exploi tants d'installations de 
+production utilisant des déchets en substitution de matières premières - JORF n°0010 du 13 janvier 
+2016 
+ 
+INERIS-DRC-17-162405-01313C            Page 44 sur 47 
+Tableau 25 : Seuils de la nomenclature ICPE pour la rubrique 2661 
+1. Par des procédés exigeant des condi tions particulières de température ou de 
+pression (extrusion, injection, moulage,  segmentation à chaud, vulcanisation, 
+etc.), la quantité de matière susceptible d’être traitée étant : 
+a) Supérieure ou égale à 70 t/j (A-1) 
+b) Supérieure ou égale à 10 t/j mais inférieure à 70 t/j (E) 
+c) Supérieure ou égale à 1 t/j, mais inférieure à 10 t/j (D) 
+2. Par tout procédé exclusivement mé canique (sciage, découpage, meulage, 
+broyage, etc.), la quantité de matière susceptible d’être traitée étant : 
+a) Supérieure ou égale à 20 t/j (E) 
+b) Supérieure ou égale à 2 t/j, mais inférieure à 20 t/j (D) 
+ 
+La première condition pour la SSD implicite devrait ainsi être remplie. 
+En ce qui concerne la démonstration de la  similitude des substances ou mélanges 
+avec l’équivalent qui aurait été produit sa ns avoir recours à des déchets, celle-ci 
+se fait selon les règles de la section 5 du Guide pour l'identification et la 
+désignation des substances dans le cadre de REACH et du CLP11. Dans le cas de 
+la production d’articles, cette notion de similitude n’est pas applicable. Cette 
+démonstration de la similitude devra en t out état de cause s’appuyer sur des 
+données de caractérisation (en termes de dangerosité et de présence de polluants 
+résiduels) des flux de déchets entrant s dans le procédé de production (filtres de 
+mégots lavés et plus ou moins transformés selon les procédés) : à titre d’exemple, 
+l’apport de polluants supplémentaires dans un procédé de production du fait de 
+l’introduction de déchets en re mplacement de matières premières usuelles serait 
+de nature invalider la SSD implicite. L’absence de données  de caractérisation des 
+flux issus des procédés  de séparation des mégots en plusieurs fractions ne 
+permet pas d’aller plus loin à ce jour dans l’évaluation de cette filière. 
+Toutefois, on peut noter également que la SSD implic ite concerne non pas le 
+producteur du déchet mais son utilisateur, qui va effectuer l’étape de 
+transformation. En effet, la transformation se fait au sein d’un établissement de 
+production entrant dans le c hamp des Installations Classées, auquel cas le fait de 
+remplacer tout ou partie d’une matière prem ière par un déchet pourrait faire l’objet 
+d’une modification notable, à porter à la  connaissance du préfet avant sa 
+réalisation (dans le cas d’une installation déclarée 12, enregistrée13 ou autorisée14). 
+Ce dernier peut, s'il estime que la modi fication est substantielle, demander à 
+l'exploitant de déposer un nouveau dos sier. La démonstration de l’absence 
+d’impact sanitaire et sur l’environnement, au niveau du site de fabrication de 
+l’article, en lien avec le remplacement de la matière première par le déchet, 
+pourrait donc être envisagée dans ce cadre. 
+ 
+                                            
+11http://echa.europa.eu/fr/support/registration/finding-your-co-registrants/establishing-substance-
+sameness 
+12 Article R512-54 du code de l’environnement 
+13 Article R512-46-23 du code de l’environnement 
+14 Article R512-33 du code de l’environnement 
+ 
+INERIS-DRC-17-162405-01313C            Page 45 sur 47 
+Par ailleurs, en application des arti cles L541-1-II-3 et L541-2 du code de 
+l’environnement, tout producteur ou détenteur de déchets est tenu d'en assurer ou 
+d'en faire assurer la gestion, notamment  sans mettre en danger la santé humaine 
+et sans nuire à l'environnement. Au regar d de ces dispositions, le producteur du 
+déchet se doit de vérifier que l’utilisati on de son déchet, en substitution d’une 
+matière première, ne génère pas d’im pact sanitaire ou environnemental 
+supplémentaire au niveau du site où il est mis en œuvre, mais aussi dans l’usage 
+qu’il est fait de l’article ultérieurement. 
+ 
+9.3.3 S YNTHESE 
+La synthèse des éléments présentés dans ce chapitre consacré aux voies de 
+recyclage est présentée sur la Figure 2.  De nombreuses inconnues entourent 
+encore cette filière, car celle-ci est encor e à l’état embryonnaire sur le territoire 
+français. Toutefois, elle semble amenée à se développer, et les enjeux associés 
+sont nombreux. 
+ 
+ 
+ 
+ Figure 2 : Synthèse des éléments relatifs à la filière de valorisation 
+ 
+INERIS-DRC-17-162405-01313C            Page 46 sur 47 
+10. CONCLUSION 
+Les investigations menées sur les éc hantillons de mégots collectés séparément 
+mettent en avant la complexité de la matr ice étudiée. Elles permettent toutefois de 
+classer les mégots comme des déchets danger eux. En effet, les résultats des 
+essais écotoxicologiques traduisent une forte toxicité des mégots, de nature à leur 
+attribuer la propriété de danger HP 14 (écotoxique). Le contenu en nicotine, 
+participe également au cla ssement des mégots au titr e de la propriété HP 6 
+(toxicité aigüe). 
+Par ailleurs, la concentration en nicotine conduit également à classer les mégots 
+comme matières dangereuses pour le transpor t, et à leur attribuer le code ONU 
+2811, assorti du groupe d’emballage III. 
+ 
+En ce qui concerne les filières de gestion, le fort contenu en substances 
+organiques des mégots ne leur permet pas d’accéder en l’état aux installations de 
+stockage, et l’incinération semble être à pr ivilégier parmi les filières traditionnelles. 
+Le caractère dangereux des mégot s étant essentiellement porté par la nicotine, et 
+cette substance étant dégradée dans les co nditions de température atteintes dans 
+les installations de traitement t hermique des déchets non dangereux, une 
+dérogation similaire à celle mise en place pour les DASRI pourrait s’envisager. 
+Toutefois, la hiérarchie des modes de traitement des déchets impose de privilégier 
+les voies de valorisation lorsqu’elles exis tent. Dans le cas des mégots, celles-ci 
+sont encore au stage embryonnaire, et il es t aujourd’hui difficile, sur la base du 
+peu d’éléments disponibles, notamment concernant la performance des procédés 
+de lavage des filtres, d’évaluer leur pertinence et leur respect du cadre 
+réglementaire existant. Compte-tenu des  signes forts de développement de la 
+filière, ce point sera à suivre de près dans les années à venir. 
+ 
+ 
+INERIS-DRC-17-162405-01313C            Page 47 sur 47 
+11. LISTE DES ANNEXES 
+ 
+Repère Désignation Nombre 
+de pages 
+Annexe 1 Rapports d’analyses 44 
+ 
+ 
+
+ 
+RESULTATS 
+D’ANALYSES 
+Parc Technologique Alata 
+BP2 
+60550 VERNEUIL-EN-HALATTE 
+Tél : 03.44.55.66.77 
+www.ineris.fr  
+ 
+ 
+Sauf avis contraire et hors BPL, les objets soumis à essai et leur préparation seront éliminés 4 semaines après l’envoi des 
+résultats. Dans le cas d’études BPL, les éléments d’essais seront conservés 3 mois. 
+L’incertitude sur les résultats et les contrôles qualité peuvent être communiqués sur demande. 
+ 
+ 
+ 
+IM-1140AG – 162405 162406 DT20761  1/2   Mise en application : 24/04/2013 
+Ce document ne peut être communiqué à des tiers sans autorisation écrite du responsable de l’Entité concernée 
+L’accréditation par le Cofrac atteste de la compétence des laboratoires pour les 
+seul(e)s analyses et essais, couvert(e)s par l’accréditation, repéré(e)s par une *  
+ACCREDITATION 
+N° 1-0157 
+ 
+Portée disponible sur 
+www.cofrac.fr 
+Nota : ce document a été émis et est géré par DRC/CARA/RESA 
+ 
+Responsable d’affaires : Flore REBISCHUNG Date de réception des objets soumis à essai : 21/10/2016 
+Demandeur : Flore REBISCHUNG Prestation n°: 162405 
+Demande de travail n°: 20761 Contribution n°: 162406 
+Demande du : 09/11/2016 Date du rapport : 10/11/2016 
+ 
+ Numéro d’étude BPL : 
+ 
+ Exposé de la demande (description des objets soumis à essai si besoin) :  
+ Analyse d’acétone, de benzène, de pyridine dans les échantillons 16BB634, 16BB635, 16BB636 (mégots de 
+cigarettes) 
+ Description du mode opératoire, dates de traitement (extraction, minéralisation…) et 
+d’analyse, nom des opérateurs : 
+Date Traitement / analyse Référentiel MO, norme / version Opérateur
+Le 
+06/11/2016 
+ 
+Extraction d’environ 100 mg de 16BB634 et de 
+16BB636 ; et 500 mg de 16BB635 dans 5 mL de 
+méthanol MetroPol 
+M-188, M-192 
+ 
+HK 
+Du 
+8/11/2016 
+au 
+9/11/2016 
+ 
+              Analyse en GC-FID colonne A290
+ 
+SST 
+ 
+ Liste des matériels utilisés  et leur référence Deca : 
+     Prestations réalisées : 
+ISO 9001 seul
+  
+COFRAC NF EN ISO 17025
+  
+Art. annexe II à l'art. D523-8 du code de l'Environnement du 16/10/07 (BPL)
+  
+ 
+RESULTATS 
+D’ANALYSES 
+Parc Technologique Alata 
+BP2 
+60550 VERNEUIL-EN-HALATTE 
+Tél : 03.44.55.66.77 
+www.ineris.fr  
+ 
+ 
+Sauf avis contraire et hors BPL, les objets soumis à essai et leur préparation seront éliminés 4 semaines après l’envoi des 
+résultats. Dans le cas d’études BPL, les éléments d’essais seront conservés 3 mois. 
+L’incertitude sur les résultats et les contrôles qualité peuvent être communiqués sur demande. 
+ 
+ 
+ 
+IM-1140AG – 162405 162406 DT20761  2/2   Mise en application : 24/04/2013 
+Ce document ne peut être communiqué à des tiers sans autorisation écrite du responsable de l’Entité concernée 
+L’accréditation par le Cofrac atteste de la compétence des laboratoires pour les 
+seul(e)s analyses et essais, couvert(e)s par l’accréditation, repéré(e)s par une *  
+ACCREDITATION 
+N° 1-0157 
+ 
+Portée disponible sur 
+www.cofrac.fr 
+ 
+Résultats :  
+ 
+ 
+Référence INERIS : 16BB634 16BB635 16BB636 
+Limite de 
+Quantification 
+µg/g 
+μg/g μg/g μg/g 
+Acétone 10-50 µg/g < 50  < 10 < 50 
+Benzène 10-50 μg/g < 50 < 10 < 50 
+Pyridine 100-500 μg/g < 500 < 100 < 500 
+ 
+Observations (interférents, écarts par rapport aux normes et méthodes appliquées, etc…) 
+ 
+ 
+Objets soumis à essais : Entièrement consommés      
+ Retournés pour destru ction après stockage    
+ Retournés pour restitution au demandeur   
+ 
+ 
+ Technicien Responsable t echnique Responsable d’unité 
+NOM S. Stavrovski A. El Masri H. Biaudet 
+Visa    
+  
+
+ 
+RESULTATS 
+D’ANALYSES 
+Parc Technologique Alata 
+BP2 
+60550 VERNEUIL-EN-HALATTE 
+Tél : 03.44.55.66.77 
+www.ineris.fr  
+ 
+ 
+Sauf avis contraire et hors BPL, les objets soumis à essai et leur préparation seront éliminés 4 semaines après l’envoi des 
+résultats. Dans le cas d’études BPL, les éléments d’essais seront conservés 3 mois. 
+L’incertitude sur les résultats et les contrôles qualité peuvent être communiqués sur demande. 
+ 
+ 
+ 
+IM-1140AG - 16189.docx  1/2   Mise en application : 24/04/2013 
+Ce document ne peut être communiqué à des tiers sans autorisation écrite du responsable de l’Entité concernée 
+L’accréditation par le Cofrac atteste de la compétence des laboratoires pour les 
+seul(e)s analyses et essais, couvert(e)s par l’accréditation, repéré(e)s par une *  
+ACCREDITATION 
+N° 1-0157 
+ 
+Portée disponible sur 
+www.cofrac.fr 
+Nota : ce document a été émis et est géré par DRC/CARA/RESA 
+ 
+Responsable d’affaires : F. REBISCHUNG Date de réception des objets soumis à essai : 25/11/2016 et 05/12/2016
+Demandeur : F. REBISCHUNG Prestation n°: 162405 
+Demande de travail n°: Bon léopard N° 20796 Contribution n°: 162406 
+Demande du : 05/12/2016 Date du rapport : 25/01/2017 
+ 
+ Numéro d’étude BPL : 
+ 
+ Exposé de la demande (description des objets soumis à essai si besoin) :  
+Dosage F-, Cl-, NO3-, PO43-,SO42-, CO32- et NH3 sur trois lixiviats de mégots. 
+ 
+ 
+ Description du mode opératoire, dates de traitement (extraction, minéralisation…) et 
+d’analyse, nom des opérateurs : 
+Date Traitement / analyse Référentiel MO, norme / version Opérateur
+15/12/2016 Dosage  Cl -, NO3-, PO43-,SO42- NF EN 10304 (juillet 2009) VMT 
+19/12/2016 Dosage NH 3 NF EN ISO 14911 (octobre 1999) VMT 
+20/12/2016 Dosage CO 32- NF EN ISO 9963 (février 1996) VMT 
+21/12/2016 Dosage F - NF T90-004 (août 2002) VMT 
+ 
+ Liste des matériels utilisés  et leur référence Deca : 
+     Prestations réalisées : 
+ISO 9001 seul
+  
+COFRAC NF EN ISO 17025
+  
+Art. annexe II à l'art. D523-8 du code de l'Environnement du 16/10/07 (BPL)
+  
+ 
+RESULTATS 
+D’ANALYSES 
+Parc Technologique Alata 
+BP2 
+60550 VERNEUIL-EN-HALATTE 
+Tél : 03.44.55.66.77 
+www.ineris.fr  
+ 
+ 
+Sauf avis contraire et hors BPL, les objets soumis à essai et leur préparation seront éliminés 4 semaines après l’envoi des 
+résultats. Dans le cas d’études BPL, les éléments d’essais seront conservés 3 mois. 
+L’incertitude sur les résultats et les contrôles qualité peuvent être communiqués sur demande. 
+ 
+ 
+ 
+IM-1140AG - 16189.docx  2/2   Mise en application : 24/04/2013 
+Ce document ne peut être communiqué à des tiers sans autorisation écrite du responsable de l’Entité concernée 
+L’accréditation par le Cofrac atteste de la compétence des laboratoires pour les 
+seul(e)s analyses et essais, couvert(e)s par l’accréditation, repéré(e)s par une *  
+ACCREDITATION 
+N° 1-0157 
+ 
+Portée disponible sur 
+www.cofrac.fr 
+ 
+Résultats :  
+ 
+Référence 
+échantillon 
+16BB634 16BB635 16BB636 LQ 
+(mg/l) 
+Cl- (mg/l) 539 278 632 0,05 
+NO3- (mg/l) 173 84,5 238 0,05 
+PO43- (mg/l) 2,32 99,2 30,6 0,10 
+SO42- (mg/l) 556 227 550 0,05 
+NH3 (mg/l) 93,1 52,5 92,4 0,01 
+F- (mg/l) < 0,05 < 0,05 < 0,05 0,05 
+pH (*) ~ 6,7	 ~	6,1 ~	6,1  
+ 
+(*) Compte tenu du pH initial de l’échantillon, l’espèce CO32- ne peut pas exister. 
+ 
+Observations (interférents, écarts par rapport aux normes et méthodes appliquées, etc…) 
+Lixiviats reçus le 25/11/2016. Echantillon 16BB636 reçu cassé. 
+Réception du nouveau lixiviat 16BB636 le 05/12/2016. 
+Objets soumis à essais : Entièrement consommés      
+ Retournés pour destru ction après stockage    
+ Retournés pour restitution au demandeur   
+ 
+ 
+ Technicienne Responsable technique Responsable d’unité 
+NOM V. Minguet (25/01/17) A. Papin H. Biaudet 
+Visa  
+ 
+ 
+  
+
+ 
+RESULTATS 
+D’ANALYSES 
+Parc Technologique Alata 
+BP2 
+60550 VERNEUIL-EN-HALATTE 
+Tél : 03.44.55.66.77 
+www.ineris.fr  
+ 
+ 
+Sauf avis contraire et hors BPL, les objets soumis à essai et leur préparation seront éliminés 4 semaines après l’envoi des 
+résultats. Dans le cas d’études BPL, les éléments d’essais seront conservés 3 mois. 
+L’incertitude sur les résultats et les contrôles qualité peuvent être communiqués sur demande. 
+ 
+ 
+ 
+IM-1140AG - 16173bis.docx  1/2   Mise en application : 24/04/2013 
+Ce document ne peut être communiqué à des tiers sans autorisation écrite du responsable de l’Entité concernée 
+L’accréditation par le Cofrac atteste de la compétence des laboratoires pour les 
+seul(e)s analyses et essais, couvert(e)s par l’accréditation, repéré(e)s par une *  
+ACCREDITATION 
+N° 1-0157 
+ 
+Portée disponible sur 
+www.cofrac.fr 
+Nota : ce document a été émis et est géré par DRC/CARA/RESA 
+ 
+Responsable d’affaires : F. REBISCHUNG Date de réception des objets soumis à essai : 09/11/2016 
+Demandeur : F. Rebischung Prestation n°: 162405 
+Demande de travail n°: 20761 Contribution n°: 162406 
+Demande du : 09/11/2016 Date du rapport : 20/02/2017 
+ 
+ NuméAnnule et remplace le rapport du 11/01/2017ro d’étude BPL : 
+ 
+ Exposé de la demande (description des objets soumis à essai si besoin) :  
+Dosage de cyanure, d’acide acétique et d’acide tartrique dans trois échantillons de mégots de cigarettes. 
+Détermination de la perte à 550°C. 
+ 
+ Description du mode opératoire, dates de traitement (extraction, minéralisation…) et 
+d’analyse, nom des opérateurs : 
+Date Traitement / analyse Référentiel MO, norme / version Opérateur
+19/12/16 Distillation NF T 90-107 (08/2002) NC 
+21/12/16 Dosage par CI à détection ampérométrique / NC 
+10/02/17 Extraction à l’eau et dosage des acides acétique et tartrique par CEI / NC 
+09/02/17 Perte à 550°C NF EN 15169 (05/2007) NC 
+iste des matériels utilisés et leur référence Deca : 
+     Prestations réalisées : 
+ISO 9001 seul
+  
+COFRAC NF EN ISO 17025
+  
+Art. annexe II à l'art. D523-8 du code de l'Environnement du 16/10/07 (BPL)
+  
+ 
+RESULTATS 
+D’ANALYSES 
+Parc Technologique Alata 
+BP2 
+60550 VERNEUIL-EN-HALATTE 
+Tél : 03.44.55.66.77 
+www.ineris.fr  
+ 
+ 
+Sauf avis contraire et hors BPL, les objets soumis à essai et leur préparation seront éliminés 4 semaines après l’envoi des 
+résultats. Dans le cas d’études BPL, les éléments d’essais seront conservés 3 mois. 
+L’incertitude sur les résultats et les contrôles qualité peuvent être communiqués sur demande. 
+ 
+ 
+ 
+IM-1140AG - 16173bis.docx  2/2   Mise en application : 24/04/2013 
+Ce document ne peut être communiqué à des tiers sans autorisation écrite du responsable de l’Entité concernée 
+L’accréditation par le Cofrac atteste de la compétence des laboratoires pour les 
+seul(e)s analyses et essais, couvert(e)s par l’accréditation, repéré(e)s par une *  
+ACCREDITATION 
+N° 1-0157 
+ 
+Portée disponible sur 
+www.cofrac.fr 
+ 
+Résultats :  
+Exprimés sur sec 
+ 
+ 
+ 
+Référence 
+INERIS : 16BB634 16BB635 16BB636 
+Limite de 
+Quantification 
+µg CN-/g 
+µg CN-/g µg CN -/g µg CN -/g 
+CN- 2 65 14 38 
+ 
+ 
+ 
+ 
+ 
+Observations (interférents, 
+écarts par rapport aux 
+normes et méthodes 
+appliquées, etc…) 
+RAS 
+ 
+Objets soumis à essais : Entièrement consommés      
+ Retournés pour destru ction après stockage    
+ Retournés pour restitution au demandeur   
+ 
+ 
+ Technicien Responsable t echnique Responsable d’unité 
+NOM N. Châtellier A. papin H. Biaudet 
+Visa    
+  
+Réf. INERIS Eau  
+sur brut 
+Perte  
+sur sec 
+Ac acétique  
+sur sec 
+Ac Tartrique 
+sur sec 
+/ % % mg/g mg/g 
+16BB634 7,54 91,24 14,4 0,47 
+16BB635 84,65 80,13 < LQ < LQ 
+16BB636 7,97 89,99 18,4 0,47 
+LQ / / 0,4 0,01 
+
+ 
+RESULTATS 
+D’ANALYSES 
+Parc Technologique Alata 
+BP2 
+60550 VERNEUIL-EN-HALATTE 
+Tél : 03.44.55.66.77 
+www.ineris.fr  
+ 
+ 
+Sauf avis contraire et hors BPL, les objets soumis à essai et leur préparation seront éliminés 4 semaines après l’envoi des 
+résultats. Dans le cas d’études BPL, les éléments d’essais seront conservés 3 mois. 
+L’incertitude sur les résultats et les contrôles qualité peuvent être communiqués sur demande. 
+ 
+ 
+ 
+IM-1140AG - 162405_17_03_CG_FID_2 Diéthylèneglycol.docx  1/2   Mise en application : 24/04/2013 
+Ce document ne peut être communiqué à des tiers sans autorisation écrite du responsable de l’Entité concernée 
+L’accréditation par le Cofrac atteste de la compétence des laboratoires pour les 
+seul(e)s analyses et essais, couvert(e)s par l’accréditation, repéré(e)s par une *  
+ACCREDITATION 
+N° 1-0157 
+ 
+Portée disponible sur 
+www.cofrac.fr 
+Nota : ce document a été émis et est géré par DRC/CARA/RESA 
+ 
+Responsable d’affaires : Flore REBISCHUNG Date de réception des objets soumis à essai : 03/02/2017 
+Demandeur : Flore REBISCHUNG Prestation n°: 162405 
+Demande de travail n°: 20761 Contribution n°: 162406 
+Demande du : 09/11/2016 Date du rapport : 01/03/2017 
+ 
+Ce bon annule et remplace le 162405_17_03_CG_FID Numéro d’étude BPL : 
+ 
+ Exposé de la demande (description des objets soumis à essai si besoin) :  
+ 
+Quantification du Diethylèneglycol contenu dans des broyats de mégots. 
+ 
+ Description du mode opératoire, dates de traitement (extraction, minéralisation…) et 
+d’analyse, nom des opérateurs : 
+Date Traitement / analyse 
+Référentiel 
+MO, norme 
+/ version 
+Opérateur 
+06/02/17 
+Extraction par agitation d’environ 100 mg de 16BB634 et de 
+16BB636 et 500 mg de 16BB635 dans 5 mL de méthanol.  
+Analyse par GC-FID Varian (M-CC-0230) colonne 
+CPWAX57CB n°149 (25m;0.32µm). 
+/ FFV 
+ 
+ Liste des matériels utilisés  et leur référence Deca : 
+     Prestations réalisées : 
+ISO 9001 seul
+  
+COFRAC NF EN ISO 17025
+  
+Art. annexe II à l'art. D523-8 du code de l'Environnement du 16/10/07 (BPL)
+  
+ 
+RESULTATS 
+D’ANALYSES 
+Parc Technologique Alata 
+BP2 
+60550 VERNEUIL-EN-HALATTE 
+Tél : 03.44.55.66.77 
+www.ineris.fr  
+ 
+ 
+Sauf avis contraire et hors BPL, les objets soumis à essai et leur préparation seront éliminés 4 semaines après l’envoi des 
+résultats. Dans le cas d’études BPL, les éléments d’essais seront conservés 3 mois. 
+L’incertitude sur les résultats et les contrôles qualité peuvent être communiqués sur demande. 
+ 
+ 
+ 
+IM-1140AG - 162405_17_03_CG_FID_2 Diéthylèneglycol.docx  2/2   Mise en application : 24/04/2013 
+Ce document ne peut être communiqué à des tiers sans autorisation écrite du responsable de l’Entité concernée 
+L’accréditation par le Cofrac atteste de la compétence des laboratoires pour les 
+seul(e)s analyses et essais, couvert(e)s par l’accréditation, repéré(e)s par une *  
+ACCREDITATION 
+N° 1-0157 
+ 
+Portée disponible sur 
+www.cofrac.fr 
+Résultats : en µg/g de matière brute. 
+ 
+ 
+Référence INERIS : 16BB634 16BB635 16BB636 
+Limite de 
+Quantification 
+µg/g 
+μg/g μg/g μg/g 
+Diéthylèneglycol 10 ou 50µg/g <50 <10 <50 
+ 
+ 
+Observations (interférents, écarts par rapport aux normes et méthodes appliquées, etc…) 
+ 
+ 
+Objets soumis à essais : Entièrement consommés      
+ Retournés pour destru ction après stockage    
+ Retournés pour restitution au demandeur   
+ 
+ Technicien Responsable t echnique Responsable d’unité 
+NOM F. FUVEL  H. Biaudet 
+Visa    
+ 
+
+ 
+RESULTATS 
+D’ANALYSES 
+Parc Technologique Alata 
+BP2 
+60550 VERNEUIL-EN-HALATTE 
+Tél : 03.44.55.66.77 
+www.ineris.fr  
+ 
+ 
+Sauf avis contraire et hors BPL, les objets soumis à essai et leur préparation seront éliminés 4 semaines après l’envoi des 
+résultats. Dans le cas d’études BPL, les éléments d’essais seront conservés 3 mois. 
+L’incertitude sur les résultats et les contrôles qualité peuvent être communiqués sur demande. 
+ 
+ 
+ 
+IM-1140AG – 162405 162406 DT20761 Formol acétaldéhyde 1/3   Mise en application : 24/04/2013 
+Ce document ne peut être communiqué à des tiers sans autorisation écrite du responsable de l’Entité concernée 
+L’accréditation par le Cofrac atteste de la compétence des laboratoires pour les 
+seul(e)s analyses et essais, couvert(e)s par l’accréditation, repéré(e)s par une *  
+ACCREDITATION 
+N° 1-0157 
+ 
+Portée disponible sur 
+www.cofrac.fr 
+Nota : ce document a été émis et est géré par DRC/CARA/RESA 
+ 
+Responsable d’affaires : Flore REBISCHUNG Date de réception des objets soumis à essai : 21/10/2016 
+Demandeur : Flore REBISCHUNG Prestation n°: 162405 
+Demande de travail n°: 20761 Contribution n°: 162406 
+Demande du : 09/11/2016 Date du rapport : 21/11/2016 
+de BPL : 
+ Exposé de la demande (description des objets soumis à essai si besoin) : Analyse de 
+formaldéhyde et d’acétaldéhyde dans les échantillons de mégots 16BB634, 16BB635, 16BB636  
+ 
+ Description du mode opératoire, dates de traitement (extraction, minéralisation…) et 
+d’analyse, nom des opérateurs : 
+Date Traitement / analyse Référentiel MO, norme / version Opérateur
+28/10/2016 
+Extraction d’environ 100 mg de 16BB634 et de 
+16BB636 ; et 500 mg de 16BB635 dans 5 mL 
+d’ACN. Dérivatisation des aldéhydes en ajoutant 
+dans 0.5 mL de chaque extrait 0.5 mL de la 
+solution de 2,4-DNPH à 1,3 mg/mL  
+NIOSH 
+5700 sst 
+29/10/2016 Analyse par HPLC/DAD (M-CC-308) Colonne 464 
+ 
+ Liste des matériels utilisés  et leur référence Deca : 
+     Prestations réalisées : 
+ISO 9001 seul
+  
+COFRAC NF EN ISO 17025
+  
+Art. annexe II à l'art. D523-8 du code de l'Environnement du 16/10/07 (BPL)
+  
+ 
+RESULTATS 
+D’ANALYSES 
+Parc Technologique Alata 
+BP2 
+60550 VERNEUIL-EN-HALATTE 
+Tél : 03.44.55.66.77 
+www.ineris.fr  
+ 
+ 
+Sauf avis contraire et hors BPL, les objets soumis à essai et leur préparation seront éliminés 4 semaines après l’envoi des 
+résultats. Dans le cas d’études BPL, les éléments d’essais seront conservés 3 mois. 
+L’incertitude sur les résultats et les contrôles qualité peuvent être communiqués sur demande. 
+ 
+ 
+ 
+IM-1140AG – 162405 162406 DT20761 Formol acétaldéhyde 2/3   Mise en application : 24/04/2013 
+Ce document ne peut être communiqué à des tiers sans autorisation écrite du responsable de l’Entité concernée 
+L’accréditation par le Cofrac atteste de la compétence des laboratoires pour les 
+seul(e)s analyses et essais, couvert(e)s par l’accréditation, repéré(e)s par une *  
+ACCREDITATION 
+N° 1-0157 
+ 
+Portée disponible sur 
+www.cofrac.fr 
+ 
+Résultats :  
+ 
+ 
+Référence INERIS : 16BB634 16BB636 
+Limite de 
+Quantification 
+µg/g 
+µg/g µg/g 
+Formaldéhyde 5 10,5 9,5 
+Acétaldéhyde 5 25,2 18,7 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Référence INERIS : 16BB635 
+Limite de 
+Quantification 
+µg/g 
+µg/g 
+Formaldéhyde 1 3,7 
+Acétaldéhyde 1 4,3 
+ 
+RESULTATS 
+D’ANALYSES 
+Parc Technologique Alata 
+BP2 
+60550 VERNEUIL-EN-HALATTE 
+Tél : 03.44.55.66.77 
+www.ineris.fr  
+ 
+ 
+Sauf avis contraire et hors BPL, les objets soumis à essai et leur préparation seront éliminés 4 semaines après l’envoi des 
+résultats. Dans le cas d’études BPL, les éléments d’essais seront conservés 3 mois. 
+L’incertitude sur les résultats et les contrôles qualité peuvent être communiqués sur demande. 
+ 
+ 
+ 
+IM-1140AG – 162405 162406 DT20761 Formol acétaldéhyde 3/3   Mise en application : 24/04/2013 
+Ce document ne peut être communiqué à des tiers sans autorisation écrite du responsable de l’Entité concernée 
+L’accréditation par le Cofrac atteste de la compétence des laboratoires pour les 
+seul(e)s analyses et essais, couvert(e)s par l’accréditation, repéré(e)s par une *  
+ACCREDITATION 
+N° 1-0157 
+ 
+Portée disponible sur 
+www.cofrac.fr 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Observations (interférents, écarts par rapport aux normes et méthodes appliquées, etc…) 
+ 
+ 
+Objets soumis à essais : Entièrement consommés      
+ Retournés pour destru ction après stockage    
+ Retournés pour restitution au demandeur   
+ 
+ 
+ Technicien Responsable t echnique Responsable d’unité 
+NOM S. Stavrovski A. El Masri  H. Biaudet 
+Visa 
+ 
+  
+  
+
+ 
+RESULTATS 
+D’ANALYSES 
+Parc Technologique Alata 
+BP2 
+60550 VERNEUIL-EN-HALATTE 
+Tél : 03.44.55.66.77 
+www.ineris.fr  
+ 
+ 
+Sauf avis contraire et hors BPL, les objets soumis à essai et leur préparation seront éliminés 4 semaines après l’envoi des 
+résultats. Dans le cas d’études BPL, les éléments d’essais seront conservés 3 mois. 
+L’incertitude sur les résultats et les contrôles qualité peuvent être communiqués sur demande. 
+ 
+ 
+ 
+IM-1140AG - 162405_17_02_CG_FID.docx  1/2   Mise en application : 24/04/2013 
+Ce document ne peut être communiqué à des tiers sans autorisation écrite du responsable de l’Entité concernée 
+L’accréditation par le Cofrac atteste de la compétence des laboratoires pour les 
+seul(e)s analyses et essais, couvert(e)s par l’accréditation, repéré(e)s par une *  
+ACCREDITATION 
+N° 1-0157 
+ 
+Portée disponible sur 
+www.cofrac.fr 
+Nota : ce document a été émis et est géré par DRC/CARA/RESA 
+ 
+Responsable d’affaires : Flore REBISCHUNG Date de réception des objets soumis à essai : 03/02/2017 
+Demandeur : Flore REBISCHUNG Prestation n°: 162405 
+Demande de travail n°: 20761 Contribution n°: 162406 
+Demande du : 09/11/2016 Date du rapport : 08/02/2017 
+ 
+ Numéro d’étude BPL : 
+ 
+ Exposé de la demande (description des objets soumis à essai si besoin) :  
+ 
+Quantification du Glycol contenu dans des broyats de mégots. 
+ 
+ Description du mode opératoire, dates de traitement (extraction, minéralisation…) et 
+d’analyse, nom des opérateurs : 
+Date Traitement / analyse 
+Référentiel 
+MO, norme 
+/ version 
+Opérateur 
+06/02/17 
+Extraction par agitation d’environ 100 mg de 16BB634 et de 
+16BB636 et 500 mg de 16BB635 dans 5 mL de méthanol.  
+Analyse par GC-FID Varian (M-CC-0230) colonne VF5ms  
+n° A290. 
+/ FFV 
+ 
+ Liste des matériels utilisés  et leur référence Deca : 
+     Prestations réalisées : 
+ISO 9001 seul
+  
+COFRAC NF EN ISO 17025
+  
+Art. annexe II à l'art. D523-8 du code de l'Environnement du 16/10/07 (BPL)
+  
+ 
+RESULTATS 
+D’ANALYSES 
+Parc Technologique Alata 
+BP2 
+60550 VERNEUIL-EN-HALATTE 
+Tél : 03.44.55.66.77 
+www.ineris.fr  
+ 
+ 
+Sauf avis contraire et hors BPL, les objets soumis à essai et leur préparation seront éliminés 4 semaines après l’envoi des 
+résultats. Dans le cas d’études BPL, les éléments d’essais seront conservés 3 mois. 
+L’incertitude sur les résultats et les contrôles qualité peuvent être communiqués sur demande. 
+ 
+ 
+ 
+IM-1140AG - 162405_17_02_CG_FID.docx  2/2   Mise en application : 24/04/2013 
+Ce document ne peut être communiqué à des tiers sans autorisation écrite du responsable de l’Entité concernée 
+L’accréditation par le Cofrac atteste de la compétence des laboratoires pour les 
+seul(e)s analyses et essais, couvert(e)s par l’accréditation, repéré(e)s par une *  
+ACCREDITATION 
+N° 1-0157 
+ 
+Portée disponible sur 
+www.cofrac.fr 
+Résultats : 
+ 
+ 
+Référence INERIS : 16BB634 16BB635 16BB636 
+Limite de 
+Quantification 
+µg/g 
+μg/g μg/g μg/g 
+Glycol 170 ou 850µg/g < 850  < 170 < 850 
+ 
+ 
+Observations (interférents, écarts par rapport aux normes et méthodes appliquées, etc…) 
+ 
+ 
+ 
+Objets soumis à essais : Entièrement consommés      
+ Retournés pour destru ction après stockage    
+ Retournés pour restitution au demandeur   
+ 
+ Technicien Responsable t echnique Responsable d’unité 
+NOM F. FUVEL  H. Biaudet 
+Visa  
+ 
+ 
+ 
+
+ 
+RESULTATS 
+D’ANALYSES 
+Parc Technologique Alata 
+BP2 
+60550 VERNEUIL-EN-HALATTE 
+Tél : 03.44.55.66.77 
+www.ineris.fr  
+ 
+ 
+Sauf avis contraire et hors BPL, les objets soumis à essai et leur préparation seront éliminés 4 semaines après l’envoi des 
+résultats. Dans le cas d’études BPL, les éléments d’essais seront conservés 3 mois. 
+L’incertitude sur les résultats et les contrôles qualité peuvent être communiqués sur demande. 
+ 
+ 
+ 
+IM-1140AG – 162405 162406 DT20761  1/4   Mise en application : 24/04/2013 
+Ce document ne peut être communiqué à des tiers sans autorisation écrite du responsable de l’Entité concernée 
+L’accréditation par le Cofrac atteste de la compétence des laboratoires pour les 
+seul(e)s analyses et essais, couvert(e)s par l’accréditation, repéré(e)s par une *  
+ACCREDITATION 
+N° 1-0157 
+ 
+Portée disponible sur 
+www.cofrac.fr 
+Nota : ce document a été émis et est géré par DRC/CARA/RESA 
+ 
+Responsable d’affaires : Flore REBISCHUNG Date de réception des objets soumis à essai : 21/10/2016 
+Demandeur : Flore REBISCHUNG Prestation n°: 162405 
+Demande de travail n°: 20761 Contribution n°: 162406 
+Demande du : 09/11/2016 Date du rapport : 10/11/2016 
+ 
+ Numéro d’étude BPL : 
+ 
+ Exposé de la demande (description des objets soumis à essai si besoin) : Analyses des HAP dans 
+les échantillons de mégots de cigarettes 16BB634, 16BB635, 16BB636.  
+ 
+ Description du mode opératoire, dates de traitement (extraction, minéralisation…) et 
+d’analyse, nom des opérateurs : 
+Date Traitement / analyse Référentiel MO, norme / version Opérateur
+28/10/2016 
+Extraction d’environ 100 mg de 16BB634 et de 
+16BB636 ; et 500 mg de 16BB635 dans 5 mL. 
+Concentration au Zymarck avec un ajout de 0,2 mL de 
+DMF. Reprise dans 1 mL d’ACN NF X43-329 SST 
+03/11/2016 Analyze sur UHPLC Thermo U 3000 Colonne N° 473 
+ 
+ Liste des matériels utilisés  et leur référence Deca : 
+     Prestations réalisées : 
+ISO 9001 seul
+  
+COFRAC NF EN ISO 17025
+  
+Art. annexe II à l'art. D523-8 du code de l'Environnement du 16/10/07 (BPL)
+  
+ 
+RESULTATS 
+D’ANALYSES 
+Parc Technologique Alata 
+BP2 
+60550 VERNEUIL-EN-HALATTE 
+Tél : 03.44.55.66.77 
+www.ineris.fr  
+ 
+ 
+Sauf avis contraire et hors BPL, les objets soumis à essai et leur préparation seront éliminés 4 semaines après l’envoi des 
+résultats. Dans le cas d’études BPL, les éléments d’essais seront conservés 3 mois. 
+L’incertitude sur les résultats et les contrôles qualité peuvent être communiqués sur demande. 
+ 
+ 
+ 
+IM-1140AG – 162405 162406 DT20761  2/4   Mise en application : 24/04/2013 
+Ce document ne peut être communiqué à des tiers sans autorisation écrite du responsable de l’Entité concernée 
+L’accréditation par le Cofrac atteste de la compétence des laboratoires pour les 
+seul(e)s analyses et essais, couvert(e)s par l’accréditation, repéré(e)s par une *  
+ACCREDITATION 
+N° 1-0157 
+ 
+Portée disponible sur 
+www.cofrac.fr 
+ 
+Résultats :  
+ 
+ 
+Référence INERIS : 16BB634 16BB636 
+Limite de 
+Quantification 
+µg/g 
+µg/g µg/g 
+Naphtalène 0,02 9,48 5,16 
+Acénaphtène 0,02 0,59 0,48 
+Fluorène 0,01 1,55 1,27 
+Phénanthrène 0,01 0,92 0,72 
+Anthracène 0,01 0,21 0,16 
+Pyrène 0,02 0,65 0,56 
+B(a)A 0,01 < LQ 0,01 
+Chrysène 0,01 0,12 0,07 
+B(b)F 0,01 0,11 0,10 
+B(k)F 0,01 < LQ < LQ 
+B(a)P 0,01 0,06 0,06 
+D(a,h)A 0,01 < LQ < LQ 
+B(g,h,i)P 0,01 0,02 0,02 
+Fluoranthène 0,01 0,25 0,23 
+Indéno 0,01 < LQ < LQ 
+Acénaphtylène 0,50 < LQ < LQ 
+ 
+  
+ 
+RESULTATS 
+D’ANALYSES 
+Parc Technologique Alata 
+BP2 
+60550 VERNEUIL-EN-HALATTE 
+Tél : 03.44.55.66.77 
+www.ineris.fr  
+ 
+ 
+Sauf avis contraire et hors BPL, les objets soumis à essai et leur préparation seront éliminés 4 semaines après l’envoi des 
+résultats. Dans le cas d’études BPL, les éléments d’essais seront conservés 3 mois. 
+L’incertitude sur les résultats et les contrôles qualité peuvent être communiqués sur demande. 
+ 
+ 
+ 
+IM-1140AG – 162405 162406 DT20761  3/4   Mise en application : 24/04/2013 
+Ce document ne peut être communiqué à des tiers sans autorisation écrite du responsable de l’Entité concernée 
+L’accréditation par le Cofrac atteste de la compétence des laboratoires pour les 
+seul(e)s analyses et essais, couvert(e)s par l’accréditation, repéré(e)s par une *  
+ACCREDITATION 
+N° 1-0157 
+ 
+Portée disponible sur 
+www.cofrac.fr 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Référence INERIS : 16BB635 
+Limite de 
+Quantification 
+µg/g 
+µg/g 
+Naphtalène 0,004 2,84 
+Acénaphtène 0,004 0,18 
+Fluorène 0,002 0,36 
+Phénanthrène 0,002 0,32 
+Anthracène 0,002 0,07 
+Pyrène 0,004 0,16 
+B(a)A 0,002 0,01 
+Chrysène 0,002 0,02 
+B(b)F 0,002 0,05 
+B(k)F 0,002 < LQ 
+B(a)P 0,002 0,02 
+D(a,h)A 0,002 < LQ 
+B(g,h,i)P 0,002 0,006 
+Fluoranthène 0,002 0,08 
+Indéno 0,002 < LQ 
+Acénaphtylène 0,100 < LQ 
+ 
+  
+ 
+RESULTATS 
+D’ANALYSES 
+Parc Technologique Alata 
+BP2 
+60550 VERNEUIL-EN-HALATTE 
+Tél : 03.44.55.66.77 
+www.ineris.fr  
+ 
+ 
+Sauf avis contraire et hors BPL, les objets soumis à essai et leur préparation seront éliminés 4 semaines après l’envoi des 
+résultats. Dans le cas d’études BPL, les éléments d’essais seront conservés 3 mois. 
+L’incertitude sur les résultats et les contrôles qualité peuvent être communiqués sur demande. 
+ 
+ 
+ 
+IM-1140AG – 162405 162406 DT20761  4/4   Mise en application : 24/04/2013 
+Ce document ne peut être communiqué à des tiers sans autorisation écrite du responsable de l’Entité concernée 
+L’accréditation par le Cofrac atteste de la compétence des laboratoires pour les 
+seul(e)s analyses et essais, couvert(e)s par l’accréditation, repéré(e)s par une *  
+ACCREDITATION 
+N° 1-0157 
+ 
+Portée disponible sur 
+www.cofrac.fr 
+ 
+ 
+Observations (interférents, écarts par rapport aux normes et méthodes appliquées, etc…) 
+ 
+ 
+Objets soumis à essais : Entièrement consommés      
+ Retournés pour destru ction après stockage    
+ Retournés pour restitution au demandeur   
+ 
+ 
+ Technicien Responsable t echnique Responsable d’unité 
+NOM S. Stavrovski A. El  Masri H. Biaudet 
+Visa 
+ 
+  
+  
+
+ 
+RESULTATS 
+D’ANALYSES 
+Parc Technologique Alata 
+BP2 
+60550 VERNEUIL-EN-HALATTE 
+Tél : 03.44.55.66.77 
+www.ineris.fr  
+ 
+ 
+Sauf avis contraire et hors BPL, les objets soumis à essai et leur préparation seront éliminés 4 semaines après l’envoi des 
+résultats. Dans le cas d’études BPL, les éléments d’essais seront conservés 3 mois. 
+L’incertitude sur les résultats et les contrôles qualité peuvent être communiqués sur demande. 
+ 
+ 
+ 
+IM-1140AG - Bon de résultat 16176-16189 .docx  1/5   Mise en application : 24/04/2013 
+Ce document ne peut être communiqué à des tiers sans autorisation écrite du responsable de l’Entité concernée 
+L’accréditation par le Cofrac atteste de la compétence des laboratoires pour les 
+seul(e)s analyses et essais, couvert(e)s par l’accréditation, repéré(e)s par une *  
+ACCREDITATION 
+N° 1-0157 
+ 
+Portée disponible sur 
+www.cofrac.fr 
+Nota : ce document a été émis et est géré par DRC/CARA/RESA 
+ 
+Responsable d’affaires : Flore REBISCHUNG Date de réception des objets soumis à essai : 07/11/2016-05/12/2016 
+Demandeur : Flore REBISCHUNG Prestation n° : 162405 
+Demande de travail n°: 20761-20796 Contribution n° : 162406 
+Demande du : 09/11/2016-05/12/2016 Date du rapport : 13/12/2016 
+ 
+ Numéro d’étude BPL : 
+ 
+ Exposé de la demande (description des objets soumis à essai si besoin) :  
+ 
+Analyse de 19 métaux sur des mégots brut et sur des lixiviats de mégots. 
+ 
+ Description du mode opératoire, dates de traitement (extraction, minéralisation…) et 
+d’analyse, nom des opérateurs : 
+Date Traitement / analyse Référentiel MO, norme / version Opérateur
+07/11/2016 Minéralisation en four micro-ondes Protocole interne YBA 
+18/11/2016-
+08/12/2016 Analyse par ICP-OES  NF-EN-11885 (Nov 2009) YBA 
+21/11/2016-
+08/12/2016 Analyse par ICP-MS  NF-EN-17294/2 (Avril 2005) YBA 
+ 
+     Prestations réalisées : 
+ISO 9001 seul
+  
+COFRAC NF EN ISO 17025
+  
+Art. annexe II à l'art. D523-8 du code de l'Environnement du 16/10/07 (BPL)
+  
+ 
+RESULTATS 
+D’ANALYSES 
+Parc Technologique Alata 
+BP2 
+60550 VERNEUIL-EN-HALATTE 
+Tél : 03.44.55.66.77 
+www.ineris.fr  
+ 
+ 
+Sauf avis contraire et hors BPL, les objets soumis à essai et leur préparation seront éliminés 4 semaines après l’envoi des 
+résultats. Dans le cas d’études BPL, les éléments d’essais seront conservés 3 mois. 
+L’incertitude sur les résultats et les contrôles qualité peuvent être communiqués sur demande. 
+ 
+ 
+ 
+IM-1140AG - Bon de résultat 16176-16189 .docx  2/5   Mise en application : 24/04/2013 
+Ce document ne peut être communiqué à des tiers sans autorisation écrite du responsable de l’Entité concernée 
+L’accréditation par le Cofrac atteste de la compétence des laboratoires pour les 
+seul(e)s analyses et essais, couvert(e)s par l’accréditation, repéré(e)s par une *  
+ACCREDITATION 
+N° 1-0157 
+ 
+Portée disponible sur 
+www.cofrac.fr 
+Résultats :  Analyse qualitative en µg/g de mégots secs et en µg/L pour les lixiviats : 
+ 
+Mégots  Lixiviats 
+16BB634 16BB635 16BB636 16BE776 16BE777 16BE778 
+Li <LQ 3.15 3.64 545 445 763 
+B 218 218 304 890 641 1050 
+Na       72200 60900 205000 
+Mg 1490 3330 2800 484000 428000 559000 
+Al       5340 8540 5580 
+Si 1510 1610 1910 18500 32800 21700 
+P 655 1470 1250 26200 146000 73200 
+S <LQ <LQ <LQ 291000 179000 353000 
+K 6090 11300 12400 3330000 2010000 4040000 
+Ca       109000 332000 128000 
+Ti       190 64.3 206 
+V <LQ <LQ <LQ 23.9 <LQ  16.1 
+Mn       2420 8150 2810 
+Fe       3670 1000 4840 
+Co <LQ <LQ <LQ 102 321 84.5 
+Rb 8.65 14.2 15.2 3060 1730 3500 
+Sr       2060 4550 2500 
+W <LQ 3.26  <LQ 14.7 13.8 <LQ 
+Os 2.66 <LQ <LQ  <LQ  <LQ  <LQ 
+LQ 2.5 µg/g de mégots secs  10 µg/L de lixiviats 
+ 
+Les éléments suivants ont été analysés en analyse qualitative et leur quantité est inférieure à la limite de 
+quantification: Be, Sc, Ga, Ge, Y, Zr, Nb, Tc, Ru, Rh, Pd, Ag, In, Sn, Te, Cs, La, Ce, Pr, Nd, Sm, Eu, Gd, 
+Tb, Dy, Ho, Er, Tm, Yb, Lu, Hf, Ta, Re, Ir, Pt, Au, Tl, Bi, Th, U. 
+ 
+ Les éléments des cases colorés ont fait l’objet d’une analyse quantitative et leurs résultats sont rendus 
+dans les tableaux suivants.  
+ 
+RESULTATS 
+D’ANALYSES 
+Parc Technologique Alata 
+BP2 
+60550 VERNEUIL-EN-HALATTE 
+Tél : 03.44.55.66.77 
+www.ineris.fr  
+ 
+ 
+Sauf avis contraire et hors BPL, les objets soumis à essai et leur préparation seront éliminés 4 semaines après l’envoi des 
+résultats. Dans le cas d’études BPL, les éléments d’essais seront conservés 3 mois. 
+L’incertitude sur les résultats et les contrôles qualité peuvent être communiqués sur demande. 
+ 
+ 
+ 
+IM-1140AG - Bon de résultat 16176-16189 .docx  3/5   Mise en application : 24/04/2013 
+Ce document ne peut être communiqué à des tiers sans autorisation écrite du responsable de l’Entité concernée 
+L’accréditation par le Cofrac atteste de la compétence des laboratoires pour les 
+seul(e)s analyses et essais, couvert(e)s par l’accréditation, repéré(e)s par une *  
+ACCREDITATION 
+N° 1-0157 
+ 
+Portée disponible sur 
+www.cofrac.fr 
+Analyse quantitative des mégots en µg/g de mégots secs : 
+Al  As  Ba  Ca  Cd  Cr 
+16BB634  1210  0.19  26.2  18700  0.34  1.39 
+16BB635  1170  0.20  55.0  19900  0.52  3.71 
+16BB636  1480  0.17  39.8  19800  0.46  2.31 
+LQ (µg/g)  6.25  0.063  6.25  2.50  0.063  0.13 
+Cu  Fe  Hg  Mn  Mo  Na 
+16BB634  16.5  1610.00 <LQ  60.2  0.19  321 
+16BB635  17.1  2010.00 <LQ  116  0.49  447 
+16BB636  9.71  2600.00 0.0089 90.6  0.33  440 
+LQ (µg/g)  0.063  2.5  0.0063 2.5  0.063  2.5 
+Ni  Pb  Sb  Se  Sr   Ti  Zn 
+16BB634  1.74  0.87  <LQ  0.17  34.9  3160  28.9 
+16BB635  10.0  1.04  0.12  0.22  64.1  1860  46.0 
+16BB636  3.58  0.53  <LQ  0.12  52.4  2110  28.5 
+LQ (µg/g)  0.063  0.063  0.063  0.063  6.25  2.5  2.5 
+ 
+Les analyses ont été réalisées par : 
+- ICP-OES : Al, Ba, Ca, Fe, Mn, Na, Sr, Ti et Zn ; 
+- ICP-MS : As, Cd, Cr, Cu, Hg, Mo, Ni, Pb, Sb et Se. 
+  
+ 
+RESULTATS 
+D’ANALYSES 
+Parc Technologique Alata 
+BP2 
+60550 VERNEUIL-EN-HALATTE 
+Tél : 03.44.55.66.77 
+www.ineris.fr  
+ 
+ 
+Sauf avis contraire et hors BPL, les objets soumis à essai et leur préparation seront éliminés 4 semaines après l’envoi des 
+résultats. Dans le cas d’études BPL, les éléments d’essais seront conservés 3 mois. 
+L’incertitude sur les résultats et les contrôles qualité peuvent être communiqués sur demande. 
+ 
+ 
+ 
+IM-1140AG - Bon de résultat 16176-16189 .docx  4/5   Mise en application : 24/04/2013 
+Ce document ne peut être communiqué à des tiers sans autorisation écrite du responsable de l’Entité concernée 
+L’accréditation par le Cofrac atteste de la compétence des laboratoires pour les 
+seul(e)s analyses et essais, couvert(e)s par l’accréditation, repéré(e)s par une *  
+ACCREDITATION 
+N° 1-0157 
+ 
+Portée disponible sur 
+www.cofrac.fr 
+Analyse quantitative des lixiviats de mégots en µg/L : 
+   As  Ba  Cd  Cr  Cu  Hg 
+16BB634 10.2  252  5.15  59.9  1020  0.45 
+16BB635 8.28  761  2.89  127  209  0.14 
+16BB636 10.3  263  6.15  37.1  848  0.11 
+LQ (µg/L) 0.20  50  0.20  0.20  50  0.10 
+                    
+   Mo  Ni  Pb  Sb  Se  Zn 
+16BB634 27.2  76.6  3.28  1.05  4.08  524 
+16BB635 1.85  68.5  1.32  1.10  2.36  263 
+16BB636 19.1  68.5  2.48  1.83  5.48  1280 
+LQ (µg/L) 1  50  0.20  0.20  0.50  50 
+ 
+Les analyses ont été réalisées par : 
+- ICP-OES : Ba, Cu, Ni et Zn ; 
+- ICP-MS : As, Cd, Cr, Hg, Mo, Pb, Sb et Se. 
+  
+ 
+RESULTATS 
+D’ANALYSES 
+Parc Technologique Alata 
+BP2 
+60550 VERNEUIL-EN-HALATTE 
+Tél : 03.44.55.66.77 
+www.ineris.fr  
+ 
+ 
+Sauf avis contraire et hors BPL, les objets soumis à essai et leur préparation seront éliminés 4 semaines après l’envoi des 
+résultats. Dans le cas d’études BPL, les éléments d’essais seront conservés 3 mois. 
+L’incertitude sur les résultats et les contrôles qualité peuvent être communiqués sur demande. 
+ 
+ 
+ 
+IM-1140AG - Bon de résultat 16176-16189 .docx  5/5   Mise en application : 24/04/2013 
+Ce document ne peut être communiqué à des tiers sans autorisation écrite du responsable de l’Entité concernée 
+L’accréditation par le Cofrac atteste de la compétence des laboratoires pour les 
+seul(e)s analyses et essais, couvert(e)s par l’accréditation, repéré(e)s par une *  
+ACCREDITATION 
+N° 1-0157 
+ 
+Portée disponible sur 
+www.cofrac.fr 
+ 
+ 
+Observations (interférents, écarts par rapport aux normes et méthodes appliquées, etc…) 
+ 
+ 
+Objets soumis à essais : Entièrement consommés      
+ Retournés pour destru ction après stockage    
+ Retournés pour restitution au demandeur   
+ 
+ 
+ Technicien Responsable t echnique Responsable d’unité 
+NOM Y. Baillon A. Papin H. Biaudet 
+Visa 
+ 
+  
+  
+
+ 
+RESULTATS 
+D’ANALYSES 
+Parc Technologique Alata 
+BP2 
+60550 VERNEUIL-EN-HALATTE 
+Tél : 03.44.55.66.77 
+www.ineris.fr  
+ 
+ 
+Sauf avis contraire et hors BPL, les objets soumis à essai et leur préparation seront éliminés 4 semaines après l’envoi des 
+résultats. Dans le cas d’études BPL, les éléments d’essais seront conservés 3 mois. 
+L’incertitude sur les résultats et les contrôles qualité peuvent être communiqués sur demande. 
+ 
+ 
+ 
+IM-1140AG - IM-1140AG_162405_16_11CGFID.doc  1/3   Mise en application : 24/04/2013 
+Ce document ne peut être communiqué à des tiers sans autorisation écrite du responsable de l’Entité concernée 
+L’accréditation par le Cofrac atteste de la compétence des laboratoires pour les 
+seul(e)s analyses et essais, couvert(e)s par l’accréditation, repéré(e)s par une *  
+ACCREDITATION 
+N° 1-0157 
+ 
+Portée disponible sur 
+www.cofrac.fr 
+Nota : ce document a été émis et est géré par DRC/CARA/RESA 
+ 
+Responsable d’affaires : REBISCHUNG Flore Date de réception des objets soumis à essai : 09/11/2016 
+Demandeur : REBISCHUNG Flore Prestation n°: 162405 
+Demande de travail n°: 20761 Contribution n°: 162406 
+Demande du : 09/11/2016 Date du rapport : 10/11/2016 
+ 
+ Numéro d’étude BPL : 
+ 
+ Exposé de la demande Dosage de nicotine dans des échantillons mégots. 
+ 
+ Description du mode opératoire, dates de traitement (extraction, minéralisation…) et 
+d’analyse, nom des opérateurs : 
+Date Traitement / analyse Référentiel MO, norme / version Opérateur
+03/11/2016 
+à 
+04/11/2016 
+Extraction des échantillons dans le méthanol. 
+Analyse CG/FID colonne Rtx-Wax 30m, 0.25mm, 
+0.25µm (A252) 
+CORESTA  Method 
+N° 9 HK 
+ 
+ Liste des matériels utilisés  et leur référence Deca : 
+     Prestations réalisées : 
+ISO 9001 seul
+  
+COFRAC NF EN ISO 17025
+  
+Art. annexe II à l'art. D523-8 du code de l'Environnement du 16/10/07 (BPL)
+
+ 
+RESULTATS 
+D’ANALYSES 
+Parc Technologique Alata 
+BP2 
+60550 VERNEUIL-EN-HALATTE 
+Tél : 03.44.55.66.77 
+www.ineris.fr  
+ 
+ 
+Sauf avis contraire et hors BPL, les objets soumis à essai et leur préparation seront éliminés 4 semaines après l’envoi des 
+résultats. Dans le cas d’études BPL, les éléments d’essais seront conservés 3 mois. 
+L’incertitude sur les résultats et les contrôles qualité peuvent être communiqués sur demande. 
+ 
+ 
+ 
+IM-1140AG - IM-1140AG_162405_16_11CGFID.doc  2/3   Mise en application : 24/04/2013 
+Ce document ne peut être communiqué à des tiers sans autorisation écrite du responsable de l’Entité concernée 
+L’accréditation par le Cofrac atteste de la compétence des laboratoires pour les 
+seul(e)s analyses et essais, couvert(e)s par l’accréditation, repéré(e)s par une *  
+ACCREDITATION 
+N° 1-0157 
+ 
+Portée disponible sur 
+www.cofrac.fr 
+ 
+ 
+Résultats : mg/g par rapport à la matière brute sans tenir compte de taux d’humidité 
+ 
+ 
+ 
+ 
+prise d'essai Nicotine valeur moyenne 
+Réf Client Réf. INERIS  mg/g mg/g 
+Limite de quantification ( mg/g) 0.25 
+16BB634 
+1 4.8 
+2 4.7 4.8 
+3 5.0   
+16BB635 
+1 0.9 
+2 0.9 0.9 
+3 0.9   
+16BB636 
+1 6.0   
+2 6.0 6.0 
+3 5.9   
+ 
+ 
+Observations (interférents, écarts par rapport aux normes et méthodes appliquées, etc…) 
+ 
+ 
+Objets soumis à essais : Entièrement consommés      
+ Retournés pour destru ction après stockage    
+ Retournés pour restitution au demandeur   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+RESULTATS 
+D’ANALYSES 
+Parc Technologique Alata 
+BP2 
+60550 VERNEUIL-EN-HALATTE 
+Tél : 03.44.55.66.77 
+www.ineris.fr  
+ 
+ 
+Sauf avis contraire et hors BPL, les objets soumis à essai et leur préparation seront éliminés 4 semaines après l’envoi des 
+résultats. Dans le cas d’études BPL, les éléments d’essais seront conservés 3 mois. 
+L’incertitude sur les résultats et les contrôles qualité peuvent être communiqués sur demande. 
+ 
+ 
+ 
+IM-1140AG - IM-1140AG_162405_16_11CGFID.doc  3/3   Mise en application : 24/04/2013 
+Ce document ne peut être communiqué à des tiers sans autorisation écrite du responsable de l’Entité concernée 
+L’accréditation par le Cofrac atteste de la compétence des laboratoires pour les 
+seul(e)s analyses et essais, couvert(e)s par l’accréditation, repéré(e)s par une *  
+ACCREDITATION 
+N° 1-0157 
+ 
+Portée disponible sur 
+www.cofrac.fr 
+ 
+ 
+ 
+ 
+ Technicien Responsable t echnique Responsable d’unité 
+NOM Halina KOZDRAS Ahmad EL, MASRI Hugues BIAUDET 
+Visa    
+  
+
+ 
+RESULTATS 
+D’ANALYSES 
+Parc Technologique Alata 
+BP2 
+60550 VERNEUIL-EN-HALATTE 
+Tél : 03.44.55.66.77 
+www.ineris.fr  
+ 
+ 
+Sauf avis contraire et hors BPL, les objets soumis à essai et leur préparation seront éliminés 4 semaines après l’envoi des 
+résultats. Dans le cas d’études BPL, les éléments d’essais seront conservés 3 mois. 
+L’incertitude sur les résultats et les contrôles qualité peuvent être communiqués sur demande. 
+ 
+ 
+ 
+IM-1140AG – 162405 162406 DT20761 Phénols  1/2   Mise en application : 24/04/2013 
+Ce document ne peut être communiqué à des tiers sans autorisation écrite du responsable de l’Entité concernée 
+L’accréditation par le Cofrac atteste de la compétence des laboratoires pour les 
+seul(e)s analyses et essais, couvert(e)s par l’accréditation, repéré(e)s par une *  
+ACCREDITATION 
+N° 1-0157 
+ 
+Portée disponible sur 
+www.cofrac.fr 
+Nota : ce document a été émis et est géré par DRC/CARA/RESA 
+ 
+Responsable d’affaires : Flore REBISCHUNG Date de réception des objets soumis à essai : 21/10/2016 
+Demandeur : Flore REBISCHUNG Prestation n°: 162405 
+Demande de travail n°: 20761 Contribution n°: 162406 
+Demande du : 09/11/2016 Date du rapport : 10/11/2016 
+uétu 
+ Exposé de la demande (description des objets soumis à essai si besoin) : Analyse de phénols 
+dans les échantillons de mégots 16BB634, 16BB635, 16BB636  
+ 
+ Description du mode opératoire, dates de traitement (extraction, minéralisation…) et 
+d’analyse, nom des opérateurs : 
+Date Traitement / analyse Référentiel MO, norme / version Opérateur
+Le 
+06/11/2016 
+Extraction d’environ 100 mg de 16BB634 et de 
+16BB636 ; et 500 mg de 16BB635 dans 5 mL de 
+méthanol 
+MétroPol M-182 
+HK 
+Du 
+07/11/2016 
+au 
+08/11/2016 
+Analyse en HPLC colonne 455 SST 
+ 
+ Liste des matériels utilisés  et leur référence Deca : 
+     Prestations réalisées : 
+ISO 9001 seul
+  
+COFRAC NF EN ISO 17025
+  
+Art. annexe II à l'art. D523-8 du code de l'Environnement du 16/10/07 (BPL)
+  
+ 
+RESULTATS 
+D’ANALYSES 
+Parc Technologique Alata 
+BP2 
+60550 VERNEUIL-EN-HALATTE 
+Tél : 03.44.55.66.77 
+www.ineris.fr  
+ 
+ 
+Sauf avis contraire et hors BPL, les objets soumis à essai et leur préparation seront éliminés 4 semaines après l’envoi des 
+résultats. Dans le cas d’études BPL, les éléments d’essais seront conservés 3 mois. 
+L’incertitude sur les résultats et les contrôles qualité peuvent être communiqués sur demande. 
+ 
+ 
+ 
+IM-1140AG – 162405 162406 DT20761 Phénols  2/2   Mise en application : 24/04/2013 
+Ce document ne peut être communiqué à des tiers sans autorisation écrite du responsable de l’Entité concernée 
+L’accréditation par le Cofrac atteste de la compétence des laboratoires pour les 
+seul(e)s analyses et essais, couvert(e)s par l’accréditation, repéré(e)s par une *  
+ACCREDITATION 
+N° 1-0157 
+ 
+Portée disponible sur 
+www.cofrac.fr 
+ 
+Résultats :  
+ 
+ 
+Référence INERIS : 16BB634 16BB635 16BB636 
+Limite de 
+Quantification 
+µg/g 
+16BB634 16BB635 16BB636 
+Phénol 0,25 454 63.6 400 
+O-Crésol 0. 0,2505 138 20,5 124 
+m+p-Crésol 0,25 103 16,0 88,9 
+2-Éthylphénol 0,25 10,5 1,70 9,65 
+ 
+Observations (interférents, écarts par rapport aux normes et méthodes appliquées, etc…) 
+ 
+Objets soumis à essais : Entièrement consommés      
+ Retournés pour destru ction après stockage    
+ Retournés pour restitution au demandeur   
+ 
+ 
+ Technicien Responsable t echnique Responsable d’unité 
+NOM S. Stavrovski A. El  Masri H. Biaudet 
+Visa    
+  
+
+M. Hugues BIAUDET
+Date d'édition : 14 septembre 2017 Adresse : Parc Technologique Alata, BP2
+Responsable : M. LACROIX
+Rapport : R/16/ 13803B Société : INERIS
+Réf. Dossier : 13/16/00003 Nom :
+Vos références : CBCP 0161865
+Votre n° d'Affaire : /
+RAPPORT D'ANALYSES
+60550 VERNEUIL-EN-HALATTE
+Date de réception : 03/11/2016
+Date de commande : 25/10/2016
+Echantillon Paramètre (CAS) Technique Méthode L.Q. (mg/kg) Mesure (mg/kg)
+Flumetraline (A) (62924-70-3) GC-MS/MS Interne 0,02 0,044
+Pendimethaline (A) (40487-42-1) GC-MS/MS Interne 0,02 < 0,02
+Trifluraline (A) (1582-09-8) GC-MS/MS Interne 0,02 < 0,02
+0,84
+Biphenyl (A) (92-52-4) GC-MS/MS Interne 0,1 2,0
+2-phenylphenol (A) (90-43-7) GC-MS/MS Interne 0,05
+0,02 < 0,02
+Trifluraline (A) (1582-09-8) GC-MS/MS Interne 0,02 < 0,02
+Flumetraline (A) (62924-70-3) GC-MS/MS Interne 0,02 < 0,02
+Pendimethaline (A) (40487-42-1) GC-MS/MS Interne
+Biphenyl (A) (92-52-4) GC-MS/MS Interne 0,1 1,7
+2-phenylphenol (A) (90-43-7) GC-MS/MS Interne 0,05 0,57
+Flumetraline (A) (62924-70-3) GC-MS/MS Interne 0,02 < 0,02
+Pendimethaline (A) (40487-42-1) GC-MS/MS Interne 0,02
+Trifluraline (A) (1582-09-8) GC-MS/MS Interne 0,02 < 0,02
+Broyat de mégots
+Prélevé le /.
+< 0,02
+0,63
+Biphenyl (A) (92-52-4) GC-MS/MS Interne 0,1 1,1
+2-phenylphenol (A) (90-43-7) GC-MS/MS Interne 0,05Analysé du 09 au 
+16/11/2016
+Remarque(s) : Vous trouverez, pages suivantes, l'enssemble des composés recherchés lors de cette analyse.
+Méthodologie : Ce rapport a été établi sur la base du rapport d'analyses d'un laboratoire, disposant d'une accréditation ISO 17025
+(ILAC full member) pour le(s) paramètre(s) suivi(s) d'un (A), ayant réalisé la prestation.
+J.-F. LACROIX Adjoint à la Direction 
+scientifique & techniqueDirection scientifique & technique
+Validé le : 14/09/2017 09:25 Vérifié le : 13/09/2017 16:21
+16BB636 
+16BB635 
+16BB634 
+Broyat de mégots
+Prélevé le /.
+Analysé du 09 au 
+16/11/2016
+Broyat de mégots
+Prélevé le /.
+Analysé du 09 au 
+16/11/2016
+www.analytice.com 
+Ce rapport ne concerne que l'échantillon soumis à l'analyse.
+Reproduction partielle interdite sans l'accord d'Analytice. Seul le rapport original fait foi.
+Page 1/5
+Rapport : R/16/ 13803B Société : INERIS
+Date d'édition : 14 septembre 2017 Nom : M. Hugues BIAUDET
+RAPPORT D'ANALYSES
+www.analytice.com 
+Ce rapport ne concerne que l'échantillon soumis à l'analyse.
+Reproduction partielle interdite sans l'accord d'Analytice. Seul le rapport original fait foi.
+Page 2/5
+Rapport : R/16/ 13803B Société : INERIS
+Date d'édition : 14 septembre 2017 Nom : M. Hugues BIAUDET
+RAPPORT D'ANALYSES
+www.analytice.com 
+Ce rapport ne concerne que l'échantillon soumis à l'analyse.
+Reproduction partielle interdite sans l'accord d'Analytice. Seul le rapport original fait foi.
+Page 3/5
+13803B Société : INERIS
+Date d'édition : 14 septembre 2017 Nom : M. Hugues BIAUDET
+RAPPORT D'ANALYSES
+Rapport : R/16/
+www.analytice.com 
+Ce rapport ne concerne que l'échantillon soumis à l'analyse.
+Reproduction partielle interdite sans l'accord d'Analytice. Seul le rapport original fait foi.
+Page 4/5
+Date d'édition : 14 septembre 2017 Nom : M. Hugues BIAUDET
+RAPPORT D'ANALYSES
+Rapport : R/16/ 13803B Société : INERIS
+www.analytice.com 
+Ce rapport ne concerne que l'échantillon soumis à l'analyse.
+Reproduction partielle interdite sans l'accord d'Analytice. Seul le rapport original fait foi.
+Page 5/5
+
+
+
+Page 1/5
+EUROFINS ANALYSES POUR L'ENVIRONNEMENT 
+FRANCE SAS
+INERIS
+Madame Flore REBISCHUNG
+Domaine du Petit Arbois
+BP 33
+13090 AIX EN PROVENCE
+RAPPORT D'ANALYSE
+Version du : 27/09/2017Dossier N° : 16E096527
+Date de réception : 19/11/2016N° de rapport d'analyse : AR-16-LK-114572-02
+Annule et remplace la version AR-16-LK-114572-01, qui doit etre détruite ou nous être renvoyée
+Référence Dossier : N° Projet : Mégots 162405
+Nom Projet : PA Mégots
+Référence Commande : CBCP 161882
+Coordinateur de projet client : Mathieu Hubner / MathieuHubner@eurofins.com / +33 3 88 02 33 81
+N° Ech  Matrice Référence échantillon
+001  Eau de surface (ESU) Lixiviat 16BB634
+002  Eau de surface (ESU) Lixiviat 16BB635
+003  Eau de surface (ESU) Lixiviat 16BB636
+004  Solides Divers (SLD) Broyat 16BB636
+005  Solides Divers (SLD) Broyat 16BB634
+006  Solides Divers (SLD) Broyat 16BB635
+Eurofins Analyses pour l'Environnement - Site de Saverne
+5, rue d'Otterswiller -  67700 Saverne
+Tél 03 88 911 911 - fax 03 88 916 531 - site web : www.eurofins.fr/env
+SAS au capital de 1 632 800 € - APE 7120B - RCS SAVERNE 422 998 971 
+Page 2/5
+EUROFINS ANALYSES POUR L'ENVIRONNEMENT 
+FRANCE SAS
+RAPPORT D'ANALYSE
+Version du : 27/09/2017Dossier N° : 16E096527
+Date de réception : 19/11/2016N° de rapport d'analyse : AR-16-LK-114572-02
+Annule et remplace la version AR-16-LK-114572-01, qui doit etre détruite ou nous être renvoyée
+Référence Dossier : N° Projet : Mégots 162405
+Nom Projet : PA Mégots
+Référence Commande : CBCP 161882
+001 002 003 004 005N° Echantillon 006
+Référence client : Lixiviat 
+16BB634
+Lixiviat 
+16BB635
+Broyat 
+16BB634
+Lixiviat 
+16BB636
+Broyat 
+16BB636
+Broyat 
+16BB635
+Matrice : ESU ESU ESU SLD SLD SLD
+Date de prélèvement :
+Date de début d'analyse : 21/11/2016 21/11/201621/11/2016 19/12/201619/12/2016 19/12/2016
+Analyses immédiates
+18700 12300 20300   mg/lLS023 : Résidu sec à 105°C  
+Indices de pollution
+8400 5900 8200   mg C/lLS045 : Carbone Organique Total 
+(COT)
+ 
+15000 11000 16000   µg/lLS065 : Indice phénol  
+Sous-traitance | Eurofins GfA Lab Service Gmbh (Hamburg)
+   84.1 81.0 %CYP07 : Détermination de matière 
+sèche
+29.7 
+CY111 : Dioxines - PCDD/F (17)  ~  Environnement
+2,3,7,8-TCDD ng/kg MS    < 0.48 < 0.42 < 0.48 
+1,2,3,7,8-PeCDD ng/kg MS    < 0.64 < 0.56 < 0.64 
+1,2,3,4,7,8-HxCDD ng/kg MS    < 1.3 < 1.1 < 1.3 
+1,2,3,6,7,8-HxCDD ng/kg MS    < 1.3 < 1.1 < 1.3 
+1,2,3,7,8,9-HxCDD ng/kg MS    < 1.3 < 1.1 < 1.3 
+1,2,3,4,6,7,8-HpCDD ng/kg MS    1.60 1.60 < 1.4 
+OCDD ng/kg MS    11.2 10.1 10.7 
+2,3,7,8-TCDF ng/kg MS    1.19 0.971 0.918 
+1,2,3,7,8-PeCDF ng/kg MS    < 1.2 < 1.0 < 1.2 
+2,3,4,7,8-PeCDF ng/kg MS    < 1.2 < 1.0 < 1.2 
+1,2,3,4,7,8-HxCDF ng/kg MS    < 1.1 < 0.93 < 1.1 
+1,2,3,6,7,8-HxCDF ng/kg MS    < 1.1 < 0.93 < 1.1 
+1,2,3,7,8,9-HxCDF ng/kg MS    < 1.1 < 0.93 < 1.1 
+2,3,4,6,7,8-HxCDF ng/kg MS    < 1.1 < 0.93 < 1.1 
+1,2,3,4,6,7,8-HpCDF ng/kg MS    < 1.4 < 1.2 < 1.4 
+1,2,3,4,7,8,9-HpCDF ng/kg MS    < 1.0 < 0.89 < 1.0 
+OCDF ng/kg MS    < 8.5 < 7.5 < 8.6 
+Dioxines et Furanes TEQ (OMS 1998) sans 
+LQ
+ng/kg MS    0.136 0.114 0.0929 
+Dioxines et Furanes TEQ (OMS 1998) avec 
+LQ
+ng/kg MS    2.74 2.39 2.72 
+Dioxines et furanes (OMS 2005 PCDD/F- 
+TEQ) sans LQ
+ng/kg MS    0.138 0.116 0.0950 
+Dioxines et furanes (OMS 2005 PCDD/F- 
+TEQ) avec LQ
+ng/kg MS    2.49 2.16 2.47 
+I-TEQ (NATO/CCMS)) sans LQ ng/kg MS    0.146 0.123 0.103 
+I-TEQ (NATO/CCMS) avec LQ ng/kg MS    2.44 2.12 2.42 
+D : détecté / ND : non détecté
+Eurofins Analyses pour l'Environnement - Site de Saverne
+5, rue d'Otterswiller -  67700 Saverne
+Tél 03 88 911 911 - fax 03 88 916 531 - site web : www.eurofins.fr/env
+SAS au capital de 1 632 800 € - APE 7120B - RCS SAVERNE 422 998 971 
+Page 3/5
+EUROFINS ANALYSES POUR L'ENVIRONNEMENT 
+FRANCE SAS
+RAPPORT D'ANALYSE
+Version du : 27/09/2017Dossier N° : 16E096527
+Date de réception : 19/11/2016N° de rapport d'analyse : AR-16-LK-114572-02
+Annule et remplace la version AR-16-LK-114572-01, qui doit etre détruite ou nous être renvoyée
+Référence Dossier : N° Projet : Mégots 162405
+Nom Projet : PA Mégots
+Référence Commande : CBCP 161882
+N° EchObservations Réf client
+(001)  (002)  (003)La date de prélèvement n'étant pas renseignée conformément aux 
+exigences normatives et réglementaires, les délais de mise en analyse 
+ont été calculés à partir de la date et heure de réception par le laboratoire.
+Lixiviat 16BB634 / Lixiviat 
+16BB635 / Lixiviat 16BB636 /
+Laboratoire agréé pour la réalisation des prélèvements et des analyses terrains et/ou des analyses des paramètres du contrôle sanitaire des eaux – portée détaillée  de 
+l’agrément disponible sur demande.
+ 
+La reproduction de ce document n'est autorisée que sous sa forme intégrale. Il comporte 5 page(s). Le présent rapport ne concerne que les objets soumis à l'essai. 
+Laboratoire agréé par le ministre chargé des installations classées conformément à l’arrêté du 11 Mars 2010. Mention des types d'analyses pour lesquels l'agrément a été 
+délivré sur : www.eurofins.fr ou disponible sur demande.
+ 
+Mathieu Hubner
+Coordinateur de Projets Clients
+Les résultats précédés du signe < correspondent aux limites de quantification, elles sont la responsabilité du laboratoire et fonction de la matrice.
+Laboratoire agréé par le ministre chargé de l’environnement - se reporter à la liste des laboratoires sur le site internet de gestion des agréments du ministère chargé de 
+l’environnement : http://www.labeau.ecologie.gouv.fr
+Pour les résultats issus d'une sous-traitance, les rapports émis par des laboratoires accrédités sont disponibles sur demande.
+L'information relative au seuil de détection d'un paramètre n'est pas couverte par l'accréditation Cofrac.
+Tous les éléments de traçabilité sont disponibles sur demande.
+Eurofins Analyses pour l'Environnement - Site de Saverne
+5, rue d'Otterswiller -  67700 Saverne
+Tél 03 88 911 911 - fax 03 88 916 531 - site web : www.eurofins.fr/env
+SAS au capital de 1 632 800 € - APE 7120B - RCS SAVERNE 422 998 971 
+Page 4/5
+EUROFINS ANALYSES POUR L'ENVIRONNEMENT 
+FRANCE SAS
+Annexe technique
+Dossier N° : 16E096527
+Emetteur : Mme Flore REBISCHUNG
+N° de rapport d'analyse :AR-16-LK-114572-02
+Commande EOL : 00610514188923
+Nom projet : PA Mégots Référence commande : CBCP 161882
+ Eau de surface
+Code Analyse Unité Prestation réalisée sur le site 
+de :
+Principe et référence de la méthode LQI
+mg/lRésidu sec à 105°C  Eurofins Analyse pour l'Environnement 
+France
+Gravimétrie -  NF T 90-029LS023 100
+mg C/lCarbone Organique Total (COT) Spectrophotométrie (IR) [à chaud en milieu acide] -  
+NF EN 1484
+LS045 0.5
+µg/lIndice phénol Flux continu [Flux Continu] -  NF EN ISO 14402LS065 10
+ Solides Divers
+Code Analyse Unité Prestation réalisée sur le site 
+de :
+Principe et référence de la méthode LQI
+Dioxines - PCDD/F (17)  ~  Environnement Prestation soustraitée à Eurofins GfA Lab 
+Service GmbH
+GC/HRMS -  Méthode interneCY111
+2,3,7,8-TCDD ng/kg
+1,2,3,7,8-PeCDD ng/kg
+1,2,3,4,7,8-HxCDD ng/kg
+1,2,3,6,7,8-HxCDD ng/kg
+1,2,3,7,8,9-HxCDD ng/kg
+1,2,3,4,6,7,8-HpCDD ng/kg
+OCDD ng/kg
+2,3,7,8-TCDF ng/kg
+1,2,3,7,8-PeCDF ng/kg
+2,3,4,7,8-PeCDF ng/kg
+1,2,3,4,7,8-HxCDF ng/kg
+1,2,3,6,7,8-HxCDF ng/kg
+1,2,3,7,8,9-HxCDF ng/kg
+2,3,4,6,7,8-HxCDF ng/kg
+1,2,3,4,6,7,8-HpCDF ng/kg
+1,2,3,4,7,8,9-HpCDF ng/kg
+OCDF ng/kg
+Dioxines et Furanes TEQ (OMS 1998) 
+sans LQ
+ng/kg
+Dioxines et Furanes TEQ (OMS 1998) 
+avec LQ
+ng/kg
+Dioxines et furanes (OMS 2005 PCDD/F- 
+TEQ) sans LQ
+ng/kg
+Dioxines et furanes (OMS 2005 PCDD/F- 
+TEQ) avec LQ
+ng/kg
+I-TEQ (NATO/CCMS)) sans LQ ng/kg
+I-TEQ (NATO/CCMS) avec LQ ng/kg
+%Détermination de matière sèche Gravimétrie -  EC 152/2009CYP07
+Eurofins Analyses pour l'Environnement - Site de Saverne
+5, rue d'Otterswiller -  67700 Saverne
+Tél 03 88 911 911 - fax 03 88 916 531 - site web : www.eurofins.fr/env
+SAS au capital de 1 632 800 € - APE 7120B - RCS SAVERNE 422 998 971 
+Page 5/5
+EUROFINS ANALYSES POUR L'ENVIRONNEMENT 
+FRANCE SAS
+Annexe de traçabilité des échantillons
+Cette traçabilité recense les flaconnages des échantillons scannés dans EOL sur le terrain avant envoi au laboratoire
+Dossier N° : 16E096527 N° de rapport d'analyse : AR-16-LK-114572-02
+Emetteur : Mme Flore REBISCHUNG Commande EOL : 00610514188923
+Nom projet : N° Projet : Mégots 162405
+PA Mégots
+Référence commande : CBCP 161882
+ Eau de surface
+Référence Eurofins Référence Client Date&Heure Prélèvement Code-barre Nom flacon
+Lixiviat 16BB634 16BE776 Flaconnage non reconnu16E096527-001
+Lixiviat 16BB635 16BE777 Flaconnage non reconnu16E096527-002
+Lixiviat 16BB636 16BE778 Flaconnage non reconnu16E096527-003
+ Solides Divers
+Référence Eurofins Référence Client Date&Heure Prélèvement Code-barre Nom flacon
+Broyat 16BB636 16BB636 Flaconnage non reconnu16E096527-004
+Broyat 16BB634 16BB634 Flaconnage non reconnu16E096527-005
+Broyat 16BB635 16BB635 Flaconnage non reconnu16E096527-006
+Eurofins Analyses pour l'Environnement - Site de Saverne
+5, rue d'Otterswiller -  67700 Saverne
+Tél 03 88 911 911 - fax 03 88 916 531 - site web : www.eurofins.fr/env
+SAS au capital de 1 632 800 € - APE 7120B - RCS SAVERNE 422 998 971 
+
+
+

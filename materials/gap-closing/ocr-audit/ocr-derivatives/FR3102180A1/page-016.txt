@@ -1,0 +1,82 @@
+[0174]
+[0175]
+
+[0176]
+
+[0177]
+
+[0178]
+
+[0179]
+
+[0180]
+
+[0181]
+
+[0182]
+
+[0183]
+
+[0184]
+
+[0185]
+
+[0186]
+
+[0187]
+
+15
+
+l’opération de nettoyage.
+
+Cette étape S2_3 reste optionnelle.
+
+Une fois le fluide amené à l’état supercritique, la phase de dépollution P2 comprend
+la mise en contact S2_4 du fluide supercritique avec les fibres à dépolluer
+(éventuellement humidifiées) à l’intérieur de l’autoclave 10.Comme expliqué pré-
+cédemment, le dioxyde de carbone à l’état supercritique s’avère un solvant puissant : la
+mise en contact S2_4 d’un tel fluide supercritique avec les fibres de mégots de
+cigarette à dépolluer permet d’extraire des fibres des molécules organiques apolaires,
+de telles molécules étant majoritairement formées de longues chaînes carbonées de
+faible masse molaire (lipides et corps gras).
+
+La mise en contact S2_4 peut se faire sous plusieurs formes, potentiellement
+combinées entre elles : vaporisation haute pression, trempage, buse à jet, pulvérisation,
+etc.
+
+Dans l’exemple décrit ici, on prévoit un trempage combiné à l’action d’un jet.
+
+La chambre de nettoyage 10, ou autoclave, comprend ainsi des moyens d’aspersion
+(non représentés ici) apte à émettre un jet de dioxyde de carbone à l’état supercritique.
+
+Dans cet exemple, les moyens de stockage électronique stockent d’autres paramètres
+relatifs au nettoyage tel que par exemple la durée de mise en contact (durée du
+trempage), le débit du jet et/ou la vitesse du jet.
+
+Dans cet exemple, on prévoit que le jet propulsé en direction des fibres présente une
+vitesse variable comprise entre 1 et 500 mètres par seconde avec un débit compris
+entre 1 et 4000 litres par heure.
+
+Dans cet exemple, on prévoit que la mise en contact S2_4 est réalisée pendant une
+durée comprise entre une minute et huit heures, cette durée variant en fonction des ca-
+ractéristiques de propretés souhaitées et de la quantité de matière à traiter.
+
+Dans cet exemple, les moyens de stockage électronique stockent encore d’autres pa-
+ramètres associés à la mise en contact.
+
+On peut prévoir des variations de pression et de température selon des cycles de com-
+pression et de dépression, de tels cycles améliorent les performances de la dépollution.
+
+On peut aussi prévoir des paramètres relatifs à la vitesse de rotation du tambour
+rotatif.
+
+Celui-ci pourra être aussi animé par saccade ou par des mouvements autres que
+rotatifs (pendulaire ou autres).
+
+Afin d'améliorer les performances associées à la dépollution P2, on peut prévoir
+d’ajouter lors d’une étape S2_5 un cosolvant au fluide.
+
+L’ajout S2_5 d’un cosolvant (méthanol, éthanol, etc.) durant la phase de dépollution
+augmente la polarité et la sélectivité du nettoyage afin d’extraire aussi les molécules
+
+organiques polaires avec des chaînes plus courtes (sucre, ions.…..).

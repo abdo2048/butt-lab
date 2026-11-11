@@ -1,0 +1,6 @@
+{
+  "url": "https://tobaccocontrol.bmj.com/content/early/2026/07/08/tc-2026-060135",
+  "is_paywall": false,
+  "is_cached": false,
+  "error": "hot: SLS_NOT_FOUND; cold: SLS_NOT_FOUND; online: SLS_CRAWL_FAILED: error parsing data for \"https://tobaccocontrol.bmj.com/content/early/2026/07/08/tc-2026-060135\" in table 'crawler/v2/pages': crawler error bad_robots_code: bad_robots_code"
+}

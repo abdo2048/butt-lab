@@ -1,0 +1,2445 @@
+=== PDF FILE: s11356-020-11856-z.pdf ===
+sha256: 2b34bb126c24f4b887461386cfb6491b0fc804b705688f39aa6ab4a84cb12bb9
+pages: 24
+printed_page_labels: PDF p.1=printed 10450, PDF p.2=printed 10451, PDF p.3=printed 10452, PDF p.4=printed 10453, PDF p.5=printed 10454, PDF p.6=printed 10455, PDF p.7=printed 10456, PDF p.8=printed 10457, PDF p.9=printed 10458, PDF p.10=printed 10459, PDF p.11=printed 10460, PDF p.12=printed 10461, PDF p.13=printed 10462, PDF p.14=printed 10463, PDF p.15=printed 10464, PDF p.16=printed 10465, PDF p.17=printed 10466, PDF p.18=printed 10467, PDF p.19=printed 10468, PDF p.20=printed 10469, PDF p.21=printed 10470, PDF p.22=printed 10471, PDF p.23=printed 10472, PDF p.24=printed 10473
+
+=== PDF PAGE 1 === (printed page: 10450)
+REVIEW ARTICLE
+Toxicity of cigarette butts and possible recycling solutions —a
+literature review
+Ivan Moroz1 & Luiz G. B. Scapolio 2 & Ivana Cesarino1 & Alcides L. Leão 1 & Giuliano Bonanomi3
+Received: 3 August 2020 / Accepted: 26 November 2020
+# The Author(s), under exclusive licence to Springer-Verlag GmbH, DE part of Springer Nature 2021
+Abstract
+Tobacco is a worldwide-consumed product, which in addition to causing public health-related issues is responsible for the most
+common form of litter in the world—smoked cigarette butts (CBs). A large attention has been drawn to this question, since this
+specific waste type tends to end up in terrestrial and aquatic ecosystems, posing serious threat to a range of life forms.
+Decomposition may take several years to occur because cellulose acetate is hardly accessible, before deacetylation, by bacteria
+and fungi. This review concerns the toxicity derived from smoked cigarette butts, as well as innovative ecological solutions for
+solving the CB litter problem. Toxicity studies have demonstrated the critical influence of chemicals present in smoked CBs to
+the environment as a whole, but also the physical contaminating potential considering micro- and nanoparticles derived from CB
+material. Nevertheless, several technological approaches were aimed at unveiling hidden value within used CBs, as well as
+propositions for incorporation of this residue in large volume production items or direct recycling. In summary, several methods
+are available to alleviate CB pollution, while appropriate and efficient collection logistics by consumers appears as the main
+bottleneck for an effective recycling. It is also clear that while considerable progress has been made recently in light of CB
+recycling solutions, there is still a vast research capacity in this regard.
+Keywords Cigarette butt . Toxicity . Decomposition . Recycling waste . Pollution . Debris
+Introduction
+Direct disposing of non-degradable residues into the environ-
+ment is a major pollution issue worldwide. During their exis-
+tence, these residues have the potential to harm nature in a
+myriad of ways. Among them, cigarette butts (CBs) are an
+important part of urban litter because of their massive numbers
+and of their longevity. According to the 2019 World Health
+Organization Report on the Global Tobacco Epidemic (WHO
+Report on the Global Tobacco Epidemic 2019), an estimated
+1.1 billion people of 15 years of age and over are considered
+tobacco users, of which 1.07 billion are considered smokers.
+Interestingly, this number has declined since the first estimate
+in 2007, when 1.46 billion people were considered tobacco
+users. It is easy to imagine the massive amounts of cigarette
+butts produced over time. Indeed, according to the 2018
+Tobacco Atlas (Drope et al. 2018), in 2016 only, about 5.7
+trillion cigarettes were smoked worldwide. Public health is-
+sues associated with tobacco use and smoking habits have
+been extensively researched and discussed, and will be not
+addressed in this paper, but it is worth noting that over 7.1
+million deaths were associated with tobacco use in 2016 alone
+(Drope et al. 2018).
+A large proportion of these cigarettes, once smoked, is
+simply thrown into the ground in the form of a CB, which
+can still retain unburnt or partially burnt tobacco; eventually,
+this litter may end up in marine environments as well
+(Loizidou et al.2018). Even if a CB has no remaining tobacco,
+toxic chemicals derived from the smoking process remain
+trapped in the butt. Moreover, CBs pose serious environmen-
+tal threats because of their resistance to biodegradation in
+Responsible Editor: Lotfi Aleya
+* Ivan Moroz
+ivan.moroz@unesp.br
+1 Department of Bioprocesses and Biotechnology, School of
+Agriculture, Sao Paulo State University (Unesp), Avenida
+Universitária, 3780 Botucatu, Brazil
+2 Graduate Program in Materials Science and Engineering, Federal
+University of Sao Carlos, Rodovia Washington Luiz km 235, Sao
+Carlos, Brazil
+3 Department of Agricultural Sciences, University of Naples Federico
+II, via Università 100, 80055, Portici, Naples, Italy
+https://doi.org/10.1007/s11356-020-11856-z
+/ Published online: 7 January 2021
+Environmental Science and Pollution Research (2021) 28:10450–10473
+
+
+=== PDF PAGE 2 === (printed page: 10451)
+natural environments (Bonanomi et al. 2015; Bonanomi et al.
+2020; Joly and Coulis 2018). Standard CBs are composed of
+plasticized cellulose acetate, compressed and externally
+wrapped with a paper layer (Fig. 1a, b ). In fact, cellulose
+acetate is a material that needs a deacetylation step to initiate
+biodegradation process (Puls et al. 2011), and therefore re-
+quires the addition of other components to enhance natural
+degradation.
+Bonanomi et al. (2015, 2020) performed extensive research
+on this matter, using artificially smoked CBs and different
+environment conditions (laboratory and open field) to evalu-
+ate mass loss and CB carbon quality alteration for certain time
+intervals. They reported that CB decomposition involves three
+stages: an initial fast decay of 15% to 20% mass loss in the
+first 30 days, attributed to the degradation of external involv-
+ing paper; then a slow 2-year decomposition period which
+accounts for approximately 10% mass loss and is rather inde-
+pendent of surrounding conditions; and finally the last stage
+where environmental conditions affect decomposition rate
+significantly (Bonanomi et al. 2020). Considering all condi-
+tions tested, CB mass loss after 5 years ranged from 50 to
+80%. These results prove that CBs are both short- and long-
+term toxicity threats because leaching occurs rapidly when
+CBs are wetted but also occurs over a long period with peri-
+odic wettings and slow decomposition.
+As an alternative for common cellulose acetate filters, com-
+panies have produced filters made only of cellulose, which in
+theory should degrade much faster. However, according to a
+study published by Joly and Coulis (2018), the environment in
+which decomposition takes place influences its rate and Green
+et al. ( 2020) reported toxic effects in invertebrates caused by
+biodegradable CBs. Thus, the substitution for these biode-
+gradable filters should be accompanied by user knowledge
+and responsibility concernin g disposal habits. Robertson
+et al. ( 2012) approached this issue from a different perspec-
+tive. Since the hydrolysis of cellulose acetate into cellulose
+and acetic acid is a process which limits the decomposition
+rate, these authors proposed the use of encapsulated,
+controlled-release acid catalysts to accelerate the process, once
+they are exposed to environmental water.
+The contamination dynamics of littered CBs was studied in
+2014 by Roder Green et al. ( 2014). The authors observed the
+characteristics of butt littering in the city of Berlin. Because of
+factors such as preferential littering (in restaurants, or
+Fig. 1 Structure of CB at different
+scales. a Image of a CB with the
+external layer made of cellulose
+and the white, internal filter of
+cellulose acetate. b, c Scanning
+electron microscope (SEM) im-
+ages of smoked but undecom-
+posed CB at two levels of magni-
+fication. Pictures by Giuliano
+Bonanomi and Antonio Crasto
+10451Environ Sci Pollut Res  (2021) 28:10450–10473
+
+
+=== PDF PAGE 3 === (printed page: 10452)
+shopping mall entrances), redistribution processes (cleaning
+by shop owners, for example), and accumulation in spots
+not attended by mechanical cleaning, it was found that
+littering is heterogeneous: average CB concentration was 2.7
+butts m−2, while the maximum concentration found was 48.8
+butts m−2. The elution kinetics of nicotine in water was also a
+target of attention. The authors proposed two situations: one,
+simulating a puddle of standing water, containing cigarette
+butts, and the other, simulating a rainfall experience over
+CBs, in which there is the influence of water movement. In
+the first situation, one CB was added to 1 L of purified water.
+After several different time intervals, aliquots were taken and
+nicotine content was measured. Twenty-four-hour exposure
+resulted in a total release of 7.1 mg g −1 of nicotine, a value
+14 times higher than the 0.5 mg g −1 threshold established by
+the European Union for hazardous tobacco waste. Also, the
+dynamics of elution showed that 50% of all the nicotine was
+released in 27.2 min, and 90% after 10 h. This fact is alarming
+because it stresses how fast this contamination occurs. The
+rainfall experiment consisted of placing five CBs on a 0.16-
+m2 stainless steel tray, positioned with a 2% slope (equivalent
+to common sidewalk slopes). A total of 15 daily simulated
+rainfall events were conducted to meet an estimate of the
+minimum quantity of water that comes in contact with littered
+CBs due to rainfall. Results showed a total release of 3.8 mg
+g−1 of nicotine, after 15 events that totalled a precipitation of
+21.6 mm; 50% of nicotine release occurred after 1.6 mm of
+precipitation, equivalent to only 1.1 rainfall events. Finally,
+after the 15 rainfall events, the remaining CBs were subjected
+to the conditions of the standing water experiment.
+Surprisingly, even after leaching nicotine during the rainfall
+experiments, these CBs still leached 0.16 mg g −1 of nicotine
+after 24-h exposure to standing water, still above threshold
+limits for the EU, showing that even CBs which were
+“washed” by rainfall are still an ecological threat to aquatic
+environments.
+The creation of value for CBs plays a role in reducing
+reckless disposal of this item, and therefore contributes to
+prevent environmental degradation. According to
+Torkashvand and Farzadkia (2019), three strategies are mainly
+used for controlling CB littering: establishment of fines and
+waste tax; creating responsibility for consumers and pro-
+ducers; and raising awareness about the disadvantages of
+CBs. If these residues were to be considered a source material
+with possible financial return, an additional driving force for
+CB collection would be created almost as a “fourth strategy”
+of CB littering control.
+One can conclude that the permanence of CBs packed with
+toxic chemicals in the environment is a serious issue, with
+urgency to its resolution. In addition to the secondary
+chemicals present in cigarettes and cellulose acetate litters,
+also nicotine and many other chemical compounds can cause
+toxic effects on diverse organisms as well. Here, we review
+available studies that investigate the toxic effect of CBs on a
+range of organisms and the possible solutions for effective
+recycling of this waste.
+Materials and methods
+Literature search and data collection
+The search protocol involved articles published up to October
+2020, concerning the toxic effect of CBs and potential
+recycling solutions. The search was carried out in all interna-
+tional journals using online versions of the Web of Science,
+Science Direct, and Scopus. Keywords used were “cigarette
+butt”, “cigarette litter”,a n d“ cigarette filter”, and the search
+was confined to the article title taking care to include also
+plural variations (butts and filters). Criteria for article selection
+were decided a priori to avoid personal bias; only articles
+containing quantitative data on CBs toxicity were included.
+Basically, the screening process was comprised of the follow-
+ing stages:
+(1) Title and abstract: a simple evaluation of both title and
+abstract was carried out for every result, in relation to
+cigarette butt toxicity and/or possible applications for
+cigarette butts to exclude non-related results;
+(2) Abstract: articles filtered in (1) had their abstract fully
+read, in order to further avail the real interest for this
+review article and filter out non-applicable studies;
+(3) Full content: results filtered from (2) had their full con-
+tent read and evaluated;
+(4) Extensive evaluation of every document present in
+“References” of articles filtered from (2).
+Results and discussion
+A large number of results was returned for the defined title
+search strings: “cigarette butt” resulted in approximately 300
+articles, “cigarette litter” was related to 12 papers and “ciga-
+rette filter” totalled over 400 results. After completion of the
+screening process, research was focused down to 87 refer-
+ences, 29 of which related to cigarette butt toxicity and 58
+associated with potential recycling applications of this waste.
+Cigarette butt toxicity
+There are different ways in which CBs threaten our environ-
+ment and living organisms. A summary of the research articles
+described in the following paragraphs, concerning CB toxici-
+ty, is given in Table 1 f o rp u r p o s e so fe a s i n e s so fo b s e r v a t i o n
+and comparison.
+10452 Environ Sci Pollut Res  (2021) 28:10450–10473
+
+
+=== PDF PAGE 4 === (printed page: 10453)
+Table 1 List of studies reporting ecotoxicological data of cigarette butts
+CB type Extraction methods Concentration r ange Tested organisms Main results Ref.
+Tobacco and cigarette butts No extraction —direct place-
+ment
+in soil and water spraying
+Tobacco—0t o2 5g / m2;C B s—1t o
+5/m2
+Parsley, coriander, basil,
+peppermint
+- Every plant subjected to tobacco reached the
+nicotine maximum residue level (MRL)
+of 0.01 mga nicotine per kg in the first week;
+- Concentration as low as 1 CB/m2 was enough
+to contaminate basil, peppermint, and
+coriander over the MRL.
+Selmar et al. 2018
+Smoked and unsmoked
+filters, without remnant
+tobacco
+Mixing with seawater and
+incubation for 96 h
+One filter per 40 ml
+solution.
+Diverse bacterial phyla - Smoked filter addition caused a depletion
+in Cyanobacteria and heterotrophic
+Bacteroidetes, while heterotrophic
+Gammaproteobacteria, Firmicutes,
+and Thermotogae showed an enrichment
+after the experiment.
+Quéméneur et al. 2020
+Regular and menthol
+cigarette butts, unsmoked,
+smoked without remnant
+tobacco, and smoked
+with ~ 1-cm remnant to-
+bacco
+No extraction—direct
+placement in mesocosm
+1 CB per mesocosm,
+equivalent to 61 CBs/m2
+Perennial ryegrass
+(graminae: Lolium
+perenne L.) and white
+clover (leguminosae:
+Trifolium repens L.)
+- Shoot length and germination success
+w e r es i g n i f i c a n t l yi m p a i r e db ye x p o s u r et o
+a n yt y p eo fC B ,f o rb o t hs p e c i e s ;
+- CBs caused increase in chlorophyll-a, for
+clover shoots, and in chlorophyll-b for
+ryegrass shoots;
+- Chlorophyll-a to -b ratio was increased
+for clover, and decreased for ryegrass.
+Green et al. 2019
+Regular cigarette butts,
+s m o k e dw i t h~1 - c m
+remnant tobacco of nine-
+teen
+filtered cigarette types
+Soaking in solution,
+with orbital shaker, for 24 h
+Geometrically increasing
+toxicant concentrations, up to 4
+CBs/l
+Cladoceran (Ceriodaphnia
+cf. dubia) and Microtox
+(Vibrio fischeri)
+- CBs showed EC50 (immobilisation—48 h)
+varying from 8.9 to 25.9 mg butts/l to
+Cladoceran;
+- CBs showed EC50 (bioluminescence—48 h)
+varying from 104 to 832 mg butts/l to
+Microtox.
+Micevska et al. 2006
+Regular cigarette butts,
+artificially smoked
+with ~ 1-cm remnant
+tobacco
+Soaking in drinking water
+overnight, at room
+temperature
+0.023 CB/l and 0.23 CB/l Freshwater mussel
+(Anodontites trapesiali)
+- Although there was no immune response
+suppression or morphometric changes in
+the haemocytes, nuclear abnormalities
+were induced.
+Montalvão et al. 2019b
+Regular cigarette butts,
+artificially smoked
+with remnant tobacco
+Soaking in drinking water
+overnight, at room
+temperature
+0.023 CB/l and 0.23 CB/l Freshwater mussel
+(Anodontites trapesiali)
+- Burrowing behaviour of tested subjects
+was atypical, indicative of sub-lethal effects
+caused by CB leachates.
+Montalvão et al. 2019a
+Smoked cigarette butts
+(SCB), smoked cigarette
+filters (SF), and unsmoked
+cigarette filters (USF)
+Soaking in dilution
+water for 24 h
+SCBs: 0.125 to 4 CBs/l;
+SF: 0.125 to 8 CBs/l; USF:
+0 . 5t o1 6C B s / l
+Topsmelt (Atherinops affinis)
+and fathead minnow
+(Pimephales promelas)
+- SCBs showed LC50 (96 h)b of 1 CB/l for
+both species;
+- SFs showed EC50 (96 h)c of 1.8 CB/l
+(topsmelt) and 4.3 CB/l (fathead minnow);
+- USFs showed LC50 (96 h) of 5.1 CB/l
+(topsmelt)
+and 13.5 CB/l (fathead minnow).
+Slaughter et al. 2011
+Smoked and unsmoked
+tobacco (ST and UST);
+smoked and unsmoked
+cigarette filter (SF and
+USF)
+Soaking in embryo
+solution with gentle
+stirring, for 24 h
+0.2 to 20 pieces/l Medaka embryios
+(Oryzias latipes)
+- Low concentrations
+(0.2 to 5 pieces/l) affected
+embryonic development and caused
+anxiety-like behaviour;
+- High concentrations (10 and 20 pieces/l)
+caused high lethality;
+Lee and Lee 2015
+10453Environ Sci Pollut Res  (2021) 28:10450–10473
+
+
+=== PDF PAGE 5 === (printed page: 10454)
+Table 1 (continued)
+CB type Extraction methods Concentration r ange Tested organisms Main results Ref.
+- Unsmoked cigarette filter did not cause harm,
+even with 20 pieces/l concentration.
+Regular cigarette butts,
+smoked without
+remnant tobacco;
+unsmoked
+Soaking in solution
+for 24 h
+0 . 6 2 5t o1 0g / l Hymenochirus curtipes
+Clarias gariepinus
+-S m o k e dC B ss h o w e dL C 5 0( 9 6h )o f1 . 9 2g / l ,
+for both species;
+- Unsmoked CBs showed LC50 (96 h)
+of 4.80 g/l, for both species.
+Lawal and Ologundudu
+2013
+Regular cigarette butts,
+smoked with at least 0.5-cm
+remnant tobacco
+Soaking in tap water,
+for 1 to 10 days to
+produce different solutions
+0.1 CB/l
+Days of exposure
+ranged from 1 to 10
+Aedes albopictus - Microcosms with CBs tended to cause
+more egg deposition as decomposition
+over time progressed;
+- Mortality rates of young larvae were
+significant in microcosms with CBs;
+- Larvae in late developmental stages were
+unaffected by CBs.
+Dieng et al. 2011
+Regular cigarette butts,
+artificially smoked
+Soaking in seawater,
+for 2 h, stirred
+every 20 min
+0.25 to 5 CBs/l Snail species Austrocochlea
+porcata, Nerita
+atramentosa,
+and Bembicium nanum
+Mortality: after 24 h, 5CBs/l concentration
+yielded 100% mortality toAustro and Nerita,
+while Bembic showed 0% mortality. Other
+concentrations did not cause death in 24 h,
+for all three species;
+Behaviours: responses were different among
+the three species, regarding sub-lethal
+behavioural changes, with possible
+implications to snail population dynamics.
+Booth et al. 2015
+Mentholated cigarette butts,
+naturally smoked, with a
+small amount of
+unsmoked and burnt
+tobacco
+Soaking in deionised,
+distilled water, for 48 h
+0 to 4 CBs/l Woodland snail Anguispira
+alternata
+- No mortality occurred during the 32-day study;
+food consumption and snail growth did not
+differ among the effluent concentrations;
+- During the first week, snails preferred to
+remain in a 0 CB habi tat than in habitats
+with 1, 2, and 4 CBs; this pattern largely
+disappeared after 3 weeks.
+Gill et al. 2018
+Regular cigarette butts,
+smoked and without
+remnant tobacco
+Soaking in solution,
+with orbital shaker, for 24 h
+0.5 to 8 CBs/l Ragworm Hediste
+diversicolor
+- 8 CBs/l was the lowest concentration that
+resulted in a significant effect in relative
+growth rate for CB leachate;
+- Exposure to 4 and 8 CBs/l leachates prevented
+burrowing capacity of all individuals during
+96 h
+observation;
+- Leachate concentration of 8 CBs/l caused
+significant DNA damage.
+Wright et al. 2015
+Cellulose fibres from
+artificially smoked
+regular
+cigarettes
+Attaching of the fibres to
+resistors, placed inside nests
+Information not available Parasites of house
+sparrows (Passer
+domesticus)
+and house finches
+(Carpodacus mexicanus)
+-P a r a s i t e st e n d e dt om o v ep r e f e r a b l yt oh e a t
+traps containing non-smoked fibres than
+those containing smoked fibres, presumably
+due to the presence of nicotine
+Suárez-Rodríguez et al.
+2013
+Cellulose fibres from
+artificially smoked
+regular cigarettes
+Information not available—
+nests
+Information not available House finches
+(Carpodacus mexicanus)
+- Positive correlation between proportion of CBs
+in nest and hatching, fledgling, and chick
+Suárez-Rodríguez and
+Garcia 2014
+10454 Environ Sci Pollut Res  (2021) 28:10450–10473
+
+
+=== PDF PAGE 6 === (printed page: 10455)
+Table 1 (continued)
+CB type Extraction methods Concentration r ange Tested organisms Main results Ref.
+evaluated for presence of
+CBs
+immune response of house finches (factors
+considered beneficial).
+- However, measurements of genotoxicity
+in blood cells were also correlated with
+CB presence in nests, indicating a potentially
+long-term harm to the species.
+Regular cigarette butts,
+naturally smoked, with ~
+1-cm remnant tobacco
+Soaking in drinking
+water, for 24 h
+Nicotine concentrations:
+1.9 μg/l and 1900 μg/l,
+60-day exposure
+Swiss female mice - Treatments did not cause locomotor, visual,
+auditory, and olfactory deficit in mice, and
+behaviour in test sessions with and without
+t h ep r e s e n c eo fas n a k ew a sn o ti m p a i r e d ;
+- All test groups showed defensive behaviour in
+test sessions with the presence of a cat, but
+there
+was a deficit in response for animals exposed
+to pollutants.
+Cardoso et al. 2018
+- Regular cigarette butt (RCB);
+- Menthol cigarette butt
+(MCB);
+- Electronic cigarette butt
+(ECB),
+after removal from
+e-cigarette
+Soaking in FETAXd
+solution for 1 h
+0 to 4 CBs/l (regular
+and menthol)
+0t o1 0C B s / l( e l e c t r o n i c )
+South African clawed
+frog Xenopus laevis
+- RCBs showed LC50 (96 h) of 1.2 CBs/l
+and EC50 (96 h) of 0.90 CBs/l.
+-M C B ss h o w e dL C 5 0( 9 6h )o f1 . 1 4C B s / l
+and EC50 (96 h) of 0.50 CBs/l.
+- ECBs showed LC50 (96 h) of 14.6 CBs/l
+and EC50 (96 h) of 16.3 CBs/l.
+Parker and Rayburn 2017
+a As defined by the European Union Commission decision no. 396/2005, 2009. Please refer to Selmar et al. 2018 for further information
+b LC50 is the concentration of CB that results in 50% mortality in a given time period (in this case, 96 h). Please refer to Slaughter et al. 2011 for further information
+c EC50 is the concentration of CB that results in 50% oftest organisms show a defined effect (in this case, immobilisation), in a given time period (in this case, 96 h). Please refer to Slaughter et al.2011 for
+further information
+d Frog Embryo Teratogenesis Assay–Xenopus (a toxicity test system that uses embryos of the South African clawed frog) . Please refer to Parker and Rayburn ( 2017) for further information
+10455Environ Sci Pollut Res  (2021) 28:10450–10473
+
+
+=== PDF PAGE 7 === (printed page: 10456)
+The potential for heavy metal leaching from discarded CBs
+was addressed elsewhere (Moriwaki et al. 2009; Moerman
+and Potts 2011; Dobaradaran et al. 2017; Dobaradaran et al.
+2018), and CBs have been demonstrated to be also a source of
+polycyclic aromatic hydrocarbon (PAH) contamination to the
+environment (Dobaradaran et al. 2019; Dobaradaran et al.
+2020). The changes in metal concentrations due to exposure
+to CBs also affect the diversity and distribution of microbial
+populations present in coastal sediments, as reported by
+Quéméneur et al. ( 2020). Even if CBs are the focus of this
+article, it should be noted that recent research by Mansouri
+et al. ( 2020) determined that cigarette ash can be more toxic
+than CBs indicating the importance of controlling this waste
+as well.
+Araújo and Costa ( 2019) described detrimental aspects of
+CB littering and accumulation in coastal areas in their recent
+review article, as well as information regarding the effective-
+ness of campaigns and actions towards CB pollution aware-
+ness and reduction. Another article (Loizidou et al. 2018)
+attempted to answer the question “Are regular beach clean-
+ups by local authorities efficient? ”, and showed that for nine
+beaches located in Cyprus, even after authorities cleaning pro-
+cedures, small pieces of litter (including CBs) still remained
+on the beach.
+The productivity of farm crops could be hindered by CB
+toxicity, as described by Green et al. ( 2019). These authors
+reported that littered CBs caused reduction in shoot length and
+germination success of both perennial ryegrass and white clo-
+ver, with potential harm to short-term productivity of these
+species. Food contamination is also possible. In fact, Selmar
+et al. ( 2018) reported that inappropriate disposal of CBs in
+agricultural fields by farm workers cause a substantial contam-
+ination of vegetable production due to nicotine uptake by
+plants. The new pathway of pollution was recorded with a
+single CB per square metre, with detectable alkaloid leaching
+into the soil and subsequent uptake by different crops. In this
+paper, we focus on adverse effects on life forms, including
+potential indirect damage to human species.
+The ubiquity of CB litter is responsible for turning CB into
+a new waste stream. As informed by Rebischung et al. (2018),
+the European List of Wastes does not have a specific entry for
+cigarette butts; instead, it is attached to an entry defined as
+“Municipal wastes including separately collected fraction/
+separately collected fraction/other fractions not otherwise
+specified”. The growing conscience about CB toxicity high-
+lights the need for determining which of the fifteen hazardous
+properties (HP)—a series of hazard classes according to the
+effect caused, defined in the Waste Framework Directive (EU
+2008)—would apply in order to complete its classification as a
+separate kind of waste. The authors centred their study on the
+most relevant hazard characteristics for this residue: HP4 (ir-
+ritant—skin irritation and eye damage), HP5 (specific target
+organ toxicity/aspiration toxicity), HP6 (acute toxicity), HP7
+(carcinogenic), HP8 (corrosive), HP10 (toxic for reproduc-
+tion), HP11 (mutagenic), HP1 3 (sensitising), and HP14
+(ecotoxic). Tests were conducted according to applicable reg-
+ulatory documents for three samples, obtained from CB-
+collecting companies in France. Two samples were dry, and
+one was wet. Chemical analyses were also performed to eval-
+uate all known pollutants of CB. Results indicated that sam-
+ples would be classified as hazardous only according to hazard
+characteristics HP6 (acute toxicity) and HP14 (ecotoxic).
+Concerning HP6, the authors state that nicotine is the main
+chemical responsible for toxicity, since its total content in two
+samples (0.48% and 0.60%) exceeded the 0.25% threshold for
+a specific category of substances. For HP14, ecotoxicity tests
+confirmed CB ecotoxicity, but conversely, a calculation meth-
+od applied did not classify CB as ecotoxic. Nevertheless, as
+the authors explain, “results of tests are to prevail”, and there-
+fore, CBs are also considered toxic according to this specific
+regulatory requirement.
+Chevalier et al. ( 2018) addressed the dangers of CB litter,
+but from a nanoscopic scale. Considering a previous study that
+showed air transfer of soot nanoparticles from partial combus-
+tion of cigarettes into human pulmonary system, the authors
+imagined that such type of nano-litter could be present in CBs,
+and contaminate leachates as well. One intrinsic characteristic
+of nanoparticles is their easiness to adsorb chemicals, such as
+metals and organic contaminants. This happens because of
+their small size and high surface area. In addition, due to its
+dimensions, it is a type of contaminant that is not easily
+contained by physical barriers. Using a mixture of 10 ml of
+synthetic rainwater and four CBs per vial, samples were put in
+a rotator-stirring machine under certain conditions for seven
+full days. After appropriate filtering and concentration of
+retentates, samples of both smoked and unsmoked CB leach-
+ates were analysed via different high-resolution techniques to
+measure important parameters such as size distribution, aggre-
+gation information, and fractal dimension. Total metal and
+organic carbon percentages were determined for these solu-
+tions. After conducting an ultra-filtering process, the authors
+found that a number of contaminant chemical elements are
+mostly present in the nano-scale particles than dissolved in
+the solution; this means that a simple chemical analysis of a
+filtered solution might not be representative of the real con-
+tamination potential of such a solution. Therefore, it is clear
+that the threats regarding nano-litter particles from CBs are of
+utmost importance and must be further studied in the future.
+Micevska et al. (2006) were amongst the pioneers to eval-
+uate the toxicity of CBs to marine life forms. Two species
+were subjected to different CB leachate solutions, with varied
+brands, tar content, etc. Results indicated the acute toxicity
+that CB impairs to these organisms. In fact, concentrations
+as low as 25.9 mg/l and 832 mg/l were proven to be toxic to
+the cladoceran Ceriodaphnia cf. dubia and bacterium Vibrio
+fischeri.
+10456 Environ Sci Pollut Res  (2021) 28:10450–10473
+
+
+=== PDF PAGE 8 === (printed page: 10457)
+More recently, Montalvão et al. ( 2019b)s t u d i e dh o wa n -
+other invertebrate species —freshwater mussel ( Anodontites
+trapesiali)—responded to CB litter contamination, finding ev-
+idence of mutagenic alteration in the subjects confirmed by
+results of bioaccumulation of chemical elements. In another
+article (Montalvão et al. 2019a), the same research group re-
+ported behavioural changes in the same species after 14 days
+of exposure to CB contamination.
+Slaughter et al. ( 2011) were the first to study toxicity as-
+pects of CB leachate samples to vertebrates—in this case, fish,
+which are ecologically important organisms, often considered
+indicators of healthy aquatic biomes. A marine species
+(topsmelt—Atherinops affinis) and a freshwater species (fat-
+head minnow —Pimephales promelas) were considered test
+subjects in this study. In addition, different sample conditions
+were considered —smoked cigarette butts (smoked filter +
+remnant tobacco), smoked cigarette filters (no tobacco), and
+unsmoked cigarette filters (no tobacco). Leachates were pre-
+pared to concentrations ranging from 0.125 to 16 CBs per litre
+of solution, which was either dilution water (for fresh water
+testing) or natural seawater. The LC50—the concentration of
+CBs that causes 50% mortality—was calculated for each con-
+dition considering 96 h. As expected, smoked CBs showed the
+highest mortality rates, because of toxic chemicals present in
+remaining tobacco. In this condition, the LC50 was roughly 1
+CB/l of solution. By removing this remnant tobacco from the
+smoked CB, LC50 increased to 1.8 CBs/l (topsmelt) and 4.3
+CBs/l (fathead minnow); finally, the unsmoked CB resulted in
+a LC50 of 5.1 CBs/l (topsmelt) and 13.5 CBs/l for the fathead
+minnow. Comparing these values with previous mortality
+rates reported in the literature, the authors show that species
+such as Ceriodaphnia cf. dubia and Daphnia magna (aquatic
+invertebrates) are more susceptible to tobacco and CB toxicity
+than the tested fishes, with toxicity apparent at 0.08 to 0.25
+CBs/l.
+Lee and Lee (2015) found corresponding results when ver-
+ifying the developmental toxicity of CB leachates in rice fish
+embryos (Oryzias latipes). While low concentrations of leach-
+ates from unsmoked and smoked cigarette tobacco, as well as
+smoked filters, caused raised heart rate, accelerated develop-
+ment, and changed behaviour, high concentrations caused re-
+duction in heart rate, suppression of development, and in-
+creased mortality. Testing with unsmoked cigarette filters
+showed no effect, even at the highest concentration, also sug-
+gesting that CB toxicity derives from tobacco plant itself and
+from the by-products of its combustion.
+Lawal and Ologundudu (2013) conducted another compre-
+hensive study about CB leachate toxicity. They observed the
+lethality of both smoked and unsmoked CBs to two aquatic
+species: the western dwarf clawed frog ( Hymenochirus
+curtipes) and the North African catfish ( Clarias gariepinus).
+Standard 10 g/l solutions were prepared and allowed to rest for
+24 h. After filtering, CB leachate solutions had their
+physicochemical properties evaluated, such as temperature,
+pH, and heavy metal concentration. For the bioassay, re-
+searchers produced five effluent concentrations from the orig-
+inal solutions, ranging from 6.25 to 100% of stock solution
+concentration. Mortality rates were verified after 24 h, 48 h, 72
+h, and 96 h of exposure. Results from physicochemical anal-
+yses showed significant contents of heavy metals in both so-
+lutions, higher than the Federal Environmental Protection
+Agency (FEPA) acceptable limits for effluents for all tested
+elements, except cadmium and copper. Characteristics as
+odour, colour, dissolved oxygen, and pH range were found
+to be also inappropriate. The authors reported significant dif-
+ferences between the mortality of unsmoked and smoked CB
+leachates. Indeed, after 24-h and 48-h exposure, smoked CBs
+were found to be six times more toxic than their unsmoked
+counterpart; this difference dropped to 2.5 times more toxicity
+at the end of the experiment (96-h exposure).
+In 2011, Dieng et al. ( 2011) studied the response of mos-
+quito larvae (Aedes albopictus) to the presence of CBs regard-
+ing ovipositing (the laying of eggs), larval eclosion, and de-
+velopment. Results indicated that females did not avoid CB-
+rich habitats to lay their eggs in comparison to the control
+environment, but CB presence heavily influenced the mortal-
+ity of young individuals (in early larvae development stages).
+These findings indicated the potential use of CB as vector
+control material, since it would attract the deposition of eggs
+and kill young larvae. Indeed, a 2013 article published by the
+same group of researchers (Dieng et al. 2013) addressed this
+question, as will be discussed further in this review paper.
+Molluscs that dwell in aquatic environments may also be
+affected by CB leachate toxicity. Booth et al. (2015) evaluated
+the impacts of CB leachate on three different species of tide
+pool snails, i.e. snails that live near the shore and remain for a
+significant part of their life in tide pools. A CB leachate solu-
+tion was produced by placing five CBs per litre of seawater,
+and letting it soak for 2 h. After removing all particles from the
+solution, it was then diluted at 5%, 10%, 25%, and 100%
+concentrations. The authors observed behaviour and activity
+of the snails after different time intervals. Results showed
+100% mortality of all species after 8-day exposure at 100%
+leachate concentration (5 CBs/l), confirming the lethal toxicity
+of CB leachates. Overall, when compared to other studies
+involving aquatic life forms, these snails seemed to have more
+resistance to CB toxicity. Exposure to lower concentrations, or
+shorter time intervals, exhibited variance in response of each
+species of snail activity and behaviour. This difference in sus-
+ceptibility among snail species indicates that high CB pollu-
+tion may alter community dynamics by differentially affecting
+certain prey, and thereby predator-prey interactions.
+Interestingly, snails with terrestrial habits seem to suffer
+less from CB toxicity, as described in a paper by Gill et al.
+(2018). In their first experiment, soil habitats moistened with
+leachate solutions of equivalent CB concentrations ranging
+10457Environ Sci Pollut Res  (2021) 28:10450–10473
+
+
+=== PDF PAGE 9 === (printed page: 10458)
+from 0 to 4 butts/l yielded zero mortality after 32 days, and no
+difference in behaviour (namely, food consumption and shell
+growth) was observed. In the second test, snails were placed in
+a round chamber, with each quadrant containing different
+quantities of CBs directly placed on the soil. Snails could then
+choose where to stay, and results showed an initial preference
+for the control compartment (no CBs), but after day 20 the
+preference for this area was not significant. These results sug-
+gest that leaching of toxicants may occur in a less pronounced
+manner in land than in aquatic environments.
+Research by Wright et al. (2015) about the harmful effects
+of CB poisoning in ragworms indicated a similar trend. The
+authors wanted to evaluate how toxic CBs could be to the
+polychaete worm (Hediste diversicolor), an important benthic
+organism. The potential harm of nicotine to these organisms
+was tested in two conditions. In the first, CB leachate solutions
+were prepared and added to the specimens ’ habitats in differ-
+ent concentrations, promoting a transdermal nicotine uptake,
+while in the second, solid fragments of smoked CBs were
+added to soil sediments, and nicotine poisoning occurred
+through ingestion. Results showed that leachate solutions
+caused impairment in burrow ing times, weight loss, and
+DNA damage, whereas the experiment using solid fragments
+did not cause significant effects.
+CB littering can affect natural behaviours of species that
+live or adapted to live in urban areas, such as birds, for exam-
+ple. Birds sometimes incorpor ate unusual materials in their
+nests, including man-made materials, often with no apparent
+reason (Igic et al. 2009). These materials may act as defence
+mechanisms, to repel potential parasites or to stimulate the
+offspring ’s immune system. As highlighted in the work of
+Suárez-Rodríguez et al. (2013 ), there is evidence that
+smoked CBs are becoming one such defence mechanism.
+The cocktail of chemicals trapped in smoked CBs is actually
+an advantage in this case, because it can affect distinct para-
+sites that are already resistant to traditional chemical prod-
+ucts. Using heat traps to attract common bird ectoparasites,
+the authors found that the trap containing smoked CBs was
+less accessed than the trap with unsmoked CBs, presumably
+due to nicotine presence. In this sense, it is shown that incor-
+porating CBs into nests attends one of the conditions neces-
+sary to be classified as self-defence mechanism: it is delete-
+rious to parasites. Later, Suárez-Rodríguez and Garcia
+(2014) found a positive correlation between the CB propor-
+tional usage in nest building and hatching success, fledging
+success, and chick immune resp onse. The findings indicate a
+positive effect from CB addition to the nests, but signs of
+genotoxicity also increased when more butt cellulose was
+present in the nest. Recently, Suárez-Rodríguez and Garcia
+(2017) identified that the addition of cigarette butts in these
+birds’ nests occur as a response to the presence of ectopara-
+sites, and not simply because of a resemblance between CBs
+and feathers.
+Mammals are not free from CB contamination. According
+to a study by Cardoso et al. ( 2018), water contamination in-
+volving cigarette residues can alter the anti-predator behaviour
+of female Swiss albino mice. This is an important character-
+istic (anti-predator response) because it relates directly to the
+central nervous system, since survival when facing a predator
+is a primitive instinct. Leachate solutions were prepared at two
+different nicotine concentrations, one considered an environ-
+mental level (1.9 μg/l) and one as a concentrated solution (a
+thousand times more concentrated than the environmental lev-
+el). Animals were fed these solutions for 60 days, and their
+behaviour was tested in various ways, starting on day 55.
+These tests included an open-field test, a locomotion test in-
+duced by a light source; olfactory and auditory tests; and,
+finally, their response to the presence of predators (snakes
+and cats). Overall, the presence of nicotine did not influence
+eating or drinking behaviour of test subjects, and no visible
+signs of intoxication were found. Locomotor activity and au-
+ditory and olfactory senses, which are all simultaneously in-
+volved in a predator-response situation, were also found to be
+unaffected in individual tests. However, when considering the
+presence of a predator, responses varied within sample groups.
+Animals subjected to nicotine intoxication remained for
+shorter times in the safe area and had higher frequency upright
+and higher frequency freezing, evidencing an impaired re-
+sponse to a predator. The authors did not observe a dose-
+dependent relation, meaning that even at low concentrations,
+nicotine can affect negatively structures associated with fear
+responses, at biochemical or molecular level.
+A recent class of products which might contribute to re-
+duced CB litter worldwide is electronic cigarettes. These prod-
+ucts convert a nicotine solution into a vapour that is inhaled by
+the customer, and therefore produces no CBs. The absence of
+this contaminant medium (CBs) is a major advance regarding
+environment toxicity, but the toxic aspects of the nicotine
+solution used in these products must be also considered as
+well as the correct disposal of these electronic devices.
+Parker and Rayburn (2017) studied the toxicity of disposable
+electronic cigarettes to aquatic organisms. Embryos of the
+South African clawed frog ( Xenopus laevis)w e r ee x p o s e dt o
+leachates of regular cigarette butts, flavoured cigarette butts,
+an
+d electronic cigarette residue. After a 96-h exposure period,
+with controlled conditions, median values of lethal concentra-
+tion (LC50), malformation (EC50), non-observed adverse ef-
+fect concentration (NOAEC), and lowest observed adverse
+effect concentration (LOAEC) were calculated for each leach-
+ate. LC50 and EC50 values obtained for traditional (1.2 and
+0.90 CBs/l) and flavoured cigarettes (1.14 and 0.50 CBs/l)
+were consistent with those reported in previous articles, for
+other aquatic species, and confirm the acute toxicity of these
+litter forms to aquatic life. The toxic potential of a disposable
+e-cigarette, however, was shown to be 10 times lower than
+traditional cigarettes (even flavoured ones), with LC50 and
+10458 Environ Sci Pollut Res  (2021) 28:10450–10473
+
+
+=== PDF PAGE 10 === (printed page: 10459)
+EC50 values of 14.6 and 16.31 CBs/l, respectively.
+Associating this information with the fact that a single e-
+cigarette is equivalent to approximately 40 traditional ciga-
+rettes, the authors state that aquatic environmental impact of
+e-cigarette butts could potentially be 400 times lower than
+traditional CBs.
+It is worth noting, however, that the aforementioned study
+focused only on disposable e-cigarettes; it was performed on a
+sound e-cigarette component without any physical damage
+that could alter its toxic properties, and is not representative
+of products that are more complex, with refilling options, for
+example. In this regard, Baran et al. (2020)c o n s i d e r e dw a s t e s
+such as cartridges and e-liquids as well as heat-not-burn to-
+bacco products to evaluate their effects on microorganisms via
+a commercial multispecies microbial assay for risk assessment
+(MARA) test. They found that waste from e-cigarettes do not
+represent a serious threat to the microbiocenosis, while heat-
+not-burn tobacco product waste showed a strong toxic effect
+on the investigated microorganisms.
+Cigarette butt recycling solutions
+Clearly, CB disposal habits and collection/cleaning proce-
+dures are crucial to reduce potential toxic contamination of
+environments, and subsequent harm to a myriad of living spe-
+cies. Nevertheless, if value could be attributed to this litter
+item, an additional layer of interest would be included which
+could improve actions towards an ideal scenario of CB dis-
+posal and collection. Table 2 reports the different proposed
+applications for CBs related in this work.
+Scientific literature contains a number of propositions to
+reuse CBs, either in the “as-collected” condition without any
+pre-treatment or after some kind of treatment. Perhaps, the
+most direct use of smoked CBs is to produce cellulose acetate,
+a possibility described by Benavente et al. ( 2018). Similar
+research was conducted by Hemamalini et al. (2019), in which
+cellulose acetate nanofibrous mat was obtained from cigarette
+filter waste. The following subsections will further discuss
+other proposed applications of CBs.
+Biocide
+An interesting application was proposed by Dieng et al.
+(2013), in an article aimed at verifying the influence of CB
+chemicals in Aedes aegypti, a vector of dengue. Using leach-
+ate solutions obtained with deionised water and varying con-
+tents of smoked CBs leaching for 24 h, the authors studied the
+mortality rates of A. aegypti in different stages of larvae evo-
+lution. A control sample was also produced, having no
+smoked CBs in the solution. A significant relation between
+the quantity of smoked CBs in the solution and mortality
+effect for all larvae development stages was determined. In
+addition, younger larvae were found to be more sensitive to
+the presence of toxic elements, for all concentrations tested.
+Overall, the results showed that CBs have potential to serve as
+source material for insecticide production aimed at controlling
+Aedes aegypti. Issues that the authors considered material for
+future studies, at the time, were the potential geno- and cyto-
+toxic effects on humans that these solutions may have as well
+as their acceptability in regional communities. Interestingly,
+they also consider that, if decomposing CBs are shown to have
+the same potential, ashtrays that act as lethal A. aegypti traps
+could be produced.
+One year later, the same research group published another
+study (Dieng et al. 2014) concerning the influence of CB
+toxicity on diverse behaviours of adult vectors of Aedes
+aegypti . They found that oviposition and larval eclosion
+rates were not significantly reduced in substrates containing
+CB leachates. However, results showed reduced fecundity of
+female adults that developed as larvae in a habitat containing
+CB leachates, as well as reduced lifespan when compared to
+control groups. Later on, Murugan et al. ( 2018) applied this
+concept to malaria vectors, showing that solutions originated
+from CBs showed highly toxic properties to young instars and
+adults of Anopheles stephensi, but did not alter the predatory
+efficiency of Mesocyclops aspericornis(a predator of mosqui-
+to larvae).
+Corrosion inhibition
+Zhao et al. ( 2010a) are among the first researchers to turn to
+CBs for value, investigating the potential of CB leachate so-
+lutions as corrosion inhibitors in N80 steel, a material used in
+the oil extraction industry. Using a solution consisting of five
+CBs in 100 ml of distilled water, aged for 24 h, the authors
+determined the presence of compounds that act in favour of
+metal corrosion inhibition, by mechanisms described in the
+original article. Overall, inhibition action relates to the con-
+centration of cigarette butts in water extracts. For a 5 CBs/l
+solution, maximum inhibition efficiencies of 94.6% and
+91.7% in acidified 10% and 15% HCl solutions were found.
+Additional studies by the same research group found that aer-
+obic CB water extracts are more efficient than anaerobic so-
+lutions (Zhao et al. 2010b), and that CuCl addition promotes a
+synergistic effect to recycled CBs in inhibiting this specific
+corrosion scenario (Zhang et al. 2011).
+Fillers and binders
+Lai et al. (2015) studied the incorporation of cigarette butts as
+a reinforcement in natural rubber, up to 10% in percentage
+weight, via rolling in a two-roll mill according to ASTM stan-
+dards. The authors found that the addition of an optimal 4% in
+weight of cigarette butts to the material improved mechanical
+characteristics such as tensile strength, tear strength and max-
+imum torque, yielding properties higher than those of the
+10459Environ Sci Pollut Res  (2021) 28:10450–10473
+
+
+=== PDF PAGE 11 === (printed page: 10460)
+Table 2 List of studies reporting proposed recycling solutions for cigarette butt management
+CB condition Preparation methods Proposed use Main results Ref.
+Smoked butts with
+1c mo f
+unburnt tobacco
+Soaking in deionised water As a novel insecticide product - Aedes aegypti larvae are vulnerable
+to the presence of CBs in their
+habitats, and mortality was
+verified.
+Dieng et al. 2013
+Smoked butts in
+diverse conditions
+Soaking in aqueous
+solutions; extraction
+with ethanol and
+other solvents
+As a source for recovery of
+cellulose acetate
+- Solid cellulose acetate was
+obtained and characterised.
+Benavente et al. 2018
+Discarded cigarette butts Nicotine extraction with
+methanol, followed by
+fibre drying
+As a source for cellulose
+acetate nanofibrous mat
+- Authors obtained uniform,
+bead-free cellulose acetate fibre,
+at 12% weight by volume
+concentration of cellulose
+acetate.
+Hemamalini et al. 2019
+Regular cigarette butts,
+artificially smoked
+with remnant tobacco
+Soaking in deionised water As a novel insecticide product. - CB solutions were attractive
+to gravid females of dengue
+vectors, and yielded decreased
+life span among adults that
+survived CB exposition.
+Dieng et al. 2014
+Regular cigarette butts,
+naturally smoked,
+with and without
+remnant tobacco;
+unsmoked cigarette butts
+Soaking in distilled water,
+boiling, reduction
+with AgNO3 solution
+For the synthesis of Ag
+nanostructures toxic
+to malaria vector, malaria
+parasites and microbial pathogens
+- Larvicidal and pupicidal toxicity
+on malaria vector were verified;
+- A single treatment with CB
+extracts and Ag nanostructures
+reduced significantly the
+hatchability of malaria vector
+eggs;
+- Treatments did not impair the
+predatory efficiency of a
+natural predator of malaria
+vector.
+Murugan et al. 2018
+Smoked cigarette butts,
+collected from the road
+Soaking in distilled water As corrosion inhibitor for N80
+steel at 90 °C in hydrochloric acid
+- Results showed excellent inhibition
+properties, attaining 94.6%
+efficiency in 10% HCl solution,
+with 5% inhibitor.
+Zhao et al. 2010a
+Used cigarette filters Extraction of cellulose
+acetate from CBs,
+and drying
+As reinforcing filler for
+natural rubber
+- The addition of an optimal
+4 parts per hundred rubber of
+cellulose acetate is beneficial
+in improving rheological and
+mechanical properties.
+Lai et al. 2015
+Cigarette butts of different
+brands and sizes,
+collected from dry receptacles
+Disinfection at 105 °C
+for 24 h
+To be recycled into fired
+clay bricks
+- Inclusion of CBs reduces mechanical
+properties of fired clay bricks,
+but there is a firing energy
+saving in the process;
+- Proposal: inclusion of 1% CBs
+in fired clay bricks would not
+cause significant decrease in
+Mohajerani et al. 2016
+10460 Environ Sci Pollut Res  (2021) 28:10450–10473
+
+
+=== PDF PAGE 12 === (printed page: 10461)
+Table 2 (continued)
+CB condition Preparation methods Proposed use Main results Ref.
+properties, while being effective
+at getting rid of CBs.
+Cigarette butts of different
+brands and sizes,
+collected from dry
+receptacles.
+Disinfection at 105 C
+for 24 h.
+To be recycled into fired clay
+bricks, in percentages
+up to 2% in weight.
+- Despite mechanical properties
+reduction, energy during firing
+process was reduced up to 14%,
+due to the presence of CBs;
+- Authors confirmed what was
+proposed in a previous
+study—inclusion of 1% CBs
+in fired clay bricks would not
+cause significant decrease in
+properties, while being effective
+at getting rid of CBs.
+Kurmus and Mohajerani 2020
+Cigarette butts picked
+from the roads,
+without tobacco
+Disinfection via sun drying,
+for 3 days; grinding
+in mixer
+To be incorporated into precast
+concrete blocks for paving
+- Inclusion of 0.1% CBs in
+weight did not reduce
+compressive strength of
+precast concrete blocks
+significantly, while flexural
+strength slightly increased.
+CBs could be included in these
+percentages (< 0.25% in weight)
+to obtain good quality
+precast concrete blocks.
+Wadalkar et al. 2018
+Cigarette butt waste Submersion in water and drying
+for 24 h at 80 °C
+As filler for gypsum composites - Mechanical behaviour improved,
+except for bond strength
+which showed no improvement.
+Acoustic absorption was
+not altered.
+Morales-Segura et al. 2020
+Smoked CBs, varied Drying at 105 °C for 24 h;
+encapsulation by saturation
+in hot bitumen
+To be incorporated into asphalt
+concrete for pavement
+construction
+-C B si n1 0a n d1 5k g / m3 ratios
+could be successfully incorporated
+into asphalt concrete, with
+acceptable properties.
+Mohajerani et al. 2017
+Smoked CBs, varied Oven drying for 24 h; removal
+of excess tobacco;
+shredding into fibre using
+grinder
+As fibre modifier in bitumen
+for the construction of
+flexible pavements.
+-C B sc a nb eu s e da sf i b r e
+modifier for bitumen, in order
+to produce flexible pavements.
+Rahman et al. 2020
+Used cigarette filters
+collected from
+local shop garbage bin
+Drying and pyrolysis at
+900 °C for 2 h
+Production of electrically
+conducting material
+- Obtained pyrolyzed material
+has good conductive properties,
+and can be used in different
+electronic fields while
+reducing environmental
+pollution.
+Ghosh et al. 2017
+Cellulose acetate powder - As filler in PVC cement/cellulose
+acetate composite
+- Real permittivity, dielectric
+loss, and loss tangent increase
+with increasing cellulose
+acetate filler content.
+Hussein et al. 2017
+10461Environ Sci Pollut Res  (2021) 28:10450–10473
+
+
+=== PDF PAGE 13 === (printed page: 10462)
+Table 2 (continued)
+CB condition Preparation methods Proposed use Main results Ref.
+Smoked CBs collected
+from smokers
+No chemical modification To obtain active material for
+supercapacitor electrode
+- An asymmetric supercapacitor
+produced with this precursor
+material showed excellent
+long cycle-life.
+Wang et al. 2016
+Smoked CBs collected
+from common areas
+Crushing; drying at 80 °C
+to constant weight
+Production of functional carbon
+precursor for supercapacitors
+and adsorbents
+- Obtained material (with nitrogen
+doping) showed specific
+capacitance of 199 F/g (1 A/g)
+in 6 M KOH electrolyte.
+Maximum roxarsone
+adsorption capacity was
+679 mg/g, which shows
+potential for organic
+pollutant removal.
+Li et al. 2020
+Smoked CBs Cutting into small pieces
+and grinding
+To produce nickel oxide@nitrogenous
+mesoporous carbon
+nanocomposite for
+high-performance supercapacitor
+- Produced material showed
+h i g hs u r f a c ea r e a( ~1 8 4 3m2/g)
+as well as specific capacitance
+of ~ 740 F/g at 1 A/g in
+6 M KOH.
+Ubaidullah et al. 2020
+Smoked CBs Cleaning and cutting into
+small pieces
+To produce N-doped carbon anode
+in lithium-ion battery
+- Anode made with this
+material showed satisfactory
+electrochemical performances.
+Yu et al. 2018
+Smoked CBs Separation from coating As source for promising anode
+material for lithium-ion batteries
+- Anode made with this material
+presented good cycling
+stability and rate capability.
+Wang et al. 2018
+Smoked CBs, collected
+from public ashtrays
+Soaking in distilled water
+for 24 h; sonication
+in ethanol for 5 h;
+drying at 80 °C for 6 h
+As source for cellulose acetate,
+to construct a cellulose-based
+membrane separator for
+high-performance
+lithium-ion battery
+- Cellulose-core fibrous membrane
+displayed properties better
+than commercial separators
+and potential to be used in
+high-power lithium-ion batteries.
+Huang et al. 2015
+Smoked CBs, collected
+from public ashtrays
+Removal of wrapping paper and
+cutting into small pieces
+To convert into N,S-codoped
+carbon dots
+- As-produced carbon dots were
+highly fluorescent, with
+good production yield and a
+multi-functional nature.
+Bandi et al. 2018
+Discarded cigarette filters Washing; drying at 60 °C;
+mixing with doubly
+deionised water;
+autoclaving at 200 °C for 6 h
+Production of carbon quantum dots - As-prepared carbon quantum
+dots displayed satisfactory
+results in detecting Sudan Ia.
+Anmei et al. 2018
+Discarded cigarette filters Separation from paper and tobacco;
+soaking and washing with water
+For isolating nanocrystalline cellulose - Cellu lose nanocrystals were
+successfully isolated, with
+good crystallinity indexes.
+Ogundare et al. 2017
+Smoked CBs; unsmoked
+CBs; purchased butts
+No pre-treatment As sound-absorbing material - High-absorption coefficients
+were observed from mid
+frequencies, with performance
+better than other commercial
+products measured.
+Escobar and
+Maderuelo-Sanz2017
+Smoked CBs; unused,
+purchased butts
+As sound-absorbing material - Comparison with commercial
+fibre materials showed that,
+Maderuelo-Sanz et al. 2018
+10462 Environ Sci Pollut Res  (2021) 28:10450–10473
+
+
+=== PDF PAGE 14 === (printed page: 10463)
+Table 2 (continued)
+CB condition Preparation methods Proposed use Main results Ref.
+Drying at 80 °C for 72 h;
+separation from paper;
+shredding into short fibres
+for a given thickness,
+performance is similar or better.
+Used CBs Separation of filters To promote catalysis in oxygen
+reduction reaction
+- N-doped carbon support
+demonstrated to be a promising
+support material for Pt
+nanoparticles towards oxygen
+reduction reaction catalysis.
+Kim et al. 2016
+Used CBs No pre-treatment Preparation of energy storage
+material for a supercapacitor
+electrode
+- Material exhibited better rate
+capability and higher specific
+capacitance when compared
+to conventional activated carbons.
+Lee et al. 2014
+Collected CBs Cut and mixed with deionised water,
+subjected to 250 °C for 3 h
+Preparation of nitrogen-doped
+CB derived carbon
+- Obtained carbon showed
+excellent specific capacitance,
+good rate performance,
+and high cycling stability.
+Meng et al. 2019
+Waste cigarette filters Removal of wrapping paper and
+treating with deionised water
+Production of hierarchically
+porous carbon@graphene
+composites for
+lithium-sulphur batteries
+- Obtained cathode exhibited
+excellent electrochemical
+performance, in terms of
+cyclability over 1000 cycles
+and superior rate capability.
+Xu et al. 2019
+Cigarette filters Several washing procedures; drying
+for 72 hours; heat treating
+at 230 °C, in vacuum oven, for 3 h
+To obtain activated carbon
+via KOH chemical activation
+- Surface area and pore
+diameter resulted in good
+optimum adsorption
+capacity for methylene blue.
+Hamzah and Umar 2017
+Cigarette butts collected
+from the city
+Drying; removal of excess tobacco;
+grinding
+To synthesise hydrochar
+for adsorption of pollutants
+- Results indicated the potential
+of these hydrochars in
+applications for removal of
+organic pollutants from
+aqueous solutions.
+Lima et al. 2018
+CBs collected from
+10 smokers
+over a period
+of 2 months
+Oven drying at 80 °C for 12 h,
+impregnation in NaOH solutions
+To obtain activated carbon - Activated carbons produced
+from fibres subjected to
+pre-swelling process
+showed an increase of
+up to 47% in specific
+surface area.
+Koochaki et al. 2020
+Smoked CBs collected
+from laboratory colleagues
+Removal of wrapping paper and
+remnant tobacco
+As source material for the
+production of a flow reactor
+- A turnover frequency of
+370 h−1 for reduction
+of 4-nitro-phenol was
+reported, with great
+potential for water
+treatment.
+Xie et al. 2020
+Smoked CBs Not informed As source of carbon to produce
+niobium carbide/carbon
+- A 54.38% photodegradation
+of methylene blue dye
+Gupta and Pandey 2018
+10463Environ Sci Pollut Res  (2021) 28:10450–10473
+
+
+=== PDF PAGE 15 === (printed page: 10464)
+Table 2 (continued)
+CB condition Preparation methods Proposed use Main results Ref.
+nanocomposite, for
+photocatalyst activity
+w a sr e p o r t e di n8 - h
+illumination.
+Used and unused CBs Removal of wrapping paper;
+grinding
+To produce porous carbons
+with ultra-high surface area
+- Hydrogen storage capacity
+reported was the
+highest reported to
+date (at the publication
+of the paper).
+Blankenship and Mokaya 2017
+Used CBs Separation of the filter part;
+removal of wrapping
+paper; cutting
+To be converted into sensor
+material for an
+antihypertensive drug
+- Recovery values from
+100.25 to 101.25%
+proved successful
+application for real
+sample analysis.
+Developed sensor could
+be usable, with excellent
+stability and repeatability
+variation parameters.
+Bilge et al. 2019
+Cigarette filters No pre-treatment As a component of a composite
+aimed at adsorption of
+phenylbutazone from
+aqueous media
+- Resulting composite showed
+remarkable properties as
+an adsorbent for
+phenylbutazone.
+A maximum adsorption
+capacity of 102.22 mg g−1
+was obtained, suggesting
+suitability for use in
+environmental and analytical
+studies. Satisfactory thermal
+stability and resistance to
+leaching was also observed.
+Nascimento et al. 2016
+Discarded CBs,
+collected from
+smoking areas
+Soaking in water; cutting
+of burned tips; repeated
+washing; drying
+For extraction of cellulose
+nanocrystals and nanofibres,
+to be used in removing
+diclofenac from water
+- Synthesised material showed
+diclofenac maximum
+removal capacity of 107.90
+mg g−1. Celluloses extracted
+from discarded CBs offer
+promising potential for
+diclofenac removal from water.
+Abu-Danso et al. 2019
+Smoked cigarette filters Carbonisation at 500 °C for 2 h
+under argon atmosphere;
+impregnation into KOH solutions
+To produce CB based activated
+carbon, aiming removal
+of ciprofloxacin (CIP)
+and sodium dodecyl
+sulphate (SDS) from
+aqueous solutions
+- Activated carbon reached specific
+surface area values of 2726 m2/g.
+CIP adsorption process was
+shown to be spontaneous,
+while SDS showed non-spontaneous
+adsorption.
+Zhang et al. 2020b
+Discarded cigarette filters Removal of remnant tobacco;
+removal of wrapping paper;
+grinding
+To produce activated carbon
+for radionuclides adsorption
+- Resulting material showed adsorption
+capacity of 106 mg/g, much
+higher than that of untreated
+activated carbon (31 mg/g),
+with very desirable adsorption
+Pu et al. 2019
+10464 Environ Sci Pollut Res  (2021) 28:10450–10473
+
+
+=== PDF PAGE 16 === (printed page: 10465)
+Table 2 (continued)
+CB condition Preparation methods Proposed use Main results Ref.
+selectivity. Activated carbon
+material derived from discarded
+CBs may be a potential adsorbent
+for removing U(VI)b from
+nuclear wastewater.
+Collected CBs Washing with ethanol and water
+several times
+To obtain highly porous carbons
+for capture and reversible
+storage of CO2 and volatile iodine
+- Resulting porous carbons showed
+excellent iodine uptake as well
+as high CO2 adsorption capacity,
+both among the highest values
+reported up to the date when the
+article was published. Porous
+carbon from CBs exhibit great
+potential in reversible adsorption
+of radioactive iodine and CO2.
+Sun et al. 2017
+Collected smoked
+cigarette butts
+Separation from wrapping paper;
+washing with deionised water;
+drying
+To obtain mesoporous carbonaceous
+materials for phenol adsorption
+and CO2 capture
+- Obtained materials showed
+considerable performance for
+phenol adsorption and CO2
+capture, indicating a new
+way to recycle CBs.
+Chen et al. 2015
+Used cigarette filters Direct pyrolysis without any
+pre-treatment
+To produce charred carbon
+for lead removal
+from aqueous solution
+- Removal efficiencies of
+obtained materials are
+within acceptable range
+when compared to other
+adsorbents aimed at
+removing lead from
+aqueous solutions.
+Soltani et al. 2015
+Smoked and unused cigarette filters No pre-treatment To produce selective adsorbent
+of tobacco-specific nitrosamines
+- Obtained sorbents presented
+high adsorption capability
+of mesopore and shape
+selectivity of micropore.
+Li et al. 2019
+Smoked CBs collected from
+restaurant smoking room
+Washing with ethanol As a component to produce an
+electroreduction cell for
+hexavalent chromium
+removal from groundwater
+- A maximum removal efficiency
+of 99.7% was observed at a
+flow rate of 5 ml min −1
+and current of 0.05 A.
+Dorosti et al. 2020
+Cigarette filters Cleaning; shredding; ultrasonication
+with ethanol
+As a raw material for fabricating
+superhydrophobic and
+oleophilic material for
+oil-water separation
+- Fabricated filters showed oil
+sorption capacities considered
+satisfactory, without significant
+deterioration after 20 cycles of reuse.
+Ifelebuegu et al. 2018
+Collected CBs after use Ultrasonical treatment in ethanol;
+drying
+As a raw material for fabricating
+superhydrophobic and
+superoleophilic material
+for oil-water separation
+- Samples yielded 98% efficiency in
+separation of free oil-water mixtures,
+using the driving force of gravity.
+Liu et al. 2015
+Collected cigarette filters Ultrasonication in ethanol; immersion
+in NaOH solution; successive
+ultrasonication in ultrapure water
+and ethanol
+As source material for producing
+superhydrophobic
+fibres for oil spill clean-up
+- In a staged spill of kerosene in water,
+prepared material presented 96%
+clean-up efficiency, without
+decrease after 10 cycles of use.
+Ou et al. 2016
+10465Environ Sci Pollut Res  (2021) 28:10450–10473
+
+
+=== PDF PAGE 17 === (printed page: 10466)
+Table 2 (continued)
+CB condition Preparation methods Proposed use Main results Ref.
+Collected cigarette filters No pre-treatment described To obtain superhydrophobic
+absorbent for oil
+spillage clean-up, in
+association with other
+chemicals
+- As-obtained material retained absorption
+capacities of 80% (pump oil)
+and 82% (silicone oil) after 10 cycles.
+Xiong et al. 2018
+Cigarette filter collected in daily life Peeling off; washing with
+hot water several times
+To produce nanofibrous
+membranes for
+immiscible oil/water
+mixtures and
+emulsions separation
+- Obtained material (cigarette filter coated
+meshes) showed separation efficiency
+larger than 99.9% for immiscible
+oil/water mixtures and emulsions
+after many cyclic testing.
+Liu et al. 2019
+Collected CBs after use Ultrasonical treatment in
+ethanol; drying
+As source material for
+oil-water separation,
+after coating with polypyrrole
+- Material showed excellent oil/water separation
+performance. Efficiencies reached 97.3%
+and 99% for light and heavy oil, respectively;
+good stability was also obtained.
+Absorption capacities reached
+9.4–22.7 times the mass of the filter.
+Zhang et al. 2020a
+Collected waste cigarette filters Removal of wrapping
+paper; rinsing
+To obtain graphene aerogel
+composites for
+electromagnetic
+wave absorption
+- Obtained composite aerogels showed
+strong electromagnetic wave absorption
+abilities and wide absorption bandwidths.
+Wang et al. 2015
+Smoked cigarette filters Removal of wrapping paper To produce ester-rich bio-oil
+through microwave-assisted
+pyrolysis
+- A 29.17% bio-oil yield was obtained from
+microwave-assisted pyrolysis of CBs;
+this yield was raised to 46.71% by adding
+methanol into nitrogen carrier gas during
+the process.
+Wang et al. 2020
+Collected cigarette filters Washing with ethanol
+and distilled
+water, several times
+To produce photothermal
+conversion material
+for solar steam generation
+- Authors reported energy conversion efficiency
+of 94% under stimulated solar illumination.
+Sun et al. 2019
+Cigarette butts from
+collectors in restaurants,
+bars and buildings
+No pre-treatment As source material for
+recycling into cellulose pulp
+- It was possible to produce cellulose pulp from
+CB waste, in a process which does not
+generate liquid effluent, and was licenced
+to a recycling company.
+Teixeira et al. 2017
+a Sudan I is a synthetic azo-colourant dye, formerly used but now strictly forbidden in sev eral countries. Please refer to Anmei et al. 2018 for further information
+b U(VI) stands for hexavalent uranium. Please refer to Pu et al. 2019 for further information
+10466 Environ Sci Pollut Res  (2021) 28:10450–10473
+
+
+=== PDF PAGE 18 === (printed page: 10467)
+control sample. Care must be taken, however, with potential
+toxicity issues, as considered by the authors.
+Mohajerani et al. ( 2016) envisioned a possible solution
+involving the civil construction, a branch of industry that re-
+lates to voluminous amounts of supplies. To study the feasi-
+bility of incorporating CBs into fired clay bricks, the authors
+evaluated the influence of distinct variables on mechanical
+properties of the bricks —CB content, mixing time, and
+heating time. They found that the addition of CBs in the quan-
+tities proposed (2.5%, 5%, 7.5%, and 10% in weight percent-
+age) resulted in reduced values of dry density and compressive
+strength, such that bricks containing more than 2.5% CBs
+would not be feasible for construction. However, samples
+containing 2.5% CBs presented only a slight reduction of
+mechanical properties, attaining requirements for constructing
+buildings. Ultimately, the authors theorise that the addition of
+1% CBs in weight would represent a practical solution to the
+CB litter problem, since the reduction in mechanical proper-
+ties would be minimal. Trough simple calculations, they reach
+the conclusion that the brick production worldwide is so mas-
+sive that if only 2.5% of the brick production could incorpo-
+rate 1% in weight of CBs, all of the littered CBs globally
+would be used. Indeed, in 2020, a new publication by the same
+group (Kurmus and Mohajerani 2020) investigating CB addi-
+tions in percent weight from 0.5 to 2% confirmed this
+hypothesis.
+Wadalkar et al. ( 2018) published work also considering
+CBs as fillers for the construction industry, but in precast
+concrete blocks. They found that the addition of 0.1% CBs
+in weight does not cause significant reduction in mechanical
+properties of these blocks, and therefore, this application
+could represent a practical solution to use CB litter. Another
+construction material that can be used with CB waste is gyp-
+sum, as reported by Morales-Segura et al. ( 2020). Results
+indicated suitability of use in applications where bonding to
+a ceramic support is not needed, requiring high surface hard-
+ness and/or mechanical resistance.
+Asphalt concrete (AC) for pavement construction could
+also incorporate CBs, as reported by Mohajerani et al.
+(2017). This use would also benefit from the large-scale
+amounts involved with automotive transportation. In order to
+avoid toxicity issues associated with chemical translocation of
+toxic materials present in the cigarette butts, the authors per-
+formed an encapsulation step, prior to AC mixing, consisting
+of soaking the material in an encapsulating medium. The au-
+thors present the results of two studies: firstly, they evaluated
+the effects of incorporating CBs encapsulated with three dis-
+tinct classes of bitumen (C170, C320, and C660), in different
+proportions (10 kg/m 3, 15 kg/m 3, and 25 kg/m 3), into AC
+mixes manufactured with one specific class of bitumen
+(C170). Afterwards, the authors assessed the influence of
+adding 10 kg/m3 of CBs encapsulated with paraffin wax into
+AC mixes produced with two distinct classes of bitumen
+(C170 and C320). In the first study, findings showed that
+AC fabricated with 10 kg/m3 or 15 kg/m3 CBs yielded accept-
+able properties, such as flow, stability, resilient modulus, bulk
+density, and percentage of air voids. CBs encapsulated with
+higher grade bitumen generated ACs with greater bulk density
+and maximum density, as expected, and the addition of CBs in
+larger quantities decreases the general density of AC, since
+CBs replace heavier aggregates in the mix. The second
+study proved that the addition of 10 kg/m 3 of paraffin
+encapsulated CBs in both C170 and C320 AC mixes is
+viable and yields properties acceptable for light traffic
+requirements, which would be a possible destination for
+CBs. More recently, Rahman et al. ( 2020) evaluated the ap-
+plication of CBs in bitumen as a replacement for virgin cellu-
+lose fibre as fibre modifier, with very interesting results.
+Electric material and batteries
+In the field of electric applications, CBs demonstrate interest-
+ing possibilities. For example, good conductive material can
+be obtained by a simple heat treatment process (Ghosh et al.
+2017). Hussein et al. ( 2017) considered CBs potential filler
+material for a PVC cement resin composite, which is a sub-
+stance with adhesive properties commonly used to “weld”
+pieces of plastic together. Commonly used as insulators in
+voltage engineering, these composites may have their dielec-
+tric permittivity and electrical conductivity tuned through in-
+corporation of conductive fillers, such as CBs. For different
+filler concentrations (0.1%, 0.2%, 0.3%, 0.4%, and 0.5%), the
+authors studied the material response in terms of dielectric
+properties when altering frequency range and temperature
+range. They found that the permittivity increased as filler con-
+tent and/or temperature increased, due to effects of interfacial
+polarisation (filler content) and segmental mobility of polymer
+molecules (temperature); higher frequencies, however,
+yielded lower values of permittivity. Also, the composite
+showed lower values of electrical impedance with higher
+values of filler content, temperature, or frequency.
+Examples of research involving batteries are those of Yu
+et al. (2018) and Wang et al. ( 2018), who described recovery
+of CBs for producing anode materials in lithium-ion batteries,
+and Xu et al. ( 2019) who produced hierarchically porous
+carbon@graphene composites derived from carbonised CBs
+applicable as cathode hosts for lithium-sulphur batteries.
+Earlier on, Huang et al. ( 2015) had proposed to use recycled
+cigarette filters in preparing membranes to act as separators in
+lithium-ion batteries.
+Supercapacitors
+Wang et al. ( 2016) proposed the application of used cigarette
+filters as parent material for obtaining carbon fibre/vanadium
+nitride precursors for supercapacitors. Initially, CBs were
+10467Environ Sci Pollut Res  (2021) 28:10450–10473
+
+
+=== PDF PAGE 19 === (printed page: 10468)
+subjected to a solution in order to absorb a specific compound
+(NH4VO3), and afterwards, a heat treatment in nitrogen-rich
+atmosphere was responsible for transforming this compound
+into vanadium nitride, as well as turning the cellulose fibres
+into carbon fibres. The obtained carbon fibre/vanadium nitride
+material was then used to fabricate a supercapacitor device,
+which showed excellent long cycle-life attaining an 82% ca-
+pacitance retention rate after 1000 cycles.
+Li et al. ( 2020) reported the production of a functional
+carbon precursor by direct pyrolysis of CBs for
+supercapacitors and adsorbents, in which the properties of
+the material were shown to be strongly affected by the
+activation process parameters. Using a different processing
+method, called hydrothermal synthesis, Ubaidullah et al.
+(2020) obtained a novel nickel oxide@nitrogenous mesopo-
+rous carbon nanocomposite, using smoked CBs, with brilliant
+electrochemical performance in supercapacitors as well as ex-
+cellent stability up to 4000 segments.
+Lee et al. ( 2014) used smoked cigarette filters to obtain
+nitrogen-doped meso/microporous hybrid carbon material.
+Results showed better rate capability and higher specific ca-
+pacitance for the supercapacitor when compared to conven-
+tional activated carbons; a similar work with promising results
+was published more recently by Meng et al. ( 2019).
+Nanomaterials
+Ogundare et al. (2017) studied the feasibility of using CBs as
+source material for nanocrystalline cellulose, a promising ma-
+terial that presents interesting properties such as high strength,
+high surface area, low density, low toxicity, and biocompati-
+bility. For this reason, sources for its production have recently
+included recycled materials. In their work, from discarded
+CBs, the authors managed to isolate nanocrystalline cellulose.
+The results of their characterisation were promising, and trans-
+mission electron microscopy (TEM) revealed needle-like cel-
+lulose nanocrystals measuring 143 nm in length and 8 nm in
+width, in average, which represents an interesting aspect ratio
+for use as reinforcement. The overall nanocellulose yield from
+CBs was 29.4%, which is more than two times the value
+obtained from old corrugated paper (13.3%) and roughly 1.5
+times the value obtained for wastepaper (19.0%). It was con-
+cluded that this material is feasible for nanocrystalline cellu-
+lose production, if there is an appropriate collection logistics
+by consumers.
+Carbon dots, a new emerging category of nanomaterials,
+have been evaluated as potential outputs of CB litter research.
+Bandi et al. ( 2018) reported the conversion of toxic CBs to
+carbon dots, which showed a number of potential applications,
+including security ink, bioimaging, and sensing, while Anmei
+et al. ( 2018) envisioned the application of carbon quantum
+dots obtained from cigarette filters in fluorescence detection
+of an important carcinogenic food colourant.
+Sound absorption
+Acoustical isolation could take advantage of fibrous and po-
+rous structures of cellulose acetate, the main component of
+cigarette filters. Porosity plays a very important role in acous-
+tic properties, and these samples could profit from a “double
+porosity”: the inner porosity of the CBs, as well as the porosity
+resulting from air gaps between packed CBs (Escobar and
+Maderuelo-Sanz 2017). Following ISO 10534-2:1998 stan-
+dard, the authors evaluated the acoustical performance of sam-
+ples prepared by simply placing the CBs inside impedance
+tubes appropriate for this kind of measurement, without using
+binders. Different types of CBs were tested (smoked CBs,
+unused CBs manually separated from the cigarette, and pur-
+chased CBs), as well as different packing conditions (10 to 14
+butts packed inside the tube). When compared to commercial
+sound-absorbing materials, samples prepared with CBs
+showed superior acoustic absorption at mid frequencies (from
+500 to 4000 Hz). Thus, the fabrication of novel sound-
+absorbing materials from CBs is promising.
+In the following year, Maderuelo-Sanz et al. ( 2018)c o n -
+ducted further studies regarding sound absorption. This time,
+researchers conducted a pre-treatment of CBs consisting of
+7 2hd r y i n ga t8 0° C ,s e p a r a t i o nf r o mi n v o l v i n gp a p e r ,
+fractioning in short fibres, and mixing, in order to obtain a
+homogeneous mixture and, thus, measure more reliable phys-
+ical properties. The mixture was then compacted, without
+using any binder. In this work, they concluded that sound
+absorption is higher when bulk density and/or porosity in-
+creases, and also when flow resistivity is reduced. The find-
+ings corroborate those of the first study, indicating an interest-
+ing potential for this material as sound barriers.
+Energy and related topics
+Kim et al. ( 2016) envisioned the potential of CBs to function
+as a supporting material for oxygen reduction reaction (ORR).
+In fuel cells, electrocatalysts have the function of accelerating
+the ORR, and the traditionally used material is platinum due to
+its high activity. However, factors such as high cost and lim-
+ited storage encourage research towards reducing platinum
+use and enhancing catalytic activity of platinum. Supporting
+materials with high surface area, adequate pore structure, and
+good conductivity, such as carbon materials, are used to pro-
+mote this catalytic enhancement by permitting high dispersion
+of platinum nanoparticles. In their work, carbon materials
+were produced from used cigarette filters, after separation
+and heat treatments at 900 °C for 2 h, in two conditions: N
+atmosphere (N-doped carbon) and Ar atmosphere (without
+doping). Then, platinum dispersion was conducted by the
+conventional impregnation method. The advantages of this
+simple route are the recycling of CBs as carbon source for
+platinum supports, the development of a bimodal structure
+10468 Environ Sci Pollut Res  (2021) 28:10450–10473
+
+
+=== PDF PAGE 20 === (printed page: 10469)
+(pores in different scales —mesopores and micropores), and
+simultaneous introduction of N functional groups (in the case
+of N-doped carbon), which are important to the formation of
+homogeneous nucleation sites for platinum nanoparticles.
+Following an extensive set of characterisation methods, it
+was found that high surface area, bimodal pore size distribu-
+tion, and N doping contributed to excellent results in terms of
+platinum dispersion—in fact, dispersion was higher than that
+of commercially used carbon support material.
+Blankenship and Mokaya ( 2017) published a study
+proposing CBs as source for u ltra-high surface area car-
+bons destined for hydrogen intake. Hydrogen is being
+researched as an energy source material because of two
+main characteristics: its gravimetric energy capacity, and
+the fact that this material does not generate CO 2 emis-
+sions when used for energy production. Naturally, there
+is also a driving need for materials capable of storing
+this hydrogen, and materials with high surface area (a
+common trait of porous materials) can store considerable
+amounts via physisorption. The authors found an inter-
+esting relation concerning smoked CBs and the effect of
+activation temperature on their porosity. Usually, higher
+activation temperatures yield higher porosities and sur-
+face areas, and this trend was observed in unsmoked
+CBs. For smoked CBs, however, optimal porosity and
+surface area properties were encountered at an interme-
+diate activation temperatu re, and higher temperatures
+yielded lower results. The explanation for this anomaly,
+according to the authors, is the presence of metal addi-
+tives (such as K, Ca, Na, and Mg) as remains from the
+tobacco combustion process. Working as activation sites,
+they sum up to the activation effect caused by KOH and
+cause this odd behaviour. Exceptional results of hydro-
+gen storage were reported in this article —in fact, the
+results are presented as “highest hydrogen uptake capac-
+ity reported to date for any carbons or porous materials
+in general ”, combining the ecological effects of clean
+fuel emissions, waste disposal, and valorisation of re-
+sources in a perfect manner.
+In 2020, Wang et al. addressed the production of ester-rich
+bio-oil from used cigarette filters via microwave-assisted py-
+rolysis process, and they estimated that over 350,000 MT of
+this bio-oil can be produced if the technology used in the
+process could be scaled up worldwide (Wang et al. 2020).
+An application which could contribute twofold to a cleaner
+environment is the utilisation of CBs to obtain phototermal
+conversion material, as described by Sun et al. ( 2019). In this
+scenario, material produced from CBs and coated with re-
+duced graphene oxide is able to absorb sunlight and convert
+it into heat, which in turn will generate clean steam energy;
+indeed, the authors reported energy conversion efficiency of
+94% in conditions similar to those practical in solar energy
+generation.
+Chemical adsorption
+Hamzah and Umar ( 2017) proposed the fabrication of active
+carbons from cigarette filter waste, using KOH chemical acti-
+vation induced by microwave power input. Surface area and
+methylene blue adsorption capacity were evaluated with
+promising results. Lima et al. (2018) also studied the potential
+of CBs for the adsorption of pollutants, describing a sponta-
+neous methylene blue adsorption process happening in
+hydrochars fabricated from CBs. The potential for activated
+carbon production may even be enhanced by pre-swelling of
+CBs, raising specific surface area up to 47%, as explained by
+Koochaki et al. (2020). Different approaches related to degra-
+dation of pollutants in water include a study where CBs were
+used as source for a superfast flow reactor (Xie et al. 2020),
+and an article describing the fabrication of a niobium carbide/
+carbon nanocomposite to be used as photocatalyst in which
+CBs were the carbon source (Gupta and Pandey 2018).
+Efforts for CB valorisation have been made also in the drug
+and pharmaceutical industry. For example, Bilge et al. (2019)
+recently published an article in which toxic CBs demonstrated
+potential to become sensor material for sensitive determina-
+tion of an antihypertensive drug. In 2016, Nascimento et al.
+(2016) investigated the potential application of cigarette filters
+in a composite designed to work as an adsorbent of phenyl-
+butazone (PBZ), a commonly used anti-inflammatory drug.
+This pharmaceutical ends up in the environment, and long-
+term exposure to it may result in adverse effects to humans, as
+well as wildlife. Besides CBs, this composite also contains
+polypyrrole (PPy) and polyaniline (Pani), two polymers that
+as a composite have properties such as hydrophobicity, acid-
+base character, and polar functional groups. The composite
+was produced in a single-step triple-phase interfacial reaction,
+in a temperature from 0 to 5 °C. This simple fabrication pro-
+cess contributes to the feasibility of using the material as an
+adsorbent. Additionally, properties such as high surface area,
+heterogeneous surface, and modest porosity are of interest
+and, indeed, resulted in a maximum adsorption capacity of
+100.22 mg g−1—a result that indicates promising future appli-
+cations in the separation field.
+Other examples of drug removal applications include that
+by Abu-Danso et al. (2019) of using processed cellulose from
+CBs to absorb diclofenac from water and Zhang et al. (2020b),
+who produced an interesting CB-based activated carbon ma-
+terial of high surface area to remove ciprofloxacin and sodium
+dodecyl sulphate from aqueous solutions.
+The potential as an absorbent medium was also investigated
+for the disposal of wastewater generated in nuclear plants, which
+contain radionuclide uranium (Pu et al. 2019). The adsorption
+capacity surpassed that of untreated activated carbon and showed
+a very interesting adsorption selectivity. Earlier, Sun et al. (2017)
+presented interesting results concerning the adsorption capacity
+of CBs, after KOH activation, for CO 2 and iodine vapour
+10469Environ Sci Pollut Res  (2021) 28:10450–10473
+
+
+=== PDF PAGE 21 === (printed page: 10470)
+capture. Other examples of adsorption studies that use CB waste
+are the preparation of materials for phenol adsorption (Chen et al.
+2015), removal of lead from aqueous solution using charred
+carbon derived from used cigarette filters (Soltani et al.2015),
+and selective adsorption of tobacco-specific nitrosamines in so-
+l u t i o n( L ie ta l . 2019). In an application concerning
+electroreduction, CBs were able to contribute in reducing
+hexavalent chromium contamination of groundwater by acting
+as a palladium nanocatalyst immobiliser (Dorosti et al.2020).
+In 2018, Ifelebuegu et al. ( 2018) reported that surface-
+modified cigarette filters can act as a superhydrophobic and
+oleophilic sorbent, suitable for oil spill clean-up applications.
+This was not the first work to address this possibility. In fact,
+CBs and derivatives were considered for applications involv-
+ing a mixture of different oils (Liu et al. 2015), kerosene (Ou
+et al. 2016), silicone oil (Xiong et al. 2018), and isolated
+different oils (Liu et al. 2019). Enhancements such as coating
+CBs with polypyrrole particles modified with dodecanethiol
+were also reported for oil separation (Zhang et al. 2020a, b),
+indicating a promising application for this waste.
+Electromagnetic wave absorption
+Interestingly, electromagnetic wave absorption is another field
+where recycled cigarette filters may be useful, as published by
+Wang et al. (2015). Electromagnetic waves are a considerable
+source of interference and radiation, mostly from wireless
+technology, digital devices, and radar systems. The authors
+obtained graphene aerogel composites from CB litter, which
+showed good results —further enhanced by a polypyrrole
+coating.
+Pulp production
+One great example of a complete process for CB recycling is
+the production of cellulose pulp for paper industry, using CBs
+and alkaline pulping (Teixeira et al. 2017). Samples prepared
+with CBs showed satisfactory mechanical properties for use,
+and a low degree of whiteness that may require additional
+bleaching depending on the final use of the paper. The by-
+product of this process is a dark liquor generated from cooking
+the mixture, which showed eventual presence of aldehydes
+and other carbonylated compounds, nitrosamines, nicotine,
+and heavy metals. Under Brazilian law, this by-product could
+be discarded directly in a water body without further treat-
+ment, even if compounds such as nitrosamines and nicotine
+were detected. This fact occurs because current Brazilian laws
+do not establish limits for these specific chemicals.
+Nevertheless, the authors studied possible means of removing
+this toxicity. They devised a way of incorporating this clari-
+fied effluent repeatedly into new cooking batches, as part of
+the mixture. As explained in the article, the whole process was
+licensed to a recycling company, which is producing good-
+quality pulp for a cardboard factory. Since the effluent is
+reused in the process, this is an example of a complete cycle
+that effectively contributes to clean our environment of CBs.
+Conclusion
+Environmental hazard results from reckless improper disposal of
+toxic waste, and cigarette butts are proven in literature to be
+source of damage to a variety of living species, from invertebrate
+diminutive aquatic species to adult rodents, even if present in
+considerably small concentrations. The knowledge about its con-
+tamination power is paramount to enlighten smokers and en-
+hance public efforts aimed at raising worldwide awareness re-
+garding this topic. While the toxic effects of CBs to simpler
+organisms are more present in literature, there seems to be a
+gap in relation to research concerning long-term effects of CB
+toxicity to mammals, indicating a possible future research trend.
+Considering the variety of possibilities for recycling ciga-
+rette butts described in this article, ranging from applications
+with zero to low value addition (aimed mostly at getting rid of
+CBs) to high-value end products derived from litter, it is pos-
+sible to foresee a future where careless dumping of cigarette
+filters in the environment will be minimised. Applications
+related to chemical adsorption, energy production, and crea-
+tion of nanomaterials seem to be excellent options that add
+value to this litter and therefore must be further investigated,
+while the incorporation of CBs in civil construction is inter-
+esting considering the significant amount of CBs that could be
+used. In addition, the search for new applications must con-
+tinue since the creation of value is the key factor to transform
+cigarette butts from an unwanted persistent litter to a desired
+valuable raw material.
+Acknowledgements The authors would like to acknowledge CAPES for
+supporting their research.
+Authors’ contributions IM conceived the idea for the article. Literature
+review, analysis, and writing were conducted by IM, LGBS, IC, and
+ALL. GB was responsible for reviewing drafts and final version.
+Compliance with ethical standards
+Competing interests The authors declare that they have no conflict of
+interest.
+References
+Abu-Danso E, Bagheri A, Bhatnagar A (2019) Facile functionalization of
+cellulose from discarded cigarette butts for the removal of diclofenac
+from water. Carbohydr Polym 219:46–55
+Anmei S, Qingmei Z, Yuye C, Yilin W (2018) Preparation of carbon
+quantum dots from cigarette filters and its application for fluores-
+cence detection of Sudan I. Anal Chim Acta 1023:115–120
+10470 Environ Sci Pollut Res  (2021) 28:10450–10473
+
+
+=== PDF PAGE 22 === (printed page: 10471)
+Araújo MCB, Costa MF (2019) A critical review of the issue of cigarette
+butt pollution in coastal environments. Environ Res 172:137–149
+Bandi R, Devulapalli NP, Dadigala R, Gangapuram BR, Guttena V
+(2018) Facile conversion of toxic cigarette butts to N,S-codoped
+carbon dots and their application in fluorescent film, security ink,
+bioimaging, sensing and logic gate operation. ACS Omega 3:
+13454–13466
+Baran W, Madej-Knysak D, Sobczak A, Adamek E (2020) The influence
+of waste from electronic cigarettes, conventional cigarettes and heat-
+not-burn tobacco products on microorganisms. J Hazard Mater 385:
+121591
+Benavente MJ, Caballero MJA, Silvero G et al (2018) Cellulose acetate
+recovery from cigarette butts. Proceedings 2:1447
+Bilge S, Bakirhan NK, Donar YO et al (2019) Turning toxic cigarette butt
+waste into the sensor material for the sensitive determination of
+antihypertensive drug trandolapril from its dosage form and biolog-
+ical samples. Sensors Actuators B Chem 296:126626
+Blankenship TS, Mokaya R (2017) Cigarette butt-derived carbons have
+ultra-high surface area and unprecedented hydrogen storage capac-
+ity. Energy Environ Sci 10:2552–2562
+Bonanomi G, Incerti G, Cesarano G, Gaglione SA, Lanzotti V (2015)
+Cigarette butt decomposition and associated chemical changes
+assessed by 13C CPMAS NMR. PLoS ONE 10(1):e0117393.
+https://doi.org/10.1371/journal.pone.0117393
+Bonanomi G, Maisto G, De Marco A et al (2020) The fate of cigarette
+butts in different environments: decay rate, chemical changes and
+ecotoxicity revealed by a 5-years decomposition experiment.
+Environ Pollut 261:114108
+Booth DJ, Gribben P, Parkinson K (2015) Impact of cigarette butt leach-
+ate on tidepool snails. Mar Pollut Bull 95:362–364
+Cardoso LS, Estrela FN, Chagas TQ, da Silva WAM, Costa DRO, Pereira
+I, Vaz BG, Rodrigues ASL, Malafaia G (2018) The exposure to
+water with cigarette residue changes the anti-predator response in
+female Swiss albino mice. Environ Sci Pollut Res 25:8592–8607
+Chen A, Li Y, Yu Y, Li Y, Zhang L, Lv H, Liu L (2015) Mesoporous
+carbonaceous materials prepared from used cigarette filters for effi-
+cient phenol adsorption and CO2 capture. RSC Adv 5:107299 –
+107306
+Chevalier Q, El Hadri H, Petitjean P et al (2018) Nano-litter from ciga-
+rette butts: environmental implications and urgent consideration.
+Chemosphere 194:125–130
+Dieng H, Saifur RGM, Ahmad AH, Md Rawi CS, Boots M, Satho T,
+Zuharah WF, Fadzly N, Althbyani A, Miake F, Jaal Z, Abubakar S
+(2011) Discarded cigarette butts attract females and kill the progeny
+of Aedes albopictus. J Am Mosq Control Assoc 27(3):263–271
+Dieng H, Rajasaygar S, Ahmad AH, Ahmad H, Rawi CSM, Zuharah WF,
+Satho T, Miake F, Fukumitsu Y, Saad AR, Ghani IA, Vargas REM,
+Majid AHA, AbuBakar S (2013) Turning cigarette butt waste into
+an alternative control tool against an insecticide-resistant mosquito
+vector. Acta Trop 128:584–590
+Dieng H, Rajasaygar S, Ahmad AH, Md. Rawi CS, Ahmad H, Satho T,
+Miake F, Zuharah WF, Fukumitsu Y, Saad AR, Abdul Hamid S,
+Vargas REM, Ab Majid AH, Fadzly N, Abu Kassim NF, Hashim
+NA, Ghani IA, Abang FB, AbuBakar S (2014) Indirect effects of
+cigarette butt waste on the dengue vector Aedes aegypti (Diptera:
+Culicidae). Acta Trop 130:123–130
+Dobaradaran S, Nabipour I, Saeedi R, Ostovar A, Khorsand M,
+Khajeahmadi N, Hayati R, Keshtkar M (2017) Association of metals
+(Cd, Fe, As, Ni, Cu, Zn and Mn) with cigarette butts in northern part
+of the Persian Gulf. Tob Control 26:461–463
+Dobaradaran S, Schmidt TC, Nabipour I, Ostovar A, Raeisi A, Saeedi R,
+Khorsand M, Khajeahmadi N, Keshtkar M (2018) Cigarette butts
+abundance and association of mercury and lead along the Persian
+Gulf beach: an initial investigation. Environ Sci Pollut Res 25(6):
+5465–5473
+Dobaradaran S, Schmidt TC, Lorenzo-Parodi N, Jochmann MA,
+Nabipour I, Raeisi A, Stojanovi ć N, Mahmoodi M (2019)
+Cigarette butts: an overlooked source of PAHs in the environment?
+Environ Pollut 249:932–939
+Dobaradaran S, Schmidt TC, Lorenzo-Parodi N, Kaziur-Cegla W,
+Jochmann MA, Nabipour I, Lutze HV, Telgheder U (2020)
+Polycyclic aromatic hydrocarbons (PAHs) leachates from cigarette
+butts into water. Environ Pollut 259:113916
+Dorosti M, Baghdadi M, Nasimi S (2020) A continuous electroreduction
+cell composed of palladium nanocatalyst immobilized on discarded
+cigarette filters as an active bed for Cr(VI) removal from groundwa-
+ter. J Environ Manag 264:110409
+Drope J, Schluger N, Cahn Z, Drope J, Hamill S, Islami F, Liber A,
+Nargis N, Stoklosa M (2018) The tobacco atlas. Atlanta: American
+Cancer Society and Vital Strategies. https://tobaccoatlas.org/topic/
+consumption, accessed 23 Jul 2020.
+Escobar VG, Maderuelo-Sanz R (2017) Acoustical performance of sam-
+ples prepared with cigarette butts. Appl Accoustics 125:166–172
+Ghosh TK, Sadhukhan S, Rana D et al (2017) Treatment of recycled
+cigarette butts (man-made pollutants) to prepare electrically
+conducting material. J Indian Chem Soc 94:863–870
+Gill H, Rogers K, Rehman B, Moynihan J, Bergey EA (2018) Cigarette
+bu
+tts may have low toxicity to soil-dwelling invertebrates: evidence
+from a land snail. Sci Total Environ 628-629:556–561
+Green DS, Boots B, Carvalho JDS et al (2019) Cigarette butts have
+adverse effects on initial growth of perennial ryegrass (gramineae:
+Lolium perenne L.) and white clover (leguminosae: Trifolium
+repens L.). Ecotoxicol Environ Saf 182:109418
+Green DS, Kregting L, Boots B (2020) Smoked cigarette butt leachate
+impacts survival and behaviour of freshwater invertebrates. Environ
+Pollut 266:115286
+Gupta A, Pandey OP (2018) Visible irradiation induced photodegradation
+by NbC/C nanocomposite derived from smoked cigarette litter (fil-
+ters). Sol Energy 163:167–176
+Hamzah Y, Umar L (2017) Preparation of creating active carbon from
+cigarette filter waste using microwave-induced KOH activation. J
+Phys Conf Ser 853:012027
+Hemamalini T, Karunakaran SA, Siva Elango MK et al (2019)
+Regeneration of cellulose acetate nanofibrous mat from discarded
+cigarette butts. Indian J Fibre Text Res 44:248–252
+Huang F, Xu Y, Peng B, Su Y, Jiang F, Hsieh YL, Wei Q (2015) Coaxial
+electrospun cellulose-core fluoropolymer-shell fibrous membrane
+from recycled cigarette filter as separator for high performance
+lithium-ion battery. ACS Sustain Chem Eng 3:932–940
+Hussein AA, Abdullah RM, Mohammed NY et al (2017) Dielectric be-
+havior and functionality of polymer matrix/cigarette butts compos-
+ites. Eur J Mater Sci 4:17 –27
+Ifelebuegu AO, Lale EE, Mbanaso FU, Theophilus S (2018) Facile fab-
+rication of recyclable, superhydrophobic, and oleophilic sorbent
+from waste cigarette filters for the sequestration of oil pollutants
+from an aqueous environment. Processes 6:140
+Igic B, Cassey P, Samas P et al (2009) Cigarette butts form a perceptually
+cryptic component of song thrush (Turdus philomelos) nests.
+Notornis 56(3):134–138
+Joly F-X, Coulis M (2018) Comparison of cellulose vs. plastic cigarette
+filter decomposition under distinct disposal environments. Waste
+Manag 72:349–353
+Kim G-P, Lee M, Song HD, Bae S, Yi J (2016) Highly efficient
+supporting material derived from used cigarette filter for oxygen
+reduction reaction. Catal Commun 78:1–6
+Koochaki CB, Khajavi R, Rashidi A, Mansouri N, Yazdanshenas ME
+(2020) The effect of pre-swelling on the characteristics of obtained
+activated carbon from cigarette butts fibers. Biomass Conv Bioref
+10:227–236
+Kurmus H, Mohajerani A (2020) Recycling of cigarette butts in fired clay
+bricks: a new laboratory investigation. Materials 13:790
+10471Environ Sci Pollut Res  (2021) 28:10450–10473
+
+
+=== PDF PAGE 23 === (printed page: 10472)
+Lai M-K, Teo H-H, Lee J-Y (2015) Recycled cigarette filter as reinforc-
+ing filler for natural rubber. Appl Mech Mater 705:39–43
+Lawal MS, Ologundudu SO (2013) Toxicity of cigarette filter leachates
+on Hymenochirus curtipes and Clarias gariepinus in Nigeria. J
+Environ Ext 11:7–14
+Lee W, Lee CC (2015) Developmental toxicity of cigarette butts –an
+underdeveloped issue. Ecotoxicol Environ Saf 113:362–368
+Lee M, Kim GP, Song HD et al (2014) Preparation of energy storage
+material derived from a used cigarette filter for a supercapacitor
+electrode. Nanotechnology 25:345601
+Li S, Shi CL, Wang Y, Sun XD, Qi DW, Wu D, Wang Y, Zhu JH (2019)
+New efficient selective adsorbent of tobacco specific nitrosamines
+derived from discarded cigarette filters. Microporous Mesoporous
+Mater 284:393–402
+Li L, Jia C, Zhu X, Zhang S (2020) Utilization of cigarette butt waste as
+functional carbon precursor for supercapacitors and adsorbents. J
+Clean Prod 256:120326
+Lima HHC, Maniezzo RS, Kupfer VL, Guilherme MR, Moises MP,
+Arroyo PA, Rinaldi AW (2018) Hydrochars based on cigarette butts
+as a recycled material for the adsorption of pollutants. J Environ
+Chem Eng 6:7054–7061
+Liu C, Chen B, Yang J et al (2015) One-step fabrication of
+superhydrophobic and superoleophilic cigarette filters for oil-water
+separation. J Adhes Sci Technol 29 22:2399-2407. https://doi.org/
+10.1080/01694243.2015.1062653
+Liu W, Cui M, Shen Y, Zhu G, Luo L, Li M, Li J (2019) Waste cigarette
+filter as nanofibrous membranes for on-demand immiscible oil/
+water mixtures and emulsions separation. J Colloid Interface Sci
+549:114–122
+Loizidou XI, Loizides MI, Orthodoxou DL (2018) Persistent marine lit-
+ter: small plastics and cigarette butts remain on beaches after orga-
+nized beach cleanups. Environ Monit Assess 190:414
+Maderuelo-Sanz R, Escobar VG, Meneses-Rodríguez JM (2018)
+Potential use of cigarette filters as sound porous absorber. Appl
+Accoustics 129:86–91
+Mansouri N, Etebari M, Ebrahimi K et al (2020) Genotoxicity and phy-
+totoxicity comparison of cigarette butt with cigarette ash. Environ
+Sci Pollut Res 27:40383–40391
+Meng Q, Chen W, Wu L, Lei J, Liu X, Zhu W, Duan T (2019) A strategy
+of making waste profitable: nitrogen doped cigarette butt derived
+carbon for high performance supercapacitors. Energy 189:116241
+Micevska T, Warne MSJ, Pablo F, Patra R (2006) Variation in, and
+causes of, toxicity of cigarette butts to a cladoceran and microtox.
+Arch Environ Contam Toxicol 50:205–212
+Moerman JW, Potts GE (2011) Analysis of metals leached from smoked
+cigarette litter. Tob Control 20(Suppl 1):i30–i35
+Mohajerani A, Kadir AA, Larobina L (2016) A practical proposal for
+solving the world ’s cigarette butt problem: recycling in fired clay
+bricks. Waste Manag 52:228–244
+Mohajerani A, Tanriverdi Y, Nguyen BT, Wong KK, Dissanayake HN,
+Johnson L, Whitfield D, Thomson G, Alqattan E, Rezaei A (2017)
+Physico-mechanical properties of asphalt concrete incorporated with
+encapsulated cigarette butts. Constr Build Mater 153:69–80
+Montalvão MF, Chagas TQ, Alvarez TGS et al ( 2019a) Cigarette butt
+leachate as a risk factor to the health of freshwater bivalve.
+Chemosphere 234:379–387
+Montalvão MF, Chagas TQ, Alvarez TGS et al ( 2019b) How leachates
+from wasted cigarette butts influence aquatic life? A case study on
+freshwater mussel Anodontites trapesiali. Sci Total Environ 689:
+381–389
+Morales-Segura M, Porras-Amores C, Villoria-Sáez P, Caballol-
+Bartolomé D (2020) Characterization of gypsum composites con-
+taining cigarette butt waste for building applications. Sustainability
+12:7022
+Moriwaki H, Kitajima S, Katahira K (2009) Waste on the roadside, ‘poi-
+sute’ waste: its distribution and elution potential of pollutants into
+environment. Waste Manag 29:1192–1197
+Murugan K, Suresh U, Panneerselvam C et al (2018) Managing wastes as
+green resources: cigarette butt-synthesized pesticides are highly tox-
+ic
+to malaria vectors with little impact on predatory copepods.
+Environ Sci Pollut Res 25:10456–10470
+Nascimento TA, Dutra FVA, Pires BC et al (2016) Preparation and char-
+acterization of composite based on polyaniline, polypyrrole and cig-
+arette filters: adsorption studies and kinetic of phenylbutazone from
+aqueous medium. RSC Adv 6:64450 –64459. https://doi.org/10.
+1039/C6RA14071H
+Ogundare SA, Moodley V, van Zyl WE (2017) Nanocrystalline cellulose
+isolated from discarded cigarette filters. Carbohydr Polym 175:273–
+281
+Ou J, Wan B, Wang F, Xue M, Wu H, Li W (2016) Superhydrophobic
+fibers from cigarette filters for oil spill cleanup. RSC Adv 6:44469–
+44474
+Parker TT, Rayburn J (2017) A comparison of electronic and traditional
+cigarette butt leachate on the development of Xenopus laevis em-
+bryos. Toxicol Rep 4:77–82
+Pu D, Kou Y, Zhang L, Liu B, Zhu W, Zhu L, Duan T (2019) Waste
+cigarette filters: activated carbon as a novel sorbent for uranium
+removal. J Radioanal Nucl Chem 320:725–731
+Puls J, Wilson SA, Hölter D (2011) Degradation of cellulose acetate-
+based materials: a review. J Polym Environ 19:152–165
+Quéméneur M, Chifflet S, Akrout F, Bellaaj-Zouari A, Belhassen M
+(2020) Impact of cigarette butts on microbial diversity and dissolved
+trace metals in coastal marine sediment. Estuar Coast Shelf Sci 240:
+106785
+Rahman M, Mohajerani A, Giustozzi F (2020) Possible recycling of
+cigarette butts as fiber modifier in bitumen for asphalt concrete.
+Materials 13:734. https://doi.org/10.3390/ma13030734
+Rebischung F, Chabot L, Biaudet H, Pandard P (2018) Cigarette butts: a
+small but hazardous waste, according to European regulation. Waste
+Manag 82:9–14
+Robertson RM, Thomas WC, Suthar JN, Brown DM (2012) Accelerated
+degradation of cellulose acetate cigarette filters using controlled re-
+lease acid catalysis. Green Chem 14:2266
+Roder Green AL, Putschew A, Nehls T (2014) Littered cigarette butts as a
+source of nicotine in urban waters. J Hydrol 519:3466–3474
+Selmar D, Radwan A, Abdalla N, Taha H, Wittke C, el-Henawy A,
+Alshaal T, Amer M, Kleinwächter M, Nowak M, el-Ramady H
+(2018) Uptake of nicotine from discarded cigarette butts-a so far
+unconsidered path of contamination of plant-derived commodities.
+Environ Pollut 238:972–976
+Slaughter E, Gersberg RM, Watanabe K, Rudolph J, Stransky C,
+Novotny TE (2011) Toxicity of cigarette butts, and their chemical
+components, to marine and freshwater fish. Tob Control 20(Suppl
+1):i25–i29
+Soltani SM, Yazdi SK, Hosseini S et al (2015) Lead removal from aque-
+ous solution using non-modified and nitric acid-modified charred
+carbon from the pyrolysis of used cigarette filters. Desalin Water
+Treat 53:126–138
+Suárez-Rodríguez M, Garcia CM (2014) There is no such a thing as a free
+cigarette: lining nests with discarded butts brings short-term bene-
+fits, but causes toxic damage. J Evol Biol 27:2719–2726
+Suárez-Rodríguez M, Garcia CM (2017) An experimental demonstration
+that house finches add cigarette butts in response to ectoparasites. J
+Avian Biol 48:1316–1321
+Suárez-Rodríguez M, López-Rull I, Garcia CM (2013) Incorporation of
+cigarette butts into nests reduces nest ectoparasite load in urban
+birds: new ingredients for an old recipe? Biol Lett 9:20120931.
+https://doi.org/10.1098/rsbl.2012.0931
+10472 Environ Sci Pollut Res  (2021) 28:10450–10473
+
+
+=== PDF PAGE 24 === (printed page: 10473)
+Sun H, La P, Yang R et al (2017) Innovative nanoporous carbons with
+ultrahigh uptakes for capture and reversible storage of CO2 and
+volatile iodine. J Hazard Mater 321:210–217
+Sun H, Li Y, Zhu Z, Mu P, Wang F, Liang W, Ma C, Li A (2019)
+Photothermal conversion material derived from used cigarette filters
+for solar steam generation. ChemSusChem 12:4257–4264
+Teixeira MBH, Duarte MAB, Garcez LR et al (2017) Process develop-
+ment for cigarette butts recycling into cellulose pulp. Waste Manag
+60:140–150
+Torkashvand J, Farzadkia M (2019) A systematic review on cigarette butt
+management as a hazardous waste and prevalent litter: control and
+recycling. Environ Sci Pollut Res 26:11618–11630
+Ubaidullah M, Ahmed J, Ahamad T, Shaikh SF, Alshehri SM, al-Enizi
+AM (2020) Hydrothermal synthesis of novel nickel
+oxide@nitrogenous mesoporous carbon nanocomposite using cost-
+less smoked cigarette filter for high performance supercapacitor.
+Mater Lett 266:127492
+Wadalkar S, Kulkarni R, Sawant N et al (2018) Design of precast con-
+crete blocks for paving with the use of cigarette butts (cellulose
+acetate). Int J Res Appl Sci Eng Technol 6:2958 –2965
+Wang C, Ding Y, Yuan Y, He X, Wu S, Hu S, Zou M, Zhao W, Yang L,
+Cao A, Li Y (2015) Graphene aerogel composites derived from
+recycled cigarette filters for electromagnetic wave absorption. J
+Mater Chem C 3:11893–11901
+Wang Y, Jiang M, Yang Y, Ran F (2016) Hybrid electrode material of
+vanadium nitride and carbon fiber with cigarette butt/metal ions
+wastes as the precursor for supercapacitors. Electrochim Acta 222:
+1914–1921
+Wang Q, Lian P, Wang B, Tang Y, Liu H, Mei Y (2018) Red phosphorus
+encapsulated in porous carbon derived from cigarette filter solid
+waste as a promising anode material for lithium-ion batteries.
+Ionics 24:3393–3403. https://doi.org/10.1007/s11581-018-2487-5
+Wang W, Wang M, Huang J, Li X, Cai L, Shi SQ, Cui Y, Chen L, Ni Y
+(2020) High efficiency pyrolysis of used cigarette filters for ester-
+rich bio-oil through microwave-assisted heating. J Clean Prod 257:
+120596
+WHO Report on the Global Tobacco Epidemic (2019) Geneva: World Health
+Organization; 2019. Licence: CCBY-NC-SA 3.0 IGO. Page 72
+Wright SL, Rowe D, Reid MJ et al (2015) Bioaccumulation and biolog-
+ical effects of cigarette litter in marine worms. Sci Rep 5:14119.
+https://doi.org/10.1038/srep14119
+Xie Z-T, Asoh T-A, Uyama H (2020) Superfast flow reactor derived from
+the used cigarette filter for the degradation of pollutants in water. J
+Hazard Mater 400:123303
+Xiong Q, Bai Q, Li C, Lei H, Liu C, Shen Y, Uyama H (2018) Cost-
+effective, highly selective and environmentally friendly
+superhydrophobic absorbent from cigarette filters for oil spillage
+clean up. Polymers 10:1101. https://doi.org/10.3390/
+polym10101101
+Xu H, Liu Y, Bai Q, Wu R (2019) Discarded cigarette filter-derived
+hierarchically porous carbon@graphene composites for lithium-
+sulfur batteries. J Mater Chem A 7:3558–3562
+Yu C, Hou H, Liu X, Han L, Yao Y, Dai Z, Li D (2018) The recovery of
+the waste cigarette butts for N-doped carbon anode in lithium ion
+battery. Front Mater 5:63
+Zhang J, Zhao J, Zhang N, Qu C, Zhang X (2011) Synergized action of
+CuCl on recycled cigarette butts as corrosion inhibitor for N80 steel
+at 90 °C in 15% HCl. Ind Eng Chem Res 50:7264 –7272
+Zhang J, Xu H, Guo J, Chen T, Liu H ( 2020a) Superhydrophobic
+polypyrrole-coated cigarette filters for effective oil/water separation.
+Appl Sci 10:1985
+Z h a n gX ,X uJ ,L vZ ,W a n gQ ,G eH ,W a n gX ,H o n gB( 2020b)
+Preparation and utilization of cigarette filters based activated carbon
+for removal CIP and SDS from aqueous solutions. Chem Phys Lett
+747:137343
+Zhao J, Zhang N, Qu C, Wu X, Zhang J, Zhang X (2010a) Cigarette butts
+and their application in corrosion inhibition for N80 steel at 90 °C in
+a hydrochloric acid solution. Ind Eng Chem Res 49:3986–3991
+Zhao J, Zhang N, Qu C, Zhang J, Zhang X ( 2010b)C o m p a r i s o no ft h e
+corrosion inhibitive effect of anaerobic and aerobic cigarette butts
+water extracts on N80 steel at 90 °C in hydrochloric acid solution.
+Ind Eng Chem Res 49:12452–12460
+Publisher’sn o t eSpringer Nature remains neutral with regard to jurisdic-
+tional claims in published maps and institutional affiliations.
+10473Environ Sci Pollut Res  (2021) 28:10450–10473
+

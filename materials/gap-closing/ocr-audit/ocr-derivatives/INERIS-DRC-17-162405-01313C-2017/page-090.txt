@@ -1,0 +1,40 @@
+AIN
+
+Dossier P163948 - Document DMSI/1 - Page 2/3
+
+DESCRIPTION DES ECHANTILLONS
+Trois échantillons ont été analysés :
+
+e  Echantillon 1 : réf 16BB636 mégots secs
+e  Echantillon 2 : réf 16BB634 mégots secs
+e  Echantillon 3 : réf 16BB635 mégots humides
+
+PREPARATION ET ANALYSES DES ECHANTILLONS
+
+Les échantillons sont extraits (5 g d’échantillon environ) en ajoutant 50 mL d’une
+solution d'acétate d'ammonium (0,1 M). La solution est agitée à température
+ambiante pendant 60 minutes. La filtration des extraits est réalisée sur des filtres de
+polyethersulfone de 0,45 um.
+
+Une quantité connue de molécules marquées (une molécule marquée pour chaque
+molécule analysée) par des isotopes stables (deutérés) est ajoutée à l'échantillon
+avant extraction par l'acétate d'ammonium.
+
+L'analyse des extraits est réalisée par chromatographie en phase liquide couplée à la
+spectrométrie de masse en tandem. L'’étalonnage est réalisé avec 5 solutions étalon.
+Des blancs d’acétate d'ammonium sont analysés afin de s'assurer qu'il n'y ait aucune
+contamination. Au niveau de l'analyse, des blancs solvants sont réalisés entre
+chaque extrait analysé.
+
+Afin de s'affranchir des effets d'extinction de signal, fréquents lors d'analyses de
+nitrosamines dans des matrices complexes tels que les mégots de cigarettes, des
+ajouts de composés et de composés marqués ont été réalisés sur les différents
+échantillons afin de vérifier que les phénomènes observés étaient du même ordre de
+grandeur pour la molécule étudiée et son homologue marqué.
+
+RESULTATS
+
+L'analyse des blancs d’acétate d'ammonium n'a pas mis en évidence de présence de
+NNN, NNK, NAB ni NAT.
+
+suite du rapport page suivante

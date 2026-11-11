@@ -1,0 +1,70 @@
+[Revendication 1|
+
+[Revendication 2]
+
+[Revendication 3]
+
+[Revendication 4|
+
+[Revendication 5]
+
+[Revendication 6]
+
+[Revendication 7|
+
+[Revendication 8]
+
+10
+
+Revendications
+
+Procédé de recyclage des mégots de cigarette, chaque mégot de cigarette
+comprenant au moins du tabac, du papier et un filtre, ledit filtre
+comprenant de l’acétate de cellulose et du papier, caractérisé en ce que
+le procédé comprend les étapes suivantes:
+
+a) séparer dans une première fraction F1 les filtres et dans une deuxième
+fraction F2 le tabac et le papier issu d’un mélange comprenant le tabac,
+le papier et les filtres séparés les uns des autres, puis récupérer la
+première fraction F1,
+
+b) sécher et dépolluer par chauffage ladite fraction F1 contenant les
+filtres à une température comprise en 80 et 100°C,
+
+c) broyer la fraction F1 contenant les filtres séchés et dépollués issu de
+l'étape b)
+
+d) mélanger et dépolluer simultanément par chauffage dans une ex-
+trudeuse les filtres broyés obtenus à l’étape c) avec au moins un
+polymère thermoplastique pour obtenir un matériau composite.
+
+Procédé selon la revendication 1, caractérisé en ce qu’il n’utilise ni de
+solvant, ni d’eau.
+
+Procédé selon l’une des revendications précédentes, caractérisé en ce
+que ledit procédé comprend les étapes préliminaires suivantes :
+
+- tri pour récupérer uniquement les mégots de cigarette à partir d’un
+mélange de déchets diffus et de mégots de cigarettes, et
+
+- extraction du tabac contenu dans les mégots de cigarette avec un
+broyeur.
+
+Procédé selon la revendication précédente, dans lequel le broyeur utilisé
+pour l’extraction du tabac contenu dans les mégots de cigarette est un
+est un doseur mono-vis ou un doseur bi-vis sans fin.
+
+Procédé selon l’une des revendications précédentes, dans lequel la dé-
+pollution par chauffage lors de l’étape d) est effectuée à une température
+d’au moins 170°C.
+
+Procédé selon la revendication précédente, caractérisé en ce que la tem-
+pérature est comprise en 170 et 240°C.
+
+Procédé selon l’une des revendications précédentes, caractérisé en ce
+que l’étape a) est répétée de 3 à 5 fois sur la fraction F1 comprenant les
+filtres.
+
+Procédé selon l’une des revendications précédentes, caractérisé en ce
+
+qu’il comprend une étape supplémentaire entre l’étape c) et d) de

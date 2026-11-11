@@ -1,0 +1,76 @@
+[00301
+
+[0031]
+
+[0032]
+
+[0033]
+
+[0034]
+
+[0035]
+
+[0036]
+
+[0037]
+
+[0038]
+
+[0039]
+
+[00401
+
+[0041]
+
+[0042]
+
+Elle est aussi appréciée dans le domaine de la plasturgie afin de créer de nouveaux
+matériaux solides éco-conçus avec ou sans mélange.
+
+Dans un mode de réalisation avantageux, les fibres à dépolluer sont introduites dans
+une chambre de nettoyage. Ceci est réalisé de préférence lors de la phase de dé-
+pollution avant mise en contact.
+
+De préférence, une telle chambre se présente sous la forme d’une enceinte clause
+telle que par exemple un autoclave.
+
+Avantageusement, lors de la phase de dépollution, le fluide est comprimé jusqu’à une
+pression déterminée dite supercritique et est chauffé jusqu’à une température dite su-
+percritique, lesdites pression et température supercritiques étant déterminées en
+fonction du fluide.
+
+De préférence, la pression supercritique est comprise entre 0 et 2000 bars, de
+préférence entre 50 et 350 bars, de préférence entre 280 et 320 bars.
+
+De préférence, la température supercritique est comprise entre 0° et 400° Celsius, de
+préférence entre 15° et 80° Celsius.
+
+Un des aspects de la présente invention est ainsi de prévoir une dépollution efficace
+en réglant notamment les paramètres de pression et de température afin d’amener le
+fluide dans un état supercritique suffisamment puissant et solvant pour éliminer
+(extraire) les substances toxiques et les odeurs présentes dans les fibres de cigarette,
+après combustion du tabac.
+
+La performance d’extraction des substances dépend des domaines d’application
+envisagés pour la valorisation de la fibre. On comprendra que les paramètres associés à
+la pression et la température seront susceptibles de changer selon les résultats de pureté
+de fibre nécessaire.
+
+Avantageusement, le fluide est sélectionné parmi : le dioxyde de carbone ; certains
+liquides organiques comme le méthanol ou l’éthanol ; l’eau ; le Tétrafluoroéthane ; les
+alcanes légers, tels que par exemple le méthane, le propane, le butane, l’isobutane et le
+pentane ; le monoxyde de dihydrogène ; les alcènes comme l’éthylène et le propylène.
+
+Tous ces fluides peuvent être utilisés à l’état de fluide dense sous pression, à l’état
+subcritique (oxydation par voie humide) ou supercritique.
+
+Dans un mode de réalisation avantageux de la présente invention, le fluide sé-
+lectionné pour la phase de dépollution est le dioxyde de carbone. On prévoit de
+préférence que, dans ce mode, la température supercritique est supérieure ou égale à
+31° Celsius et la pression supercritique est supérieure ou égale à 73.85 bars.
+
+L'utilisation du dioxyde de carbone comme fluide est avantageuse en ce qu’elle
+permet de dépolluer un déchet tel que le mégot de cigarettes à l’aide d’un autre déchet
+émis en très grande quantité par les industries (le dioxyde de carbone).
+
+Les conditions de température (température supérieure ou égale à 31° Celsius) et de

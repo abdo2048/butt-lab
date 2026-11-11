@@ -1,0 +1,22 @@
+Dossier P163948 - Document DMSI/1 - Page 3/3
+
+Les concentrations sont exprimées en ng de composé/g de broyat de mégots. Les
+résultays et les incertitudes élargies associées (k=2) sont rassemblés dans le tableau
+ci-dessous :
+
+[1688636  mégots secs [1688634  mégotssecs |16BB635  mégots humides
+Conc (ng/g) U (ng/g) Conc (ng/g) U (ng/g)__ |Conc (ng/g) U (ng/g)
+NNN 583 52 604 84 109 30
+NNK 324 9%6 439 30 43 12
+NAT 551 166 589 137 104 59
+NAB 58 12 65 20 13.4 4,5
+
+Paris, le 23 Janvier 2017
+
+La Responsable du Département Le Responsable de l’essai
+Biomédical et Chimie Organique
+
+Les résultats mentionnés ne sont applicables qu'aux échantillons, aux produits ou
+aux matériels soumis au LNE et tels qu'ils sont définis dans le présent document.
+
+Ÿ LNE

@@ -1,0 +1,20 @@
+HTTP/2 200 
+content-type: application/pdf
+x-guploader-uploadid: AFy3sg0YMco7h_OfUQI8x8rOla8ARo08C_7TfVR7BNFyW06GjflYwxZSNwIO73Riv66mJk9jhsdORUE
+expires: Sun, 08 Nov 2026 00:11:38 GMT
+date: Sat, 07 Nov 2026 23:11:38 GMT
+cache-control: public, max-age=3600
+last-modified: Mon, 06 Dec 2021 07:48:57 GMT
+etag: "9870621e77c2b3bc2944d84016679701"
+x-goog-generation: 1638776937330175
+x-goog-metageneration: 2
+x-goog-stored-content-encoding: identity
+x-goog-stored-content-length: 668550
+x-goog-hash: crc32c=P8+zGw==
+x-goog-hash: md5=mHBiHnfCs7wpRNhAFmeXAQ==
+x-goog-storage-class: STANDARD
+accept-ranges: bytes
+content-length: 668550
+server: UploadServer
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

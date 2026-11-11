@@ -1,0 +1,6 @@
+{
+  "url": "https://doi.org/10.1016/j.wasman.2016.10.013",
+  "is_paywall": false,
+  "is_cached": false,
+  "error": "hot: SLS_NOT_FOUND; cold: SLS_NOT_FOUND; online: SLS_CRAWL_FAILED: error parsing data for \"https://doi.org/10.1016/j.wasman.2016.10.013\" in table 'crawler/v2/pages': crawler error http_code_redirect: http_code_redirect"
+}

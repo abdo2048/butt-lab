@@ -1,0 +1,193 @@
+version: 2
+updated: '2026-11-08'
+base_commit: fda66af351a37d38287792ed3b578a258eedf7fc
+batch: batch-01
+current_stage: 5
+execution: file-directed; host must trigger/resume; no scheduler installed
+status: awaiting_manual
+next_action: Stage-5 synthesis complete (complete_scoped); operator reviews reports/final/batch-01-synthesis.md and reports/final/validation-and-open-questions.md; no further stage is defined in the current workflow; no experiment authorized
+pending_manual_action: >-
+  Stage-5 desk synthesis is complete. Pending manual action: operator reviews the two
+  final reports (reports/final/batch-01-synthesis.md and
+  reports/final/validation-and-open-questions.md). No further stage is defined in the
+  current workflow; batch-01 investigation is complete pending operator review. No
+  experiment authorized.
+checkpoint:
+  unit: Stage-5 batch-01 desk synthesis and validation/open-questions report
+  completed_in_this_unit:
+    - reports/final/batch-01-synthesis.md
+    - reports/final/validation-and-open-questions.md
+  remaining: Operator review of Stage-5 synthesis; no further stage defined in the current workflow
+  next_action: Operator reviews the Stage-5 synthesis and validation/open-questions reports; no further stage is defined
+  last_actor: Stage-5 synthesizer (Perplexity Deep Research); displayed model not recorded; underlying model not verified
+  last_run: '2026-11-07'
+  retrieval_calls_used: 0
+  retrieval_ceiling: 24
+  packet_version: v1.0
+  packet_path: packets/batch-01/stage-4/manifest.yaml
+  packet_commit: 671de7c045385dade4b8f26c7b1680a2cc3a809c
+  packet_payload_commit: 671de7c045385dade4b8f26c7b1680a2cc3a809c
+  packet_payload_count: 8
+  packet_payload_breakdown: 3 hashed Stage-4 controls + 5 preserved Stage-3 panel outputs
+  release_metadata_files: "manifest.yaml, LAUNCH.md, COMMIT.txt (unhashed)"
+  release_bundle_file_count: 11
+  release_metadata_commit: 6206d42ab72b60ddd330268d5411abcb26005d32
+  release_metadata_commit_note: >-
+    Follow-up commit corrected the manifest judge hash and recorded the payload commit;
+    the eight hashed payload files did not change.
+  packet_commit_note: >-
+    The judge used packet_commit 671de7c045385dade4b8f26c7b1680a2cc3a809c.
+    Worker reports are local outputs and were not represented as payload files.
+  authorized_judge_inputs: 5 packet files + worker A/B/C; no optional service-specific B report present
+  judge_recommendation: REVISE
+  judge_new_hypothesis: J-H-01 (unvalidated synthesis of B-P-01 and C-P-01 boundaries)
+  validation: YAML/schema and hard-rule scans passed; LF UTF-8, no BOM or trailing whitespace
+  no_experiment_authorized: true
+legacy:
+  preserved_queue: state/work-queue.yaml
+  preserved_tracker: state/progress.md
+  reusable_drafts:
+    - specs/de-fenzo-2020-source-reconstruction.md
+    - specs/cn106928486-source-reconstruction.md
+    - specs/pressurized-fluid-reference.md
+    - reports/gap-check-01.md
+    - reports/process-comparison-01.md
+    - reviews/source-reconstructions-review-01.md
+    - inventions/candidate-hypotheses-01.md
+  note: Reuse drafts; old R-task completion is not stage-gate acceptance.
+stages:
+  1:
+    role: harvester
+    mode: single-auto
+    status: complete_scoped
+    units:
+      - {id: H01, status: complete_bounded, output: reports/stage1/company-source-map.md}
+      - {id: H02, status: complete_bounded, output: reports/stage1/coverage-ledger.md}
+      - {id: H03, status: complete_bounded, output: reports/stage1/batch-selection.md}
+    gate: >-
+      WORKFLOW.md Stage 1; scoped completion. Selected leads traceable or explicitly
+      inaccessible; coverage and collector/processor limits stated; no worldwide claim.
+  2:
+    role: deep-dive
+    mode: single-auto
+    status: complete_scoped
+    units:
+      - {id: S2-00, status: complete_bounded, spec: specs/de-fenzo-2020-source-reconstruction.md, version: v1.0}
+      - {id: S2-01, status: complete_bounded, spec: specs/mego-fr3066128a1-source-reconstruction.md, version: v1.0}
+      - {id: S2-01b, status: complete_bounded, spec: specs/company-workflow-dossiers-batch01.md, version: v1.0}
+      - {id: S2-02, status: complete_bounded, spec: specs/keenat-fr3110470a1-source-reconstruction.md, version: v1.0}
+      - {id: S2-03, status: complete_bounded, spec: specs/cn106928486-source-reconstruction.md, version: v1.0}
+      - {id: S2-04, status: complete_bounded, spec: specs/pressurized-fluid-reference.md, version: v1.0}
+      - {id: S2-05, status: complete_bounded, spec: specs/unb-pi0305004-source-reconstruction.md, version: v1.0}
+    outputs_required:
+      - reports/stage2/reconstruction-index.md
+      - reports/stage2/assumption-and-gap-ledger.md
+      - packets/batch-01/stage-3/manifest.yaml
+      - packets/batch-01/stage-3/LAUNCH.md
+      - reports/stage2/errata-packet-v1.0.md
+      - reports/gap-check-01.md
+    gate: >-
+      Selected batch addressed; conflicts/unknowns carried; waste/safety retained;
+      common question/schema and frozen packet ready. Passed for the scoped batch.
+  3:
+    role: red-team
+    mode: manual-fusion
+    status: complete_accepted
+    round: '01'
+    packet: packets/batch-01/stage-3/manifest.yaml
+    packet_version: v1.1
+    slots:
+      A: {status: complete, output: panels/batch-01/stage-3/round-01/worker-a.md}
+      B:
+        status: complete
+        output: panels/batch-01/stage-3/round-01/worker-b_Z-GLM5.3.md
+        contributions:
+          - panels/batch-01/stage-3/round-01/worker-b_Z-GLM5.3.md
+          - panels/batch-01/stage-3/round-01/worker-b_Tencent-Hy4.md
+      C: {status: complete, output: panels/batch-01/stage-3/round-01/worker-c.md}
+    judge: {status: complete, output: panels/batch-01/stage-3/round-01/judge.md, recommendation: REVISE}
+    operator_acceptance:
+      accepted: true
+      packet_version: v1.1
+      statement: >-
+        OPERATOR DECISION: ACCEPT STAGE 3 PANEL FOR HANDOFF, WITH REVISE RECOMMENDATION CARRIED FORWARD.
+        I accept the Stage-3 red-team panel as a completed evidence review for batch-01, round-01, packet v1.1, payload commit 5f484b585ca16dbd2ce93b56c61c962f5f14c774.
+        I do not accept any claim that a recycling family is clean, detoxified, safe, commercially validated, or environmentally superior. The panel correctly finds that no family has complete dry-mass, analyte-resolved contaminant-fate, leaching, and use-specific performance evidence.
+        I accept the judge's recommendation to REVISE the broad claims and carry its bounded revisions into the Stage-4 packet. I do not request a new Stage-3 revision round at this time.
+        I accept the two Slot-B reports as two independent contributions to the same Slot B, not as two panel roles or two votes. The judge report correctly preserved their disagreements without counting them as votes.
+        The missing hy4-citation-map.md is not a blocking issue because the Tencent report contains its own [1]-[27] reference definitions. The map remains optional local navigation material only.
+        Stage 4 may proceed only as bounded invention/hypothesis work. It must not treat any family as proven safe, clean, deployable, or environmentally beneficial. No experiment is authorized by this acceptance.
+    blocking_decisions: []
+    revision_rounds_used: 0
+    revision_round_limit: 2
+  4:
+    role: inventor
+    mode: manual-fusion
+    status: complete_accepted
+    round: '01'
+    packet: packets/batch-01/stage-4/manifest.yaml
+    packet_version: v1.0
+    packet_payload_commit: 671de7c045385dade4b8f26c7b1680a2cc3a809c
+    slots:
+      A: {status: complete, output: panels/batch-01/stage-4/round-01/worker-a.md}
+      B: {status: complete, output: panels/batch-01/stage-4/round-01/worker-b.md}
+      C: {status: complete, output: panels/batch-01/stage-4/round-01/worker-c.md}
+    judge: {status: complete, output: panels/batch-01/stage-4/round-01/judge.md, recommendation: REVISE}
+    operator_acceptance:
+      accepted: true
+      packet_version: v1.0
+      statement: >-
+        OPERATOR DECISION: ACCEPT STAGE 4 PANEL FOR HANDOFF, WITH REVISE RECOMMENDATION CARRIED FORWARD.
+        I accept the Stage-4 inventor panel as completed hypothesis generation for batch-01, round-01, packet v1.0, payload commit 671de7c045385dade4b8f26c7b1680a2cc3a809c.
+        I do not accept any claim that any proposal (A-P-01, B-P-01, B-P-02, B-P-03, C-P-01/F1P, or judge hypothesis J-H-01) is validated, novel, patentable, safe, deployable, costed, or environmentally beneficial. Every proposal is a new hypothesis awaiting the measurement that could kill it. No proposal demonstrates a complete four-field sink with demonstrated analytical performance or a passed use-specific product gate.
+        I accept the judge's recommendation to REVISE and carry its required revisions into Stage 5: call the initial wash fraction a candidate stream until measured; one common dry-feed-basis analyte-resolved fate balance across every stream; define the final treatment route and jurisdiction-specific acceptance basis; demonstrate inlet-to-outlet analytical performance; set a use-specific product gate independent of mass-balance closure; treat metals as an explicit stop condition; remove unsupported numerical thresholds, fixed sampling counts and method-performance values. I do not request a new Stage-4 revision round at this time.
+        J-H-01 remains explicitly a new unvalidated judge hypothesis, the preferred revision target, not an accepted process. Worker A's F3 minority position is preserved: F3 may be the better starting point when recoverable polymer quality is the controlling objective.
+        I record the worker identities as operator-reported: Slot A by Nemotron 3.5 Lightning, Slot B by MiniMax M3, Slot C by DeepSeek web chat (model version unverified). Model-family reuse among workers, judge and packet author is unknown; no model diversity is established.
+        Worker B's hash-normalization finding is accepted: the Stage-4 manifest described its hashes as LF-normalized while worker-a.md and worker-b_Tencent-Hy4.md as committed contain CRLF and a UTF-8 BOM. The hash values are raw-byte hashes and are correct; the wording is corrected in this commit. Payload bytes are unchanged; this is a release-metadata correction, not a chemistry issue.
+        Stage 5 may proceed only as desk synthesis of the accepted Stage-3 and Stage-4 panels. It must not treat any family or proposal as proven safe, clean, deployable, or environmentally beneficial. No experiment is authorized by this acceptance.
+    blocking_decisions: []
+    revision_rounds_used: 0
+    revision_round_limit: 2
+  5:
+    role: synthesizer
+    mode: single-auto
+    status: complete_scoped
+    outputs_required:
+      - reports/final/batch-01-synthesis.md
+      - reports/final/validation-and-open-questions.md
+    gate: Accepted panels, no blocking decision; desk synthesis, not experimental validation
+permissions:
+  registries: read-only
+  backup: immutable
+  prior_scientific_outputs: read-only; add versions/proposals
+  progress_updates: checkpoint and session log as approved proposed edits
+  external_writes: host approval required
+  experiments: not authorized
+follow_ups:
+  batch_01_gap_closing:
+    status: partial_checkpoint
+    scope: Operator-commissioned desk retrieval; not Stage 6 or final-report acceptance
+    base_commit: 98131dc
+    last_actor: Perplexity Computer follow-up researcher (this session)
+    last_run: '2026-11-08'
+    tracker: reports/final/gap-closing-tracker.md
+    source_folder: sources/followup/batch-01/2026-11-08
+    completed_in_this_unit:
+      - reports/final/gap-closing-tracker.md
+      - reports/followup/batch-01/FR3066128B1-disclosure-review.md
+      - reports/followup/batch-01/manual-and-ekb-retrieval-queue.md
+      - sources/followup/batch-01/2026-11-08/receipts/downloads.json
+      - sources/followup/batch-01/2026-11-08/inventory.csv
+    search_content_calls_used: 24
+    search_content_call_ceiling: 24
+    linked_binary_transfers: 8
+    pdf_files_saved: 8
+    no_experiment_authorized: true
+    remaining: >-
+      Full review of downloaded INERIS/thesis/patents; missing Teixeira article
+      and Brazilian patent, Cerdia original PDF, Korean article/underlying assay,
+      primary LCAs and actual treatment/product acceptance dossiers.
+    next_action: >-
+      Operator can inspect tracker and source bundle; resume with INERIS/thesis
+      evidence review and the targeted manual/EKB queue. Stage-5 final-report
+      acceptance remains undecided and stages 1-5 are unchanged.

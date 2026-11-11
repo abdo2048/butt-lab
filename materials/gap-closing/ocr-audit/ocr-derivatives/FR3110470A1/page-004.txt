@@ -1,0 +1,65 @@
+[0016]
+
+[0017]
+[0018]
+
+[0019]
+
+[00201
+
+[0021]
+
+[0022]
+[0023]
+
+tuyau, pieds, cendrier, support de communication, panneaux, matériaux divers.
+L'invention est à présent décrite en détail. D’autres caractéristiques et avantages res-
+
+sortiront de la description détaillée de l’invention et des exemples qui vont suivre.
+
+Description détaillée de l’invention
+
+Définitions
+
+Par « diffus » on entend au sens de l’invention, des déchets ne comprenant pas les
+mégots de cigarette et issus majoritairement des cendriers susceptibles de contenir un
+ou plusieurs produits chimiques pouvant présenter un risque important pour la santé et/
+ou l'environnement. On y trouve également papiers divers, bâton de sucette, tickets de
+transport en commun, plastiques divers.
+
+Par « mégot de cigarette » on entend au sens de l’invention, le déchet ou reste d’une
+cigarette après son usage. Il s’agit donc d’un déchet toxique, difficile à collecter et à
+valoriser malgré que l’acétate de cellulose soit recyclable. Un mégot de cigarette
+comprend notamment du papier, du tabac et un filtre comprenant de l’acétate de
+cellulose.
+
+Par « broyeur » on entend au sens de l’invention, un dispositif permettant d’effectuer
+un broyage, c’est-à-dire de réduire une matière à une dimension donnée et/ou de
+faciliter la séparation de différents constituants. Par exemple, séparer d’un mégot, ses
+différents constituants et/ou d’obtenir des fragments de mégots. Ainsi, il permet de
+rendre accessibles les différents constituants les mégots et ainsi, faciliter son recyclage.
+
+Par « compoundage » on entend au sens de l’invention, un procédé
+d’extrusion-granulation permettant le mélange par fusion d'un polymère telle qu’un
+polymère thermoplastique avec un ou plusieurs additifs telles que l’acétate de cellulose
+recyclé afin d’obtenir une matière plastique sous forme de compounds.
+
+Procédé selon l'invention
+
+L’invention vise donc un procédé de recyclage des mégots de cigarette, chaque
+mégot de cigarette comprenant au moins du tabac, du papier et un filtre, ledit filtre
+comprenant de l’acétate de cellulose et du papier, caractérisé en ce que le procédé
+comprend les étapes suivantes:
+
+a) séparer dans une première fraction F1 les filtres et dans une deuxième fraction F2
+le tabac et le papier issu d’un mélange comprenant du tabac, du papier et des filtres,
+puis récupérer la première fraction F1,
+
+b) sécher et dépolluer par chauffage la fraction F1 contenant les filtres à une tem-
+pérature comprise en 80 et 100°C,
+
+c) broyer la fraction F1 contenant les filtres séchés et dépollués issu de l’étape b),
+
+d) mélanger et dépolluer simultanément par chauffage dans une extrudeuse les filtres
+
+broyés obtenus à l’étape c) avec au moins un polymère thermoplastique pour obtenir

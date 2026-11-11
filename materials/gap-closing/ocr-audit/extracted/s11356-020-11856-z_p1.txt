@@ -1,0 +1,63 @@
+Environmental Science and Pollution Research (2021) 28:10450–10473
+https://doi.org/10.1007/s11356-020-11856-z
+
+    REVIEW ARTICLE
+
+
+
+
+Toxicity of cigarette butts and possible recycling solutions—a
+literature review
+Ivan Moroz 1       &   Luiz G. B. Scapolio 2 & Ivana Cesarino 1 & Alcides L. Leão 1 & Giuliano Bonanomi 3
+
+Received: 3 August 2020 / Accepted: 26 November 2020 / Published online: 7 January 2021
+# The Author(s), under exclusive licence to Springer-Verlag GmbH, DE part of Springer Nature 2021
+
+Abstract
+Tobacco is a worldwide-consumed product, which in addition to causing public health-related issues is responsible for the most
+common form of litter in the world—smoked cigarette butts (CBs). A large attention has been drawn to this question, since this
+specific waste type tends to end up in terrestrial and aquatic ecosystems, posing serious threat to a range of life forms.
+Decomposition may take several years to occur because cellulose acetate is hardly accessible, before deacetylation, by bacteria
+and fungi. This review concerns the toxicity derived from smoked cigarette butts, as well as innovative ecological solutions for
+solving the CB litter problem. Toxicity studies have demonstrated the critical influence of chemicals present in smoked CBs to
+the environment as a whole, but also the physical contaminating potential considering micro- and nanoparticles derived from CB
+material. Nevertheless, several technological approaches were aimed at unveiling hidden value within used CBs, as well as
+propositions for incorporation of this residue in large volume production items or direct recycling. In summary, several methods
+are available to alleviate CB pollution, while appropriate and efficient collection logistics by consumers appears as the main
+bottleneck for an effective recycling. It is also clear that while considerable progress has been made recently in light of CB
+recycling solutions, there is still a vast research capacity in this regard.
+
+Keywords Cigarette butt . Toxicity . Decomposition . Recycling waste . Pollution . Debris
+
+
+Introduction                                                                 Report on the Global Tobacco Epidemic 2019), an estimated
+                                                                             1.1 billion people of 15 years of age and over are considered
+Direct disposing of non-degradable residues into the environ-                tobacco users, of which 1.07 billion are considered smokers.
+ment is a major pollution issue worldwide. During their exis-                Interestingly, this number has declined since the first estimate
+tence, these residues have the potential to harm nature in a                 in 2007, when 1.46 billion people were considered tobacco
+myriad of ways. Among them, cigarette butts (CBs) are an                     users. It is easy to imagine the massive amounts of cigarette
+important part of urban litter because of their massive numbers              butts produced over time. Indeed, according to the 2018
+and of their longevity. According to the 2019 World Health                   Tobacco Atlas (Drope et al. 2018), in 2016 only, about 5.7
+Organization Report on the Global Tobacco Epidemic (WHO                      trillion cigarettes were smoked worldwide. Public health is-
+                                                                             sues associated with tobacco use and smoking habits have
+Responsible Editor: Lotfi Aleya                                              been extensively researched and discussed, and will be not
+                                                                             addressed in this paper, but it is worth noting that over 7.1
+* Ivan Moroz                                                                 million deaths were associated with tobacco use in 2016 alone
+  ivan.moroz@unesp.br                                                        (Drope et al. 2018).
+                                                                                 A large proportion of these cigarettes, once smoked, is
+1
+     Department of Bioprocesses and Biotechnology, School of                 simply thrown into the ground in the form of a CB, which
+     Agriculture, Sao Paulo State University (Unesp), Avenida                can still retain unburnt or partially burnt tobacco; eventually,
+     Universitária, 3780 Botucatu, Brazil
+                                                                             this litter may end up in marine environments as well
+2
+     Graduate Program in Materials Science and Engineering, Federal          (Loizidou et al. 2018). Even if a CB has no remaining tobacco,
+     University of Sao Carlos, Rodovia Washington Luiz km 235, Sao
+     Carlos, Brazil
+                                                                             toxic chemicals derived from the smoking process remain
+3
+                                                                             trapped in the butt. Moreover, CBs pose serious environmen-
+     Department of Agricultural Sciences, University of Naples Federico
+     II, via Università 100, 80055, Portici, Naples, Italy
+                                                                             tal threats because of their resistance to biodegradation in
+

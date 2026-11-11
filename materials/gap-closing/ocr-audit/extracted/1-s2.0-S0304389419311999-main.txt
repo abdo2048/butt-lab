@@ -1,0 +1,1901 @@
+=== PDF FILE: 1-s2.0-S0304389419311999-main.pdf ===
+sha256: 7269d63ff4529887c686b0e88ebb878a20b68fd0339a1f53c6acc6361d266477
+pages: 20
+printed_page_labels: PDF p.1=printed 1, PDF p.2=printed 2, PDF p.3=printed 3, PDF p.4=printed 4, PDF p.5=printed 5, PDF p.6=printed 6, PDF p.7=printed 7, PDF p.8=printed 8, PDF p.9=printed 9, PDF p.10=printed 10, PDF p.11=printed 11, PDF p.12=printed 12, PDF p.13=printed 13, PDF p.14=printed 14, PDF p.15=printed 15, PDF p.16=printed 16, PDF p.17=printed 17, PDF p.18=printed 18, PDF p.19=printed 19, PDF p.20=printed 20
+
+=== PDF PAGE 1 ===
+Contents lists available atScienceDirect
+Journal of Hazardous Materials
+journal homepage: www.elsevier.com/locate/jhazmat
+Review
+A second life for cigarette butts? A review of recycling solutions
+Samuele Marinello
+⁎
+, Francesco Lolli, Rita Gamberini, Bianca Rimini
+Department of Sciences and Methods for Engineering, University of Modena and Reggio Emilia, Via Amendola 2, Padiglione Morselli, 42122 Reggio Emilia, Italy
+GRAPHICAL ABSTRACT
+ARTICLE INFO
+Editor: Daniel CW Tsang
+Keywords:
+Cigarette butts
+Recycling solutions
+Review
+Sustainability
+ABSTRACT
+Trillions of cigarettes are smoked annually making cigarette butts one of the most common types of litter in the
+world. Due to the materials and toxic substances that they contain, this waste carries a very harmful risk for the
+environment and for living organisms (including humans). Only a few - barely sustainable - solutions have tried
+to tackle this waste and alternative solutions to landfilling and incineration are needed. Identifying the best
+methodologicalsolutions and technologiesforrecycling thiskind of wastein terms ofresults andapplicability to
+real contexts would reduce the presence of dangerous materials in the environment and ecosystems and would
+promote the recovery of materials in line with the circular economy and sustainable development.
+The objective of this review was to collect and analyze the alternative solutions available in the literature for
+the recovery and recycling of the materials in cigarette butts, considering them as possible sources of secondary
+raw materials applicable to contexts of common interest. Several papers were selected and the results obtained
+by the authors are presented in terms of type of treatment process (physical, chemical or both), product derived
+(in solid, liquid or gaseous form) and its possible use in different sectors (e.g. construction, electronics, energy,
+chemistry and environmental protection). The main results, together with the advantages and disadvantages are
+highlighted and proposals for further research are outlined.
+https://doi.org/10.1016/j.jhazmat.2019.121245
+Received 15 July 2019; Received in revised form 16 September 2019; Accepted 16 September 2019
+Abbreviations:CF, cigarette filter “component of a cigarette specifically designed to absorb vapors and to accumulate particulate smoke components”. In this paper,
+the authors use CF as a clean component before its use during cigarette smoking; CB, cigarette butt “part of a cigarette that is left after it has been smoked”; CA,
+cellulose acetate “acetate ester of cellulose, also used in the manufacture of cigarette filters”
+⁎ Corresponding author.
+E-mail address: samuele.marinello@unimore.it (S. Marinello).
+Journal of Hazardous Materials 384 (2020) 121245
+Available online 21 September 2019
+0304-3894/ © 2019 Elsevier B.V. All rights reserved.
+T
+
+=== PDF PAGE 2 ===
+1. Introduction
+The world faces numerous environmental challenges on a daily
+basis. Efforts to address them are aimed at facilitating sustainable and
+responsible growth.
+As described by the World Health Organization (WHO, 2017),
+“Tobacco threatens many of the Earth’s resources”. The WHO study
+analyses the life cycle impacts of tobacco and shows how this product
+(and its industry) createswaste andinflicts damage on the environment
+throughout its life cycle. It also examines how this requires all those
+involved with tobacco control to think about how these consequences
+are linked to sustainable development goals.
+This is a global challenge because, although the cultivation, har-
+vesting and processing of tobacco are limited to specific areas of the
+world, the consumption and post-consumer waste are a problem that
+affects the entire planet (inhabited and uninhabited places). This is
+waste that can be found everywhere, which is often difficult to collect
+and even more complex to treat properly. Furthermore, the corre-
+sponding costs are not necessarily borne by the manufacturers, dis-
+tributors, or users of tobacco products, but generally are the responsi-
+bility of all citizens.
+Worldwide, an estimated 967 million daily smokers consumed ap-
+proximately 6.25 trillion cigarettes over the course of 2012 (Ng et al.,
+2014). According to the Tobacco Atlas (https://tobaccoatlas.org), a
+project of the American CancerSociety andthe Vital Strategies,in 2016
+the number of cigarettes smoked decreased to 5.7 trillion. Despite this,
+the number is expected to reach nine trillion by 2025 due to further
+growth in the market (Mackay et al., 2006). This is mainly due to po-
+pulation growth (Srbinoska et al., 2018). The number of cigarettes per
+smoker per day also varies widely across countries (Ng et al., 2014).
+Fig. 1shows the global cigarette consumption per region between
+1999 and 2016. The trend highlights the regions affected by higher
+growth (China and South-East Asia Region - SEARO) and those char-
+acterized by a decline (European Region -EURO, Americas - AMRO,
+Western Pacific Region - WPRO - excluding China). This trend is re-
+flected in the per capita consumption and on the waste associated with
+cigarette consumption, as shown inFigs. 2 and 3.
+CBs are the main type of litter: they are one of the most frequently
+collected waste items during clean-ups, in particular in beach and
+coastal environments (Araújoa and Costa, 2019;Ocean Conservancy,
+2018). The estimated annually discarded waste from global cigarette
+consumption could be anywhere between 340–680 million kg, besides
+almost two million tonnes of paper, ink, cellophane, foil and glue that
+are used in tobacco product packaging. More than 40% of all items
+collected during urban clean-ups and removed from public areas such
+as beaches and parks are CBs and related products (Bonanomi et al.,
+2015;Arizaetal., 2008).Accordingto WHO (2017),uptotwo-thirdsof
+every smoked cigarette is discarded on the ground, and about 76%
+according to Patel et al. (2013). This situation is explained byPatel
+et al. (2013)and Novotny and Zhao (1999): through interviews, they
+found that 73.5% of smokers do not use correct practices for the dis-
+posal of CBs, which are often therefore released into the environment.
+According to Roder Green et al. (2014), CBs are not uniformly
+distributed in an urban area, but are strongly connected to the location
+of sales and consumption. Their research (concentrated in the US)
+showed evidence of a higher concentration in proximity to bars, con-
+venience stores, liquor stores, cafes, gas stations, grocery stores, res-
+taurants, and traffic signals, as also reported byMarah and Novotny
+(2011) and Van Gucht et al. (2010). Furthermore, the authors report
+how CBs are concentrated at places of transition from an outdoor to an
+indoor environment (entrances to buildings, vehicles or public trans-
+portation stations).
+The big problem associated with this waste, in addition to its lack of
+control as it is freely dispersed in the environment, is that it is not
+biodegradable and that it contains and releases over 7000 toxic che-
+micals in the environment.
+Its toxicity and non-biodegradability could justify environmental
+regulation and policies to raise the price of tobacco and further dis-
+courage its use (Smith and McDaniel, 2010).
+However, practical operational aspects are lacking, in particular at
+the regulatory level. For example, the European List of Waste (EC,
+2000; EU, 2014) does not propose a specific entry for CBs, which is
+thereforeconsideredas“Municipalwasteincludingseparatelycollected
+fraction/Separately collected fraction/Other fractions not otherwise
+specified” (Rebischung et al., 2018).
+Therefore, using a "precautionary principle" and appropriate
+awareness raising and accountability practices among consumers and
+producers would substantially contribute to reducing the production of
+waste and its dispersion into the environment.
+Currently, given the poor results, finding effective management
+solutions for this waste is essential as it has been widely demonstrated
+how conventional disposal methods mainly represented by landfilling
+or incineration are neither universally sustainable nor economically
+feasible for this purpose (Bandi et al., 2018;Mohajerani et al., 2016).
+Identifyingarecyclingmethodologyforthiskindofwastewouldreduce
+the release of dangerous materials into the environment and to the
+ecosystems, and would promote the recovery of materials in line with
+the circular economy and sustainable development.
+Fig. 1.Trend of global cigarette consumption per region (authors elaboration from Tobacco Atlas data).
+S. Marinello, et al. Journal of Hazardous Materials 384 (2020) 121245
+2
+
+=== PDF PAGE 3 ===
+Several studies have analysed the possible treatments of CBs to
+make them less harmful and to give the waste a second life through the
+production of secondary raw materials or products that are already
+usable on the market. With the concept of reverse logistics and
+considering that the CBs are mainly made up of cellulose acetate (CA),
+these studies analyse their value as potential cellulose derivative
+sources for industrial and chemical processes. Torkashvand and
+Farzadkia (2019) also reviewed various solutions to cigarette butt
+Fig. 2.Pro-capita cigarette consumption (authors elaboration from Tobacco Atlas data).
+Fig. 3.Waste due to cigarette butt (authors elaboration from Tobacco Atlas data).
+S. Marinello, et al. Journal of Hazardous Materials 384 (2020) 121245
+3
+
+=== PDF PAGE 4 ===
+management.
+The present work presents a critical review of the research available
+in the literature concerning the recycling of CBs, as an inert component
+of other high value-added materials. Particular attention is paid to the
+evaluation of treatment approaches and related derived products. The
+geographical distribution of the analysed studies is also assessed. These
+aspects provide additional insights to those described byTorkashvand
+and Farzadkia (2019).
+These results can be of great interest to territories around the world
+and of inspiration to apply solutions and technologies to eliminate
+waste that has a huge environmental impact and that can help to de-
+velop other products according to the circular economy paradigm,
+avoiding the use of raw materials and precious natural resources.
+2. Characteristics of cigarette filters and CBs
+A cigarette is a small cylinder of finely cut tobacco leaves rolled in
+thin paper.
+Modern commercially manufactured cigarettes are composed of the
+following main elements (Fig. 4):
+•Tobacco blend dried and cut into thin one millimeter thick strips.
+The characteristics of tobacco change from manufacturer to manu-
+facturer. Dangerous chemicals can form in and be deposited on to-
+bacco during the processing of the tobacco leaves. Other dangerous
+chemicals are created when the tobacco filler is burned. Often there
+are also various additives that manufacturers can add to make
+smoking more appealing and to mask the harshness of the smoke.
+Humectants such as propylene glycol or glycerol, as well as fla-
+vouring products and enhancers such as cocoa solids, liquorice, to-
+bacco extracts, and various sugars are some of the additives in ci-
+garettes. There are hundreds of possible additives, however these
+are not declared on the cigarette packages on the market.
+•Rolling paper to cover the tobacco and adhesive. Composed of cel-
+lulose(withpossibleadditives),thispaperfavourstheappearanceof
+the ash and guarantees a uniform combustion. It is closed by an
+adhesive substance.
+•Afiltermadeupofcelluloseacetate,describedinmoredetailbelow.
+•Tipping paper to cover the filter. This is a polyvinyl acetate emul-
+sion which is used to glue the cellulose acetate plug to the inner
+wrapping paper.
+According to the U.S. Department of Health and Human Services
+(USDHHS), smokers are exposed to a toxic mix of over 7000 chemicals
+when they inhale cigarette smoke (U.S. Department of Health and
+Human Services (USDHHS, 2010). Hundreds of these substances are
+toxic, about 70 are carcinogenic.
+In 2012 the U.S. Food and Drug Administration (FDA) published a
+preliminary list of 93 Harmful and Potentially Harmful Constituents
+(HPHCs) that are linked to the five most serious health effects of to-
+bacco use (cancer, cardiovascular disease, respiratory effects, re-
+productive problems, and addiction). Some of these substances are
+Fig. 4.Diagram of a cigarette (authors elaboration).
+Fig. 5.Composition of Cigarettes (authors elaboration).
+S. Marinello, et al. Journal of Hazardous Materials 384 (2020) 121245
+4
+
+=== PDF PAGE 5 ===
+summarized inFig. 5.
+An important element that makes up the cigarette is the filter (CF).
+CFs were introduced in the middle of the 20th century, based on a
+patent by Boris Aivaz recorded in 1925.
+A filter is designed to reduce the amount of smoke, tar and fine
+particles inhaled during the combustion and to reduce the harshness of
+the smoke and keep tobacco flakes out of the smoker's mouth. The filter
+captures andretains toxic substances,butwhen littered, such chemicals
+can leach out of the cigarette filter.
+According toMohajerani et al. (2016), almost 90% of all cigarettes
+are manufactured with cellulose acetate filter tips except in Japan,
+Venezuela, South Korea and Hungary.
+CFs are made of about 95% poorly degradable microscopic-sized
+whitefibresmassedtogether(about12,000perfilterwithabout30,000
+dernier), characterized by a Y-shaped cross-section that is not perpen-
+dicular to the flow (the angle ranges from 18° to 49°) (Du et al., 2015)
+and it is made of CA. These fibres are synthetic plastic which looks like
+cotton. In the CFs, the CA fibres are linked to each other through the
+glyceroltriacetate,whichisaplasticizer(HamzahandUmar, 2017).CA
+is one of the most important esters of cellulose. It is produced through a
+two-step process, involving the esterification of acetic acid with cellu-
+lose and the partial hydrolysis of the resulting ester groups. CA can be
+produced with varying degrees of substitution. The most common form
+of cellulose acetate fibre has an acetate group on approximately 2–2.5
+of every three hydroxyls (Fischer et al., 2008), due to good solubility in
+common solvents, molecular weights, and melt properties (Puls et al.,
+2011). CA has various applications which depend on its processing and
+its physico-chemical characteristics. In particular, it is used for the
+production of textiles, plastics, films, and CFs.
+The common name for the remains of a cigarette after smoking is a
+CB. According toPoppendieck et al. (2016), aCB can be defined as “the
+cigarette remaining at the conclusion of the smouldering phase fol-
+lowing smoking. The conclusion of the smouldering phase is defined as
+when the entire cigarette butt reaches the ambient temperature of the
+environment in which it is located. The CB includes any remaining
+paper (wrapping paper, tipping paper, and plug wrap paper)”. It is ty-
+pically about 30% of the cigarette's original length.
+The three major CB components that Poppendieck et al. (2016)
+listed are: 1) ash, 2) unburned tobacco and 3) filtration material
+(Fig. 6).
+A filter, after its use, has absorbed smoke, trap tar, toxic chemicals
+and particle smoke. Its chemical composition depends on the type of
+tobacco used, the cigarette paper, category and effectiveness of the
+filteraswell asthedegreeoftipventilation.Italsodependsonthefilter
+design. Strain et al. (2015)analyzed the smoke filtering properties of
+different fibres using a cigarette as the smoke source. The tests showed
+thepresence ofmanycarcinogenichydrocarbonsandalcoholsthatexist
+in tobacco smoke. Experiments have also shown that the original CA
+cigarette filter tip absorbed only 2.7 times its own weight during the
+same treatment.
+ThemainproblemassociatedwithCBsistheirslowdegradationrate
+and the high concentration of toxic content.
+Typically, cellulose acetate possesses poor photo- and bio- degrad-
+able properties, making CBs persistent in the environment. The
+methods and times required for this process depend on the degradation
+mechanism, of which there are different types, e.g. photodegradation,
+biodegradation, and mechanical processes or a combination of these as
+typically occurs in outdoor environments due to different factors. Some
+researchers have demonstrated how the speed of degradation processes
+are inversely proportional to time. In particular, Puls et al. (2011)
+carried out a review of degradation mechanisms and the potential de-
+gradation rates of CA. According toPuls et al. (2011), cellulose is de-
+gradable thanks to organisms that utilize cellulose enzymes. CA, due to
+the additional acetyl groups, requires the presence of esterases for the
+first step in degradation. Also, the high molecular weight, crystallinity
+and the physical form influence the microbial degradation efficacy
+(Haske-Cornelius et al., 2017;Ogundare et al., 2017). Furthermore, CA
+isphoto-chemicallydegradedbyUV,butitspropertyislimitedtophoto
+degradability in sunlight due to the lack of chromophores for absorbing
+ultraviolet light (Robertson et al., 2012). Thus cellulose acetate-based
+cigarette filters do not biodegrade under most circumstances because of
+their compressed make upand the presence of acetyl molecules (Haske-
+Cornelius et al., 2017).
+CBs require several years to degrade completely (Bonanomi et al.,
+2015;Puls et al., 2011). According toKadir et al. (2009), the degrading
+rates vary from within 1 to 2 months under anaerobic conditions, 6 to 9
+months in soil, 12 months in fresh water and 36 months or more under
+poor conditions, for example, sea water, desert and underground sta-
+tions. Bonanomi et al. (2015)has demonstrated this slow process of
+degradation through a 2-year experiment in a standard decomposing
+organic substrate. The study shows how CBs lost only 37.8% of their
+initial mass after two years of decomposition. Comparing cellulose and
+plastic cigarette filter decomposition,Joly and Coulis (2018)estimated
+that conventional plastic filters take 7.5–14 years to disappear in
+compost and on the soil surface, respectively. In contrast, they esti-
+mated that cellulose filters take 2.3–13 years to disappear, in compost
+and on the soil surface, respectively.
+The other significant problem is the over 7000 toxic chemicals
+(including up to 50 human carcinogens according toHoffmann and
+Hoffmann (1997), toxic heavy metals, polycyclic aromatic hydro-
+carbons, pesticides, N-nitrosamines, aromatic amines, formaldehyde,
+acetaldehyde, benzene and nicotine) that this waste releases into the
+water, the soil, and the air, and which then comes into direct contact
+with humans, animals and vegetation.
+Poppendieck et al. (2016)provided a very in-depth review of the
+chemicals in cigarette butt emission and extraction studies, divided by
+media (air, water, extract solution, cigarette filter, cigarette butt),
+which summarized the chemicals found in the environment are a po-
+tential threaten to human health and the environment, especially
+marine ecosystems. These problems, in particular associated with
+harmful chemicals, have been analysed by several other authors.
+Roder Green et al. (2014)studied the effects of the nicotine con-
+tained in CBs on urban water resources through batch and rainfall ex-
+periments. Slaughter et al. (2011)analysed the effects on fish exposed
+to CBs soaked in either fresh or salt water.Singh and Kathiresan (2015)
+analysed the effects on fish and microbial communities.Oropesa et al.
+(2017) studied the effects on aquatic organisms from different trophic
+levels. This process revealed that nicotine poses an important risk to
+aquatic organisms.Booth et al. (2015)tested how common intertidal
+molluscs were affected by butt leachate.
+Slaughter et al. (2011)showed that percolates from CBs are toxic to
+a range of marine organisms. The LC50 (lethal concentration capable of
+killing 50% of the animals used in the test) is 1 CB/l for both marine
+and freshwater species.
+Starkey (2018); de Granda-Orive et al. (2016); Novotny and
+Slaughter (2014); Bonanomi et al. (2015)and Kadir and Mohajerani
+Fig. 6.Composition of a CB (authors elaboration).
+S. Marinello, et al. Journal of Hazardous Materials 384 (2020) 121245
+5
+
+=== PDF PAGE 6 ===
+(2008) provided a review of the studies on living organisms and eco-
+system health.
+3. Methodology
+This paper reviews the recent studies on CB recycling solutions. The
+scientific literature contains many interesting examples; however, the
+present review focuses only on specific experiences of CBs, which used
+this waste as input for physical and/or chemical treatment in order to
+obtain second raw materials, semi-finished products and finished goods
+applicable in industrial, agricultural, civil engineering, environmental
+or chemical contexts.
+The research was conducted on papers published prior to 1 January
+2019 using ScienceDirect and Scopus databases. The keywords used
+were: “Cigarette Butt”, “Cigarette Filter” and “Cigarette Tip”. These
+keywords were searched for individually or coupled with the term
+"recycling" using the "*" wildcard character used for multi-word sear-
+ches. The results of the search, expressed as the number of papers
+identified, are summarized inTable 1.
+Despite the numerous papers available, most were excluded from
+this work as they were not related to the topic discussed in this docu-
+ment. In fact, CBs are the subject of numerous related studies, for ex-
+ample, assessing environmental impacts and ecotoxicity, pollutant
+emission rates, physical dispersion, health effects, etc.
+The papers identified were further filtered by selecting only those
+conforming to the focus of the present study: articles that directly stu-
+died possible ways for the recovery and recycling of CBs.
+Atotalof37paperswerethusselectedwhichconsiderthedefinition
+of CBs, their chemical composition, techniques to treat and purify the
+smoked CBs, the products and materials that can be obtained and the
+performances of the products obtained.
+The papers selected were classified using criteria that describe the
+process input, sample treatment system, output and possible use. The
+geographical distribution of the studies was also considered. The five
+criteria used were (Fig. 7):
+1 Input for recycling: identifies the types of samples used as input to
+the treatment process. CBs are differentiated according to the filter
+production and characteristics of the smoked tobacco. Typically,
+this type of study compares CBs smoked with new and unused CFs
+(Table 2). Few authors used filters smoked in the laboratory to
+mimic the smoking process.
+2 Methodology/Treatment system: identifies the type of approach
+adopted for the treatment of samples, identifying methods of che-
+mical treatment, physical treatment and physical-chemical treat-
+ment. A brief description is also provided aimed at highlighting the
+methodological steps used by the authors (Table 3).
+3 Type of product obtained from the process: characterizes the type of
+product obtained from the treatment process, identifying its phy-
+sical state be it a solid, liquid or gaseous product. This criterion
+characterizes the output of the treatment process (Table 4).
+4 Possible uses: describes the results of the process and describes its
+possible use. This criterion characterizes the possible use of the
+output obtained (Table 5).
+5 Geographical distribution: identifies the country where the study
+was conducted (Table 6).
+The results obtained from the evaluation of each criterion are de-
+scribed in the Section4.
+4. Results
+Considering the final objective of the present study and assessing
+the results of recent studies on CB recycling solutions, the outcomes of
+the review are presented by individually analysing the criteria identi-
+fied and described in Section4.
+4.1. Sample input
+The reviewed papers are classified inTable 2according to the type
+of CBs used as input to the treatment and recycling process.
+Theanalysedpapersapplyapproachesandtechniquesusingsmoked
+or unsmoked filters. The use of one or the other, or a comparison of the
+performance of the type of input used, depends on the authors’ meth-
+odological approach.
+Of the 37 selected contributions, most of the authors (about 97%)
+usedsmokedCBstodevelopandtestrecyclingsolutions.Onlytwocases
+(about 3%) used mimicked smoked CBs (one author) or supplementary
+materials (one author) as a precursor to the treatment and recovery
+process. Only five papers (about 14%) proposed a comparison using
+unused CFs. This is important because it checks whether and how the
+recycling process could influence the results, comparing the use of fil-
+ters to "pure" material (cellulose acetate).
+This comparison was conducted by Blankenship and Mokaya
+(2017), who used cigarette filters / butts to form the precursor for
+porous carbons in order to evaluate their hydrogen storage capacity.
+The results showed that a sequential benign hydrothermal carbonisa-
+tion and activation treatment obtained a super-porous and ultra-high
+surface area (4300m2 g−1) and pore volume (2.09cm3g−1) arising
+almost entirely (>90%) from micropores. These characteristics, com-
+bined with the oxygen-rich nature of the material, demonstrated the
+highest hydrogen storage capacity reported in all the papers analysed.
+Thecomparisonbetweensmokedandunusedfiltershighlightedvarious
+anomalies of the smoked samples mainly due to the presence of heavy
+metals.
+Polarz et al. (2002)studied the transformation of cellulose acetate
+filters into micro-meter or nano-meter porous carbon structures. Ap-
+plying an easy direct process, filters from smoked or unsmoked cigar-
+ettes were transformed into non-graphitic carbon (defined by the In-
+ternational Union of Pure and Applied Chemistry as “all varieties of
+solids consisting mainly of the element carbon with two-dimensional long-
+range order of the carbon atoms in planar hexagonal networks, but without
+any measurable crystallographic order in the third direction (c-direction)
+apart from more or less parallel stacking” and with many concrete ap-
+plications such as heat shields, Li-ion batteries, activated carbons). The
+resulting material exhibited a well-defined mesoporosity, with different
+characteristics from the cellulose acetate fibres used as a precursor and
+withagoodpotentialapplicationinthefield ofgaspurificationor more
+generally as filters.
+Gómez Escobar and Maderuelo Sanz (2017)analyzed the perfor-
+mance of smoked and unused CBs as absorbing materials. Each sample
+was obtained by collecting 10 butts inside an impedance tube. The
+samples differed in the type of butt used and their physical character-
+istics (length and diameter). All showed a high sound absorption
+Table 1
+Summary of literature searches.
+Search keywords No. of papers Search date
+Cigarette Butt 423 (1) 1st January 2019
+2,579 (2)
+Cigarette Filter 1,867 (1) 1st January 2019
+19,869 (2)
+Cigarette Tip 265 (1) 1st January 2019
+10,440 (2)
+Cigarette Butt*recycling 14 (1) 1st January 2019
+244 (2)
+Cigarette Filter*recycling 12 (1) 1st January 2019
+1,375 (2)
+Cigarette Tip*recycling 0 (1) 1st January 2019
+619 (2)
+(1)Scopus.
+(2)ScienceDirect.
+S. Marinello, et al. Journal of Hazardous Materials 384 (2020) 121245
+6
+
+=== PDF PAGE 7 ===
+performance which, compared to some absorption materials (foam and
+glass wool), also exhibited great potential for commercial purposes.
+Maderuelo-Sanz et al. (2018)also presented a further development of
+their previous study, investigating only the acoustic performance of the
+cellulose acetate and not of the intact cigarette butts. The acoustic
+performance of used and not used CFs is similar (with a slightly better
+performance in terms of low frequencies for unused filters).
+Murugan et al. (2018)investigated the use of CBs as a precursor for
+the preparation of mosquito pesticides and as tools for malaria vector
+management. The authors proposed a novel approach for the synthesis
+of Ag nanostructures that are toxic to young instars of the malaria
+vector Anopheles stephensi, chloroquine (CQ)-resistant malaria para-
+sites, Plasmodium falciparum and microbial pathogens. Freshly smoked
+cigarettebutts(i.e.,<3haftersmoking)withtobacco,withouttobacco
+and unsmoked cigarette butts were used to produce CB extracts tested
+as pesticides. No mortality was observed by applying the extract from
+unsmoked cigarette butts, whereas low doses of CB extracts showed
+larvicidal and pupicidal toxicity, but without decreasing non-target
+risks.
+Dieng et al. (2013)also conducted a study using CBs on insecticide-
+Fig. 7.Classification of features.
+Table 2
+Type of CBs used for the recycling process.
+Smoked CBs Mimicked CBs smoked Unused CFs Other
+Anmei et al., 2018 X
+Bandi et al., 2018 X
+Cui et al., 2018 X
+Ifelebuegu et al., 2018 X
+Lima et al., 2018 X
+Maderuelo-Sanz et al., 2018 X X
+Murugan et al., 2018 X X
+Wadalkar et al., 2018 X
+Xiong et al., 2018a X
+Xiong et al., 2018b X
+Blankenship and Mokaya, 2017 X X
+Ghosh et al., 2017 X
+Gómez Escobar and Maderuelo Sanz, 2017 X X
+Hamzah and Umar, 2017 X
+Mohajerani et al., 2017 X
+Ogundare et al., 2017 X
+Suárez-Rodríguez and Garcia, 2017 X
+Teixeira et al., 2017 X X
+Waste from CF production
+Mohajerani et al., 2016 X
+Nasution, 2016 X
+Kim et al., 2016 X
+Wang et al., 2016 X
+Kadir and Mohajerani, 2015 X
+Lee et al., 2014 X
+Mondal et al., 2014 X
+Soltani et al., 2014 X
+Vahidhabanu et al., 2014 X
+Dieng et al., 2013 X
+Sarani and Kadir, 2013 X
+Suárez-Rodríguez et al., 2013 X
+Soltani and Yazdi, 2012 X
+Kadir and Mohajerani, 2011 X
+Sabzali et al., 2011 X
+Zhao et al., 2010 X
+Kadir et al., 2009 X
+Kadir and Mohajerani, 2008 X
+Polarz et al., 2002 X X
+S. Marinello, et al. Journal of Hazardous Materials 384 (2020) 121245
+7
+
+=== PDF PAGE 8 ===
+Table 3
+Process description.
+Physical treatment Chemical treatment Physico- chemical
+treatment
+Description
+Anmei et al., 2018 X Hydrothermal method: CBs were washed with water several times and then dried in the oven at 60°C
+Bandi et al., 2018 X Hydrothermal method for the production of N, S co-doped carbon dots
+Cui et al., 2018 X Preparation of the bitumen mixture using the addition of CBs in the ordinary asphalt mixture
+Ifelebuegu et al., 2018 X Simple two-step: - cleaning and hydrolysis; - surface-functionalized
+Lima et al., 2018 X Low-temperature hydrothermal carbonization without using inert gas
+Maderuelo-Sanz et al., 2018 X CFs were dried, manually separated from the outer and inner paper and shredded into short fibres
+Murugan et al., 2018 X Hydrothermal process
+Wadalkar et al., 2018 X Incorporation of CBs into precast concrete blocks for paving
+Xiong et al., 2018a X Preparation of the modified CF via SiO2, octadecyltrichlorosilane and methyltrimethoxysilane approach
+Xiong et al., 2018b X Treatment steps: immersion in a pyrrole solution; oxidative polymerization with FeCl3; carbonization under nitrogen
+Blankenship and Mokaya, 2017 X Sequential benign hydrothermal carbonisation and activation
+Ghosh et al., 2017 X Filters removal and pyrolysis process
+Gómez Escobar and Maderuelo Sanz,
+2017
+No treatment, just grouping the CBs
+Hamzah and Umar, 2017 X KOH chemical activation using a microwave input
+Mohajerani et al., 2017 X CBs encapsulated with different classes of bitumen and paraffin wax
+Ogundare et al., 2017 X Ethanolic extraction, hypochlorite bleaching, alkaline deacetylation, and conversion into NCC by sulfuric acid hydrolysis
+Suárez-Rodríguez and Garcia, 2017 No treatment, just adding or removing CBs from nests
+Teixeira et al., 2017 X Separating all the cellulose content in the cigarette butts using four different processes: dissolving the ash and all chemicals
+adsorbed; hydrolyzing cellulose acetate into cellulose; removing lignin from the remaining tobacco and liberating its
+cellulose; disaggregation of the remaining paper
+Mohajerani et al., 2016 X CBs were disinfected at 105°C and mixed in different percentages with brown silty clayey sand, dried, and fired
+Nasution, 2016 X CBs soaked in water for 10-15 days. The solution from CBW was then filtered
+Kim et al., 2016 X Heat treatments of the separated filters at 900°C under NH3 and Ar, respectively. NCF-supported Pt catalysts were prepared
+by the conventional impregnation method
+Wang et al., 2016 X CBs soaked at 60°C under magnetic stirring with NH4VO3 in distilled water
+Kadir and Mohajerani, 2015 X CBs disinfected and mixed in different percentages with brown silty clayey sand, dried, and fired
+Lee et al., 2014 X Heat treatment under a nitrogen-containing atmosphere
+Mondal et al., 2014 X CBs suspended in 50ml distilled water
+Soltani et al., 2014 X Pyrolysis at 900◦C under a constant nitrogen gas flow in a steel tube furnace
+Vahidhabanu et al., 2014 X Isolate crude extracts from littered CBs using polar solvents
+Dieng et al., 2013 X CBs soaked in deionized water
+Sarani and Kadir, 2013 X CBs disinfected and mixed in different percentages with brown silty clayey sand, dried, and fired
+Suárez-Rodríguez et al., 2013 No treatment, just adding or removing CBs from nests
+Soltani and Yazdi, 2012 X CBs mixed with 2g powdered KOH
+Kadir and Mohajerani, 2011 X CBs disinfected and mixed in different percentages with brown silty clayey sand, dried, and fired
+Sabzali et al., 2011 X Preparation phase includes: separating tobacco from the cigarette; cutting the cigarette filters; soaking in water; separating
+filter paper wrap
+Zhao et al., 2010 X CBs were extracted in HCl solutions at 90°C
+Kadir et al., 2009 X CBs disinfected and mixed in different percentages with brown silty clayey sand, dried, and fired
+Kadir and Mohajerani, 2008 X CBs disinfected and mixed in different percentages with brown silty clayey sand, dried, and fired
+Polarz et al., 2002 X CBs was transferred to a tube oven (Heraeus Thermicon P) equipped with a quartz tube. The tubewas flooded with nitrogen
+prior to slow heating (1°C/min) to a final temperature of 800°C
+S. Marinello, et al. Journal of Hazardous Materials 384 (2020) 121245
+8
+
+=== PDF PAGE 9 ===
+Table 4
+Results of the CBs treatment.
+Type of results Physical state (S=solid;
+L=liquid; G=gas)
+Anmei et al., 2018 Carbon Quantum Dots (CQDs) which are a recent type of carbon nanomaterial that exhibits strong
+fluorescence depending on the size and excitation wavelength. They are superior in terms of water
+solubility, photostability, toxicity and biocompatibility compared to traditional semiconductor QDs.
+CQDs are used in the chemical field to exploit their fluorescence in chemical analyses and, in
+particular, to detect synthetic colorants in foods.
+S
+Bandi et al., 2018 Carbon Dots (CDs) with a high fluorescence property. They exhibit unique optical properties, multiple
+functional groups, excellent biocompatibility and chemical and photo-stability. They have different
+practical applications: sensing, bioimaging, optoelectronic conversion, visible-light-activated
+bactericide, fingerprint detection, dye degradation, solar cells, printing inks and gene delivery. The
+authors describe the formation of CDs doping with non-metals such as N, S, B, and P. This allows to
+improve some of its properties, such as resistance to self quenching, enhanced fluorescence QY, and
+sensing selectivity.
+S
+Cui et al., 2018 Bituminous bitumen mixture, a composite material, formed from a mineral aggregate, a binder and
+asphalt which is laid in layers on the surface and compacted. In the case described by the authors, CBs
+have also been incorporated into the mixture, improving the strength, the anti-deformation and the
+high temperature resistance of the pavement.
+S
+Ifelebuegu et al., 2018 Oil-absorbent material, which can be used to mitigate the effects of possible oil spills in aquatic
+environments. This material guarantees low costs, easy and high efficiency operations, depending on
+the type of absorbent material used (natural, inorganic mineral or synthetic products). The material
+described by the authors, obtained from CBs, has demonstrated high absorption capacity and a good
+oil-saving rate, as well as being fabricated in a green and easy manner.
+S
+Lima et al., 2018 Hydrochar, a carbonaceous solid classifiable as lignite and with some possible market applications:
+bio-fuel, soil amendment, absorbent, industrial uses for the production of biopolymers, carbon black,
+production of high-performance materials.
+S
+The hydrochar activated with NaOH at low temperature described by the authors has some important
+properties: low ash content, high carbon level, low aromatization degree and various oxygenated
+functional groups. This material exhibited significant adsorption capacity in a basic environment.
+Maderuelo-Sanz et al., 2018 Sound absorber, a porous or fibrous material such as textiles, fleece, carpets, foams, mineral wool,
+cotton wool, able to absorb sound energy as they damp the oscillation of the air particles by friction.
+The material described by the authors is a porous sound absorber obtained from CBs. It is most
+effective by increasing the bulk density, increasing porosity and reducing flow resistivity.
+S
+Murugan et al., 2018 Pesticide based on the effectiveness of nicotine and its derivatives. The product described by the
+authors is a pesticide Ag nanostructures derived from CBs, with highly toxic to malaria vectors and
+with little impact on predatory copepods.
+L
+Wadalkar et al., 2018 Precast concrete blocks for paving, a construction product obtained by mixing cement, fine aggregate,
+coarse aggregate, water, admixtures to which a specific shape is given. This solution is used in areas
+where conventional types of construction are less durable due to many operational and environmental
+constraints. Paving done with concrete paver blocks is versatile, aesthetically attractive, functional,
+cost effective and requires less or no maintenance if correctly manufactured and laid. The product
+described by the authors is a precast concrete blocks for paving mixed with CBs which, according to
+the tests performed, increases water absorption and flexural strength, while there are no significant
+variations in the compressive strength.
+S
+Xiong et al., 2018a Hydrophobic absorbent, a material having capacity to adsorb specific substance, but not water. This
+type of product has several practical applications. The product developed by the authors is a
+superhydrophobic adsorber fiber obtained from CBs that can be rapidly used to treat water pollution
+caused by oil-spills. The authors have demonstrated its cost-effective, highly selective and
+environmentally-friendly properties.
+S
+Xiong et al., 2018b Supercapacitors is a high-capacity condenser used in applications that require many rapid charge/
+discharge cycles, rather than compact long-term energy storage. Supercapacitors may be carbon
+material-based or metal oxide and a conducting polymer-based. They are one of the most potential
+energy devices with numerous applications in different industrial and civil sectors. The product
+developed by the authors is a nitrogen-doped hierarchical porous carbons by a combination of UCF
+and polypyrrole (PPy), characterized by a very high surface area with micro-, meso- and macroporous
+structures that, thanks to its large specific capacitance and good retention, make it as a potential
+candidate of a carbon precursor for high-performance supercapacitors.
+S
+Blankenship and Mokaya, 2017 Hydrogen stores materials span many approaches thanks to the use of materials with a strong
+interaction with hydrogen or without any reaction. These include: high pressures, cryogenics, and
+chemical compounds that reversibly release H2 upon heating. The porous carbons material obtained
+from the authors through the CBs treatment has been shown to be super-porous, to have a ultra-high
+surface area and pore volume and an oxygen-rich nature, making it particularly effective in hydrogen
+storage capacity. This material, compared to the others available, have new or improved properties,
+are easier and cheaper to prepare and are sustainable.
+S
+Ghosh et al., 2017 Electrically conductive device that have the capability to supply high levels of power and energy. The
+authors, using CBs, have obtained a greyish white powdery pyrolyzed product, a conducting high-
+powermaterialwitheco-sustainablepropertiesandwithapplicationssuchaselectrical vehicles,micro
+sensors and portable electronics.
+S
+Gómez Escobar and Maderuelo Sanz,
+2017
+Sound porous absorber, material such as textiles, fleece, carpets, foams, mineral wool, cotton wool
+able to absorb sound energy as they damp the oscillation of the air particles by friction.
+S
+The authors developed and analyzed a product deriving from the treatment of CBs that demonstrated
+high sound absorption performance, even better than some commercial absorbers.
+(continued on next page)
+S. Marinello, et al. Journal of Hazardous Materials 384 (2020) 121245
+9
+
+=== PDF PAGE 10 ===
+Table 4(continued)
+Type of results Physical state (S=solid;
+L=liquid; G=gas)
+Hamzah and Umar, 2017 Active carbon, which is a form of carbon that has been processed to have small and low-volume pores,
+increasing the area available for adsorption or chemical reactions. It is valuable for a variety of
+applications, especially to oil-water separation, methylene blue (MB) adsorption or as super
+capacitors. The authors developed an activated carbon via KOH chemical activation using microwave
+and identified its good capacity for absorbing MB.
+S
+Mohajerani et al., 2017 Asphaltconcrete,a constructionproduct obtainedby mixingcement,fine aggregate, coarseaggregate,
+water and admixtures. The authors describe a product obtained encapsulating CBs with bitumen and
+paraffin wax and incorporating them into asphalt concrete for pavement construction, demonstrating
+good mechanical and volumetric properties including stability, flow, resilient modulus, bulk density,
+maximum density and air voids.
+S
+Ogundare et al., 2017 Nanocellulose. It is a nano-structured cellulose that can be of different types (in relation to their
+morphology and source): nanocrystal cellulose, cellulose nanofibers or bacterial nanocellulose. The
+mechanical and chemical properties of the nanocellulosemake it extremely suitable for different types
+of applications. The authors describe the isolationof nanocrystalline cellulosefrom CA with important
+properties, such as: biocompatibility, biodegradation, high strength, specific surfacearea, high
+crystallinity index, low toxicity and density.
+S
+Suárez-Rodríguez and Garcia, 2017 CBs,astheyareavailable.TheauthorsanalyzedthecontributionofCBsinresponsetoectoparasites,in
+particular howthey are used byhouse finches,highlighting howcigarettes areaddedin response toan
+increaseinthenumberofectoparasitesinthenestandthushowtheycanbe regardedasaformofself-
+medication.
+S
+Teixeira et al., 2017 Cellulose pulp, the fibrous material deriving from the chemical or mechanical separation of cellulose
+fibers from wood, fiber crops, waste paper or rags. The authors describe the result of the treatment of
+CBs for pulp cellulose production. After the evaluation of physical and optical parameters of the
+cellulose for commercial use, the pulp obtained can be used in the paper industry. A dark liquor is
+generated by the process and contains lignin, carbonyls, metals, nicotine and specific tobacco
+nitrosamines. This, even after several treatments, continues to keep an high COD (chemical oxygen
+demand))
+S
+Mohajerani et al., 2016 Fired clay bricks. A building material used for the construction of masonry construction. Generally,
+their composition involves the use of clay-bearing soil, sand, and lime or concrete materials.
+S
+The authors describe and analyze the characteristics of fired clay bricks produced by mixing CBs with
+the compound. The results were positive, highlighting their potential use.
+Nasution, 2016 Pesticide used to kill insect pests thanks to the toxic substances contained in tobacco (in particular
+nicotine).Accordingtotheauthor,CBinsecticidecankillbotheitherbytouch(sprayingdirectlytothe
+body of insects) and by swallowing (spraying directly to the leaves as the foods of insects). CB
+insecticide can be called as systemics because it may be absorbed, injected, or fed into the plant or
+animal to be protected.
+L
+Kim et al., 2016 Nitrogen (N)-doped carbon with bimodal structure consists of carbons materials with micropores and
+mesopores that can induce the high surface area, which confers an increased distribution of C–N
+catalytic center and provide the easier accessibility to active sites for reactants. These forms of carbon
+materials obtained by tailoring textural and surface chemical properties, have significant electronic
+and catalytic performances. The authors obtained a bimodal porous nitrogen (N) doped carbon
+supported Pt composite which, characterized from a physical and electrochemical point of view,
+demonstrated an higher oxygen reduction reaction activity and durability than those for the
+commercial carbon. This is important for the industrial development of fuel cells sector.
+S
+Wang et al., 2016 Hybrid electrode, a particular composition of the electrodes used in superconsenders that allow to
+improve the performance of traditional electrodes by simultaneously using two charge storage
+mechanisms, without compromising the structural integrity and operational life of supercapacitors.
+The authors describe a carbon fiber and vanadium nitride material obtained from recycling, at the
+same time, of metal ions and CBS which can be used as a precursor to fabricate the active material for
+supercapacitor electrode. The evaluations conducted showed itsgood electro-chemical behaviors. This
+product meets the needs of the market for energy storage devices.
+S
+Kadir and Mohajerani, 2015 Fired clay bricks. A building material used for the construction of masonry construction. Generally,
+their composition involves the use of clay-bearing soil, sand, and lime or concrete materials.
+S
+The authors describe the production of fired clay bricks by incorporating CBs into the mixture, in
+particular analyzing the impact of compressive and tensile strength on water absorption properties, as
+well as the effect on gas emissions. According to the authors, CB bricks and high heating rates should
+be considered as an option or an alternative in the brick industry to minimize the manufacturing cost
+and time.
+Lee et al., 2014 Nitrogen-doped porous carbon material. It is a carbons material with micropores and mesopores, with
+a high surface area and proper pore size distribution are essential in utilizing a large amount of
+electrolyte ions with quick transfer mobility at the surface of the electrode material. A well-developed
+meso-/micropore structure and with pseudocapacitive assistance can largely improve supercapacitive
+performance.
+S
+The authors describe the product deriving from the treatment of CBs for the production of nitrogen
+doped (N-doped) meso-/microporous hybrid carbon material that exhibit a satisfactory rate capability
+and higher specific capacitance with the desired supercapacitive performance. This is a promising
+materials for use in supercapacitors due to its low cost, high porosity, electronic conductivity and
+stability.
+Mondal et al., 2014 Pesticide based on the effectiveness of nicotine and its derivatives. The product described by the
+authors is an extract derived from the treatment of CBs, with highly toxic to mosquito larvae and that
+may directly or indirectly affect on mosquito larvicidal activity.
+L
+(continued on next page)
+S. Marinello, et al. Journal of Hazardous Materials 384 (2020) 121245
+10
+
+=== PDF PAGE 11 ===
+resistant mosquito vectors. The authors used mimicked smoked CBs. To
+obtain these samples, they applied a simulation approach using a dis-
+posable syringe. The simulation was conducted by channelling the
+burning tip of acigarette attachedto the hub to the barrel by pulling up
+the plunger. A typical smoker takes 10 puffs of a single cigarette. The
+results show the Aedes aegypti vulnerability to Marlboro butts during
+its development and suggest their vulnerability to CBs. However this
+effect was seen most during the early developmental phases and in the
+presence of increased amounts of cigarette remnants.
+Teixeira et al. (2017)used CBs and waste from filter production in
+the cigarette industry for cellulose pulp production. Using their own
+treatment technology,they obtained acellulosepulpand aviscousdark
+liquor. The pulp can be used in the paper industry, while the liquid
+requires treatment since it contains a highly resistant organic content.
+All the other studies focus only on the use of smoked filters and
+present the results of their research without comparingthem with clean
+samples.
+4.2. Methodology/treatment system
+The second criterion used to analyse the selected papers was the
+sample processing applied. The approaches were classified into phy-
+sical, chemical or physical-chemical systems. The results are shown in
+Table 3.
+Table 4(continued)
+Type of results Physical state (S=solid;
+L=liquid; G=gas)
+Soltani et al., 2014 Mesoporous char, a material containing pores having a large internal surface area and adsorbent
+capacity. It, tipically, can adsorb a wide range of substances including dyes and heavy metals. The
+product described by the authors is a mesoporous char derived from the treatment of CBs and
+chemicallymodifiedwithnitric acidtoenhanceitssurfaceacidity.Experimentaltestsshowedthatthis
+product has an increase in the surface and a considerable reduction in total ash content.
+S
+Vahidhabanu et al., 2014 Crude extracts, a substance that derives by extracting a part ofa raw material, often by usinga solvent
+such as ethanol or water. The authors describe the product deriving from the treatment of CBs which,
+thanks to the presence of specific chemicals, allows to produce crude extracts that have demonstrated
+good performance as corrosion inhibitor for J55 oil well tubular steel.
+L
+Dieng et al., 2013 Crude extracts, a substance that derives by extracting a part ofa raw material, often by usinga solvent
+such as ethanol or water.
+L
+The authors describe the product deriving from the treatment of CBs which, thanks to the presence of
+specific toxic chemicals, allows to produce a compound that has shown insecticidal properties against
+mosquito larvae.
+Sarani and Kadir, 2013 Fired clay bricks. A building material used for the construction of masonry construction. Generally,
+their composition involves the use of clay-bearing soil, sand, and lime or concrete materials.
+S
+The authors describe the product resulting from themixing of CBs in the compound forthe production
+of fired clay bricks and analyze the effects related to its thermal conductivity. The results show that
+with higher percentages of CBs, the thermal conductivity properties were also improved. Moreover, at
+the same time, the porosity is also increased thus the density was significantly reduced to become
+lightweight brick.
+Suárez-Rodríguez et al., 2013 CBs,astheyareavailable.TheauthorsanalyzedthecontributionofCBsinresponsetoectoparasites,in
+particular how they are used by house sparrows and house finches. The results showed how CBs are
+added in response to an increase in the number of ectoparasites in the nest and thus they can be
+regarded as a form of self-medication.
+S
+Soltani and Yazdi, 2012 Carbonized porous carbon. This is a form of carbon that has been processed to have small and low-
+volume pores that increase the surface area available for adsorption or chemical reactions. Activated
+carbon is valuable for a variety of applications. The authors have developed a carbonized porous
+carbon through the treatment of CBs with an high Brunauer, Emmet and Teller (BET) surface area.
+S
+Kadir and Mohajerani, 2011 Fired clay bricks. A building material used for the construction of masonry construction. Generally,
+their composition involves the use of clay-bearing soil, sand and lime or concrete materials.
+S
+The authors describe the production of fired clay bricks by incorporating CBs into the mixture,
+analyzing in particular the compressive strength, flexural strength, density, water absorption and
+thermal conductivity. According to the authors, CBs can be regarded as a potential addition to the raw
+materials used in the manufacture of lightweight.
+Sabzali et al., 2011 Biofilmcarrier.Theseelementsmakeupabiologicalwastewatertreatmentplant.Theauthorsdescribe
+the use of CBs to obtain biofilm reactors with high surface area, high porosity and roughness. They
+demonstrated good performance for simultaneous removal of organic matters and nutrients from
+wastewater.
+S
+Zhao et al., 2010 Corrosion inhibition extracts, a substance that derives by extracting from a raw material, often using a
+solvent such as ethanol or water. The authors describe the product deriving from the treatment of CBs
+which, thanks to the presence of specific chemicals, allows to produce crude extracts that have shown
+good performance as corrosion inhibitor for N80 Steel.
+L
+Kadir et al., 2009 Fired clay bricks. A building material used for the construction of masonry construction. Generally,
+their composition involves the use of clay-bearing soil, sand and lime or concrete materials.
+S
+The authors describe the production of fired clay bricks by incorporating CBs into the mixture,
+analyzing in particular the density, strength, thermal conductivity and leachate characteristics.
+Kadir and Mohajerani, 2008 Fired clay bricks. A building material used for the construction of masonry construction. Generally,
+their composition involves the use of clay-bearing soil, sand and lime or concrete materials.
+S
+The authors describe the production of fired clay bricks by incorporating CBs into the mixture,
+analyzing in particular the compressive strength, flexural strength, density, water absorption and
+thermal conductivity.
+Polarz et al., 2002 Porous carbon structures, that is a form of carbon that has been processed to have small and low-
+volume pores that increase the surface area available for adsorption or chemical reactions. Activated
+carbon is valuable for a variety of applications.
+S
+The authors developed a porous carbon material that is nearly completely transformed into
+nongraphiticcarbonandshowsacomplexporestructurethatcouldfindapplicationsinthefieldofgas
+purification or more generally as filters.
+S. Marinello, et al. Journal of Hazardous Materials 384 (2020) 121245
+11
+
+=== PDF PAGE 12 ===
+Thetypesof treatmentof CBsdescribed by the authorsweredivided
+equally between the different treatment categories identified. The
+physical treatments, which were used in 27% of the analysed papers,
+typically involve separating the filters from the remaining non-smoked
+tobacco, separating them from the outer paper, crushing and, in some
+cases, mixing them with other products for the preparation of other
+materials. The latter condition is well described byMohajerani et al.
+(2016); Kadir and Mohajerani (2015);Sarani and Kadir (2013);Kadir
+and Mohajerani (2011)and Kadir and Mohajerani (2008).
+A total of 33% of authors instead adopted only chemical treatment
+approaches in order to use and enhance CBs. Simple soaking or hy-
+drothermal approaches and the use of chemical solvents are the typical
+treatment approaches. A total of 32% of the papers used chemical and
+physical coupled treatments. Typically, the sample undergoes a pre-
+liminary physical treatment of cleaning and fragmentation and then
+chemical treatment in order to obtain the final product. Finally, 8% of
+the authors did not use any treatment for the CBs which were used in
+their original form.
+Gómez Escobar and Maderuelo Sanz (2017)analysed the samples
+without any treatment and tested the acoustic absorption performance
+of smoked and unused CBs. The promising results obtained were com-
+paredwithasubsequentstudy(Maderuelo-Sanzetal.,2018),wherethe
+CBs underwent physical treatment.
+The other two studies that analysed the use of CBs without any kind
+of preliminary treatment analysed their possible reduction of the ec-
+toparasite load in urban birds.Suárez-Rodríguez and Garcia (2017)and
+Suárez-Rodríguez et al. (2013)studied how smoked cigarette butts may
+serve as a parasite repellent in urban bird nests, with indirect con-
+sequences also for the transmission via the air of possible negative
+health effects to other organisms.
+4.3. Type of product obtained from the process
+Table 4shows the outcomesof the selectedpapersaccording to type
+of treatment results. For each author the results of the recycling process
+are identified and classified into solid, liquid or gaseous products.
+In most cases (84%) the results obtained after the treatment and
+recycling of CBs are represented by solid state products. Usually, these
+are porous carbons with different physico-chemical structures and
+characteristicswhichdependonthetypeoftreatmentundergonebythe
+sample and the substances and/or technologies used. When the results
+are composite materials, where the CBs (or part of them) are mixed
+with other products, in most cases the final result is fired clay bricks or
+a bitumen mixture.
+In 16% of the papers, the results of the treatment process are liquid
+compounds, successfully tested by the authors as pesticides in agri-
+culture, against particular species of insect diseases or as a corrosion
+inhibitor thanks to the acidification properties of metallic materials.
+Liquid outputs used as an insecticide are described in the study by
+Murugan et al. (2018)where, an Ag toxic nanostructure was extracted
+from the CBs and tested, with very promising effects, as an insecticide
+against the malaria vector Anopheles stephensi, the chloroquine (CQ)-
+Table 5
+Description of possible uses.
+Possible use Sector
+Anmei et al., 2018 Identification of Sudan I in foods Chemical analysis
+Bandi et al., 2018 FluorescenceresponseofCBCDstovariousbiologicallyandenvironmentallyimportantmetalions,such
+as Fe2+, Ca2+, Na+, Pb2+, Cu2+, Mn2+, Cd2+, Sn2+, Cr3+, Al3+, Ni2+, Hg2+, Mg2+,
+Ba2+, K+, Zn2+, and Fe3
+Chemical analysis
+Cui et al., 2018 Asphalt for streets Infrastructure
+Ifelebuegu et al., 2018 Adsorbent cellulose for application in oil/water separation and spill clean-up Environmental engineering
+Lima et al., 2018 Hydrochars adsorbent for the removal of methylene blue (MB) from aqueous solutions Environmental engineering
+Maderuelo-Sanz et al., 2018 Cellulose acetate as an insulator Buildings and structures
+Murugan et al., 2018 Highly effective antiplasmodials and insecticides Insecticide
+Wadalkar et al., 2018 Prefabricated concrete paving Infrastructure
+Xiong et al., 2018a Cellulose as a superhydrophobic absorbent for oil spillage clean-up Environmental engineering
+Xiong et al., 2018b Potential candidate of a carbon precursor for high-performance supercapacitors Energy storage devices
+Blankenship and Mokaya, 2017 High surface porous carbon and low volume with high hydrogen storage capacity Energy storage devices
+Ghosh et al., 2017 Good conductive material which can be further used in different electronics field Energy storage devices
+Gómez Escobar and Maderuelo Sanz,
+2017
+Cellulose acetate as a part of an insulator system Buildings and structures
+Hamzah and Umar, 2017 Active carbon for oil-water separation, methylene blue (MB) adsorption, and super capacitors Environmental engineering
+Mohajerani et al., 2017 Prefabricated concrete paving Infrastructure
+Ogundare et al., 2017 Nanocrystalline cellulose (NCC) with numerous applications including heterogeneous catalysis support
+in synthesis of organic compounds as well as composites for biomedical purposes.
+Chemical and Medical
+industries
+Suárez-Rodríguez and Garcia, 2017 Anti-ectoparasite product Insecticide
+Teixeira et al., 2017 Cellulose pulp Paper industry
+Mohajerani et al., 2016 Fired clay bricks Buildings and structures
+Nasution, 2016 Insecticide Insecticide
+Kim et al., 2016 N-doped carbon (NCF) Energy storage devices
+Wang et al., 2016 Hybrid electrode carbon fiber and vanadium nitride material (CF@VN) Energy storage devices
+Kadir and Mohajerani, 2015 Fired clay bricks Buildings and structures
+Lee et al., 2014 Supercapacitor electrode (CNF) Energy storage devices
+Mondal et al., 2014 Pesticides against malaria vectors Insecticide
+Soltani et al., 2014 Mesoporous char Chemical analysis
+Vahidhabanu et al., 2014 Extract as corrosive inhibiting agent Metallurgical industry
+Dieng et al., 2013 Control tool against an insecticide-resistant mosquito vector Insecticide
+Sarani and Kadir, 2013 Fired clay bricks Buildings and structures
+Suárez-Rodríguez et al., 2013 Anti-ectoparasite product Insecticide
+Soltani and Yazdi, 2012 Carbonized porous carbon Energy storage devices
+Kadir and Mohajerani, 2011 Fired clay bricks Buildings and structures
+Sabzali et al., 2011 Biofilm Carrier for waste water treatment Environmental engineering
+Zhao et al., 2010 Extract as corrosive inhibiting agent Metallurgical industry
+Kadir et al., 2009 Fired clay bricks Buildings and structures
+Kadir and Mohajerani, 2008 Fired clay bricks Buildings and structures
+Polarz et al., 2002 Porous carbon structure Energy storage devices
+S. Marinello, et al. Journal of Hazardous Materials 384 (2020) 121245
+12
+
+=== PDF PAGE 13 ===
+resistant malaria parasites, Plasmodium falciparum, and microbial pa-
+thogens.Diengetal.(2013) demonstratedgood resultsas aninsecticide
+against Aedes aegypti larvae, experimenting with liquid solutions at
+different concentrations. Similarly,Mondal et al. (2014)tested a lea-
+chate from CBs against the larvicidal activity of mosquitoes. Although
+mosquito larvae have developed resistance to water with CBs, the
+presence of phenolic and primary amine containing functional groups
+in the percolate demonstrated that the mosquito mortality was abso-
+lutely concentration dependent.
+Finally,Nasution(2016) alsoanalysedthepossibilityofusingCBsas
+a precursor to pesticide.
+The use of CB leachate as a corrosion inhibitor of metal products
+and structures was analysed and described byZhao et al. (2010)who
+tested it for N80 steel at 90°C in hydrochloric acid. The results show
+that inhibition efficiencies of 94.6%and 91.7%in 10% and15% (wt %)
+HCl solution were achieved, respectively, by adding 5% (wt %) in-
+hibitor. In 20% HCl solution, amaximum inhibition efficiency of 88.4%
+wasshown by adding 10% inhibitor. Finally,Vahidhabanu etal.(2014)
+tested this compost for the protection of oil-well tubular steel used in
+acidification of oil and gas production. The highest inhibition effi-
+ciencies of 99% and 61% were obtained for 30°C and 105°C, respec-
+tively at 6% concentration.
+No treatments have led to gases being produced.
+4.4. Possible use of treatment output
+The analysis results of the possible outputs obtained are summar-
+ized inTable 5. The possible applications of the treatment results are
+classified into eight categories:
+1 Chemical analysis
+2 Infrastructure/ buildings and structures
+3 Energy storage devices
+4 Environmental engineering
+5 Chemical and medical industries
+6 Insecticides
+Table 6
+Geographical distribution.
+Country
+Anmei et al., 2018 China
+Bandi et al., 2018 India
+Cui et al., 2018 China
+Ifelebuegu et al., 2018 UK
+Lima et al., 2018 Brazil
+Maderuelo-Sanz et al., 2018 Spain
+Murugan et al., 2018 India
+Wadalkar et al., 2018 India
+Xiong et al., 2018a China
+Xiong et al., 2018b China
+Blankenship and Mokaya, 2017 UK
+Ghosh et al., 2017 India
+Gómez Escobar and Maderuelo Sanz, 2017 Spain
+Hamzah and Umar, 2017 Indonesia
+Mohajerani et al., 2017 Australia
+Ogundare et al., 2017 South Africa
+Suárez-Rodríguez and Garcia, 2017 Mexico
+Teixeira et al., 2017 Brazil
+Mohajerani et al., 2016 Australia
+Nasution, 2016 Indonesia
+Kim et al., 2016 Korea
+Wang et al., 2016 China
+Kadir and Mohajerani, 2015 Australia
+Lee et al., 2014 Korea
+Mondal et al., 2014 India
+Soltani et al., 2014 UK
+Vahidhabanu et al., 2014 India
+Dieng et al., 2013 Malaysia
+Suárez-Rodríguez et al., 2013 Mexico
+Soltani and Yazdi, 2012 Malaysia
+Suárez-Rodríguez et al., 2013 Australia
+Kadir and Mohajerani, 2011 Australia
+Sabzali et al., 2011 Iran
+Zhao et al., 2010 China
+Kadir et al., 2009 Australia
+Kadir and Mohajerani, 2008 Australia
+Polarz et al., 2002 Canada
+Fig. 8.Percentage distribution of possible uses.
+S. Marinello, et al. Journal of Hazardous Materials 384 (2020) 121245
+13
+
+=== PDF PAGE 14 ===
+7 Metallurgical industry
+8 Paper industry
+The results are summarized inFig. 8, which reports the distribution
+percentages of the studies among the eight categories.
+The solution of using by-products resulting from the treatment
+processes of CBs in the construction industry and infrastructure has the
+greatest support among the authors analysed, with 31% of studies de-
+scribing this possible use.
+This research area has been extensively studied byMohajerani et al.
+(2016); Kadir and Mohajerani (2015);Sarani and Kadir (2013);Kadir
+and Mohajerani (2011);Kadir et al. (2009)and Kadir and Mohajerani
+(2008) and reviewed byBories et al. (2014).
+They evaluated the use of CBs as a mixed component in the pre-
+paration of fired bricks, which is considered as common solution to
+pollution and is already applied with other waste (e.g. rubber, lime-
+stone dust and wood sawdust, processed waste tea, fly ash, polystyrene,
+and sludge).
+These authors demonstrated that adding different concentrations of
+CBs to the compound (from 0% to 10% by weight and corresponding to
+about 0–30% by volume) for the production of fired bricks, leads to a
+reduction in the density of the fired bricks, an increase in porosity, and
+a decrease in thermal conductivity. Low-density or light-weight bricks
+have several advantages over standard bricks (lower structural dead
+load, easier handling, lower transport costs, different thermal con-
+ductivity), except when stronger bricks are needed. However, this
+method also leads to a reduction in compressive strength (although in
+the case studies, the results were lower than the acceptable regulatory
+Australian limits) which is also important when considering their use.
+With controlled temperatures, it is also possible to reduce the energy
+usage during firing and gas emissions into the atmosphere. The related
+atmospheric emissions have been studied in detail through experi-
+mental tests that compared the Estimated Total Emission (ETE) of dif-
+ferent types of bricks produced at different heating rates during firing
+(Mohajerani et al., 2016and Kadir and Mohajerani, 2015).
+These results demonstrate how CBs can be considered as a potential
+addition to raw materials used in the manufacturing of light fired
+bricks.
+Another use analyzed by the authors is related to the production of
+asphalt for streets and as prefabricated concrete paving.Mohajerani
+et al. (2017)studied the possibility of incorporating CBs into asphalt
+concrete for pavement construction, encapsulating CBs with different
+classes of bitumen and paraffin wax. Encapsulation prevents chemical
+translocation from CBs to the environment. Comparing the results ob-
+tained in the two cases with the control asphalt concrete sample (no
+CBs), using mechanical and volumetric properties, including stability,
+flow, resilient modulus, bulk density, maximum density, air voids, and
+voids in mineral aggregates as variables, the proposed solutions were
+found to satisfy the requirements for light, medium and heavy traffic
+conditions for bitumen samplers, while paraffin wax only satisfied the
+light traffic conditions for road pavements.
+The authors identified this solution as a useful contribution to the
+decrease in urban heat effect in urban environments due to the reduc-
+tion in bulk density, the increase in porosity and the reduction of
+thermal conductivity
+A similar study was also carried out by Cui et al. (2018) and
+Wadalkar et al. (2018). They analyzed the possible benefits of in-
+corporating CBs into precast concrete blocks for paving, assessing their
+performance as the percentage of added CB increases. They observed
+that the compressive strength decreased with an increase in the pro-
+portion of CBs, while flexural strength and water absorption increased.
+To exploit the sound insulation capabilities of CBs,Maderuelo-Sanz
+et al. (2018)and Gómez Escobar and Maderuelo Sanz (2017)demon-
+strated the high sound absorption performance of this material and the
+potential use of CBs as a component for insulating solutions, which
+were found to be highly competitive even with commercial solutions.
+In the field of environmental engineering, the products deriving
+fromtherecyclingofCBsareaboveallappliedinthetreatmentofwater
+for oil / water separation, exploiting the absorbing power of CA ob-
+tained from CBs. Similar applications have been described by several
+authors (14% of the total analyzed). Often, the proposed solutions are
+applicable to accidental conditions, with the release of oil, methylene
+blue (MB) or liquid petroleum derivatives. Among the various solutions
+(natural, chemical, and mechanical remediation), the use of oil-absor-
+bent materials is one of the most economical and effective approaches,
+due to the low operational costs, easy operation and high efficiency.
+The tests performed have shown very promising results:
+•25.6, 15.8, 17.2, and 21.5g/g for vegetable oil, diesel oil, motor oil,
+andvacuumpump (VP)oil, respectivelyandthe sorbent oilsorption
+capacity did not significantly deteriorate after 20 cycles of reuse
+(Ifelebuegu et al., 2018).
+•maximum monolayer adsorption capacities of 0.3, 0.4, 0.6 and
+0.5g/g (Lima et al., 2018).
+•adsorption capacities between 30.6g/g and 38.3g/g and high ad-
+sorption capacity after 10 cycles (Xiong et al., 2018a).
+•adsorption capacities for (MB) of 88.76 m2/g (Hamzah and Umar,
+2017).
+The use of CBs for energy purposes has also proved to be of interest
+in the literature. A total of 19% of the authors analyzed reported re-
+search on energy, particularly in the field of new, clean, and high-ef-
+ficiency energy storage devices.
+Xiong et al. (2018b)studied the use of CBs as a precursor for the
+development of supercapacitors, which are one of the best potential
+energy storage systems thanks to higher energy and power densities
+than conventional capacitors. They developed a new application of CBs
+for energy storage, producing carbon with a large specific capacitance
+and good capacitance retention through the combination of CBs and
+polypyrrole (PPy). PPy is a conducting polymer used as an electrode
+material for supercapacitors. The excellent storage performance ob-
+tained by the authors was due to the synergistic effects of the porous
+backbone structure derived from CBs and the pseudocapacitance be-
+havior of PPy-derived nitrogen functionality.
+Lee et al. (2014)also developed a supercapacitor based on CBs as
+the active material, producing a nitrogen doped (N-doped) meso-/mi-
+croporous hybrid carbon material (NCF), which is a porous carbon
+material that spontaneously contains both mesopores and micropores.
+The results highlighted a good capability and higher specific capaci-
+tance during 6000 charge and discharge cycles.
+In relation to hydrogen, as an attractive energy source especially for
+motor vehicles, Blankenship and Mokaya (2017) demonstrated that
+porous carbons derived from CBs with a super porous, ultra-high sur-
+face area and pore volume can reach for storing hydrogen. The com-
+bination of high surface area, high microporosity and the oxygen-rich
+nature of the carbons material, ensures a storage capacity of 8.1wt%
+excess uptake, and 9.4wt% total uptake at −196°C and 20bar, rising
+to a total uptake of 10.4wt% and 11.2wt% at 30 and 40bar, respec-
+tively.
+Kim et al. (2016)developed highly efficient catalysts for the oxygen
+reduction reaction based on CBs. This is a bimodal porous nitrogen (N)
+doped carbon supported Pt composite for the industrial development of
+fuel cells.
+Ghosh et al. (2017) showed how pyrolysis treatment produces a
+material with good conductive properties which can be further used in
+various electronic fields.
+Wang et al. (2016)used waste metal ions and CBs at the same time
+to develop a hybrid electrode material of carbon fiber and vanadium
+nitride (CF@VN) with a hierarchical porous structure. This was used as
+a negative electrode to develop an asymmetric supercapacitor, using an
+activated carbon as a positive electrode. The resulting product showed
+good electro-chemical behavior.
+S. Marinello, et al. Journal of Hazardous Materials 384 (2020) 121245
+14
+
+=== PDF PAGE 15 ===
+Finally, the use of CBs as precursors of carbonized porous carbon
+has been studied by Soltani and Yazdi (2012) and by Polarz et al.
+(2002), demonstrating the physical properties that make this material
+suitable for different purposes, also in electrical and energy storage
+devices. In the industrial sector, possible applications have been de-
+scribed in the fields of chemical analysis (8%), metallurgy (5%), the
+paper industry (3%) and the medical industry (3%).
+Anmei et al. (2018)describe the use of CBs as precursors for the
+development of carbon quantum dots (nanomaterial with sizes below
+10nm) which, thanks to their strong fluorescence, have been tested as
+anagentforthedetectionofSudanIinfoods.Chillipowder,chillisauce
+and tomato sauce were selected as test samples. A similar product is
+described byBandi et al. (2018), who used the fluorescence of their N,
+S-Coded carbon dots for detecting various biologically and en-
+vironmentally important metal ions, such as Fe2+, Ca2+, Na+,
+Pb2+, Cu2+, Mn2+, Cd2+, Sn2+, Cr3+, Al3+, Ni2+, Hg2+,
+Mg2+, Ba2+, K+, Zn2+, and Fe3.
+The extract of CBs has also been applied in the metallurgical in-
+dustry. As described by Vahidhabanu et al. (2014) and Zhao et al.
+(2010), the resulting solution can be used as a corrosive inhibiting
+agent in steel materials.Vahidhabanu et al. (2014)used it for the J55
+oil well tubular steel used in acidization of oil wells and gas production
+with efficiencies of 99% and 61% obtained for 30°C and 105°C re-
+spectively at 6% concentration.Zhao et al. (2010)used the crude ex-
+tracts from littered cigarette butts for N80 steel in HCl solutions at
+90°C. The inhibition efficiencies were shown to be 94.6% and 91.7% in
+10% and 15% (wt %) HCl solution, respectively, by adding 5% (wt %)
+inhibitor.
+In 20% HCl solution, a maximum inhibition efficiency of 88.4% was
+shown by adding 10% inhibitor.
+Teixeira et al. (2017)described the treatment of CBs in order to
+provide secondary raw material for the paper industry. In fact, CBs are
+recycled into a cellulose pulp that can be used in the paper industry,
+either pure or blended with cellulose pulp from various origins de-
+pending on availability or the final desired properties.
+A possible use in the medical industry is described byOgundare
+et al. (2017), who studied the production of nanocrystalline cellulose
+(NCC) with numerous applications, including composites for biome-
+dical purposes.
+Finally, a review of the studies on the recycling of CBs showed a
+further application discussed by 17% of authors - as insecticides, pes-
+ticides or in response to ectoparasites.This solution has been developed
+in Asia and Central America to counter the spread of parasites and
+pathogens, especially those transmitted by mosquitoes or birds. These
+applications are the result of using CBs as they are, or through a liquid
+compound made from their percolation.
+Murugan et al. (2018); Suárez-Rodríguez and Garcia (2017);
+Nasution (2016);Mondal et al. (2014);Dieng et al. (2013)and Suárez-
+Rodríguez et al. (2013)analyzed various combinations and concentra-
+tions of these solutions, analyzing their effects on the main reference
+targets.
+4.5. Geographical distribution
+The geographical distribution of the studies (Fig. 9) shows a strong
+concentration in Asia, Central and South America and in Australia.
+Europe is representedby Spainand the UK. Few authors are fromNorth
+America or Africa.
+China,whichistheworld'sleadingcigaretteconsumerwithgrowing
+valuesinrecentyears(2043cigarettessmokedperpersonperyear),has
+conducted numerous studies on exploiting CB treatments. Australia has
+focused on their use for the production of fired clay bricks.
+In India, where 89 cigarettes are smoked per person per year (i.e.
+Indians fall within the average consumption around the world) there
+have been six studies, two of which are on the development of in-
+secticides to control the spread of diseases through insects.
+5. Conclusions and prospects for development
+Despitecigarettebutts(CBs)being oneof themost commontypesof
+litter worldwide,with a production of one million tonnes eachyear, the
+solution to the problem still appears very challenging and distant.
+In fact, this involves at least two main aspects:
+1 Consumers: increasing awareness of the environmental impact of
+CBs and changing their habits in dealing with this waste (today in
+most cases still discarded on the ground). Policies and awareness
+campaigns are used to achieve this.
+2 Management methodologies, identifying one (or more) economical
+andeffective technologicalsolutions for the prevention or treatment
+of this waste and also identifying the best approaches for the col-
+lection and transport of CBs.
+This paper has analysed the second aspect through a general review
+of 37 selected papers that provide different types of solutions for the
+treatment and recycling of CBs.
+The following conclusions can be drawn from the results presented
+in this paper:
+•CBs constitute widespread waste globally and are often more con-
+centrated in areas with the highest number of consumers. China is
+anexampleofthissituation:peoplesmokeover40%ofallcigarettes
+globally (2043 cigarettes per person per year) and has the largest
+number of CBs and packaging waste in the world.
+•This aspect also influences the origin of the studies analysed, which
+are often concentrated in areas where the problem appears to be
+very significant or, as in the case of India and Mexico, where local
+conditions require dedicated solutions (e.g. integrated vector man-
+agement strategies).
+•Comparing the authors’ approaches to the treatment of CBs, in most
+tests only smoked CBs were used, often without providing com-
+parative analyses of the same non-smoked material (CFs cleaned).
+•Thepreparationandtreatmentmethodsofthesamplesaremainlyof
+a physical nature, through which the CBs are separated from the
+remaining non-smoked tobacco, and from the outer paper and cru-
+shed into small fragments.
+•The results of the treatment processes constitute in particular solid
+materials used in numerous economic and productive sectors,
+especially in the field of building materials, energy and the en-
+vironment and chemistry.
+•Few authors describe the methods of collecting the CB samples. In
+fact, laboratory applications do not require large quantities of
+samples. However, the logistical aspect associated with the collec-
+tion and handling of CBs is an extremely critical element of the
+process, which risks making the product developed ineffective and
+the economic system not economically viable.
+•The treatment processes described all take place on a laboratory
+pilot scale. However, a large-scale analysis or experimental appli-
+cationislacking,whichwouldsimulatetheoperationalprocesswith
+greater quantities and with the critical, operational, economic and
+legislative barriers that characterize a pilot case.
+•With the exception of very few studies, most are very recent scien-
+tific contributions. This shows how the correct management of CBs
+represents a current priority of global interest.
+•All the studies analysed describe the methodological and operative
+treatments of CBs and analyse the results and the products obtained
+in detail. This provides very detailed information on the character-
+istics of the resulting materials and performance under operating
+conditions. However, no author provides detailed information re-
+garding the economic sustainability of the process or how to make
+these products suitable for the market.
+•Finally, the review highlights that social aspects are still poorly in-
+vestigated and, in most cases, neglected. Including social factors
+S. Marinello, et al. Journal of Hazardous Materials 384 (2020) 121245
+15
+
+=== PDF PAGE 16 ===
+would significantly influence the functioning and effectiveness of
+the described treatments. One example is the propensity of citizens
+to discard the CBs in the appropriate bins, thus encouraging the
+collection of samples at established points.
+The economic sustainability of the processes, the consumption of
+energy and/or reagents or other products, as well as the toxicity of the
+outputs are not dealt with by most of the authors analyzed. Also, there
+is no information on the yields of the processes and the possibility of
+passing from the laboratory scale to the industrial scale. These are
+critical aspects common to most papers.Table 7gives a brief critique of
+each article, highlighting the main advantages and disadvantages of
+each solution.
+Future scenarios could evaluate the transfer and capitalization of
+the proposed studies and technologies, through an analysis of the fol-
+lowing components:
+•The supply chain.
+•The market.
+•The technologies tested through a full-scale pilot.
+•The economic sustainability.
+•A business and capitalization plan.
+Despite the interesting and promising results presented in the lit-
+erature, CBs remain a particularly critical waste due to their char-
+acteristics and impact on the environment and on the health of living
+organisms. Therefore, the main challenge of preventing the production
+and spread of this waste remains.
+Avoiding the production of waste according to the "precautionary
+principle" remains the optimal solution that must be increasingly ap-
+plied and disseminated (WHO, 2017). The application of this principle
+is not simple, therefore solutions are also needed to avoid dispersion,
+that would facilitate the correct collection and management of CBs.
+Below are some examples of possible measures to reduce the pro-
+duction and dispersion of CBs in the environment:
+•Labeling the danger. Just as health risks are reported on packets,
+this information could also state that CBs and packaging products
+are a non-biodegradable hazardous waste. A description of the main
+effects on the environment could be included together with some
+recommendations on the correct disposal methods to reduce their
+dispersion.
+•Using biodegradable materials and banning disposable filters. The
+use of biodegradable materials for the production of CFs and
+packaging products could be encouraged. There are already various
+international initiatives that reduce the impact and increase the
+sustainability of the box, inner liner, ink, filter, tobacco and cigar-
+ette paper.
+•A "Deposit / Return" approach. This approach has already been
+successfully applied to other materials, for example glass bottles.
+The same approach, which includes a deposit for the purchase,
+could also be applied to the sale of cigarette packets. The “butt
+deposit” could be refunded when the packet is returned to the
+vender with the butts.
+•A waste tax. A specific tax could be introduced that is added to the
+cost of cigarettes and used to finance specific activities, such as
+cleaning up local areas, financing research projects, and so on.
+•Anti-smoking policies and waste fines. This solution requires poli-
+ticalinterventionbylocaladministrationsthatcouldbansmokingin
+certain critical areas. The penalty for offenders would be a fine. This
+solution has already been tested: for example in 2019 several Italian
+beaches have been smoke-free. This prevents the presence and ac-
+cumulation of CBs in critical areas, such as coastal areas.
+•Litigation against the tobacco industry. This solution requires spe-
+cific even economic interventions of the tobacco industries to pro-
+mote solutions to the production and dispersion of CBs in the en-
+vironment. Often, expensive legal battles are needed to obtain the
+support of the industry.
+•CB collection campaigns. This solution is already internationally
+widespread with teams of volunteers involved in waste collection
+(including CBs) in some areas (beaches in particular). Also thanks to
+Fig. 9.Spatial distribution of studies and pro-capita cigarette consumption (authors elaboration).
+S. Marinello, et al. Journal of Hazardous Materials 384 (2020) 121245
+16
+
+=== PDF PAGE 17 ===
+Table 7
+Advantages and disadvantages of each approach.
+Advantages Disadvantages Pilot or
+larger scales
+Anmei et al., 2018 - Simple and economical hydrothermal process.
+- High water solubility, photostability, toxicity and
+biocompatibility.
+- Chemical composition of formed CDs is not studied.
+- The mechanism was not explained.
+Pilot scale
+Bandi et al., 2018 - Simple preparation method.
+- Application for the analysis of water (tap, bore, and pond) and
+biological samples (human urine and serum).
+- Good production yield.
+- Cheap.
+- No information about energy consumption.
+- No information about the toxicity.
+Pilot scale
+Cui et al., 2018 - Very simple process.
+- CBs can improve pavement performance and save the costs.
+- - Sustainability assessment was made.
+- There is no mixture that allows all the optimal
+parameters.
+- Its use is related to environmental conditions.
+Pilot scale
+Ifelebuegu et al., 2018 - Simple process.
+- Adsorbs 16 to 26 times their weights in various oils.
+- Its capacity did not deteriorate after 20 cycles.
+- Excellent water repellency,
+- oil sorption and recyclability.
+- Experimented with different types of oil.
+- No information about toxicity.
+- The treatment requires the use of chemical reagents.
+Pilot scale
+Lima et al., 2018 - Production at low temperatures.
+- High absorbent capacity.
+- Experimented only with MB.
+- Significant capacity for adsorption in a basic
+environment.
+Pilot scale
+Maderuelo-Sanz et al., 2018 - Absorbent performance similar to commercial products.
+- Good broadband sound absorbers.
+- Comparison also between used and not used CA.
+- Further studies are needed for the problem of odour
+and to treat the potentially harmful constituents.
+Pilot scale
+Murugan et al., 2018 - Low doses of CBs extracts (with and without
+- tobacco) showed larvicidal and pupicidal toxicity.
+- No significant effects on non-target risks.
+- Other toxicological studies may be useful. Pilot scale
+Wadalkar et al., 2018 - Very simple process.
+- Recommended grades of paver blocks for different traffic
+categories were considered.
+- Need for preliminary treatment.
+- Water absorption increased with the increase in
+percentage of CBs.
+- There is no mixture that allows all the optimal
+parameters.
+Pilot scale
+Xiong et al., 2018a - Simple method.
+- Good absorption capacity.
+- Adsorbed oil was readily and rapidly recovered by mechanical
+squeezing.
+- Can be re-used in different cycles.
+- No information about toxicity.
+- Tested on a few cycles.
+- Requires chemical reagents for its production.
+Pilot scale
+Xiong et al., 2018b - Simple method.
+- Carbon material with high specific surface area, numerous
+nitrogen atom-containing groups, hierarchical porous structure
+and good specific capacitance.
+- Resistant to numerous cycles.
+- No information about energy consumption. Pilot scale
+Blankenship and Mokaya,
+2017
+- Super porous, with ultra-high surface area and pore volume.
+- The carbons exhibit unprecedentedly high hydrogen storage
+capacity.
+- Low cost.
+- No information about energy consumption.
+- No information about the yield.
+Pilot scale
+Ghosh et al., 2017 - Simple process.
+- No pre-treatment is required.
+- Extensive applications in the electronics sector.
+- No information on further processing for industrial
+use.
+Pilot scale
+Gómez Escobar and
+Maderuelo Sanz, 2017
+- High sound absorption performance.
+- Comparison with other materials.
+- Preliminary results.
+- Other studies are needed.
+Pilot scale
+Hamzah and Umar, 2017 - First study about the preparation of active carbon from CBs by
+microwave induced KOH activation.
+- Microwave heating method guarantees rapidly and uniformly
+heats and it is an energy-efficient method.
+- No information about energy consumption. Pilot scale
+Mohajerani et al., 2017 - Simple method.
+- Satisfactory for light, medium and heavy traffic conditions.
+- CBs increases the porosity which, in turn, lowers its thermal
+conductivity.
+- Different bitumen classes were used.
+- Content is limited and should not exceed 3%.
+- Tests were carried out in accordance with (only) the
+relevant Australian standards.
+Pilot scale
+Ogundare et al., 2017 - Firststudyabout theisolationand characterizationofNCCderived
+directly from DCF.
+- NCC has numerous applications.
+- Requires several steps and the addition of solvents.
+- The isolated NCC-DCF will be further investigated for
+such applications.
+Pilot scale
+Suárez-Rodríguez and
+Garcia, 2017
+- Disassembled CBs may be brought to the nests because they repel
+ectoparasites.
+- Process not under control.
+- Missing information on the toxic effect.
+Pilot scale
+Teixeira et al., 2017 - Technology for separating all the cellulose content in the CBs.
+- The cellulose pulp can be used in the paper industry.
+- Process consisting of several steps.
+- Remains a dark liquor which, despite various
+treatments, maintains a high COD.
+Pilot scale
+Mohajerani et al., 2016 - Simple process.
+- Assessed several% of CBs.
+- Analyzed different physical characteristics.
+- Analyzed atmosphere emissions.
+- Leachate analyses.
+- Analyzed energy savings.
+- Other methods of reducing gas emissions need to be
+investigated.
+- Need for tests in a factory environment.
+Pilot scale
+(continued on next page)
+S. Marinello, et al. Journal of Hazardous Materials 384 (2020) 121245
+17
+
+=== PDF PAGE 18 ===
+Table 7(continued)
+Advantages Disadvantages Pilot or
+larger scales
+Nasution, 2016 - Simple process.
+- It can be used in any situation, anytime and in any place.
+- Need more research in the field.
+- Need self-consciousness.
+- Less accuracy.
+Pilot scale
+Kim et al., 2016 - Simple process.
+- The presence of N dopant on the surface of the NCF not only
+provided highly dispersive active sites for the growth of the Pt
+nanoparticles, but also the active centers for ORR itself.
+- Large surface area and fast oxygen insertion and desertion.
+- NCF is a promising supportmaterial, but further
+investigation is needed
+- No information on energy consumption.
+Pilot scale
+Wang et al., 2016 - Simple, inexpensive, and effective approach.
+- Recycle waste metal ions and CBs at the same time.
+- -Exhibited high electrochemical performances and cycling
+stability.
+- No information about energy consumption.
+- No information about the toxicity.
+Pilot scale
+Kadir and Mohajerani, 2015 - Study the effect of heating rate on gas emissions.
+- Gas emissions were reduced significantly with higher heating
+rates.
+- No information about energy consumption. Pilot scale
+Lee et al., 2014 - High rate capability and high specific capacitance.
+- Synergistic combination of well-developed meso-/
+- micropores, an enlarged surface area and pseudocapacitive
+behavior leads to the desired
+- supercapacitive performance.
+- Good performance even after many cycles (6.000).
+- No information about energy consumption.
+- Further exploration of CFs for a supercapacitor
+electrode is warranted.
+Pilot scale
+Mondal et al., 2014 - Simple process.
+- The mosquito mortality is concentration dependent.
+- Only tested on the mosquito.
+- More extensive research is needed.
+Pilot scale
+Soltani et al., 2014 - Considerablereductionintotalashcontentofthesurface-modified
+char compared to the non-modified char.
+- Chemical modifications are needed after the pyrolysis
+process.
+Pilot scale
+Vahidhabanu et al., 2014 - Simple process.
+- Good performance as corrosion inhibitive effects.
+- Uses chemical solvent.
+- There is no toxicological information.
+Pilot scale
+Dieng et al., 2013 - Simple process.
+- In great presence of CBs, mortality was high even for the late
+developmental stages.
+- Evaluation limited to Aedes aegypti vulnerability.
+- Only one type of cigarette was evaluated.
+Pilot scale
+Sarani and Kadir, 2013 - Compare different % of CBs and different heating rates.
+- -With higher % of CBs, the thermal conductivity properties were
+also improved.
+- Analyzed only the thermal conductivity. Pilot scale
+Suárez-Rodríguez et al.,
+2013
+- CBs may function as a parasite repellent in urban bird nests.
+- Assess smoked or non-smoked cigarette butts.
+- No treatment is necessary.
+- No toxicological evidence has been studied. Pilot scale
+Soltani and Yazdi, 2012 - Comparison between impregnated and non-impregnated samples.
+- High Brunauer, Emmet and Teller (BET) surface area.
+- Dry KOH impregnation of cigarette butts as carbon
+precursor would not be a suitable approach in
+obtaining higher BET surface area.
+Pilot scale
+Kadir and Mohajerani, 2011 - Simple process.
+- Different percentages of CBs were incorporated into manufactured
+fired clay bricks.
+- The effects on physical and mechanical properties of samples were
+investigated.
+- The effect of the incorporation of CBs on porosity and thermal
+conductivityofbrickswasalsoinvestigatedandapredictivemodel
+was developed.
+- Preliminary investigation on recycling CBs in clay
+bricks.
+- More extensive experimental work is recommended,
+using
+- different types of clay soils.
+- Further research should also focus on the use of
+potential cost-effective additives/waste such as fly
+ash.
+Pilot scale
+Sabzali et al., 2011 - Comparison of integrated fixed film activated sludge
+- (IFAS) and activated sludge (AS) system.
+- Good effect on ammonia and COD removal.
+- Interesting results on removal efficiency of total phosphorus (TP-
+P).
+- High surface area, high porosity and roughness of this carrier can
+increase the performance.
+- This process can tolerate strong loading shock.
+- Different steps are needed.
+- No information about energy consumption.
+Pilot scale
+Zhao et al., 2010 - Good inhibition efficiencies.
+- InhibitionefficienciesarerelatedtotheconcentrationofCBswater
+extracts.
+- No information about energy consumption.
+- Just one tested material: N80.
+Pilot scale
+Kadir et al., 2009 - Simple process.
+- Different percentages of CBs were incorporated into manufactured
+fired clay bricks.
+- The density, compressive strength, water absorption and amounts
+of heavy metals were investigated.
+- The effect of the incorporation of CBs on porosity and thermal
+conductivityofbrickswasalsoinvestigatedandapredictivemodel
+was developed.
+- No information about energy consumption.
+- Preliminary investigation on recycling CBs in clay
+bricks.
+Pilot scale
+Kadir and Mohajerani, 2008 - Simple process.
+- Different percentages of CBs were incorporated into manufactured
+fired clay bricks.
+- The density, compressive strength, water absorption and amounts
+of heavy metals were investigated.
+- No information about energy consumption.
+- Preliminary investigation on recycling CBs in clay
+bricks.
+Pilot scale
+Polarz et al., 2002 - Simple process.
+- High-temperature treatment under inert conditions without
+extensive preparative methods.
+- No information about energy consumption. Pilot scale
+S. Marinello, et al. Journal of Hazardous Materials 384 (2020) 121245
+18
+
+=== PDF PAGE 19 ===
+the support of digital technologies and social networks, there are
+now widespread initiatives aimed at the active involvement of ci-
+tizens who, given the collection of a certain quantity of CBs (e.g. a
+glass or a bottle), receive a reward, typically of food or drink.
+•Awareness and education campaigns aimed at consumers. This so-
+lution involves campaigns aimed at empowering consumers, in-
+creasing their sensitivity to the impact of CBs on the environment
+and encouraging their participation in the correct storage of waste.
+References
+Anmei, S., Qingmei, Z., Yuye, C., Yilin, W., 2018. Preparation of carbon quantum dots
+from cigarette filters and its application for fluorescence detection of Sudan I. Curr.
+Environ. Health Rep. 1 (3), 208–216.https://doi.org/10.1007/s40572-014-0016-x.
+Araújoa, M.C.B., Costa, M.F., 2019. A critical review of the issue of cigarette butt pol-
+lution in coastal environments. Environ. Res. 172, 137–149.https://doi.org/10.
+1016/j.envres.2019.02.005.
+Ariza, E., Jiménez, J.A., Sardá, R., 2008. Seasonal evolution of beach waste and litter
+during the bathing season on the Catalan coast. Waste Manage. 28, 2604–2613.
+https://doi.org/10.1016/j.wasman.2007.11.012.
+Bandi, R., Devulapalli, N.P., Dadigala, R., Gangapuram, B.R., Guttena, V., 2018. Facile
+conversion of toxic cigarette butts to N,S-codoped carbon dots and their application
+in fluorescent film, security ink, bioimaging, sensing and logic gate operation. ACS
+Omega 3 (10), 13454–13466.https://doi.org/10.1021/acsomega.8b01743.
+Blankenship, T.S., Mokaya, R., 2017. Cigarette butt-derived carbons have ultra-high
+surface area and unprecedented hydrogen storage capacity. Energy Environ. Sci. 10,
+2552. https://doi.org/10.1039/c7ee02616a.
+Bonanomi, G., Incerti, G., Cesarano, G., Gaglione, S.A., Lanzotti, V., 2015. Cigarette butt
+decomposition and associated chemical changes assessed by 13C CPMAS NMR. PLoS
+One 10 (1).https://doi.org/10.1371/journal.pone.0117393.
+Booth,D.J.,Gribben,P.,Parkinson,K.,2015.Impactofcigarettebuttleachateontidepool
+snails. Mar. Pollut. Bull. 95, 362–364.https://doi.org/10.1016/j.marpolbul.2015.04.
+004.
+Bories, C., Borredon, M.E., Vedrenne, E., Vilarem, G., 2014. Development of eco-friendly
+porous fired clay bricks using pore-forming agents: a review. J. Environ. Manage.
+143, 186–196.https://doi.org/10.1016/j.jenvman.2014.05.006.
+Cui, Y., Wu, Z., Li, Y., Yang, H., 2018. Experimental study on determining the optimum
+cigarette butt content of modified bituminous mixture of cigarette butts. J. Civ. Eng.
+Archit. 12, 447–453.https://doi.org/10.17265/1934-7359/2018.06.005.
+de Granda-Orive, J.I., Girón-Matute, W., López-Yepes, L., 2016. Cigarette butts: the col-
+lateral effects of cigarettes on humans, animals and the environment. Arch.
+Bronconeumol. 52, 285.
+Dieng, H., Rajasaygar, S., Ahmad, A.H., Ahmad, H., Rawi, C.S., Zuharah, W.F., Satho, T.,
+Miake,F.,Fukumitsu,Y.,Saad,A.R.,Ghani,I.A.,Vargas,R.E.,Majid,A.H.,Abubakar,
+S., 2013. Turning cigarette butt waste into an alternative control tool against an
+insecticide-resistant mosquito vector. Acta Trop. 128, 584–590.https://doi.org/10.
+1016/j.actatropica.2013.08.013.
+Du, W., Jianhui, W., Bing, P., Xiaobin, Z., Fuwei, X., Huimin, L., Kejun, Z., 2015. An
+improved theoretical model of cigarette smoke filtration across mono-segment cel-
+lulose acetate filters. Contrib. Tobacco Res. 26 (5).https://doi.org/10.1515/cttr-
+2015-0011.
+EC, 2000. Commission Decision No 2000/532/EC of 3 May 2000 Replacing Decision 94/
+3/EC Establishing a List of Wastes Pursuant to Article 1(a) of Council Directive 75/
+442/EEC on Waste and Council Decision 94/904/EC Establishing a List of Hazardous
+WastePursuanttoArticle1(4)ofCouncilDirective91/689/EEConHazardousWaste,
+Modified.
+EU, 2014. Commission Decision of 18 December 2014 Amending Decision 2000/532/EC
+on the List of Waste Pursuant to Directive 2008/98/EC of the European Parliament
+and of the Council.
+Fischer, S., Thummler, K., Volkert, B., Hettrich, K., Schmidt, I., Fischer, K., 2008.
+Properties and applications of cellulose acetate. Macromol. Symp. 262, 89–96.
+https://doi.org/10.1002/masy.200850210.
+Ghosh, T.K., Sadhukhanc, S., Ranad, D., Sarkarc, G., Dase, C., Chattopadhyaye, S.,
+Chattopadhyay, D., Chakraborty, M., 2017. Treatment of recycled cigarette butts
+(man-made pollutants) to prepare electrically conducting material. J. Indian Chem.
+Soc. 94 (10), 863–870.
+Gómez Escobar, V., Maderuelo-Sanz, R., 2017. Acoustical performance of samples pre-
+pared with cigarette butts. Appl. Acoust. 125, 166–172.https://doi.org/10.1016/j.
+apacoust.2017.05.001.
+Hamzah, Y., Umar, L., 2017. Preparation of creating active carbon from cigarette filter
+waste using microwave-induced KOH activation. J. Phys. 853.https://doi.org/10.
+1088/1742-6596/853/1/012027.
+Haske-Cornelius, O., Pellis, A., Tegl, G., Wurz, S., Saake, B., Ludwig, R., Sebastián, A.A.,
+Nyanhongo, G.S., Guebitz, G.M., 2017. Enzymatic systems for cellulose acetate de-
+gradation. Catalysts 7 (10), 287.https://doi.org/10.3390/catal7100287.
+Hoffmann, D., Hoffmann, I., 1997. The changing cigarette, 1950–1995. J. Toxicol.
+Environ. Health 50, 307–364.https://doi.org/10.1080/009841097160393.
+Ifelebuegu, A.O., Lale, E.E., Mbanaso, F.U., Theophilus, S.C., 2018. Facile fabrication of
+recyclable, superhydrophobic, and oleophilic sorbent from waste cigarette filters for
+the sequestration of oil pollutants from an aqueous environment. Processes 6, 140.
+https://doi.org/10.3390/pr6090140.
+Joly, F.X., Coulis, M., 2018. Comparison of cellulose vs. plastic cigarette filter
+decomposition underdistinct disposal environment. Waste Manage. 72, 349–353.
+https://doi.org/10.1016/j.wasman.2017.11.023.
+Kadir, A.A., Mohajerani, A., 2015. Effect of heating rate on gas emissions and properties
+of fired clay bricks and fired clay bricks incorporated with cigarette butts. Appl. Clay
+Sci. 104, 269–276.https://doi.org/10.1016/j.clay.2014.12.005.
+Kadir, A.A., Mohajerani, A., 2011. Recycling cigarette butts in lightweight fired clay
+bricks. Constr. Mater. 164, 219–229.https://doi.org/10.1680/coma.900013.
+Kadir, A.A., Mohajerani, A., Roddick, F., Buckeridge, J., 2009. Density, strength, thermal
+conductivity and leachate characteristics of light-weight fired clay bricks in-
+corporating cigarette butts. Int. J. Civil, Environ. Struct. Construct. Archit. Eng. 3,
+242–247.
+Kadir, A.A., Mohajerani, A., 2008. Possible utilization of cigarette butts in light-weight
+fired clay bricks. Int. J. Environ. Chem. Ecol. Geol. Geophys. Eng. 2, 137–141.
+Kim, G.P., Lee, M., Song, H.D., Bae, S., Yi, J., 2016. Highly efficient supporting material
+derived from used cigarette filter for oxygen reduction reaction. Catal. Commun. 78,
+1–6. https://doi.org/10.1016/j.catcom.2016.01.030.
+Lee, M., Kim, G.P., Song, H.D., Park, S., Yi, J., 2014. Preparation of energy storage ma-
+terial derived from a used cigarette filter for a supercapacitor electrode.
+Nanotechnology 25.https://doi.org/10.1088/0957-4484/25/34/345601.
+Lima, H.H.C., Maniezzo, R.S., Kupfer, V.L., Guilherme, M.R., Moises, M.P., Arroyo, P.A.,
+Rinaldi, A.W., 2018. Hydrochars based on cigarette butts as a recycled material for
+the adsorption of pollutants. J. Environ. Chem. Eng. 6, 7054–7061.https://doi.org/
+10.1016/j.jece.2018.11.012.
+Mackay, J., Eriksen, M., Shafey, O., 2006. The Tobacco Atlas, 2nd edn. The American
+Cancer Society, Atlanta.
+Maderuelo-Sanz, R., Gómez Escobar, V., Meneses-Rodríguez, J.M., 2018. Potential use of
+cigarette filters as sound porous absorber. Appl. Acoust. 129, 86–91.https://doi.org/
+10.1016/j.apacoust.2017.07.011.
+Marah, M., Novotny, T.E., 2011. Geographic patterns of cigarette butt waste in the urban
+environment. Tob. Control 20, i42–i44.https://doi.org/10.1136/tc.2010.042424.
+Mohajerani, A., Tanriverdi, Y., Nguyen, B.T., Wong, K.K., Dissanayake, H.N., Johnson, L.,
+Whitfield, D., Thomson, G., Alqattan, E., Rezaei, A., 2017. Physico-mechanical
+properties of asphalt concrete incorporated with encapsulated cigarette butts. Constr.
+Build. Mater. 153, 69–80.https://doi.org/10.1016/j.conbuildmat.2017.07.091.
+Mohajerani, A., Kadir, A.A., Larobina, L., 2016. A practical proposal for solving the
+world’s cigarette butt problem: recycling in fired clay bricks. Waste Manage. 52,
+228–244. https://doi.org/10.1016/j.wasman.2016.03.012.
+Mondal, N.K., Hajra, A., Chakraborty, D., Medda, S., Dey, U., Datta, J.K., 2014. Cigarette
+butt waste and its effective utilization towards larvicidal activity of mosquito. Int. J.
+Sci. Res. 3, 0009–0015.https://doi.org/10.12983/ijsres-2015-p0009-0015.
+Murugan, K., Suresh, U., Panneerselvam, C., Rajaganesh, R., Roni, M., Aziz, A.T., Hwang,
+J.S.,Sathishkumar,K.,Rajasekar,A.,Kumar,S.,Alarfaj,A.A.,Higuchi,A.,Benelli,G.,
+2018. Managing wastes as green resources: cigarette butt-synthesized pesticides are
+highlytoxictomalariavectorswithlittleimpactonpredatorycopepods.Environ.Sci.
+Pollut. Res. 25, 10456–10470.https://doi.org/10.1007/s11356-017-0074-3.
+Nasution, B.A., 2016. Reusing The Cigarette Butts for Pesticide in Agriculture. Working
+Paper. https://doi.org/10.13140/RG.2.2.23653.19683.
+Ng, M., Freeman, M.K., Fleming, T.D., Robinson, M., Dwyer-Lindgren, L., Thomson, B.,
+2014. Smoking prevalence and cigarette consumption in 187 countries, 1980–2012.
+J. Am. Med. Assoc. 311 (2), 183–192.https://doi.org/10.1001/jama.2013.284692.
+Novotny,T.E.,Slaughter,E.,2014.Tobaccoproductwaste:anenvironmentalapproachto
+reduce tobacco consumption. Curr. Environ. Health Rep. 1 (3), 208–216.https://doi.
+org/10.1007/s40572-014-0016-x.
+Novotny, T.E., Zhao, F., 1999. Consumption and production waste: another externality of
+tobacco use. Tob. Control 8, 75–80.https://doi.org/10.1136/tc.8.1.75.
+Ocean Conservancy, 2018. Building a Clean Swell – 2018 Report.
+Ogundare, S.A., Moodley, V., van Zyl, W.E., 2017. Nanocrystalline cellulose isolated from
+discarded cigarette filters. Carbohydr. Polym. 175, 273–281.https://doi.org/10.
+1016/j.carbpol.2017.08.008.
+Oropesa, A.L., Floro, A.M., Palma, P., 2017. Toxic potential of the emerging contaminant
+nicotine to the aquatic ecosystem. Environ. Sci. Pollut. Res. Int. 24 (20),
+16605–16616. https://doi.org/10.1007/s11356-017-9084-4.
+Patel, V., Thomson, G.W., Wilson, N., 2013. Cigarette butt littering in city streets: a new
+methodology for studying and results. Tob. Control 22, 59–62.https://doi.org/10.
+1136/tobaccocontrol-2012-050529.
+Polarz, S., Smarsly, B., Schattka, J.H., 2002. Hierachical porous carbon structures from
+cellulose acetate fibers. Chem. Mater. 7, 2940–2945.
+Poppendieck, D., Khurshid, S., Emmerich, S., 2016. Measuring Airborne Emissions from
+Cigarette Butts: Literature Review and Experimental Plan. Final Report to U.S. Food
+and Drug Administration Under Interagency Agreement #244-15-9012.https://doi.
+org/10.6028/NIST.IR.8147.
+Puls,J.,Wilson,S.A.,Hölter,D.,2011.Degradation ofcelluloseacetate-basedmaterials:a
+review. J. Polym. Environ. 19, 152–165.https://doi.org/10.1007/s10924-010-
+0258-0.
+Rebischung, F., Chabot, L., Biaudet, H., Pandard, P., 2018. Cigarette butts: a small but
+hazardous waste, according to European regulation. Waste Manage. 82, 9–14.
+https://doi.org/10.1016/j.wasman.2018.09.038.
+Robertson,R.M.,Thomas,W.C.,Suthar,J.N.,Brown,D.V.,2012.Accelerateddegradation
+of cellulose acetate cigarette filters using controller-release acid catalysis. Green
+Chem. 14, 2266–2272.https://doi.org/10.1039/C2GC16635F.
+Roder Green, A.L., Putschew, A., Nehls, T., 2014. Littered cigarette butts as a source of
+nicotine in urban waters. J. Hydrol. 519, 3466–3474.https://doi.org/10.1016/j.
+jhydrol.2014.05.046.
+Sabzali, A., Nikaeen, M., Bina, B., 2011. Evaluation of cigarette filters rods as a biofilm
+carrier in integrated fixed film activated sludge process. Int. J. Ind. Manuf. Eng. 5,
+583–588.
+S. Marinello, et al. Journal of Hazardous Materials 384 (2020) 121245
+19
+
+=== PDF PAGE 20 ===
+Sarani, N.A., Kadir, A.A., 2013. Thermal conductivity of fired clay bricks incorporated
+with cigarette butts. Adv. Mat. Res. 690–693, 919–924.https://doi.org/10.4028/
+www.scientific.net/AMR.690-693.919.
+Singh, C.R., Kathiresan, K., 2015. Effect of cigarette smoking on human health and pro-
+mising remedy by mangroves. Asian Pac. J. Trop. Biomed. 5, 162–167.
+Slaughter, E., Gersberg, R.M., Watanabe, K., Rudolph, J., Stransky, C., Novotny, T.E.,
+2011. Toxicity of cigarette butts, and their chemical components, to marine and
+freshwater fish. Tob. Control 20 (Suppl1), i25–i29.https://doi.org/10.1136/tc.2010.
+040170.
+Smith, E.A., McDaniel, P.A., 2010. Covering their butts: responses to the cigarette litter
+problem. Tob. Control 20, 100–106.https://doi.org/10.1136/tc.2010.036491.
+Soltani, S.M., Yazdi, S.K., Hosseini, S., Gargari, M.K., 2014. Effect of nitric acid mod-
+ification on porous characteristics of mesoporous char synthesized from the pyrolysis
+of used cigarette filters. J. Environ. Chem. Eng. 2, 1301–1308.https://doi.org/10.
+1016/j.jece.2014.04.005.
+Soltani, S.M., Yazdi, S.K., 2012. Effect of dry physical mixing of cigarette filters as carbon
+source with KOH on final physical characteristics of the synthesized porous carbon.
+In: 2012 12th IEEE International Conference on Nanotechnology (IEEE-NANO) - 20-
+23 August 20112. Birmingham, United Kingdom.https://doi.org/10.1109/NANO.
+2012.6321914.
+Starkey, T., 2018. Cigarette Butt Litter. An Underestimated Environmental Issue?.
+Srbinoska, M., Radojičić, V., Đulančić, N., Kirkova, S., 2018. Possibilities for managing
+the cigarette butts waste. 26th International Conference Ecological Truth &
+Environmental Research.
+Strain, I.N., Wu, Q., Pourrahimi, A.M., Hedenqvist, M.S., Olsson, R.T., Andersson, R.L.,
+2015. Electrospinning of recycled PET to generate tough mesomorphic fibre mem-
+branes for smoke filtration. J. Mater. Chem. A 3, 1632–1640.https://doi.org/10.
+1039/c4ta06191h.
+Suárez-Rodríguez, M., Garcia, C.M., 2017. An experimental demonstration that house
+finches addcigarette buttsinresponse toectoparasites.J.Avian Biol.48, 1316–1321.
+https://doi.org/10.1111/jav.01324.
+Suárez-Rodríguez, M., López-Rull, I., Macías Garcia, C., 2013. Incorporation of cigarette
+butts into nests reduces nest ectoparasite load in urban birds: new ingredients for an
+old recipe? Biol. Lett. 9.https://doi.org/10.1098/rsbl.2012.0931.
+Teixeira, M.B., Duarte, M.A.B., Raposo Garcez, L., CamargoRubim, J., Hofmann Gatti, T.,
+Suarez, P.A.Z., 2017. Process development for cigarette butts recycling into cellulose
+pulp. Waste Manage. 60, 140–150.https://doi.org/10.1016/j.wasman.2016.10.013.
+Torkashvand, J., Farzadkia, M., 2019. A systematic review on cigarette butt management
+as a hazardous waste and prevalent litter: control and recycling. Environ. Sci. Pollut.
+Res. 26, 11618–11630.https://doi.org/10.1007/s11356-019-04250-x.
+U.S.DepartmentofHealthandHumanServices(USDHHS),2010.AReportoftheSurgeon
+General: How Tobacco Smoke Causes Disease: What It Means to You (Consumer
+Booklet).U.S.DepartmentofHealthandHuman Services,CentersforDiseaseControl
+and Prevention, National Center for Chronic Disease Prevention and Health
+Promotion, Office on Smoking and Health, Atlanta, GA.
+Vahidhabanu, S., Rameshbabu, B., Suresh Babu, P., Abdul Rahman, H., 2014. Study of
+cigarette butts extract as corrosive inhibiting agent in J55 steel material. Int. J. Res.
+Eng. Technol. 3, 444–452.
+Van Gucht, D., Van den Bergh, O., Beckers, T., Vansteenwegen, D., 2010. Smoking be-
+havior in context: where and when do people smoke? J. Behav. Ther. Exp. Psychiatry
+41, 172–177.https://doi.org/10.1016/j.jbtep.2009.12.004.
+Wadalkar, S., Kulkarni, R., Sawant, N., Kashyap, A., Pathan, Z., Kale, A., 2018. Design of
+precast concrete blocks for paving with the use of cigarette butts (Cellulose acetate).
+Int. J. Res. Appl. Sci. Eng. Technol. 6, 2958–2965.
+Wang, Y., Jiang, M., Yang, Y., Ran, F., 2016. Hybrid electrode material of vanadium
+nitride and carbon fiber with cigarette butt/metal ions wastes as the precursor for
+supercapacitors. Electrochim. Acta 222, 1914–1921.https://doi.org/10.1016/j.
+electacta.2016.12.003.
+World Health Organization, 2017. Tobacco and Its Environmental Impact: An Overview.
+Xiong, Q., Bai, Q., Li, C., Li, D., Miao, X., Shen, Y., Uyama, H., 2018a. Nitrogen-doped
+hierarchical porous carbons from used cigarette filters for supercapacitors. J. Taiwan
+Inst. Chem. Eng. 1–9.https://doi.org/10.1016/j.jtice.2018.07.019.
+Xiong, Q., Bai, Q., Li, C., Lei, H., Liu, H., Shen, Y., Uyama, H., 2018b. Cost-effective,
+highly and environmental friendly superhydrophobic adsorbent from cigarette filters
+foroilsillagecleanup.Polymers10,1101. https://doi.org/10.3390/polym10101101.
+Zhao, J., Zhang, N., Qu, C., Wu, X., Zhang, J., Zhang, X., 2010. Cigarette butts and their
+application in corrosion inhibition for N80 steel at 90°C in a hydrochloric acid so-
+lution. Ind. Eng. Chem. Res. 49, 3986–3991.
+S. Marinello, et al. Journal of Hazardous Materials 384 (2020) 121245
+20

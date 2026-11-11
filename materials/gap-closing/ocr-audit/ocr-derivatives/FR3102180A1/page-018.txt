@@ -1,0 +1,75 @@
+[0198]
+
+[0199]
+
+[02001
+
+[0201]
+[0202]
+
+[0203]
+
+[0204]
+
+[0205]
+
+[0206]
+
+[0207]
+
+[0208]
+
+[0209]
+
+17
+
+solides indésirables qui auraient pu rester solubilisées dans le fluide, afin de récupérer
+du fluide supercritique pur à réinjecter sur les cycles suivants.
+
+Ce fluide sera susceptible de passer à travers du charbon actif afin de capturer les
+molécules odorantes et COV éventuels. Du charbon actif pourra éventuellement être
+ajouté dans la chambre de nettoyage si nécessaire.
+
+On notera que ce fluide peut retourner dans la chambre de nettoyage 10 autant de fois
+que nécessaire. Le reste du flux pollué est ensuite évacué puis traité, car en se libérant
+et en passant à l’état gazeux, le dioxyde de carbone se sépare des contaminants.
+
+Ces contaminants étant utilisés lors d’une phase de valorisation des substances or-
+ganiques et inorganiques (hydrocarbures, métaux lourds, pesticides, sucres...). Une
+telle valorisation est réalisée par exemple selon une autre filière de traitement.
+
+On récupère alors la fibre dépolluée.
+
+Ainsi, la technologie de nettoyage des fibres par fluide supercritique permet au fluide
+de se recycler automatiquement en continu en changeant d’état. En sorti de chambre, il
+passe lors de la détente (perte de masse volumique) de l’état supercritique à l’état
+gazeux et perd son efficacité de solvant puissant, larguant les substances indésirables
+(sous forme liquide ou solide) transportées durant l’état supercritique. Ces substances
+indésirables sont récupérées dans des contenants spécialisés afin d’être traitées et va-
+lorisées.
+
+La séparation physico-chimique terminée, le fluide peut être injecté de nouveau dans
+la chambre à l’état supercritique. Une étape de séparation par filtration/absorption peut
+être ajoutée pour faciliter la récupération des résidus solubilisés dans le fluide (pendant
+ou après nettoyage, à l’état gazeux, liquide ou supercritique), et purifier le fluide afin
+de récupérer toute son efficacité d’extraction.
+
+Le fluide passe par une ou plusieurs enceintes et séparateurs (accompagné de vannes
+de détentes) capables de le purifier et le rendre réutilisable, en capturant et collectant la
+totalité des contaminants.
+
+Dans l’exemple décrit ici, le fluide passe en outre à travers un filtre de charbon actif
+afin de piéger les molécules odorantes et les composés organiques volatiles. Du
+charbon actif peut également être ajoutée dans la chambre. Cette étape n’est pas
+obligatoire.
+
+La forte volatilité des fluides aux conditions atmosphériques catégorise le fluide
+comme solvant sec, ne nécessitant alors aucune étape de séchage.
+
+Le fluide solvant inerte, non-toxique, et non dangereux ne risque pas d’endommager
+les conditions de travails des utilisateurs.
+
+La présente invention permet d’obtenir une technologie qui ne présente pas les incon-
+vémients de l’art antérieur.
+
+En adaptant la technologie des fluides supercritique et en réglant les paramètres

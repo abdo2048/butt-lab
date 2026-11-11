@@ -1,0 +1,325 @@
+=== PDF FILE: BR_0305004_B1.pdf ===
+sha256: 147b5feaccd09f28b1055ede5f16535d4c50b003e062cc450cceb104e830add5
+pages: 9
+printed_page_labels: PDF p.1=printed 1, PDF p.2=printed 2, PDF p.3=printed 3, PDF p.4=printed 4, PDF p.5=printed 5, PDF p.6=printed 6, PDF p.7=printed 7, PDF p.8=printed 8, PDF p.9=printed 9
+
+=== PDF PAGE 1 ===
+--- OCR (pdftoppm 300dpi + Tesseract 5, lang=fra) ---
+10305004 81 MN
+
+(22) Data de Depôsito: 06/10/2003 (51) Int.Cl.:
+. _ | (45) Data da Concessäo: 11/11/2014 D21C 5/02
+Republica Federativa do Brasil (RPI 2288)
+
+é dé Comérais Éxterior
+Instituto mal dé
+
+(54) Titulo: REAPROVEITAMENTO DE FIBRAS DE ACETATO DE CELULOSE E FILTROS DE CIGARRO PARA
+OBTENÇAO DE CELULOSE E PAPEL
+
+(73) Titular(es): FUNDAÇAO UNIVERSIDADE DE BRASILIA
+
+(72) Inventor(es): MARCO ANTONIO BARBOSA DUARTE, PAULO ANSELMO ZIANI SUAREZ, THÉRÈSE HOFMANN GATTI
+RODRIGUES DA COSTA
+
+=== PDF PAGE 2 ===
+--- OCR (pdftoppm 300dpi + Tesseract 5, lang=fra) ---
+10
+
+15
+
+20
+
+25
+
+30
+
+REAPROVEITAMENTO DE FIBRAS DE ACETATO DE CELULOSE E FILTROS
+DE CIGARRO PARA OBTENÇAO DE CELULOSE E PAPEL.
+
+CAMPO DA INVENCÂO
+
+À presente invençäo refere-se a um sistema de conversäo de acetato de
+
+celulose em polpa de celulose.
+
+FUNDAMENTOS DA INVENÇÂO
+
+No Brasil foram consumidos em 2001 140 bilhôes de unidades de cigarros, o
+que representa 1194 unidades per capita, totalizando 30 mil toneladas de residuos
+sôlidoS (www.bbc.co.uk/portuguese/ciencia/020724_cigarroabrers.shtml, www.inca.gov.br/press-
+release/press-16102002-esclarecimento.htm, acessados em 21 de outubro de 2002).
+Estes detritos säo descartados no meio ambiente, näo havendo, até o momento,
+tecnologia disponivel para o seu aproveitamento.
+
+Os filtros de cigarro säo compostos por fibras artificiais de acetato de
+celulose, adesivo acetato de poli-vinila (PVA) e triacetina. Segundo descrito na
+obra “Celulose e papel -Tecnologia de fabricaçäo da pasta celulésica”, Coord.
+Maria Luiza Otero D'Almeida, SENAI e IPT: Säo Paulo, 2° ediçäo, Vol. le II, 1988,
+ensina que as fibras de acetato säo obtidas pela modificaçäo de celulose, por
+reaçäo de acetilaçäo (esterificaçäo com âcido acético), levando a formaçäo de um
+polimero termoplästico solüvel em solventes orgânicos, e posterior extrusäo. Esta
+obra ressalta ainda que esta acetilaçäo é reversivel, podendo ocorrer em meio
+aquoso hidrélise dos grupos ésteres, convertendo-se à polimeros de celulose,
+sendo esta reaçäo acelerada por catälise âcida ou bâsica.
+
+Segundo comunicaçäo pessoal de técnicos da Filtrona Brasileira Indüstria e
+Comércio Ltda, no meio ambiente, os filtros de cigarro säo degradados ao longo
+de um periodo superior a um ano. Neste periodo, provavelmente o acetato de
+celulose sofre inicialmente o processo de hidrélise dos grupos ésteres, sendo
+posteriormente degradada a celulose.
+
+À perspectiva do aproveitamento dos filtros de cigarro usados vem ao
+encontro da possibilidade de dar utilidade a material até entäo descartado no meio
+ambiente, diminuindo-se assim a emissäo de residuos sélidos, gerando uma
+
+atividade econômica. No entanto, até o momento näo existe descriçäo de nenhum
+
+=== PDF PAGE 3 ===
+--- OCR (pdftoppm 300dpi + Tesseract 5, lang=fra) ---
+10
+
+15
+
+20
+
+25
+
+30
+
+2/4
+
+processo que use estes residuos como matéria-prima. Uma alternativa é a
+obtençäo de celulose a partir deste residuo pela hidrélise acelerada, em meio
+bâsico ou âcido.
+
+Por outro lado, segundo comunicaçäo pessoal de técnicos da Filtrona
+Brasileira Indüstria e Comércio Ltda, toda a cadeia produtiva das fibras de acetato
+de celulose, incluindo as indüstrias de obtençäo das fibras, de cigarros, diversos
+tipos de canetas, filtros de ar, entre outros, geram grandes quantidades de
+residuos sélidos de baixo valor agregado e com mercado restrito, formados
+basicamente por aparas e descartes dos produtos. Por esta razäo, o
+desenvolvimento de processos que utilizam estes residuos 6 de grande releväncia
+para este setor industrial.
+
+Esta patente descreve uma tecnologia eficiente para aproveitar residuos
+compostos por fibras de acetato de celulose, sejam eles oriundos de sobras
+industriais (aparas ou descartes) ou materiais consumidos (filtros de cigarro,
+cargas de canetas, entre outros). Nessa tecnologia, estes materiais säo usados
+para a obtençäo de uma massa de celulose, passivel de ser usada na produçäo
+de papel ou outros produtos.
+
+SUMARIO DA INVENCÂO
+
+A presente invençäo refere-se ao uso de residuos compostos por fibras de
+acetato de celulose, sejam eles oriundos de sobras industriais (aparas ou
+descartes) ou materiais consumidos (filtros de cigarro, cargas de canetas, entre
+outros). Nessa tecnologia, estes materiais säo usados para a obtençäo de uma
+massa de celulose, passivel de ser usada na produçäo de papel ou outros
+produtos.
+
+À invençäo é concretizada no uso de residuos de acetato de celulose para
+obtençäo de polpa de celulose. Para tanto, a reaçäo de hidrélise dos grupos
+acetato, conforme a Figura 1, acelerada pela presença de âcidos ou bases no
+
+meio, leva a formacäo de celulose.
+
+BREVE DESCRICÀO DAS FIGURAS
+
+Figura 1: Mostra o esquema da reaçäo de hidrélise de acetato de celulose em
+
+meio alcalino, onde R = H ou -COCHa.
+
+=== PDF PAGE 4 ===
+--- OCR (pdftoppm 300dpi + Tesseract 5, lang=fra) ---
+10
+
+15
+
+20
+
+25
+
+30
+
+3/4
+
+DESCRIÇÀAO DETALHADA DA INVENCAÂO
+
+A reaçäo de hidrélise de acetato de celulose ocorre na faixa de temperatura
+entre 20 e 140°C, sendo preferida a faixa de temperatura de 80 a 100°C, e mais
+preferivelmente uma temperatura em torno de 80°C. A hidrélise pode ser realizada
+em meio aquoso, na presença ou näo de aceleradores (catalisadores). Como
+catalisadores podem ser usados âcidos ou bases, tais como:
+
+1- Âcidos Inorgânicos ou orgânicos, independentes de sua constante
+de dissociaçäo âcida (K;), tais como os âcido sulfürico, nitrico,
+cloridrico, bromidrico, silicico, fosférico, acético, sulfônico, férmico,
+entre outros.
+
+2- Bases Inorgânicas ou orgânicas, independentes de sua constante de
+dissociaçäo bâsica (kt), tais como aminas, amônia, os hidroxidos,
+carbonatos ou 6xidos de amônio, sédio, potässio, câlcio, magnésio,
+litio, de sédio, câlcio, magnésio,; entre outras.
+
+À quantidade de acelerador (ou catalisador) adicionado pode estar na faixa
+de 0% a 50% em massa relativa de âgua, sendo preferida a razäo de 1 a 5 %.
+Como produto desta reaçäo de hidrélise, obtém-se uma massa de celulose.
+
+Os exemplos a seguir säo fornecidos a titulo ilustrativo e em nenhuma
+hipôtese podem ser interpretados como limitativos da presente invençäo.
+
+Exemplo 1:
+
+Cozinhando-se durante 3 horas uma massa de 233 g de filtros de cigarro
+usados em 15 L de uma soluçäo aquosa de NaOH 1%, numa faixa de temperatura
+compreendida entre 75 a 85°C, obteve-se uma massa de celulose. Esta massa foi
+refinada em moinho Jokro, durante 25 minutos, sendo apés determinado o grau
+Shopper, que é uma medida da extensäo da refinaçäo. Além disto, a partir desta
+amostra formou-se folhas, em formador TAPPI, que foram submetidas aos
+seguintes ensaios, usualmente efetuados em papel: gramatura, espessura, alvura,
+
+resisténcia à traçäo e alongamento, sendo os resultados mostrados na Tabela 1.
+
+Tabela 1 — Propriedades fisicas determinadas para os papeis preparados com a
+
+polpa obtida no exemplo 1.
+
+=== PDF PAGE 5 ===
+--- OCR (pdftoppm 300dpi + Tesseract 5, lang=fra) ---
+10
+
+414
+
+ENSAIO (unidade) RESULTADO
+graus Shopper (°SR) 46
+Gramatura (g/m°?) 71,14 (1,98)
+Espessura (mm) 0,173 (0,004)
+Alvura (%) 54,16 (0,20)
+
+Resistência à traçäo (KN/m) 0,80 (0,08)
+indice de traçäo (KNm/kg) 11,22 (1,83)
+Alongamento (%) 1,91(0,23)
+Nota: os nümeros entre parênteses referem-se ao desvio padräo
+
+Exemplo 2:
+
+Cozinhando-se durante 3 horas uma massa de 467 g de aparas residuais
+de produçäo industrial de filtros de acetato de celulose em 15 L de uma soluçäo
+aquosa de NaOH 1%, numa faixa de temperatura compreendida entre 75 a 85°C,
+obteve-se uma massa de celulose. Esta massa foi refinada em moinho Jokro,
+durante 25 minutos, sendo apôs determinado o grau Shopper, que é uma medida
+da extensäo da refinaçäo. Além disto, a partir desta amostra formou-se folhas, em
+formador TAPPI, que foram submetidas aos seguintes ensaios, usualmente
+efetuados em papel: gramatura, espessura, alvura, resistência à traçäo e
+alongamento, sendo os resultados mostrados na Tabela 2.
+
+Tabela 2 — Propriedades fisicas determinadas para os papeis preparados com a
+polpa obtida no exemplo 2.
+
+ENSAIO (unidade) RESULTADO
+graus Shopper (°SR) 15
+Gramatura (g/m°) 77,3 (1.7)
+Espessura (mm) 0,239 (0,020)
+Alvura (%) 84,61 (0,24)
+
+Resistêéncia à traçäo (kN/m) | 0,40 (0,04)
+indice de traçäo (kKNm/kg) | 4,95 (0,87)
+
+Alongamento (%) 1,42 (0,31)
+Nota: os nümeros entre parênteses referem-se ao desvio padräo
+
+=== PDF PAGE 6 ===
+--- OCR (pdftoppm 300dpi + Tesseract 5, lang=fra) ---
+10
+
+15
+
+20
+
+25
+
+30
+
+1/2
+
+REIVINDICAÇÔES
+
+1. REAPROVEITAMENTO DE FIBRAS DE ACETATO DE CELULOSE,
+provenientes de sobras industriais ou materiais consumidos, filtros de cigarro, para
+a obtençäo de. uma massa de celulose, passivel de ser usada na produçäo de
+papel, caracterizado por compreender a reaçäo de hidrélise das fibras de acetato
+de celulose em meio aquoso, com tempos de reaçäo variando de 10 minutos a 24
+horas, com temperatura constante ou variävel, na faixa de temperatura entre 20 e
+140 ©C, na presença ou näo de aceleradores (catalisadores), podendo ser usados
+catalisadores âcidos ou bâsicos variando na faixa de 0 % a 50 % em peso,
+podendo a pressäo do sistema ser constante ou variävel, com pressäo na faixa de
+0 atm a 100 atm.
+
+2. REAPROVEITAMENTO DE FIBRAS DE ACETATO DE CELULOSE, de acordo
+com a reivindicaçäo 1, caracterizado pelo fato de que o catalisador da reaçäo de
+hidrélise é constituido por: (a) âcidos inorgâänicos ou orgânicos, independentes de
+sua constante de dissociaçäo âcida (Ka), tais como os äcido sulfürico, nitrico,
+cloridrico, bromidrico, silicico, fosférico, acético, sulfônico, férmico, entre outros; ou
+(b) bases inorgânicas ou orgânicas, independentes de sua constante de
+dissociaçäo bâsica (Kb), tais como aminas, amônia, os hidréxidos, carbonatos ou
+éxidos de amônio, sédio, potässio, câlcio, magnésio, litio, de sédio, cälcio,
+magnésio, entre outras.
+
+3. REAPROVEITAMENTO DE FIBRAS DE ACETATO DE CELULOSE, de acordo
+com a reivindicaçäo 1, caracterizado pelo fato de que a concentraçäo do
+catalisador da reaçäo de hidrélise pode variar de 0 % a 50 % em massa.
+
+4, REAPROVEITAMENTO DE FIBRAS DE ACETATO DE CELULOSE, de acordo
+com a reivindicaçäo 1, caracterizado pelo fato de que a temperatura da reaçäo de
+hidrlise pode variar de 20 °C a 140 °C, podendo ser constante ou variävel.
+
+5, REAPROVEITAMENTO DE FIBRAS DE ACETATO DE CELULOSE, de acordo
+com a reivindicaçäo 1, caracterizado pelo fato de que o tempo da reaçäo de
+hidrélise pode variar de 0 horas a 24 horas.
+
+6. REAPROVEITAMENTO DE FIBRAS DE ACETATO DE CELULOSE, de acordo
+
+com a reivindicaçäo 1, caracterizado pelo fato de que a pressäo do sistema da
+
+=== PDF PAGE 7 ===
+--- OCR (pdftoppm 300dpi + Tesseract 5, lang=fra) ---
+2/2
+
+reaçäo de hidrélise pode ser constante ou variävel e fica na faixa de O atm a 100
+
+atm.
+
+=== PDF PAGE 8 ===
+--- OCR (pdftoppm 300dpi + Tesseract 5, lang=fra) ---
+RO
+
+NaOH/H,0
+
+A
+
+Figura 1
+
+HO
+
+=== PDF PAGE 9 ===
+--- OCR (pdftoppm 300dpi + Tesseract 5, lang=fra) ---
+10
+
+RESUMO
+
+REAPROVEITAMENTO DE FIBRAS DE ACETATO DE CELULOSE E FILTROS
+DE CIGARRO PARA OBTENÇÀO DE CELULOSE E PAPEL.
+
+À presente invençäo refere-se ao uso de residuos compostos por fibras de
+acetato de celulose, sejam eles oriundos de sobras industriais (aparas ou
+descartes) ou materiais consumidos (filtros de cigarro, cargas de canetas, entre
+outros). Nessa tecnologia, estes materiais säo usados para a obtençäo de uma
+massa de celulose, passivel de ser usada na produçäo de papel ou outros
+produtos.
+
+À invençäo é concretizada no uso de residuos de acetato de celulose para
+obtençäo de polpa de celulose. Para tanto, a reaçäo de hidrélise dos grupos
+acetato, conforme a Figura 1, acelerada pela presença de âcidos ou bases no
+
+meio, leva a formaçäo de celulose.

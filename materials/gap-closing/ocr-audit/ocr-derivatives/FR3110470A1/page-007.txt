@@ -1,0 +1,77 @@
+[0043]
+
+[0044]
+
+[0045]
+
+[0046]
+
+[0047]
+
+[0048]
+[0049]
+
+[0050]
+
+[0051]
+
+[0052]
+
+[0053]
+
+[0054]
+
+[0055]
+
+d’incorporation d’au moins un thermoplastique et de dépollution.
+
+Préférentiellement le broyeur utilisé à l’étape c) est un broyeur à couteaux à basse
+vitesse ou un broyeur à végétaux. Par exemple, le broyeur à végétaux peut-être un
+broyeur à végétaux de type ELIET MAJOR 4$ ou de type Viking GE 250.1. Le
+broyage de l’étape c) est suivi éventuellement d’un passage en trommel ou tamis rotatif
+avec une grille 8 mm afin de conserver uniquement les filtres broyés contenant
+l’acétate de cellulose.
+
+Préférentiellement, la durée du broyage à l’étape c) est comprise entre 20 et 40
+minutes, plus préférentiellement 30 minutes.
+
+Selon un mode de réalisation alternatif, le broyeur de l’étape c) peut être identique au
+broyeur de l’étape préliminaire d’extraction, préférentiellement il s’agit d’un broyeur à
+couteaux.
+
+À la fin du broyage à l’étape c), on obtient ainsi des fragments de filtres d’un
+diamètre compris entre 3 et 5mm.
+
+A partir des fragments de filtres obtenus lors de l’étape c), le procédé comprend une
+étape d) de mélange et de dépollution simultanée dans une extrudeuse avec au moins
+un polymère thermoplastique pour obtenir un matériau composite.
+
+Préférentiellement, le mélange est obtenu par compoundage.
+
+Ainsi, l’étape d) est mise en œuvre en chauffant le mélange dans une extrudeuse à
+une température d’au moins 170°C, de façon particulièrement préféré la température
+est comprise en 170 et 240°C.
+
+Le matériau composite en fusion ressort alors de l'extrudeuse en Jones. Ces joncs sont
+ensuite refroidis et découpés pour obtenir des granulés.
+
+Lors de l’étape d), en particulier lors du compoundage, la température d’au moins
+170° C permet de dépolluer une seconde fois les filtres. Ainsi, des composés toxiques
+tels que le Fluoranthène, le Benzo(b)fluorenthène, le Benzo(b)pyrène sont évaporés et
+permettent la dépollution des filtres.
+
+Préférentiellement la durée de l’étape d) est relativement courte, d’au plus 5 minutes,
+préférentiellement de 1 à 2 minutes.
+
+Selon un mode de réalisation préféré, des pressions faibles et/ou faible taux
+d'oxygène permettent de favoriser l’évaporation des composés toxiques
+
+Selon un mode de réalisation préféré, le polymère thermoplastique est choisi parmi
+les polyamides et les poly(butylène). Préférentiellement, le polymère thermoplastique
+est choisi parmi le polyamide 6 (PA6), le polyamide 6.6 (PA66), le polyamide 11
+(PAI1), le polyamide 12 (PA12), et le poly(butylène succinate) (PBS) et le
+poly(butylène succinate adipate) (PBSA).
+
+Les polyamides (PA) sont des polymères contenant des fonctions amide pouvant
+
+résulter de la polycondensation entre les fonctions acide carboxylique et amine et sont

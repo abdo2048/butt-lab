@@ -1,0 +1,616 @@
+                    ®       RÉPUBLIQUE FRANÇAISE                            © N° de publication :                          3 066 128
+                                                                                  (à n’utiliser que pour les
+                            INSTITUT NATIONAL                                     commandes de reproduction)
+                      DE LA PROPRIÉTÉ INDUSTRIELLE
+                                                                            ©) N° d’enregistrement national :               17 54267
+                                     COURBEVOIE
+                                                                            © IntCI8
+                                                                                            B 09 B 3/00 (2017.01), C 02 F 1/52
+
+
+
+
+                                                   DEMANDE DE BREVET D'INVENTION                                                           A1
+
+                    ©) Date de dépôt : 15.05.17.                                       ©) Demandeur(s) : MEGO! Société à responsabilité limi-
+                    ©) Priorité :                                                          tée— FR.
+
+
+
+
+                                                                                       @ Inventeur(s) :    LUCAS BASTIEN, LUCAS
+                                                                                           ANDRIANINA, ANDRE GUILLAUME et MONTEIRO
+                    (43) Date de mise à la disposition du public de la                     TOINELO.
+                         demande : 16.11.18 Bulletin 18/46.
+                    ©) Liste des documents cités dans le rapport de
+                         recherche préliminaire : Se reporter à la fin du
+                        présent fascicule
+                    (© Références à d’autres documents nationaux                       ©) Titulaire(s) : MEGO! Société à responsabilité limitée.
+                         apparentés :
+
+
+
+
+                    ©) Demande(s) d’extension :                                        ©) Mandataire(s) : IPSIDE Société par actions simplifiée.
+
+
+
+
+                          PROCEDE DE VALORISATION DES MEGOTS DE CIGARETTE.
+
+                           L'invention concerne un procédé de valorisation des
+                    mégots de cigarette (40), composé d'un filtre (41 ) et de ma­
+                    tière organique (32) composée de cendres, de feuilles de
+                    papier et de tabac, ledit filtre (41 ) étant composé d'acétate
+                    de cellulose (33) et de papier (34), caractérisé en ce que le
+                    procédé comporte les étapes suivantes de: a) premier
+                    broyage (22) à partir de mégots de cigarette (40) dans un
+                    premier broyeur pour séparer le filtre (41) de la matière or­                    32        34
+
+
+
+
+FR 3 066 128 - A1
+                    ganique (32) ; b) tamisage (23) du filtre (41 ) et de la matière
+                    organique (32), pour récupérer l'acétate de cellulose (33)
+                    contenu dans le filtre; c) lavage (24) du filtre (41) pour une
+                    séparation de l'acétate de cellulose (33) et du papier (34)
+                    avec de l'eau, dans une cuve de lavage ; d) lavage de dépol­
+                    lution (25) de l'acétate de cellulose (33) avec de l'eau dans
+                    une cuve de dépollution pour obtenir de l'acétate de cellu­
+                    lose dépollué (37); e) recyclage de l'eau (26) des étapes c)
+                    et d) par un recycleur à eau ; f) séchage par pré-cuisson (27)
+                    pour obtenir de l'acétate de cellulose séché (38); g) deu­
+                    xième broyage (28) pour obtenir de fines particules fi­
+                    breuses d'acétate de cellulose (39).
+                                                                                3066128
+
+                                             1
+
+
+
+
+     DOMAINE TECHNIQUE DE L’INVENTION
+              La présente invention concerne un procédé de valorisation des mégots
+     de cigarette. Elle s’applique, en particulier, à la valorisation des déchets
+     toxiques contenus dans les mégots de cigarette et notamment au recyclage de
+ 5   l’acétate de cellulose.
+              La valorisation des déchets est un ensemble de procédés par lesquels
+     on transforme un déchet matériel ou organique dans l'objectif d'un usage
+     spécifique comme le recyclage, pour à terme produire un revenu.
+              L'acétate de cellulose est une matière plastique et se présente sous
+10   forme de fibres.
+              Des zones de collecte sont installées dans des entreprises, des places
+     publiques, des rues, des plages, des stations de ski, des campings...
+              Dans un exemple, les zones de collecte sont des colonnes de
+     stockage des mégots de cigarette. Ainsi, la collecte est réalisée pour le procédé
+15   de valorisation.
+
+
+     ETAT DE LA TECHNIQUE
+              Le procédé de valorisation est approprié pour le recyclage du mégot de
+     cigarette restant après utilisation. Le mégot de cigarette se compose d’un filtre
+20   composé notamment d’acétate de cellulose et d’une enveloppe papier. Les
+     filtres composant le mégot de cigarette absorbent plus de quatre milles
+     substances chimiques nocives ayant une action irritante, nocive, toxique,
+     mutagène et cancérigène dans le milieu environnant car ils entrent dans le
+     système respiratoire du fumeur.
+25            Pour les raisons présentées ci dessus, chaque cigarette est donc
+     munie d’un filtre à l’une de ses extrémités permettant de retenir une partie des
+     substances chimiques nocives précitées. Lorsque la cigarette est consommée,
+     le filtre est donc placé de telle manière que la fumée passe à travers le filtre
+     avant d’atteindre les poumons du fumeur.
+30            Par conséquent, une partie de ces substances nocives est donc
+     emprisonnée dans le filtre et contamine la partie de cigarette non fumée,
+     autrement appelée mégot de cigarette. Parmi les contaminants des mégots de
+                                                                                  3066128
+
+                                               2
+
+     cigarette, sont présents la nicotine, le benzène, les gaz toxiques, l’éthylphénol,
+     l’acide cyanhydrique, les composés radioactifs et de l’acétate de cellulose, qui
+     définie comme étant la matière plastique de laquelle le filtre est fait.
+              Le temps de décomposition d’un mégot de cigarette est de plusieurs
+ 5   années, jusqu’à quinze ans.
+              Les mégots de cigarettes sont considérés comme des déchets
+     dangereux pour l’environnement, ils représentent 40% des déchets présents
+     dans la mer Méditerranée. Les oiseaux et animaux marins meurent suite à
+     l’indigestion directe de mégots de cigarette.
+10            Certains procédé de traitement de mégots de cigarette existent et
+     permettent d’obtenir un produit à base de plastique et d’un pourcentage de
+     mégots de cigarette et de plastique. Toutefois, on retrouve des traces de
+     résidus toxiques dans les mégots de cigarette et donc le produit issu de ce type
+     de procédé.
+15            Un des objectifs de l’invention est de fournir un procédé permettant le
+     recyclage des mégots de cigarette afin d’éviter d’avoir des résidus toxiques
+     dans le produit issu du procédé.
+              Un autre but de la présente invention est de créer un procédé simple à
+     mettre en œuvre tout en respectant des contraintes écologiques.
+20
+     OBJET DE L’INVENTION
+              La présente invention vise à remédier à ces inconvénients.
+              A cet effet la présente invention vise un procédé de valorisation des
+     mégots de cigarette, composé d’un filtre et de matière organique composée de
+25   cendres, de feuilles de papier et de tabac, ledit filtre étant composé d’acétate
+     de cellulose et de papier, caractérisé en ce que le procédé comporte les étapes
+     suivantes de :
+              -    a) premier broyage à partir de mégots de cigarette dans un premier
+                   broyeur pour séparer le filtre de la matière organique ;
+30            -    b) tamisage du filtre et de la matière organique, issus de l’étape de
+                   premier broyage pour récupérer l’acétate de cellulose contenu dans
+                   le filtre ;
+                                                                                   3066128
+
+                                                3
+
+              -   c) lavage du filtre pour une séparation de l’acétate de cellulose et
+                  du papier issue du tamisage avec de l’eau, dans une cuve de
+                  lavage ;
+              -   d) lavage de dépollution de l’acétate de cellulose avec de l’eau
+ 5                dans une cuve de dépollution pour obtenir de l’acétate de cellulose
+                  dépollué ;
+              -   e) recyclage de l’eau des étapes c) et d) par un recycleur à eau ;
+              -   f) séchage par pré-cuisson à partir de l’acétate de cellulose
+                  dépollué pour obtenir de l’acétate de cellulose séché ;
+10            -   g) deuxième broyage à partir de l’acétate de cellulose séchée pour
+                  obtenir des fines particules fibreuses d’acétate de cellulose.
+              Le procédé de valorisation des mégots de cigarette permet de produire
+     des fines particules fibreuses d’acétate de cellulose complément dépolluée et
+     utilisable pour la fabrication d’objet divers.
+15            Grâce à ces dispositions, l’étape de tamisage permet la séparation
+     graduelle des déchets. En effet, le tabac, la cendre, les feuilles de papier et le
+     filtre sont séparés au fur et à mesure, ainsi c’est plus facile et simple de
+     récupérer l’acétate de cellulose.
+              Grâce à l’étape du lavage du filtre, on sépare l’acétate de cellulose du
+20   papier, ce qui permet de récupérer uniquement l’acétate de cellulose.
+              Le lavage dans la cuve de dépollution entraîne l’élimination des
+     substances nocives polluantes retenues par l’acétate de cellulose.
+              L’analyse de l’eau contenue dans la cuve de lavage et la cuve de
+     dépollution montre une diminution des quantités de substances nocives
+25   polluantes. Le recyclage de l’eau permet d’avoir de l’eau déjà utilisée sans
+     substances nocives.
+
+
+              L’invention est avantageusement mise en œuvre selon les modes de
+     réalisation et les variantes exposées ci-après, lesquelles sont à considérer
+30   individuellement ou selon toute combinaison techniquement opérante.
+              Dans un mode de réalisation, l’étape d) comporte deux autres cuves
+     de dépollution pour dépolluer l’acétate de cellulose, l’acétate de cellulose passe
+     d’une cuve de dépollution à l’autre.
+                                                                                  3066128
+
+                                                 4
+
+               Dans un mode de réalisation, l’étape d) est répétée trois fois. La triple
+     répétition du lavage dans les trois cuves de dépollution entraîne une
+     amélioration de la qualité et de la propreté du produit fini.
+               Dans un mode de réalisation, le lavage du filtre de l’étape c) et le
+ 5   lavage de dépollution de l’étape d) se fait avec un solvant, préférentiellement de
+     l’eau.
+               Dans un mode de réalisation, le recyclage de l’eau de l’étape e) est
+     effectué en circuit fermé.
+               Dans un mode de réalisation, le recycleur à eau, de l’étape e)
+10   comporte une étape de coagulation et une étape de floculation. Le recycleur à
+     eau traite jusqu’à 1000 litres par cycle dans le but de recycler l’eau des cuves
+     de lavage et de dépollution. Le recycleur à eau permet la régénération de l’eau
+     par clarif loculation.
+               Dans un mode de réalisation, le procédé comporte une étape h) de
+15   thermo compression dans une presse à thermo compression. L’acétate de
+     cellulose est fondu pour faire des plaques de l’épaisseur voulue grâce aux deux
+     vérins hydrauliques, cette méthode combine un poste de chauffe et un poste de
+     refroidissement. Le cycle de travail de la presse à thermo compression est
+     automatique et programmable.
+20             L’invention concerne également un procédé pour la fabrication de
+     plaques d’acétate de cellulose à base d’acétate de cellulose.
+              Ainsi, les plaques de plastique sont réutilisables et permettent la
+     fabrication de palette de manutention et/ou de mobiliers urbains. De nombreux
+     objets pourront ainsi être créés à partir des plaques de plastiques obtenues tels
+25   que des sous verre, du parquet, des meubles, des supports de publicité, des
+     cendriers extérieurs et pots de fleurs...
+
+
+     BREVE DESCRIPTION DES FIGURES
+               D’autres avantages, buts et caractéristiques de la présente invention
+30   ressortent de la description qui suit faite, dans un but explicatif et nullement
+     limitatif, en regard des dessins annexés, dans lesquels :
+               La figure 1 représente les étapes du procédé selon l’invention selon un
+     premier mode de réalisation,
+                                                                                  3066128
+
+                                             5
+
+              La figure 2 représente l’ensemble des étapes du procédé selon un
+     autre mode de réalisation,
+              La figure 3 représente une vue similaire du procédé selon l’invention,
+     faisant apparaître le cycle de recyclage de l’eau 26 des cuves.
+ 5
+     DESCRIPTION D’EXEMPLES DE REALISATION DE L’INVENTION
+              La figure 1 montre les étapes d’un procédé de valorisation des mégots
+     de cigarettes.
+              Le procédé utilise des mégots de cigarette 40, composés d’un filtre 41
+10   et de matière organique 32. La matière organique 32 est composée de cendres,
+     de feuilles de papier et de tabac. Le filtre 41 est composé d’acétate de cellulose
+     33 et de papier 34.
+              Le procédé comporte une étape de premier broyage 22 à partir de
+     mégots de cigarette 40 qui consiste à faire transiter dans un premier broyeur
+15   les mégots de cigarette 40 en flux continu. Le premier broyeur cisèle les
+     mégots de cigarette 40 à un rythme de 1kg de mégots de cigarette 40 par
+     minute. Le premier broyeur permet de séparer le filtre 41 de la matière
+     organique 32. En sortie du premier broyage 22, on retrouve la matière
+     organique 32 séparée du filtre 41.
+20           Après l’étape de premier broyage 22, le procédé comporte une étape
+     de tamisage 23.
+              L’étape de tamisage 23 comprend un tamis dans lequel sont envoyés
+     le filtre 41 et la matière organique 32. L’étape de tamisage 23 consiste en la
+     séparation du filtre 41 de la matière organique 32, pour récupérer uniquement
+25   le filtre 41. Le tamis utilisé dans l’étape de tamisage 23 fonctionne à l’aide d’un
+     moteur vibrateur qui fait vibrer le tamis jusqu’à ce que les filtres 41 soient
+     complètement séparés de la matière organique 32. Ce système de tamisage 23
+     entraîne la séparation des divers arrivages de filtres 41 et de matière organique
+     32 en séparant au fur et à mesure, la matière organique 32 et le filtre 41 par un
+30   gradient de trois niveaux. Dans un exemple de réalisation, la vitesse est de 1kg
+     par minute. La matière organique 32 est retenue à cette étape du procédé. La
+     matière organique 32 est stockée pour être en partie dépolluée ultérieurement
+     dans un bain d’eau, non représenté.
+                                                                                     3066128
+
+                                               6
+
+              Après l’étape de tamisage 23, le procédé comporte une étape de
+     lavage du filtre 24.
+              Dans une variante, les étapes 22 et 23 sont réalisées ensemble.
+              L’étape de lavage 24 du filtre 41 sépare le papier 34 de l’acétate de
+ 5   cellulose 33 dans une cuve de lavage. La cuve de lavage a un but de nettoyage
+     des filtres 41. Dans un exemple de réalisation, le solvant utilisé dans la cuve de
+     lavage est de l’eau. Dans un autre exemple de réalisation, on utilise de
+     l’acétone comme solvant. La séparation est basée sur la densité du papier 34
+     et de l’acétate de cellulose 33 présents dans la cuve de lavage. La durée est
+10   d’au moins vingt minutes, de préférence de trente minutes. En effet le papier 41
+     et l’acétate de cellulose 33 ne possèdent pas la même densité, le papier 41 a
+     une densité plus élevée que l’acétate de cellulose 33, le papier 41 se retrouve
+     donc au fond de la cuve et l’acétate de cellulose 33 se retrouve à la surface de
+     la cuve de lavage. Les papiers 41 sont éliminés de la cuve de lavage et dirigés
+15   vers la filière du recyclage non représentée. Le produit issu de cette étape est
+     l’acétate de cellulose 33.
+              Après l’étape lavage 24 du filtre 41, le procédé comporte une étape de
+     lavage de dépollution 25 de l’acétate de cellulose 33.
+              L’étape de lavage de dépollution 25 dépollue dans une cuve de
+20   dépollution l’acétate de cellulose 33 des substances nocives polluantes. Le
+     solvant utilisé dans la cuve de dépollution est l’eau. Dans un autre exemple de
+     réalisation, on utilise de l’acétone ou tout autre type de solvant pour éliminer les
+     substances nocives. Ce nettoyage utilise la technique du flux fermé permettant
+     de nettoyer considérablement l’acétate de cellulose 33, les quantités de
+25   substances nocives polluantes diminuent drastiquement et ce, parce que
+     certains résidus tels que la nicotine présents dans l’acétate de cellulose 33 se
+     dissolvent dans l’eau.
+              L’acétate de cellulose 33 reste au moins vingt minutes dans la cuve de
+     dépollution, de préférence trente minutes. Le produit de l’étape de lavage de
+30   dépollution 25 est de l’acétate de cellulose dépollué 37.
+              Dans un exemple de réalisation, la cuve de dépollution est utilisée
+     plusieurs fois. L’opération de dépollution dans la cuve de dépollution est
+     répétée trois fois. La répétition améliore la qualité et la propreté du produit final,
+                                                                                 3066128
+
+                                             7
+
+     étant donné que certains polluants tels que le goudron nécessitent un autre
+     type de solvant.
+             Dans un autre exemple de réalisation, il existe plusieurs cuves de
+     dépollution comme décrit ci-après, figure 3.
+ 5           Le produit issu de l’étape de lavage de dépollution 25 est de l’acétate
+     de cellulose dépollué 37.
+             Après l’étape de lavage de dépollution 25, le procédé comporte une
+     étape de recyclage de l’eau 26 de la cuve de dépollution.
+             L’étape de recyclage de l’eau 26 de la cuve de dépollution dans un
+10   recycleur d’eau sale possède un système fonctionnant sur des processus
+     chimiques et physiques de clarifloculation appliqués à l’eau pour la traiter et la
+     purifier. Le traitement par clarifloculation est basé sur une première phase dite
+     de coagulation correspondant à une déstabilisation des substances colloïdales
+     présentes (substance en suspension qui ne diffuse pas à travers une
+15   membrane semi-perméable) et une seconde phase dite de floculation avec
+     l’agglomération des particules sous forme de micro-flocons et de flocons
+     grossissant progressivement jusqu’à l’obtention d’une séparation claire appelée
+     décantation, non représentée. La réaction chimique a lieu à l’intérieur d’un
+     réservoir, non représenté. Dans un exemple, le réservoir est en plastique. Dans
+20   un exemple de réalisation, le dosage des produits chimiques ainsi que la
+     réalisation des processus de floculation et de décantation se déroulent dans le
+     réservoir, de manière totalement automatique. Le recycleur à eau 26 est
+     capable de traiter jusqu’à mille litres d’eau par cycle, chaque cycle dure environ
+     deux heures. Le coût énergétique de ce recyclage est faible car le recycleur à
+25   eau 26 n’utilise qu’un kilowatt par heure sachant que la durée d’un cycle est
+     d’environ deux heures, seuls deux kilowatt sont nécessaires. L’eau ainsi
+     recyclée est alors stockée dans un réservoir d’eau recyclée 36 avant d’être
+     envoyée de nouveau dans la cuve de lavage et la cuve de dépollution.
+             Après l’étape de lavage de dépollution 25, le procédé comporte une
+30   étape de séchage par pré-cuisson 27.
+             L’étape de séchage par pré-cuisson 27 est effectuée à partir de
+     l’acétate de cellulose dépollué 37 issu de l’étape 25. L’étape de séchage par
+     pré-cuisson 27 est réalisée dans un four de pré-cuisson pour obtenir de
+     l’acétate de cellulose séché 38. L’étape de séchage par pré-cuisson 27 est
+                                                                                  3066128
+
+                                               8
+
+     réalisée au moins à 100°C, de préférence 120°C. L’éape de séchage par pré­
+     cuisson est terminée lorsque la vapeur d’eau n’est plus présente au niveau de
+     l’évacuation de l’air.
+                 Après l’étape de séchage par pré-cuisson 27, le procédé comporte une
+ 5   étape de deuxième broyage 28.
+                 L’étape de deuxième broyage 28 à partir l’acétate de cellulose séchée
+     38 est réalisée pour obtenir des fines particules fibreuses d’acétate de cellulose
+     39. L’étape de deuxième broyage 28 se termine lorsque l’acétate de cellulose
+     séchée 38 est déchiquetée en fines particules. On entend par fines particules,
+10   des particules de diamètre inférieur à 1500 pm, mais de préférence proche de
+     1000 pm.
+
+
+                 La figure 2 montre un autre procédé de valorisation des mégots de
+     cigarettes.
+15               Les étapes 22, 23, 24, 25, 26, 27 et 28 correspondent à la description
+     ci-avant.
+                 L’étape de collecte et stockage 20 des mégots de cigarettes 40 se fait
+     par exemple dans les entreprises, auprès des collectivités. La collecte doit être
+     sélective, c'est-à-dire que les mégots de cigarette doivent être recueillis dans
+20   un contenant ne récupérant que ceux-ci afin d’en faciliter la récupération et le
+     traitement. Une fois collectés, les mégots de cigarette sont acheminés vers le
+     site de valorisation pour stockage.
+                 L’étape de tri 21 est réalisée manuellement et permet d’éliminer des
+     déchets non désirés destinés au recyclage 31 tels que les chewing-gums, les
+25   allumettes, l’aluminium des paquets de cigarettes ou tout autre objet autre que
+     les mégots de cigarette. En sortie de l’étape de tri 21, on obtient seulement des
+     mégots de cigarette.
+                 L’étape de thermo compression 29 des fines particules fibreuses
+     d’acétate de cellulose 39 dans une presse à thermo compression. La presse à
+30   thermo compression est utilisée dans le but de fondre les fines particules
+     fibreuses de cellulose 39 et d’en faire des plaques d’acétate de cellulose 30 de
+     l’épaisseur voulue en fonction des découpes et des objets à fabriquer. La
+     presse à thermo compression combine un poste de chauffe et un poste de
+     refroidissement. Dans un exemple, la presse à thermo compression a les
+                                                                                      3066128
+
+                                               9
+
+     caractéristiques suivantes: puissance 314 tonnes, surface de travail de
+     80x60cm, chauffage à 350°C. La réalisation de plaqies d’acétate de cellulose
+     30 d’épaisseur précise est possible de par ses butées mécaniques intégrées
+     aux deux vérins hydrauliques presseurs.
+ 5            La figure 3 montre une réalisation du recyclage de l’eau 26 intégré au
+     procédé de valorisation des mégots de cigarette.
+              L’étape 29 correspond à la description ci-avant.
+              L’étape de lavage de dépollution 25 dans trois cuves de dépollution,
+     dépollue l’acétate de cellulose 33 des substances nocives polluantes qui s’y
+10   sont incrustées lors de la combustion du tabac. Le solvant utilisé dans les
+     cuves de dépollution est de l’eau.
+              Le passage d’une cuve de dépollution à l’autre se fait à l’aide d’une
+     pompe. L’opération de dépollution dans les trois cuves de dépollution est
+     répétée trois fois. La répétition améliore la qualité et la propreté du produit final.
+15
+                                                                    3066128
+
+                                           10
+
+     NOMENCLATURE
+
+
+     20   Collecte et stockage
+     21   Tri
+ 5   22   Premier broyage
+     23   Tamisage
+     24   Lavage du filtre
+     25   Lavage de dépollution
+     26   Recyclage de l’eau
+10   27   Séchage par pré-cuisson
+     28   Deuxième broyage
+     29   Thermo compression
+     30   Plaques d’acétate de cellulose
+     31   Déchets divers
+15   32   Matière organique : cendres, feuille de papier et tabac
+     33   Acétate de cellulose
+     34   Papier
+     36   Réservoir d’eau recyclée
+     37   Acétate de cellulose dépollué
+20   38   Acétate de cellulose séché
+     39   Fines particules fibreuses d’acétate de cellulose
+     40   Mégots de cigarette
+     41   Filtre
+                                                                                  3066128
+
+                                               11
+
+                                     REVENDICATIONS
+
+
+     1.      Procédé de valorisation des mégots de cigarette (40), composé d’un filtre
+     (41) et de matière organique (32) composée de cendres, de feuilles de papier
+     et de tabac, ledit filtre (41) étant composé d’acétate de cellulose (33) et de
+     papier (34), caractérisé en ce que le procédé comporte les étapes suivantes
+ 5   de :
+              -   a) premier broyage (22) à partir de mégots de cigarette (40) dans
+                  un premier broyeur pour séparer le filtre (41) de la matière
+                  organique (32) ;
+              -   b) tamisage (23) du filtre (41) et de la matière organique (32), issus
+10                de l’étape de premier broyage (22) pour récupérer l’acétate de
+                  cellulose (33) contenu dans le filtre ;
+              -   c) lavage (24) du filtre (41) pour une séparation de l’acétate de
+                  cellulose (33) et du papier (34) issue du tamisage (23) avec de
+                  l’eau, dans une cuve de lavage ;
+15            -   d) lavage de dépollution (25) de l’acétate de cellulose (33) avec de
+                  l’eau dans une cuve de dépollution pour obtenir de l’acétate de
+                  cellulose dépollué (37) ;
+              -   e) recyclage de l’eau (26) des étapes c) et d) par un recycleur à
+                  eau ;
+20            -   f) séchage par pré-cuisson (27) à partir de l’acétate de cellulose
+                  dépollué (37) pour obtenir de l’acétate de cellulose séché (38) ;
+              -   g) deuxième broyage (28) à partir de l’acétate de cellulose séchée
+                  (38) pour obtenir de fines particules fibreuses d’acétate de cellulose
+                  (39) .
+25
+     2.      Procédé selon la revendication 1, dans lequel l’étape d) comporte deux
+     autres cuves de dépollution pour dépolluer l’acétate de cellulose (33), l’acétate
+     de cellulose (33) passe d’une cuve de dépollution à l’autre.
+
+
+30   3.      Procédé selon la revendication 1, dans lequel l’étape d) est répétée trois
+     fois.
+                                                                                  3066128
+
+                                              12
+
+     4.      Procédé selon la revendication 1, dans lequel le lavage (24) du filtre (41)
+     de l’étape c) et le lavage de dépollution (25) de l’étape d) se fait avec un
+     solvant, préférentiellement de l’eau.
+
+
+ 5   5.      Procédé selon la revendication 1, dans lequel le recyclage de l’eau (26)
+     de l’étape e) est effectué en circuit fermé.
+
+
+     6.      Procédé selon la revendication 1, dans lequel le recycleur à eau, de
+     l’étape e) comporte une étape de coagulation et une étape de floculation.
+10
+     7.      Procédé selon la revendication 1, dans lequel le procédé comporte une
+     étape h) de thermo compression (29) dans une presse à thermo compression.
+
+
+     8.      Procédé selon la revendication 1 pour la fabrication de plaques d’acétate
+15   de cellulose (30) à base de fines particules fibreuses d’acétate de cellulose
+     (33).
+                       3066128
+
+
+
+          1/2
+
+
+
+
+32   34
+          Fig.l
+
+
+
+                  34
+
+
+
+
+          Fig.2
+                                       3066128
+
+
+
+               2/2
+
+40
+                                 29
+     =!>   Γ ; ?-
+
+
+
+        25                            30
+       Μψ Μ
+
+               |
+           .
+      * 26                  36
+       LJ
+
+
+
+                   Fig. 3
+                                  RÉPUBLIQUE FRANÇAISE                                                                                                                              3066128
+
+
+                                  irai
+                                  — I INSTITUT NATIONAL
+                                                DE LA PROPRIÉTÉ
+                                                                                    RAPPORT DE RECHERCHE
+                                                                                         PRÉLIMINAIRE
+                                                                                                                                                                N° d'enregistrement
+                                                                                                                                                                    national
+
+
+                                                INDUSTRIELLE                                                                                                   FA 837803
+                                                                               établi sur la base des dernières revendications
+                                                                               déposées avant le commencement de la recherche                                  FR 1754267
+
+                                   DOCUMENTS CONSIDÉRÉS COMME PERTINENTS                                                             Revend ication(s)
+                                                                                                                                     concernée(s)
+                                                                                                                                                          Classement attribué
+                                                                                                                                                          à l'invention par ΙΊΝΡΙ
+                                                    Citation du document avec indication, en cas de besoin,
+                                  Catégorie
+                                                              des parties pertinentes
+
+
+                                  A           US 5 504 119 A (HOPKINS JOHN B JR [US] ET                                               1-8                B09B3/00
+                                              AL) 2 avril 1996 (1996-04-02)                                                                              C02F1/52
+                                              * revendications 1,2,4 *
+
+                                  A           EP 2 520 184 Al (MATTERI FABIO TT S R L                                                 1-8
+                                              [IT]) 7 novembre 2012 (2012-11-07)
+                                              * alinéa [0020]; revendications 1,4,5 *
+
+
+
+
+                                                                                                                                                          DOMAINES TECHNIQUES
+                                                                                                                                                          RECHERCHÉS (IPC)
+
+                                                                                                                                                         B09B
+                                                                                                                                                         A24D
+                                                                                                                                                         C08J
+                                                                                                                                                         D21C
+                                                                                                                                                         A24B
+                                                                                                                                                         A24C
+
+
+
+
+                                                                                              Date d'achèvement de la recherche                          Examinateur
+
+
+
+
+EPO FOR M 1503 12.99 (P0 4C1 4)
+                                                                                                   31 janvier 2018                              Devilers, Erick
+                                           CATÉGORIE DES DOCUMENTS CITÉS                                       T : théorie ou principe à la base de l'invention
+                                                                                                               E : document de brevet bénéficiant d'une date antérieure
+                                      X : particulièrement pertinent à lui seul                                    à la date de dépôt et qui n'a été publié qu'à cette date
+                                      Y : particulièrement pertinent en combinaison avec un                        de dépôt ou qu'à une date postérieure.
+                                         autre document de la même catégorie                                   D : cité dans la demande
+                                      A : arrière-plan technologique                                           L : cité pour d'autres raisons
+                                      O : divulaation non-écrite
+                                      P : document intercalaire                                                & : membre de la même famille, document correspondant
+                                                                                                                                                    3066128
+
+
+                       ANNEXE AU RAPPORT DE RECHERCHE PRÉLIMINAIRE
+                       RELATIF A LA DEMANDE DE BREVET FRANÇAIS NO. FR 1754267                                                     FA 837803
+
+
+                 La présente annexe indique les membres de la famille de brevets relatifs aux documents brevets cités dans le rapport de
+                 recherche préliminaire visé ci-dessus.
+                 Les dits membres sont contenus au fichier informatique de l'Office européen des brevets à la date du31-01-2018
+                 Les renseignements fournis sont donnés à titre indicatif et n'engagent pas la responsabilité de l'Office européen des brevets,
+                 ni de l'Administration française
+
+
+
+                          Document brevet cité                     Date de                       Membre(s) de la                       Date de
+                         au rapport de recherche                  publication                  famille de brevet(s)                   publication
+
+                          US 5504119                A          02-04-1996            AUCUN
+
+                          EP 2520184                Al         07-11-2012            AUCUN
+
+
+
+
+EPO FORM P0465
+
+
+
+
+                 Pour tout renseignement oonoernant oette annexe : voir Journal Officiel de l'Office européen des brevets, No.12/82
+

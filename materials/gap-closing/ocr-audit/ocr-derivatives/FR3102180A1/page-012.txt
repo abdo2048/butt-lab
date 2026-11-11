@@ -1,0 +1,78 @@
+[0128]
+[0129]
+
+[0130]
+
+[0131]
+
+[0132]
+
+[0133]
+
+[0134]
+
+[0135]
+
+[0136]
+
+[0137]
+
+[0138]
+
+[0139]
+
+11
+
+La figure 1 représente donc le diagramme de phase du dioxyde de carbone.
+
+On sait qu’un tel diagramme de phase expose les différents états de la matière selon
+les différents paramètres associés à la pression et la température du fluide.
+
+Aux conditions normales de température et de pression, le dioxyde de carbone peut
+se présenter sous les états gazeux, liquide ou solide. Cependant, celui-ci possède un
+point critique P. correspondant à une pression et une température critiques, notées P. et
+T.. Lorsque le dioxyde de carbone est soumis à une pression et une température su-
+périeures à celles de son point critique P., celui-ci se retrouve dans un état super-
+critique.
+
+Au-delà de la pression critique P., toute augmentation de température imposée au
+liquide conduit à la formation d’un liquide moins dense et différent de l’état gazeux.
+
+Au-delà des température critique T,, toute augmentation de pression appliquée au gaz
+conduit à la formation d’un fluide supercritique (plus condensé) sans passer par l’état
+liquide.
+
+A l’état supercritique, le dioxyde de carbone présente alors un comportement inter-
+médiaire entre l’état liquide et l’état gazeux, avec des propriétés particulières :
+
+- la masse volumique est plus élevée et donc similaire à celle des liquides ;
+
+- le coefficient de diffusivité se situe entre celui des liquides et des gaz ;
+
+- la viscosité est faible, ce qui est similaire à celle des gaz.
+
+Ces différents états, formations et paramètres sont intéressants et permettent
+d'obtenir un solvant modulable afin de toucher une large gamme de substances à
+extraire.
+
+On parle ainsi de fluide supercritique lorsqu'un fluide est chauffé au-delà de sa tem-
+pérature critique T.et lorsqu'il est comprimé au-dessus de sa pression critique P..
+
+Le réglage de ces paramètres de température et de pression permet d’obtenir un fluide
+supercritique présentant un pouvoir solvant comparable à celui des solvants liquides,
+avec des propriétés de transports intéressantes qui les rapprochent des gaz.
+
+On notera ici que le Demandeur a de plus observé qu’en combinant un fluide super-
+critique comme le dioxyde de carbone avec des fibres telles que l’acétate de cellulose,
+les propriétés de la fibre d’acétate de cellulose étaient améliorées : cette mise en
+contact entraine en effet une modification des propriétés intrinsèques du polymère. Elle
+permet de baisser sa viscosité (transition vitreuse).
+
+La faible viscosité et les coefficients de diffusion élevés du dioxyde de carbone à
+l’état supercritique permettent un nettoyage efficace dû à la pénétration importante du
+solvant au cœur de la fibre. Combiner les propriétés de transport et l’extraction per-
+formante du dioxyde de carbone permet un nettoyage total.
+
+Selon le concept de l’invention, le dioxyde de carbone vient remplacer l’utilisation
+
+de solvants organiques efficaces (mais très polluants) comme l’hexane, le dichlo-

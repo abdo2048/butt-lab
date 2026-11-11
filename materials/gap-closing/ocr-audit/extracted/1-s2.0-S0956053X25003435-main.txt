@@ -1,0 +1,1418 @@
+=== PDF FILE: 1-s2.0-S0956053X25003435-main.pdf ===
+sha256: bbe7918a4e7b403e6291d6b0d469ddcce1eb18d902b4328c4fac7f95691d709d
+pages: 21
+printed_page_labels: PDF p.1=printed 1, PDF p.2=printed 2, PDF p.3=printed 3, PDF p.4=printed 4, PDF p.5=printed 5, PDF p.6=printed 6, PDF p.7=printed 7, PDF p.8=printed 8, PDF p.9=printed 9, PDF p.10=printed 10, PDF p.11=printed 11, PDF p.12=printed 12, PDF p.13=printed 13, PDF p.14=printed 14, PDF p.15=printed 15, PDF p.16=printed 16, PDF p.17=printed 17, PDF p.18=printed 18, PDF p.19=printed 19, PDF p.20=printed 20, PDF p.21=printed 21
+
+=== PDF PAGE 1 ===
+Research Paper
+Microplastics and heavy metals emissions from healthcare waste 
+management: A comparative life cycle assessment
+Xiaojun Zheng a, Shan Zhong b, Ohidul Alam a,*, Syed Jawad Hossen c, Daolin Du d
+a School of the Environment and Safety Engineering, Key Laboratory of Zhenjiang, Jiangsu University, Zhenjiang 212013, China
+b School of Energy and Power Engineering, Jiangsu University, Zhenjiang 212013, China
+c Institute of Forestry and Environmental Sciences, University of Chittagong, Chattogram 4331, Bangladesh
+d Jingjiang College, Institute of Environment and Ecology, School of the Environment and Safety Engineering, Key Laboratory of Zhenjiang, School of Emergency 
+Management, School of Agricultural Engineering, Jiangsu University, Zhenjiang 212013, China
+ARTICLE INFO
+Keyword:
+Environmental impacts
+Healthcare facilities
+Healthcare waste
+Heavy metals
+Life cycle analysis
+Microplastics
+ABSTRACT
+Healthcare Waste Management (HCWM) contributes to environmental pollution and health hazards. There are 
+several established approaches to measure environmental and health impacts from HCWM. Amidst, Life Cycle 
+Assessment (LCA) is one of the most popular tools to evaluate such impacts. This research was conducted to 
+compare environmental impacts, and Microplastics (MPs) and Heavy Metals (HMs) emissions through LCA from 
+HCWM between public and private Healthcare Facilities (HCFs) in Chattogram, Bangladesh. Five case studies were 
+conducted based on the size of HCFs including one ideal scenario (developed with minimum impacts). The LCA 
+was evaluated by SimaPro version 9.5.0.0 software and the ReCiPe 2016 method. Results revealed that private 
+HCFs highly contributed to the eighteen studied impact categories. The main impact categories were human 
+toxicity, global warming, ecotoxicity, eutrophication, acidification and resource scarcity. The existing common 
+Healthcare Waste (HCW) disposal options were waste transport, open burning, recycling and dumping. The ranges 
+of major impacts from HCWM were global warming (0.588–1.122 kg CO2 eq), followed by human non- 
+carcinogenic toxicity (0.002–0.003 kg CO2 eq.) and ecotoxicity (0.000–0.001 kg CO2 eq.). It demonstrated 
+that dumping of HCW, landfill leachate, open burning/ incineration ash and recycling processes along with 
+wastewater of recycling plants are the potential sources of HMs (up to 14480 mg/kg waste) and MPs (1906–7223 
+items/kg waste) pollution. This study demonstrates the potential levels of environmental impacts along with 
+HMs and MPs emissions from the HCWM system, which will facilitate the relevant authorities and policy makers 
+to adopt the required strategies.
+1. Introduction
+Healthcare Waste (HCW) is a broad topic that covers all sorts of solid 
+wastes generated from Healthcare Facilities (HCFs) such as hospitals, 
+clinics, diagnostic centers, labs, veterinary clinics, research centers and 
+nursing homes (Fan et al., 2022; Hossain and Alam, 2012, Janik- 
+Karpinska et al., 2023). HCW is also known as medical, hospital, clin-
+ical and biomedical waste. It contains infectious agents such as dis-
+carded cultures, stocks, specimens, tissue, blood, body fluids, sharps, 
+Hepatitis B virus, Hepatitis C virus and HIV. This type of wastes is 
+ranging from 10 % to 15 % of the total waste; therefore, HCWs are called 
+dangerous/hazardous/biohazardous waste (Alam et al., 2015; Barua 
+et al., 2015; Hossain and Alam, 2013). The percentage of infectious 
+waste varied in HCW based on sources and regions. Mid December 2019, 
+COVID-19 pandemic broke out in Wuhan, China and rapidly spread out 
+throughout the world in 2020. This virus can transmit from person to 
+person through direct physical contact, air and other potential ways 
+(Belhadi et al., 2020; Kumar et al., 2021; Nabavi-Pelesaraei et al., 2022). 
+Coronavirus is contagious and very dangerous, so people started to wear 
+several Personal Protective Equipment (PPE) such as aprons, facemasks, 
+goggles and hand gloves. Most of these PPEs, especially single use 
+facemasks are globally used in large quantities and then discarded (Ajaj 
+et al., 2023; Kokalj et al., 2022; Snigdha et al., 2023; Zhao et al., 2022). 
+Such emerging wastes are responsible for booming the volume of total 
+HCW. Therefore, it is a very challenging task to safely handle and 
+dispose of such continuously growing waste piles (Friedericy et al., 
+* Corresponding author.
+E-mail address: ohid776@gmail.com (O. Alam). 
+Contents lists available at ScienceDirect
+Waste Management
+journal homepage: www.elsevier.com/locate/wasman
+https://doi.org/10.1016/j.wasman.2025.114932
+Received 27 September 2024; Received in revised form 26 May 2025; Accepted 29 May 2025  
+Waste Management 204 (2025) 114932 
+Available online 4 June 2025 
+0956-053X/© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 
+
+=== PDF PAGE 2 ===
+2022; Kumar et al., 2021; Türkmen, 2022). Mishandling of HCW is 
+responsible for spreading infectious agents (HIV/AIDS, COVID-19, 
+Hepatitis B and C viruses) and unwanted accidents from sharp mate-
+rials (Alam et al., 2014; Ghodrat et al., 2017; Hossain et al., 2013). 
+Therefore, the HCW generation rate and its composition is very impor-
+tant for safe disposal.
+Generally, HCW generation rate varies based on sources and regions. 
+Previous studies demonstrated HCW generation rate 0.36–0.67 kg/cap/ 
+day and 1.3–3.0 kg/bed/day in developed countries while 2.17–2.63 
+kg/cap/day and 1.50–3.10 kg/bed/day in developing countries (Alam 
+et al., 2013; Deepak et al., 2022; Hossain and Alam, 2012; Zhou et al., 
+2024). A major fraction of HCW is food waste in developing countries; 
+however, it contains a significant amount of plastics & rubber, metals, 
+glass, and small metallic tools. HCW consists of 6 %–20 % Solid Plastic 
+Waste (SPW). Similarly, a large part of PPE is made of polymers. 
+Therefore, the percentage of SPW greatly increased in HCW since 
+COVID-19 out-break (Klemes et al., 2020; Kokalj et al., 2022; Liu et al., 
+2022; Rehman et al., 2025; Stapleton et al., 2023). These SPWs gradu-
+ally degrade during recycling, treatment and disposal of HCW. Thus, 
+macroplastics (<10 mm), Microplastics (MPs) (<5 mm) and nanoplastics 
+(<1 μm) are generated from SPW throughout its life cycle (Alam et al., 
+2018; Ajaj et al., 2023; Shen et al., 2021; Zhao and You, 2022, 2023). 
+With the passage of time, these MPs are distributed to urban environ-
+ments and adjacent water bodies which subsequently reach to seas and 
+oceans (Alam et al., 2019; Brown et al., 2023; Gallo et al., 2018; Liu 
+et al., 2020; Silva et al., 2021). MPs are ingested by marine fish and then 
+enter food chains. Finally, MPs are digested by human beings through 
+food chains (Suzuki et al., 2022; Woods et al., 2021; Yang et al., 2021; 
+Zhao and You, 2022; Zhong et al., 2024b).
+Similarly, non-organic HCW wastes contain Heavy Metals (HMs) 
+which are blended during their manufacture (Alam et al., 2018; Alam 
+and Qiao, 2020; Alam et al., 2024b; Zahoor et al., 2023). The great 
+challenge of HCW incineration is the emission of toxic HMs (e.g., Cr, Cd, 
+Pb and Hg), dioxins, furans, and Persistent Organic Pollutants (POP). 
+Incineration cannot destroy metallic components of HCW, so HMs are 
+concentrated in the bottom ash (Adama et al., 2016; Alam et al., 2024a; 
+Zhao et al., 2009; Zheng et al., 2024b). Besides, illegal dumping and 
+landfilling release HMs to soil that subsequently reach adjacent water 
+bodies and groundwater. Therefore, HCW disposal is a major environ-
+mental and health concern (Alam et al., 2014; Voudrias, 2023; Zheng 
+et al., 2024a). Recently, management of landfill leachate and incinera-
+tion ash has been under continuous scrutiny and control due to such 
+concern (Adama et al., 2016; Liu and Terumasa, 2022; Zhong et al., 
+2024a).
+Though COVID-19 wastes and general HCW are separately and safely 
+handled and disposed in developed countries; however, it is often mixed 
+up with Municipal Solid Waste (MSW) in developing countries (Ahmad 
+et al., 2021; Alam and Qiao, 2020; Dey and Ray, 2023; Zhao et al., 
+2021). Therefore, it is a timely demand to develop a cost-effective and 
+eco-friendly strategy for HCW disposal in developing countries focusing 
+local scenarios. The application of Life Cycle Assessment (LCA) tool can 
+support in this case for developing waste management strategy. LCA 
+based studies were commenced in 1969 and developed in the 1980s. 
+Recently, LCA is considered as the most popular tool to evaluate the 
+environmental footprints and cost analysis of MSW management and 
+disposal (Cavalloro et al., 2024; Dey and Ray, 2020, 2021; Maria et al., 
+2021; Mu˜noz et al., 2018; Piekarska et al., 2023; Sonibare et al., 2019; 
+Song et al., 2017). However, it was first applied in HCW in 2006 by Qing 
+et al. (2006). The application of LCA in HCW is still limited in developed 
+countries like the U.S., the U.K., China, Brazil and E.U. countries 
+(Nabavi-Pelesaraei et al., 2022; Soares et al., 2013; Thiel et al., 2015; 
+Zhao et al., 2009) and very rare in developing countries (Alam and 
+Mosharraf, 2019; Ali et al., 2016; Kumar et al., 2021).
+Till now, several LCA studies were conducted to measure environ-
+mental impacts of Healthcare Waste Management (HCWM), and recently 
+added facemasks disposal (Ajaj et al., 2023; Deepak et al., 2022; 
+Türkmen, 2022; Zhao et al., 2021). Several LCA studies were performed 
+comparing incineration and non-incineration treatment of HCW (Ahmad 
+et al., 2019; Diaz et al., 2005; Ghodrat et al., 2017; Qing et al., 2006; 
+Zhao et al., 2009), pyrolysis treatment (Li et al., 2022; Yousef et al., 
+2022), disposable medical facemasks (Kokalj et al., 2022; Türkmen, 
+2022; Yin et al., 2023), life cycle costing and economic assessment (Atia 
+et al., 2020; Hong et al., 2018), chemical disinfection (Soares et al., 
+2013), recycling (Liu et al., 2022; Shan et al., 2023; Yin et al., 2023), 
+reusable plastics/sharps, disposable materials and surgical instruments 
+(Baruffaldi et al., 2019; Campion et al., 2015; Friedericy et al., 2022; 
+Leiden et al., 2020; McPherson et al., 2019; Snigdha et al., 2023), lab-
+oratory/ pathological test (Gordon et al., 2021; Ji et al., 2022; McAlister 
+et al., 2021,2022), wastewater treatment (Lutterbeck et al., 2020; Wang 
+et al., 2020) and resources consumptions in HCFs (Twomey, 2011). 
+What are the environmental emissions from HCWM based on the size of 
+HCFs and operational functions along with focusing on HMs and MPs 
+emissions during HCW disposal and treatment is still unexplored?
+According to literature, there is no published research report 
+focusing on LCA of cumulative disinfection, recycling, illegal disposal 
+(open burning and dumping), treatment and sanitary landfilling of HCW 
+(Alam and Mosharraf, 2019; Alam and Qiao, 2020; Chen et al., 2014). 
+LCA study in HCWM is a challenging task due to the absence of a uni-
+form management system and database based on local scenarios, espe-
+cially in developing countries. Therefore, it is a timely demand to 
+conduct a study on HCWM to explore the differences between public and 
+private HCFs in terms of environmental footprints from HCW disposal 
+system. This LCA study was conducted to explore the HCWM system 
+with minimum environmental impacts including potential MPs and HMs 
+emissions.
+The findings of this research will facilitate in identifying HCF (spe-
+cifically based on public and private along with size) with the least 
+environmental footprints from waste disposal options. Besides, the HMs 
+and MPs emissions scenarios from different HCFs will support the 
+management authorities and relevant policy makers to adopt the 
+required strategies so that environmental emissions can be minimized.
+2. Methodology
+2.1. Background information
+2.1.1. Primary data collection
+The entire Chattogram City Corporation (CCC), Bangladesh was 
+considered as a study area. It is situated within 22◦–14′ and 22◦–24′–30″ 
+N Latitude and between 91◦–46′ and 91◦–53′ E Longitude. The city is 
+located on the North bank of the river Karnafully. Two categories of 
+respondents were selected with a view to collecting data such as HCW 
+generator i.e. HCFs and HCW management authorities i.e. CCC (public) 
+and Innovation Sheva Sangstha (ISS) (private). HCW generator re-
+spondents were selected based on their importance and size, and the 
+quantity of HCW they generate. The existing HCFs of CCC were classified 
+into four categories based on their size and operating functions 
+including (i) large scale hospital, (ii) medium scale clinic, (iii) small 
+scale clinic/ diagnostic center, and (iv) rural clinic/ diagnostic center. 
+The data were collected from selected HCFs namely Chattogram Medical 
+College and Hospital (CMCH), University of Science and Technology, 
+Chattogram (USTC), Memon Maternity Hospital (MMH), National Hospital 
+(NH), City Corporation Charitable Clinic (CCCC), Metro Diagnostic Center 
+(MDC), Patiya Upazila Health Complex (PUHC), and Chowdhury Hat 
+Nursing Home (CHNH) because they can represent all the available HCFs 
+in Chattogram. There are many differences between public and private 
+HCFs in terms of operating functions and providing treatment services. 
+Public HCFs have more functions and provide services to more patients 
+than private one.
+Two sets of semi-structured questionnaires were designed – one for 
+the HCW generator and the other for the HCW management authorities 
+were designed based on gathered experiences from empirical field visit 
+X. Zheng et al.                                                                                                                                                                                                                                   Waste Management 204 (2025) 114932 
+2 
+
+=== PDF PAGE 3 ===
+and literature review. Questionnaire survey was conducted by fixing a 
+prior appointment schedule with selected HCFs. Then survey was con-
+ducted physically and through face-to-face interview. During field data 
+collection, the questionnaires were reformed based on respondents’ 
+feedback (when it was required). In total, 8 HCFs were surveyed from 
+which wastes are either collected by CCC or ISS for collecting data for 
+this investigation. Besides, the personnel of CCC and ISS were inter-
+viewed to assess their opinions. Several times field visits were conducted 
+with a view to perform questionnaire surveys and waste measurement 
+over the study period. During the field visit, both HCF authorities and 
+HCW management authority were interviewed. In addition, a qualita-
+tive survey was conducted among the doctors, nurses and workers to 
+make an informative presentation of the quantitative survey findings.
+The numeric data of HCW generation was calculated by measuring 
+weight of the daily generated total HCW and individual composition of 
+waste in dry season. At first, the total weight of the HCW from each HCF 
+was measured by an electric balance and then recorded. The whole HCW 
+was separated according to their physical compositions including plas-
+tics, rubbers & packaging, papers & packaging, clothes & textiles, steel/ 
+metals, glass & ceramics, drugs/ medicines, chemicals/ radioactive, 
+body fluids/ blood, body parts, cardboard/ woods/ leaves, and food 
+waste. Then each separated composition of the HCW was measured and 
+recorded. This process was followed in three consecutive days. Finally, 
+the percentage of each composition was calculated as dividing whole 
+HCW weight by individual composition weight and then multiplying by 
+100 (see details in Table 1). Besides, from each selected HCF, the daily 
+generated plastic wastes were separated and measured by weight using 
+electric balance and recorded. In addition, the activities of CCC and ISS 
+related to HCW handling and management were deeply observed at the 
+time of field visit. The findings are discussed in Section 2.1.1
+(Supporting Information), and Table SI-1, SI-2, SI-3 and SI-4 (Supporting 
+Information).
+2.1.2. Healthcare waste management system
+HCW solely contributes 2 %–3% to the daily generated MSWs vol-
+ume in Chattogram City, Bangladesh. However, there is no similarity in 
+HCW generation, handling, management and disposal of different cat-
+egories of HCFs (public and private). Furthermore, there is absence of 
+proper record keeping of resources consumption and daily HCW gen-
+eration. The details about the existing HCWM system are shown in 
+Fig. SI-1 (Supporting information). Bangladesh government has formu-
+lated several rules for medical waste, hazardous materials, e-waste, solid 
+waste and environment conservation such as (i) Medical Waste (Man-
+agement and Processing) Rules, 2008, (ii) Solid Waste Management 
+Rules 2021, and (iii) Environment Conservation Rules 2023 under the 
+Bangladesh Environmental Protection Act, 1995. Following these reg-
+ulations, public HCFs are practicing color coding bins but not properly 
+followed in private HCFs. Therefore, most of the HCFs mix up the daily 
+generated HCW that convert non-infectious waste into infectious. From 
+sources, about 30 % HCW is collected by private organizations, while 35 
+% by Community Based Organizations (CBOs) and 25 % by HCFs 
+directly discharge to municipal dustbins. Besides, about 10 %–15 % 
+HCW are illegally disposed of on roads, drains and fallow lands (Alam 
+et al., 2014, 2015; Hossain and Alam, 2012; Hossain et al., 2013). 
+Reusable metallic instruments are reused through steam/microwave 
+sterilization and chemical disinfection. HCW are manually handled and 
+segregated at both sources and dumpsite without wearing any protective 
+gears. In addition, hardly sharp and infectious HCW are disposed of by 
+bucket type incinerators without energy recovery. From the HCFs about 
+40 %–55 % recyclable HCW such as plastics, papers, metals and glass 
+directly go to scrap shops. Similarly, about 20 %–25 % HCW are 
+disposed of through open burning while 10 %–20 % are buried (Alam 
+and Hossain, 2013; Alam and Hossain, 2015; Hossain and Alam, 2012). 
+The rest HCWs are transported to the dumpsite and disposed of through 
+open burning and crude dumping. Again, the remaining recyclable HCW 
+are picked up by scavengers from the dumpsite and sold to recycling 
+shops. However, the HCWM services of both municipal and private or-
+ganizations are not at satisfactory level due to the absence of energy 
+recovery, leachate collection and gaseous emissions control system at 
+disposal site. Therefore, the existing HCWM is polluting surrounding air, 
+water and soil environments. However, the demand for private initiative 
+services and adopting modern HCW treatment technologies are 
+increasing because the municipality is not capable to handle HCW 
+separately and control continuously increasing environmental pollution.
+2.2. Life cycle assessment
+The environmental and health impacts from HCW management and 
+their treatment and disposal were evaluated using LCA according to the 
+guidelines of “ISO 14040: Principles and Framework” and “ISO 14044: 
+Requirements and Guidelines” (Ji et al., 2022; Leiden et al., 2020; Yin 
+et al., 2023). This study adopted four steps: (i) goal and scope definition; 
+(ii) development of system boundary, (iii) inventory data collection, (iv) 
+impact assessment, (v) interpretation.
+2.2.1. Goal and scope definition
+This study aimed to compare the HCWM system between public and 
+private HCFs based on the above mentioned four categories along with 
+the proposed ideal one (with minimum environmental impacts), in 
+terms of environmental footprints, emphasizing MPs and HMs pollution. 
+This research covered all types of solid HCW transport, disinfection, 
+recycling, open burning, incineration, crude dumping, burial, com-
+posting and sanitary landfill. However, the management of wastewater 
+from HCFs and life cycle cost are excluded because these data are not 
+available in their records.
+HCW is usually a non-homogenous mixture of solid wastes. The 
+Table 1 
+Generated healthcare wastes categorization from the studied healthcare facilities.
+HCW type CMCH (%) USTC (%) MMH (%) NH (%) CCCC (%) MDC (%) PUHC (%) CHNH (%)
+Plastics, rubbers & packaging 7.89 14.32 13.35 12.07 18.36 18.24 12.43 13.29
+Papers & packaging 13.56 14.65 14.78 14.53 18.40 17.61 14.24 14.76
+Cloths & textiles 9.68 9.77 9.30 9.04 13.32 13.27 9.88 10.16
+Steel/ metals 6.05 6.36 5.70 6.20 9.42 8.98 6.89 6.50
+Glass & ceramics 3.01 3.02 2.43 2.68 3.68 4.14 1.95 2.68
+Drugs/ medicines 1.18 1.09 0.83 0.90 1.72 1.98 0.90 1.13
+Chemicals/ radioactive 0.28 0.27 0.12 0.12 0.12 0.12 0.12 0.16
+Body fluids/ blood 1.28 0.71 0.65 0.65 0.44 0.65 0.62 0.66
+Body parts 1.42 1.01 0.44 0.80 0.80 0.00 0.80 0.45
+Cardboard/ woods/ leaves 6.22 5.87 4.70 4.70 4.92 3.99 4.70 4.58
+Food waste 49.44 42.93 47.7 48.31 28.82 31.01 47.47 45.68
+Total waste (kg/day) 3285 580 280 390 25 165 130 38
+Note: CMCH = Chittagong Medical College Hospital, USTC = University of Science and Technology, Chattogram, MMH = Memom Maternity Hospital, NH = National 
+Hospital, CCCC = City Corporation Charitable Clinic, MDC = Metro Diagnostic Center, PUHC = Patiya Upazila Health Complex, and CHNH = Chowdhury Hat Nursing 
+Home.
+X. Zheng et al.                                                                                                                                                                                                                                   Waste Management 204 (2025) 114932 
+3 
+
+=== PDF PAGE 4 ===
+characteristics of HCW in the studied area was examined by our previous 
+studies (Alam and Hossain, 2013; Alam and Qiao, 2020; Hossain and 
+Alam, 2012; Hossain and Alam, 2013). However, a specific type of solid 
+HCW with an average composition of the entire wastes generated daily 
+in the selected HCFs is shown in Table 1, excluding wastewater and 
+gaseous emissions. The assessment of these inputs will provide a com-
+parison for establishing a sustainable HCWM system in HCFs. However, 
+the functional unit of this study is disposal of one (1) kg HCW.
+2.2.2. Development of system boundary
+This study used a descriptive LCA framework to represent the HCWM 
+system of Chattogram City including four case studies focusing the 
+available management system based on their categories and one pro-
+posed system (see Fig. 1). These case studies represent the different 
+disposal and treatment options of the entire HCWM generated from the 
+selected HCFs. They also covered the HCW generation stage to final 
+disposal point. Here, HCW is mostly segregated manually without 
+wearing any protective gears that is a potential source of health hazards 
+of the waste handlers. Besides, open burning and dumping with MSW 
+are two commonly practiced HCW disposal options. The readily recy-
+clable wastes (plastics, metals and glass) are informally recycled without 
+pretreatment that is silently killing the health of the associated workers. 
+In addition, the percentage of different categories of HCW disposal 
+through open burning, dumping, composting, recycling, treatment and 
+landfilling are included in these case studies and the developed ideal 
+scenario. Fig. 1 (CMCH) shows the percentage of total HCW disposed of 
+by different disposal options. Notably, the same amount of disinfected 
+HCW is reused or recycled (ideal scenario), so it showed repeated per-
+centage. Then the actual quantity of each physical composition disposed 
+of by each disposal option is displayed. Similarly, the other HCFs sce-
+narios are presented.
+Here, the ideal HCWM system was proposed considering waste 
+disposal options with minimum environmental impacts. The ideal sys-
+tem demonstrated comparatively lower environmental emissions than 
+the existing HCWM systems. From Table 1, the numerical data of each 
+physical composition was further calculated based on disposal options. 
+Fig. 1. Four case studies and one idea scenario adopted for life cycle assessment analysis in this study.
+X. Zheng et al.                                                                                                                                                                                                                                   Waste Management 204 (2025) 114932 
+4 
+
+=== PDF PAGE 5 ===
+Here, several compositions were disposed of by more than one disposal 
+option like plastic waste. Thus, the calculated percentage or numeric 
+value of each physical composition by different disposal options was 
+used in Fig. 1.
+System boundary of any study depends on the goal and objectives of 
+the study. The system boundary of this study is cradle to grave process. 
+This study is confined within the activities of HCW management, 
+treatment and disposal in HCFs. The impact of wastewater and its 
+treatment is not considered here due to the unavailability of related 
+data. The input in HCWM included solid waste, water, electricity, diesel 
+and chemicals. The key output from the HCWM is the emissions to air, 
+soil, wastewater/ leachate and solid waste (see Fig. 2). Open firing of 
+HCW is arranged both in HCFs on-campus and dumping station for 
+reducing wastes volume, that is liable for GHGs, PMs, VOCs, CO, NOx, 
+SO2 and dioxin/furans emissions to the atmosphere. The illegal dumping 
+and landfilling of HCW contributes to soil (HMs) and water (toxic 
+metals, N, P, COD) pollution. Similarly, the openly burned or incinerated 
+HCWs generate HMs containing incineration ash. The external energy 
+(electricity) and water are used in recycling of recyclable waste and 
+steam sterilization for metallic reusable instruments, while bleaching 
+powder in chemical disinfection. In addition, the diesel is used in 
+incineration of HCWs. The incinerated ash is only dumped and there is 
+no energy recovery system during incineration. In addition, there is no 
+leachate and landfill gas collection system in the dumpsite and landfill.
+2.2.3. Life cycle inventory
+The steps followed for Life Cycle Inventory (LCI) in this study are 
+guided by ISO standard 14040/44. The LCI data used in this study were 
+collected from a combination of sources to ensure comprehensive and 
+accurate representation of the HCWM system. The LCI is derived from 
+the literature, government reports, expert opinions, physical interviews 
+with responsible personnel of HCFs and the ecoinvent database. A 
+detailed LCI data table is provided below to ensure transparency and 
+reproducibility (see Table 2). Inventories generated through this work 
+are expected to support similar future studies in other developing 
+countries like India, Pakistan and Africa. The LCI of this study includes 
+all the programs of HCWM that consume energy, water and materials 
+from waste generation to final disposal stage. All the required data used 
+in this study was collected from the HCFs and HCWM organizations. The 
+used data covers the HCW collection, transportation, segregation, 
+Fig. 1. (continued).
+X. Zheng et al.                                                                                                                                                                                                                                   Waste Management 204 (2025) 114932 
+5 
+
+=== PDF PAGE 6 ===
+disinfection, illegal disposal, recycling, open burning and final disposal. 
+However, the upstream processes are excluded in this study because the 
+study focused on the HCWM system from the point of waste generation 
+to final disposal. Upstream processes, such as the manufacturing of in-
+cinerators, containers, disinfectants, etc., were excluded to maintain a 
+clear and manageable system boundary. Including these processes 
+would significantly expand the scope of the study and introduce com-
+plexities related to the life cycle of these products. Besides, this study 
+aimed to provide a focused analysis of the HCWM system within the 
+defined boundaries. While upstream processes are important, they were 
+considered outside the primary scope to ensure the study remained 
+tractable and relevant to the specific context of HCWM.
+The LCI includes HCW disposal but excludes upstream burdens 
+associated with HCWM. The foreground data of raw materials and en-
+ergy input were collected from our previous studies. The HCW was 
+transported about 10–15 km from source to disposal point Table SI-5(a- 
+f) (Supporting Information). Solid waste, energy, diesel, chemicals and 
+water are the primary input for the HCWM system. The background data 
+were from ecoinvent database in the environmental footprint platform. 
+The MPs emissions from HCW disposal and treatment data were 
+collected from direct field monitoring and compared with MPs emissions 
+from same the amount of plastic wastes disposal. The MPs emissions 
+from 1 kg of plastics wastes was measured by comparing with previous 
+studies (Brown et al., 2023; Matee and Manyele, 2015; Nordahl et al., 
+2023; Shen et al., 2021; Silva et al., 2021; Stapleton et al., 2023; Yang 
+et al., 2021; Zhang et al., 2019). Here, the plastics data were considered 
+as input data for LCA software, and the MPs emissions (impact) counted 
+as output data. It is very important to develop an LCA database for MPs 
+emissions, however, this study used most of the MP’s data from related 
+literature. Therefore, it is currently not possible to develop a specialized 
+MPs database. However, this study has made some recommendations in 
+the conclusion section as future research direction. The inputs and 
+outputs are expressed for each functional unit – 1 kg of waste. The in-
+ventory table is generated based on the aggregation of all inputs and 
+output data collected throughout the life cycle stages of 1 kg of HCW. 
+There are several types of treatment processes in HCWM which ease to 
+Fig. 1. (continued).
+X. Zheng et al.                                                                                                                                                                                                                                   Waste Management 204 (2025) 114932 
+6 
+
+=== PDF PAGE 7 ===
+different compartments in the environment like air, water and soil.
+2.2.4. Life cycle impact assessment
+According to ISO 14040, the Life Cycle Impact Assessment (LCIA) tries 
+to comprehend and assess the possible environmental impacts of HCWM 
+systems, and their potential scale and relevance. The life cycle impacts at 
+the midpoint and endpoint levels of this study were evaluated by 
+SimaPro version 9.5.0.0 software. The ReCiPe 2016 Midpoint (H) 
+V1.07/ World (2010) H and ReCiPe 2016 Endpoint (H) V1.07/ World 
+(2010) H/A impact assessment methods were applied, respectively to 
+calculate midpoint and endpoint environmental impacts connected to 
+environmental emissions. The most common LCA software’s include 
+Simapro, Gabi and OpenLCA. Amidst, Simapro software was used in this 
+study because it stands out among LCA software due to its comprehen-
+sive databases (e.g., Ecoinvent), flexibility for modeling complex sys-
+tems, support for multiple impact assessment methods (like ReCiPe and 
+TRACI), and compliance with ISO standards. It offers transparent cal-
+culations, user-friendly interfaces, and robust scenario analysis capa-
+bilities. Widely used in academia and industry, it ensures credibility, 
+integrates with other tools, and provides strong documentation and 
+support, making it ideal for reliable and detailed LCA studies. Besides, 
+the ReCiPe 2016 method is superior because it provides updated, 
+science-based characterization factors for both midpoint and endpoint 
+impacts, offering more accurate and comprehensive assessments. It 
+covers a wide range of environmental impacts and includes three per-
+spectives (individualist, hierarchist, and egalitarian) for flexibility in 
+decision-making. ReCiPe 2016 is widely recognized, aligns with inter-
+national LCA standards, and incorporates improvements in modeling 
+compared to older versions, making it ideal for modern sustainability 
+analyses.
+The best location for midpoint indications on an impact pathway is at 
+the point where the mechanism remains the same for all flows classified 
+under that effect category. In this case, characterization is the process of 
+converting the LCI result to common units and combining the adapted 
+results into an impact category. There are three impact assessment 
+categories (human health, ecosystem and resources) at endpoint level 
+and eighteen (18) impact categories at midpoint level. The midpoint 18 
+impact categories: Global Warming (GW), Stratospheric Ozone Deple-
+tion (SOD), Ionizing Radiation (IR), Ozone Formation, Human Health 
+(OF, HH), Fine Particulate Matter Formation (FPMF), Ozone Formation, 
+Terrestrial Ecosystems (OF, TE), Terrestrial Acidification (TA), Fresh-
+water Eutrophication (Feu), Marine Eutrophication (Meu), Terrestrial 
+Ecotoxicity (TE), Freshwater Ecotoxicity (Fec), Marine Ecotoxicity 
+(Mec), Human Carcinogenic Toxicity (HCT), Human Non-carcinogenic 
+Toxicity (HNCT), Land Use (LU), Mineral Resource Scarcity (MRS), 
+Fossil Resource Scarcity (FRS), and Water Consumption (WC).
+Fig. 1. (continued).
+X. Zheng et al.                                                                                                                                                                                                                                   Waste Management 204 (2025) 114932 
+7 
+
+=== PDF PAGE 8 ===
+2.2.5. Interpretation
+Sensitivity and contribution analyses were performed to interpret the 
+LCIA results of this study. A sensitivity analysis was conducted to justify 
+which environmental and health impact categories were sensitive to the 
+change of the input parameters. In this study, sensitivity analysis of 
+energy demand with varying transport (20 % increase and decrease) 
+distance was conducted. It helps to identify the most interesting 
+parameter that needs to be investigated in the LCA study.
+Contribution analysis was performed to understand which input 
+parameter of a specific HCW disposal and treatment process contributed 
+Fig. 1. (continued).
+Fig. 2. System boundary for LCA study where red color indicate potential pollution and dotted line indicate not included (Note: POPs = Persistent organic pol-
+lutants, MP = Microplastics). (For interpretation of the references to color in this figure legend, the reader is referred to the web version of this article.)
+X. Zheng et al.                                                                                                                                                                                                                                   Waste Management 204 (2025) 114932 
+8 
+
+=== PDF PAGE 9 ===
+most to the environmental pollution and health hazards.
+3. Results and discussion
+3.1. Comparative environmental impacts from the life cycle perspective
+The inventory table was generated based on the aggregation of all 
+inputs and output data collected throughout the life cycle stages of 1 kg 
+of HCW. There are several types of disposal and treatment processes in 
+HCWM which ease to different compartments in the environment like 
+air, water and soil. Significant substances are listed with amount in 
+Table SI-6(a-b) (Supporting Information).
+This comparative study investigated 18 environmental impact cate-
+gories in the HCWM system of the selected eight HCFs both public and 
+private. The details about the environmental impacts from the HCWM 
+are shown in Fig. 3 and Table SI-7 (Supporting Information). Results 
+demonstrated that six impact categories were higher from USTC than 
+CMCH in CS-1 where TE was the highest. In CMCH, the highest impact 
+was HNCT (5.58 kg 1,4–dichlorobenzene (DCB)), followed by GW (0.73 
+kg CO2 eq), Mec (0.32 kg 1,4-DCB) and Fec (0.24 kg 1,4-DCB). Here, 
+SPW and waste papers mainly contributed to HNCT that come from open 
+burning and recycling. Similarly, the highest impact was HNT (4.89 kg 
+1,4-DCB) from USTC followed by GW (0.70 kg CO2 eq), Mec (0.28 kg 
+1,4-DCB), Fec (0.21 kg 1,4-DCB) and TE (0.13 kg 1,4-DCB). The SPW 
+shared primarily to HNCT followed by wastepaper and textile wastes. 
+Most of the studied environmental impacts were higher from CMCH due 
+to it being the prime healthcare center in Chattogram and containing 
+varied HCW compositions.
+As medium scale HCF, MMH (public) showed comparatively higher 
+environmental impacts than NH that might be for generating more food 
+waste and others from MMH. The highest environmental impact from 
+MMH was HNCT (5.44 kg 1,4-DCB), followed by GW (0.77 kg CO2 eq), 
+Mec (0.31 kg 1,4-DCB), Fec (0.24 kg 1,4-DCB) and TE (0.21 kg 1,4-DCB). 
+The disposal of SPW and wastepaper mainly contributed to HNCT. 
+Similarly, the highest impact was HNCT (5.51 kg 1,4-DCB) from NH, 
+followed by GW (0.79 kg CO2 eq), Mec (0.32 kg 1,4-DCB) Fec (0.24 kg 
+1,4-DCB) and TE (0.17 kg 1,4-DCB). Illegal disposal (open burning) and 
+recycling of SPW and wastepaper is largely shared to HNCT in private 
+NH. All the studied impact categories were higher in public clinics 
+indicating the HCWM system of MMH is more responsible for environ-
+mental footprints.
+Like CMCH and USTC, MDC demonstrated higher environmental 
+impacts in most of the categories than CCCC (public clinic); however, 
+CCCC contributed to higher impacts in case of IR, TE, LU and FRS (see 
+Fig. 3). However, the highest impact was HNCT (3.29 kg 1,4-DCB), 
+followed by GW (0.69 kg CO2 eq), TE (1.79 kg 1,4-DCB), Mec (0.19 kg 
+1,4-DCB) and Fec (0.14 kg 1,4-DCB) from HCW disposal in CCCC. Here, 
+HNCT was mainly shared by SPW, followed by waste transport, waste-
+paper and textile waste. In MDC, the highest impact was HNCT (3.64 kg 
+1,4-DCB), followed by GW (0.64 kg CO2 eq), TE (0.36 kg 1,4-DCB), Mec 
+(0.21 kg 1,4-DCB) and Fec (0.16 kg 1,4-DCB). Here, the HNCT impact 
+was mainly shared by SPW from MDC, followed by wastepaper and 
+textile waste. Most of the considered environmental impacts were higher 
+from MDC in terms of small scale HCF. It was for generating relatively 
+large quantities of HCW with a higher percentage of hazardous waste 
+from MDC.
+As rural HCF, CHNH (private clinic) showed higher environmental 
+impacts than PUHC where eutrophication, ecotoxicity and human 
+toxicity were almost similar (see Fig. 3). However, the highest envi-
+ronmental impact was HNCT (5.52 kg 1,4-DCB) from HCW disposal in 
+PUHC, followed by GW (0.78 kg CO2 eq), TE (0.38 kg 1,4-DCB), Mec 
+(0.32 kg 1,4-DCB) and (0.24 kg 1,4-DCB). Here, transport of waste, and 
+open burning and recycling of SPW is largely shared to HNCT. Similarly, 
+the highest impact from CHNH was HNCT (5.27 kg 1,4-DCB), followed 
+by TE (1.18 kg 1,4-DCB), GW (0.84 kg CO2 eq), Mec (0.30 kg 1,4-DCB) 
+and Fec (0.23 kg 1,4-DCB). HNCT impact was mainly contributed by 
+SPW, followed by waste transport, wastepaper and textile waste in 
+CHNH. In rural clinics, all the studied impact categories were higher in 
+private clinics (CHNH), which means the existing HCWM system is liable 
+for environmental pollution.
+From the studied 18 impact categories, 15 impact categories were 
+found comparatively higher from rural private HCF. It might be due to 
+disposing of almost 100 % of HCW in an illegal and uncontrolled way. As 
+the disposal of HCW is uncontrolled, therefore private HCFs had greater 
+impact on several environmental factors such as climate change, ozone 
+depletion, eutrophication, acidification, resource depletion, ecotoxicity 
+and human toxicity.
+The ideal (proposed) HCWM system demonstrated the lowest 
+Table 2 
+Life cycle inventory data used in this study.
+Process/Activity Input/Output Unit Value Source Assumptions
+Waste generation Plastics kg 0.08 Literature Alam and Hossain, 2013; Hossain and Alam, 2012 ±10 %
+Papers kg 0.15 Literature Alam and Hossain, 2013; Hossain and Alam, 2012 ±10 %
+Textiles kg 0.10 Literature Alam and Hossain, 2013; Alam et al., 2015 ±10 %
+Metals kg 0.07 Literature Alam and Hossain, 2013; Hossain and Alam, 2013 ±10 %
+Glass kg 0.03 Literature Alam et al., 2015; Hossain and Alam, 2012 ±10 %
+Food waste kg 0.50 Literature Alam and Hossain, 2013; Hossain and Alam, 2013 ±10 %
+Waste transport Diesel L 0.05 Government reports Average fuel consumption for waste transport vehicles ±15 %
+Disinfection Electricity kWh 0.10 Ecoinvent database Average energy consumption for disinfection processes ±10 %
+Recycling Electricity kWh 0.08 Ecoinvent database Average energy consumption for recycling processes ±10 %
+Open burning Emissions (CO2) kg 0.50 Expert opinions Average emission factor for open burning ±20 %
+Emissions (PM2.5) kg 0.02 Expert opinions Average emission factor for open burning ±20 %
+Incineration Emissions (CO2) kg 0.60 Ecoinvent database Average emission factor for incineration ±15 %
+Emissions (HMs) kg 0.005 Ecoinvent database Average emission factor for incineration ±15 %
+Landfilling Leachate L 0.03 Government reports Average leachate production for landfilling ±10 %
+Emissions (CH4) kg 0.01 Ecoinvent database Average emission factor for landfilling ±10 %
+Note: The assumptions values in this table, such as ±10 % or ±15 %, typically represent the uncertainty or variability associated with the given values for inputs/ 
+outputs or emissions. The common methods adopted to determine these assumption values include literature review, government reports, ecoinvent database and 
+expert opinions. Here, multiple studies and reports related to the specific waste management processes (e.g., waste generation, transport, recycling, etc.) were 
+reviewed. If different studies report slightly different values for plastics waste generation, the ±10 % accounts for this range of variation. Similarly, government reports 
+often provide standardized data on waste management processes, such as average fuel consumption for waste transport vehicles. Government data is usually based on 
+large datasets and includes some inherent variability, which is captured by the ±15 % range. Besides, the Ecoinvent database provides detailed LCI data for various 
+industrial processes, including energy consumption and emissions. Ecoinvent data is aggregated from multiple sources, and the ±10 % accounts for differences in 
+process efficiencies, equipment types, or operational conditions. In addition, experts in the field provide estimates based on their experience and knowledge of specific 
+processes, especially when empirical data is limited. Expert opinions are valuable when data is scarce, but they inherently include a higher degree of uncertainty, which 
+is reflected in the ±20 % range.
+X. Zheng et al.                                                                                                                                                                                                                                   Waste Management 204 (2025) 114932 
+9 
+
+=== PDF PAGE 10 ===
+environmental impacts through LCA (see Table SI-7 (Supporting Infor-
+mation). It showed the major contribution to the studied environmental 
+impacts from HCW, followed by transport (diesel), residues, wood ash 
+and electricity. The main impact through the proposed HCWM system 
+includes resource scarcity, human toxicity, ecotoxicity, eutrophication, 
+acidification and global warming (see Fig. 4).
+These impact categories were further categorized into three endpoint 
+impacts to measure damages and losses including human health, 
+ecosystem quality, and resources. The midpoint categories are useful in 
+interpreting the potential contributors to the endpoint category results 
+during the interpretation stage of the LCA analysis. The endpoint envi-
+ronmental damage results are shown in Fig. SI-2 (Supporting Informa-
+tion) and Table SI-8 (Supporting Information). It demonstrated the 
+highest damage in resources, followed by human health and ecosystems. 
+The human health and ecosystem damages are very low, indicating 
+insignificant damages. As large scale HCF, textile waste and wastepaper 
+highly contributed to damages of resources from CMCH while textile 
+waste and waste transport in USTC. Similarly, waste transport, textile 
+Fig. 3. Comparative environmental impact of HCWM system between public and private healthcare facilities.
+X. Zheng et al.                                                                                                                                                                                                                                   Waste Management 204 (2025) 114932 
+10 
+
+=== PDF PAGE 11 ===
+waste, SPW and wastepaper shared highly to resource damaged from 
+MMH while waste transport, textile waste and SPWs from NH. The 
+transport of HCW along with disposal of waste textile, wastepaper and 
+SPW highly contributed to resource damages from both CCCC and MDC. 
+In addition, waste transport as well textile waste and SPW disposal are 
+shared largely to resource damages from both PUHC and CHNH.
+The highest impact was observed in human non-carcinogenic 
+toxicity, followed by global warming, terrestrial ecotoxicity, fresh-
+water ecotoxicity and marine ecotoxicity. The interpretation of the LCA 
+results were conducted by sensitivity analysis. The 20 % increase and 20 
+% decrease of HCW transport distance demonstrated the increase and 
+decrease of total energy consumption in HCW disposal and treatment. 
+From Fig. 5, it is observed that the change of energy consumption is 
+highly affected in global warming potential. However, the other impact 
+categories (human non-carcinogenic toxicity, terrestrial ecotoxicity, 
+freshwater ecotoxicity and marine ecotoxicity) were comparatively 
+lower but not insignificant.
+Fig. 3. (continued).
+X. Zheng et al.                                                                                                                                                                                                                                   Waste Management 204 (2025) 114932 
+11 
+
+=== PDF PAGE 12 ===
+3.2. Microplastics pollution from healthcare waste management
+This study demonstrated that the disposal of SPWs largely contrib-
+uted to global warming, ecotoxicity and carcinogenic toxicity than other 
+studied impact categories that mainly come from the recycling and open 
+burning of SPWs (see Table 3). However, the other impact categories 
+from SPWs that are considered in this LCA study are negligible. Dumping 
+or burial of the daily generated SPWs also contribute to these impacts 
+from the rural HCFs. From Table 3, it is stark clear that GW, TE, Fec, Mec 
+HCT and HNCT are comparatively higher from the MDC that was for the 
+higher percentage of SPW disposal through open burning.
+Though the LCA is unable to evaluate the MPs pollution by the 
+existing database; however, the potential MPs pollution from HCWM 
+can be estimated by considering the available relevant literature. 
+Therefore, the plastics HCWM is a potential source of MPs pollution. 
+This investigation identified seven potential sources of MPs pollution 
+including illegal dumping in drains/ lands, scrap shop (crushing), 
+recycling factory, plastics manufacturing factory, open burning/incin-
+eration, dumpsite/landfill and sea beach (see Fig. SI-3 (Supporting In-
+formation)). At first, MPs are deposited in the wastewater at recycling 
+Fig. 3. (continued).
+X. Zheng et al.                                                                                                                                                                                                                                   Waste Management 204 (2025) 114932 
+12 
+
+=== PDF PAGE 13 ===
+and manufacturing factories, and then transferred to river water through 
+drainage flow. Similarly, MPs are deposited in the leachate from landfill 
+which subsequently move to the adjacent waterbodies and then river/ 
+sea water. The generated MPs are accumulated in bottom ash during 
+open burning and incineration of HCW. Thus, the mishandled plastics 
+HCW contribute to global MPs pollution.
+The disposal and treatment of SPW can generate MPs as secondary 
+wastes. The potential MPs emissions from HCW management and 
+disposal are shown in Fig. 6 and Table SI-9 (Supporting Information). 
+The highest MPs generation was observed in private HCFs due to the 
+higher percentage of SWP. As HCW disposal option, the recycling of 
+SPWs through mechanical (to remanufacture polymers) treatment 
+generated the highest quantity of MPs ranging from 1335 to 3106 items/ 
+kg waste. Therefore, the mechanical recycling of SPW is one of the major 
+sources of MPs pollution. The generated MPs during the recycling are 
+deposited in the wastewater. Similarly, the crude dumping of SPW in the 
+dumpsite contributed to MPs pollution ranging 291–677 items/kg waste 
+through leachate. In addition, the open burning or incineration of SPWs 
+also released MPs through bottom ash and air emissions that ranged 
+from 280 to 651 items/kg waste. The ideal HCWM system demonstrated 
+Fig. 3. (continued).
+X. Zheng et al.                                                                                                                                                                                                                                   Waste Management 204 (2025) 114932 
+13 
+
+=== PDF PAGE 14 ===
+the insignificant amount of MPs emissions from sanitary landfill and 
+incineration; however, a significant quantity (2191 items/kg waste) of 
+MPs emission from recycling.
+3.3. Heavy metals pollution from healthcare waste management
+HCW is typically a complex mixture of different types of solid wastes. 
+Most of the inorganic HCWs contain toxic HMs. Such HCW include 
+thermometers, chemicals, plastics, PPE, syringes, needles, rubber, scal-
+pels, metal cans, glass, battery and metallic tools. This research found 
+several HMs in HCW such as Sb, As, Cd, Cr, Cu, Fe, Pb, Mn, Hg, Ni, Se, 
+Ag, and Zn. Amidst, toxic HMs like As, Cd, Pb and Hg, are mostly present 
+in plastic, syringes, rubber, adhesive plaster and battery. These HMs are 
+transferred to the bottom ash when HCW are openly burned or incin-
+erated. Incineration or open burning of HCW with high metallic content 
+(e.g., Pb, Hg and Cd) can lead to the spread of toxic metals in the 
+environment. Therefore, the treatment of HCW either by incinerating or 
+open burning is a potential source of HMs pollution.
+The concentrations of HMs are very high in HCW due to containing a 
+major fraction of plastics and metallic wastes. If such waste is illegally 
+dumped, then these HMs are deposited in the leachate and adjacent 
+waterbodies. The leachate flow transfers deposited HMs to surrounding 
+surface water and soil that subsequently reach to ground water and 
+rivers. The recycling of HCW generates HMs through wastewater 
+discharge. Thus, treatment and disposal of HCW shared to HMs pollution 
+(see Fig. SI-4 (Supporting Information)). The results demonstrated that 
+water is at risk of highly HMs pollution and then air and soil (see 
+Table SI-10 (Supporting Information)). Finally, these HMs enter the food 
+chain through the fish and crops/vegetables grown in the polluted water 
+and soil. Here, comparatively high levels of the HMs release to the air, 
+water and soil were from CHNH because it is a rural private clinic which 
+disposed of the daily generated HCW illegally. Those who collect recy-
+clable waste from CHNH recycle waste without any pretreatment. In 
+addition, CMCH, USTC, MDC and PUHC demonstrated comparatively 
+high levels of Fe & Hg, As & Mn, Cr, and Cd, Pb & Sn, respectively 
+release to water from HCW disposal and treatment.
+3.4. Discussion
+LCA is not very old in developing countries. Lately, the researchers 
+are trying to implement it in HCWM of developing countries, but the key 
+problem in conducting LCA study is the absence of a database based on 
+the actual scenarios of such countries (Alam and Mosharraf, 2019; Dey 
+and Ray, 2020, 2021; Snigdha et al., 2023). This study compared 
+existing HCWM systems between public and private HCFs through LCA. 
+It demonstrated that private HCFs contributed higher than public ones 
+in most of the studied impact categories except CMCH (prime HCF in 
+Chattogram district). The inadequate HCWM system in private HCFs is 
+highly responsible for surrounding water, soil and air pollution. The 
+waste handlers are mainly affected by inadequate HCWM in low-income 
+Fig. 3. (continued).
+X. Zheng et al.                                                                                                                                                                                                                                   Waste Management 204 (2025) 114932 
+14 
+
+=== PDF PAGE 15 ===
+communities. However, such impact is not so severe in public HCFs due 
+to source segregation of wastes and wearing PPEs by waste handlers and 
+engaging third parties for disposal of the daily generated HCW. Results 
+demonstrated comparatively higher environmental footprints from pri-
+vate HCFs. Therefore, this study recommends some initiative to mini-
+mize environmental footprints including strict waste segregation (food 
+waste, sharp, hazardous and recyclable) at sources by using color coding 
+bins, reusable waste disinfection by steam sterilization, and mobile or 
+small-scale incinerator for quick waste disposal (or take support from 
+third party who provide such services by protecting environment).
+Notably, the private HCFs always give priority on economic benefits; 
+therefore, they consider spending budget and time in ecofriendly HCWM 
+as wastage. As a result, they are greatly contributing to global warming, 
+ecotoxicity, eutrophication and human toxicity etc. Because the physical 
+composition of HCW of large-scale public HCF is diversified and con-
+tains a comparatively higher percentage of infectious and hazardous 
+waste (e.g., radioactive wastes, chemicals, body fluids and body organs), 
+therefore it demands special treatment as well as additional investment. 
+Otherwise, a similar financial budget is required for the same amount of 
+HCW disposal in both public and private HCFs. HCWM funds come from 
+Fig. 3. (continued).
+X. Zheng et al.                                                                                                                                                                                                                                   Waste Management 204 (2025) 114932 
+15 
+
+=== PDF PAGE 16 ===
+the government in public HCFs, not from individual persons. However, 
+such a fund needs to be invested by the private HCFs owner himself. 
+Therefore, private HCFs directly discharge their daily generated HCW 
+which demands no cost. In contrast, public HCFs segregate, disinfect, 
+incinerate and dispose of HCW by third party contract which all need a 
+financial budget.
+Several researches were conducted to explore the environmental 
+impacts from HCWM, emergency waste disposal and medical test (Ali 
+et al., 2016; Deepak et al., 2022; Ji et al., 2022; Zhao et al., 2021). 
+McPherson et al. (2019) showed carbon footprint from disposable to 
+reusable sharps containers in the United States hospitals. Similarly, 
+several previous studies compared disposable and non-disposable 
+healthcare instruments, surgical masks and PPEs (Kumar et al., 2021; 
+Leiden et al., 2020; Snigdha et al., 2023; Türkmen, 2023). Li et al. 
+(2022) found that treatment of HCW with energy recovery through 
+pyrolysis treatment is comparatively ecofriendly. Yin et al. (2023) and 
+Hong et al. (2018) studied the environmental impacts and economic cost 
+of HCW recycling and treatment. Therefore, LCA based studies are 
+supportive to identify the HCW disposal option with minimum impacts.
+HCW is composed of 8 %–20 % plastics based on sources in 
+Bangladesh. These SPWs are inevitably generated from HCFs (Ajaj et al., 
+2023). The mismanagement of SPW resulted in MPs release that 
+deposited in drains and subsequently waterbodies (Zhang et al., 2021; 
+Zhao and You, 2023). The crude dumping of SPWs along with me-
+chanically or thermally recycling of SPWs shares to MPs pollution 
+(Suzuki et al., 2022) and thus pollutes the aquatic environment. 
+Therefore, SPWs release MPs during its handling, treatment and disposal 
+(Guo et al., 2022). MPs can form volatile organic chemicals via photo- 
+degradation and exert significant global warming, ecotoxicity, and air 
+pollution effects. However, recycling of SPWs fast pyrolysis can effec-
+tively minimize environmental damage by reducing ozone formation 
+and air pollution by generating fuels and energy (Zhao and You, 2023). 
+Previous studies found the higher MPs pollution impact from the recy-
+cling of plastic HCW ranging from 6807 to 28,600 items/ kg plastic 
+waste (Brown et al., 2023; Stapleton et al., 2023). However, the incin-
+eration and dumping of HCW showed the comparatively lower MPs 
+pollution. Silva et al. (2021) found up to 291 items/L of the HCW 
+dumping leachate; however, the treatment of leachate can reduce MPs 
+concentration. Similarly, Yang et al. (2021) observed 0.36–102 items/kg 
+waste in bottom ash, while Shen et al. (2021) measured 23, 171, and 86 
+items/kg in fly ash, bottom ash and soil.
+HCW is one of the main sources of global HMs pollution. HMs are 
+particularly released from HCWM during crude dumping, illegal 
+disposal and landfill along with open burning and incineration ash. The 
+dumped HCW make chemical reactions in the presence of sunlight and 
+water, and then release the contained HMs. These HMs are distributed to 
+surrounding water and soil through leachate flow. This study demon-
+strated that HMs are released to air, water and soil from HCWM systems 
+following the order as water > air > soil. Here, 5.89 µg Cd and 6.49 µg 
+Co emission to air were found as the highest in City corporation clinics 
+(CCCC) while other studied HMs were the highest in rural private clinic 
+(CHNH). In soil emissions, only 0.81 µg Co was the highest from City 
+corporation clinics (CCCC) while other studied HMs were the highest in 
+private rural clinics (CHNH). Similarly, 14480 mg Fe and 0.71 mg Hg 
+from CMCH, 0.8 mg As and 858.1 mg Mn from USTC, 0.03 mg Cr from 
+MDC, 7.82 mg Cd and 259.6 mg Pb from PUHC, and other studied HMs 
+(except Sb and Cr(VI)) from CHNH in water emissions. In addition, 7.58 
+mg Sb and 4.32 mg Cr(VI) from the ideal HCWM system. Several studies 
+demonstrated the high level of HMs content in HCW dumped soil and 
+water as well released leachate (Dey and Ray, 2023; Janik-Karpinska 
+et al., 2023). HMs from HCW are transferred to ash during the open 
+burning or incineration. Therefore, previous studies identified excess 
+levels of toxic HMs in burnt or incinerated ash. Regretfully, such HMs 
+containing ash are disposed of in landfill without pretreatment in 
+developing countries like Bangladesh (Adama et al., 2016; Dey and Ray, 
+2021; Zhao et al., 2009). However, such HMs containing ash are 
+disposed of in sanitary landfill after treatment or treated for reusing in 
+construction or land development such as solidification/ stabilization in 
+developed countries.
+This LCA study compared four categories of HCFs. The composition 
+of HCW generated from these HCFs varied and therefore their man-
+agement and disposal system differed too. The findings of this compar-
+ative study in terms of environmental and health impacts helpful to 
+adopt a generalized HCWM system with minimum impacts. Besides, this 
+study demonstrated the higher MPs pollution from HCWM, which is a 
+global emerging environmental issue. According to this study, about 
+100 % plastic waste is recycled from private HCFs. Plastics HCW from 
+private HCFs are directly discharged or illegally collected by waste 
+pickers (scavengers) and then sold to recycling shops. Therefore, MPs 
+emission is also high from private HCFs. At first, plastics wastes are 
+mechanically ground when MPs are generated. Then ground plastics are 
+melted to form plastic beads or flakes. Finally, MPs are generated during 
+producing recycled products. Thus, generated MPs are ultimately 
+deposited to wastewater recycling plants. Similarly, the incomplete 
+Fig. 4. The main environmental impacts from energy and resources consumption in ideal HCWM system.
+X. Zheng et al.                                                                                                                                                                                                                                   Waste Management 204 (2025) 114932 
+16 
+
+=== PDF PAGE 17 ===
+Fig. 5. Sensitivity analysis based on the change of HCW transport distance to disposal site.
+Table 3 
+Major impact categories from plastic waste disposal through life cycle assessment.
+Impact category Unit CS-1 CS-2 CS-3 CS-4
+CMCH USTC MMH NH CCCC MDC PUHC CHNH
+GW kg CO2 eq 0.02 0.07 0.08 0.00 0.00 0.17 0.08 0.12
+TE kg 1,4-DCB 0.01 0.04 0.04 0.01 0.01 0.09 0.05 0.06
+Fec kg 1,4-DCB 0.00 0.00 0.00 0.00 0.00 0.01 0.01 0.01
+Mec kg 1,4-DCB 0.00 0.01 0.01 0.00 0.00 0.01 0.01 0.01
+HCT kg 1,4-DCB 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00
+HNT kg 1,4-DCB 0.02 0.05 0.06 0.02 0.02 0.12 0.06 0.09
+X. Zheng et al.                                                                                                                                                                                                                                   Waste Management 204 (2025) 114932 
+17 
+
+=== PDF PAGE 18 ===
+burning of plastics HCW generates MPs which are deposited in bottom 
+ash and lighter MPs are released to air. Furthermore, small plastic pieces 
+are generated by degrading larger plastics in dumping sites due to the 
+influence of several factors including UV radiation, fluctuating tem-
+peratures (60–90 ◦C) and pH (4.5–9.0), deep-seated fires, physical stress, 
+and compaction, along with limited microbial activity. Thus, the man-
+agement of plastics waste separately or mixing with other wastes 
+contribute to MPs emissions. These findings show the potential way for 
+reducing the MPs emissions from the HCWM system.
+Similarly, this study showed the HMs pollution from the HCWM 
+system. The most common detrimental HMs that come the HCWM sys-
+tem include As, Cd, Cr, Cu, Pb, Hg, Ni. Here, Pb, Cd and Hg comes from 
+high-metals-contents wastes incinerated or open burned ashes. Besides, 
+Fe, Mn and Cu are also present in incinerated bottom ashes. Volatile 
+metals, such as Hg, Pb, As and Cd may pollute air during incineration/ 
+open burning of HCW. These HMs come from a specific type of HCW. For 
+example, Cd, Hg, Pb and Zn from batteries, Ni and Cr from stainless steel 
+needles, and Cu, Pb, Cr and Cd from plastics. Slightly Pb and Cd may 
+come from glasses. In addition, Pb, Ni, Cr, Cu, Zn and Cd may come from 
+food wastes disposal through leachate. The results showed that HMs are 
+highly released from open burning or incineration of HCW. Generally, 
+there are three methods for controlling HMs emissions from HCW 
+incineration or burning: (i) limiting the HM contents of the waste feed 
+via source control, (ii) designing and operating the incineration process 
+to minimize HM vaporization, (iii) designing and operating the primary 
+incineration chamber to minimize fly-ash carryover. Besides, controlled- 
+air incineration is the most widely used HCW incinerator technology. 
+The mechanical recycling of recyclable HCW after proper treatment can 
+minimize HMs emissions to the environment. However, wastewater 
+recycling plants can contain HMs. Similarly, leachate from organic HCW 
+dumping can also release HMs to the environment. However, HMs in 
+wastewater and leachate can be removed by chemical precipitation.
+The potential primary MPs sources from plastics HCWM include 
+mechanical recycling, incineration/open burning and illegal dumping. 
+From recycling and incineration of plastic wastes, humans are exposed 
+to MPs through air. However, humans are highly exposed to MPs 
+through wastewater (recycling plant), incineration/burnt ashes, and 
+leachate from dumping sites. Exposure to MPs in humans potentially 
+leads to serious health issues, including various cancers, respiratory 
+disorders, and inflammatory bowel disease. Understanding molecular 
+mechanisms underlying the interaction of MPs with human cells may 
+help extrapolate the risks to humans. There are several potential sources 
+of HMs emissions from HCWM including dumping, open burning/ 
+incineration and recycling. From these sources, HMs are released to 
+water and soil. Furthermore, some HMs such as Pb and Hg are also 
+released to air. From the environment HMs enter the human body 
+through drinking water and taking foods grown in such contaminated 
+soil/water, and directly inhaled from air. HMs can cause a variety of 
+health problems in humans, including organ damage, cancer, and 
+neurological disorders. Bioaccumulation of these HMs leads to a di-
+versity of toxic effects on a variety of body tissues and organs. HMs 
+disrupt cellular events including growth, proliferation, differentiation, 
+damage-repairing processes, and apoptosis.
+Considering the higher impacts from private HCFs, it is advisable for 
+them to adopt strategies with minimum environmental footprints, HMs 
+and MPs emissions from HCWM systems. In private HCFs, the adoption 
+of appropriate source segregation of HCW, stream disinfection of in-
+fectious and hazardous waste, controlled incineration and recycling of 
+HCW can minimize environmental emissions from HCWM systems. The 
+suggested strategies cannot be easily executed in HCFs, specifically in 
+private HCFs. It will face several challenges such as sufficient funds, 
+proper knowledge, skilled manpower, and advanced technologies. 
+Therefore, it is required to provide free training to associated workers 
+and staff of private HCFs by government or other concerned authorities. 
+Government should give incentives to HCFs for adopting HCWM tech-
+nologies in an eco-friendly way. The government formulated latest 
+related regulations which also compel HCFs to adopt such strategies for 
+safe HCWM. However, the poor implementation of such regulations 
+discourages HCFs to adopt these strategies, and therefore these regula-
+tions should be implemented strictly. These strategies can be effectively 
+replicated in similar other HCFs and urban areas throughout the country 
+and other developing countries.
+Therefore, these findings show the potential environmental impacts, 
+and level of MPs and HMs emissions which can facilitate in adopting the 
+required controlling strategies. However, the available LCA software 
+cannot measure MPs pollution due to the absence of a relevant database. 
+Therefore, this study used the data from some relevant studies to 
+calculate MPs emissions from HCWM.
+4. Conclusion and future research direction
+HCWM is a globally environmental concern. The developing coun-
+tries like Bangladesh are at high risk due to possessing a major fraction 
+of hazardous waste. Regretfully, these wastes are illegally disposed of 
+with MSW in such countries that are liable for environmental pollution. 
+Recently, LCA is considered as the best evaluation tool for environ-
+mental burdens associated with HCWM. This study reveals that the 
+current HCWM system differed based on sources and category of HCFs. 
+Fig. 6. Contribution of microplastics by different HCW disposal and treatment options in total microplastics quantity. Note: MPs emissions were counted by 
+comparing same amount of plastics wastes as input for LCA software and the MPs emission from same amount of plastics wastes disposal as the output (
+Adopted from Brown et al., 2023; Salami and Popoola, 2000; Shen et al., 2021; Silva et al., 2021; Stapleton et al., 2023; Yang et al., 2021).
+X. Zheng et al.                                                                                                                                                                                                                                   Waste Management 204 (2025) 114932 
+18 
+
+=== PDF PAGE 19 ===
+Private HCFs highly contributed to most of the studied impact categories 
+(e.g., 1.12 kg CO2 eq. global warming, 1.01 kg 1,4-DCB terrestrial eco-
+toxicity and 5.8 kg 1,4-DCB human non-carcinogenic toxicity) than 
+public ones. It might be due to the uncontrolled and illegal disposal of all 
+HCW by private HCFs, especially in rural areas where HCWM facilities 
+are totally absent. Here, illegal recycling and open burning/ incineration 
+are mainly responsible for human toxicity and global warming, while 
+crude dumping and landfill are liable for ecotoxicity and eutrophication. 
+The existing HCWM system can release HMs through illegal dumping, 
+recycling plant wastewater and incineration ash. The water environ-
+ment is more risk at HMs pollution than air and soil environments. 
+Furthermore, this study demonstrated the higher quantity of MPs 
+emission from the recycling of HCW that are accumulated in waste-
+water. However, the factors responsible for MPs formation and their 
+associated fate in the environment is still unexplored. Though it is 
+possible to measure the impacts of SPWs through LCA but there is no 
+specific way to measure MPs emission from different stages of HCWM. 
+So, it is strongly suggested to develop LCA databases using actual sce-
+narios of developing countries.
+This study mainly used MPs data from literature. Plastic wastes are 
+almost 100 % recycled in low-income countries like Bangladesh. Though 
+HCW recycling is prohibited by WHO or other related international or-
+ganizations. Currently, there is no LCA database for MPs emission from 
+HCW disposal. Therefore, this study proposes some future research di-
+rections to measure MPs emissions from plastic HCW disposal and 
+subsequently, the emissions data will be used for LCA database formu-
+lation, specifically for low-income communities. For MPs emission from 
+plastic waste incineration, in a controlled way plastic waste will be 
+incinerated to collect air samples and bottom ash. Then both samples 
+will be analyzed in the laboratory for counting MPs contents in samples. 
+Similarly, both air and wastewater samples will be collected from a 
+recycling plant to measure MPs content which subsequently will be 
+analyzed in the laboratory. In addition, mixed HCW including plastic 
+waste will be dumped in sanitary landfill and dumping site, then 
+leachate will be collected from both disposal points with time intervals 
+7 days, 30 days, 90 days, 180 days and 365 days for MPs emissions 
+counting both in dry and wet seasons. Finally, these experimental data of 
+MPs from disposal of plastics HCW will be applied for related LCA 
+database development. It is recommended that future studies should 
+include a sensitivity analysis to assess the potential impact of excluding 
+wastewater, gaseous emissions, and upstream processes. This analysis 
+could provide insights into how these exclusions might affect the overall 
+environmental impact assessment. For example, hypothetical scenarios 
+could be developed to estimate the potential contributions of these 
+excluded stages based on available literature or expert judgment. 
+Similarly, future studies should consider a more comprehensive LCA 
+that includes upstream processes. This would provide a more holistic 
+view of the environmental impacts associated with HCWM, from prod-
+uct manufacturing to final disposal.
+CRediT authorship contribution statement
+Xiaojun Zheng: Writing – original draft, Conceptualization. Shan 
+Zhong: Writing – review & editing, Supervision. Ohidul Alam: Writing 
+– original draft, Methodology, Formal analysis, Conceptualization. Syed 
+Jawad Hossen: Methodology, Formal analysis. Daolin Du: Writing – 
+review & editing.
+Declaration of competing interest
+The authors declare the following financial interests/personal re-
+lationships which may be considered as potential competing interests: 
+Daolin Du reports financial support was provided by the Carbon Peak 
+and Carbon Neutrality Technology Innovation Foundation of Jiangsu 
+Province. Shan Zhong reports financial support was provided by the 
+Scientific Research Foundation for Senior Talent of Jiangsu University, 
+China. If there are other authors, they declare that they have no known 
+competing financial interests or personal relationships that could have 
+appeared to influence the work reported in this paper.
+Acknowledgements
+This research financially supported by the Carbon Peak and Carbon 
+Neutrality Technology Innovation Foundation of Jiangsu Province 
+(BK20220030), the Scientific Research Foundation for Senior Talent of 
+Jiangsu University, China (20JDG42), the Drug Efficacy and Health Risk 
+Assessment Key Laboratory of Zhenjiang (SS2024006), and the Jiangsu 
+Collaborative Innovation Center of Technology and Material of Water 
+Treatment, Suzhou University of Science and Technology.
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.wasman.2025.114932.
+Data availability
+Data will be made available on request.
+References
+Adama, M., Esena, R., Fosu-Mensah, B., Yirenya-Tawiah, D., 2016. Heavy metal 
+contamination of soils around a hospital waste incinerator bottom ash dumps site. 
+J. Environ. Public Health 2016, 8926453. https://doi.org/10.1155/2016/8926453.
+Ahmad, R., Liu, G., Santagata, R., Casazza, M., Xue, J., Khan, K., Nawab, J., Ulgiati, S., 
+Lega, M., 2019. LCA of hospital solid waste treatment alternatives in a developing 
+country: the case of district Swat, Pakistan. Sustainability 11, 3501. https://doi.org/ 
+10.3390/su11133501.
+Ahmad, A., Naqvi, S.A., Jaskani, M.J., Waseem, M., Ali, E., Khan, I.A., Faisal 
+Manzoor, M., Siddeeg, A., Aadil, R.M., 2021. Efficient utilization of date palm waste 
+for the bioethanol production through Saccharomyces cerevisiae strain. Food Sci. 
+Nutr. 9 (4), 2066–2074. https://doi.org/10.1002/fsn3.2175.
+Ajaj, R., Dweik, R.A., Ali, S.A.S., Stietiya, M.H., 2023. Understanding the environmental 
+impacts of facemasks: a review on the facemask industry and existing life cycle 
+assessment studies. Sust. Environ. Res. 33, 20. https://doi.org/10.1186/s42834-023- 
+00182-x.
+Alam, O., Hossain, M.M., 2013. Quantification and physical categorization of waste 
+generated by different healthcare entities in Chittagong Metropolitan Area – 
+Bangladesh. International Conference on Mechanical, Industrial and Materials 
+Engineering 2013 (ICMIME2013), RUET, Rajshahi, Bangladesh.
+Alam, O., Hossain, M.M., Hossain, E., 2013. Climate change adaptation and healthcare 
+waste effect on it in Chittagong Metropolitan Area of Bangladesh. International 
+Conference on Climate Change Impact and Adaptation (I3CIA-2013), DUET, 
+Gazipur, Bangladesh.
+Alam, O., Uddin, M.S., Hossain, M.M., 2014. Silent killing through exposure to 
+healthcare waste under the current management practices in Chittagong. In: The 2nd 
+International Conference on Mechanical Engineering and Renewable Energy 
+(ICMERE2013), CUET, Chittagong, Bangladesh.
+Alam, O., Hossain, M.M., Hossain, A.K.M., E., 2015. Current scenarios of healthcare 
+waste management in Chittagong Metropolitan City – Bangladesh. ARPN J. Sci. 
+Technol. 5 (9), 444–456.
+Alam, O., Hossain, M.M., 2015. Private initiative: The new dimension of healthcare 
+waste Management in Chittagong, Bangladesh. Waste Management (A Glance at the 
+World), 43, I–IV.
+Alam, O., Sijia, W., Wentao, L., 2018. Heavy metals dispersion during thermal treatment 
+of plastic bags and its recovery. J. Environ. Manage. 212, 367–374. https://doi.org/ 
+10.1016/j.jenvman.2018.02.034.
+Alam, O., Mosharraf, A., 2019. A preliminary life cycle assessment on healthcare waste 
+management in Chittagong City, Bangladesh. Int. J. Environ. Sci. Technol. 17, 
+1753–1764. https://doi.org/10.1007/s13762-019-02585-z.
+Alam, O., Yang, L., Yanchun, X., 2019. Determination of the selected heavy metal and 
+metalloid contents in various types of plastic bags. J. Environ. Health Sci. Eng. 17 
+(1), 161–170. https://doi.org/10.1007/s40201-019-00337-2.
+Alam, O., Qiao, X., 2020. An in-depth review on municipal solid waste management, 
+treatment and disposal in Bangladesh. Sustain. Cities Soc. 52, 1–18. https://doi.org/ 
+10.1016/j.scs.2019.101775.
+Alam, O., Zheng, X., Du, D.L., Qiao, X., Dai, L., Li, J., Xia, J., Ye, J., Zhong, S., 2024a. 
+A critical review on advances in remediation of toxic heavy metals contaminated 
+solids by chemical processes. J. Environ. Chem. Eng. 12 (4), 113149. https://doi. 
+org/10.1016/j.jece.2024.113149.
+Alam, O., Li, G., Zheng, X., Sultana, N., Du, D.L., 2024b. The effect of green supply chain 
+management practices in reduction of construction wastes and carbon emission in 
+Bangladesh. J. Mater. Cycles Waste Manage. 26, 2491–2508. https://doi.org/ 
+10.1007/s10163-024-01987-7.
+X. Zheng et al.                                                                                                                                                                                                                                   Waste Management 204 (2025) 114932 
+19 
+
+=== PDF PAGE 20 ===
+Ali, M., Wang, W., Chaudhry, N., 2016. Application of life cycle assessment for hospital 
+solid waste management: a case study. J. Air Waste Manag. Assoc. 66 (10), 
+1012–1018. https://doi.org/10.1080/10962247.2016.1196263.
+Atia, N.G., Bassily, M.A., Elamer, A.A., 2020. Do life-cycle costing and assessment 
+integration support decision-making towards sustainable development? J. Clean. 
+Prod. 267, 122056. https://doi.org/10.1016/j.jclepro.2020.122056.
+Baruffaldi, G., Accorsi, R., Volpe, L., Manzini, R., 2019. A data architecture to aid life 
+cycle assessment in closed-loop reusable plastic container networks. Proc. Manuf. 33, 
+398–405. https://doi.org/10.1016/j.promfg.2019.04.049.
+Barua, I., Alam, O., Hossain, M.M., 2015. Current status of medical waste management in 
+Chittagong Medical college hospital – healthy city of Bangladesh. Bangladesh Res. 
+Publ. J. 11 (3), 214–227.
+Belhadi, A., Kamble, S.S., Khan, S.A.R., Touriki, F.E., Dileep, K.M., 2020. Infectious waste 
+management strategy during COVID-19 pandemic in Africa: an integrated decision- 
+making framework for selecting sustainable technologies. Environ. Manag. 66, 
+1085–1104. https://doi.org/10.1007/s00267-020-01375-5.
+Brown, E., MacDonald, A., Allen, S., Allen, D., 2023. The potential for a plastic recycling 
+facility to release microplastic pollution and possible filtration remediation 
+effectiveness. J. Hazard. Mater. Adv. 10, 100309. https://doi.org/10.1016/j. 
+hazadv.2023.100309.
+Campion, N., Thiel, C.L., Woods, N., Swanzy, L., Landis, A.E., Bilec, M.M., 2015. 
+Sustainable healthcare and environmental life-cycle impacts of disposable supplies: a 
+focus on disposable custom packs. J. Clean. Prod. 94, 46–55. https://doi.org/ 
+10.1016/j.jclepro.2015.01.076.
+Chen, L., Sun, J.M., Huang, Z.W., 2014. Research on the whole-progress management of 
+medical waste with life cycle assessment. Adv. Mat. Res. 915–916, 900–904. https:// 
+doi.org/10.4028/www.scientific.net/AMR.915-916.900.
+Cavalloro, V., Marrubini, G., Rossino, G., Martino, E., Collina, S., 2024. Combining DoE 
+and MASE: a winning strategy for the isolation of natural bioactive compounds from 
+plant material. Green Chem. 26 (1), 244–258. https://doi.org/10.1039/ 
+D3GC03952H.
+Deepak, A., Sharma, V., Kumar, D., 2022. Life cycle assessment of biomedical waste 
+management for reduced environmental impacts. J. Clean. Prod. 349, 131376. 
+https://doi.org/10.1016/j.jclepro.2022.131376.
+Dey, P., Ray, S., 2020. Comparative analysis of waste vegetable oil versus transesterified 
+waste vegetable oil in diesel blend as alternative fuels for compression ignition 
+engine. Clean Techn. Environ. Policy 22, 1517–1530. https://doi.org/10.1007/ 
+s10098-020-01892-1.
+Dey, P., Ray, S., 2021. Comprehensive assessment of sustainable low-cost waste- 
+vegetable-oil-based blend as a diesel substitute. Clean Techn. Environ. Policy 23, 
+1521–1536. https://doi.org/10.1007/s10098-021-02045-8.
+Dey, P., Ray, S., 2023. Valorization of waste vegetable oil-based blend fuels as 
+sustainable diesel replacement: comparison between blending with diesel versus 
+kerosene. Clean Techn. Environ. Policy 25, 661–674. https://doi.org/10.1007/ 
+s10098-021-02224-7.
+Diaz, L.F., Savage, G.M., Eggerth, L.L., 2005. Alternatives for the treatment and disposal 
+of healthcare wastes in developing countries. Waste Manag. 25 (6), 626–637. 
+https://doi.org/10.1016/j.wasman.2005.01.005.
+Fan, X., Peng, L., Wang, X., Han, S., Yang, L., Wang, H., Hao, C., 2022. Efficient capture 
+of lead ion and methylene blue by functionalized biomass carbon-based adsorbent 
+for wastewater treatment. Ind. Crop. Prod. 183, 114966. https://doi.org/10.1016/j. 
+indcrop.2022.114966.
+Friedericy, H.J., van Egmond, C.W., Vogtl¨ander, J.G., van der Eijk, A.C., Jansen, F.W., 
+2022. Reducing the environmental impact of sterilization packaging for surgical 
+instruments in the operating room: a comparative life cycle assessment of disposable 
+versus reusable systems. Sustainability 14 (1), 430. https://doi.org/10.3390/ 
+su14010430.
+Gallo, F., Fossi, C., Weber, R., Santillo, D., Sousa, J., Ingram, I., Nadal, A., Romano, D., 
+2018. Marine litter plastics and microplastics and their toxic chemicals components: 
+the need for urgent preventive measures. Environ. Sci. Europe 30, 13. https://doi. 
+org/10.1186/s12302-018-0139-z.
+Ghodrat, M., Rashidi, M., Samali, B., 2017. Life cycle assessments of incineration 
+treatment for sharp medical waste. In: Zhang, L., et al. Energy Technology 2017. The 
+Minerals, Metals & Materials Series. Springer, Cham.
+Gordon, I.O., Shrman, J.D., Leapman, M., Overcash, M., Thiel, C.L., 2021. Life cycle 
+greenhouse gas emissions of gastrointestinal biopsies in a surgical pathology 
+laboratory. Am. J. Clin. Pathol. 156 (4), 540–549. https://doi.org/10.1093/ajcp/ 
+aqab021.
+Guo, Y., Xia, X., Ruan, J., Wang, Y., Zhang, J., LeBlanc, G.A., Lihui, A.n., 2022. Ignored 
+microplastic sources from plastic bottle recycling. Sci. Total Environ. 838 (Pt 2), 
+156038. https://doi.org/10.1016/j.scitotenv.2022.156038.
+Hong, J., Zhan, S., Yu, Z., Hong, J., Qi, C., 2018. Life-cycle environmental and economic 
+assessment of medical waste treatment. J. Clean. Prod. 174, 65–73. https://doi.org/ 
+10.1016/j.jclepro.2017.10.206.
+Hossain, M.M., Alam, O., 2012. Existing scenario of solid waste management from 
+healthcare industry in Chittagong Metropolitan Area – A pictorial investigation. 
+Proceedings of International Conference on Industrial Waste Management and 
+Process Efficiency (IWMPE 2012), DUET, Gazipur, Bangladesh.
+Hossain, M.M., Alam, O., 2013. A deeper look into the inner factors associated to 
+healthcare waste management in Chittagong – the commercial capital of Bangladesh. 
+Proceedings Sardinia 2013, Fourteenth International Waste Management and 
+Landfill Symposium S. Margherita di Pula, Cagliari, Italy.
+Hossain, M.M., Alam, O., Uddin, M.S., 2013. Geographic distribution of healthcare 
+entities in Chittagong Metropolitan Area in relation to our quest for a climate 
+adaptive healthcare waste management system. International Conference on Climate 
+Change Impact and Adaptation (I3CIA-2013), DUET, Gazipur, Bangladesh.
+Janik-Karpinska, E., Brancaleoni, R., Niemcewicz, M., Wojtas, W., Foco, M., 
+Podogrocki, M., Bijak, M., 2023. Healthcare waste – a serious problem for global 
+health. Healthcare (Basel) 11 (2), 242. https://doi.org/10.3390/ 
+healthcare11020242.
+Ji, L., Wang, Y., Xie, Y., Xu, M., Cai, Y., Fu, S., Ma, L., Su, X., 2022. Potential life-cycle 
+environmental impacts of the COVID-19 nucleic acid test. Environ. Sci. Tech. 56 
+(18), 13398–13407. https://doi.org/10.1021/acs.est.2c04039.
+Klemes, J.J., Fan, Y.V., Tan, R.R., Jiang, P., 2020. Minimising the present and future 
+plastic waste, energy and environmental footprints related to COVID-19. Renew. 
+Sustain. Energy Rev. 127, 109883. https://doi.org/10.1016/j.rser.2020.109883.
+Kokalj, A.J., Dolar, A., Drobne, D., Skrlep, L., Skapin, A.S., Marolt, G., Nagode, A., van 
+Gestel, C.A.M., 2022. Effects of microplastics from disposable medical masks on 
+terrestrial invertebrates. J. Hazard. Mater. 438, 129440. https://doi.org/10.1016/j. 
+jhazmat.2022.129440.
+Kumar, H., Azad, A., Gupta, A., Sharma, J., Bherwani, H., Labhsetwar, N.K., Kumar, R., 
+2021. COVID‑19 creating another problem? Sustainable solution for PPE disposal 
+through LCA approach. Environ. Dev. Sustain. 23, 9418–9432. https://doi.org/ 
+10.1007/s10668-020-01033-0.
+Leiden, A., Cerdas, F., Noriega, D., Beyerlein, J., Herrmann, C., 2020. Life cycle 
+assessment of a disposable and a reusable surgery instrument set for spinal fusion 
+surgeries. Resour. Conserv. Recycl. 156, 104704. https://doi.org/10.1016/j. 
+resconrec.2020.104704.
+Li, C., Yuan, X., Sun, Z., Suvarna, M., Hu, X., Wang, X., Ok, Y.S., 2022. Pyrolysis of waste 
+surgical masks into liquid fuel and its life-cycle assessment. Bioresour. Technol. 346, 
+126582. https://doi.org/10.1016/j.biortech.2021.126582.
+Liu, H., Li, P., Zhang, T., Zhu, Y., Qiu, F., 2020. Fabrication of recyclable magnetic 
+double-base aerogel with waste bioresource bagasse as the source of fiber for the 
+enhanced removal of chromium ions from aqueous solution. Food Bioprod. Process. 
+119, 257–267. https://doi.org/10.1016/j.fbp.2019.11.010.
+Liu, E., Terumasa, T., 2022. Effects of applying recycled urban green waste compost 
+made from pruning materials to soil on the growth of plants. J. Soil Sci. Plant Nutr. 
+22, 1088–1097. https://doi.org/10.1007/s42729-021-00717-4.
+Liu, M., Wen, J., Feng, Y., Zhang, L., Wu, J., Wang, J., Yang, X., 2022. A benefit 
+evaluation for recycling medical plastic waste in China based on material flow 
+analysis and life cycle assessment. J. Clean. Prod. 368, 133033. https://doi.org/ 
+10.1016/j.jclepro.2022.133033.
+Lutterbeck, C.A., Colares, G.S., Dell’Osbel, N., da Silva, F.P., Kist, L.T., Machado, E.L., 
+2020. Hospital laundry wastewaters: a review on treatment alternatives, life cycle 
+assessment and prognosis scenarios. J. Clean. Prod. 273, 122851. https://doi.org/ 
+10.1016/j.jclepro.2020.122851.
+Maria, F.D., Mastrantonio, M., Uccelli, R., 2021. The life cycle approach for assessing the 
+impact of municipal solid waste incineration on the environment and on human 
+health. Sci. Total Environ. 776, 145785. https://doi.org/10.1016/j. 
+scitotenv.2021.145785.
+Matee, V.E., Manyele, S.V., 2015. Performance of a large-scale medical waste incinerator 
+in a referral hospital. Engineering 7, 676–690. https://doi.org/10.4236/ 
+eng.2015.710059.
+McAlister, S., Grant, T., McGain, F., 2021. An LCA of hospital pathology testing. Int. J. 
+Life Cycle Assess. 26, 1753–1763. https://doi.org/10.1007/s11367-021-01959-1.
+McAlister, S., McGain, F., Breth-Petersen, M., Story, D., Charlesworth, K., Ison, G., 
+Barratt, A., 2022. The carbon footprint of hospital diagnostic imaging in Australia. 
+Lancet Reg. Health – Western Pacific 24, 100459. https://doi.org/10.1016/j. 
+lanwpc.2022.100459.
+McPherson, B., Sharip, M., Grimmond, T., 2019. The impact on life cycle carbon 
+footprint of converting from disposable to reusable sharps containers in a large US 
+hospital geographically distant from manufacturing and processing facilities. PeerJ 
+7, e6204.
+Mu˜noz, I., Rodríguez, C., Gillet, D., Moerschbacher, B.M., 2018. Life cycle assessment of 
+chitosan production in India and Europe. Int. J. Life Cycle Assess. 23, 1151–1160. 
+https://doi.org/10.1007/s11367-017-1290-2.
+Nabavi-Pelesaraei, A., Mohammadkashi, N., Naderloo, L., Abbasi, M., Chau, K.-W., 2022. 
+Principal of environmental life cycle assessment for medical waste during COVID-19 
+outbreak to support sustainable development goals. Sci. Total Environ. 827, 154416. 
+https://doi.org/10.1016/j.scitotenv.2022.154416.
+Nordahl, S.L., Preble, C.V., Kirchstetter, T.W., Scown, C.D., 2023. Greenhouse gas and air 
+pollutant emissions from composting. Environ. Sci. Tech. 57 (6), 2235–2324. 
+https://doi.org/10.1021/acs.est.2c05846.
+Piekarska, K., Sikora, M., Owczarek, M., J´ozwik-Pruska, J., Wisniewska-Wrona, M., 
+2023. Chitin and chitosan as polymers of the future-obtaining, modification, life 
+cycle assessment and main directions of application. Polymers 15, 793. https://doi. 
+org/10.3390/polym15040793.
+Qing, S., Wang, H., Wu, Z., Zhao, P., 2006. Life cycle assessment on incineration of 
+medical waste in Kunming. J. Wuhan Univ. Technol. 28 (7), 55–58.
+Rehman, A., Zhong, S., Du, D.L., Zheng, X.J., Arif, M.S., Ijaz, S., Farooq, M.R., 2025. 
+Unveiling the microplastics degradation and its transformative effects on soil 
+nutrient dynamics and plant health – a systematic review. Sust. Prod. Consumpt. 54, 
+25–42. https://doi.org/10.1016/j.spc.2024.12.018.
+Salami, L., Popoola, L.T., 2000. A comprehensive review of atmospheric air pollutants 
+assessment around landfill sites. Air Soil Water Res. 16, 1–17. https://doi.org/ 
+10.1177/11786221221145379.
+Shan, C., Pandyaswargo, A.H., Onoda, H., 2023. Environmental impact of plastic 
+recycling in terms of energy consumption: a comparison of Japan’s mechanical and 
+chemical recycling technologies. Energies 16, 2199. https://doi.org/10.3390/ 
+en16052199.
+Shen, M., Hu, T., Huang, W., Song, B., Qin, M., Yi, H., Zeng, G., Zhang, Y., 2021. Can 
+incineration completely eliminate plastic wastes? an investigation of microplastics 
+X. Zheng et al.                                                                                                                                                                                                                                   Waste Management 204 (2025) 114932 
+20 
+
+=== PDF PAGE 21 ===
+and heavy metals in the bottom ash and fly ash from an incineration plant. Sci. Total 
+Environ. 779, 146528. https://doi.org/10.1016/j.scitotenv.2021.146528.
+Silva, A.L.P., Prata, J.C., Duarte, A.C., Soares, A.M.V.M., Barcelo, D., Rocha-Santos, T., 
+2021. Microplastics in landfill leachates: the need for reconnaissance studies and 
+remediation technologies. Case Stud. Chem. Environ. Eng. 3, 100072. https://doi. 
+org/10.1016/j.cscee.2020.100072.
+Snigdha, H.M., Bandyopadhyay, S., 2023. Environmental footprints of disposable and 
+reusable personal protective equipment – a product life cycle approach for body 
+coveralls. J. Clean. Prod. 394, 136166. https://doi.org/10.1016/j. 
+jclepro.2023.136166.
+Sonibare, O.O., Adeniran, J.A., Bello, I.S., 2019. Landfill air and odour emissions from an 
+integrated waste management facility. J. Environ. Health Sci. Eng. 17, 13–28. 
+https://doi.org/10.1007/s40201-018-00322-1.
+Song, M., Zheng, W., Wang, S., 2017. Measuring green technology progress in large-scale 
+thermoelectric enterprises based on malmquist–luenberger life cycle assessment. 
+Resour. Conserv. Recycl. 122, 261–269. https://doi.org/10.1016/j. 
+resconrec.2017.03.001.
+Soares, S.R., Finotti, A.R., da Silva, V.P., Alvarenga, R.A., 2013. Applications of life cycle 
+assessment and cost analysis in health care waste management. Waste Manag. 33 
+(1), 175–183. https://doi.org/10.1016/j.wasman.2012.09.021.
+Stapleton, M.J., Ansari, A.J., Ahmed, A., Hai, F.I., 2023. Evaluating the generation of 
+microplastics from an unlikely source: the unintentional consequence of the current 
+plastic recycling process. Sci. Total Environ. 902, 166090. https://doi.org/10.1016/ 
+j.scitotenv.2023.166090.
+Suzuki, G., Uchida, N., Tuyen, L.H., Tanaka, K., Matsukami, H., Kunisue, T., 
+Takahashi, S., Viet, P.H., Kuramochi, H., Osako, M., 2022. Mechanical recycling of 
+plastic waste as a point source of microplastic pollution. Environ. Pollut. 303, 
+119114. https://doi.org/10.1016/j.envpol.2022.119114.
+Thiel, C.L., Eckelman, M., Guido, R., Huddleston, M., Landis, A.E., Sherman, J., 
+Shrake, S.O., Copley-Woods, N., Bilec, M.M., 2015. Environmental impacts of 
+surgical procedures: life cycle assessment of hysterectomy in the United States. 
+Environ. Sci. Tech. 49 (3), 1779–1786. https://doi.org/10.1021/es504719g.
+Türkmen, B.A., 2022. Life cycle environmental impacts of disposable medical masks. 
+Environ. Sci. Pollut. Res. 29, 25496–25506. https://doi.org/10.1007/s11356-021- 
+17430-5.
+Twomey, J., 2011. Life cycle for engineering the healthcare service delivery of imaging. 
+Wichita State University, Wichita, Industrial and Manufacturing Engineering.
+Voudrias, E.A., 2023. Management of COVID-19 healthcare waste based on the circular 
+economy hierarchy: a critical review. Waste Manag. Res. 42 (11), 977–996. https:// 
+doi.org/10.1177/0734242X231198424.
+Wang, J., Shen, J., Ye, D., Yan, X., Zhang, Y., Yang, W., Li, X., Wang, J., Zhang, L., 
+Pan, L., 2020. Disinfection technology of hospital wastes and wastewater: 
+suggestions for disinfection strategy during coronavirus disease 2019 (COVID-19) 
+pandemic in China. Environ. Pollut. 262, 114665. https://doi.org/10.1016/j. 
+envpol.2020.114665.
+Woods, J.S., Verones, F., Jolliet, O., Vazquez-Rowe, I., Boulay, A.-M., 2021. A framework 
+for the assessment of marine litter impacts in life cycle impact assessment. Ecol. Ind. 
+129, 107918. https://doi.org/10.1016/j.ecolind.2021.107918.
+Yang, Z., Lu, F., Zhang, H., Wang, W., Shao, L., Ye, J., He, P., 2021. Is incineration the 
+terminator of plastics and microplastics? J. Hazard. Mater. 401, 123429. https://doi. 
+org/10.1016/j.jhazmat.2020.123429.
+Yin, K., Wei, R., Ruan, J., Cui, P., Zhu, Z., Wang, Y., Zhao, X., 2023. Life cycle assessment 
+and life cycle cost analysis of surgical mask from production to recycling into 
+hydrogen process. Energy 283, 129225. https://doi.org/10.1016/j. 
+energy.2023.129225.
+Yousef, S., Eimontas, J., Stasiulaitiene, I., Zakarauskas, K., Stri¯ugas, N., 2022. Pyrolysis of 
+all layers of surgical mask waste as a mixture and its life-cycle assessment. Sust. 
+Prod. Consump. 32, 519–531. https://doi.org/10.1016/j.spc.2022.05.011.
+Zahoor, Madadi, M., Nazar, M., Shah, S.W.A., Li, N., Imtiaz, M., Zhong, Z., Zhu. D., 2023. 
+Green alkaline fractionation of sugarcane bagasse at cold temperature improves 
+digestibility and delignification without the washing processes and release of 
+hazardous waste. Ind. Crops Prod. 200 (Part A), 116815. doi: 10.1016/j. 
+indcrop.2023.116815.
+Zhao, W., van der Voet, E., Huppes, G., Zhang, Y., 2009a. Comparative life cycle 
+assessments of incineration and non-incineration treatments for medical waste. Int. 
+J. Life Cycle Assess. 14, 114–121. https://doi.org/10.1007/s11367-008-0049-1.
+Zhao, L., Zhang, F.-S., Wang, K., Zhu, J., 2009b. Chemical properties of heavy metals in 
+typical hospital waste incinerator ashes in China. Waste Manag. 29 (3), 1114–1121. 
+https://doi.org/10.1016/j.wasman.2008.09.003.
+Zhao, H., Liu, H., Wei, G., Wang, H., Zhu, Y., Zhang, R., Yang, Y., 2021a. Comparative 
+life cycle assessment of emergency disposal scenarios for medical waste during the 
+COVID-19 pandemic in China. Waste Manag. 126, 388–399. https://doi.org/ 
+10.1016/j.wasman.2021.03.034.
+Zhao, H., Wang, L., Liu, F., Liu, H., Zhang, N., Zhu, Y., 2021b. Energy, environment and 
+economy assessment of medical waste disposal technologies in China. Sci. Total 
+Environ. 796, 148964. https://doi.org/10.1016/j.scitotenv.2021.148964.
+Zhao, X., Klemes, J.J., Saxon, M., You, F., 2022. How sustainable are the biodegradable 
+medical gowns via environmental and social life cycle assessment? J. Clean. Prod. 
+380 (Part 2), 135153. https://doi.org/10.1016/j.jclepro.2022.135153.
+Zhao, X., You, F., 2022. Life cycle assessment of microplastics reveals their greater 
+environmental hazards than mismanaged polymer waste losses. Environ. Sci. Tech. 
+56 (16), 11780–11797. https://doi.org/10.1021/acs.est.2c01549.
+Zhao, X., You, F., 2023. Cascading polymer macro-debris upcycling and microparticle 
+removal as an effective life cycle plastic pollution mitigation strategy. Environ. Sci. 
+Tech. 57 (16), 6506–6519. https://doi.org/10.1021/acs.est.2c08686.
+Zhang, G., Huang, X., Liao, W., Kang, S., Ren, M., Hai, J., 2019. Measurement of dioxin 
+emissions from a small-scale waste incinerator in the absence of air pollution 
+controls. Int. J. Environ. Res. Public Health 16 (7), 1267. https://doi.org/10.3390/ 
+ijerph16071267.
+Zhang, K., Hamidian, A.H., Tubi´c, A., Zhang, Y., Fang, J.K.H., Wu, C., Lam, P.K.S., 2021. 
+Understanding plastic degradation and microplastic formation in the environment: a 
+review. Environ. Pollut. 274, 116554. https://doi.org/10.1016/j. 
+envpol.2021.116554.
+Zheng, X., Javed, Z., Liu, C., Tanvir, A., Sandhu, O., Liu, H., Ji, X., Xing, C., Lin, H., Du, D. 
+L., 2024a. MAX-DOAS and in-situ measurements of aerosols and trace gases over 
+Dongying, China: insight into ozone sensitivity based on Secondary HCHO. 
+J. Environ. Sci. 135, 656–668. https://doi.org/10.1016/j.jes.2022.09.014.
+Zheng, X., Lin, H., Du, D.L., Li, G., Alam, O., Cheng, Z., Liu, X., Jiang, S., Li, J., 2024b. 
+Remediation of heavy metals polluted soil environment: a critical review on 
+biological approaches. Ecotoxicol. Environ. Saf. 284, 116883. https://doi.org/ 
+10.1016/j.ecoenv.2024.116883.
+Zhong, S., Dai, L., Xu, H., Yang, X.-C., Zheng, X., Wang, S., 2024a. Highly porous carbon 
+with selective transformation of nitrogen groups boosts the capacitive performance 
+through boric acid template assisted strategy. J. Storage Mater. 97, 112867. https:// 
+doi.org/10.1016/j.est.2024.112867.
+Zhong, S., Dai, L., Xu, H., Yuan, C., Wang, S., 2024b. Biomorphic porous carbon derived 
+from reed with enriched oxygen-functional groups for high-performance 
+supercapacitors. Diam. Relat. Mater. 141, 110714. https://doi.org/10.1016/j. 
+diamond.2023.110714.
+Zhou, L., Zhang, Y., Chen, T., Yun, J., Zhao, M., Zabed, H.M., Zhang, C., Qi, X., 2024. 
+Metabolic remodulation of chassis and corn stover bioprocessing to unlock 3- 
+hydroxypropionic acid biosynthesis from agrowaste-derived substrates. J. Agric. 
+Food Chem. 72 (5), 2536–2546. https://doi.org/10.1021/acs.jafc.3c08419.
+X. Zheng et al.                                                                                                                                                                                                                                   Waste Management 204 (2025) 114932 
+21 

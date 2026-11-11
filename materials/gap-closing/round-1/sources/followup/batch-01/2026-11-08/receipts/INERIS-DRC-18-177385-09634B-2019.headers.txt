@@ -1,0 +1,27 @@
+HTTP/2 302 
+cache-control: no-cache
+content-type: text/html
+date: Sat, 07 Nov 2026 23:11:38 GMT
+expires: Sat, 07 Nov 2026 23:11:37 GMT
+location: /sites/default/files/contribution/Documents/INERIS-DRC-18-177385-09634B.pdf
+traceresponse: 00-18e5e62afccbc68c5c951cef11b20c8c-f1c1102a10ff83c9-01
+x-debug-info: eyJyZXRyaWVzIjowfQ==
+x-platform-cluster: ntd4d5kf3cz7u-main-bvxea6i
+x-platform-router: srwvyvuyi6rns57dvh6kejc46a
+content-length: 138
+
+HTTP/2 200 
+cache-control: max-age=300
+content-type: application/pdf
+date: Sat, 07 Nov 2026 23:11:39 GMT
+etag: W/"5cf7b674-300831"
+expires: Sat, 07 Nov 2026 23:16:39 GMT
+last-modified: Wed, 05 Jun 2019 12:32:52 GMT
+traceresponse: 00-18e5e62b0a22f4b54682b221670f5700-3d682bc8aafa198f-01
+vary: Accept-Encoding
+x-debug-info: eyJyZXRyaWVzIjowfQ==
+x-platform-cache: MISS
+x-platform-cluster: ntd4d5kf3cz7u-main-bvxea6i
+x-platform-processor: vxxww2zynmy5kylqmm225vj2ce
+x-platform-router: srwvyvuyi6rns57dvh6kejc46a
+

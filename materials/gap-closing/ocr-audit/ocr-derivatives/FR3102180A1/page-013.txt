@@ -1,0 +1,79 @@
+[01401
+
+[0141]
+
+[0142]
+
+[0143]
+
+[0144]
+
+[0145]
+
+[0146]
+
+[0147]
+
+[0148]
+
+[0149]
+
+[01501
+[0151]
+
+[0152]
+
+12
+
+rométhane, le perchloroéthylène, le trichloréthylène et le chloroforme, ou l’utilisation
+de solution aqueuse comme l’eau.
+
+On comprend ainsi que l’état supercritique du dioxyde de carbone crée des propriétés
+de transports très efficaces pour la dépollution des fibres, et notamment des fibres
+d’acétate de cellulose présentes dans les filtres de cigarette, sans les endommager.
+
+Pour le dioxyde de carbone, le diagramme de phase de la figure 1 montre que le point
+critique P. correspond à une température critique T. supérieure ou égale à 31°Celsius et
+une pression critique P. supérieure ou égale à environ 73.85 bars.
+
+En faisant varier ces paramètres correctement au-delà de ces valeurs critiques
+(31°Celsius et 73.85 bars), il est possible d’amener le dioxyde de carbone à un état su-
+percritique et d’obtenir un nettoyage très efficace.
+
+Avant de procéder au nettoyage à proprement parler, le procédé selon la présente
+invention comprend une étape de collecte SO.
+
+Cette étape de collecte S0 peut impliquer aussi bien les particuliers que les asso-
+ciations, les collectivités, les entreprises et tous les autres acteurs de collecte.
+
+Il s’agit d’un acte citoyen pour une démarche environnementale. Tous les acteurs ci-
+dessus pourront être engagés dans une telle démarche.
+
+Dans l’exemple décrit ici, on prévoit en outre une suite d’opérations de traitement
+des mégots lors d’une phase P1 dont notamment une étape de tri S1_1 pour séparer les
+mégots de cigarette des éventuels autres déchets, une étape de broyage S1_2, et une
+étape de tamisage S1_3 qui pourront être répétées plusieurs fois, afin d’extraire un
+maximum de tabac, cendre, et feuille.
+
+En fonction du lot reçu, une étape de friction S1_3, une étape de tamisage SI_4 et
+une étape de cyclonage S1_5 pourront également être ajoutées ou non.
+
+La succession de ces différentes étapes en phase PI vise principalement à séparer les
+fibres de cigarette à dépolluer des autres déchets tels que par exemple les feuilles de
+cigarette, les cendres, le tabac.
+
+On notera que, dans l’exemple décrit ici, seules les fibres des filtres contenant
+notamment de l’acétate de cellulose sont conservées pour la phase de dépollution P2,
+les autres déchets étant utilisés lors d’une phase pour la réalisation de compost.
+
+Un tel compost est réalisé par exemple selon une autre filière.
+
+Dans l’exemple de réalisation décrit ici, les différentes étapes de traitement sont
+réalisées par l’installation qui comprend une chaîne de production comprenant
+notamment une cuve de traitement (non représentée ici) mettant en œuvre un broyeur,
+un tamiseur et/ou des moyens de cyclonage et/ou de friction (non représentés ici).
+
+On comprend que l’installation 200 ne comprend pas nécessairement cette chaîne de
+production ; celle-ci pourra être déportée sur un autre site (traitement réalisé par de la
+
+sous-traitance par exemple).

@@ -1,0 +1,42 @@
+10
+
+414
+
+ENSAIO (unidade) RESULTADO
+graus Shopper (°SR) 46
+Gramatura (g/m°?) 71,14 (1,98)
+Espessura (mm) 0,173 (0,004)
+Alvura (%) 54,16 (0,20)
+
+Resistência à traçäo (KN/m) 0,80 (0,08)
+indice de traçäo (KNm/kg) 11,22 (1,83)
+Alongamento (%) 1,91(0,23)
+Nota: os nümeros entre parênteses referem-se ao desvio padräo
+
+Exemplo 2:
+
+Cozinhando-se durante 3 horas uma massa de 467 g de aparas residuais
+de produçäo industrial de filtros de acetato de celulose em 15 L de uma soluçäo
+aquosa de NaOH 1%, numa faixa de temperatura compreendida entre 75 a 85°C,
+obteve-se uma massa de celulose. Esta massa foi refinada em moinho Jokro,
+durante 25 minutos, sendo apôs determinado o grau Shopper, que é uma medida
+da extensäo da refinaçäo. Além disto, a partir desta amostra formou-se folhas, em
+formador TAPPI, que foram submetidas aos seguintes ensaios, usualmente
+efetuados em papel: gramatura, espessura, alvura, resistência à traçäo e
+alongamento, sendo os resultados mostrados na Tabela 2.
+
+Tabela 2 — Propriedades fisicas determinadas para os papeis preparados com a
+polpa obtida no exemplo 2.
+
+ENSAIO (unidade) RESULTADO
+graus Shopper (°SR) 15
+Gramatura (g/m°) 77,3 (1.7)
+Espessura (mm) 0,239 (0,020)
+Alvura (%) 84,61 (0,24)
+
+Resistêéncia à traçäo (kN/m) | 0,40 (0,04)
+indice de traçäo (kKNm/kg) | 4,95 (0,87)
+
+Alongamento (%) 1,42 (0,31)
+Nota: os nümeros entre parênteses referem-se ao desvio padräo
+

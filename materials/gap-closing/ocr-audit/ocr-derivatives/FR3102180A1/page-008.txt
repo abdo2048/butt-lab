@@ -1,0 +1,54 @@
+nettoyée (ou dépolluée) obtenue à l’issue d’une mise en œuvre d’un procédé de
+nettoyage tel que celui décrit ci-dessus.
+
+[0075] Une telle fibre ainsi dépolluée peut être réutilisée pour de nombreuses applications
+notamment dans le domaine du bâtiment, de l’habillement et tout autre domaine
+pouvant exploiter cette fibre.
+
+[0076]  L’objet de la présente invention concerne selon un troisième aspect une installation
+de nettoyage de mégots de cigarette comprenant :
+
+- une cuve de traitement configurée pour traiter les mégots afin d’en extraire des
+fibres à dépolluer ; et
+
+- des moyens de dépollution configurés pour dépolluer les fibres par une mise en
+contact de celles-ci avec un fluide dense sous pression (de préférence un fluide à l’état
+supercritique, dit fluide supercritique).
+
+[0077] Dans un mode de réalisation préféré, les moyens de dépollution comprenant une ou
+plusieurs chambres de nettoyage de type autoclave.
+
+[0078] De préférence, un tel autoclave est capable de résister à des hautes voire très hautes
+pressions.
+
+[0079] La capacité de la chambre peut par exemple varier de 0,2L à 1500L, cependant celle-
+cin’est pas limitée.
+
+[0080] Avantageusement, l'installation comporte des moyens de type buses, canalisations et/
+ou vannes afin d’injecter le fluide supercritique dans la ou les chambres.
+
+[0081] Avantageusement, la chambre peut s’étendre verticalement ou horizontalement.
+
+[0082] On notera que l’inclinaison verticale de la chambre facilite le chargement/dé-
+chargement et assure une bonne propagation du fluide (dioxyde de carbone) dans les
+fibres à dépolluer.
+
+[0083] De préférence, une porte hermétique verrouille chacune des chambres de nettoyage.
+
+[0084] De préférence, les buses et canalisations d’entrée et de sortie du fluide de la chambre
+de nettoyage sont munies de grilles à fin cadrillage, dites grilles filtrantes, afin de
+retenir les fines particules de fibres lors de l’évacuation du fluide transportant les
+substances indésirables. De telles grilles évitent que les fines fibres soient transportées
+pendant le nettoyage et se retrouvent avec les résidus indésirables extraits à la sortie.
+
+[0085] De préférence, l’installation comprend un réservoir contenant un fluide (à l’état
+liquide), ledit réservoir étant relié à ladite chambre de nettoyage.
+
+[0086] Un tel fluide est de préférence destiné à être amené à l’état supercritique.
+
+[0087] Avantageusement, l’installation comprend des moyens de chauffe et des moyens de
+mise sous pression, commandables par une unité centrale, configurés respectivement
+pour chauffer le fluide jusqu’à une température supercritique déterminée et comprimer
+le fluide jusqu’à une pression supercritique déterminée, ladite unité centrale dé-
+
+terminant les température et pression supercritiques en fonction du fluide.

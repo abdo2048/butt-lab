@@ -1,0 +1,43 @@
+suivantes.
+[0077] [Tableaux3]
+
+Propriétés mécaniques Valeur Unité Norme
+Module d’Young à 20°C 1590 MPa ISO 527-1/2
+(Imm/min)
+
+Contrainte Maximum à 20°C 33 MPa ISO 527-1/2
+(50mm/min)
+
+Déformation à rupture à 20°C 4 % ISO 527-1/2
+(50mm/min)
+
+Choc Charpy entaillé à 20°C 1,8 Kj/m°? ISO 179/1eA
+Propriétés physiques Valeur Unité Norme
+Densité à 20°C 1,36 g/cm° ISO 1183
+Dureté 20°C à 30s 71 Shore D ISO 868
+Taux de cendre 8,5 D ISO 3451/A
+
+[0078] Exemple 4 de composite selon l’invention
+
+[00791 Matériau composite à base de résine polybutylène succinate adipate (PBSA) com-
+postable comprenant 30% de filtres recyclés selon le procédé de l’invention avec les
+propriétés suivantes.
+
+[0080] [Tableaux4]
+
+Propriétés mécaniques Valeur Unité Norme
+Module d’Young à 20°C 780 MPa ISO 527-1/2
+(Imm/min)
+
+Contrainte Maximum à 20°C 16,5 MPa ISO 527-1/2
+(50mm/min)
+
+Déformation à rupture à 20°C 18 Z ISO 527-1/2
+(50mm/min)
+
+Choc Charpy entaillé à 20°C 3,8 Kj/m? ISO 179/1eA
+Propriétés physiques Valeur Unité Norme
+Densité à 20°C 1,31 g/cm° ISO 1183
+Dureté 20°C à 30s 59 Shore D ISO 868
+Taux de cendre 7,0 V2 ISO 3451/A
+

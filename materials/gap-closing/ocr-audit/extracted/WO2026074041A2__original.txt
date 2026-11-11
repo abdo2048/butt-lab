@@ -1,0 +1,1058 @@
+=== PDF FILE: WO2026074041A2__original.pdf ===
+sha256: cba344782e0f09de45d7262bcc5eca6a44f6bc256ee81593c99bb25925d71a0c
+pages: 29
+printed_page_labels: PDF p.1=printed 1, PDF p.2=printed 2, PDF p.3=printed 3, PDF p.4=printed 4, PDF p.5=printed 5, PDF p.6=printed 6, PDF p.7=printed 7, PDF p.8=printed 8, PDF p.9=printed 9, PDF p.10=printed 10, PDF p.11=printed 11, PDF p.12=printed 12, PDF p.13=printed 13, PDF p.14=printed 14, PDF p.15=printed 15, PDF p.16=printed 16, PDF p.17=printed 17, PDF p.18=printed 18, PDF p.19=printed 19, PDF p.20=printed 20, PDF p.21=printed 21, PDF p.22=printed 22, PDF p.23=printed 23, PDF p.24=printed 24, PDF p.25=printed 25, PDF p.26=printed 26, PDF p.27=printed 27, PDF p.28=printed 28, PDF p.29=printed 29
+
+=== PDF PAGE 1 ===
+(12) NACH DEM VERTRAG ÜBER DIE INTERNATIONALE ZUSAMMENARBEIT AUF DEM GEBIET DES
+PATENTWESENS (PCT) VERÖFFENTLICHTE INTERNATIONALE ANMELDUNG
+(19) Weltorganisation für geistiges Eigentum
+Internationales Büro
+(43) Internationales Veröffentlichungsdatum
+09. April 2026 (09.04.2026)
+WIPOIPCT
+(10) Internationale Veröffentlichungsnummer
+WO 2026/074041 A2
+(51) Internationale Patentklassifikation:
+Nicht klassifiziert
+(21) Internationales Aktenzeichen: PCT/EP2025/078253
+(22) Internationales Anmeldedatum:
+01. Oktober 2025 (01.10.2025)
+(25) Einreichungssprache:
+(26) Veröffentlichungssprache:
+Deutsch
+Deutsch
+(30) Angaben zur Priorität:
+10 2024 128 362.9
+01. Oktober 2024 (01.10.2024) DE
+(71) Anmelder: CERDIA INTERNATIONAL GMBH
+[CH/CH]; Allschwilerstrasse 10, 4055 Basel (CH).
+(72) Erfinder: HUDINA, Josef; Güterstr. 126, 4053 Basel
+(CH). SCHÜTZ, Eckart; Heuweilerweg 4, 79194 Gundel-
+fingen (DE). HOLTER, Dirk; Brunnenstr. 3, 79312 Em-
+mendingen (DE).
+(74) Anwalt: TRINKS, Ole; Postfach 102605 (Bahnhofstraße
+18 1/2, 86150 Augsburg), 86016 Augsburg (DE).
+(81) Bestimmungsstaaten (soweit nicht anders angegeben, für
+jede verfügbare nationale Schutzrechtsart): AE, AG, AL,
+AM, AO, AT, AU, AZ, BA, BB, BG, BH, BN, BR, BW, BY,
+BZ, CA, CH, CL, CN, CO, CR, CU, CV, CZ, DE, DJ, DK,
+DM, DO, DZ, EC, EE, EG, ES, FI, GB, GD, GE, GH, GM,
+GT, HN, HR, HU, ID, IL, IN, IQ, IR, IS, IT, JM, JO, JP, KE,
+KG, KH, KN, KP, KR, KW, KZ, LA, LC, LK, LR, LS, LU,
+LY, MA, MD, MG, MK, MN, MU, MW, MX, MY, MZ, NA,
+NG, NI, NO, NZ, OM, PA, PE, PG, PH, PL, PT, QA, RO,
+RS, RU, RW, SA, SC, SD, SE, SG, SK, SL, ST, SV, SY, TH,
+TJ, TM, TN, TR, TT, TZ, UA, UG, US, UY, UZ, VC, VN,
+WS, ZA, ZM, ZW.
+(84) Bestimmungsstaaten (soweit nicht anders angegeben, für
+jede verfügbare regionale Schutzrechtsart): ARIPO (BW,
+CV, GH, GM, KE, LR, LS, MU, MW, MZ, NA, RW, SC,
+SD, SL, ST, SZ, TZ, UG, ZM, ZW), eurasisches (AM, AZ,
+BY, KG, KZ, RU, TJ, TM), europäisches (AL, AT, BE, BG,
+CH, CY, CZ, DE, DK, EE, ES, FI, FR, GB, GR, HR, HU,
+IE, IS, IT, LT, LU, LV, MC, ME, MK, MT, NL, NO, PL, PT,
+RO, RS, SE, SI, SK, SM, TR), OAPI (BF, BJ, CF, CG, CI,
+CM, GA, GN, GQ, GW, KM, ML, MR, NE, SN, TD, TG).
+(54) Title: METHOD AND SYSTEM FOR RECOVERING CELLULOSE ACETATE FROM CELLULOSE ACETATE-CON-
+TAINING POST-CONSUMER MOUTHPIECES AND/OR POST-CONSUMER FILTERS, IN PARTICULAR HT PRODUCTS
+(54) Bezeichnung: VERFAHREN UND ANLAGE ZUM RÜCKGEWINNEN VON CELLULOSEACETAT
+AUS CELLULOSEACETATHALTIGEN POST-CONSUMER-MUNDSTÜCKEN UND/ODER POST-CONSUMER-FILTERN
+INSBESONDERE VON HT-PRODUKTEN
+(57) Abstract: The invention relates to a method for recovering cellulose acetate
+from cellulose acetate-containing post-consumer mouthpieces and/or post-consumer
+filters, in particular from HT products. In the method, the post-consumer mouth-
+pieces and/or post-consumer filters, which are used as starting material, are first me-
+chanically pretreated in order to at least partially remove and/or separate foreign sub-
+stances and/or foreign bodies from the starting material. Subsequently, the pretreated
+starting material is cleaned by means of a treatment using a cleaning agent in such
+a way that at least partially remaining impurities are washed off and/or washed out
+and/or extracted from the pretreated starting material. Optionally, the cleaning agent
+can be recovered, in particular by means of a distillation process.
+0.
+2.
+3.
+WO 2026/074041 A2
+(57) Zusammenfassung: Die Erfindung betrifft ein Verfahren zum Rückgewinnen
+von Celluloseacetat aus celluloseacetathaltigen Post-Consumer-Mundstücken und/
+oder Post-Consumer-Filtern insbesondere von HT-Produkten. Bei dem Verfahren
+werden die als Ausgangsmaterial dienenden Post-Consumer-Mundstücke und/oder
+Post-Consumer-Filter zunächst mechanisch vorbehandelt, um zumindest teilweise
+Fremdstoffe und/oder Fremdkörper von dem Ausgangsmaterial zu entfernen und/
+oder zu separieren. Anschließend erfolgt eine Reinigung vorbehandelten Ausgangs-
+materials durch Behandlung mit einem Reinigungsmittel derart, dass zumindest teil-
+weise verbliebene Verunreinigungen aus dem vorbehandelten Ausgangsmaterial ab-
+und/oder ausgewaschen und/oder extrahiert werden. Optional kann das Reinigungs-
+mittel wiedergewonnen werden, insbesondere durch Destillation.
+4
+FIG. 1
+[Fortsetzung auf der nächsten Seite]
+
+
+=== PDF PAGE 2 ===
+WO 2026/074041 A2
+Veröffentlicht:
+ohne internationalen Recherchenbericht und erneut zu
+veröffentlichen nach Erhalt des Berichts (Regel 48 Absatz
+2 Buchstabe g)
+
+
+=== PDF PAGE 3 ===
+WO 2026/074041
+1
+PCT/EP2025/078253
+VERFAHREN UND ANLAGE ZUM RÜCKGEWINNEN VON CELLULOSEACETAT AUS
+CELLULOSEACETATHALTIGEN POST-CONSUMER-MUNDSTÜCKEN UND/ODER
+POST-CONSUMER-FILTERN INSBESONDERE VON HT-PRODUKTEN
+Beschreibung
+Die vorliegende Erfindung betrifft allgemein das stoffliche Wiederverwenden von
+celluloseacetathaltigen Materialien.
+Insbesondere betrifft die Erfindung eine Anlage sowie ein Verfahren zum stoffli-
+5 chen Wiederverwenden von celluloseacetathaltigen Mundstücken und/oder Filtern
+insbesondere von HT-Produkten (HT = heated tobacco).
+Bei der Herstellung und dem Vertrieb von Mundstücken für Tabakerzeugnisse,
+insbesondere Filter für Zigaretten oder Mundstücke für HT-Produkte, spielt die
+Produktverantwortung eine zunehmend höhere Bedeutung. Die Produktverantwor-
+tung umfasst sowohl die Entwicklung als auch die Herstellung und das in Verkehr
+bringen von Erzeugnissen. Das Ziel ist, dass sie ressourcenarm hergestellt, mehr-
+fach verwendbar, technisch langlebig und nach Gebrauch zur ordnungsgemäßen,
+schadlosen und hochwertigen Verwertung sowie zur umweltverträglichen Beseiti-
+10
+15 gung geeignet sind.
+Die erste Priorität in der Hierarchie des Kreislaufwirtschaftsrechts ist und bleibt
+die Vermeidung. Das Weglassen von Verpackungsmaterialien, das Minimieren von
+eingesetzten Ressourcen und die Wiederverwendung sparen am meisten Geld,
+sind also für den Hersteller auch ökonomisch vorzugswürdig. Die zweite Priorität
+besteht in der möglichst hochwertigen Verwertung - dem Recycling.
+20
+25
+Mit einer geeigneten Kreislaufwirtschaftsstrategie kann insbesondere der Klima-
+wandel minimiert und eine bessere ökologische Nachhaltigkeit erreicht werden,
+indem der kontinuierliche Verlust der biologischen Vielfalt durch die zunehmende
+Verschmutzung und andere Umweltbelastungen vermieden wird. Diese Strategie,
+
+
+=== PDF PAGE 4 ===
+WO 2026/074041 PCT/EP2025/078253
+2
+die von der Europäischen Kommission im März 2020 angenommen wurde, ist ein
+wichtiger Meilenstein des so genannten „Europäischen Green Deal".
+5
+Dabei geht es insbesondere darum, industrielle bzw. gewerbliche Modelle zu kre-
+ieren, in denen Abfälle als angelegte Ressourcen betrachtet werden. Dies liefert
+nicht nur Kosteneinsparungen und Ertragssteigerungen, sondern kann auch zur
+Schaffung neuer lokaler Arbeitsplätze beitragen.
+10 von celluloseacetathaltigen Mundstücken und/oder Filtern insbesondere von HT-
+Produkten. Jährlich fallen über 700.000 Tonnen an verwendeten Filtern und/oder
+Mundstücken von Tabakerzeugnissen an. Problematisch bei dem stofflichen Wie-
+derverwenden dieser Abfälle ist, dass diese aus unterschiedlichen miteinander
+verbundenen Materialien bestehen, und gemäß dem Verwendungszweck Verunrei-
+15 nigungen enthalten, die zudem giftig sein können.
+20 gerechtes Wiederverwenden insbesondere von Celluloseacetat zu ermöglichen.
+Ziel ist es, die zur Produktion verwendeten Materialien in einem Werkstoffkreis-
+lauf zu halten, so dass aus einem Produkt nach der Entsorgung wieder neue Ma-
+terialien entstehen können. Dieses Ziel soll durch eine entsprechend konzipierte
+Anlage und Recyclingprozesse erzielt werden.
+25
+Somit betrifft die Erfindung insbesondere ein Verfahren zum Rückgewinnen von
+Celluloseacetat aus celluloseacetathaltigen Post-Consumer-Mundstücken und/oder
+Post-Consumer-Filtern insbesondere von HT-Produkten. Das Verfahren betrifft je-
+doch nicht ausschließlich Post-Consumer-Mundstücke und/oder Post-Consumer-
+30 Filter von HT-Produkten, sondern auch entsprechende Mundstücke oder Filter von
+„klassischen“ Rauchwaren, wie insbesondere Zigaretten.
+Die vorliegende Erfindung betrifft insbesondere das stoffliche Wiederverwenden
+Es besteht somit insbesondere ein Bedarf nach einer Lösung für ein Verfahren
+und eine Anlage zum stofflichen Wiederverwenden von celluloseacetathaltigen
+Mundstücken und/oder Filtern insbesondere von HT-Produkten, um ein recycling-
+35
+Bei dem erfindungsgemäßen Verfahren werden die als Ausgangsmaterial dienen-
+den Post-Consumer-Mundstücke und/oder Post-Consumer-Filter zunächst mecha-
+nisch vorbehandelt. Die mechanische Vorbehandlung ist derart ausgebildet, dass
+zumindest teilweise Fremdstoffe und/oder Fremdkörper von dem Ausgangsmate-
+rial entfernt und/oder separiert werden.
+
+
+=== PDF PAGE 5 ===
+WO 2026/074041
+3
+35
+PCT/EP2025/078253
+Anschließend erfolgt eine Reinigung des vorbehandelten Ausgangsmaterials.
+Hierzu wird das vorbehandelte Ausgangsmaterial mit einem Reinigungsmittel der-
+art behandelt, dass zumindest teilweise verblieben Verunreinigungen aus dem
+vorbehandelten Ausgangsmaterial ab- und/oder ausgewaschen und/oder extra-
+hiert werden.
+5
+Optional kann das Reinigungsmittel insbesondere durch Destillation wiedergewon-
+nen werden.
+10
+Die mechanische Vorbehandlung der als Ausgangsmaterial dienenden Post-Consu-
+mer-Mundstücke und/oder Post-Consumer-Filter erfolgt vorzugsweise derart, dass
+mindestens einer der folgenden Fremdstoffe und/oder Fremdkörper von dem Aus-
+gangsmaterial zumindest teilweise entfernt und/oder separiert wird:
+15 · Papier oder papierähnliches Material;
+· Metall, insbesondere in Gestalt von Heizelementen, wie Induktions-Metall-
+plättchen oder Heizdorne, und/oder in Gestalt von Heizbechern;
+· Klebstoffe; und
+· Tabak.
+20
+Insbesondere ist das erfindungsgemäße Verfahren zur Rückgewinnung von Cellu-
+loseacetat aus celluloseacetathaltigen Post-Consumer-Mundstücken und/oder
+Post-Consumer-Filtern geeignet, wobei diese Mundstücke oder Filter mindestens
+ein Celluloseacetat-Element aufweisen, welches mit einem Papier umhüllt ist.
+25
+Dabei erfolgt die mechanische Vorbehandlung insbesondere derart, dass das Pa-
+pier, welches das mindestens eine Celluloseacetat-Element umhüllt, aufgetrennt
+wird, insbesondere durch Aufschlitzen an einer oder mehreren Stellen bevorzugt
+in Längsrichtung des mindestens einen Celluloseacetat-Elements.
+30
+Insbesondere erfolgt die mechanische Vorbehandlung derart, dass durch eine ein-
+oder mehrfach gerichtete Luftströmung Fremdstoffe und/oder Fremdkörper zu-
+mindest teilweise von dem Celluloseacetat-Element oder den Celluloseacetat-Ele-
+menten separiert werden.
+
+
+=== PDF PAGE 6 ===
+WO 2026/074041 PCT/EP2025/078253
+4
+In einer Weiterbildung der zuletzt genannten Ausführungsvariante ist vorgesehen,
+dass vor der mechanischen Vorbehandlung die celluloseacetathaltigen Post-Con-
+sumer-Mundstücke und/oder Post-Consumer-Filter zwischen zwei oder mehreren
+Siebgittern angeordnet werden, deren Maschenweite so ausgewählt ist, dass die
+Celluloseacetat-Elemente und Fremdstoffe und/oder Fremdkörper der Post-Consu-
+mer-Mundstücke und/oder Post-Consumer-Filter nach der mechanischen Vorbe-
+handlung durch die Siebgitter räumlich getrennt und insbesondere nach Größe
+und Strömungswiderstand klassifiziert sind.
+5
+10 Besonders bevorzugt ist somit vorgesehen, dass zur mechanischen Vorbehand-
+lung die Post-Consumer-Mundstücke und/oder Post-Consumer-Filter oder Kompo-
+nenten hiervon derart einer ein- oder mehrfach gerichteten Luftströmung ausge-
+setzt werden, dass zumindest teilweise Fremdstoffe und/oder Fremdkörper von
+dem Celluloseacetat-Material der Post-Consumer-Mundstücke bzw. Post-Consu-
+mer-Filter separiert werden.15
+Besonders bevorzugt ist in diesem Zusammenhang vorgesehen, dass vor
+und/oder während der mechanischen Vorbehandlung durch die ein- oder mehr-
+fach gerichtete Luftströmung die Post-Consumer-Mundstücke und/oder Post-Con-
+sumer-Filter, insbesondere durch mechanische Aktoren, einer Walkbewegung aus-
+gesetzt werden, wobei ein Ablauf der Walkbewegung vorzugsweise derart gewählt
+wird, dass dieser zumindest im Wesentlichen dem Bewegungsablauf bei einer ma-
+nuellen Separierung entspricht.
+20
+25 Zum Reinigen des vorbehandelten Ausgangsmaterials kommt mindestens ein Rei-
+nigungsmittel zum Einsatz, welches geeignet ist, die verbliebenen Verunreinigun-
+gen in dem vorbehandelten Ausgangsmaterial zumindest teilweise ab- und auszu-
+waschen und/oder zu extrahieren.
+30 Besonders bevorzugt weist das Reinigungsmittel ein auf Wasser basierendes Rei-
+nigungsmittel auf oder ist ein auf Wasser basierendes Reinigungsmittel.
+Alternativ oder zusätzlich hierzu ist das Reinigungsmittel ein auf Kohlenwasser-
+stoff basierendes Reinigungsmittel bzw. weist das Reinigungsmittel ein auf Koh-
+lenwasserstoff basierendes Reinigungsmittel auf, welches vorzugsweise mindes-
+tens einen Alkohol, einen Carbonsäureester und/oder einen Ether aufweist.
+35
+
+
+=== PDF PAGE 7 ===
+WO 2026/074041
+5
+PCT/EP2025/078253
+Besonders bevorzugt ist oder weist das auf Kohlenwasserstoff basierende Reini-
+gungsmittel eines oder mehrere der folgenden Lösungsmittel auf: Methanol, Etha-
+nol, Isopropanol, Diethylether, Methylacetat, Ethylacetat, Isopropylyacetat und
+Butylacetat, insbesondere Methanol, Ethanol und/oder Isopropanol, besonders
+bevorzugt Methanol und/oder Ethanol.5
+Gemäß Realisierungen des erfindungsgemäßen Verfahrens wird nach dem Reini-
+gen des vorbehandelten Ausgangsmaterials mit dem Reinigungsmittel das Reini-
+gungsmittel zumindest teilweise und vorzugsweise vollständig von den abgewa-
+schenen und/oder extrahierten Verunreinigungen getrennt rückgewonnen, insbe-
+sondere durch Destillation. Vorzugsweise wird dabei das rückgewonnene Reini-
+gungsmittel wieder dem Verfahrensschritt der Reinigung zugeführt, insbesondere
+in einem geschlossenen Kreislauf.
+10
+15 Grundsätzlich ist es bevorzugt, dass der Anteil des noch im gereinigten
+Ausgangsmaterial verbleibenden Reinigungsmittels durch Trocknung reduziert
+wird, insbesondere auf einen Gehalt < 1 Gew .- % (bezogen auf die Gesamtmasse
+des Ausgangsmaterials), wobei das aus dem gereinigten Ausgangsmaterial
+entfernte Reinigungsmittel vorzugsweise wieder dem Verfahrensschritt der
+20 Reinigung zugeführt wird.
+Gemäß Weiterbildungen des erfindungsgemäßen Verfahrens ist vorgesehen, dass
+das gereinigte Ausgangsmaterials in ein Zwischenprodukt, insbesondere in Gestalt
+von Pellets, umgeformt wird.
+25
+In diesem Zusammenhang bietet es sich an, dass zum Umformen des gereinigten
+Ausgangsmaterials in ein Zwischenprodukt das gereinigte und aufbereitete
+Ausgangsmaterial in einer Pelletierpresse pelletiert und in Pellets umgewandelt
+wird, wobei die umgewandelten Pellets eine höhere Dichte als das
+30 Ausgangsmaterial aufweisen, und wobei zumindest zeitweise während des
+Pelletierens eine Kühlung des gereinigten und aufbereiteten Ausgangsmaterials,
+der Pellets und/oder von Material-Zwischenstufen erfolgt.
+35
+Insbesondere werden bei der Kühlung des gereinigten und aufbereiteten
+Ausgangsmaterials, der Pellets und/oder von Material-Zwischenstufen das
+gereinigte und aufbereitete Ausgangsmaterial, die Pellets und/oder die Material-
+
+
+=== PDF PAGE 8 ===
+WO 2026/074041 PCT/EP2025/078253
+6
+5
+Gemäß besonders bevorzugten Realisierungen des erfindungsgemäßen Verfahrens
+ist vorgesehen, dass das Pelletieren mittels eines Kollers und einer Matrize
+erfolgt, wobei die Matrize vorzugsweise aus einen thermisch leitfähigen Material
+ausgebildet ist und die Kühlung vorzugsweise über die Matrize erfolgt.
+10
+Vorzugsweise wird das rückgewonnene Celluloseacetat als Rezyklat zur
+Herstellung eines thermoplastischen Materials, vorzugsweise in Granulatform,
+verwendet.
+15
+20
+25
+Hierbei bietet es sich an, dass zum Kompartimentieren rückgewonnenen
+Celluloseacetatdieses als ein Sandwich-Gelege ausgeführt wird und insbesondere
+als ein Meldblow-Gelege, wobei die äußeren Lagen des Sandwich-Geleges aus
+frischem Fasermaterial, insbesondere Celluloseacetat-Material, bestehen oder
+30 entsprechendes frisches Fasermaterial aufweisen, während die mittleren Lagen
+aus dem rückgewonnenen Celluloseacetatbestehen oder das rückgewonnene
+Celluloseacetatt aufweisen.
+Zwischenstufen unter einer kritischen Temperatur gehalten, wobei die kritische
+Temperatur einer Verglasungstemperatur von Celluloseacetat entspricht.
+Alternativ hierzu wird das rückgewonnene Celluloseacetat insbesondere für Non-
+Woven-Anwendungen, beispielsweise für Luftfilter, oder thermisches
+Isoliermaterial, weiterverarbeitet.
+In diesem Zusammenhang bietet es sich an, dass das rückgewonnene
+Celluloseacetat zur Herstellung eines Bi-Komponentengeleges mit
+Sandwichgeometrie benutzt wird, wobei die Schichten abwechselnd aus dem
+rückgewonnenen Celluloseacetat und einem anderen Fasermaterial bestehen.
+Alternativ hierzu ist es denkbar, dass das rückgewonnene Celluloseacetat in
+einem anderen Material, insbesondere in frisches Celluloseacetat,
+kompartimentiert wird.
+35
+Die vorliegende Erfindung betrifft ferner ein Verfahren zur Herstellung eines
+thermoplastischen Rezyklats, wobei bei diesem Verfahren zunächst
+Celluloseacetat aus celluloseacetathaltigen Post-Consumer-Mundstücken und/oder
+
+
+=== PDF PAGE 9 ===
+WO 2026/074041 PCT/EP2025/078253
+7
+Post-Consumer-Filtern rückgewonnen wird, insbesondere nach einem Verfahren
+der zuvor beschriebenen Art.
+Anschließend erfolgt ein optionales Trocknen des rückgewonnenen
+5 Celluloseacetats.
+Danach wird das rückgewonnene und optional getrocknete Celluloseacetat in eine
+Kunststoffaufbereitungsanlage eingebracht, wobei das rückgewonnene und
+optional getrocknete Celluloseacetat als Hauptpolymermatrix in die
+10 Kunststoffaufbereitungsanlage eingebracht wird.
+Schließlich erfolgt ein Vermischen des rückgewonnenen und optional
+getrockneten Celluloseacetat mit wenigstens einem Weichmacher und optional
+weiteren funktionellen Additiven sowie wahlweise mit Fremd-Polymeren,
+15 insbesondere post-consumer, pre-consumer oder post-industrial Polymeren, in der
+Kunststoffaufbereitungsanlage.
+Bei Realisierungen des erfindungsgemäßen Verfahrens zur Herstellung eines
+thermoplastischen Rezyklats ist vorgesehen, dass nach dem Verfahrensschritt des
+20 Vermischens die in dem Verfahrensschritt des Vermischens erzielte Mischung
+insbesondere unter temperatur- und scheroptimierten Bedingungen derart
+homogenisiert wird, dass ein homogenisiertes Schmelzgemisch erhalten wird.
+Anschließend wird das homogenisierte Schmelzgemisch granuliert oder pelletiert,
+25 und zwar derart, dass ein verarbeitungsfähiges thermoplastisches Rezyklat in
+Granulatform erhalten wird.
+Schließlich wird das Rezyklat in mindestens einem Formgebungsverfahren
+verarbeitet. Bei dem Formgebungsverfahren handelt es sich beispielsweise um ein
+30 Extrusions-, Spritzgieß-, Blasform-, Spunbond- oder Meltblow-Verfahren.
+Als Weichmacher wird bei der Mischung insbesondere ein Citrat-, Adipat-
+und/oder Sebacat-Ester in einer Konzentration von vorzugsweise 5 - 45 Gew .- %
+bezogen auf das Gesamtpolymergemisch eingesetzt.
+35
+
+
+=== PDF PAGE 10 ===
+8
+Das Verhältnis von dem rückgewonnenen und optional getrockneten
+Celluloseacetat zu Fremd-Polymeren liegt insbesondere im Bereich von 30 : 70 bis
+90 : 10 Gew .- % (bezogen auf das Gesamtpolymergemisch).
+5 Gemäß Realisierungen des erfindungsgemäßen Verfahrens ist vorgesehen, dass
+zum Homogenisieren der in dem Verfahrensschritt des Vermischens erzielten
+Mischung die Mischung in einem Schmelzcompoundier-Aggregat vorzugsweise mit
+einem gleich- oder gegenläufigen Doppelschneckenextruder bearbeitet wird.
+10 Hierbei bietet es sich an, dass dem Schmelzcompoundier-Aggregat eine oder
+mehrere Entgasungszonen zugeordnet ist/sind, in der verbliebene Alkohol- und
+Wasserdämpfe und flüchtige Nebenprodukte unter Unterdruck aus der Mischung
+entfernt werden.
+15Besonders bevorzugt wird dem Rezyklat während des Compoundierens ein
+Antioxidations- und/oder UV-Stabilisierungssystem zugesetzt, um insbesondere
+Alterungsbeständigkeit bei der Zweitverwendung zu gewährleisten.
+Die Erfindung betrifft insbesondere auch ein thermoplastisches Rezyklat, welches
+20 nach einem Verfahren der zuvor genannten erfindungsgemäßen Art erhalten wird,
+wobei das Rezyklat einen Schmelzindex von 2 - 20 g/10 min (190 °C/2,16 kg)
+aufweist und mindestens zu 30 Gew .- % aus gereinigtem Celluloseacetat besteht.
+Ferner betrifft die Erfindung die Verwendung des zuvor genannten Rezyklats zur
+25 Herstellung von Verpackungsfolien, Spritzgussartikeln, Blasform-Hohlkörpern oder
+Vliesstoffen, wobei die so erhaltenen Produkte nach Gebrauch erneut einem
+werkstofflichen Recycling zuführbar sind.
+Schließlich betrifft die Erfindung eine Anlage zum Rückgewinnen von
+30 Celluloseacetat aus celluloseacetathaltigen Post-Consumer-Mundstücken und/oder
+Post-Consumer-Filtern sowie eine entsprechende Anlage zur Herstellung eines
+thermoplastischen Rezyklats.
+Einzelheiten der Erfindung werden nachfolgend weiter erläutert:
+35
+WO 2026/074041 PCT/EP2025/078253
+Mechanische Vorbehandlung (Pre-Treatment):
+
+
+=== PDF PAGE 11 ===
+WO 2026/074041
+9
+PCT/EP2025/078253
+Im Rahmen des erfindungsgemäßen Verfahrens werden die als Ausgangsmaterial
+dienenden Post-Consumer-Mundstücke und/oder Post-Consumer-Filter zunächst
+einer gezielten mechanischen Vorbehandlung unterzogen, um Fremdstoffe
+und/oder Fremdkörper wie Papier, Induktionsplättchen, Klebstoffe, Tabak und an-
+dere nicht erwünschte Bestandteile möglichst vollständig und sortenrein vom Cel-
+luloseacetat zu trennen. Hierbei ist es wesentlich, dass die Mundstücke und/oder
+Filter möglichst sauber und sortenrein eingesammelt werden. Eine Vorwäsche
+oder Zerkleinerung (z. B. Schreddern) des Materials findet dabei ausdrücklich
+5
+10 nicht statt.
+Die mechanische Vorbehandlung erfolgt vorzugsweise in mehreren, aufeinander
+abgestimmten Schritten: Zunächst werden die Filter mittels einer speziellen Vor-
+richtung oder in einer vollautomatisierten Handlingsanlage aufgeschlitzt, so dass
+das in der Regel aus Papier bestehende, die Celluloseacetat-Elemente umhüllende
+Material aufgetrennt wird. Dieses Auftrennen erfolgt vorzugsweise durch ein Auf-
+schlitzen, dies kann an verschiedenen Stellen erfolgen, insbesondere in Längs-
+richtung des zylindrischen Gebildes und an einer oder mehreren Stellen, bevor-
+zugt an zwei bis vier Stellen.
+15
+20
+Beim Aufschlitzen wird die Umhüllung der Celluloseacetat-Elemente nach Möglich-
+keit in Ihrer gesamten Dicke durchtrennt, während die Celluloseacetat-Elemente
+nicht durchtrennt werden, um nach einem Wegfall der Umhüllung möglichst Ihre
+Größe beizubehalten.
+25
+In einem weiteren Schritt werden die zuvor vereinzelt vorliegenden Mundstücke
+und/oder Filter zwischen zwei oder mehreren Siebgittern durch eine gerichtete
+Luftströmung weitgehend von anhaftenden Papier- und Tabakresten sowie ande-
+ren Fremdkörpern und Fremdstoffen befreit. Hierzu kommt Druckluft oder eine
+30 Luftgebläsevorrichtung mit feststehenden und variabel angeordneten Luftdüsen
+zum Einsatz. Die Luftströmung kann einfach oder mehrfach gerichtet sein. Dabei
+wird die Maschenweite der Siebgitter so ausgewählt, dass die Celluloseacetat-Ele-
+mente und die Fremdstoffe und/oder Fremdkörper nach der Vorbehandlung durch
+die Siebgitter räumlich getrennt, d.h. nach Größe und Strömungswiderstand klas-
+35 sifiziert, sind.
+
+
+=== PDF PAGE 12 ===
+WO 2026/074041 PCT/EP2025/078253
+10
+5 Fremdkörper führen und/oder diese in eine bessere Position zur Separierung mit
+Luftströmung bringen.
+10
+15
+Wie zahlreiche manuelle Versuche gezeigt haben, ist diese Vorgehensweise äu-
+ßerst effektiv, kostengünstig, leicht automatisierbar und liefert Ergebnisse, die in
+Bezug auf Sauberkeit und Sortenreinheit den bisher bekannten und/oder ange-
+dachten Alternativen wie dem Schreddern und/oder dem Waschen und Ablösen in
+wässrigen Medien deutlich überlegen sind. Dies zeigt sich insbesondere daran das
+signifikant weniger Tabakreste und andere Nicht-Celluloseacetat-Partikel in die
+Struktur der Celluloseacetat-Elemente eindringen, aus denen diese später kaum
+noch zu entfernen sind.
+20
+25 Waschprozess zugeführt.
+30
+Weiterer Prozessverlauf:
+35
+Vor oder während der mechanischen Vorbehandlung durch eine ein- oder mehr-
+fach gerichtete Luftströmung, können die Post-Consumer-Mundstücke und/oder
+Post-Consumer-Filter Walkbewegungen durch mechanischen Aktoren ausgesetzt
+werden, die bereits zu einem teilweisen Ablösen der Fremdstoffe und/oder
+Die Separierung der Bestandteile erfolgt vollautomatisch und beruht sowohl auf
+den hohen Scherkräften der Luftströmung als auch auf Druckschwankungen in-
+folge des Bernoulli-Effekts. Dadurch wird ein Unterdruck erzeugt, der Partikel zu-
+verlässig ablöst, deren Abtransport fördert und eine Wiederanhaftung an den Fil-
+terflächen verhindert.
+Die so zunächst rein mechanisch vereinzelten und gereinigten Celluloseacetat-Ele-
+mente werden anschließend dem nachfolgend beschriebenen Reinigungs- bzw.
+Das Endergebnis übertrifft in zahlreichen Versuchen alle bisherigen vergleichba-
+ren Methoden und kann mit überschaubarem Aufwand vollautomatisiert durch
+Vorrichtungen und Sondermaschinen für die regionale und lokale Rückgewinnung
+des wertvollen Biopolymers für die Serienproduktion erschlossen werden.
+Nach der mechanischen Vorbehandlung wird das aufbereitete Ausgangsmaterial
+von den an und im celluloseacetathaltigen Material verblieben Verunreinigungen
+gereinigt. Dabei kommt vorzugsweise eine Behandlung mit einem
+
+
+=== PDF PAGE 13 ===
+WO 2026/074041
+11
+PCT/EP2025/078253
+Reinigungsmittel zum Einsatz, das geeignet ist insbesondere die verbliebenen
+Verunreinigungen abzuwaschen oder zu extrahieren.
+Dies kann ein Reinigungsmittel auf wässriger Basis sein, aber auch ein auf
+Kohlenwasserstoff basierendes Reinigungsmittel, welches vorzugsweise einen
+Alkohol, einen Carbonsäureester oder einen Ether aufweist.
+5
+Bevorzugt weist das auf Kohlenwasserstoff basierende Reinigungsmittel eines
+oder mehrere der Lösungsmittel Methanol, Ethanol, Isopropanol, Diethylether,
+Methylacetat, Ethylacetat, Isopropylyacetat und Butylacetat auf, insbesondere
+Methanol, Ethanol und/oder Isopropanol, besonders bevorzugt Methanol und/oder
+Ethanol.
+10
+Die Reinigung kann dabei beispielsweise nach dem Verfahren einer kontinuierli-
+15chen Fest-Flüssig-Extraktion erfolgen.
+Die Verwendung eines nichtwässrigen Reinigungsmittels hat den Vorteil, dass bei
+der Rückgewinnung von Celluloseacetat aus celluloseacetathaltigen Post-Consu-
+mer-Mundstücken und/oder Post-Consumer-Filtern keine große Mengen kontami-
+20 nierten Wassers anfallen, dass sich nur aufwendig wieder reinigen lässt. Insbe-
+sondere ist es in diesem Zusammenhang denkbar, dass nach dem Behandeln des
+celluloseacetathaltigen Materials mit dem Reinigungsmittel dieses in einem ge-
+schlossenen Kreislauf, insbesondere durch Destillation, aufbereitet und wieder
+dem Rückgewinnungsprozess zugeführt wird.
+25
+Filter oder Mundstücke enthalten, wenn sie bereits verwendet wurden, je nach
+Tabakerzeugnis eine Vielzahl von chemischen Stoffen, die das Potential haben,
+krebserregend oder erbgutverändernd und damit hochgiftig zu sein. Einige dieser
+Stoffe sind beispielsweise Nikotin und seine Derivate, Phenole und polyzyklische
+30 aromatische Kohlenwasserstoffe (PAK).
+Von daher ist es notwendig, dass bei dem erfindungsgemäßen Verfahren eine
+entsprechende Aufbereitung/Reinigung stattfindet, damit das recycelte Material
+unbedenklich wiederverwendet werden kann, so dass insbesondere nicht mehr die
+genannten chemischen Stoffe austreten können.35
+
+
+=== PDF PAGE 14 ===
+WO 2026/074041 PCT/EP2025/078253
+12
+5
+Bei Bedarf wird das gereinigte Ausgangsmaterial für die weitere Verarbeitung in
+ein Zwischenprodukt umgeformt, wobei es sich bei dem Zwischenprodukt insbe-
+sondere um ein pelletförmiges Zwischenprodukt handelt.
+10 Nach der Reinigung wird das nach dem patentgemäßen Verfahren gewonnene
+sortenreine Celluloseacetat-Rezyklat vornehmlich für zwei Hauptanwendungen
+vorbereitet:
+15
+Das noch im gereinigten Ausgangsmaterial verbliebene Reinigungsmittel wird
+durch Trocknung reduziert, insbesondere auf einen Gehalt < 1 %, und das aus
+dem gereinigten Ausgangsmaterial entfernte Reinigungsmittel bevorzugt wieder
+dem Verfahrensschritt der Reinigung zugeführt wird.
+Hauptanwendung 1: Compoundierung - Aufbereitung zu einem Thermoplastischen
+Material in Granulatform, bestehend aus:
+20 Weichmachern, Additiven und Füllstoffen sowie Pre-Consumer und/oder
+Post-Industrial Celluloseacetat-Rezyklaten; und/oder
+25
+30
+Dabei wird das gereinigte Polymer kompoundiert, um ein reines, wiederverwert-
+bares Rezyklat herzustellen. Dies erfolgt bevorzugt durch einen kontinuierlichen
+Prozess wie der Extrusion, kann jedoch alternativ auch diskontinuierlich mittels
+eines Batch-Verfahrens erfolgen, bei dem das Material plastifiziert, die Polymer-
+schmelze homogenisiert und unter Zugabe von Zusatzstoffen kompoundiert wird.
+a) einem sortenreinen Post-Consumer Celluloseacetat-Rezyklat; und/oder
+b) einem sortenreinen Post-Consumer Celluloseacetat-Rezyklat unter
+Zugabe von Weichmachern, Additiven und Füllstoffen; und/oder
+c) einem Post-Consumer Celluloseacetat-Rezyklat unter Zugabe von
+d) einem Post-Consumer Celluloseacetat-Rezyklat unter Zugabe von
+Weichmachern, Additiven und Füllstoffen sowie frischem Cellulose
+Acetat; und/oder
+e) einem Post-Consumer Celluloseacetat-Rezyklat unter Zugabe von
+Weichmachern, Additiven und Füllstoffen sowie weiteren kompatiblem
+Polymeren, wobei vornehmlich Biopolymere Einsatz finden.
+
+
+=== PDF PAGE 15 ===
+WO 2026/074041
+13
+PCT/EP2025/078253
+Das resultierende Rezyklat hat ähnliche physikalische und chemische Eigenschaf-
+ten wie unter Verwendung eines frischen Celluloseacetats hergestellten Com-
+pounds. Daher ist das Rezyklat nahezu gleichwertig zu einem Compound basie-
+rend auf frischem Celluloseacetat für eine Vielzahl von Anwendungen geeignet.
+5
+Alternativ kann das gereinigte Polymer mit einer Mischung aus Weichmachern,
+Additiven und anderen kompatiblen Polymeren vermengt werden. Diese zusätzli-
+chen Materialien können entweder neu (frisch) oder ebenfalls wiedergewonnen
+sein. Durch die gezielte Auswahl und Dosierung dieser Zusatzstoffe wird ein neu-
+10 artiges Compound geschaffen, das spezifische Eigenschaften aufweist, die für Se-
+cond Life-Anwendungen optimiert sind, z.B. verbesserte Flexibilität, UV-Bestän-
+digkeit oder Schlagzähigkeit.
+15
+Das hergestellte Compound kann an die Anforderungen verschiedener Anwendun-
+gen angepasst werden, beispielsweise für den Einsatz in der Automobilindustrie,
+im Bauwesen oder in Konsumgütern. Dabei bleibt die Qualität des Ausgangsmate-
+rials durch das gesamte Verfahren hindurch erhalten, sodass das Rezyklat den
+technischen Anforderungen von Neuware entspricht.
+20 Der Compound kann mit den für thermoplastische Materialien üblichen Verfahren
+weiterverarbeitet werden. Dazu gehören Extrusion, Spritzgießen, Blasformen,
+Thermoformen, Rotationsformen, Kalanderverfahren, Pultrusion und 3D-Druck.
+25
+Hauptanwendung 2: Wiederverwendung von gereinigten Post- Consumer-Cellulo-
+seacetatfasern als Baustein und Fullstoff in nicht gewebten Sandwichstoffen:
+Alternativ zu oder zusätzlich zur Hauptanwendung 1 ist es aber auch möglich, das
+Ausgangsmaterial mit einem anderen Material, insbesondere in frisches Cellulose-
+acetat zu kompartimentieren. Das Bi-Komponentengelege weist eine Sandwich-
+Geometrie auf, wobei die Schichten abwechselnd aus dem frischen Material be-
+stehen und sich mit einer oder mehreren Lagen aus dem aufbereiteten Ausgangs-
+material abwechseln.
+30
+35
+Bei dieser Anwendung eignet sich das so erzielte Fasermaterial insbesondere für
+Non-Woven-Anwendungen, beispielsweise für Luftfilter, oder thermisches Isolier-
+material.
+
+
+=== PDF PAGE 16 ===
+WO 2026/074041 PCT/EP2025/078253
+14
+5
+Eine solche Kompartimentierung hat den Vorteil, dass das Ausgangsmaterial nicht
+oder nur geringfügig aufbereitet und insbesondere gereinigt werden muss.
+10
+Insbesondere ist es denkbar, ein insbesonderes Meltblown-Gelege beispielsweise
+für ein Non-Woven-Produkt, wie etwa für eine Filtermatte, als Sandwich-Gelege
+auszuführen, wobei die äußeren Lagen aus dem frischen Celluloseacetat-Material
+bestehen, während die mittlere Lage aus dem aufbereiteten Ausgangsmaterial be-
+steht.
+15 Gemäß Realisierungen des erfindungsgemäßen Verfahrens ist vorgesehen, dass
+das gereinigte Ausgangsmaterial in einer Pelletierpresse pelletiert und in Pellets
+umgewandelt wird. Diese Pellets dienen dann als Zwischenprodukt.
+20
+Die umgewandelten Pellets weisen insbesondere eine höhere Dichte als das Aus-
+gangsmaterial auf.
+25
+Das so gewonnene insbesondere pelletförmige Zwischenprodukt kann anschlie-
+Bend in ein Endprodukt weiterentwickelt werden.
+30
+Das erfindungsgemäße Verfahren bildet demzufolge ein sehr vorteilhaftes Recyc-
+ling von Bestandteilen von Zigaretten- oder HT-Abfällen bzw. Zigaretten- oder
+HT-Mundstück- und Filtermaterialien, bei dem praktisch das gesamte ursprünglich
+vorhandene Celluloseacetat in aufgereinigter Form wiedergewonnen wird.
+Anstelle eines Bi-Komponenten-Sandwichgeleges aus Post-Consumer-Fasern und
+Frischen Non-Woven-Lagen sind aber auch andere Kompartimentierungen des
+Ausgangsmaterials mit Pre-Consumer bzw. Post-Industrial Celluloseacetat-Gele-
+gen denkbar.
+In diesem Zusammenhang ist es von Vorteil, dass zumindest zeitweise während
+des Pelletierens eine Kühlung des gereinigten und aufbereiteten Ausgangsmateri-
+als, der Pellets und/oder von entsprechenden Material-Zwischenstufen erfolgt.
+35
+Die Erfindung betrifft ferner eine entsprechende Anlage zum Rückgewinnen von
+Celluloseacetat aus celluloseacetathaltigen Post-Consumer-Mundstücken und/oder
+Post-Consumer-Filtern insbesondere von HT-Produkten.
+
+
+=== PDF PAGE 17 ===
+WO 2026/074041
+15
+PCT/EP2025/078253
+Die erfindungsgemäße Anlage weist insbesondere eine Aufbereitungsstation
+mechanischen Vorbehandlung der als Ausgangsmaterial dienenden
+Celluloseacetat-haltigen Mundstücke und/oder Filter, um Fremdstoffe und/oder
+Fremdkörper von dem Ausgangsmaterial zu separieren und/oder zu entfernen,
+eine Reinigungsstation zum Reinigen des aufbereiteten Ausgangsmaterials, und
+gegebenenfalls eine Umformungsstation auf zum Umformen des gereinigten und
+aufbereiteten Ausgangsmaterials in ein Granulat.
+5
+Denkbar in diesem Zusammenhang ist es, dass die Aufbereitungsstation folgende
+10 Unterstation aufweist:
+eine Trennstation zum Separieren und/oder Entfernen von vorhandenem
+Papier und Klebstoffen, zum Separieren und/oder Entfernen von ggf. in dem
+Ausgangsmaterial vorhandenen Induktions-Metallplättchen und/oder zum
+Separieren und/oder Entfernen von ggf. in dem Ausgangsmaterial
+vorhandenen Tabakkontaminationen; und/oder15
+- eine Reinigungsstation; und/oder
+- eine Umformungsstation.
+Insbesondere ist die Reinigungsstation ausgebildet, das aufbereitete
+20 Ausgangsmaterial unter Verwendung eines Reinigungsmittels zu reinigen. In
+diesem Zusammenhang bietet es sich an, dass die Reinigungsstation ausgebildet
+ist, das aufbereitete Ausgangsmaterial unter Verwendung von einem
+Reinigungsmittel, insbesondere einem auf Kohlenwasserstoff basierendem
+Reinigungsmittel, welches einen Alkohol, einen Carbonsäureester oder einen
+25 Ether aufweist, zu reinigen. Bevorzugt weist das auf Kohlenwasserstoff
+basierende Reinigungsmittel eines oder mehrere der Lösungsmittel Methanol,
+Ethanol, Isopropanol, Diethylether, Methylacetat, Ethylacetat, Isopropylyacetat
+und Butylacetat auf, insbesondere Methanol, Ethanol und/oder Isopropanol,
+besonders bevorzugt Methanol und/oder Ethanol.
+30
+In einer Weiterbildung dieser Ausführungsvariante ist vorgesehen, dass die
+Anlage ferner eine Rückgewinnungseinrichtung aufweist, welche ausgebildet ist,
+nach dem Behandeln des Ausgangsmaterials mit dem Reinigungsmittel dieses in
+einem geschlossenen Kreislauf insbesondere durch Destillation aufzubereiten und
+35 wieder dem Rückgewinnungsverfahren zuzuführen.
+
+
+=== PDF PAGE 18 ===
+WO 2026/074041 PCT/EP2025/078253
+16
+Gemäß Realisierungen der erfindungsgemäßen Anlage weist die
+Umformungsstation mindestens eine Pelletierpresse auf, welche ausgebildet ist,
+das gereinigte und aufbereitete Ausgangsmaterial zu pelletieren und in Pellets
+umzuwandeln, wobei die umgewandelten Pellets eine höhere Dichte als das
+Ausgangsmaterial aufweisen, und wobei zumindest zeitweise während des
+Pelletierens eine Kühlung des gereinigten und aufbereiteten Ausgangsmaterials,
+der Pellets und/oder von Material-Zwischenstufen erfolgt.
+5
+10
+Nachfolgend wird unter Bezugnahme auf die beiliegenden Zeichnungen die Erfin-
+dung näher beschrieben.
+15
+20
+25
+30
+Anschließend wird im Verfahrensschritt 1 das bereitgestellte Material mechanisch
+vorbehandelt, um zumindest teilweise Fremdstoffe und Fremdkörper von dem
+Ausgangsmaterial zu entfernen bzw. zu separieren.
+35
+Es zeigen:
+FIG. 1 schematisch ein Ablaufdiagramm einer exemplarischen Ausführungs-
+form des erfindungsgemäßen Verfahrens zum Rückgewinnen von Cellu-
+loseacetat aus celluloseacetathaltigen Post-Consumer-Mundstücken
+und/oder Post-Consumer-Filtern; und
+FIG. 2 schematisch ein Ablaufdiagramm zur Erläuterung einer exemplarischen
+Ausführungsform des erfindungsgemäßen Verfahrens zur Herstellung
+eines thermoplastischen Rezyklats.
+In FIG. 1 ist schematisch ein Ablaufdiagramm zur Erläuterung einer exemplari-
+schen Ausführungsform des erfindungsgemäßen Verfahrens zum Rückgewinnen
+von Celluloseacetat aus celluloseacetathaltigen Post-Consumer-Mundstücken
+und/oder Post-Consumer-Filtern gezeigt.
+In dem ersten Verfahrensschritt werden die zu recycelnden celluloseacetathalti-
+gen Post-Consumer-Mundstücke bzw. Post-Consumer-Filter bereitgestellt (Verfah-
+rensschritt 0).
+
+
+=== PDF PAGE 19 ===
+17
+WO 2026/074041 PCT/EP2025/078253
+In dem dann folgenden Verfahrensschritt 2 wird das vorbehandelte Ausgangsma-
+terial durch Behandlung mit einem Reinigungsmittel derart gereinigt, dass zumin-
+dest teilweise verbliebene Verunreinigungen aus dem vorbehandelten Ausgangs-
+5
+material ab- und/oder ausgewaschen und/oder extrahiert werden.
+Anschließend kann das Reinigungsmittel wiedergewonnen werden, insbesondere
+durch Destillation (Verfahrensschritt 3).
+In FIG. 2 ist schematisch ein Ablaufdiagramm gezeigt zur Erläuterung einer
+10 exemplarischen Ausführungsform des erfindungsgemäßen Verfahrens zur Herstel-
+lung eines thermoplastischen Rezyklats.
+Zunächst wird Celluloseacetat aus celluloseacetathaltigen Post-Consumer-Mund-
+stücken und/oder Post-Consumer-Filtern rückgewonnen. Dies erfolgt vorzugs-
+15
+20
+weise mit einem Verfahren, wie es in dem Ablaufdiagramm gemäß FIG. 1 gezeigt
+ist (Verfahrensschritte 0 bis 3).
+Anschließend erfolgt ein optionales Trocknen des rückgewonnenen Cellulose-
+acetats (Verfahrensschritt 4).
+Danach wird das rückgewonnene und optional getrocknete Celluloseacetat in eine
+Kunststoffaufbereitungsanlage eingebracht und dort mit einem oder mehreren
+Weichmachern sowie gegebenfalls weiteren Zuschlagsstoffen wie Additiven, Ver-
+stärkungsmitteln oder Füllstoffen vermischt (Verfahrensschritt 5).
+25
+Nach dem Vermischen erfolgt eine Homogenisierung der Mischung derart, dass
+ein homogenisiertes Schmelzgemisch erhalten wird (Verfahrensschritt 6). Danach
+wird das homogenisierte Schmelzgemisch derart granuliert oder pelletiert, dass
+ein verarbeitungsfähiges thermoplastisches Rezyklat in Granulatform erhalten
+30 wird (Verfahrensschritt 7).
+Anschließend kann ein Verarbeiten des Rezyklats in mindestens einem Formge-
+bungsverfahren erfolgen.
+35 Die Erfindung ist nicht auf die in den Zeichnungen gezeigten Ablaufdiagramme
+beschränkt, sondern ergibt sich aus einer Zusammenschau sämtlicher hierin of-
+fenbarter Merkmale.
+
+
+=== PDF PAGE 20 ===
+PCT/EP2025/078253WO 2026/074041
+18
+VERFAHREN UND ANLAGE ZUM RÜCKGEWINNEN VON CELLULOSEACETAT AUS
+CELLULOSEACETATHALTIGEN POST-CONSUMER-MUNDSTÜCKEN UND/ODER
+POST-CONSUMER-FILTERN INSBESONDERE VON HT-PRODUKTEN
+Patentansprüche
+1. Verfahren zum Rückgewinnen von Celluloseacetat aus
+celluloseacetathaltigen Post-Consumer-Mundstücken und/oder Post-
+Consumer-Filtern insbesondere von HT-Produkten, wobei das Verfahren die
+folgenden Verfahrensschritte aufweist:
+5 mechanische Vorbehandlung der als Ausgangsmaterial dienenden Post-
+Consumer-Mundstücke und/oder Post-Consumer-Filter, um zumindest
+teilweise Fremdstoffe und/oder Fremdkörper von dem
+Ausgangsmaterial zu entfernen und/oder zu separieren;
+·Reinigen des vorbehandelten Ausgangsmaterials durch Behandlung mit
+10 einem Reinigungsmittel derart, dass zumindest teilweise verbliebene
+Verunreinigungen aus dem vorbehandelten Ausgangsmaterial ab-
+und/oder ausgewaschen und/oder extrahiert werden; und
+- optional Wiedergewinnen des Reinigungsmittels, insbesondere durch
+Destillation.
+15
+2. Verfahren nach Anspruch 1,
+wobei bei der mechanischen Vorbehandlung der als Ausgangsmaterial
+dienenden Post-Consumer-Mundstücke und/oder Post-Consumer-Filter
+mindestens einer der folgenden Fremdstoffe und/oder Fremdkörper von
+dem Ausgangsmaterial entfernt und/oder separiert wird:20
+· Papier oder papierähnliches Material;
+Metall, insbesondere in Gestalt von Heizelementen, wie Induktions-
+Metallplättchen oder Heizdorne, und/oder in Gestalt von Heizbechern;
+· Klebstoffe; und
+25 - Tabak.
+
+
+=== PDF PAGE 21 ===
+WO 2026/074041 PCT/EP2025/078253
+19
+3. Verfahren nach Anspruch 1 oder 2,
+wobei die celluloseacetathaltigen Post-Consumer-Mundstücke und/oder
+Post-Consumer-Filter mindestens ein Celluloseacetat-Element aufweisen,
+welches mit einem Papier umhüllt ist, wobei die mechanische
+5 Vorbehandlung derart erfolgt, dass das Papier, welches das mindestens
+eine Celluloseacetat-Element umhüllt, aufgetrennt wird, insbesondere
+durch Aufschlitzen an einer oder mehreren Stellen bevorzugt in
+Längsrichtung des mindestens einen Celluloseacetat-Elements.
+10
+15
+4. Verfahren nach einem der Ansprüche 1 bis 3 und insbesondere nach
+Anspruch 3, wobei die celluloseacetathaltigen Post-Consumer-Mundstücke
+und/oder Post-Consumer-Filter mindestens ein Celluloseacetat-Element
+aufweisen, welches mit einem Papier umhüllt ist, wobei die mechanische
+Vorbehandlung derart erfolgt, dass durch eine ein- oder mehrfach
+gerichtete Luftströmung Fremdstoffe und/oder Fremdkörper zumindest
+teilweise von dem Celluloseacetat-Element oder den Celluloseacetat-
+Elementen separiert werden.
+5. Verfahren nach Anspruch 4,
+20 wobei zur mechanischen Vorbehandlung mit Luftströmung die
+celluloseacetathaltigen Post-Consumer-Mundstücke und/oder Post-
+Consumer-Filter zwischen zwei oder mehreren Siebgittern angeordnet
+werden, deren Maschenweite so ausgewählt ist, dass die Celluloseacetat-
+Elemente und Fremdstoffe und/oder Fremdkörper nach der Vorbehandlung
+25
+30
+durch die Siebgitter räumlich getrennt und insbesondere nach Größe und
+Strömungswiderstand klassifiziert sind.
+6. Verfahren nach einem der Ansprüche 1 bis 5,
+wobei zur mechanischen Vorbehandlung die Post-Consumer-Mundstücke
+und/oder Post-Consumer-Filter oder Komponenten hiervon derart einer ein-
+oder mehrfach gerichteten Luftströmung ausgesetzt werden, dass
+zumindest teilweise Fremdstoffe und/oder Fremdkörper von dem
+Celluloseacetat-Material separiert werden.
+35
+
+
+=== PDF PAGE 22 ===
+WO 2026/074041 PCT/EP2025/078253
+20
+7. Verfahren nach Anspruch 6,
+wobei vor und/oder während der mechanischen Vorbehandlung durch die
+ein- oder mehrfach gerichtete Luftströmung die Post-Consumer-
+Mundstücke und/oder Post-Consumer-Filter, insbesondere durch
+5 mechanische Aktoren, einer Walkbewegung ausgesetzt werden, wobei ein
+Ablauf der Walkbewegung vorzugsweise derart gewählt wird, dass dieser
+zumindest im Wesentlichen dem Bewegungsablauf bei einer manuellen
+Separierung entspricht.
+10 8. Verfahren nach einem der Ansprüche 1 bis 7,
+wobei zum Reinigen des vorbehandelten Ausgangsmaterials mindestens ein
+Reinigungsmittel zum Einsatz kommt, dass geeignet ist, die verbliebenen
+Verunreinigungen zumindest teilweise ab- und auszuwaschen und/oder zu
+extrahieren.
+15
+9. Verfahren nach Anspruch 8,
+wobei das Reinigungsmittel ein auf Wasser basierendes Reinigungsmittel
+aufweist oder ist.
+20 10. Verfahren nach Anspruch 8 oder 9,
+wobei das Reinigungsmittel ein auf Kohlenwasserstoff basierendes
+Reinigungsmittel aufweist oder ist, welches vorzugsweise mindestens einen
+Alkohol, einen Carbonsäureester und/oder einen Ether aufweist.
+25 11. Verfahren nach Anspruch 10,
+wobei das auf Kohlenwasserstoff basierende Reinigungsmittel eines oder
+mehrere der folgenden Lösungsmittel ist oder eines oder mehrere der
+folgenden Lösungsmittel aufweist: Methanol, Ethanol, Isopropanol,
+Diethylether, Methylacetat, Ethylacetat, Isopropylyacetat und Butylacetat
+30 aufweist, insbesondere Methanol, Ethanol und/oder Isopropanol, besonders
+bevorzugt Methanol und/oder Ethanol.
+12. Verfahren nach einem der Ansprüche 1 bis 11,
+wobei nach dem Reinigen des vorbehandelten Ausgangsmaterials mit dem
+35 Reinigungsmittel das Reinigungsmittel zumindest teilweise und
+vorzugsweise vollständig getrennt von den abgewaschenen und/oder
+
+
+=== PDF PAGE 23 ===
+WO 2026/074041 PCT/EP2025/078253
+21
+extrahierten Verunreinigungen rückgewonnen wird, insbesondere durch
+Destillation.
+13. Verfahren nach Anspruch 12,
+5 wobei das rückgewonnene Reinigungsmittel wieder dem Verfahrensschritt
+der Reinigung zugeführt wird, insbesondere in einem geschlossenen
+Kreislauf.
+14. Verfahren nach Anspruch 1 bis 13,
+10 wobei der Anteil des noch im gereinigten Ausgangsmaterial verbleibenden
+Reinigungsmittels durch Trocknung reduziert wird, insbesondere auf einen
+Gehalt < 1 Gew .- %, und wobei das aus dem gereinigten Ausgangsmaterial
+entfernte Reinigungsmittel vorzugsweise wieder dem Verfahrensschritt der
+Reinigung zugeführt wird.
+15
+15. Verfahren nach einem der Ansprüche 1 bis 14,
+wobei das gereinigte Ausgangsmaterials in ein Zwischenprodukt,
+insbesondere in Gestalt eines Pellets, umgeformt wird.
+20
+25
+16. Verfahren nach Anspruch 15,
+wobei zum Umformen des gereinigten Ausgangsmaterials in ein
+Zwischenprodukt das gereinigte und aufbereitete Ausgangsmaterial in einer
+Pelletierpresse pelletiert und in Pellets umgewandelt wird, wobei die
+umgewandelten Pellets eine höhere Dichte als das Ausgangsmaterial
+aufweisen, und wobei zumindest zeitweise während des Pelletierens eine
+Kühlung des gereinigten und aufbereiteten Ausgangsmaterials, der Pellets
+und/oder von Material-Zwischenstufen erfolgt.
+17. Verfahren nach Anspruch 16,
+30 wobei bei der Kühlung des gereinigten und aufbereiteten Ausgangsmateri-
+als, der Pellets und/oder von Material-Zwischenstufen das gereinigte und
+aufbereitete Ausgangsmaterial, die Pellets und/oder die Material-Zwischen-
+stufen unter einer kritischen Temperatur gehalten werden, wobei die kriti-
+sche Temperatur einer Verglasungstemperatur von Celluloseacetat ent-
+35 spricht.
+
+
+=== PDF PAGE 24 ===
+WO 2026/074041 PCT/EP2025/078253
+22
+18. Verfahren nach Anspruch 16 oder 17,
+wobei das Pelletieren mittels eines Kollers und einer Matrize erfolgt, wobei
+die Matrize vorzugsweise aus einen thermisch leitfähigen Material ausgebil-
+det ist und die Kühlung vorzugsweise über die Matrize erfolgt.
+5
+19. Verfahren nach einem der Ansprüche 1 bis 18,
+wobei das rückgewonnene Celluloseacetat als Rezyklat zur Herstellung
+eines thermoplastischen Materials, vorzugsweise in Granulatform,
+verwendet wird.
+10
+20. Verfahren nach einem der Ansprüche 1 bis 18,
+wobei das rückgewonnene Celluloseacetat insbesondere für Non-Woven-
+Anwendungen, beispielsweise für Luftfilter oder für thermisches Isolierma-
+terial, weiterverarbeitet wird.
+15
+21. Verfahren nach Anspruch 20,
+wobei das rückgewonnene Celluloseacetat zur Herstellung eines Bi-Kompo-
+nentengeleges mit Sandwichgeometrie benutzt wird, wobei die Schichten
+abwechselnd aus dem rückgewonnenen Celluloseacetat und einem anderen
+20 Fasermaterial bestehen.
+22. Verfahren nach einem der Ansprüche 1 bis 18,
+wobei das rückgewonnene Celluloseacetat in einem anderen Material,
+insbesondere in frisches Celluloseacetat, kompartimentiert wird.
+25
+23. Verfahren nach Anspruch 22,
+wobei zum Kompartimentieren des rückgewonnenen Celluloseacetats die-
+ses als ein Sandwich-Gelege ausgeführt wird und insbesondere als ein
+Meltblown-Gelege, wobei die äußeren Lagen des Sandwich-Geleges aus fri-
+30 schem Fasermaterial, insbesondere Celluloseacetat-Material, bestehen oder
+frisches Fasermaterial, insbesondere Celluloseacetat-Material, aufweisen,
+während die mittlere Lage aus dem Rezyklat besteht oder das Rezyklat auf-
+weist.
+35 24. Verfahren zur Herstellung eines thermoplastischen Rezyklats, wobei das
+Verfahren folgende Verfahrensschritte aufweist:
+
+
+=== PDF PAGE 25 ===
+23
+WO 2026/074041 PCT/EP2025/078253
+Rückgewinnen von Celluloseacetat aus celluloseacetathaltigen Post-
+Consumer-Mundstücken und/oder Post-Consumer-Filtern insbeson-
+dere von HT-Produkten mit einem Verfahren nach einem der An-
+sprüche 1 bis 23;
+5
+10
+15
+- optional Trocknen des rückgewonnenen Celluloseacetats;
+- Einbringen des rückgewonnenen und optional getrockneten Cellulo-
+seacetats in eine Kunststoffaufbereitungsanlage, wobei das rückge-
+wonnene und optional getrocknete Celluloseacetat als Hauptpoly-
+mermatrix in die Kunststoffaufbereitungsanlage eingebracht wird;
+und
+Vermischen des rückgewonnenen und optional getrockneten Cellulo-
+seacetats mit wenigstens einem Weichmacher und optional weiteren
+funktionellen Additiven sowie wahlweise mit Fremd-Polymeren, ins-
+besondere Post-Consumer-, Pre-Consumer- oder Post-Industrial-Po-
+lymeren, in der Kunststoffaufbereitungsanlage.
+25. Verfahren nach Anspruch 24,
+wobei das Verfahren ferner folgende Verfahrensschritte nach dem Verfah-
+rensschritt des Vermischens aufweist:
+20
+25
+30
+- Homogenisieren der in dem Verfahrensschritt des Vermischens er-
+zielten Mischung insbesondere unter temperatur- und scheroptimier-
+ten Bedingungen derart, dass ein homogenisiertes Schmelzgemisch
+erhalten wird;
+Granulieren oder Pelletieren des homogenisierten Schmelzgemisches
+derart, dass ein verarbeitungsfähiges thermoplastisches Rezyklat in
+Granulatform erhalten wird; und
+Verarbeiten des Rezyklats in mindestens einem Formgebungsverfah
+ren insbesondere ausgewählt aus Extrusion, Spritzgießen, Blasfor-
+men, Spunbond- oder Meltblown-Technik zu Second-Life-Produkten.
+26.
+35
+Verfahren nach Anspruch 24 oder 25,
+wobei als Weichmacher ein Triglycerid, ein Citrat-, Adipat- und/oder
+Sebacat-Ester in einer Konzentration von 5 - 45 Gew .- % bezogen auf das
+Gesamtpolymergemisch eingesetzt wird.
+
+
+=== PDF PAGE 26 ===
+PCT/EP2025/078253WO 2026/074041
+24
+27. Verfahren nach einem der Ansprüche 24 bis 26,
+wobei das Verhältnis von dem rückgewonnenen und optional getrockneten
+Celluloseacetat zu Fremd-Polymeren im Bereich von 30 : 70 bis 90 : 10
+Gew .- % (bezogen auf das Gesamtpolymergemisch) liegt.
+5
+28.
+10
+Verfahren nach einem der Ansprüche 25 bis 27,
+wobei zum Homogenisieren der in dem Verfahrensschritt des Vermischens
+erzielten Mischung die Mischung in einem Schmelzcompoundier-Aggregat
+vorzugsweise mit einem gleich- oder gegenläufigen
+Doppelschneckenextruder bearbeitet wird.
+29.
+15
+Verfahren nach Anspruch 28,
+wobei dem Schmelzcompoundier-Aggregat eine oder mehrere
+Entgasungszonen zugeordnet ist/sind, in der verbliebene Alkohol- und
+Wasserdämpfe und flüchtige Nebenprodukte unter Unterdruck aus der
+Mischung entfernt werden.
+20
+25
+30. Verfahren nach einem der Ansprüche 25 bis 29,
+31.
+wobei dem Rezyklat während des Compoundierens ein Antioxidations-
+und/oder UV-Stabilisierungssystem zugesetzt wird, um insbesondere
+Alterungsbeständigkeit bei der Zweitverwendung zu gewährleisten.
+Thermoplastisches Rezyklat erhalten nach einem Verfahren gemäß einem
+der Ansprüche 24 bis 30, wobei das Rezyklat einen Schmelzindex von 2 -
+20 g/10 min (190 °℃/2,16 kg) aufweist und mindestens zu 40 Gew .- % aus
+gereinigtem Celluloseacetat besteht.
+30
+32. Verwendung des Rezyklats nach Anspruch 31 zur Herstellung von
+Verpackungsfolien, Spritzgussartikeln, Blasform-Hohlkörpern oder
+Vliesstoffen, wobei die so erhaltenen Produkte nach Gebrauch erneut
+einem werkstofflichen Recycling zuführbar sind.
+35
+33. Anlage zum Rückgewinnen von Celluloseacetat aus celluloseacetathaltigen
+Post-Consumer-Mundstücken und/oder Post-Consumer-Filtern insbesondere
+von HT-Produkten, wobei die Anlage ausgebildet ist, das Verfahren nach
+einem der Ansprüche 1 bis 23 auszuführen.
+
+
+=== PDF PAGE 27 ===
+WO 2026/074041
+25
+34. Anlage zur Herstellung eines thermoplastischen Rezyklats, wobei die
+Anlage ausgebildet ist, das Verfahren nach einem der Ansprüche 24 bis 30
+auszuführen.
+5
+PCT/EP2025/078253
+
+
+=== PDF PAGE 28 ===
+WO 2026/074041 PCT/EP2025/078253
+0
+1
+2
+3
+1/2
+FIG. 1
+
+
+=== PDF PAGE 29 ===
+--- OCR (pdftoppm 300dpi + Tesseract 5, lang=fra) ---
+WO 2026/074041 PCT/EP2025/078253
+2/2
+
+FIG. 2

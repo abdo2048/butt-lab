@@ -1,0 +1,45 @@
+[0071] [Tableaux1]
+
+Propriétés mécaniques Valeur Unité Norme
+Module d’Young à 20°C 1580 MPa ISO 527-1/2
+(Imm/min)
+
+Contrainte Maximum à 20°C 45 MPa ISO 527-1/2
+(50mm/min)
+
+Déformation à rupture à 20°C 17 % ISO 527-1/2
+(50mm/min)
+
+Choc Charpy entaillé à 20°C 3 Kj/m°? ISO 179/1eA
+Propriétés physiques Valeur Unité Norme
+Densité à 20°C 1,05 g/cn° ISO 1183
+Dureté 20°C à 30s 72 Shore D ISO 868
+Taux de cendre 2 Z ISO 3451/A
+
+[0072] Exemple 2 de composite selon l’invention
+[0073] Matériau composite à base de résine polyamide 11 (PA11) comprenant 30% de filtres
+
+recyclés selon le procédé de l’invention avec les propriétés suivantes.
+[0074] [Tableaux2]
+
+Propriétés mécaniques Valeur Unité Norme
+Module d’Young à 20°C 2040 MPa ISO 527-1/2
+(Imm/min)
+
+Contrainte Maximum à 20°C 48 MPa ISO 527-1/2
+(50mm/min)
+
+Déformation à rupture à 20°C 6 Z ISO 527-1/2
+(50mm/min)
+
+Choc Charpy entaillé à 20°C 2,9 Kj/m? ISO 179/1eA
+Propriétés physiques Valeur Unité Norme
+Densité à 20°C 1,13 g/cm° ISO 1183
+Dureté 20°C à 30s 75 Shore D ISO 868
+Taux de cendre 5,7 V2 ISO 3451/A
+
+[0075] Exemple 3 de composite selon l’invention
+
+[0076] Matériau composite à base de résine polybutylène succinate (PBS) compostable
+
+comprenant 30% de filtres recyclés selon le procédé de l’invention avec les propriétés
