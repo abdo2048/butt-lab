@@ -238,3 +238,63 @@ State after this entry: Stage 1/2 complete_scoped; Stage 3 complete_accepted; St
 complete_accepted; Stage 5 complete_scoped with operator review pending. No experiment
 authorized; this is desk synthesis, not experimental validation or a safety/legal
 opinion.
+
+## 2026-11-11: batch-01 gap-closing retrieval unit complete (post-Stage-5 extension)
+Actor: operator's coordinating assistant (Perplexity), coordinating retrieval
+executed by: Perplexity Deep Research session (2026-11-08), Arena browser agent
+(arena.ai, 2026-11-08), Arena local OCR/text audit (2026-11-08), operator EKB
+(ekb.eg) retrieval round (2026-11-10/11), and an Ask Brave web-search cross-check
+(2026-11-10). Underlying models not verified; no independent sign-off. No hashed
+packet payload file changed; no panel or judge run.
+
+Evidence location: separate private repo github.com/abdo2048/butt-materials, used
+during retrieval to avoid disturbing butt-lab. Folders: batch-01-gap-closing-2026-11-08/,
+gap-closing-round2/, "ai ocr output files/", extracted/, ocr-derivatives/ and root
+library PDFs. Consolidation copy into butt-lab materials/gap-closing/ was completed
+by the operator on 2026-11-12 (files uploaded to butt-lab; binary files cannot be
+pushed via the text-only GitHub connector).
+
+Outputs and closures (full record in state/workflow.yaml gap_closing section):
+- Round 1 (2026-11-08): 8 source PDFs; FR3066128B1 disclosure review vs J-H-01;
+  manual-and-ekb-retrieval-queue.md; STATE-UPDATES.patch (now SUPERSEDED by the
+  workflow gap_closing record; do not apply).
+- BR0305004B1 (UnB patent) obtained from Espacenet — D03 closed.
+- Round 2 browser crawl (public documents only; no login, forms, purchases or contact):
+  Keenat — INERIS 2017 and EVAPLUS re-hosted; guides form-gated and NOT downloaded;
+  no public full LCA exists. MéGo! — site publishes zero PDFs; the claimed ACV with
+critical review (2019-2020) is corroborated only by third parties (Pénestin council
+minutes 30/06/2025; Ouest-France); Bilan Carbone 2024 is organizational. Re-Cig —
+ISO 14001/45001 certificates, Albo Nazionale renewal, and the APPA Trento AUT
+including the End-of-Waste sub-annex (UNI 10667 criteria, DDC model, 100 t/a
+ceiling) obtained; per-lot DDCs and lab analyses remain at the company.
+- OCR/text audit of 34 PDFs (catalogue.csv, proposed-renames.csv,
+  extraction-problems.md). Operator then renamed files, removed four duplicate
+  pairs, and hand-corrected OCR for FR3110470A1, FR3102180A1, BR0305004B1
+  (page-001-edited.txt in each patent folder is the authoritative corrected text).
+- EKB literature round: Nongdren 2026 Waste Management 219:115553 cradle-to-grave
+  LCA; Nongdren 2024 JECE 12:114941; Kurmus & Mohajerani 2020 Waste Management
+  104:104-118; Torkashvand & Farzadkia 2019 ESPR 26:11618-11630; Schneider 2020
+  IJERPH 17:4705; Belzagui 2021 STOTEN microfibers; Toxics 2026 One Health
+  systematic review; STOTEN 2026 microplastics review. Plus Tchaomegot Collecte
+  patents FR3102076B3, FR3102075B1, FR3125946B1.
+- Review note gap-closing-round2/review-re-cig-AUT-end-of-waste.md (butt-materials
+  commit e2c5414): the Italian EoW gate contains no heavy-metal parameters; the
+  metals stop-condition is reinforced, not superseded.
+
+Decisions recorded: Korean article (DOI 10.1136/tc-2026-060135) closed as unobtainable
+without purchase (operator decision); MéGo! ACV closed as exists-but-not-public (no
+company contact authorized); Keenat closed as no public full LCA. Cross-cutting
+confirmation: no independent publicly available full LCA of a commercial
+butt-recycling process exists (Ask Brave, 2026-11-10).
+
+State changes: state/workflow.yaml updated (commit 57b5431) — gap_closing section
+added; STATE-UPDATES.patch superseded; next_action/pending_manual_action/checkpoint
+updated to operator review plus consolidation copy.
+
+State after this entry: Stage 1/2 complete_scoped; Stage 3/4 complete_accepted;
+Stage 5 complete_scoped with operator review pending; gap-closing retrieval unit
+complete_scoped. Remaining open work is M01-M08 (lab measurement), R01-R05
+(regulatory decisions incl. jurisdiction/product choice for standards), S01-S06
+(scale/cost/LCA) — future pilot/decision work, not desk-retrievable. No experiment
+authorized; this is retrieval and provenance recording, not experimental validation
+or a safety/legal opinion.
