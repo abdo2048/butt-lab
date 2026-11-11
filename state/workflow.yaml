@@ -6,30 +6,23 @@ current_stage: 5
 execution: file-directed; host must trigger/resume; no scheduler installed
 status: awaiting_manual
 next_action: >-
-  Gap-closing retrieval unit complete and consolidation copy into butt-lab complete
-  (materials/gap-closing/); operator reviews reports/final/batch-01-synthesis.md and
-  reports/final/validation-and-open-questions.md plus the gap-closing record; no
-  further stage is defined in the current workflow; no experiment authorized
+  Stage-5 synthesis accepted; batch-01 desk investigation closed. Batch-02 (method
+  landscape, deep-dive, invention) may be planned separately; it is not authorized by
+  this acceptance. No experiment authorized.
 pending_manual_action: >-
-  Stage-5 desk synthesis is complete and the post-Stage-5 gap-closing retrieval unit is
-  complete, with the consolidation copy of butt-materials evidence into butt-lab
-  (materials/gap-closing/) completed on 2026-11-12. Pending manual action: operator
-  reviews the two final reports (reports/final/batch-01-synthesis.md and
-  reports/final/validation-and-open-questions.md) and the gap-closing record in this
-  file. No further stage is defined in the current workflow; batch-01 investigation is
-  complete pending operator review. No experiment authorized.
+  Stage-5 desk synthesis accepted by operator; batch-01 desk investigation closed.
+  Batch-02 (method landscape, deep-dive, invention) may be planned separately; it is
+  not authorized by this acceptance. No experiment authorized.
 checkpoint:
-  unit: Stage-5 batch-01 desk synthesis and post-Stage-5 gap-closing retrieval unit
+  unit: Stage-5 batch-01 desk synthesis accepted; batch-01 closed
   completed_in_this_unit:
     - reports/final/batch-01-synthesis.md
     - reports/final/validation-and-open-questions.md
     - gap-closing evidence, catalogue and review notes in butt-materials (see gap_closing section)
     - consolidation copy of butt-materials evidence into butt-lab materials/gap-closing/ (completed 2026-11-12)
-  remaining: Operator review/acceptance of Stage-5 reports and gap-closing record; no further stage defined in the current workflow
-  next_action: Operator reviews the two final reports and the gap_closing record
-  last_actor: >-
-    operator's coordinating assistant (Perplexity); gap-closing retrieval by Arena
-    browser agent, Arena local OCR audit, operator EKB retrieval, Ask Brave cross-check
+  remaining: Batch-01 desk investigation closed. Batch-02 may be planned separately; not authorized by this acceptance. No experiment authorized.
+  next_action: Batch-02 planning (method landscape, deep-dive, invention) may proceed as a separate operator decision; not authorized by this acceptance
+  last_actor: operator (human), edits applied by the operator's coordinating assistant (Perplexity)
   last_run: '2026-11-12'
   retrieval_calls_used: 0
   retrieval_ceiling: 24
@@ -161,11 +154,23 @@ stages:
   5:
     role: synthesizer
     mode: single-auto
-    status: complete_scoped
+    status: complete_accepted
     outputs_required:
       - reports/final/batch-01-synthesis.md
       - reports/final/validation-and-open-questions.md
     gate: Accepted panels, no blocking decision; desk synthesis, not experimental validation
+    operator_acceptance:
+      accepted: true
+      statement: >-
+        OPERATOR DECISION: ACCEPT STAGE 5 SYNTHESIS AND CLOSE BATCH-01 DESK INVESTIGATION.
+        I accept reports/final/batch-01-synthesis.md and reports/final/validation-and-open-questions.md as the completed desk synthesis for batch-01, round-01, built on the accepted Stage-3 and Stage-4 panels (packet v1.1 / payload commit 5f484b585ca16dbd2ce93b56c61c962f5f14c774 and packet v1.0 / payload commit 671de7c045385dade4b8f26c7b1680a2cc3a809c respectively).
+        I accept the synthesis's findings as scoped desk conclusions: no recycling family is proven clean, detoxified, safe, commercially validated, or environmentally superior; J-H-01 remains an unvalidated judge hypothesis and the preferred revision target; F3 is preserved as the strongest minority alternative; the metals stop-condition remains in force.
+        I note the post-Stage-5 gap-closing retrieval unit (recorded in state/workflow.yaml gap_closing section, evidence in butt-materials, consolidation copy in butt-lab materials/gap-closing/) as completed supporting work for this acceptance: it closed the document gaps (D03, D07 Keenat/MéGo!/Korean, D08 Re-Cig EoW) and confirmed that no independent public full LCA of a commercial butt-recycling process exists.
+        I do not authorize any experiment. Accepting this synthesis is a desk-record decision, not experimental validation, safety approval, novelty determination, or deployment authorization.
+        Batch-01 is hereby closed as a desk investigation. A new cycle (batch-02) may be planned separately; it is not authorized by this acceptance.
+    blocking_decisions: []
+    revision_rounds_used: 0
+    revision_round_limit: 2
 gap_closing:
   unit: batch-01 document-gap closing (post-Stage-5 retrieval extension)
   status: complete_scoped
