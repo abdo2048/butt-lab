@@ -1,26 +1,37 @@
 version: 2
-updated: '2026-11-07'
+updated: '2026-11-11'
 base_commit: fda66af351a37d38287792ed3b578a258eedf7fc
 batch: batch-01
 current_stage: 5
 execution: file-directed; host must trigger/resume; no scheduler installed
 status: awaiting_manual
-next_action: Stage-5 synthesis complete (complete_scoped); operator reviews reports/final/batch-01-synthesis.md and reports/final/validation-and-open-questions.md; no further stage is defined in the current workflow; no experiment authorized
+next_action: >-
+  Gap-closing retrieval unit complete (see gap_closing section); operator reviews
+  reports/final/batch-01-synthesis.md and reports/final/validation-and-open-questions.md
+  plus this gap-closing record; consolidation copy of butt-materials evidence into
+  butt-lab pending; no further stage is defined in the current workflow; no experiment
+  authorized
 pending_manual_action: >-
-  Stage-5 desk synthesis is complete. Pending manual action: operator reviews the two
-  final reports (reports/final/batch-01-synthesis.md and
-  reports/final/validation-and-open-questions.md). No further stage is defined in the
+  Stage-5 desk synthesis is complete and the post-Stage-5 gap-closing retrieval unit is
+  complete. Pending manual actions: (1) operator reviews the two final reports
+  (reports/final/batch-01-synthesis.md and reports/final/validation-and-open-questions.md)
+  and the gap-closing record in this file; (2) operator performs the consolidation copy
+  of butt-materials evidence into butt-lab (materials/gap-closing/) since binary files
+  cannot be pushed via the text-only GitHub connector. No further stage is defined in the
   current workflow; batch-01 investigation is complete pending operator review. No
   experiment authorized.
 checkpoint:
-  unit: Stage-5 batch-01 desk synthesis and validation/open-questions report
+  unit: Stage-5 batch-01 desk synthesis and post-Stage-5 gap-closing retrieval unit
   completed_in_this_unit:
     - reports/final/batch-01-synthesis.md
     - reports/final/validation-and-open-questions.md
-  remaining: Operator review of Stage-5 synthesis; no further stage defined in the current workflow
-  next_action: Operator reviews the Stage-5 synthesis and validation/open-questions reports; no further stage is defined
-  last_actor: Stage-5 synthesizer (Perplexity Deep Research); displayed model not recorded; underlying model not verified
-  last_run: '2026-11-07'
+    - gap-closing evidence, catalogue and review notes in butt-materials (see gap_closing section)
+  remaining: Operator review/acceptance of Stage-5 reports and gap-closing record; consolidation copy of butt-materials evidence into butt-lab; no further stage defined in the current workflow
+  next_action: Operator reviews the two final reports and the gap_closing record, then performs the consolidation copy
+  last_actor: >-
+    operator's coordinating assistant (Perplexity); gap-closing retrieval by Arena
+    browser agent, Arena local OCR audit, operator EKB retrieval, Ask Brave cross-check
+  last_run: '2026-11-11'
   retrieval_calls_used: 0
   retrieval_ceiling: 24
   packet_version: v1.0
@@ -156,6 +167,30 @@ stages:
       - reports/final/batch-01-synthesis.md
       - reports/final/validation-and-open-questions.md
     gate: Accepted panels, no blocking decision; desk synthesis, not experimental validation
+gap_closing:
+  unit: batch-01 document-gap closing (post-Stage-5 retrieval extension)
+  status: complete_scoped
+  evidence_repo: github.com/abdo2048/butt-materials (private)
+  ran: '2026-11-08 to 2026-11-11'
+  rounds:
+    - '2026-11-08: Perplexity Deep Research session — 8 source PDFs to batch-01-gap-closing-2026-11-08/sources/, FR3066128B1 disclosure review vs J-H-01, manual-and-ekb-retrieval-queue.md, STATE-UPDATES.patch'
+    - '2026-11-08: operator obtained BR0305004B1 (UnB patent) via Espacenet; Korean article DOI 10.1136/tc-2026-060135 paywalled, operator declined purchase'
+    - '2026-11-08: Arena browser agent round 2 — Keenat/MéGo!/Re-Cig public-document crawl; APPA Trento AUT with End-of-Waste annex obtained; all snapshots and crawl logs in gap-closing-round2/'
+    - '2026-11-08: Arena local OCR/text audit of 34 PDFs; catalogue.csv, proposed-renames.csv, extraction-problems.md; operator renamed files, removed duplicates, and hand-corrected OCR for FR3110470A1, FR3102180A1, BR0305004B1 (page-001-edited.txt per patent folder)'
+    - '2026-11-10/11: operator EKB retrieval round (Nongdren 2026 Waste Management 219:115553 cradle-to-grave LCA and 2024 JECE 12:114941 leaching; Kurmus & Mohajerani 2020 Waste Management 104:104-118; Torkashvand & Farzadkia 2019 ESPR 26:11618-11630; Schneider 2020 IJERPH 17:4705; Belzagui 2021 STOTEN microfibers; Toxics 2026 One Health review; STOTEN 2026 microplastics review) plus Tchaomegot Collecte patents FR3102076B3, FR3102075B1, FR3125946B1'
+    - '2026-11-11: Re-Cig AUT/End-of-Waste review note committed to butt-materials (gap-closing-round2/review-re-cig-AUT-end-of-waste.md, commit e2c5414)'
+  key_outcomes:
+    - 'D03 closed: BR0305004B1 obtained'
+    - 'D07 Keenat closed: no public full LCA exists; INERIS 2017 is a hazard/classification study, not an LCA; 2026 guide is a form-gated self-published livre blanc'
+    - 'D07 MéGo! closed: ACV with critical review (2019-2020) exists but is not public; corroborated by Pénestin council minutes 30/06/2025 and Ouest-France reporting; Bilan Carbone 2024 is organizational, not a product LCA'
+    - 'D08 Re-Cig closed: APPA Trento AUT obtained including End-of-Waste sub-annex (UNI 10667 product criteria, DDC model, per-lot testing); no heavy-metal parameters in the EoW gate — metals stop-condition reinforced; per-lot DDCs and lab analyses remain at the company'
+    - 'D07 Korean closed: paywalled, no open-access version, operator declined purchase'
+    - 'Cross-cutting: no independent publicly available full LCA of a commercial butt-recycling process exists (independently confirmed via Ask Brave search, 2026-11-10)'
+  remaining_open_gaps: M01-M08 (lab measurement), R01-R05 (regulatory decisions incl. jurisdiction and product choice for standards), S01-S06 (scale/cost/LCA) — future pilot/decision work, not retrieval
+  state_updates_patch: >-
+    SUPERSEDED. Do not apply batch-01-gap-closing-2026-11-08/STATE-UPDATES.patch;
+    this gap_closing record replaces it.
+  no_experiment_authorized: true
 permissions:
   registries: read-only
   backup: immutable
