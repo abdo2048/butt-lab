@@ -298,3 +298,40 @@ complete_scoped. Remaining open work is M01-M08 (lab measurement), R01-R05
 (scale/cost/LCA) — future pilot/decision work, not desk-retrievable. No experiment
 authorized; this is retrieval and provenance recording, not experimental validation
 or a safety/legal opinion.
+
+## 2026-11-13: batch-02 operator decisions recorded; launch plan v1.0 and PROJECT-OVERVIEW.md committed
+Actor: operator (human), decisions communicated in chat; edits applied by the
+operator's coordinating assistant (Perplexity). No retrieval calls; no research
+redone; no hashed packet payload file changed; no panel, judge, or acceptance run.
+
+Operator decisions (recorded verbatim in specs/batch-02-launch-plan.md v1.0):
+1. Method-family scope: cover ALL six families (mechanical, thermal, chemical,
+   biological, material incorporation, product routes).
+2. Execution: single AI (no panel). The AI produces six readable method-explanation
+   documents (audience: medicine-faculty students and interested general readers),
+   source-grounded in materials/gap-closing/ and packets/. Where a source document
+   lacks information at a specific point, the AI inserts its own gap-closing
+   explanation AT THAT EXACT LOCATION (never at the end or beginning), marked
+   "[GAP-CLOSING NOTE — AI, scientist-inventor role]"; source-derived and AI
+   content must remain distinguishable.
+3. J-H-01 carry-forward: prior-art awareness variant — the AI sees previous methods
+   and batch-01 outputs to know what is already there and avoid previous mistakes,
+   NOT as a reference or starting point; must explicitly record what is not good
+   about previous methods. The invention is the AI's own new proposal, not an
+   improvement note on J-H-01.
+4. Jurisdiction: main content for a general worldwide audience, with a separate
+   Egypt annex. Product focus: all options remain open, decided after Phase 2.
+   Any future AI review of batch-02 outputs is EXCLUDED from the workflow
+   (operator decision).
+
+Commits in this entry:
+- 3bc8a997b44b9d179418d33ee1fd67cd94a0604c — specs/batch-02-launch-plan.md v1.0
+  (operator decisions recorded)
+- 349345029f147246079dcc2cd6f049223c2048f5 — PROJECT-OVERVIEW.md added (orientation
+  document for any AI working in the repository)
+
+State: batch-02 is PLANNED but NOT LAUNCHED. No Stage-1 harvester has started; no
+method explanation has been written; no invention has been produced. The next
+eligible action is operator review of the launch plan and an explicit operator
+instruction to launch batch-02 Phase 1. No experiment authorized; this is planning
+and provenance recording, not experimental validation or a safety/legal opinion.
