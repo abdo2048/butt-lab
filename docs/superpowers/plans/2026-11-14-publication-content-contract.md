@@ -81,7 +81,7 @@
 - Create: `tools/publication-contract/tests/cli.test.ts`
 - Modify: `.gitignore`
 
-- [ ] **Step 1: Obtain dependency-install approval**
+- [x] **Step 1: Obtain dependency-install approval**
 
 Ask the operator to approve these package-local dependencies before running npm:
 
@@ -93,7 +93,7 @@ Install location: tools/publication-contract only
 
 Expected: explicit approval. If approval is withheld, stop this task without changing package files.
 
-- [ ] **Step 2: Write the failing CLI smoke test**
+- [x] **Step 2: Write the failing CLI smoke test**
 
 Create `tools/publication-contract/tests/cli.test.ts`:
 
@@ -123,7 +123,7 @@ test("cli rejects an unknown command", () => {
 });
 ```
 
-- [ ] **Step 3: Run the smoke test and confirm RED**
+- [x] **Step 3: Run the smoke test and confirm RED**
 
 Run:
 
@@ -133,7 +133,7 @@ node --test "tools/publication-contract/tests/cli.test.ts"
 
 Expected: FAIL because `tools/publication-contract/src/cli.ts` does not exist.
 
-- [ ] **Step 4: Create package and TypeScript configuration**
+- [x] **Step 4: Create package and TypeScript configuration**
 
 Create `tools/publication-contract/package.json`:
 
@@ -187,7 +187,7 @@ npm install --prefix "tools/publication-contract" --save-dev --save-exact typesc
 
 Expected: `package-lock.json` is created under `tools/publication-contract/`; no root package file is created.
 
-- [ ] **Step 5: Add the minimal CLI implementation**
+- [x] **Step 5: Add the minimal CLI implementation**
 
 Create `tools/publication-contract/src/cli.ts`:
 
@@ -227,7 +227,7 @@ tools/publication-contract/coverage/
 .publication-stage-*/
 ```
 
-- [ ] **Step 6: Run smoke test and type check**
+- [x] **Step 6: Run smoke test and type check**
 
 Run:
 
@@ -261,7 +261,7 @@ git commit -m "chore: bootstrap publication contract tooling"
 - Create: `publication/contract/v1/schema/content-record.schema.json`
 - Create: `publication/contract/v1/schema/publication-manifest.schema.json`
 
-- [ ] **Step 1: Write failing state and schema tests**
+- [x] **Step 1: Write failing state and schema tests**
 
 Create `tools/publication-contract/tests/contracts.test.ts`:
 
@@ -340,7 +340,7 @@ test("IDs reject path syntax", () => {
 });
 ```
 
-- [ ] **Step 2: Run contract tests and confirm RED**
+- [x] **Step 2: Run contract tests and confirm RED**
 
 Run:
 
@@ -350,7 +350,7 @@ node --test "tools/publication-contract/tests/contracts.test.ts"
 
 Expected: FAIL because model modules do not exist.
 
-- [ ] **Step 3: Define exact enum constants**
+- [x] **Step 3: Define exact enum constants**
 
 Create `tools/publication-contract/src/model/states.ts`:
 
@@ -424,7 +424,7 @@ export const DerivativeRightsSchema = z.enum(DERIVATIVE_RIGHTS);
 export const HumanWorkCategorySchema = z.enum(HUMAN_WORK_CATEGORIES);
 ```
 
-- [ ] **Step 4: Define shared primitive schemas**
+- [x] **Step 4: Define shared primitive schemas**
 
 Create `tools/publication-contract/src/model/common.ts` so record, manifest, and rubric modules never import one another for primitives:
 
@@ -450,7 +450,7 @@ export const AuditReferenceSchema = z.object({
 }).strict();
 ```
 
-- [ ] **Step 5: Define content-record schemas**
+- [x] **Step 5: Define content-record schemas**
 
 Create `tools/publication-contract/src/model/records.ts` with these exported schemas and fields:
 
@@ -670,7 +670,7 @@ export const ContentRecordSchema = z.union([
 export type ContentRecord = z.infer<typeof ContentRecordSchema>;
 ```
 
-- [ ] **Step 6: Define the explicit manifest schema**
+- [x] **Step 6: Define the explicit manifest schema**
 
 Create `tools/publication-contract/src/model/manifest.ts`:
 
@@ -701,7 +701,7 @@ export type PublicationManifest = z.infer<typeof PublicationManifestSchema>;
 export type ManifestEntry = z.infer<typeof ManifestEntrySchema>;
 ```
 
-- [ ] **Step 7: Export the model and deterministic JSON Schemas**
+- [x] **Step 7: Export the model and deterministic JSON Schemas**
 
 Create `tools/publication-contract/src/model/index.ts`:
 
@@ -723,7 +723,7 @@ export const generatedSchemas = {
 
 Update `src/cli.ts` so `schema --out <directory>` creates the directory, writes both objects with recursively sorted keys and a final newline, and leaves `validate`/`export` returning `CLI_COMMAND_NOT_IMPLEMENTED`. Add a local `sortJson` function that sorts object keys and preserves array order.
 
-- [ ] **Step 8: Run tests, generate schemas, and type check**
+- [x] **Step 8: Run tests, generate schemas, and type check**
 
 Run:
 
@@ -735,7 +735,7 @@ npm --prefix "tools/publication-contract" run typecheck
 
 Expected: 4 tests PASS; exactly two JSON Schema files are generated; type check exits 0.
 
-- [ ] **Step 9: Verify schema generation is deterministic**
+- [x] **Step 9: Verify schema generation is deterministic**
 
 Run:
 
@@ -769,7 +769,7 @@ git commit -m "feat: define publication record schemas"
 - Create: `publication/contract/v1/rubrics.yaml`
 - Create: `publication/contract/v1/schema/rubric-catalog.schema.json`
 
-- [ ] **Step 1: Write failing rubric and assessment tests**
+- [x] **Step 1: Write failing rubric and assessment tests**
 
 Create `tools/publication-contract/tests/rubrics.test.ts` with tests asserting:
 
@@ -855,7 +855,7 @@ test("unknown assessment rejects a score", () => {
 });
 ```
 
-- [ ] **Step 2: Run rubric tests and confirm RED**
+- [x] **Step 2: Run rubric tests and confirm RED**
 
 Run:
 
@@ -865,7 +865,7 @@ node --test "tools/publication-contract/tests/rubrics.test.ts"
 
 Expected: FAIL because rubric and assessment schemas do not exist.
 
-- [ ] **Step 3: Implement rubric and assessment schemas**
+- [x] **Step 3: Implement rubric and assessment schemas**
 
 Create `tools/publication-contract/src/model/rubrics.ts` defining:
 
@@ -953,7 +953,7 @@ export const AssessmentRecordSchema = z.discriminatedUnion("status", [
 
 Add `AssessmentRecordSchema` as the final member of the existing `z.union` used by `ContentRecordSchema`, export rubric types from `model/index.ts`, and add `rubric-catalog.schema.json` to `generatedSchemas`. Do not change the outer record union to `z.discriminatedUnion`: `AssessmentRecordSchema` is itself discriminated by `status`, so the outer contract must remain a plain `z.union`.
 
-- [ ] **Step 4: Create the complete rubric catalog**
+- [x] **Step 4: Create the complete rubric catalog**
 
 Create `publication/contract/v1/rubrics.yaml` with the complete approved catalog below:
 
@@ -1133,7 +1133,7 @@ criteria:
 
 The comparison layer later built from this catalog must sort one criterion at a time, place unknown values last by default or first in evidence-gap mode, show the assessment basis, permit a source-supported filter, preserve rationale and dissent, and never calculate an average or winner.
 
-- [ ] **Step 5: Run rubric tests and schema generation**
+- [x] **Step 5: Run rubric tests and schema generation**
 
 Run:
 
@@ -1165,7 +1165,7 @@ git commit -m "feat: add publication assessment rubrics"
 - Create: `tools/publication-contract/tests/policy.test.ts`
 - Create: `tools/publication-contract/tests/helpers.ts`
 
-- [ ] **Step 1: Write failing security-policy tests**
+- [x] **Step 1: Write failing security-policy tests**
 
 Create tests covering these exact cases:
 
@@ -1198,7 +1198,7 @@ test("rejects a symlink that escapes publication root", async (t) => {
 
 The Windows run must also test `resolvePublicPathFromRealpath(root, candidateRealpath)` directly so escape policy is covered even when OS symlink creation is skipped.
 
-- [ ] **Step 2: Run policy tests and confirm RED**
+- [x] **Step 2: Run policy tests and confirm RED**
 
 Run:
 
@@ -1208,7 +1208,7 @@ node --test "tools/publication-contract/tests/policy.test.ts"
 
 Expected: FAIL because loader and path-policy modules do not exist.
 
-- [ ] **Step 3: Implement stable diagnostics**
+- [x] **Step 3: Implement stable diagnostics**
 
 Create `src/diagnostics.ts` with:
 
@@ -1241,7 +1241,7 @@ export const error = (code: string, message: string, path?: string): Diagnostic 
 });
 ```
 
-- [ ] **Step 4: Implement strict YAML, Markdown, and SHA-256 loading**
+- [x] **Step 4: Implement strict YAML, Markdown, and SHA-256 loading**
 
 Create `src/load.ts` using `yaml.parseDocument` with `uniqueKeys: true`, fail on parser errors, and expose:
 
@@ -1254,7 +1254,7 @@ export function canonicalJson(value: unknown): string;
 
 `canonicalJson` must recursively sort object keys, retain array order, serialize with two-space indentation, and append one newline. Map YAML parser errors to `YAML_DUPLICATE_KEY` when the message identifies a duplicate and `YAML_PARSE_ERROR` otherwise.
 
-- [ ] **Step 5: Implement root-containment and content policy**
+- [x] **Step 5: Implement root-containment and content policy**
 
 Create `src/path-policy.ts` with:
 
@@ -1274,7 +1274,7 @@ Required behavior:
 - reject Markdown HTML blocks/tags, `<script`, event-handler attributes, and `javascript:` text;
 - require record paths under `records/<kind-directory>/<id>.yaml` where kind directories are `materials`, `methods`, `sources`, `claims`, `gaps`, `hypotheses`, `terms`, and `assessments`.
 
-- [ ] **Step 6: Run policy tests and type check**
+- [x] **Step 6: Run policy tests and type check**
 
 Run:
 
@@ -1304,7 +1304,7 @@ git commit -m "feat: enforce publication input policy"
 - Create: `publication/manifest.yaml`
 - Create: `publication/README.md`
 
-- [ ] **Step 1: Write failing manifest tests**
+- [x] **Step 1: Write failing manifest tests**
 
 Create named tests for:
 
@@ -1319,7 +1319,7 @@ Create named tests for:
 
 Use `tests/helpers.ts` to build each temporary tree and calculate real hashes before writing its manifest.
 
-- [ ] **Step 2: Run manifest tests and confirm RED**
+- [x] **Step 2: Run manifest tests and confirm RED**
 
 Run:
 
@@ -1329,7 +1329,7 @@ node --test "tools/publication-contract/tests/manifest.test.ts"
 
 Expected: FAIL because manifest validation does not exist.
 
-- [ ] **Step 3: Implement manifest validation**
+- [x] **Step 3: Implement manifest validation**
 
 Create `src/manifest-validation.ts` with:
 
@@ -1361,7 +1361,7 @@ Implementation order is fixed:
 
 Do not scan directories to discover additional publishable files. Unlisted files are inert input and never enter the returned closure.
 
-- [ ] **Step 4: Create the empty default-deny live manifest**
+- [x] **Step 4: Create the empty default-deny live manifest**
 
 Create `publication/manifest.yaml`:
 
@@ -1383,7 +1383,7 @@ Create `publication/README.md` explaining:
 - running export never deploys;
 - explicit human operator approval remains mandatory for every future publication version.
 
-- [ ] **Step 5: Run manifest tests and live validation**
+- [x] **Step 5: Run manifest tests and live validation**
 
 Run:
 
@@ -1414,7 +1414,7 @@ git commit -m "feat: enforce publication manifest closure"
 - Create: `tools/publication-contract/src/relationships.ts`
 - Create: `tools/publication-contract/tests/semantic.test.ts`
 
-- [ ] **Step 1: Create the representative valid fixture**
+- [x] **Step 1: Create the representative valid fixture**
 
 Extend `tests/helpers.ts` with `createValidFixture(root)`. The helper writes the following exact objects with `yaml.stringify`, writes `pages/start-here.md`, computes the real SHA-256 of every file, and then writes `manifest.yaml`. Tests create focused invalid cases by cloning and mutating this object set in temporary directories; do not add static fixture directories.
 
@@ -1621,7 +1621,7 @@ Map record kinds to paths explicitly: `material -> records/materials`, `method-f
 
 The fixture tests structure only. It is not Batch-02 evidence and is never added to the live manifest.
 
-- [ ] **Step 2: Write failing semantic tests**
+- [x] **Step 2: Write failing semantic tests**
 
 Create one named test per invariant:
 
@@ -1646,7 +1646,7 @@ AUDIT_REFERENCE_UNSAFE
 
 Also test that a public-safe audit reference with `label`, HTTPS `url`, `version`, and optional `internalId` is accepted without requiring its target to be a manifest record.
 
-- [ ] **Step 3: Run semantic tests and confirm RED**
+- [x] **Step 3: Run semantic tests and confirm RED**
 
 Run:
 
@@ -1656,7 +1656,7 @@ node --test "tools/publication-contract/tests/semantic.test.ts"
 
 Expected: FAIL because semantic validation and relationships do not exist.
 
-- [ ] **Step 4: Implement relationship extraction and backlinks**
+- [x] **Step 4: Implement relationship extraction and backlinks**
 
 Create `src/relationships.ts`:
 
@@ -1681,7 +1681,7 @@ Use an explicit field map per record kind. Do not recursively treat every `*Id` 
 
 Canonical record relationships are limited to the declared ID arrays and scalar IDs on material, method, source, claim, gap, hypothesis, term, and assessment records. For the `ai-gap-closing-note` gap branch, `sourceInputIds` are canonical relationships; the unresolved-question branch has no such field. Inline method `inputs`, `streams`, `products`, `sinks`, `organizations`, contaminant labels, tags, step IDs, source derivatives, and audit references are not record relationships and must not be looked up in the manifest record map.
 
-- [ ] **Step 5: Implement semantic validation**
+- [x] **Step 5: Implement semantic validation**
 
 Create `src/semantic-validation.ts`:
 
@@ -1716,7 +1716,7 @@ Required rules:
 
 If any error diagnostic exists, `validate` exits 1. Warnings print after a successful validation and preserve exit 0.
 
-- [ ] **Step 6: Run semantic tests and the full suite**
+- [x] **Step 6: Run semantic tests and the full suite**
 
 Run:
 
@@ -1869,7 +1869,7 @@ Not taken. No commit authorization. Worktree preserved at `C:\w\bpc` (branch `fe
 - Modify: `tools/publication-contract/tests/cli.test.ts`
 - Modify: `tools/publication-contract/tests/helpers.ts`
 
-- [ ] **Step 1: Add failing end-to-end CLI tests**
+- [x] **Step 1: Add failing end-to-end CLI tests**
 
 Add tests that spawn the CLI against temporary roots produced by `createValidFixture`, applying one focused mutation per invalid case, and assert:
 
@@ -1883,7 +1883,7 @@ Add tests that spawn the CLI against temporary roots produced by `createValidFix
 - no stack trace is printed for expected contract errors;
 - `--json` emits a JSON object with `ok`, `errors`, `warnings`, and `summary`.
 
-- [ ] **Step 2: Run CLI tests and confirm RED**
+- [x] **Step 2: Run CLI tests and confirm RED**
 
 Run:
 
@@ -1893,7 +1893,7 @@ node --test "tools/publication-contract/tests/cli.test.ts"
 
 Expected: new tests FAIL because structured diagnostics and `--json` are incomplete.
 
-- [ ] **Step 3: Implement deterministic diagnostic rendering**
+- [x] **Step 3: Implement deterministic diagnostic rendering**
 
 Add to `src/diagnostics.ts`:
 
@@ -1914,13 +1914,13 @@ ERROR CLAIM_LOCATOR_REQUIRED records/claims/example.yaml example-claim Source-su
 
 JSON output uses canonical sorted-key serialization and contains no stack trace or machine-absolute path. Unexpected programming errors may print a stack trace and exit 1; expected `ContractError` instances may not.
 
-- [ ] **Step 4: Finish CLI parsing and result handling**
+- [x] **Step 4: Finish CLI parsing and result handling**
 
 Refactor `src/cli.ts` into exported `main(args, io)` plus a thin process entrypoint. Parse flags without adding a CLI framework. Reject duplicate flags, missing values, unknown flags, and positional extras with `CLI_INVALID_USAGE`.
 
 Keep command execution network-free. No command may deploy, write workflow state, approve records, or change publication state.
 
-- [ ] **Step 5: Run CLI and full suite**
+- [x] **Step 5: Run CLI and full suite**
 
 Run:
 
@@ -1950,7 +1950,7 @@ git commit -m "test: harden publication contract diagnostics"
 - Modify: `PROJECT-OVERVIEW.md`
 - Modify: `publication/README.md`
 
-- [ ] **Step 1: Write the usage document**
+- [x] **Step 1: Write the usage document**
 
 Create `docs/publication-content-contract.md` with these exact sections:
 
@@ -1984,7 +1984,7 @@ publication/
 
 Include commands exactly as implemented. Do not include instructions for scientific experiments or hazardous equipment.
 
-- [ ] **Step 2: Link the contract from project orientation**
+- [x] **Step 2: Link the contract from project orientation**
 
 Add a short `Publication layer` subsection to `PROJECT-OVERVIEW.md` that links:
 
@@ -1995,7 +1995,7 @@ Add a short `Publication layer` subsection to `PROJECT-OVERVIEW.md` that links:
 
 State that `state/workflow.yaml` remains authoritative for operator acceptance and that the new exporter cannot publish.
 
-- [ ] **Step 3: Verify documentation against commands**
+- [x] **Step 3: Verify documentation against commands**
 
 Run each documented non-install command:
 
@@ -2009,7 +2009,7 @@ npm --prefix "tools/publication-contract" test
 
 Expected: schema generation succeeds; empty live manifest validates; empty intermediate bundle exports; type check and tests pass.
 
-- [ ] **Step 4: Scan documentation for forbidden claims and stale scope**
+- [x] **Step 4: Scan documentation for forbidden claims and stale scope**
 
 Run:
 
@@ -2036,7 +2036,7 @@ git commit -m "docs: explain publication content contract"
 - Verify all files listed in this plan
 - Do not modify scientific workflow outputs during this task
 
-- [ ] **Step 1: Run focused contract verification**
+- [x] **Step 1: Run focused contract verification**
 
 Run:
 
@@ -2049,7 +2049,7 @@ npm --prefix "tools/publication-contract" run validate
 
 Expected: all commands exit 0; tests report zero failures; the live manifest reports zero listed records/pages/assets.
 
-- [ ] **Step 2: Run coverage and inspect uncovered policy branches**
+- [x] **Step 2: Run coverage and inspect uncovered policy branches**
 
 Run:
 
@@ -2059,7 +2059,7 @@ npm --prefix "tools/publication-contract" run test:coverage
 
 Expected: command exits 0. Every fail-closed branch named in design spec section 13.1 has at least one named test. Do not substitute a percentage threshold for branch-by-branch inspection.
 
-- [ ] **Step 3: Verify deterministic schemas and export**
+- [x] **Step 3: Verify deterministic schemas and export**
 
 Run:
 
@@ -2080,7 +2080,7 @@ Compare-Object $first $second -Property Path,Hash
 
 Expected: both `Compare-Object` commands emit no differences.
 
-- [ ] **Step 4: Verify public-boundary exclusions**
+- [x] **Step 4: Verify public-boundary exclusions**
 
 Run:
 
@@ -2090,7 +2090,7 @@ Get-ChildItem -Recurse -File ".publication-build" | Select-String -Pattern "stat
 
 Expected: no matches.
 
-- [ ] **Step 5: Re-run existing Python validation tests**
+- [x] **Step 5: Re-run existing Python validation tests**
 
 Run the repository's existing Python test command documented for `tests/test_validate_registry.py`. If no project-wide command is documented, run:
 
@@ -2100,7 +2100,7 @@ python -m unittest "tests.test_validate_registry"
 
 Expected: existing registry tests still pass, confirming the isolated TypeScript package did not alter legacy validation behavior.
 
-- [ ] **Step 6: Inspect the final worktree**
+- [x] **Step 6: Inspect the final worktree**
 
 Run:
 
@@ -2112,7 +2112,7 @@ git diff --stat
 
 Expected: only intended Phase-1 files are changed; no whitespace errors; no Batch-02 content, Astro app, workflow automation, or deployment files were added.
 
-- [ ] **Step 7: Record the implementation checkpoint**
+- [x] **Step 7: Record the implementation checkpoint**
 
 Update the active planning/progress artifacts with:
 
@@ -2149,3 +2149,40 @@ Phase 1 is complete only when all of the following are true:
 - existing Python registry tests still pass;
 - documentation says validation/export is not approval or publication;
 - no Batch-02 scientific content, reader application, CI deployment, experiment, or automatic publication has been added.
+
+---
+
+## Errata: Implementation divergences from this plan
+
+This section records where the shipped implementation deliberately differs from the
+plan above. It was added after the Phase-1 acceptance gate, on 2026-11-16, and does
+not change the plan's intent; it makes the difference auditable.
+
+1. **Unknown-command diagnostic code.** The CLI sketch in Task 1 (line 215) and the
+   Task 2 note (line 724) name `CLI_COMMAND_NOT_IMPLEMENTED`. The shipped CLI uses a
+   single canonical `CLI_UNKNOWN_COMMAND` for both the command guard and the
+   unreachable default branch, so there is exactly one unknown-command outcome.
+
+2. **The rubrics catalog is mandatory.** `validate` and `export` require
+   `contract/v1/rubrics.yaml`. A missing catalog fails with `RUBRICS_REQUIRED` and a
+   schema-invalid catalog with `RUBRICS_INVALID`. Semantic validation is never
+   silently skipped, because a skipped check would report a false `VALID`.
+
+3. **Two additional derivative diagnostics.** `SOURCE_DERIVATIVE_PATH_INVALID` and
+   `SOURCE_DERIVATIVE_HASH_MISMATCH` are not in the Task 6 diagnostic list. They were
+   added because a derivative path and a derivative hash were otherwise unchecked,
+   which left a private repository path and an unchecked hash able to reach
+   `records.json`. This is required by the Phase-1 criterion that private paths and
+   bad hashes fail before output replacement.
+
+4. **One stricter, undeclared rule.** `RELATIONSHIP_TARGET_KIND_MISMATCH` enforces the
+   `targetKind` that the plan's own relationship schema already declares, so an edge
+   may not point at a record of the wrong kind. The plan's diagnostic list does not
+   name it; it is strictly more conservative than the plan.
+
+5. **"Design section 13.1" does not exist in this document.** The Phase-1 completion
+   criteria and Task 10 Step 2 refer to a fail-closed branch list in "design spec
+   section 13.1". This file is the approved design spec and contains no section 13.
+   The branch-by-branch inspection it asks for was performed against the executable
+   source instead, and its result is recorded in `state/session-log.md` and in
+   `state/workflow.yaml`.
