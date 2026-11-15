@@ -4,3 +4,10 @@ __pycache__/
 
 # Scratch / reproduction harnesses (evidence is recorded in reports/, not here)
 _synth_test/
+
+# Publication contract tooling
+tools/publication-contract/node_modules/
+tools/publication-contract/coverage/
+.publication-build/
+.publication-stage-*/
+tools/publication-contract/export-output/

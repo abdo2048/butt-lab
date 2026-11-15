@@ -54,6 +54,18 @@ Batch-02 is defined in `specs/batch-02-launch-plan.md` (v1.0, operator decisions
 2. Read `state/workflow.yaml` (current machine state) and `state/session-log.md` (dated history) before doing anything.
 3. The operator (human) is the only authority for acceptances, launches, and state changes. AIs propose; the operator decides.
 
+## Publication layer
+
+The publication content contract (Phase 1) provides schemas, a validator, and an exporter for a reviewed publication layer. It is **derived** from the repository's research and workflow outputs — the repository remains authoritative.
+
+Key references:
+- Approved design spec: `docs/superpowers/plans/2026-11-14-publication-content-contract.md`
+- Phase-1 implementation plan: same document (Tasks 1–10)
+- Publication directory overview: `publication/README.md`
+- Full usage and operator workflows: `docs/publication-content-contract.md`
+
+**`state/workflow.yaml` remains authoritative for operator acceptance.** The Phase-1 exporter produces a local build directory only; it cannot publish, deploy, or approve scientific content. Every future publication version requires explicit human operator approval recorded in `state/workflow.yaml` and `state/session-log.md`.
+
 ## Guardrails (non-negotiable)
 
 - **No experiment is authorized.** Desk work only.

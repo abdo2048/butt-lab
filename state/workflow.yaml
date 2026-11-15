@@ -1,31 +1,154 @@
 version: 2
-updated: '2026-11-12'
+updated: '2026-11-16'
 base_commit: fda66af351a37d38287792ed3b578a258eedf7fc
 batch: batch-01
 current_stage: 5
 execution: file-directed; host must trigger/resume; no scheduler installed
 status: awaiting_manual
 next_action: >-
-  Stage-5 synthesis accepted; batch-01 desk investigation closed. Batch-02 (method
-  landscape, deep-dive, invention) may be planned separately; it is not authorized by
-  this acceptance. No experiment authorized.
+  Phase-1 publication-contract acceptance gate re-run GREEN for the THIRD time in
+  worktree C:\w\bpc (186 tests, 185 pass, 1 Windows-symlink skip, 0 fail; tsc
+  --noEmit clean; coverage 96.48% line / 88.30% branch / 93.37% functions).
+  The independent read-only review returned SIGN-OFF on the Task 6
+  RELATIONSHIP_TARGET_KIND_MISMATCH rule and on the Markdown layer of the Task 5
+  regex/CommonMark risk, but DISSENT on the year-vs-magnitude rule; that DISSENT
+  and every defect it surfaced were reproduced locally and then remediated
+  test-first: a count in a year-shaped range after a cue word was a false
+  negative, a plain year introduced by a determiner was a false positive, the
+  unit-bearing-quantity regex was quadratic (a 40,000-digit proposition took
+  11,131 ms and now takes 130 ms), and a derivative path/hash was unchecked so a
+  repository-internal path could reach records.json. The public error-code table
+  in docs/publication-content-contract.md was rebuilt from the 57 codes the source
+  actually emits, the unreachable CLI default branch was aligned to
+  CLI_UNKNOWN_COMMAND, and a plan errata section records the divergences from the
+  plan text. The final commit is still ARMED (verified read-only via git add
+  --dry-run) but NOT executed, because the review changed the risk picture and the
+  operator has not re-authorized. No commit, merge, deploy, publish, experiment
+  or Batch-02 authorization; each requires a separate explicit operator decision.
 pending_manual_action: >-
-  Stage-5 desk synthesis accepted by operator; batch-01 desk investigation closed.
-  Batch-02 (method landscape, deep-dive, invention) may be planned separately; it is
-  not authorized by this acceptance. No experiment authorized.
+  Operator decision on the optional final Phase-1 commit (plan Task 10 Step 8).
+  Not executed: the operator replied "do recommended" to the choice between
+  (a) keeping the worktree as it is, (b) authorizing the commit, and (c) first
+  seeing a change summary; the recommended action (a) was taken, so no commit
+  authorization has been given and nothing was committed. An independent
+  read-only review then returned DISSENT on two of the three items it checked,
+  which means the worktree state changed after that authorization question was
+  asked, so the commit must be re-authorized rather than inherited. The commit
+  is ARMED and verified read-only with git add --dry-run (35 paths, exactly the
+  expected files). Plan command: git add ".gitignore" "PROJECT-OVERVIEW.md"
+  "docs/publication-content-contract.md" "publication" "tools/publication-contract"
+  then git commit -m "feat: add publication content contract". Two operator
+  choices remain open before running it: (1) state/workflow.yaml and
+  state/session-log.md are modified tracked files that are NOT in the plan's add
+  list, so the plan command would leave the acceptance checkpoint uncommitted;
+  (2) docs/superpowers/plans/2026-11-14-publication-content-contract.md is
+  untracked, is not gitignored, and is also not in the plan's add list. The
+  staged publication/manifest.yaml is empty by design (records, pages and
+  assets all []), so a commit publishes no scientific content. Merge, deploy,
+  publish, experiment and Batch-02 launch remain separately unauthorized.
 checkpoint:
-  unit: Stage-5 batch-01 desk synthesis accepted; batch-01 closed
+  unit: Phase-11 defect remediation and documentation sync in isolated worktree C:\w\bpc
   completed_in_this_unit:
-    - reports/final/batch-01-synthesis.md
-    - reports/final/validation-and-open-questions.md
-    - gap-closing evidence, catalogue and review notes in butt-materials (see gap_closing section)
-    - consolidation copy of butt-materials evidence into butt-lab materials/gap-closing/ (completed 2026-11-12)
-  remaining: Batch-01 desk investigation closed. Batch-02 may be planned separately; not authorized by this acceptance. No experiment authorized.
-  next_action: Batch-02 planning (method landscape, deep-dive, invention) may proceed as a separate operator decision; not authorized by this acceptance
-  last_actor: operator (human), edits applied by the operator's coordinating assistant (Perplexity)
-  last_run: '2026-11-12'
+    - "Blocker 1: semantic validation before staging (ContractError pre-stage gate)"
+    - "Blocker 2: rollback-safe replaceOutputDirectory() with injected renamePath"
+    - "Blocker 3: mandatory rubrics catalog (RUBRICS_REQUIRED / RUBRICS_INVALID)"
+    - "Blocker 4: shared isAllowedPassiveAsset() policy; PNG/JPEG copied byte-for-byte"
+    - "Blocker 5: expected exporter failures normalized to ContractError diagnostics"
+    - "Task-9 docs copied into worktree docs/; scratch TASK_8_TODO.md and export-output/ removed"
+    - "Named fail-closed branch tests: export CLI success, export CLI failure without stack trace, RUBRICS_INVALID in exportPublication, stage cleanup and output preservation on a failed export, CLI_SCHEMA_OUT_REQUIRED, CLI_VALIDATE_ROOT_REQUIRED, CLI_EXPORT_ROOT_OUT_REQUIRED"
+    - "PROJECT-OVERVIEW.md 'Publication layer' section ported into the worktree from the main checkout (main checkout untouched)"
+    - "Phase-1 implementation checkpoint recorded (commands, dependency versions, schema hashes, manifest counts, remaining Phase-2 work, no-approval/no-publication statement)"
+    - "Plan checkboxes ticked for every completed step; the nine commit steps remain unticked pending authorization"
+    - "Commit readiness inventory captured read-only (git diff --stat, git diff --check, full untracked file list, git add --dry-run resolving 35 paths); no commit made"
+    - "Independent read-only sign-off review launched for the two unsigned items: Task 6 RELATIONSHIP_TARGET_KIND_MISMATCH and the year-vs-magnitude rule, plus the Task 5 residual regex/CommonMark risk"
+    - "Review outcome recorded: SIGN-OFF on RELATIONSHIP_TARGET_KIND_MISMATCH and on the Markdown layer of the regex/CommonMark risk; DISSENT on the year-vs-magnitude rule"
+    - "Every review defect reproduced locally before any fix (year-shaped count after a cue word; plain year after a determiner; quadratic unit-bearing-quantity regex; unvalidated derivative path and unchecked derivative hash)"
+    - "Seven new named regression tests added to tests/semantic.test.ts, each failing before its fix"
+    - "Quadratic regexes replaced by a linear numeric/unit scanner (40,000-digit proposition: 11,131 ms -> 130 ms)"
+    - "Year-vs-count rule reworked with COUNT_NOUNS and YEAR_DETERMINERS so a count in 1900-2099 is a magnitude and a plain year is not"
+    - "Derivative paths now validated (SOURCE_DERIVATIVE_PATH_INVALID) and derivative hashes checked against the manifest (SOURCE_DERIVATIVE_HASH_MISMATCH); isNormalizedRelativePath() exported from path-policy.ts"
+    - "CLI default branch aligned to CLI_UNKNOWN_COMMAND, removing the unreachable CLI_COMMAND_NOT_IMPLEMENTED outcome"
+    - "Public error-code table in docs/publication-content-contract.md rebuilt from the 57 codes the source actually emits; source-vs-doc code audit now reports zero drift both ways"
+    - "Plan errata section added recording the five divergences from the plan text (unknown-command code, mandatory rubrics, two added derivative diagnostics, undeclared kind-mismatch rule, non-existent design section 13.1)"
+  remaining: >-
+    Acceptance gate re-run PASSED on 2026-11-16 (third pass, after the defect
+    remediation and documentation sync): full Node suite 186 tests, 185 pass, 1
+    Windows-symlink skip, 0 fail; tsc --noEmit clean; coverage 96.48% line /
+    88.30% branch / 93.37% functions. Schema determinism (3 files identical and
+    hash-identical to the recorded values), empty-manifest validate exit 0,
+    export determinism and idempotence OK with no stage/backup leftovers,
+    public-boundary scan of export output clean (no machine paths or secrets),
+    legacy Python registry tests and check_registry.py pass, git diff --check
+    clean. Live manifest remains empty (records=0 pages=0 assets=0,
+    publicationVersion phase-1-contract). No scientific content was approved and
+    no publication occurred. Open review items that remain unsigned and outside
+    the plan's scope: record free text (for example claim.proposition) is not
+    scanned for raw HTML, assertSafePublicUrl is not called from src/ (mitigated
+    by the Zod http/https-only URL schema), and three deliberately kind-agnostic
+    relationship fields (gap.affectedRecordIds, hypothesis.sourceInputIds, and
+    gap.sourceInputIds on the ai-gap-closing-note branch) accept a wrong-kind
+    target silently. The remediated year-vs-magnitude rule and the two added
+    derivative diagnostics still need an independent re-review. Awaiting
+    explicit operator commit authorization; no commit made in the worktree.
+  next_action: Request explicit authorization for the optional final Phase-1 commit (the worktree changed after the last authorization question, so it must be re-authorized; merge/deploy/publish/experiment/Batch-02 each separately unauthorized)
+  last_actor: operator-directed OpenCode session (displayed model MiniMax M3.1 Flash Free; underlying model not verified)
+  last_run: '2026-11-16'
   retrieval_calls_used: 0
   retrieval_ceiling: 24
+  phase1_acceptance:
+    scope: Phase-1 publication content contract, worktree C:\w\bpc, branch feat/publication-content-contract, base HEAD d30adbaa32d66f6416c12988e6e66d6486e79876
+    commands_and_results:
+      - "npm run typecheck (tsc --noEmit): PASS, no diagnostics"
+      - "npm test / npm run test:coverage (node --test over 7 test files): 186 tests, 185 pass, 1 skipped (Windows cannot create symlinks), 0 fail"
+      - "npm run test:coverage: 96.48% line, 88.30% branch, 93.37% functions; uncovered branches inspected one by one"
+      - "node src/cli.ts schema --out A then --out B: 3 files byte-identical (deterministic regeneration)"
+      - "node src/cli.ts validate --root ../../publication: exit 0, 'VALID records=0 pages=0 assets=0'"
+      - "export determinism/idempotence: two fresh exports produce identical 5-file bundles; re-export over an existing output is identical; no .export-stage-* or .backup-* leftovers"
+      - "public-boundary scan of the export output: no machine paths (C:\\w, Ad2048, AppData, node_modules) and no password/secret/token matches"
+      - "python tests/test_validate_registry.py: 'All tests passed!'; python scripts/check_registry.py: exit 0"
+      - "git status --short; git diff --check: clean; git diff --stat: .gitignore, PROJECT-OVERVIEW.md, state/session-log.md, state/workflow.yaml"
+      - "source-vs-documentation diagnostic-code audit: 57 codes emitted, 57 documented, zero drift in either direction"
+    dependency_versions:
+      yaml: 2.9.1
+      zod: 4.6.7
+      typescript: 5.9.3
+      '@types/node': 24.19.2
+      node: '>=24 <25'
+    generated_schema_sha256:
+      content-record.schema.json: 69f68d0c644ff3d7f71a966ba1a223fc0e2088842af3f3f917c13b51311c6df7
+      publication-manifest.schema.json: c5631423f8cdbb5dd5e8d6b716eff0f3403b89f81c3b59efb498f35a197e98e2
+      rubric-catalog.schema.json: 9b6d18bc1c71ec8de7709976f76c9f290b8e8752357c66e4d2181b460bb361d0
+    live_manifest_counts:
+      publication_version: phase-1-contract
+      records: 0
+      pages: 0
+      assets: 0
+    remaining_phase2_work: >-
+      Not started and not authorized. Populating the manifest with operator-approved
+      records, a reader application, CI deployment wiring and any automated
+      publication step are all out of Phase-1 scope and each need a separate
+      explicit operator decision. The three review items are now resolved in
+      different ways: RELATIONSHIP_TARGET_KIND_MISMATCH received independent
+      SIGN-OFF; the Markdown layer of the residual regex/CommonMark risk received
+      SIGN-OFF; and the year-vs-magnitude rule received DISSENT, which was
+      remediated test-first and now needs an independent re-review. Scope
+      residuals the review surfaced and that are still open: record free text
+      (for example claim.proposition) is not scanned for raw HTML, and
+      assertSafePublicUrl is not called from src/ (mitigated by the Zod
+      http/https-only URL schema, so a javascript: URL is rejected as
+      RECORD_SCHEMA_INVALID). Three deliberately kind-agnostic relationship
+      fields (gap.affectedRecordIds, hypothesis.sourceInputIds, and
+      gap.sourceInputIds on the ai-gap-closing-note branch) accept a wrong-kind
+      target silently; the plan does not constrain them, so this is an open
+      decision rather than a violation. Batch-02 content, experiments and
+      deployment remain unauthorized.
+    approval_statement: >-
+      No scientific content was approved and no publication occurred. The live
+      manifest is empty and the exporter only ever produced local build
+      directories during testing. Validation and export are not approval,
+      deployment or publication. Every publication version requires explicit
+      human operator approval recorded in state/workflow.yaml and
+      state/session-log.md.
   packet_version: v1.0
   packet_path: packets/batch-01/stage-4/manifest.yaml
   packet_commit: 671de7c045385dade4b8f26c7b1680a2cc3a809c

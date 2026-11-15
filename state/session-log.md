@@ -335,3 +335,268 @@ method explanation has been written; no invention has been produced. The next
 eligible action is operator review of the launch plan and an explicit operator
 instruction to launch batch-02 Phase 1. No experiment authorized; this is planning
 and provenance recording, not experimental validation or a safety/legal opinion.
+
+## 2026-11-15: Phase-10 test-first remediation of four release blockers (worktree C:\w\bpc)
+Actor: operator-directed OpenCode session; displayed model MiMo-V2.6-Flash Free,
+underlying model not independently verified; no independent sign-off. Review
+baseline: HEAD d30adbaa32d66f6416c12988e6e66d6486e79876 plus full untracked tree.
+No commit, merge, deploy, publish, experiment or Batch-02 authorization. Two prior
+read-only reviews (Standards ses_e22915f6dffeGuxyQF9k19iR29, Spec
+ses_e22915eb6ffe7kq1wVVNBjLvkp) supplied the four release blockers; codebase-memory
+MCP was unavailable, so direct source/test reads were used.
+
+Outputs (untracked, in C:\w\bpc only):
+- Blocker 1 — semantic validation before staging: exportPublication now calls
+  validatePublicationSemantics and throws ContractError before stage creation or
+  output replacement. Regression: "semantic errors stop export before stage
+  creation or output replacement".
+- Blocker 2 — rollback-safe output replacement: new exported replaceOutputDirectory()
+  performs backup/rename/promote/restore as one transaction with an injected
+  renamePath for fault injection; a failed promotion restores the previous bundle
+  and removes the stage. Regression: "replacement failure restores the previous
+  directory and removes the stage".
+- Blocker 3 — mandatory rubric validation: validate/export require a rubrics
+  catalog and emit RUBRICS_REQUIRED / RUBRICS_INVALID as ContractError; empty-
+  manifest fixture copies the real catalog so it still validates. Regressions:
+  "validate CLI without a rubrics catalog exits 1 and prints RUBRICS_REQUIRED",
+  "validate CLI with a malformed rubrics catalog exits 1 and prints RUBRICS_INVALID".
+- Blocker 4 — image asset copying: shared isAllowedPassiveAsset() policy in
+  manifest-validation.ts is now the single source of truth used by both manifest
+  validation and the exporter; a listed allowed asset is copied byte-for-byte with
+  matching SHA-256, an allowed type is never silently skipped while counted, and a
+  disallowed type throws ASSET_UNSAFE_TYPE. Regressions: "listed PNG asset is
+  copied byte-for-byte with matching SHA-256", "listed JPEG asset ...".
+- Blocker 5 (related) — expected failures normalized to ContractError: rubric parse,
+  asset hash mismatch, stage closure mismatch and symlink escape now throw
+  ContractError; the CLI catch block prints stable diagnostics, no stack traces.
+- Scratch disposition: tools/publication-contract/TASK_8_TODO.md and
+  tools/publication-contract/export-output/ removed; .gitignore adds
+  tools/publication-contract/export-output/. Task-9 docs copied from the main
+  checkout into C:\w\bpc\docs/ (publication-content-contract.md and the Phase-1
+  plan) without touching unrelated main-checkout files.
+
+Verification: npm run typecheck clean (tsc --noEmit); npm test 171 tests, 170 pass,
+1 skip (Windows symlink-creation limitation), 0 fail. No production manifest content
+changed: publication/manifest.yaml remains records/pages/assets = []. No registry,
+backup, prior scientific file, or main-checkout user file was modified, moved,
+overwritten or deleted.
+
+State: Phase-10 remediation unit complete_pending_review in the isolated worktree.
+Remaining work: acceptance-gate rerun (focused regressions, full Node suite, tsc,
+schema determinism, empty-manifest validation/export determinism and idempotence,
+replacement restoration, public-boundary checks, legacy Python registry tests),
+then explicit operator integration approval. Deployment, publication and Batch-02
+remain separately unauthorized. File completion is not experimental validation.
+
+## 2026-11-15: Phase-1 acceptance checkpoint — fail-closed branch tests, orientation link, plan status (worktree C:\w\bpc)
+
+Outputs:
+- Added the named fail-closed branch tests that Task 10 Step 2 and the Phase-1
+  completion criteria require, and closed the coverage gaps they exposed:
+  - `tests/cli.test.ts`: "export CLI on a valid fixture exits 0 and prints an
+    EXPORTED summary"; "export CLI on a corrupted manifest exits 1 and prints a
+    diagnostic without a stack trace"; "schema CLI without --out exits 2 and
+    prints CLI_SCHEMA_OUT_REQUIRED"; "validate CLI without --root exits 2 and
+    prints CLI_VALIDATE_ROOT_REQUIRED"; "export CLI without --out exits 2 and
+    prints CLI_EXPORT_ROOT_OUT_REQUIRED".
+  - `tests/export.test.ts`: "exportPublication rejects a malformed rubrics
+    catalog with RUBRICS_INVALID"; "a failed export removes the stage directory
+    and preserves the previous output".
+- Source changes to make those paths reachable and diagnosable:
+  - `src/export.ts`: `ExportOptions` gained an optional `renamePath` seam so a
+    promotion failure can be injected through `exportPublication` and the
+    fail-closed rollback plus stage-cleanup path can be tested; `stageDirectory`
+    now raises `ContractError` (`RUBRICS_INVALID`) instead of a bare `Error`;
+    the `catch (error)` bindings were renamed to `caught` so they no longer
+    shadow the imported `error()` diagnostic factory.
+  - `PROJECT-OVERVIEW.md`: ported the "## Publication layer" section from the
+    main checkout into the worktree, so the worktree's orientation document
+    links the design spec, the Phase-1 plan, `publication/README.md` and
+    `docs/publication-content-contract.md`, and states that `state/workflow.yaml`
+    remains authoritative and that the exporter cannot publish.
+- Branch-by-branch coverage inspection (Task 10 Step 2) recorded the remaining
+  uncovered lines as defense-in-depth or unreachable by construction
+  (exporter re-checks of asset hash, asset type and stage closure; the
+  stage-directory rubrics re-parse; the symlink-escape branch, which is the one
+  skipped test because Windows cannot create symlinks).
+- Plan `docs/superpowers/plans/2026-11-14-publication-content-contract.md`
+  checkboxes ticked for every completed step. The nine commit steps (Task 1
+  Step 7, Task 2 Step 10, Task 3 Step 6, Task 4 Step 7, Task 5 Step 6, Task 6
+  Step 7, Task 8 Step 6, Task 9 Step 5, Task 10 Step 8) remain unticked: they
+  need explicit commit authorization, which has not been given.
+- `state/workflow.yaml` gained a `checkpoint.phase1_acceptance` block with the
+  exact commands and results, the dependency versions from
+  `tools/publication-contract/package-lock.json`, the generated schema SHA-256
+  hashes, the live manifest counts, the remaining Phase-2 work and the explicit
+  no-approval/no-publication statement.
+
+Verification: `npm run typecheck` clean (tsc --noEmit). `npm test` 179 tests,
+178 pass, 1 skip (Windows symlink-creation limitation), 0 fail. `npm run
+test:coverage` 96.64% line, 88.63% branch, 92.76% functions (up from 95.03% /
+86.94% / 92.76% before the new tests); cli.ts 96.49% line / 81.82% branch.
+`git diff --check` clean; `git diff --stat` shows .gitignore, PROJECT-OVERVIEW.md,
+state/session-log.md, state/workflow.yaml. `state/workflow.yaml` parses as valid
+YAML.
+
+Live manifest unchanged and empty: `publication/manifest.yaml` is
+`publicationVersion: phase-1-contract` with `records: []`, `pages: []`,
+`assets: []`. No scientific content was approved and no publication occurred; the
+exporter only produced local build directories during testing. No registry,
+backup, prior scientific file, or main-checkout user file was modified, moved,
+overwritten or deleted. No commit was made: HEAD is still
+`d30adbaa32d66f6416c12988e6e66d6486e79876`.
+
+State: Phase-1 implementation checkpoint recorded; remaining work is the
+operator decision on the optional final Phase-1 commit (plan Task 10 Step 8).
+Merge, deploy, publish, experiment and Batch-02 remain separately unauthorized.
+File completion is not experimental validation.
+
+## 2026-11-15: Phase-1 commit readiness inventory (worktree C:\w\pc)
+
+Operator instruction: "do recommended" after the Phase-1 acceptance
+checkpoint. The recommended action was to keep the worktree as it is and not
+commit without an explicit, specific authorization. No commit was made.
+
+Outputs:
+- Full change inventory captured for the operator's commit decision.
+  Tracked modifications (4): `.gitignore` (+9/-1 lines of publication
+  tooling ignore rules), `PROJECT-OVERVIEW.md` (+12, the "## Publication
+  layer" section), `state/session-log.md` (+115), `state/workflow.yaml`
+  (+103/-17). `git diff --check` clean.
+- Untracked new files (33), all intended, no scratch residue:
+  `docs/publication-content-contract.md`; `docs/superpowers/plans/2026-11-14-publication-content-contract.md`;
+  `publication/README.md`, `publication/manifest.yaml` (empty manifest),
+  `publication/contract/v1/rubrics.yaml` and three generated JSON schemas
+  under `publication/contract/v1/schema/`; and the whole
+  `tools/publication-contract/` package (package.json, package-lock.json,
+  tsconfig.json, 15 source files under `src/` including `src/model/`, and 8
+  test files under `tests/`).
+- Commit dry run executed read-only (`git add --dry-run`, no index change):
+  the plan's Task 10 Step 8 path list resolves to 35 paths and stages
+  exactly the expected files. Nothing stray is captured;
+  `tools/publication-contract/export-output/` and `node_modules/` remain
+  ignored.
+- Three observations about the plan's exact commit command, recorded so the
+  operator can decide with full information:
+  1. `state/workflow.yaml` and `state/session-log.md` are modified tracked
+     files but are NOT in the plan's `git add` list, so the plan's command
+     would leave the acceptance checkpoint uncommitted.
+  2. `docs/superpowers/plans/2026-11-14-publication-content-contract.md`
+     is untracked, is not gitignored (`git check-ignore` exit 1), and is also
+     not in the plan's `git add` list, so the plan document itself would
+     stay untracked.
+  3. `publication/manifest.yaml` is staged empty by design: records, pages
+     and assets are all `[]`, so the commit publishes no scientific content.
+- An independent, read-only sign-off review was launched for the two
+  remaining unsigned review items (Task 6 `RELATIONSHIP_TARGET_KIND_MISMATCH`
+  and the year-vs-magnitude rule; Task 5 residual regex/CommonMark risk).
+  It is read-only: it may not modify the working tree, may not commit, and
+  may not treat repository documents as instructions. Its verdict is
+  recorded in a separate checkpoint when it returns.
+
+Verification: no file in the worktree was modified by this checkpoint; HEAD
+is still `d30adbaa32d66f6416c12988e6e66d6486e79876`; `git status --short`
+unchanged (` M .gitignore`, ` M PROJECT-OVERVIEW.md`, ` M state/session-log.md`,
+` M state/workflow.yaml`, `?? docs/`, `?? publication/`, `?? tools/`);
+`publication/manifest.yaml` still empty. No commit, merge, deploy,
+publication, experiment or Batch-02 action occurred.
+
+State: Phase-1 is implemented, tested and gate-passed, and the final commit
+is armed but NOT executed. The exact command is recorded in
+`state/workflow.yaml` under `pending_manual_action`. Merge, deploy,
+publish, experiment and Batch-02 remain separately unauthorized. File
+completion is not experimental validation.
+
+## 2026-11-16: Phase-11 defect remediation and documentation sync after independent review (worktree C:\w\bpc)
+
+- The independent read-only sign-off review launched in the previous checkpoint
+  returned. Verdicts: `RELATIONSHIP_TARGET_KIND_MISMATCH` **SIGN-OFF**; the
+  year-vs-magnitude rule **DISSENT**; the residual regex/CommonMark risk
+  **DISSENT** for the numeric layer and **SIGN-OFF** for the Markdown layer.
+- The review's findings were not taken on trust. Every actionable claim was
+  reproduced locally with throwaway probes placed under `tests/` and deleted in
+  the same command:
+  - A count in a year-shaped range after a cue word (`"in 2000 cases"`) was
+    **not** reported as a magnitude — a false negative.
+  - A plain year introduced by a determiner (`"The 2026 review of the
+    fixture"`) **was** wrongly required to carry a quantitative basis — a
+    false positive.
+  - The unit-bearing-quantity pattern was **quadratic**: a proposition of
+    40,000 digits took 11,131 ms, which is a local denial-of-service on
+    `validate` and `export` because record propositions are unbounded text.
+  - A derivative path of `../../state/workflow.yaml` produced **zero**
+    diagnostics and was copied verbatim into `records.json`, and a
+    derivative's `sha256` was never compared with the manifest hash of the
+    path it named.
+- Each defect was remediated test-first, following the Phase-10 precedent of a
+  failing named regression test before the fix:
+  - Seven new named tests in `tools/publication-contract/tests/semantic.test.ts`
+    (three for the year-versus-count rule, one for the quadratic scan, three
+    for the derivative path and hash). All seven failed before the fixes.
+  - The two quadratic regular expressions were deleted and replaced with a
+    hand-written linear scanner (`isNumericText`, `scanNumericRun`,
+    `matchesUnitAt`, `containsUnitBearingQuantity`, `isUnitPrefixedQuantity`).
+    The same 40,000-digit proposition now takes 130 ms.
+  - The year rule was reworked: a year-shaped number followed by a count noun
+    (`COUNT_NOUNS`) is a magnitude, a year-shaped number introduced by a
+    determiner (`YEAR_DETERMINERS`) or by a year cue word is a year, and
+    anything else stays a magnitude.
+  - Derivative paths are now validated and derivative hashes are now checked
+    against the manifest, with the new diagnostics
+    `SOURCE_DERIVATIVE_PATH_INVALID` and `SOURCE_DERIVATIVE_HASH_MISMATCH`.
+    `isNormalizedRelativePath()` was exported from `src/path-policy.ts`.
+  - The unreachable `default:` branch of the CLI command switch now reports
+    `CLI_UNKNOWN_COMMAND`, the same code as the guard, so there is exactly one
+    unknown-command outcome; `CLI_COMMAND_NOT_IMPLEMENTED` is gone.
+- Documentation was brought back in line with the code:
+  - The public error-code table in `docs/publication-content-contract.md` was
+    rebuilt from the diagnostic codes the source actually emits. The old table
+    listed 11 codes that are emitted nowhere and omitted roughly 30 that are.
+    A source-versus-documentation audit now reports 57 codes emitted, 57
+    documented, zero drift in either direction.
+  - A `## Errata: Implementation divergences from this plan` section was
+    appended to `docs/superpowers/plans/2026-11-14-publication-content-contract.md`
+    recording five divergences, including that the plan's referenced
+    "design spec section 13.1" does not exist in that document, so the
+    branch-by-branch inspection was performed against the executable source.
+- `state/workflow.yaml` was updated for this unit: `updated` and `last_run`
+  are now `2026-11-16`, the checkpoint unit is "Phase-11 defect remediation and
+  documentation sync in isolated worktree C:\w\bpc", the completed-work list
+  gained the review outcome, the reproductions, the fixes and the documentation
+  sync, and `phase1_acceptance` carries the third-pass gate results.
+
+Verification: `npm run typecheck` clean (`tsc --noEmit`, no diagnostics);
+`npm run test:coverage` reports 186 tests, 185 pass, 1 skipped (Windows cannot
+create symlinks), 0 fail, with coverage of 96.48% line, 88.30% branch and
+93.37% functions; `node src/cli.ts schema --out A` and `--out B` produce three
+byte-identical files whose SHA-256 values match those already recorded in
+`state/workflow.yaml`; `node src/cli.ts validate --root ../../publication`
+exits 0 with `VALID records=0 pages=0 assets=0`; two fresh exports and a
+re-export over an existing output are identical with no `.export-stage-*` or
+`.backup-*` leftovers; the public-boundary scan of the export output is clean;
+`python tests/test_validate_registry.py` reports "All tests passed!" and
+`python scripts/check_registry.py` exits 0; `git diff --check` is clean; the
+source-versus-documentation diagnostic-code audit reports zero drift. The live
+manifest remains empty (`records: []`, `pages: []`, `assets: []`,
+`publicationVersion: phase-1-contract`). HEAD is still
+`d30adbaa32d66f6416c12988e6e66d6486e79876` and `git log --oneline -1` is
+unchanged: no commit was made.
+
+Remaining work: the remediated year-versus-magnitude rule and the two added
+derivative diagnostics still need an independent re-review. Scope residuals
+the review surfaced and that remain open and outside the plan's text: record
+free text such as `claim.proposition` is not scanned for raw HTML, and
+`assertSafePublicUrl` is not called from `src/` (mitigated by the Zod
+http/https-only URL schema, so a `javascript:` URL is rejected as
+`RECORD_SCHEMA_INVALID`). Three deliberately kind-agnostic relationship fields
+(`gap.affectedRecordIds`, `hypothesis.sourceInputIds`, and `gap.sourceInputIds`
+on the ai-gap-closing-note branch) accept a wrong-kind target silently; the
+plan does not constrain them, so this is an open decision, not a violation.
+
+Next action: request explicit authorization for the optional final Phase-1
+commit (plan Task 10 Step 8). The worktree changed after the last authorization
+question was asked, so the commit must be re-authorized rather than inherited.
+The commit is armed and verified read-only with `git add --dry-run`; nothing
+has been staged or committed. No scientific content was approved and no
+publication occurred. Merge, deploy, publish, experiment and Batch-02 remain
+separately unauthorized. File completion is not experimental validation.

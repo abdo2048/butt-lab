@@ -1,0 +1,1625 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "anyOf": [
+    {
+      "additionalProperties": false,
+      "properties": {
+        "auditAliases": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "compositionSummary": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "contaminants": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "description": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "id": {
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+          "type": "string"
+        },
+        "jurisdictions": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "kind": {
+          "const": "material",
+          "type": "string"
+        },
+        "methodFamilyIds": {
+          "items": {
+            "enum": [
+              "mechanical-physical",
+              "thermal",
+              "chemical",
+              "biological",
+              "material-incorporation",
+              "product-routes"
+            ],
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "publicationState": {
+          "enum": [
+            "draft",
+            "approved",
+            "excluded"
+          ],
+          "type": "string"
+        },
+        "schemaVersion": {
+          "const": 1,
+          "type": "number"
+        },
+        "tags": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "termIds": {
+          "items": {
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "title": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "id",
+        "title",
+        "publicationState",
+        "kind",
+        "description",
+        "compositionSummary",
+        "contaminants",
+        "termIds",
+        "jurisdictions",
+        "tags",
+        "methodFamilyIds"
+      ],
+      "type": "object"
+    },
+    {
+      "additionalProperties": false,
+      "properties": {
+        "assessmentIds": {
+          "items": {
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "auditAliases": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "auditReferences": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "internalId": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "label": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "url": {
+                "format": "uri",
+                "pattern": "^https?:\\/\\/",
+                "type": "string"
+              },
+              "version": {
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": [
+              "label",
+              "url",
+              "version"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "claimIds": {
+          "items": {
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "family": {
+          "enum": [
+            "mechanical-physical",
+            "thermal",
+            "chemical",
+            "biological",
+            "material-incorporation",
+            "product-routes"
+          ],
+          "type": "string"
+        },
+        "feedstock": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "gapIds": {
+          "items": {
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "hypothesisIds": {
+          "items": {
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "id": {
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+          "type": "string"
+        },
+        "inputs": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "description": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "id": {
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "label": {
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "label",
+              "description"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "kind": {
+          "const": "method-family",
+          "type": "string"
+        },
+        "mechanism": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "organizations": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "name": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "role": {
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": [
+              "name",
+              "role"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "preparation": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "products": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "description": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "id": {
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "intendedUse": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "label": {
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "label",
+              "description",
+              "intendedUse"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "publicationState": {
+          "enum": [
+            "draft",
+            "approved",
+            "excluded"
+          ],
+          "type": "string"
+        },
+        "schemaVersion": {
+          "const": 1,
+          "type": "number"
+        },
+        "sinks": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "acceptanceBasis": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "finalRoute": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "id": {
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "intendedUse": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "issuer": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "material": {
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "material",
+              "intendedUse",
+              "acceptanceBasis",
+              "issuer",
+              "finalRoute"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "sourceIds": {
+          "items": {
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "steps": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "description": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "id": {
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "label": {
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "label",
+              "description"
+            ],
+            "type": "object"
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "streams": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "contaminants": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "fateState": {
+                "enum": [
+                  "measured",
+                  "inferred",
+                  "unresolved",
+                  "not-applicable"
+                ],
+                "type": "string"
+              },
+              "id": {
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "label": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "type": {
+                "enum": [
+                  "input",
+                  "product",
+                  "liquid",
+                  "reject",
+                  "emission",
+                  "treatment-outlet",
+                  "unexplained-loss"
+                ],
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "label",
+              "type",
+              "contaminants",
+              "fateState"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "summary": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "termIds": {
+          "items": {
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "title": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "id",
+        "title",
+        "publicationState",
+        "kind",
+        "family",
+        "summary",
+        "mechanism",
+        "feedstock",
+        "preparation",
+        "steps",
+        "inputs",
+        "streams",
+        "products",
+        "sinks",
+        "claimIds",
+        "gapIds",
+        "termIds",
+        "sourceIds",
+        "hypothesisIds",
+        "assessmentIds",
+        "organizations",
+        "auditReferences"
+      ],
+      "type": "object"
+    },
+    {
+      "additionalProperties": false,
+      "properties": {
+        "accessDate": {
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "type": "string"
+        },
+        "auditAliases": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "citation": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "claimIds": {
+          "items": {
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "derivatives": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "extractionMethod": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "id": {
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "pageMapping": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "path": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "publicationRight": {
+                "enum": [
+                  "publish-full-text",
+                  "publish-excerpts",
+                  "metadata-only",
+                  "unresolved"
+                ],
+                "type": "string"
+              },
+              "qualityWarnings": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "sha256": {
+                "pattern": "^[a-f0-9]{64}$",
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "path",
+              "sha256",
+              "extractionMethod",
+              "pageMapping",
+              "qualityWarnings",
+              "publicationRight"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "id": {
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+          "type": "string"
+        },
+        "kind": {
+          "const": "source",
+          "type": "string"
+        },
+        "localArtifact": {
+          "additionalProperties": false,
+          "properties": {
+            "path": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "sha256": {
+              "pattern": "^[a-f0-9]{64}$",
+              "type": "string"
+            }
+          },
+          "required": [
+            "path",
+            "sha256"
+          ],
+          "type": "object"
+        },
+        "methodIds": {
+          "items": {
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "originalUrl": {
+          "format": "uri",
+          "pattern": "^https?:\\/\\/",
+          "type": "string"
+        },
+        "publicationState": {
+          "enum": [
+            "draft",
+            "approved",
+            "excluded"
+          ],
+          "type": "string"
+        },
+        "publisherOrIssuer": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "rights": {
+          "enum": [
+            "public-local-copy",
+            "link-only",
+            "rights-unresolved"
+          ],
+          "type": "string"
+        },
+        "schemaVersion": {
+          "const": 1,
+          "type": "number"
+        },
+        "sourceType": {
+          "enum": [
+            "paper",
+            "patent",
+            "company",
+            "regulatory",
+            "thesis",
+            "report",
+            "web-page",
+            "other"
+          ],
+          "type": "string"
+        },
+        "title": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "versionOrDate": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "id",
+        "title",
+        "publicationState",
+        "kind",
+        "citation",
+        "sourceType",
+        "publisherOrIssuer",
+        "versionOrDate",
+        "originalUrl",
+        "accessDate",
+        "rights",
+        "derivatives",
+        "claimIds",
+        "methodIds"
+      ],
+      "type": "object"
+    },
+    {
+      "additionalProperties": false,
+      "properties": {
+        "auditAliases": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "contentKind": {
+          "enum": [
+            "claim",
+            "inference"
+          ],
+          "type": "string"
+        },
+        "counterevidenceClaimIds": {
+          "items": {
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "evidenceState": {
+          "enum": [
+            "source-supported",
+            "source-conflicted",
+            "source-not-located",
+            "derived-from-sourced-premises",
+            "not-applicable"
+          ],
+          "type": "string"
+        },
+        "hypothesisIds": {
+          "items": {
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "id": {
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+          "type": "string"
+        },
+        "kind": {
+          "const": "claim",
+          "type": "string"
+        },
+        "locator": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "methodIds": {
+          "items": {
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "premiseClaimIds": {
+          "items": {
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "proposition": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "publicationState": {
+          "enum": [
+            "draft",
+            "approved",
+            "excluded"
+          ],
+          "type": "string"
+        },
+        "quantitativeBasis": {
+          "additionalProperties": false,
+          "properties": {
+            "denominator": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "massBasis": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "units": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "valueText": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "valueText",
+            "units",
+            "denominator",
+            "massBasis"
+          ],
+          "type": "object"
+        },
+        "reasoning": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "reviewDate": {
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "type": "string"
+        },
+        "reviewer": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "schemaVersion": {
+          "const": 1,
+          "type": "number"
+        },
+        "sourceId": {
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+          "type": "string"
+        },
+        "title": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "id",
+        "title",
+        "publicationState",
+        "kind",
+        "contentKind",
+        "proposition",
+        "evidenceState",
+        "methodIds",
+        "hypothesisIds",
+        "counterevidenceClaimIds",
+        "reviewer",
+        "reviewDate"
+      ],
+      "type": "object"
+    },
+    {
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "affectedRecordIds": {
+              "items": {
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "minItems": 1,
+              "type": "array"
+            },
+            "auditAliases": {
+              "default": [],
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "contentKind": {
+              "const": "unresolved-question",
+              "type": "string"
+            },
+            "evidenceState": {
+              "enum": [
+                "source-supported",
+                "source-conflicted",
+                "source-not-located",
+                "derived-from-sourced-premises",
+                "not-applicable"
+              ],
+              "type": "string"
+            },
+            "falsifierOrDecisionCondition": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "gapType": {
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+              "type": "string"
+            },
+            "id": {
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+              "type": "string"
+            },
+            "kind": {
+              "const": "gap",
+              "type": "string"
+            },
+            "nextHumanWork": {
+              "enum": [
+                "source-retrieval",
+                "analytical-method-work",
+                "controlled-laboratory-evidence",
+                "pilot-evidence",
+                "independent-product-or-intended-use-testing",
+                "treatment-acceptance",
+                "regulatory-review"
+              ],
+              "type": "string"
+            },
+            "publicationState": {
+              "enum": [
+                "draft",
+                "approved",
+                "excluded"
+              ],
+              "type": "string"
+            },
+            "question": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "schemaVersion": {
+              "const": 1,
+              "type": "number"
+            },
+            "title": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "validationState": {
+              "enum": [
+                "desk-research-only",
+                "requires-human-validation",
+                "new-unvalidated-hypothesis",
+                "not-applicable"
+              ],
+              "type": "string"
+            },
+            "whyItMatters": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "schemaVersion",
+            "id",
+            "title",
+            "publicationState",
+            "kind",
+            "question",
+            "gapType",
+            "whyItMatters",
+            "affectedRecordIds",
+            "evidenceState",
+            "validationState",
+            "nextHumanWork",
+            "contentKind"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "affectedRecordIds": {
+              "items": {
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "minItems": 1,
+              "type": "array"
+            },
+            "assumptions": {
+              "items": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "minItems": 1,
+              "type": "array"
+            },
+            "auditAliases": {
+              "default": [],
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "contentKind": {
+              "const": "ai-gap-closing-note",
+              "type": "string"
+            },
+            "evidenceState": {
+              "enum": [
+                "source-supported",
+                "source-conflicted",
+                "source-not-located",
+                "derived-from-sourced-premises",
+                "not-applicable"
+              ],
+              "type": "string"
+            },
+            "falsifierOrDecisionCondition": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "gapType": {
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+              "type": "string"
+            },
+            "id": {
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+              "type": "string"
+            },
+            "kind": {
+              "const": "gap",
+              "type": "string"
+            },
+            "nextHumanWork": {
+              "enum": [
+                "source-retrieval",
+                "analytical-method-work",
+                "controlled-laboratory-evidence",
+                "pilot-evidence",
+                "independent-product-or-intended-use-testing",
+                "treatment-acceptance",
+                "regulatory-review"
+              ],
+              "type": "string"
+            },
+            "publicationState": {
+              "enum": [
+                "draft",
+                "approved",
+                "excluded"
+              ],
+              "type": "string"
+            },
+            "question": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "schemaVersion": {
+              "const": 1,
+              "type": "number"
+            },
+            "sourceInputIds": {
+              "items": {
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "minItems": 1,
+              "type": "array"
+            },
+            "title": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "validationState": {
+              "enum": [
+                "desk-research-only",
+                "requires-human-validation",
+                "new-unvalidated-hypothesis",
+                "not-applicable"
+              ],
+              "type": "string"
+            },
+            "whyItMatters": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "schemaVersion",
+            "id",
+            "title",
+            "publicationState",
+            "kind",
+            "question",
+            "gapType",
+            "whyItMatters",
+            "affectedRecordIds",
+            "evidenceState",
+            "validationState",
+            "nextHumanWork",
+            "contentKind",
+            "sourceInputIds",
+            "assumptions",
+            "falsifierOrDecisionCondition"
+          ],
+          "type": "object"
+        }
+      ]
+    },
+    {
+      "additionalProperties": false,
+      "properties": {
+        "assumptions": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "auditAliases": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "auditReferences": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "internalId": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "label": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "url": {
+                "format": "uri",
+                "pattern": "^https?:\\/\\/",
+                "type": "string"
+              },
+              "version": {
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": [
+              "label",
+              "url",
+              "version"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "contentKind": {
+          "const": "hypothesis",
+          "type": "string"
+        },
+        "evidenceState": {
+          "enum": [
+            "source-supported",
+            "source-conflicted",
+            "source-not-located",
+            "derived-from-sourced-premises",
+            "not-applicable"
+          ],
+          "type": "string"
+        },
+        "failureModes": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "falsifiers": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "id": {
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+          "type": "string"
+        },
+        "kind": {
+          "const": "hypothesis",
+          "type": "string"
+        },
+        "mechanism": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "priorContext": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "publicationState": {
+          "enum": [
+            "draft",
+            "approved",
+            "excluded"
+          ],
+          "type": "string"
+        },
+        "recordVersion": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "reviewer": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "schemaVersion": {
+          "const": 1,
+          "type": "number"
+        },
+        "sourceInputIds": {
+          "items": {
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "title": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "unresolvedDependencies": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "validationQuestionIds": {
+          "items": {
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "validationState": {
+          "enum": [
+            "desk-research-only",
+            "requires-human-validation",
+            "new-unvalidated-hypothesis",
+            "not-applicable"
+          ],
+          "type": "string"
+        },
+        "visibleLabel": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "id",
+        "title",
+        "publicationState",
+        "kind",
+        "contentKind",
+        "visibleLabel",
+        "sourceInputIds",
+        "priorContext",
+        "mechanism",
+        "assumptions",
+        "unresolvedDependencies",
+        "failureModes",
+        "falsifiers",
+        "validationQuestionIds",
+        "evidenceState",
+        "validationState",
+        "reviewer",
+        "recordVersion",
+        "auditReferences"
+      ],
+      "type": "object"
+    },
+    {
+      "additionalProperties": false,
+      "properties": {
+        "acronym": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "aliases": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "auditAliases": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "claimIds": {
+          "items": {
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "explanation": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "id": {
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+          "type": "string"
+        },
+        "kind": {
+          "const": "term",
+          "type": "string"
+        },
+        "methodIds": {
+          "items": {
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "preferredLabel": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "publicationState": {
+          "enum": [
+            "draft",
+            "approved",
+            "excluded"
+          ],
+          "type": "string"
+        },
+        "schemaVersion": {
+          "const": 1,
+          "type": "number"
+        },
+        "sourceIds": {
+          "items": {
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "title": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "tooltip": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "id",
+        "title",
+        "publicationState",
+        "kind",
+        "preferredLabel",
+        "aliases",
+        "tooltip",
+        "explanation",
+        "methodIds",
+        "claimIds",
+        "sourceIds"
+      ],
+      "type": "object"
+    },
+    {
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "basis": {
+              "enum": [
+                "source-supported",
+                "inference",
+                "ai-assessed-human-reviewed"
+              ],
+              "type": "string"
+            },
+            "conflictingClaimIds": {
+              "items": {
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "criterionId": {
+              "enum": [
+                "evidence-strength",
+                "process-ease",
+                "resource-burden",
+                "contaminant-fate-coverage",
+                "sink-completeness",
+                "product-readiness",
+                "regulatory-clarity",
+                "validation-maturity"
+              ],
+              "type": "string"
+            },
+            "id": {
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+              "type": "string"
+            },
+            "kind": {
+              "const": "assessment",
+              "type": "string"
+            },
+            "label": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "methodId": {
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+              "type": "string"
+            },
+            "publicationState": {
+              "enum": [
+                "draft",
+                "approved",
+                "excluded"
+              ],
+              "type": "string"
+            },
+            "rationale": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "reviewDate": {
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+              "type": "string"
+            },
+            "reviewer": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "rubricVersion": {
+              "pattern": "^\\d+\\.\\d+\\.\\d+$",
+              "type": "string"
+            },
+            "schemaVersion": {
+              "const": 1,
+              "type": "number"
+            },
+            "score": {
+              "maximum": 5,
+              "minimum": 1,
+              "type": "integer"
+            },
+            "status": {
+              "const": "scored",
+              "type": "string"
+            },
+            "supportingClaimIds": {
+              "items": {
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "title": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "schemaVersion",
+            "kind",
+            "id",
+            "title",
+            "publicationState",
+            "methodId",
+            "criterionId",
+            "rubricVersion",
+            "supportingClaimIds",
+            "conflictingClaimIds",
+            "reviewer",
+            "reviewDate",
+            "status",
+            "score",
+            "label",
+            "rationale",
+            "basis"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "conflictingClaimIds": {
+              "items": {
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "criterionId": {
+              "enum": [
+                "evidence-strength",
+                "process-ease",
+                "resource-burden",
+                "contaminant-fate-coverage",
+                "sink-completeness",
+                "product-readiness",
+                "regulatory-clarity",
+                "validation-maturity"
+              ],
+              "type": "string"
+            },
+            "id": {
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+              "type": "string"
+            },
+            "kind": {
+              "const": "assessment",
+              "type": "string"
+            },
+            "methodId": {
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+              "type": "string"
+            },
+            "publicationState": {
+              "enum": [
+                "draft",
+                "approved",
+                "excluded"
+              ],
+              "type": "string"
+            },
+            "reviewDate": {
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+              "type": "string"
+            },
+            "reviewer": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "rubricVersion": {
+              "pattern": "^\\d+\\.\\d+\\.\\d+$",
+              "type": "string"
+            },
+            "schemaVersion": {
+              "const": 1,
+              "type": "number"
+            },
+            "status": {
+              "const": "unknown",
+              "type": "string"
+            },
+            "supportingClaimIds": {
+              "items": {
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "title": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "unknownReason": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "schemaVersion",
+            "kind",
+            "id",
+            "title",
+            "publicationState",
+            "methodId",
+            "criterionId",
+            "rubricVersion",
+            "supportingClaimIds",
+            "conflictingClaimIds",
+            "reviewer",
+            "reviewDate",
+            "status",
+            "unknownReason"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "conflictingClaimIds": {
+              "items": {
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "criterionId": {
+              "enum": [
+                "evidence-strength",
+                "process-ease",
+                "resource-burden",
+                "contaminant-fate-coverage",
+                "sink-completeness",
+                "product-readiness",
+                "regulatory-clarity",
+                "validation-maturity"
+              ],
+              "type": "string"
+            },
+            "id": {
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+              "type": "string"
+            },
+            "kind": {
+              "const": "assessment",
+              "type": "string"
+            },
+            "methodId": {
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+              "type": "string"
+            },
+            "notApplicableReason": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "publicationState": {
+              "enum": [
+                "draft",
+                "approved",
+                "excluded"
+              ],
+              "type": "string"
+            },
+            "reviewDate": {
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+              "type": "string"
+            },
+            "reviewer": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "rubricVersion": {
+              "pattern": "^\\d+\\.\\d+\\.\\d+$",
+              "type": "string"
+            },
+            "schemaVersion": {
+              "const": 1,
+              "type": "number"
+            },
+            "status": {
+              "const": "not-applicable",
+              "type": "string"
+            },
+            "supportingClaimIds": {
+              "items": {
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "title": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "schemaVersion",
+            "kind",
+            "id",
+            "title",
+            "publicationState",
+            "methodId",
+            "criterionId",
+            "rubricVersion",
+            "supportingClaimIds",
+            "conflictingClaimIds",
+            "reviewer",
+            "reviewDate",
+            "status",
+            "notApplicableReason"
+          ],
+          "type": "object"
+        }
+      ]
+    }
+  ]
+}
