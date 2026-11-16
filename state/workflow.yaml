@@ -349,7 +349,7 @@ reader_platform:
     preparation on a branch, with every step recorded. It does NOT authorize merge to
     main, push, deployment to GitHub Pages, publication, running any experiment, or
     accepting the batch-02 deliverables on the operator's behalf.
-  status: task_3_complete_awaiting_operator_review
+  status: task_3_complete_committed
   cycle: reader platform (design phases 2 to 4)
   branch: feat/reader-platform
   worktree: C:\w\rp
@@ -523,7 +523,7 @@ reader_platform:
     export_determinism: byte-identical across two runs; 10 output files
     public_boundary_scan: clean, no repository-local path in the exported bundle
     commit: >
-      <to-be-recorded>
+      a661e7f feat: publish invention record with hypothesis gate test (Task 3)
     guardrails_held:
       - The hypothesis is published with validationState: new-unvalidated-hypothesis and the gate test enforces this.
       - No claim that any family or proposal is clean, detoxified, safe, commercially validated, or environmentally superior.
