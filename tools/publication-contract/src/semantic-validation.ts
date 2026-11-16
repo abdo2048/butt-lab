@@ -14,6 +14,7 @@ import {
   buildBacklinks,
   collectRelationships,
 } from "./relationships.ts";
+import { CRITERION_IDS } from "./model/rubrics.ts";
 
 export type ValidationResult = Readonly<{
   diagnostics: readonly Diagnostic[];
@@ -845,6 +846,60 @@ export function validatePublicationSemantics(
       continue;
     }
     validRecords.set(record.id, record);
+  }
+
+  /**
+   * One assessment per criterion per method.
+   *
+   * The comparison surface renders one cell per (method, criterion) pair, so a
+   * second assessment for the same pair is a contradiction rather than extra
+   * detail, and a method published without an answer for every criterion
+   * leaves a hole that reads as silence. A missing answer is recorded
+   * explicitly with the `unknown` assessment status instead.
+   */
+  const assessmentCellOwners = new Map<string, string>();
+  for (const record of validRecords.values()) {
+    if (record.kind !== "assessment") {
+      continue;
+    }
+    const cell = `${record.methodId}|${record.criterionId}`;
+    const previous = assessmentCellOwners.get(cell);
+    if (previous !== undefined) {
+      diagnostics.push(
+        errorDiagnostic(
+          "ASSESSMENT_DUPLICATE_CRITERION",
+          `Assessments ${previous} and ${record.id} both answer criterion ${record.criterionId} for method ${record.methodId}.`,
+          record.id,
+          pathFor(record.id),
+        ),
+      );
+      continue;
+    }
+    assessmentCellOwners.set(cell, record.id);
+  }
+
+  for (const record of validRecords.values()) {
+    if (record.kind !== "method-family") {
+      continue;
+    }
+    const answeredCriteria = new Set<string>();
+    for (const assessment of validRecords.values()) {
+      if (assessment.kind === "assessment" && assessment.methodId === record.id) {
+        answeredCriteria.add(assessment.criterionId);
+      }
+    }
+    for (const criterionId of CRITERION_IDS) {
+      if (!answeredCriteria.has(criterionId)) {
+        diagnostics.push(
+          errorDiagnostic(
+            "ASSESSMENT_CRITERION_MISSING",
+            `Method ${record.id} has no assessment for criterion ${criterionId}.`,
+            record.id,
+            pathFor(record.id),
+          ),
+        );
+      }
+    }
   }
 
   const relationships = collectRelationships(validRecords);

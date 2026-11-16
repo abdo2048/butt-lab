@@ -111,7 +111,7 @@ test("validate CLI on valid fixture exits 0 and prints exact count summary", asy
     // Valid fixture may have warnings from semantic validation but no errors
     assert.ok(!result.stderr.includes("ERROR"), "Should have no errors");
     // Should output VALID summary to stdout
-    assert.match(result.stdout.trim(), /^VALID records=9 pages=1 assets=0$/);
+    assert.match(result.stdout.trim(), /^VALID records=16 pages=1 assets=0$/);
   } finally {
     rmSync(tempDir, { force: true, recursive: true });
   }

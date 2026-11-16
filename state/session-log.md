@@ -430,3 +430,141 @@ experimental validation.
 - The central finding is recorded in every location: no dry-mass basis, no analyte-resolved contaminant fate, no leaching data, and no use-specific performance evidence for any of the seven families; every family fails at least one of the four required sink fields; the metals stop-condition remains in force.
 - The honest limitation is recorded everywhere the package is named: this cycle ran as a single AI execution with no three-model panel and no judge packet, so the in-document guardrails carry the entire epistemic load, and no retrieval was re-performed.
 - No commit, merge, deployment, publication, or experiment occurred. The accept/reject desk-record decision on the batch-02 deliverables belongs to the operator and has not been made. Reader application, publication, experiment, pilot, merge, deployment and push each remain separately unauthorized.
+
+## 2026-11-16: Phase-14 evidence-gap continuation — M01 measurement-plan proposal recorded (desk-only)
+
+**Unit:** Phase 14, the desk-only evidence-gap continuation opened on the operator's direct instruction to read `reports/batch-02/HANDOFF-BRIEF.md` and `state/workflow.yaml` and continue the work. Desk research only. **No experiment was authorized, run or performed.**
+
+### Outputs
+
+| Path | Bytes | What it is |
+|---|---|---|
+| `reports/batch-02/evidence-gaps/M01-feed-partition-measurement-plan.md` | 39 224 | The M01 measurement-plan proposal. Unvalidated. |
+| `reports/batch-02/evidence-gaps/README.md` | 4 258 | Index of the gap-continuation series, with the may-do / may-not-do boundary restated from §10 of the handoff brief. |
+
+### What the M01 proposal contains
+
+It is a written specification of a measurement written before any data exist, so that the measurement would be interpretable if it were ever run. It defines: the question, the estimand (the accepted partition-fraction convention \(f_{i,s}=m_{i,s}/m_{i,\mathrm{feed}}\), ranking total analyte mass per feed-analyte mass and not concentration alone); an explicit measurement model with units, including the independent whole-butt reference so that the unresolved residual \(u_i\) is a genuine closure check rather than an identity; the experimental unit (the butt) with the nesting of fraction, preparation and determination inside it, and the pseudoreplication guard stated for the record; a randomized complete block design blocked on the feed lot, with the full nuisance-factor table (lot, site, storage interval, moisture, analytical day/analyst/instrument crossed with butt rather than nested, run order, separation efficiency, fines loss, carryover, matrix interference, and the pre-specified fines particle-size boundary with a sensitivity aperture); the accepted analyte panel (nicotine, identified TSNAs including NNN/NNK where appropriate, representative PAHs, and each of Cd/Pb/As/Hg separately); the analytical quality-control requirements per analyte class, including that ICH Q2(R2) supplies almost no numeric acceptance criteria and that they must come from the laboratory's own specification before data are seen, the named-approach and confirmation rule for detection and quantitation limits, the rule that below-QL is reported as `<QL` and never as zero or a substituted value, and the mandatory between-day component of intermediate precision; a GUM uncertainty budget with an estimate, standard uncertainty, distribution and degrees of freedom for every input, the correlations to be carried rather than assumed away, uncertainty rounded before the value, and a magnitude sanity check; the controlling-fraction decision rule including the two honest negatives (a ranking that the data cannot separate is reported as **not located**, and an analyte whose quantitation limit exceeds its mass in the candidate fraction is reported as **not quantifiable at the required boundary**); seven falsifiers; and a six-gate sample-size decision procedure (feasibility, target quantity, minimum important difference, computation with the block structure respected, sensitivity range rather than a single n, and pre-registration).
+
+### Guardrails held
+
+- No experiment was authorized, run or performed. No sample collected, no material handled, no measurement made, no number in the document is a result.
+- No sample count, acceptance criterion, detection or quantitation limit, recovery figure or method-performance value was selected. Each is `parameter-not-located` pending a qualified-lab feasibility study and a defensible power and precision justification. The minimum important difference is defined procedurally and left to the investigators before feasibility data are examined.
+- No operating instructions: no pressure-vessel, solvent-recovery, distillation, caustic-pulping or hazardous-waste-processing directions; no sample-preparation recipe; no DIY substitution.
+- No claim that any family or proposal is clean, detoxified, safe, commercially validated, environmentally beneficial, novel, patentable, deployable or costed.
+- The metals stop-condition remains in force. M01 would locate where the metals are and would decide nothing about acceptability.
+- The four-field sink requirement is unchanged. M01 bears on fields 1 and 2 only, and only at the feed boundary.
+- M02–M08, R01–R05 and S01–S06 are untouched.
+- Dissent preserved. The F3 minority position, the wrong-stream and dilute-purge objection, the unsolved-metals objection and the F2 dilution and off-gas warning all survive. If M01 located the burden in tobacco or ash rather than the cellulose-acetate filter, that would **redirect** which family architecture deserves attention; it would refute nothing.
+- Prior-art awareness only. No novelty or patentability search was performed and none is claimed.
+- `batch_02.status` remains `complete_pending_operator_decision`. This continuation does **not** accept the batch-02 deliverables on the operator's behalf.
+
+### Verification
+
+- `state/workflow.yaml` parses as valid YAML after the edit (`YAML_OK`). Top-level keys are `version, updated, base_commit, batch, current_stage, execution, status, next_action, pending_manual_action, checkpoint, legacy, stages, gap_closing, batch_02, evidence_gap_continuation, permissions`.
+- `batch_02.status: complete_pending_operator_decision` unchanged; `batch_02.deliverables_count: 10`; all ten batch-02 deliverable paths still resolve.
+- `evidence_gap_continuation` recorded with 8 guardrails and 4 open decisions; both new deliverable paths exist on disk (39 224 and 4 258 bytes).
+- Batch-01 history preserved: `stages` keys `1,2,3,4,5` intact; `gap_closing.status: complete_scoped`; `legacy.preserved_queue: state/work-queue.yaml`; the batch-01 `checkpoint:` block untouched (`unit: Stage-5 batch-01 desk synthesis accepted; batch-01 closed`, `last_run: '2026-11-12'`).
+- `permissions.experiments: not authorized`; `permissions.external_writes: host approval required`.
+- One retrieval call was made in this unit: an arXiv metadata lookup required by the citation rule of the design, power, analytical-validation and uncertainty skills. It returned no evidence about cigarette-butt recycling and closed no gap. `retrieval_calls_used: 1` of a ceiling of 24.
+
+### Remaining work
+
+- **M01 is open.** A file is not a measurement. The proposal names four decisions that must be settled before any measurement could begin: the minimum important difference in partition fraction; the feasibility sub-study that produces the between-butt and between-block variability and the matrix-specific analytical precision the sample-size gate depends on; the fraction definitions and the fines particle-size boundary with its sensitivity aperture, fixed before data exist; and the analytical target profile with the per-method acceptance criteria, which the qualified laboratory must set from its own specification before data are seen.
+- The remaining M02–M08, R01–R05 and S01–S06 gaps are untouched and are not closed by this proposal.
+- The batch-01 metadata and hash-normalization provenance follow-up remains open and is not silently closed.
+- The batch-02 accept/reject desk-record decision remains the operator's alone.
+
+### Next action
+
+Wait for the operator's direction on the next gap proposal, or on the M01 feasibility sub-study specification (Gate A). Do not accept the batch-02 deliverables on the operator's behalf. Do not commit in the main checkout. Do not start an experiment, pilot, reader application, publication, merge, deployment or push — each remains separately unauthorized. No scientific content has been approved and no publication has occurred. File completion is not experimental validation.
+
+**Provenance:** evidence base is the accepted batch-01 record only — `reports/final/validation-and-open-questions.md`, `reports/batch-02/HANDOFF-BRIEF.md`, `reports/batch-02/invention.md`, `reports/batch-02/methods/f1-mechanical-physical.md`, `specs/batch-02-launch-plan.md`, `charter.md`, `WORKFLOW.md`, `START_HERE.md`. No new primary source was retrieved for this unit. Last actor: operator-directed OpenCode session (displayed model MiniMax M3.1 Flash Free; underlying model not verified).
+
+### Repository state at the end of the Phase-14 unit
+
+Main checkout HEAD is now `3d76367 adding plan`, an operator-authored commit of 2026-11-16 (author `an <abdoabushahba@gmail.com>`) that contains the ten batch-02 deliverables, `reports/batch-02/HANDOFF-BRIEF.md`, the publication-contract documents, `PROJECT-OVERVIEW.md`, the root planning files and the state files. It was made by the operator, not by this continuation.
+
+The isolated worktree commit `784bb14 feat: add publication content contract` remains on the branch `feat/publication-content-contract` and is **not** an ancestor of main (`git merge-base --is-ancestor 784bb14 HEAD` exits 1). Its file contents reached main through the operator's own commit rather than through a merge of that branch. The worktree at `C:\w\bpc` is unchanged by this continuation and remains the authoritative location for the branch.
+
+This continuation added no commit and staged nothing. Working tree at the end of the unit: ` M findings.md`, ` M progress.md`, ` M state/session-log.md`, ` M state/workflow.yaml`, ` M task_plan.md`, and untracked `reports/batch-02/evidence-gaps/`. Committing these is a separate operator decision.
+
+## 2026-11-16: Phase-15 evidence-gap continuation — M01 Gate-A feasibility sub-study specification recorded (desk-only)
+
+**Unit:** Phase 15 of the evidence-gap continuation. Desk research only. **No experiment was run or authorized, no sample was collected, no material was handled and no measurement was made.**
+
+### Outputs
+
+| File | What it is |
+|---|---|
+| `reports/batch-02/evidence-gaps/M01-gate-a-feasibility-sub-study-specification.md` | The Gate-A feasibility sub-study specification: the six planning quantities Gate A must produce, the design able to estimate them, six probes with quality controls and uncertainty treatment, seven pre-stated decision rules, eight falsifiers, and the seven items only a qualified laboratory can supply. |
+| `reports/batch-02/evidence-gaps/README.md` | Updated: index row for the new document, an expanded next-step section, and a record table of this continuation. |
+
+### Contents
+
+- **What it is and is not.** A written specification a laboratory could be asked to execute and an operator could be asked to authorize; not an authorization, not a protocol to execute, not an answer to M01, not a result.
+- **The failure mode it is built around.** The feed is the object of interest *and* the source of the answer, so a "the filter fraction dominates" impression can be a method artefact (fines loss, carryover, matrix suppression) rather than a property of feed. Every probe is paired with the control that would expose that artefact.
+- **Six outputs, each an estimate with an interval:** between-butt SD of the partition fraction; within-butt preparation and analytical SD; the between-block variance component; dry-matter closure and separation recovery with uncertainties; censoring frequency per matrix and fraction; the observed spread of moisture and storage interval.
+- **Design.** The **butt** is the experimental unit; **feed lot** is the block; **day, analyst and instrument are crossed** with butt so between-day precision is estimable and unconfounded; the storage interval is deliberately varied so moisture and storage spread are estimated rather than assumed; the **analysis scale** is fixed per analyte before data exist; the fraction set is pre-specified with a pre-specified **sensitivity aperture**, so a partition that moves when the cut moves is reported as aperture-dependent rather than as a result.
+- **Six probes:** separation recovery and mass closure; dry-matter determination; matrix spike recovery (matrix appropriateness); per-matrix detection and quantitation limits with a named approach and a confirmation; between-day precision reported separately from within-day; carryover, blanks and run-order.
+- **Pre-stated decision rules R1–R7** and **falsifiers F1–F8**, both written before any data could exist.
+- **The honest outcome the study is allowed to produce:** *"the measurement system cannot support M01 as currently framed."* No rule compares the feasibility intervals against the M01 question, because the precision target and the minimum important difference are decided afterwards; that separation keeps the sample size from being chosen after the data are seen.
+- **What only a laboratory can supply:** the analytical target profile that supplies the acceptance ranges the rules test against, the validated or verification-characterised methods, the written separation procedure, the facility and the lawful contaminated-waste handling, the analysts and instrument records, the traceable feed lots, the storage-interval range and moisture endpoint condition, and the cost and resource estimate.
+
+### Guardrails held
+
+- No sample count, recovery figure, acceptance limit, detection or quantitation limit, threshold or expected value was selected. The structural minimums recorded are **identifiability requirements** (at least two lots, two days, two independent preparations, two injections, two butts per lot per analysis day), not sample-size recommendations; every count remains `parameter-not-located`.
+- No operating instructions: no sample-preparation recipe, no reagent or instrument settings, no separation protocol, no solvent-recovery, distillation, caustic-pulping or pressure-vessel direction, no hazardous-waste-processing guidance, no DIY substitution, no clearance by odour, appearance or FTIR alone.
+- The metals stop-condition remains in force; Gate A can locate metals and cannot judge acceptability.
+- The four-field sink requirement is unchanged; Gate A bears on sink fields 1 and 2 only, and only at the feed boundary.
+- Dissent preserved: the F3 minority position, the wrong-stream and dilute-purge objection, the unsolved-metals objection and the F2 dilution and off-gas warning all survive.
+- Prior-art awareness only; no novelty or patentability search was performed and none is claimed.
+- Publication boundary: a Gate-A output could reach a reader only through an explicitly approved publication-manifest entry carrying a validation state of `requires-human-validation` until a human accepts it. Desk-research completion is not experimental validation.
+- No number was inherited from the batch-01 worker reports; the accepted record forbids carrying over worker sampling counts and illustrative method-performance values.
+
+### Verification
+
+- `state/workflow.yaml` parses as valid YAML (`YAML_OK`).
+- `state/workflow.yaml` → `evidence_gap_continuation`: `phase: 15`; `deliverables` now lists three paths; `guardrails_held` extended with three Phase-15 gates; `outcome` rewritten for two proposals; `open_decisions` rewritten to five; `evidence_basis` extended with the reader-platform design vocabulary.
+- `batch_02.status` unchanged at `complete_pending_operator_decision`; all ten batch-02 deliverables still resolve; batch-01 `checkpoint:` and `stages:` 1–5 unchanged; `permissions.experiments: not authorized` unchanged; `permissions` still the final block.
+- All three `reports/batch-02/evidence-gaps/` files present on disk.
+- `git status --short` shows only the expected modified state and planning files plus the untracked evidence-gaps folder. **No commit, no staging, no merge, no push.**
+- No new retrieval was performed for this unit; `retrieval_calls_used` remains 1 for the continuation (the arXiv metadata lookup that satisfied the skills' citation requirement, which returned no evidence about cigarette-butt recycling).
+
+### Remaining work and next action
+
+- M01 remains open. Two files are not a measurement, and no sample count exists.
+- The four decisions this project cannot make stand: the minimum important difference, the precision target, the fraction definitions and fines aperture, and the analytical target profile. A fifth now joins them: whether to authorize, resource and receive any laboratory work at all.
+- M02–M08, R01–R05 and S01–S06 are untouched. The batch-01 hash-normalization provenance follow-up remains an operator-owned records matter.
+- The operator's accept/reject desk-record decision on the batch-02 deliverables is still outstanding and is not made here. Committing this continuation in the main checkout is a separate operator decision.
+- Next: await the operator's direction on the next gap proposal (M02 onward), or on authorizing the decisions above.
+
+### Provenance
+
+Derived entirely from the accepted batch-01 record, the Batch-02 deliverables, the M01 plan, and the operator-approved reader-platform design. No new primary source was read. Methodological discipline (blocking and randomization; the experimental unit and the pseudoreplication guard; pre-stated criteria and between-day precision; named-approach detection and quantitation limits with confirmation; the GUM budget with per-input distribution and degrees of freedom; no invented effect size and a sensitivity range rather than a single n) follows the experimental-design, statistical-power, analytical-method-validation and uncertainty-and-units skills, whose required reference is recorded in the document and repeated to the operator.
+
+## 2026-11-16: Reader platform opened — Task 1 reconciles the content contract with the reader-platform design (worktree C:\w\rp)
+
+**Outputs.**
+
+- `C:\w\rp` — a new isolated worktree on branch `feat/reader-platform`, based on `main` at `3d76367` with the content contract cherry-picked as `4ed09b0`.
+- `docs/superpowers/plans/2026-11-16-butt-lab-reader-platform.md` — the six-task plan covering the reader-platform design's phases 2 to 4, with six recorded rulings.
+- `docs/publication-content-contract.md` §11 — the contract-to-design reconciliation audit.
+- `tools/publication-contract/src/semantic-validation.ts` — two new diagnostics.
+- `tools/publication-contract/tests/semantic.test.ts`, `tests/export.test.ts`, `tests/helpers.ts`, `tests/cli.test.ts` — the named tests and the fixture change.
+- `state/workflow.yaml` — a new top-level `reader_platform:` block.
+
+**What was audited, and what changed.** The reader-platform design specification requires rules that the content contract has to enforce. The audit read the contract end to end and classified each rule:
+
+- *Already enforced, no change needed.* Only an `approved` record may enter the publication manifest (`RECORD_NOT_APPROVED`, raised before the record is loaded, so a draft or excluded record can never reach the bundle). Inclusion is not transitive: records load only from manifest entries, so a relationship to an unlisted record fails with `RELATIONSHIP_TARGET_UNLISTED`, `CLAIM_SOURCE_REQUIRED`, `INFERENCE_PREMISES_REQUIRED` or `ASSESSMENT_SUPPORTING_CLAIM_UNLISTED`, while audit references stay outside the relationship model as the design's public-safe escape hatch. Every output file is accounted for by manifest-derived closure (`STAGE_CLOSURE_MISMATCH`). A local artifact is blocked without `public-local-copy` rights (`SOURCE_LOCAL_COPY_RIGHTS_INVALID`).
+- *Fixed, one assessment per criterion per method.* Nothing prevented two assessments answering the same criterion for the same method, and nothing required a published method to carry an answer for every catalog criterion. The comparison surface has exactly one cell per (method, criterion) pair, so a duplicate is a contradiction and a hole reads as silence. Two diagnostics were added — `ASSESSMENT_DUPLICATE_CRITERION` and `ASSESSMENT_CRITERION_MISSING` — checked across the loaded record set, and the test fixture method now carries all eight criteria so that a missing answer is recorded explicitly with the `unknown` status rather than omitted.
+- *Fixed, the local-artifact rights rule is now proved.* The rule was enforced but no test proved it: the fixture declared a placeholder asset hash, so the export failed on the hash before it could fail on the rights and the test passed for the wrong reason. Two named export tests now build a fixture whose asset hash is correct, so the rights branch is the only thing that can fail the export — one for `rights-unresolved`, one for `link-only`.
+- *Deferred, recorded rather than coded.* A generated-schema drift guard for the content-kind enum, and deriving the claim content kind from the canonical `CONTENT_KINDS` constant. The schema already contains exactly the five canonical kinds, so this would only characterize existing behaviour.
+
+**Verification.** `npm run typecheck` clean. `npm test` — 189 tests, 188 pass, 1 skipped (Windows cannot create symlinks), 0 fail. Schemas regenerated twice are byte-identical and their SHA-256 hashes are unchanged from the Phase-11 record. A source-versus-documentation diagnostic-code audit reports no code emitted by the source that the documentation omits; the four CLI codes the audit script could not match are confirmed by reading the source, because the codes sit inside template literals or quoted strings the script's pattern does not reach.
+
+**Guardrails held.** No scientific content was approved and no publication occurred; the contract work decides no chemistry. The exporter stays network-free and deterministic. Missing evidence stays missing. No measurement, pilot, field trial or physical experiment was run or authorized. No novelty, patentability, freedom-to-operate, safety, regulatory or environmental-benefit claim was made. Batch-02 remains `complete_pending_operator_decision` and this continuation does not accept it. Merge to main, push, deployment, publication, experiment and pilot each remain separately unauthorized.
+
+**Rulings.** The operator's review model differs from the design's sections 12.5 and 14.5: the critique is to come from external readers and an optional AI second layer after publication, not from the operator before it. That departure is accepted and mitigated inside the artifact — evidence states, dissent, unknowns and the audit drawer are all visible to readers — while the section 12.7 deployment gate is retained, because deployment is an action and not a review. The operator's "full force auto" instruction is read as authorization to build the layer, the application, the CI build and the release preparation on a branch with everything recorded; it is not read as authorization to merge, push, deploy, publish, experiment, or accept batch-02.
+
+**Remaining work and next action.** Task 2 is next: the cigarette-butt material record and the six method-family records with their claims, gaps and assessments, built from the already accepted batch-02 content with no new research and no invented scores. The operator's accept/reject decision on the batch-02 deliverables, and the five decisions the M01 proposals name, remain the operator's own.

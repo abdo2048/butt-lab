@@ -416,61 +416,111 @@ test("successful export replaces previous directory and removes stale files", as
   assert.ok(!files.some((f) => f === "stale-file.txt"), "Stale file was not removed");
 });
 
-test("unresolved-rights PDF cannot be copied", async (t) => {
+/**
+ * Builds a fixture whose only local artifact is a PDF that IS manifest-listed
+ * with its real hash, so the asset hash check passes and the source-rights
+ * rule is the only thing that can stop the export.
+ *
+ * The earlier version of this fixture declared a placeholder hash, so the
+ * export stopped with MANIFEST_HASH_MISMATCH and the rights branch was never
+ * reached. The hash here is the file's real hash.
+ */
+async function createLocalArtifactFixture(
+  t: TestContext,
+  rights: "link-only" | "rights-unresolved",
+): Promise<{ root: string; out: string }> {
   const root = await temporaryRoot(t);
-  const { manifest } = await createValidFixture(root);
 
-  // Add a source with unresolved rights and a local artifact that's a PDF
-  const sourceRecord = manifest.records.find((r) => r.id === "example-patent");
-  assert.ok(sourceRecord);
+  // Write the PDF first so the record can declare the hash of the file it
+  // names.
+  await mkdir(join(root, "assets"), { recursive: true });
+  const artifactPath = join(root, "assets", "fixture-patent.pdf");
+  await writeFile(artifactPath, "%PDF-1.4\n%fixture\n", "utf8");
+  const artifactHash = await sha256File(artifactPath);
 
-  // Create a new fixture with the PDF asset
-  const pdfRoot = await temporaryRoot(t);
   const records = (await import("./helpers.ts")).cloneFixtureRecords();
   const source = records.find((r) => r.id === "example-patent");
-  if (source) {
-    source.rights = "rights-unresolved";
-    source.localArtifact = {
-      path: "assets/fixture-patent.pdf",
-      sha256: "a".repeat(64),
-    };
-  }
-  await writeFixtureRecords(pdfRoot, records);
+  assert.ok(source, "the fixture must contain the example-patent source");
+  source.rights = rights;
+  source.localArtifact = {
+    path: "assets/fixture-patent.pdf",
+    sha256: artifactHash,
+  };
+  await writeFixtureRecords(root, records);
 
-  // Add the PDF asset to manifest manually
-  const manifestPath = join(pdfRoot, "manifest.yaml");
+  const manifestPath = join(root, "manifest.yaml");
   const manifestContent = await readFile(manifestPath, "utf8");
   const manifestObj = parse(manifestContent);
   manifestObj.assets = [
     {
       id: "fixture-patent",
       path: "assets/fixture-patent.pdf",
-      sha256: "a".repeat(64),
+      sha256: artifactHash,
     },
   ];
   await writeFile(manifestPath, JSON.stringify(manifestObj, null, 2), "utf8");
 
-  // Create actual PDF file
-  await mkdir(join(pdfRoot, "assets"), { recursive: true });
-  await writeFile(join(pdfRoot, "assets", "fixture-patent.pdf"), "%PDF-1.4\n%fixture\n", "utf8");
+  return { root, out: await temporaryRoot(t) };
+}
 
-  const out = await temporaryRoot(t);
+/**
+ * Asserts that an export fails specifically because the source holds no
+ * public-local-copy right over its local artifact, and that nothing was
+ * published.
+ */
+async function assertLocalArtifactBlockedByRights(
+  exportPromise: Promise<unknown>,
+  out: string,
+): Promise<void> {
+  await assert.rejects(exportPromise, (caught: unknown) => {
+    assert.ok(
+      caught instanceof ContractError,
+      `expected a ContractError, got ${String(caught)}`,
+    );
+    const codes = caught.diagnostics.map((d) => d.code);
+    assert.ok(
+      codes.includes("SOURCE_LOCAL_COPY_RIGHTS_INVALID"),
+      `expected SOURCE_LOCAL_COPY_RIGHTS_INVALID, got: ${codes.join(", ")}`,
+    );
+    const rights = caught.diagnostics.find(
+      (d) => d.code === "SOURCE_LOCAL_COPY_RIGHTS_INVALID",
+    );
+    assert.match(
+      rights?.message ?? "",
+      /does not hold public-local-copy rights/,
+      "the diagnostic must name the rights rule, not a hash or listing problem",
+    );
+    return true;
+  });
 
-  let exportFailed = false;
-  try {
-    await exportPublication({
-      root: pdfRoot,
-      output: out,
-      rubricsPath: RUBRICS_PATH,
-    });
-  } catch (e) {
-    exportFailed = true;
-  }
-  assert.ok(exportFailed, "Export should fail when unresolved-rights PDF is present");
-
-  // Verify no files were created in output
   const files = await import("node:fs/promises").then((fs) => fs.readdir(out));
   assert.equal(files.length, 0, "Output directory should be empty after failed export");
+}
+
+test("a source with unresolved rights cannot publish its local artifact", async (t) => {
+  const { root, out } = await createLocalArtifactFixture(t, "rights-unresolved");
+
+  await assertLocalArtifactBlockedByRights(
+    exportPublication({
+      root,
+      output: out,
+      rubricsPath: RUBRICS_PATH,
+    }),
+    out,
+  );
+});
+
+test("a source with link-only rights cannot publish its local artifact", async (t) => {
+  const { root, out } = await createLocalArtifactFixture(t, "link-only");
+
+  await assertLocalArtifactBlockedByRights(
+    exportPublication({
+      root,
+      output: out,
+      rubricsPath: RUBRICS_PATH,
+    }),
+    out,
+  );
 });
 
 test("derivative text is absent unless right is publish-full-text or publish-excerpts and explicitly listed", async (t) => {

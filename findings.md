@@ -306,3 +306,77 @@ The user approved the proposed three-part system boundary: private research work
 - `state/session-log.md` gained a 2026-11-16 addendum entry naming the handoff brief.
 - A second honesty point carried into the record: batch-02 ran as single-AI execution with no three-model panel and no judge packet, so the independent-review and dissent machinery batch-01 had is absent and the in-document guardrails carry the entire epistemic load. Any receiving agent should treat these as desk conclusions from one model, not as panel-validated findings.
 - No commit, merge, deployment, publication, or experiment occurred. No scientific content was approved. The operator's accept/reject desk-record decision on the batch-02 deliverables is still theirs.
+
+## Phase-14 evidence-gap findings: M01 (2026-11-16)
+
+**Finding 1 — M01 is the load-bearing gap, and it is a measurement gap that only a qualified laboratory can close.** The accepted batch-01 agenda puts M01 first for a structural reason, not a cosmetic one: every family comparison in F0–F5 needs analyte mass on one common dry-feed basis, and until the whole-feed reference and the fraction split are measured on that basis the families are not expressed in comparable units at all. It is also the feed-side half of the J-H-01 decisive measurement (same-feed analyte-mass partition ranking, ranked by total analyte mass per feed-analyte mass and not by concentration). The consequence recorded in the accepted judge report is a redirect, not a refutation: if the burden turns out to sit in tobacco/ash rather than in the cellulose-acetate filter, that redirects which family architecture deserves attention.
+
+**Finding 2 — the honest answer to M01 may be "not located", and the proposal is written so that this is reportable.** Two distinct negative outcomes are pre-specified: a candidate controlling fraction whose simultaneous interval does not clear the runner-up is reported as **not located** rather than named as the winner; and an analyte whose quantitation limit in the candidate fraction exceeds its mass in that fraction is reported as **not quantifiable at the required boundary**. Both are legitimate results. A ranking that the data cannot separate is exactly the case the accepted vocabulary marks `parameter-not-located`.
+
+**Finding 3 — the denominator is where these programmes go wrong, so the proposal attacks the denominator first.** The whole-butt reference is measured independently rather than defined as the sum of the fractions; otherwise the closure check is an identity and proves nothing. The unresolved residual \(u_i\) stays visible and attributed to named physical, analytical or basis causes — and never to "destruction", consistent with the accepted record that unexplained disappearance is not automatically detoxification.
+
+**Finding 4 — three failure modes were identified in the design that would silently corrupt a ranking rather than merely weaken it.** (a) *Fines loss and the particle-size boundary*: fines are a plausible burden-bearing fraction, and a boundary chosen after seeing the data can move mass between "ash" and "fines", so the aperture is pre-specified with a sensitivity variant analysed as a pre-planned comparison. (b) *Batch/day confounding*: if every butt of one lot is analysed on one day, lot is confounded with day; the design crosses day with butt and splits each butt's fraction set across at least two days. (c) *Carryover between fractions*: carryover moves analyte mass from a heavy fraction into a light one, which directly inverts the ranking, so procedural blanks are mandatory within every batch with a designated blank after the highest expected load.
+
+**Finding 5 — the plan's own numbers are the honest limit, and that limit is a finding about the state of the record.** Everything that would let a sample count be stated — the between-butt and between-block variability of feed composition, and the analytical precision available for the panel in tobacco, cellulose-acetate, paper, ash and fines matrices — is `parameter-not-located` in the accepted record. The six-gate procedure therefore names its inputs instead of producing a number, and the minimum important difference in partition fraction is left for the investigators to fix before feasibility data are examined. The accepted record already forbids carrying over worker sampling counts and illustrative method-performance values, and none were carried over.
+
+**Finding 6 — the recurring epistemic asymmetry persists in this continuation.** Batch-02 ran as a single-AI execution with no panel and no judge packet; Phase 14 has the same shape. There is no independent review behind the M01 proposal. The in-document guardrails therefore carry the whole epistemic load, exactly as recorded in the handoff brief. A reviewer should be asked to check the proposal specifically on: whether the honest-negative rules can actually fire (a rule that can never fire is not a safeguard), and whether the sample-size gate is genuinely executable once the feasibility inputs exist.
+
+**Finding 7 — M01 changes the shape of the remaining agenda.** If the burden-bearing fraction is the filter, the F0/F1 washing and separation families stay plausible and the metals stop-condition bites on the discarded fraction. If it is tobacco/ash, the burden moves into a particulate that is itself a residue, and the stop-condition bites on the residue stream instead. Either way M01 is upstream of M02–M08, R01–R05 and S01–S06, and it discharges none of them. It also supplies the dry-feed basis that S01 and S02 would need, without being an energy, cost or LCA input.
+
+## Phase-15 evidence-gap findings: the M01 Gate-A feasibility study (2026-11-16)
+
+**Unit:** Phase 15, desk-only. No experiment was run or authorized. The deliverable is `reports/batch-02/evidence-gaps/M01-gate-a-feasibility-sub-study-specification.md`.
+
+### 1. A feasibility study is not a pilot, and the difference is the whole point
+
+Gate A does not answer M01; it produces the *inputs* to a computation that answers M01. The separation is deliberate and load-bearing: the person who runs the feasibility study must not also pick the sample size, because the feasibility data would then be invisible to the choice that consumes it. Any future version of this work that lets one actor do both has lost the mechanism.
+
+### 2. The feed is the object of interest and the source of the answer — that is the trap
+
+This is the deepest finding in the unit. M01 asks which stream carries the contaminant burden, and the answer comes from a measurement procedure applied to cigarette-butt feed. A "the filter fraction dominates" impression can therefore be a **method artefact** rather than a property of the feed. Three artefacts are specific enough to name and to control:
+
+- **fines loss** — the smallest fraction is also the easiest to lose, and it is the fraction most likely to be mis-ranked;
+- **carryover** — a concentrated sample inflating the next one, which inflates the *smallest* measured masses and can manufacture a partition where none exists;
+- **matrix suppression** — tobacco, cellulose acetate, paper, ash and fines do not respond alike to a given analyte, so a calibration carried from one substrate to another manufactures a difference between matrices.
+
+Every probe in the specification is paired with the control that would expose its artefact, and the falsifier list is written in terms of results that would **invalidate** the study rather than results that would answer M01.
+
+### 3. The denominator is where programmes like this go wrong, and it must be instrumented, not assumed
+
+M01's whole premise is a common dry-feed basis. The Gate-A design therefore treats the *measurement of the denominator* as a first-class probe with its own uncertainty, and treats separation recovery as a measured property of the **method** rather than of the feed. If recovered fractions do not account for the reference butt, the controlling fraction is an artefact of what was lost — and nothing downstream can detect that, because the loss is baked into the denominator.
+
+### 4. Some structural minimums are not arbitrary numbers
+
+The specification refuses to state a sample count, but it does record minimums: at least two lots, two days, two independent preparations, two injections, two butts per lot per analysis day. These are **identifiability requirements** — a variance component estimated from a single level has no variance estimate at all. Stating them as "at least two" is a mathematical fact about degrees of freedom, not a sample-size recommendation, and the distinction is recorded explicitly so that no later reader mistakes them for a recommended \(n\).
+
+### 5. Between-day precision is the component most designs forget, and it is the one M01 needs
+
+Repeatability within a day can look excellent while the between-day component is an order of magnitude larger. M01's plan requires between-day precision to be part of any reported precision, and the Gate-A design therefore **crosses** day, analyst and instrument with the experimental unit rather than nesting them inside it — a nested design cannot produce an unconfounded between-day figure at all. The same logic drove the decision to vary the storage interval deliberately rather than hold it constant: the spread is estimated, not hoped for.
+
+### 6. The honest negative has to be an allowed outcome, or the study will find what it was built to find
+
+Gate A is permitted to conclude: *"the measurement system cannot support M01 as currently framed."* That is a useful finding, and a study with no such exit tends to produce a positive anyway. Two structural protections accompany it: no rule compares the feasibility intervals against the M01 question (that is Gate D, after the target is set), and the failure path — the M01 scope shrinking because a matrix–analyte pair is not quantifiable at the required boundary — is written into the decision rules rather than left to interpretation. If the feasibility data had been allowed to influence the target, the sample size would have been chosen after the data were seen.
+
+### 7. The single-AI asymmetry persists, and it now has a specific thing to check
+
+This series still runs as one AI agent with no panel and no judge packet. The unit's own limitation list names the specific thing an independent reviewer should verify: that the decision rules R1–R7 and the falsifiers F1–F8 **can actually fire** — that the honest-negative paths are reachable and are not vacuously satisfied by a well-behaved dataset. A rule set that cannot fail is not a safeguard.
+
+### 8. What the reader-platform design contributes
+
+The approved reader-platform design (`docs/superpowers/specs/2026-11-13-butt-lab-reader-platform-design.md`) turns out to carry vocabulary this continuation inherits directly: publication state (`draft` / `approved` / `excluded`), validation state (`desk-research-only` / `requires-human-validation` / `new-unvalidated-hypothesis` / `not-applicable`), and the rule that missing or unmeasured evidence is `unknown` and never a zero. Both the M01 plan and the Gate-A specification are `desk-research-only`. A measured M01 result would be `requires-human-validation` until a human accepts it, and could reach a reader only through an explicitly approved publication-manifest entry — a separate decision, separately gated. The reader is a presentation layer over approved records; it does not run the research workflow and does not become a second source of truth.
+
+### Unchanged boundary
+
+Desk research only. No experiment, no sample, no measurement. The metals stop-condition remains in force; the four-field sink requirement is unchanged; the F3 minority position and the preserved dissent survive. M01 remains open, M02–M08 / R01–R05 / S01–S06 are untouched, and the batch-01 hash-normalization provenance follow-up remains an operator-owned records matter.
+
+## Reader-platform findings: the contract-to-design audit (2026-11-16)
+
+**A contract can enforce a rule while proving nothing about it.** The local-artifact rights rule was correctly implemented — a source without `public-local-copy` rights is blocked before staging — but the test that "covered" it declared a placeholder asset hash, so the export failed on the hash before it could fail on the rights. The test passed for the wrong reason. The fix was to make the fixture hash correct so the rights branch is the only possible failure; the production code was already right. This is the failure mode to watch for whenever a contract has several independent gates: the first one to fire hides the others, and a suite can look complete while several gates are untested.
+
+**A missing answer and a duplicated answer are different defects and both need names.** The design says one assessment per criterion per method, and offers an `unknown` status precisely so that an unanswered question is recorded rather than omitted. Nothing enforced either half. A duplicate lets the comparison table show two different scores for one cell; a hole makes an unanswered criterion read as silence. Both are now build errors, and the fixture had to grow to eight assessments per method before the "missing" rule could be tested at all — which is itself a finding: a fixture with one assessment per method was never going to reveal a coverage rule.
+
+**"Approved only" is enforced at the loader, not the validator.** It is easy to look for the publication-state gate in the semantic validator and conclude the rule is missing. It is actually enforced earlier and more strongly: only manifest-listed records are loaded at all, and the loader rejects anything not `approved` before it becomes a record. The general lesson for this project: the loader's manifest-driven loading is what makes several of the design's publication rules true at once — non-transitivity, approved-only, no orphan assets — and any future change that loads a record from anywhere else would quietly break all of them.
+
+**The design's rules cluster, and checking them one at a time is slow.** Four of the eight audited rules turned out to be enforced already, but not in the place a reader would look, and for different reasons. The two that were genuinely missing were both about the shape of a set rather than the validity of a value: one value per cell, and one answer per question. Set-shaped rules need set-shaped checks, and they belong in the cross-record pass, not in the per-record function that can only see one record at a time.
+
+**A test-quality finding is a finding.** The audit's largest single output was not a production change but the discovery that an existing test asserted a behaviour it had not exercised. Recording that as a defect rather than as a completed task is what makes the suite trustworthy afterwards.

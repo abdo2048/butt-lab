@@ -254,6 +254,8 @@ current implementation.
 | `ASSESSMENT_UNKNOWN` | An assessment references a criterion that is not in the catalog | Use only criterion IDs defined in `rubrics.yaml` |
 | `ASSESSMENT_SUPPORTING_CLAIM_REQUIRED` | A scored assessment names no supporting claim | Name the claim that supports the score |
 | `ASSESSMENT_SUPPORTING_CLAIM_UNLISTED` | An assessment names a supporting claim that is not in the manifest | Add the claim to the manifest or correct the reference |
+| `ASSESSMENT_DUPLICATE_CRITERION` | Two assessments answer the same criterion for the same method | Keep exactly one assessment per method and criterion; merge or remove the other |
+| `ASSESSMENT_CRITERION_MISSING` | A published method has no assessment for one of the catalog criteria | Add the missing assessment, using the `unknown` status with an `unknownReason` when no evidence exists |
 
 #### Relationships
 
@@ -317,3 +319,28 @@ Warnings do not block an export and never change scientific or publication state
 - Authorize experiments
 
 **Every publication version requires explicit human operator approval** before publication. The operator records the decision in `state/workflow.yaml` and `state/session-log.md`. The exporter cannot publish — it only produces a local build directory (`.publication-build/` by default) that the operator may inspect and then manually promote.
+
+## 11. Contract-to-design reconciliation audit (2026-11-16)
+
+This section records a line-by-line audit of the contract against the reader-platform design specification (`docs/superpowers/specs/2026-11-13-butt-lab-reader-platform-design.md`). Each design rule was either confirmed as already enforced, fixed with a named failing-then-passing test, or recorded as a deliberate deferral.
+
+### Rules confirmed as already enforced
+
+| Design rule | Where it is enforced | Notes |
+|-------------|----------------------|-------|
+| §5.2 / §12.8 — only an `approved` record may enter the publication manifest | `src/manifest-validation.ts` fails with `RECORD_NOT_APPROVED` before the record is loaded | A `draft` or `excluded` record can never reach the bundle, because only manifest-listed records are loaded at all |
+| §12.8 — inclusion is not transitive; a relationship to an unlisted record is a build error | `src/manifest-validation.ts` loads records only from manifest entries; `src/semantic-validation.ts` reports `RELATIONSHIP_TARGET_UNLISTED`, `CLAIM_SOURCE_REQUIRED`, `INFERENCE_PREMISES_REQUIRED` and `ASSESSMENT_SUPPORTING_CLAIM_UNLISTED` | Audit references are deliberately outside the relationship model, which is the design's public-safe escape hatch |
+| §13.1 — every output file must be accounted for by manifest-derived closure | `src/export.ts` compares the stage directory against the expected closure and fails with `STAGE_CLOSURE_MISMATCH` | The exporter also replaces the output only after the stage closes successfully |
+| §12.8 / §13.1 — a local artifact may not be published without `public-local-copy` rights | `src/semantic-validation.ts` reports `SOURCE_LOCAL_COPY_RIGHTS_INVALID` before staging | The exporter's own skip is redundant defence in depth |
+
+### Rules fixed in this audit
+
+| Design rule | What was wrong | Fix |
+|-------------|-----------------|-----|
+| §9.1 — one assessment per criterion per method | Nothing prevented two assessments answering the same criterion for the same method, and nothing required a published method to carry an answer for every catalog criterion. The comparison surface has exactly one cell per (method, criterion) pair, so a duplicate is a contradiction and a hole reads as silence | New diagnostics `ASSESSMENT_DUPLICATE_CRITERION` and `ASSESSMENT_CRITERION_MISSING`, checked across the loaded record set in `validatePublicationSemantics`. A missing answer is recorded explicitly with the `unknown` assessment status rather than omitted |
+| §8.3 — a `link-only` or `rights-unresolved` source must not publish its local artifact | The rule was enforced but no test proved it. The existing fixture declared a placeholder asset hash, so the export failed on the hash before it could fail on the rights, and the test passed for the wrong reason | Two named tests now build a fixture whose asset hash is correct, so the rights rule is the only thing that can fail the export: one for `rights-unresolved`, one for `link-only` |
+
+### Deliberate deferrals (documented, not coded)
+
+- **Content-kind drift guard.** The generated schema already contains exactly the five canonical content kinds, so a guard test would only characterize existing behaviour. Deriving the claim kind from the canonical constant is behaviour-preserving and was judged not worth a schema change at this point; the constant remains the single source of truth in `src/model/states.ts`.
+- **Automated scientific approval.** Design §14.5 requires a human to review claims, locators, score rationales, uncertainty, dissent, AI boundaries, rights and public exposure. No automated check in this contract can stand in for that review, and none is attempted here.

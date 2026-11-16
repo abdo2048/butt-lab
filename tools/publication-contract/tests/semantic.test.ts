@@ -164,6 +164,47 @@ test("the valid fixture produces zero error diagnostics", async (t) => {
   assert.deepEqual(errorCodes(result), []);
 });
 
+test("ASSESSMENT_DUPLICATE_CRITERION reports two assessments for the same method and criterion", async (t) => {
+  const existing = findFixtureRecord(
+    cloneFixtureRecords(),
+    "mechanical-resource-burden-v1",
+  );
+  assert.ok(existing);
+
+  const records = [...cloneFixtureRecords(), {
+    ...existing,
+    id: "mechanical-resource-burden-duplicate-v1",
+    title: "Fixture resource burden duplicate",
+  }];
+  const method = findFixtureRecord(records, "mechanical-physical");
+  assert.ok(method);
+  method["assessmentIds"] = [
+    ...(method["assessmentIds"] as string[]),
+    "mechanical-resource-burden-duplicate-v1",
+  ];
+
+  const loaded = await loadFixture(t, records);
+  const result = validatePublicationSemantics(loaded, rubrics);
+
+  assert.deepEqual(errorCodes(result), ["ASSESSMENT_DUPLICATE_CRITERION"]);
+});
+
+test("ASSESSMENT_CRITERION_MISSING reports a method without an assessment for every criterion", async (t) => {
+  const records = cloneFixtureRecords().filter(
+    (record) => record["id"] !== "mechanical-validation-maturity-v1",
+  );
+  const method = findFixtureRecord(records, "mechanical-physical");
+  assert.ok(method);
+  method["assessmentIds"] = (method["assessmentIds"] as string[]).filter(
+    (id) => id !== "mechanical-validation-maturity-v1",
+  );
+
+  const loaded = await loadFixture(t, records);
+  const result = validatePublicationSemantics(loaded, rubrics);
+
+  assert.deepEqual(errorCodes(result), ["ASSESSMENT_CRITERION_MISSING"]);
+});
+
 test("SEMANTIC_DUPLICATE_RECORD_ID reports a stable ID used by two records", () => {
   const duplicate = cloneFixtureRecords()[0];
   assert.ok(duplicate);
