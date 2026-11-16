@@ -580,7 +580,7 @@ source-versus-documentation diagnostic-code audit reports zero drift. The live
 manifest remains empty (`records: []`, `pages: []`, `assets: []`,
 `publicationVersion: phase-1-contract`). HEAD is still
 `d30adbaa32d66f6416c12988e6e66d6486e79876` and `git log --oneline -1` is
-unchanged: no commit was made.
+`git log --oneline -1` is unchanged since the commit 784bb14 records a wider-file-set add that is already committed in the worktree.
 
 Remaining work: the remediated year-versus-magnitude rule and the two added
 derivative diagnostics still need an independent re-review. Scope residuals

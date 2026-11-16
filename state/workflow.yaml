@@ -6,46 +6,29 @@ current_stage: 5
 execution: file-directed; host must trigger/resume; no scheduler installed
 status: awaiting_manual
 next_action: >-
-  Phase-1 publication-contract acceptance gate re-run GREEN for the THIRD time in
-  worktree C:\w\bpc (186 tests, 185 pass, 1 Windows-symlink skip, 0 fail; tsc
-  --noEmit clean; coverage 96.48% line / 88.30% branch / 93.37% functions).
-  The independent read-only review returned SIGN-OFF on the Task 6
-  RELATIONSHIP_TARGET_KIND_MISMATCH rule and on the Markdown layer of the Task 5
-  regex/CommonMark risk, but DISSENT on the year-vs-magnitude rule; that DISSENT
-  and every defect it surfaced were reproduced locally and then remediated
-  test-first: a count in a year-shaped range after a cue word was a false
-  negative, a plain year introduced by a determiner was a false positive, the
-  unit-bearing-quantity regex was quadratic (a 40,000-digit proposition took
-  11,131 ms and now takes 130 ms), and a derivative path/hash was unchecked so a
-  repository-internal path could reach records.json. The public error-code table
-  in docs/publication-content-contract.md was rebuilt from the 57 codes the source
-  actually emits, the unreachable CLI default branch was aligned to
-  CLI_UNKNOWN_COMMAND, and a plan errata section records the divergences from the
-  plan text. The final commit is still ARMED (verified read-only via git add
-  --dry-run) but NOT executed, because the review changed the risk picture and the
-  operator has not re-authorized. No commit, merge, deploy, publish, experiment
-  or Batch-02 authorization; each requires a separate explicit operator decision.
+  Phase-1 publication content contract COMMITTED locally on branch
+  feat/publication-content-contract in worktree C:\w\bpc as commit 784bb14
+  "feat: add publication content contract" (37 paths staged: 3 modified + 34
+  added; no node_modules, no scratch residue). The acceptance gate was GREEN
+  immediately before the commit (186 tests, 185 pass, 1 Windows-symlink skip, 0
+  fail; tsc --noEmit clean; coverage 96.48% line / 88.30% branch / 93.37%
+  functions; schema determinism; empty-manifest validate exit 0; export
+  determinism and idempotence; public-boundary scan clean; legacy Python
+  registry tests pass). The working tree is clean after the commit. The operator
+  chose option (b): a wider file set than the plan's exact git add list, which
+  also staged state/workflow.yaml, state/session-log.md and the plan document so
+  the acceptance checkpoint is committed alongside the contract. All
+  authorizations for commit/merge/deploy/publish/experiment/Batch-02 remain
+  separately unauthorized. The worktree and branch are preserved.
 pending_manual_action: >-
   Operator decision on the optional final Phase-1 commit (plan Task 10 Step 8).
-  Not executed: the operator replied "do recommended" to the choice between
-  (a) keeping the worktree as it is, (b) authorizing the commit, and (c) first
-  seeing a change summary; the recommended action (a) was taken, so no commit
-  authorization has been given and nothing was committed. An independent
-  read-only review then returned DISSENT on two of the three items it checked,
-  which means the worktree state changed after that authorization question was
-  asked, so the commit must be re-authorized rather than inherited. The commit
-  is ARMED and verified read-only with git add --dry-run (35 paths, exactly the
-  expected files). Plan command: git add ".gitignore" "PROJECT-OVERVIEW.md"
-  "docs/publication-content-contract.md" "publication" "tools/publication-contract"
-  then git commit -m "feat: add publication content contract". Two operator
-  choices remain open before running it: (1) state/workflow.yaml and
-  state/session-log.md are modified tracked files that are NOT in the plan's add
-  list, so the plan command would leave the acceptance checkpoint uncommitted;
-  (2) docs/superpowers/plans/2026-11-14-publication-content-contract.md is
-  untracked, is not gitignored, and is also not in the plan's add list. The
-  staged publication/manifest.yaml is empty by design (records, pages and
-  assets all []), so a commit publishes no scientific content. Merge, deploy,
-  publish, experiment and Batch-02 launch remain separately unauthorized.
+  Executed: the operator chose option (b) — a wider file set than the plan's
+  exact `git add` list — and committed 37 paths (`.gitignore`, `PROJECT-OVERVIEW.md`,
+  `docs/publication-content-contract.md`, `docs/superpowers/plans/2026-11-14-publication-content-contract.md`,
+  `publication`, `tools/publication-contract`, `state/workflow.yaml`,
+  `state/session-log.md`) as commit 784bb14 "feat: add publication content contract".
+  All authorizations for commit/merge/deploy/publish/experiment/Batch-02 remain
+  separately unauthorized. The worktree and branch are preserved.
 checkpoint:
   unit: Phase-11 defect remediation and documentation sync in isolated worktree C:\w\bpc
   completed_in_this_unit:
