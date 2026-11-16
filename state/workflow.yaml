@@ -353,12 +353,16 @@ reader_platform:
   operator_acceptance:
     accepted: true
     statement: >
-      OPERATOR DECISION: AUTHORIZE PUSH OF feat/reader-platform FOR AI CONTINUATION.
-      I authorize pushing the branch feat/reader-platform (commits a661e7f, 107dffa) to origin
-      so another AI agent with GitHub access can continue the reader-platform work.
-      This does NOT authorize merge to main, deployment to GitHub Pages, publication, running
-      any experiment, or accepting the batch-02 deliverables on my behalf. Those remain
-      separately unauthorized pending future decisions.
+      OPERATOR DECISION: FULL AUTHORIZATION FOR AI CONTINUATION ON feat/reader-platform.
+      I authorize the AI agent to: read, edit, create, and delete files; commit and push
+      to feat/reader-platform; open pull requests; deploy preview builds (e.g., Vercel
+      preview deployments); run CI/builds; and continue research and development on the
+      reader-platform. The evidence discipline constraints remain in force per the design
+      spec: missing evidence = parameter-not-located/source-not-located/unknown (never
+      zero/invented); metals stop-condition remains in force; no experiment/physical trial
+      without separate authorization. Batch-02 deliverables are accepted as the content
+      basis for the reader site. Merge to main and production deployment remain separate
+      operator decisions.
     recorded: '2026-11-17'
   cycle: reader platform (design phases 2 to 4)
   branch: feat/reader-platform
