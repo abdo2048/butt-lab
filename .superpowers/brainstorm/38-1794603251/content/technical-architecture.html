@@ -1,0 +1,88 @@
+<h2>Technical architecture for the public pilot</h2>
+<p class="subtitle">Three small modules, no database, no CMS, no live AI.</p>
+
+<div class="section" style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px">
+  <div style="border:2px solid var(--border);padding:14px">
+    <p class="label">Module 1</p>
+    <h3>Approved content</h3>
+    <p>Markdown narratives, small structured records, glossary, citations, and explicitly approved assets.</p>
+    <small>Human-editable and versioned in Git.</small>
+  </div>
+  <div style="border:1px solid var(--border);padding:14px">
+    <p class="label">Module 2</p>
+    <h3>Validator / exporter</h3>
+    <p>Checks schemas, links, locators, labels, asset rights, and the publication allowlist; emits one clean reader bundle.</p>
+    <small>No raw-repository mirroring.</small>
+  </div>
+  <div style="border:1px solid var(--border);padding:14px">
+    <p class="label">Module 3</p>
+    <h3>Static reader app</h3>
+    <p>Astro-style content site with search, filters, backlinks, tooltips, optional graph, and source/audit drawers.</p>
+    <small>Quartz-inspired, not Quartz-coupled.</small>
+  </div>
+</div>
+
+<div class="section" style="display:grid;grid-template-columns:1.15fr .85fr;gap:18px">
+  <div class="mockup" style="margin:0">
+    <div class="mockup-header">Build and delivery flow</div>
+    <div class="mockup-body">
+      <p><strong>Research workspace</strong> → human approval → <strong>approved content</strong></p>
+      <p style="text-align:center">↓</p>
+      <p><strong>Preflight validator</strong> → errors stop build; warnings require review</p>
+      <p style="text-align:center">↓</p>
+      <p><strong>Static build</strong> → generated search index + relationship data + allowed PDFs</p>
+      <p style="text-align:center">↓</p>
+      <p><strong>Local preview</strong> → scientific, rights, accessibility, and reader review</p>
+      <p style="text-align:center">↓ explicit operator approval</p>
+      <p><strong>Public static deployment</strong> → readers browse; corrections return to the repository workflow</p>
+    </div>
+  </div>
+  <div style="border:1px solid var(--border);padding:16px">
+    <p class="label">Public means public</p>
+    <h3>GitHub Pages is viable again</h3>
+    <p>Every generated page, JSON file, search index, relationship record, and locally hosted PDF can be fetched by anyone. An unlisted URL is not private.</p>
+    <p>The exporter therefore includes only explicitly approved records and redistribution-cleared assets. Everything else stays in the research workspace.</p>
+    <p><strong>Later migration:</strong> an access layer or individual accounts can be added without changing the content model.</p>
+  </div>
+</div>
+
+<div class="section" style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px">
+  <div style="border:1px solid var(--border);padding:14px">
+    <p class="label">Build errors</p>
+    <p>Missing required record · broken internal relation · mixed evidence label · forbidden path · local PDF without rights · missing audit locator.</p>
+    <p><strong>Result:</strong> no publish bundle.</p>
+  </div>
+  <div style="border:1px solid var(--border);padding:14px">
+    <p class="label">Runtime handling</p>
+    <p>Missing source → retain citation and report unavailable link. Missing page → safe 404 with navigation. No secrets or private paths may enter the bundle.</p>
+    <p>No scientific state changes in the browser.</p>
+  </div>
+  <div style="border:1px solid var(--border);padding:14px">
+    <p class="label">Minimal operations</p>
+    <p>One content repository · one deterministic build · one public static deployment · no application database · no background worker.</p>
+    <p>This is the Chisle/YAGNI boundary.</p>
+  </div>
+</div>
+
+<div class="section">
+  <p class="label">Verification before release</p>
+  <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:10px">
+    <div style="border:1px solid var(--border);padding:12px"><strong>Content</strong><br><small>schemas, references, source locators, status invariants</small></div>
+    <div style="border:1px solid var(--border);padding:12px"><strong>Exposure</strong><br><small>crawl confirms only allowlisted pages, data, and redistribution-cleared PDFs exist</small></div>
+    <div style="border:1px solid var(--border);padding:12px"><strong>Reader</strong><br><small>navigation, filters, tooltips, PDFs, corrections, 404</small></div>
+    <div style="border:1px solid var(--border);padding:12px"><strong>Accessibility</strong><br><small>keyboard, focus, labels, contrast, reduced motion</small></div>
+    <div style="border:1px solid var(--border);padding:12px"><strong>Responsive</strong><br><small>mobile and desktop; later Arabic/RTL smoke path</small></div>
+  </div>
+</div>
+
+<h3>Approve this technical boundary?</h3>
+<div class="options">
+  <div class="option" data-choice="technical-approved" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content"><h3>Yes, continue</h3><p>Next: final scope, delivery phases, and explicit non-goals.</p></div>
+  </div>
+  <div class="option" data-choice="technical-revise" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content"><h3>Revise it</h3><p>Tell me which module, access assumption, or check should change.</p></div>
+  </div>
+</div>

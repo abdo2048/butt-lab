@@ -1,0 +1,83 @@
+<h2>Method comparison: scores without hiding uncertainty</h2>
+<p class="subtitle">Sort practical dimensions separately. A high rating never substitutes for strong evidence.</p>
+
+<div class="section" style="display:grid;grid-template-columns:1.2fr .8fr;gap:18px">
+  <div class="mockup" style="margin:0">
+    <div class="mockup-header">Compare methods</div>
+    <div class="mockup-body">
+      <table style="width:100%;border-collapse:collapse">
+        <tr>
+          <th style="text-align:left;border-bottom:1px solid var(--border);padding:8px">Method</th>
+          <th style="text-align:left;border-bottom:1px solid var(--border);padding:8px">Evidence</th>
+          <th style="text-align:left;border-bottom:1px solid var(--border);padding:8px">Ease</th>
+          <th style="text-align:left;border-bottom:1px solid var(--border);padding:8px">Fate / sink</th>
+          <th style="text-align:left;border-bottom:1px solid var(--border);padding:8px">Product readiness</th>
+          <th style="text-align:left;border-bottom:1px solid var(--border);padding:8px">Validation distance</th>
+        </tr>
+        <tr><td style="padding:8px">Mechanical / physical</td><td style="padding:8px">Review required</td><td style="padding:8px">Review required</td><td style="padding:8px">Review required</td><td style="padding:8px">Review required</td><td style="padding:8px">Named next work</td></tr>
+        <tr><td style="padding:8px">Thermal</td><td style="padding:8px">Review required</td><td style="padding:8px">Review required</td><td style="padding:8px">Review required</td><td style="padding:8px">Review required</td><td style="padding:8px">Named next work</td></tr>
+        <tr><td style="padding:8px">Chemical</td><td style="padding:8px">Review required</td><td style="padding:8px">Review required</td><td style="padding:8px">Review required</td><td style="padding:8px">Review required</td><td style="padding:8px">Named next work</td></tr>
+      </table>
+      <p><small>No example numbers are prefilled. Batch-02 review creates the ratings and links each one to its basis.</small></p>
+    </div>
+  </div>
+
+  <div style="border:1px solid var(--border);padding:16px">
+    <p class="label">Every score opens into</p>
+    <h3>Rating + evidence card</h3>
+    <ul>
+      <li>Criterion-specific ordinal rating</li>
+      <li>Plain-language label and rationale</li>
+      <li>Exact rubric version</li>
+      <li>Source-supported, inferred, AI-assessed, or unknown basis</li>
+      <li>Claim/source links and unresolved counterevidence</li>
+      <li>Human reviewer and review date</li>
+    </ul>
+    <p><strong>Unknown = no rating.</strong> It is not zero and sorts last unless the reader asks to find the largest gaps.</p>
+  </div>
+</div>
+
+<div class="section">
+  <p class="label">MVP sortable criteria</p>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px">
+    <div style="border:1px solid var(--border);padding:12px"><strong>Evidence strength</strong><br><small>quality, independence, and coverage of available support</small></div>
+    <div style="border:1px solid var(--border);padding:12px"><strong>Process ease</strong><br><small>steps, equipment/control burden, and external dependencies</small></div>
+    <div style="border:1px solid var(--border);padding:12px"><strong>Resource burden</strong><br><small>water, energy, reagents, and waste only where evidence permits</small></div>
+    <div style="border:1px solid var(--border);padding:12px"><strong>Contaminant fate</strong><br><small>how completely named contaminants and streams are accounted for</small></div>
+    <div style="border:1px solid var(--border);padding:12px"><strong>Sink completeness</strong><br><small>material, use, acceptance basis, issuer, and final route</small></div>
+    <div style="border:1px solid var(--border);padding:12px"><strong>Product readiness</strong><br><small>identity, quality, leaching/use evidence, and intended-use gate</small></div>
+    <div style="border:1px solid var(--border);padding:12px"><strong>Regulatory clarity</strong><br><small>located acceptance and jurisdiction-specific unresolved work</small></div>
+    <div style="border:1px solid var(--border);padding:12px"><strong>Validation distance</strong><br><small>how foundational the remaining human work is</small></div>
+  </div>
+</div>
+
+<div class="section" style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+  <div style="border:1px solid var(--border);padding:14px">
+    <p class="label">What still needs humans?</p>
+    <p>Each method lists the next unresolved work by type:</p>
+    <p>source retrieval · analytical-method work · controlled laboratory evidence · pilot evidence · independent product/use testing · treatment acceptance · regulatory review</p>
+    <p>These are evidence gaps, not experiment authorization or operating instructions.</p>
+  </div>
+  <div style="border:1px solid var(--border);padding:14px">
+    <p class="label">Sorting rules</p>
+    <ul>
+      <li>Sort one criterion at a time; no default aggregate.</li>
+      <li>Show the evidence-basis label beside the score.</li>
+      <li>Unknown sorts last, or first in “find missing evidence” mode.</li>
+      <li>Filters can restrict results to source-supported assessments.</li>
+      <li>Scores never override the detailed gaps or dissent.</li>
+    </ul>
+  </div>
+</div>
+
+<h3>Approve this comparison and scoring model?</h3>
+<div class="options">
+  <div class="option" data-choice="comparison-approved" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content"><h3>Approve the complete design</h3><p>I will write and self-review the design specification next.</p></div>
+  </div>
+  <div class="option" data-choice="comparison-revise" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content"><h3>Revise criteria or rules</h3><p>Tell me which criterion, rating basis, or sorting behavior should change.</p></div>
+  </div>
+</div>

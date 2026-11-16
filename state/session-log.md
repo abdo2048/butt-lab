@@ -335,3 +335,98 @@ method explanation has been written; no invention has been produced. The next
 eligible action is operator review of the launch plan and an explicit operator
 instruction to launch batch-02 Phase 1. No experiment authorized; this is planning
 and provenance recording, not experimental validation or a safety/legal opinion.
+
+## 2026-11-16: Batch-02 desk cycle complete — method explanations, invention sketch, Egypt annex (main checkout)
+
+### Outputs
+
+Nine deliverables written under `reports/batch-02/`, all following the launch plan in
+`specs/batch-02-launch-plan.md` (v1.0, operator decisions recorded 2026-11-13):
+
+| Path | Content |
+| --- | --- |
+| `reports/batch-02/methods/f0-staged-washing.md` | Staged water/ethanol washing (batch-01 family F0, De Fenzo 2020) |
+| `reports/batch-02/methods/f1-mechanical-physical.md` | Mechanical/physical separation and aqueous washing (MéGo! FR3066128A1, Re-Cig) |
+| `reports/batch-02/methods/f2-thermal.md` | Dry treatment and extrusion composite (Keenat) |
+| `reports/batch-02/methods/f3-chemical.md` | Solvent dissolution and recovery (CN/CNR/Cerdia) |
+| `reports/batch-02/methods/f4-biological.md` | Biological treatment |
+| `reports/batch-02/methods/f5-material-incorporation.md` | Incorporation into material matrices |
+| `reports/batch-02/methods/f6-product-routes.md` | Product-route survey across families |
+| `reports/batch-02/invention.md` | Phase-2 invention sketch with four-field sink accounting |
+| `reports/batch-02/egypt-annex.md` | Egypt annex, unvalidated observations only |
+
+Each method-family document covers overview, mechanism, feedstock requirements, contaminant
+fate, energy and water use, product quality, regulatory status, cost signals, evidence
+quality, four-field sink accounting, and a bottom line. Each carries 6–8 inline
+`> **[GAP-CLOSING NOTE — AI, scientist-inventor role]**` markers at the points where source
+data is missing, so the reader can see exactly where evidence stops and reasoning begins.
+
+### Guardrails held
+
+- No experiment was run or authorized. Batch-02 is a desk cycle only.
+- No claim that any family is clean, detoxified, safe, commercially validated, or
+  environmentally superior — no family has dry-mass, analyte-resolved contaminant-fate,
+  leaching, or use-specific performance evidence.
+- The metals stop-condition remains in force.
+- Four-field sink accounting is required and is reported per family; no family closes all
+  four fields.
+- Prior-art awareness only. No novelty or patentability search was performed and no such
+  claim is made.
+- The invention sketch is proposed, not accepted; it is a hypothesis awaiting the
+  measurement that could kill it. No independent three-model panel and no judge packet were
+  run (single-AI execution).
+- The Egypt annex records unvalidated observations and makes no recommendations.
+
+### Authorization basis
+
+The operator directly instructed "start batch-02" after batch-01 had been closed as a desk
+investigation. The batch-01 Stage-5 acceptance states "A new cycle (batch-02) may be planned
+separately; it is not authorized by this acceptance", so this instruction is the separate
+authorization. It covers desk research only. Reader application, publication, experiment,
+pilot, and deployment are NOT covered and each remains separately unauthorized.
+
+### Verification
+
+- `state/workflow.yaml` parses as valid YAML; a new top-level `batch_02:` block records
+  authorization, status (`complete_pending_operator_decision`), cycle, execution mode, plan
+  reference, `ran: '2026-11-16'`, the nine deliverables, the guardrails held, outcome,
+  `no_experiment_authorized: true`, provenance, and the evidence basis.
+- All nine deliverable paths were confirmed to exist on disk; the launch plan path resolves.
+- Batch-01 history is preserved unmodified: `stages` 1–5, `checkpoint`, `gap_closing`, and
+  `legacy` are unchanged. `checkpoint.last_run` still reads `2026-11-12` because it is the
+  batch-01 Stage-5 record; batch-02 provenance lives in `batch_02.last_run`.
+- No new retrieval was performed for this desk cycle; the evidence basis is the accepted
+  batch-01 synthesis, the gap-closing evidence, `registry/methods.yaml`, and the Stage-2
+  source reconstructions.
+- No commit was made in the main checkout. The batch-02 files are new untracked work and
+  remain uncommitted pending explicit authorization.
+- Worktree `C:\w\bpc` (commit `784bb14`) was not modified; it holds the separate Phase-1
+  publication content contract work.
+
+### Remaining work / next action
+
+The operator's desk-record decision on the batch-02 outputs is the next action and belongs
+to the operator alone — accept or reject. Accepting these documents is a desk-record
+decision only, not experimental validation, safety approval, novelty determination, or
+deployment authorization. The main-checkout planning files (`task_plan.md`, `progress.md`,
+`findings.md`) still need to be updated to record this cycle. File completion is not
+experimental validation.
+
+## 2026-11-16: Batch-02 handoff brief added for an external AI to work the evidence gaps (main checkout)
+
+- **New file:** `reports/batch-02/HANDOFF-BRIEF.md`. Written at the operator's request so the current state can be uploaded to another AI that will start working on the evidence gaps.
+- The brief records the finding behind the request: across all seven method families the same evidence gaps recur — **no dry-mass basis, no analyte-resolved contaminant fate, no leaching data, and no use-specific performance evidence** — and no family closes all four required sink fields.
+- It also carries the numbered gap agenda from the accepted batch-01 validation agenda: M01–M08 measurement (by stream and analyte), R01–R05 jurisdiction and regulatory, S01–S06 scale, cost and energy, each stated explicitly as future pilot/decision work and not as retrieval work.
+- Contents: authority chain (`START_HERE.md` → `WORKFLOW.md` → `charter.md` → `state/workflow.yaml` → `state/session-log.md`); the accepted batch-01 evidence base; the nine batch-02 deliverables with one-line descriptions and a warning that batch-01 families F0–F5 do not map one-to-one to the batch-02 filenames f0–f6; the central finding; the four-field sink requirement; the M/R/S gap agenda; the metals stop-condition; the evidence vocabulary (source-supported / inference / new-assumption / `parameter-not-located`) and the gap-closing-note convention; the known limitation that batch-02 was single-AI execution with no panel and no judge packet; and an explicit may-do / may-not-do boundary.
+- Boundary stated in the brief: the receiving AI may retrieve evidence, extend gap-closing work, and draft measurement and pilot plans **as proposals**. Closing a measurement gap requires an authorized experiment that does not exist, so the correct output for each gap is a proposed measurement with its decisive test named. The brief does not authorize any experiment, pilot, field trial, declaration that a family is clean/safe/validated/superior/patentable/costed, freedom-to-operate or regulatory determination, publication, deployment, merge, or reader application.
+- `state/workflow.yaml` `batch_02:` block now lists the handoff brief as a deliverable, records `handoff_brief: reports/batch-02/HANDOFF-BRIEF.md`, and restates the central finding in `outcome`. The YAML re-parses cleanly and all deliverable paths still resolve.
+- No scientific content was approved and no publication occurred. No commit, merge, deployment, or experiment happened. The operator's accept/reject desk-record decision on the batch-02 deliverables is still theirs to make.
+
+## 2026-11-16 — Batch-02 handoff package verified complete for external upload (main checkout)
+
+- Final verification of `state/workflow.yaml`: valid YAML; batch-01 stages 1-5 all intact and unmodified; `ALL_DELIVERABLES_EXIST` true for all ten `reports/batch-02/` paths (seven method-family explanations, the invention sketch, the Egypt annex, and the handoff brief); `PLAN_EXISTS` true for `specs/batch-02-launch-plan.md`; `gap_closing.status: complete_scoped`; `permissions.experiments: not authorized`; `checkpoint.last_run` still `2026-11-12` because the batch-01 checkpoint block is a historical record and was deliberately not rewritten.
+- Final verification of `reports/batch-02/`: ten files confirmed on disk totalling 85.3 KB, of which `HANDOFF-BRIEF.md` is 18.1 KB and `methods/f1-mechanical-physical.md` is 10.6 KB.
+- The handoff package is complete and discoverable: the authoritative state (`state/workflow.yaml` `batch_02:` block), the session log, and the root planning files (`task_plan.md`, `progress.md`, `findings.md`) all name `reports/batch-02/HANDOFF-BRIEF.md` and the recurring cross-family evidence gaps.
+- The central finding is recorded in every location: no dry-mass basis, no analyte-resolved contaminant fate, no leaching data, and no use-specific performance evidence for any of the seven families; every family fails at least one of the four required sink fields; the metals stop-condition remains in force.
+- The honest limitation is recorded everywhere the package is named: this cycle ran as a single AI execution with no three-model panel and no judge packet, so the in-document guardrails carry the entire epistemic load, and no retrieval was re-performed.
+- No commit, merge, deployment, publication, or experiment occurred. The accept/reject desk-record decision on the batch-02 deliverables belongs to the operator and has not been made. Reader application, publication, experiment, pilot, merge, deployment and push each remain separately unauthorized.

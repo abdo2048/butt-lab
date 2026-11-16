@@ -1,18 +1,21 @@
 version: 2
-updated: '2026-11-12'
+updated: '2026-11-16'
 base_commit: fda66af351a37d38287792ed3b578a258eedf7fc
 batch: batch-01
 current_stage: 5
 execution: file-directed; host must trigger/resume; no scheduler installed
 status: awaiting_manual
 next_action: >-
-  Stage-5 synthesis accepted; batch-01 desk investigation closed. Batch-02 (method
-  landscape, deep-dive, invention) may be planned separately; it is not authorized by
-  this acceptance. No experiment authorized.
+  Batch-01 desk investigation remains closed and its Stage-5 acceptance is unchanged.
+  Batch-02 desk cycle deliverables are complete and awaiting the operator's desk-record
+  decision (accept or reject). Reader app, publication, experiment, pilot and deployment
+  each remain separately unauthorized. No experiment authorized.
 pending_manual_action: >-
-  Stage-5 desk synthesis accepted by operator; batch-01 desk investigation closed.
-  Batch-02 (method landscape, deep-dive, invention) may be planned separately; it is
-  not authorized by this acceptance. No experiment authorized.
+  Batch-02 desk cycle deliverables (7 method-family explanations, invention sketch,
+  Egypt annex) are complete and awaiting the operator's desk-record decision. Accepting
+  them is a desk-record decision only, not experimental validation, safety approval,
+  novelty determination, or deployment authorization. Reader app, publication,
+  experiment, pilot and deployment each remain separately unauthorized.
 checkpoint:
   unit: Stage-5 batch-01 desk synthesis accepted; batch-01 closed
   completed_in_this_unit:
@@ -196,6 +199,57 @@ gap_closing:
     SUPERSEDED. Do not apply batch-01-gap-closing-2026-11-08/STATE-UPDATES.patch;
     this gap_closing record replaces it.
   no_experiment_authorized: true
+batch_02:
+  authorization: >-
+    Authorized by the operator's direct instruction to start batch-02, given after
+    batch-01 was closed as a desk investigation. Scope is desk research only. This
+    authorization does not cover any experiment, pilot, reader application,
+    publication, merge, deployment or push.
+  status: complete_pending_operator_decision
+  cycle: batch-02 desk cycle (method explanations, invention sketch, Egypt annex)
+  execution: single AI execution, no three-model panel and no judge packet
+  plan: specs/batch-02-launch-plan.md
+  plan_version: v1.0
+  plan_notes: operator decisions recorded 2026-11-13
+  ran: '2026-11-16'
+  deliverables:
+    - reports/batch-02/methods/f0-staged-washing.md
+    - reports/batch-02/methods/f1-mechanical-physical.md
+    - reports/batch-02/methods/f2-thermal.md
+    - reports/batch-02/methods/f3-chemical.md
+    - reports/batch-02/methods/f4-biological.md
+    - reports/batch-02/methods/f5-material-incorporation.md
+    - reports/batch-02/methods/f6-product-routes.md
+    - reports/batch-02/invention.md
+    - reports/batch-02/egypt-annex.md
+    - reports/batch-02/HANDOFF-BRIEF.md
+  handoff_brief: reports/batch-02/HANDOFF-BRIEF.md
+  guardrails_held:
+    - 'No experiment was run or authorized; every statement is desk research only.'
+    - 'No claim that any family or proposal is clean, detoxified, safe, commercially validated or environmentally superior; no dry-mass, analyte-resolved contaminant-fate, leaching and use-specific performance evidence exists for any family.'
+    - 'The metals stop-condition remains in force.'
+    - 'Four-field sink accounting required; no family closes all four fields.'
+    - 'Prior-art awareness only: no novelty or patentability search was performed and none is claimed.'
+    - 'The invention sketch is proposed, not accepted; it awaits the measurement that could kill it.'
+    - 'Egypt annex records unvalidated observations only and makes no recommendations.'
+  outcome: >-
+    All nine deliverables written with inline gap-closing notes. The invention
+    concludes that every family fails at least one of the four required sink
+    fields. An additional handoff brief records the recurring cross-family
+    evidence gaps no dry-mass basis, no analyte-resolved contaminant fate, no
+    leaching data, no use-specific performance evidence and the numbered
+    M/R/S gap agenda, so the work can continue in another AI agent as desk
+    research and gap-closing proposals only. Awaiting the operator's
+    desk-record decision (accept or reject).
+  no_experiment_authorized: true
+  last_actor: operator-directed OpenCode session (displayed model MiMo-V2.6-Flash Free; underlying model not verified)
+  last_run: '2026-11-16'
+  retrieval_calls_used: 0
+  retrieval_ceiling: 24
+  evidence_basis: >-
+    Batch-01 accepted Stage-5 synthesis and the batch-01 gap-closing evidence
+    (materials/gap-closing/), plus registry/methods.yaml and the batch-01 Stage-2
+    source reconstructions. No new retrieval was performed for this desk cycle.
 permissions:
   registries: read-only
   backup: immutable

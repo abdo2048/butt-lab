@@ -1,0 +1,86 @@
+<h2>From source document to approved reader page</h2>
+<p class="subtitle">The original evidence remains authoritative; every derivative and AI addition has a visible boundary.</p>
+
+<div class="section" style="display:grid;grid-template-columns:repeat(5,1fr);gap:10px;align-items:stretch">
+  <div style="border:1px solid var(--border);padding:14px">
+    <p class="label">1 · Register</p>
+    <h3>Source record</h3>
+    <p>Original URL, citation, version/date, file hash, access date, rights state.</p>
+  </div>
+  <div style="border:1px solid var(--border);padding:14px">
+    <p class="label">2 · Derive</p>
+    <h3>OCR / Markdown</h3>
+    <p>Searchable text with page anchors, extraction method, quality warnings, and link to the source.</p>
+  </div>
+  <div style="border:1px solid var(--border);padding:14px">
+    <p class="label">3 · Interpret</p>
+    <h3>Claims and gaps</h3>
+    <p>Claim → exact locator → evidence status. Conflicts and nondisclosure remain visible.</p>
+  </div>
+  <div style="border:1px solid var(--border);padding:14px">
+    <p class="label">4 · Extend</p>
+    <h3>AI contribution</h3>
+    <p>Gap-closing note or separate hypothesis, with assumptions, source inputs, and falsifier.</p>
+  </div>
+  <div style="border:2px solid var(--border);padding:14px">
+    <p class="label">5 · Approve</p>
+    <h3>Publish bundle</h3>
+    <p>Human-reviewed narrative, structured records, allowed assets, version, and audit links.</p>
+  </div>
+</div>
+
+<div class="section" style="display:grid;grid-template-columns:1.1fr .9fr;gap:18px">
+  <div class="mockup" style="margin:0">
+    <div class="mockup-header">Publication gates</div>
+    <div class="mockup-body">
+      <table style="width:100%;border-collapse:collapse">
+        <tr><th style="text-align:left;border-bottom:1px solid var(--border);padding:8px">Gate</th><th style="text-align:left;border-bottom:1px solid var(--border);padding:8px">Must establish</th></tr>
+        <tr><td style="padding:8px">Evidence</td><td style="padding:8px">Every factual claim has a source locator or an explicit unresolved label.</td></tr>
+        <tr><td style="padding:8px">Scientific</td><td style="padding:8px">Uncertainty, dissent, denominators, sinks, and product claims are not overstated.</td></tr>
+        <tr><td style="padding:8px">AI boundary</td><td style="padding:8px">AI notes and hypotheses cannot render as source-supported content.</td></tr>
+        <tr><td style="padding:8px">Rights</td><td style="padding:8px">Local PDF export is allowed; otherwise publish only citation and original link.</td></tr>
+        <tr><td style="padding:8px">Reader quality</td><td style="padding:8px">Plain-language review, glossary links, accessibility, and mobile layout pass.</td></tr>
+        <tr><td style="padding:8px">Operator</td><td style="padding:8px">Human explicitly approves this version for the allowlisted site export.</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div style="border:1px solid var(--border);padding:16px">
+    <p class="label">Fail closed, not silently</p>
+    <h3>What blocks or limits publication?</h3>
+    <ul>
+      <li><strong>Rights unresolved:</strong> no local PDF; original link only.</li>
+      <li><strong>OCR unreliable:</strong> warning retained; extracted text cannot verify quotations.</li>
+      <li><strong>Locator missing:</strong> claim remains draft or unresolved.</li>
+      <li><strong>Sources conflict:</strong> preserve both positions and expose the conflict.</li>
+      <li><strong>AI support weak:</strong> keep as review draft, not approved gap-closing content.</li>
+      <li><strong>Source changed:</strong> retain published version and open a review for the newer one.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section" style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+  <div style="border:1px solid var(--border);padding:14px">
+    <p class="label">Canonical versus derivative</p>
+    <p><strong>Canonical evidence:</strong> the cited source document/version.</p>
+    <p><strong>Search derivative:</strong> OCR or Markdown carrying page/section anchors and quality metadata.</p>
+    <p><strong>Reader explanation:</strong> reviewed narrative linked back to claims and sources.</p>
+  </div>
+  <div style="border:1px solid var(--border);padding:14px">
+    <p class="label">Automated preflight</p>
+    <p>Schema checks · missing locators · broken links · rights allowlist · forbidden raw-repo paths · evidence-label consistency · glossary coverage · accessibility checks.</p>
+    <p>Automation reports problems; it never grants scientific or publication approval.</p>
+  </div>
+</div>
+
+<h3>Should this be the publication boundary?</h3>
+<div class="options">
+  <div class="option" data-choice="pipeline-approved" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content"><h3>Yes, continue</h3><p>Next: technical architecture, private access, export, and testing.</p></div>
+  </div>
+  <div class="option" data-choice="pipeline-revise" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content"><h3>Revise the pipeline</h3><p>Tell me which gate is too strict, too weak, or missing.</p></div>
+  </div>
+</div>

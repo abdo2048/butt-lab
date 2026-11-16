@@ -1,0 +1,89 @@
+<h2>Butt-Lab: reader navigation and method page</h2>
+<p class="subtitle">A ten-minute path from “what methods exist?” to “what supports this claim?”</p>
+
+<div class="section" style="border:1px solid var(--border);padding:16px">
+  <p class="label">Primary navigation</p>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center">
+    <strong style="padding:8px 12px;border:1px solid var(--border)">Start here</strong>
+    <strong style="padding:8px 12px;border:1px solid var(--border)">Methods</strong>
+    <strong style="padding:8px 12px;border:1px solid var(--border)">Compare evidence</strong>
+    <strong style="padding:8px 12px;border:1px solid var(--border)">Sources</strong>
+    <strong style="padding:8px 12px;border:1px solid var(--border)">Glossary</strong>
+    <span style="padding:8px 12px;border:1px dashed var(--border)">More: invention · Egypt · how research works</span>
+  </div>
+  <p style="margin-bottom:0">The invention is important but does not compete visually with established-method navigation. Audit history is available without becoming the site map.</p>
+</div>
+
+<div class="section">
+  <div style="display:grid;grid-template-columns:.8fr 2.2fr;gap:18px;align-items:start">
+    <div class="mockup" style="margin:0">
+      <div class="mockup-header">Start here</div>
+      <div class="mockup-body">
+        <p class="label">Recommended path</p>
+        <h3>Understand the landscape</h3>
+        <ol>
+          <li>What is in a cigarette butt?</li>
+          <li>Six ways people try to recycle it</li>
+          <li>What evidence exists?</li>
+          <li>What remains unresolved?</li>
+          <li>Then inspect the new hypothesis</li>
+        </ol>
+        <p><strong>No “winner” ranking.</strong></p>
+      </div>
+    </div>
+
+    <div class="mockup" style="margin:0">
+      <div class="mockup-header">Example method page · Solvent-based polymer recovery</div>
+      <div class="mockup-body">
+        <div style="display:grid;grid-template-columns:1.6fr .8fr;gap:18px">
+          <div>
+            <p class="label">One-minute explanation</p>
+            <h3>Separate the filter polymer by dissolving and recovering it</h3>
+            <p>Short plain-language mechanism, what enters the process, what should leave it, and why the method is being studied.</p>
+          </div>
+          <div style="border:1px solid var(--border);padding:12px">
+            <p class="label">Evidence profile</p>
+            <p>Patent disclosure<br>Company claim<br>Academic study<br>Independent validation<br>Regulatory status</p>
+            <small>Each line has its own state; no blended score.</small>
+          </div>
+        </div>
+
+        <hr style="border:0;border-top:1px solid var(--border);margin:18px 0">
+
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px">
+          <div style="border:1px solid var(--border);padding:12px"><p class="label">1 · How it works</p><p>Illustrated process steps and inputs.</p></div>
+          <div style="border:1px solid var(--border);padding:12px"><p class="label">2 · Where material goes</p><p>Product, liquids, rejects, emissions, unknown loss.</p></div>
+          <div style="border:1px solid var(--border);padding:12px"><p class="label">3 · What could fail</p><p>Contaminant retention, product quality, unrouted waste.</p></div>
+        </div>
+
+        <div style="margin-top:12px;border:1px dashed var(--border);padding:12px">
+          <p class="label">AI gap-closing note · visibly distinct</p>
+          <p>The source does not explain this boundary. The AI proposes a testable interpretation, names its assumptions, and links the question that would falsify it.</p>
+        </div>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px">
+          <div style="border:1px solid var(--border);padding:12px"><p class="label">Sources</p><p>Original link · approved PDF when permitted · page/section locator.</p></div>
+          <div style="border:1px solid var(--border);padding:12px"><p class="label">Technical audit drawer</p><p>Internal IDs, batch, report paths, claim provenance, dissent, version.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section" style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px">
+  <div style="border:1px solid var(--border);padding:14px"><p class="label">Tooltips</p><p>Short definition on hover/focus; link to full glossary entry.</p></div>
+  <div style="border:1px solid var(--border);padding:14px"><p class="label">Comparison</p><p>Compare mechanisms, evidence types, unresolved gaps, and stream coverage, not a fake total score.</p></div>
+  <div style="border:1px solid var(--border);padding:14px"><p class="label">Accessibility</p><p>Keyboard/focus support, text labels beyond color, mobile reading, later RTL-safe layout.</p></div>
+</div>
+
+<h3>Does this reader hierarchy feel right?</h3>
+<div class="options">
+  <div class="option" data-choice="reader-approved" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content"><h3>Yes, continue</h3><p>Next: research workflow, review gates, and PDF/OCR handling.</p></div>
+  </div>
+  <div class="option" data-choice="reader-revise" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content"><h3>Revise the hierarchy</h3><p>Tell me what should be more prominent, hidden, added, or renamed.</p></div>
+  </div>
+</div>

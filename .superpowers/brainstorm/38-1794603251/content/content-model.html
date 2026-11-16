@@ -1,0 +1,94 @@
+<h2>Butt-Lab: minimum reusable content model</h2>
+<p class="subtitle">Markdown for reading; small linked records for evidence, reuse, and reliable export</p>
+
+<div class="section">
+  <div style="display:grid;grid-template-columns:1.05fr 1.45fr 1.05fr;gap:18px;align-items:stretch">
+    <div class="mockup" style="margin:0">
+      <div class="mockup-header">Reader narrative</div>
+      <div class="mockup-body">
+        <p class="label">Approved Markdown</p>
+        <h3>One readable page</h3>
+        <ul>
+          <li>Plain-language explanation</li>
+          <li>Mechanism and process outline</li>
+          <li>Evidence and uncertainty summary</li>
+          <li>Inline terms and gap notes</li>
+        </ul>
+        <p><strong>The page references records; it does not duplicate their facts.</strong></p>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+      <div style="border:1px solid var(--border);padding:16px">
+        <p class="label">Describe</p>
+        <h3>Method</h3>
+        <p>Material → method family → method variant → process steps.</p>
+      </div>
+      <div style="border:1px solid var(--border);padding:16px">
+        <p class="label">Trace</p>
+        <h3>Evidence</h3>
+        <p>Source → artifact/URL → locator → claim → evidence status.</p>
+      </div>
+      <div style="border:1px solid var(--border);padding:16px">
+        <p class="label">Account</p>
+        <h3>Material fate</h3>
+        <p>Input → stream → contaminant → product or sink → acceptance basis.</p>
+      </div>
+      <div style="border:1px solid var(--border);padding:16px">
+        <p class="label">Question</p>
+        <h3>Knowledge state</h3>
+        <p>Gap → AI note or hypothesis → falsifier → validation question.</p>
+      </div>
+    </div>
+
+    <div class="mockup" style="margin:0">
+      <div class="mockup-header">Reader views</div>
+      <div class="mockup-body">
+        <p class="label">Generated, not hand-maintained</p>
+        <h3>Many useful views</h3>
+        <ul>
+          <li>Method comparison</li>
+          <li>Source library</li>
+          <li>Glossary and tooltips</li>
+          <li>Open gaps and questions</li>
+          <li>Optional relationship graph</li>
+        </ul>
+        <p><strong>One fact changes once, then every view rebuilds.</strong></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section" style="display:grid;grid-template-columns:1fr 1fr;gap:18px">
+  <div style="border:1px solid var(--border);padding:18px">
+    <p class="label">Reader-facing identity</p>
+    <h3>Measured-purge washing hypothesis</h3>
+    <p>A descriptive title leads. The audit drawer shows <code>J-H-01</code>, batch, report path, approval status, and provenance.</p>
+  </div>
+  <div style="border:1px solid var(--border);padding:18px">
+    <p class="label">Deliberately deferred</p>
+    <h3>No graph database</h3>
+    <p>No CMS, live AI, moderation queue, or universal ontology in the pilot. Plain files and build-time validation are enough until batch 02 proves otherwise.</p>
+  </div>
+</div>
+
+<div class="section" style="border:1px solid var(--border);padding:18px">
+  <p class="label">Required status vocabulary</p>
+  <p><strong>Source-supported</strong> · <strong>inference</strong> · <strong>AI gap-closing note</strong> · <strong>new unvalidated hypothesis</strong> · <strong>unresolved</strong>. These states are visible, filterable, and never collapsed into one confidence score.</p>
+</div>
+
+<h3>Is this the right amount of structure?</h3>
+<div class="options">
+  <div class="option" data-choice="model-approved" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content"><h3>Yes, keep it minimal</h3><p>Continue to the reader navigation and page experience.</p></div>
+  </div>
+  <div class="option" data-choice="model-simplify" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content"><h3>Still too complex</h3><p>Reduce the number of record types before continuing.</p></div>
+  </div>
+  <div class="option" data-choice="model-expand" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content"><h3>A relationship is missing</h3><p>Tell me what the model cannot represent yet.</p></div>
+  </div>
+</div>
