@@ -8,14 +8,26 @@ status: awaiting_manual
 next_action: >-
   Batch-01 desk investigation remains closed and its Stage-5 acceptance is unchanged.
   Batch-02 desk cycle deliverables are complete and awaiting the operator's desk-record
-  decision (accept or reject). Reader app, publication, experiment, pilot and deployment
-  each remain separately unauthorized. No experiment authorized.
+  decision (accept or reject); that decision has not been made and this continuation does
+  not make it. The evidence-gap continuation now holds two recorded proposals under
+  evidence_gap_continuation: the M01 measurement plan (Phase 14) and the M01 Gate-A
+  feasibility sub-study specification (Phase 15). Together they specify the question and
+  the study that would answer it; no measurement has been made and no sample count exists.
+  The next unit is a further gap proposal, on operator direction. Reader app, publication,
+  experiment, pilot and deployment each remain separately unauthorized. No experiment
+  authorized.
 pending_manual_action: >-
-  Batch-02 desk cycle deliverables (7 method-family explanations, invention sketch,
-  Egypt annex) are complete and awaiting the operator's desk-record decision. Accepting
-  them is a desk-record decision only, not experimental validation, safety approval,
-  novelty determination, or deployment authorization. Reader app, publication,
-  experiment, pilot and deployment each remain separately unauthorized.
+  Two separate desk-record decisions are outstanding. First, the batch-02 desk cycle
+  deliverables (7 method-family explanations, invention sketch, Egypt annex, handoff brief)
+  await the operator's accept/reject decision. Second, the evidence-gap continuation holds
+  two recorded proposals, the M01 measurement plan and the M01 Gate-A feasibility
+  sub-study specification, both unvalidated; each names decisions only a qualified
+  laboratory and the operator can settle separately (the minimum important difference, the
+  precision target, the fraction definitions and fines aperture, the analytical target
+  profile, and the authorization and resourcing of any laboratory work). Neither proposal
+  is experimental validation, safety approval, novelty determination, or deployment
+  authorization. Reader app, publication, experiment, pilot and deployment each remain
+  separately unauthorized.
 checkpoint:
   unit: Stage-5 batch-01 desk synthesis accepted; batch-01 closed
   completed_in_this_unit:
@@ -250,6 +262,91 @@ batch_02:
     Batch-01 accepted Stage-5 synthesis and the batch-01 gap-closing evidence
     (materials/gap-closing/), plus registry/methods.yaml and the batch-01 Stage-2
     source reconstructions. No new retrieval was performed for this desk cycle.
+evidence_gap_continuation:
+  authorization: >-
+    Authorized by the operator's direct instruction to read the batch-02 handoff brief and
+    the workflow state and continue the work, and to continue. Scope is desk research only.
+    This authorization does not cover any experiment, measurement, pilot, field trial,
+    reader application, publication, merge, deployment or push, and it does not accept the
+    batch-02 deliverables on the operator's behalf.
+  status: proposal_recorded_awaiting_operator_direction
+  cycle: evidence-gap continuation (desk-only)
+  phase: 15
+  execution: single AI execution, no three-model panel and no judge packet
+  plan: reports/batch-02/HANDOFF-BRIEF.md
+  plan_version: v1.0
+  plan_notes: >-
+    Section 10 of the handoff brief defines the may-do and may-not-do boundary that this
+    continuation operates under.
+  ran: '2026-11-16'
+  deliverables:
+    - reports/batch-02/evidence-gaps/README.md
+    - reports/batch-02/evidence-gaps/M01-feed-partition-measurement-plan.md
+    - reports/batch-02/evidence-gaps/M01-gate-a-feasibility-sub-study-specification.md
+  primary_gap: >-
+    M01 of the accepted batch-01 measurement agenda: whole feed versus separated
+    filter, tobacco, paper, ash and fines on one common dry-feed basis, with the
+    controlling fraction unknown. M01 is the feed-side precondition for the J-H-01
+    decisive measurement and for sink fields 1 and 2.
+  guardrails_held:
+    - 'No experiment was run or authorized; no sample was collected, no material handled and no measurement made. The deliverable is a written proposal, not a protocol to execute.'
+    - 'No sample count, acceptance criterion, detection or quantitation limit, recovery figure or method-performance value was selected. Each is parameter-not-located pending a qualified-lab feasibility study and a defensible power and precision justification.'
+    - 'No operating instructions: no pressure-vessel, solvent-recovery, distillation, caustic-pulping or hazardous-waste-processing directions, no sample-preparation recipe, and no DIY substitution.'
+    - 'No claim that any family or proposal is clean, detoxified, safe, commercially validated, environmentally beneficial, novel, patentable, deployable or costed.'
+    - 'The metals stop-condition remains in force; M01 would locate where the metals are and would decide nothing about acceptability.'
+    - 'The four-field sink requirement is unchanged: M01 bears on fields 1 and 2 only, and only at the feed boundary.'
+    - 'Dissent preserved: the F3 minority position, the wrong-stream and dilute-purge objection, the unsolved-metals objection and the F2 dilution and off-gas warning all survive. A redirect is not a refutation.'
+    - 'Prior-art awareness only: no novelty or patentability search was performed and none is claimed.'
+    - 'Phase-15 gate: the Gate-A specification is a written proposal only. No sample was collected, no material handled, no measurement made, and nothing in it authorizes laboratory work; a study that would need a qualified facility, a risk assessment and lawful contaminated-waste handling remains subject to a separate operator authorization that does not exist.'
+    - 'Phase-15 gate: no sample count, recovery figure, acceptance limit, detection or quantitation limit, threshold or expected value was selected. The structural minimums recorded are identifiability requirements (at least two lots, two days, two independent preparations, two injections, two butts per lot per day), not sample-size recommendations; every count remains parameter-not-located.'
+    - 'Phase-15 gate: the study is allowed to conclude honestly that the measurement system cannot support M01 as currently framed. No rule compares the feasibility intervals against the M01 question, because the precision target and the minimum important difference are decided afterwards; that separation is deliberate and keeps the sample size from being chosen after the data are seen.'
+  outcome: >-
+    Two gap proposals recorded. The M01 measurement plan (Phase 14) specifies the question and
+    estimand, an explicit measurement model with units, the experimental unit and its nesting,
+    the block and randomization structure with the nuisance-factor table, the analyte panel,
+    the analytical quality-control requirements including the named-approach rule for detection
+    and quantitation limits and the mandatory between-day precision component, the GUM
+    uncertainty budget with per-input distribution and degrees of freedom, the
+    controlling-fraction decision rule including the honest-negative cases, seven falsifiers,
+    and a six-gate sample-size decision procedure that names its inputs rather than producing
+    a number. The M01 Gate-A feasibility sub-study specification (Phase 15) specifies the
+    first step that procedure depends on: the six planning quantities it must produce, the
+    design able to estimate them, six probes with their quality controls and uncertainty
+    treatment, seven pre-stated decision rules and eight falsifiers, and the seven items only
+    a qualified laboratory can supply. M01 remains open: two files are not a measurement, and
+    no sample count exists.
+  open_decisions:
+    - 'The minimum important difference in partition fraction, defined procedurally and settled by the investigators before feasibility data are examined.'
+    - 'The precision target for the simultaneous interval on the leading partition fractions, decided after the feasibility intervals exist but before the sample count is computed.'
+    - 'The fraction definitions, the fines particle-size boundary and its sensitivity aperture, fixed before data exist.'
+    - 'The analytical target profile and the per-method acceptance criteria, which the qualified laboratory must set from its own specification before data are seen; the Gate-A decision rules test against them and this project cannot supply them.'
+    - 'Whether to authorize, resource and receive any laboratory work at all, including the facility, the risk assessment, the lawful handling of contaminated feed and the traceable feed lots; this is a separate operator decision that does not exist.'
+  no_experiment_authorized: true
+  last_actor: operator-directed OpenCode session (displayed model MiniMax M3.1 Flash Free; underlying model not verified)
+  last_run: '2026-11-16'
+  retrieval_calls_used: 1
+  retrieval_ceiling: 24
+  retrieval_note: >-
+    The single retrieval call was an arXiv metadata lookup performed to satisfy the
+    citation requirement of the design, power, analytical-validation and uncertainty
+    skills. It returned no evidence about cigarette-butt recycling and closed no gap.
+  evidence_basis: >-
+    The accepted batch-01 record only: reports/final/validation-and-open-questions.md,
+    reports/batch-02/HANDOFF-BRIEF.md, reports/batch-02/invention.md,
+    reports/batch-02/methods/f1-mechanical-physical.md, specs/batch-02-launch-plan.md,
+    charter.md, WORKFLOW.md and START_HERE.md, plus the operator-approved reader-platform
+    design in docs/superpowers/specs/2026-11-13-butt-lab-reader-platform-design.md for its
+    publication-state, validation-state and unknown-not-zero vocabulary. No new primary
+    source was retrieved for either unit.
+  repository_state: >-
+    Main checkout HEAD is 3d76367 "adding plan", an operator-authored commit of
+    2026-11-16 that contains the ten batch-02 deliverables, the handoff brief, the
+    publication-contract documents, PROJECT-OVERVIEW.md, the planning files and the
+    state files. This continuation added no commit and staged nothing. The isolated
+    worktree commit 784bb14 "feat: add publication content contract" remains on the
+    branch feat/publication-content-contract and is not an ancestor of main; its file
+    contents appear in main by the operator's own commit rather than by a merge of
+    that branch.
 permissions:
   registries: read-only
   backup: immutable

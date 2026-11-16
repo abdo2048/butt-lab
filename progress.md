@@ -160,3 +160,56 @@
 - `state/session-log.md` gained a 2026-11-16 addendum entry naming the handoff brief.
 - A second honesty point carried into the record: batch-02 ran as single-AI execution with no three-model panel and no judge packet, so the independent-review and dissent machinery batch-01 had is absent and the in-document guardrails carry the entire epistemic load. Any receiving agent should treat these as desk conclusions from one model, not as panel-validated findings.
 - No commit, merge, deployment, publication, or experiment occurred. No scientific content was approved. The operator's accept/reject desk-record decision on the batch-02 deliverables is still theirs.
+
+## 2026-11-16 — Phase-14 evidence-gap continuation: M01 measurement-plan proposal recorded (desk-only)
+
+**What was done.** Read `reports/batch-02/HANDOFF-BRIEF.md` and `state/workflow.yaml`, then continued the evidence-gap work as the operator directed — desk only. The first unit is an unvalidated M01 measurement-plan proposal.
+
+**Outputs.**
+- `reports/batch-02/evidence-gaps/M01-feed-partition-measurement-plan.md` (39 224 B) — the M01 proposal: question and estimand; an explicit measurement model with units and the independent whole-butt reference that makes the unresolved residual a genuine closure check; the experimental unit (the butt) with fraction/preparation/determination nested inside it and the pseudoreplication guard stated; a randomized complete block design blocked on the feed lot with a full nuisance-factor table; the accepted analyte panel; the analytical quality-control requirements; a GUM uncertainty budget with per-input distribution and degrees of freedom; the controlling-fraction decision rule with two honest-negative cases; seven falsifiers; and a six-gate sample-size decision procedure.
+- `reports/batch-02/evidence-gaps/README.md` (4 258 B) — the series index, with the may-do / may-not-do boundary restated.
+
+**What the proposal deliberately does not do.** It selects no sample count, no acceptance criterion, no detection or quantitation limit, no recovery figure and no method-performance value; each stays `parameter-not-located` pending a qualified-lab feasibility study and a defensible power/precision justification. The minimum important difference in partition fraction is defined procedurally and left to the investigators before feasibility data are examined. It gives no operating instructions, runs no experiment, collects no sample, handles no material, measures nothing, and reports no result.
+
+**Guardrails held.** Metals stop-condition in force. Four-field sink unchanged — M01 bears on fields 1 and 2 only, at the feed boundary. M02–M08, R01–R05, S01–S06 untouched. Dissent preserved: a redirect of the burden-bearing fraction would redirect which family deserves attention, not refute any family. Prior-art awareness only; no novelty claim. `batch_02.status` unchanged at `complete_pending_operator_decision` — this continuation does not accept the batch-02 deliverables on the operator's behalf.
+
+**Verification.** `state/workflow.yaml` parses as valid YAML (`YAML_OK`); top-level keys now include `evidence_gap_continuation` between `batch_02` and `permissions`. `batch_02.status: complete_pending_operator_decision`, `batch_02.deliverables_count: 10`, all ten batch-02 paths resolve. The new block records 8 guardrails and 4 open decisions, and both new deliverable paths exist on disk. Batch-01 history intact: `stages` keys 1–5, `gap_closing.status: complete_scoped`, `legacy.preserved_queue: state/work-queue.yaml`, the batch-01 `checkpoint:` block untouched (`last_run: '2026-11-12'`). `permissions.experiments: not authorized`. `state/session-log.md` appended with CRLF preserved (CR=482, LF=482, LONE_LF=0).
+
+**Retrieval.** One call in this unit: the arXiv metadata lookup required by the citation rule of the design, power, analytical-validation and uncertainty skills. It returned no evidence about cigarette-butt recycling and closed no gap. `retrieval_calls_used: 1` of 24.
+
+**Remaining.** M01 is open — a file is not a measurement. The proposal names the decisions it cannot make: the minimum important difference; the feasibility sub-study that produces the between-butt and between-block variability and the matrix-specific analytical precision; the pre-specified fraction definitions and fines aperture; and the laboratory's analytical target profile. The batch-01 hash-normalization provenance follow-up stays open. The batch-02 accept/reject desk-record decision remains the operator's alone.
+
+**Next step.** Wait for the operator's direction on the next gap proposal (the M01 feasibility sub-study specification, or M02 onward). No commit in the main checkout. No experiment, pilot, reader application, publication, merge, deployment or push — each separately unauthorized. No scientific content approved and no publication occurred.
+
+## 2026-11-16 — Phase-15 evidence-gap continuation: M01 Gate-A feasibility sub-study specification recorded (desk-only)
+
+**Unit:** Phase 15 of the desk-only evidence-gap continuation. **No experiment was run or authorized, no sample was collected, no material was handled and no measurement was made.**
+
+### Output
+
+`reports/batch-02/evidence-gaps/M01-gate-a-feasibility-sub-study-specification.md` — the specification for the first step of the M01 plan's sample-size gate (Gate A), plus an updated index row and a record table in `reports/batch-02/evidence-gaps/README.md`.
+
+### What it contains
+
+- **Six planning quantities** Gate A must produce, each as an estimate with an interval: between-butt SD of the partition fraction; within-butt preparation and analytical SD; the between-block variance component; dry-matter closure and separation recovery with uncertainties; censoring frequency per matrix and fraction; the observed spread of moisture and storage interval.
+- **A design able to estimate them:** the **butt** as experimental unit; **feed lot** as block; **day, analyst and instrument crossed** with butt so between-day precision is estimable and unconfounded; storage interval deliberately varied so moisture and storage spread are estimated rather than assumed; the **analysis scale** fixed per analyte before data exist; the fraction set pre-specified with a pre-specified **sensitivity aperture**.
+- **Six probes** with quality controls and uncertainty treatment: separation recovery and mass closure; dry-matter determination; matrix spike recovery; per-matrix detection and quantitation limits with a named approach and a confirmation; between-day precision reported separately from within-day; carryover, blanks and run-order.
+- **Seven pre-stated decision rules (R1–R7) and eight falsifiers (F1–F8)**, fixed before any data could exist.
+- **The honest outcome the study is allowed to produce:** *"the measurement system cannot support M01 as currently framed."* No rule compares the feasibility intervals against the M01 question, because the precision target and the minimum important difference are decided afterwards — that separation is deliberate, and it keeps the sample size from being chosen after the data are seen.
+- **The seven items only a qualified laboratory can supply**, including the analytical target profile that supplies the acceptance ranges the decision rules test against, and the facility, risk assessment and lawful contaminated-waste handling.
+
+### The idea worth carrying forward
+
+The feed is both the object of interest and the source of the answer. That makes a "the filter fraction dominates" impression potentially a **method artefact** — fines loss, carryover, matrix suppression — rather than a property of cigarette-butt feed. Every probe is therefore paired with the control that would expose the artefact, and the falsifier list is written in terms of results that would invalidate the study rather than results that would answer M01. This is a structural hazard for the whole feed-partitioning question, not just for Gate A.
+
+### Guardrails held
+
+No sample count, recovery figure, acceptance limit, detection or quantitation limit, threshold or expected value was selected — all remain `parameter-not-located`. The structural minimums recorded (at least two lots, two days, two independent preparations, two injections, two butts per lot per analysis day) are **identifiability requirements**, not sample-size recommendations. No operating instructions, no sample-preparation recipe, no separation protocol, no hazardous-processing guidance. The metals stop-condition remains in force; the four-field sink requirement is unchanged; dissent preserved; prior-art awareness only. No number was inherited from the batch-01 worker reports.
+
+### Verification
+
+`state/workflow.yaml` parses as valid YAML. `evidence_gap_continuation.phase: 15`; deliverables now three paths; guardrails extended with three Phase-15 gates; outcome rewritten for two proposals; open decisions rewritten to five. `batch_02.status` unchanged at `complete_pending_operator_decision`; all ten batch-02 deliverables still resolve; batch-01 `checkpoint:` and `stages:` 1–5 unchanged; `permissions.experiments: not authorized` unchanged. `state/session-log.md` appended in CRLF (CR=544, LF=544, no lone LF). `git status --short` shows only the expected modified state and planning files plus the untracked evidence-gaps folder. **No commit, no staging, no merge, no push.**
+
+### Remaining work / next action
+
+M01 remains open — two files are not a measurement, and no sample count exists. Five decisions stand open and none of them is this project's to make: the minimum important difference, the precision target, the fraction definitions and fines aperture, the analytical target profile, and whether to authorize any laboratory work at all. M02–M08, R01–R05 and S01–S06 are untouched. The operator's accept/reject desk-record decision on the batch-02 deliverables remains outstanding and is not made here; committing this continuation in the main checkout is a separate operator decision. Next: await the operator's direction on the next gap proposal (M02 onward) or on the decisions above.
