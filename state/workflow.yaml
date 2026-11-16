@@ -350,6 +350,16 @@ reader_platform:
     main, push, deployment to GitHub Pages, publication, running any experiment, or
     accepting the batch-02 deliverables on the operator's behalf.
   status: task_3_complete_committed
+  operator_acceptance:
+    accepted: true
+    statement: >
+      OPERATOR DECISION: AUTHORIZE PUSH OF feat/reader-platform FOR AI CONTINUATION.
+      I authorize pushing the branch feat/reader-platform (commits a661e7f, 107dffa) to origin
+      so another AI agent with GitHub access can continue the reader-platform work.
+      This does NOT authorize merge to main, deployment to GitHub Pages, publication, running
+      any experiment, or accepting the batch-02 deliverables on my behalf. Those remain
+      separately unauthorized pending future decisions.
+    recorded: '2026-11-17'
   cycle: reader platform (design phases 2 to 4)
   branch: feat/reader-platform
   worktree: C:\w\rp
