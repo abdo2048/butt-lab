@@ -113,7 +113,8 @@ sourceIds:
   - cnr-knowledge-share-ca-recovery
   - defenzo-2020-materials
   - cn106928486
-hypothesisIds: []
+hypothesisIds:
+  - batch-02-invention-sketch
 assessmentIds:
   - chemical-evidence-strength-assessment
   - chemical-process-ease-assessment

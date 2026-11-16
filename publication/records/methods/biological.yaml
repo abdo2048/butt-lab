@@ -101,7 +101,8 @@ termIds:
   - four-field-sink
 sourceIds:
   - kr-microbial-composting
-hypothesisIds: []
+hypothesisIds:
+  - batch-02-invention-sketch
 assessmentIds:
   - biological-evidence-strength-assessment
   - biological-process-ease-assessment

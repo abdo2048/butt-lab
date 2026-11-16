@@ -105,7 +105,8 @@ termIds:
 sourceIds:
   - rmit-brick-making
   - cigarette-butt-asphalt
-hypothesisIds: []
+hypothesisIds:
+  - batch-02-invention-sketch
 assessmentIds:
   - material-incorporation-evidence-strength-assessment
   - material-incorporation-process-ease-assessment

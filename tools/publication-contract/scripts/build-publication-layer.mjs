@@ -121,6 +121,7 @@ async function main() {
 
   const manifestRecords = [];
   const manifestPages = [];
+  const hypothesisIds = [];
 
   // ---- material -------------------------------------------------------
   const material = recordsData.material;
@@ -185,6 +186,35 @@ async function main() {
       id: value.id,
       path: `records/terms/${value.id}.yaml`,
       sha256: await writeYaml(`records/terms/${value.id}.yaml`, value),
+    });
+  }
+
+  // ---- hypotheses -----------------------------------------------------
+  for (const hypothesis of recordsData.hypotheses ?? []) {
+    const value = {
+      ...base(hypothesis.id, hypothesis.title, hypothesis.auditAliases ?? []),
+      kind: "hypothesis",
+      contentKind: "hypothesis",
+      visibleLabel: hypothesis.visibleLabel,
+      sourceInputIds: hypothesis.sourceInputIds,
+      priorContext: hypothesis.priorContext,
+      mechanism: hypothesis.mechanism,
+      assumptions: hypothesis.assumptions,
+      unresolvedDependencies: hypothesis.unresolvedDependencies,
+      failureModes: hypothesis.failureModes,
+      falsifiers: hypothesis.falsifiers,
+      validationQuestionIds: hypothesis.validationQuestionIds,
+      evidenceState: hypothesis.evidenceState,
+      validationState: hypothesis.validationState,
+      reviewer: hypothesis.reviewer,
+      recordVersion: hypothesis.recordVersion,
+      auditReferences: hypothesis.auditReferences,
+    };
+    hypothesisIds.push(hypothesis.id);
+    manifestRecords.push({
+      id: value.id,
+      path: `records/hypotheses/${value.id}.yaml`,
+      sha256: await writeYaml(`records/hypotheses/${value.id}.yaml`, value),
     });
   }
 
@@ -316,7 +346,7 @@ async function main() {
       gapIds,
       termIds: family.termIds,
       sourceIds: family.sourceIds,
-      hypothesisIds: [],
+      hypothesisIds,
       assessmentIds,
       organizations: family.organizations,
       auditReferences: family.auditReferences,

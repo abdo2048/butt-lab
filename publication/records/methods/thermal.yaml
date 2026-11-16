@@ -97,7 +97,8 @@ termIds:
 sourceIds:
   - keenat-dry-thermal
   - pyrolysis-energy-recovery
-hypothesisIds: []
+hypothesisIds:
+  - batch-02-invention-sketch
 assessmentIds:
   - thermal-evidence-strength-assessment
   - thermal-process-ease-assessment

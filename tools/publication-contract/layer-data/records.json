@@ -289,5 +289,54 @@
     "tags": ["waste-stream", "post-consumer", "cellulose-acetate", "composite-material", "litter", "recycling"],
     "methodFamilyIds": ["mechanical-physical", "thermal", "chemical", "biological", "material-incorporation", "product-routes"]
   },
-  "families": []
+  "families": [],
+  "hypotheses": [
+    {
+      "id": "batch-02-invention-sketch",
+      "title": "Batch-02 Invention Sketch: Four-Field Sink as Mandatory Pilot Prerequisite",
+      "visibleLabel": "Four-field sink accounting as a stop-condition prerequisite for any authorized pilot",
+      "sourceInputIds": ["mego-fr3066128a1", "academic-green-ethanol-wash", "defenzo-2020-materials", "keenat-dry-thermal", "cnr-knowledge-share-ca-recovery", "cn106928486", "kr-microbial-composting", "rmit-brick-making", "cigarette-butt-asphalt", "3d-printing-filament", "pyrolysis-energy-recovery", "matteri-ep2520184a1"],
+      "priorContext": "Batch-01 identified cigarette butt recycling as an open problem with no located evidence of full-butt recycling at any scale. Six method families were catalogued (mechanical-physical, thermal, chemical, biological, material-incorporation, product-routes). Batch-01 established heavy metals as an explicit stop condition. Batch-02 reviewed all six families and found each fails at least one field of the four-field sink: dry-mass closure, analyte-resolved contaminant fate, use-specific product gate, and metals stop condition. No family demonstrates a complete dry-mass balance with analyte-resolved accounting; no family shows where each measured analyte goes through every process step; no family sets an independent product-quality gate separate from mass-balance closure; no family treats metals as an explicit stop condition with a demonstrated analytical test.",
+      "mechanism": "This hypothesis proposes that the four-field sink (dry-mass balance on a common dry-feed basis, analyte-resolved contaminant fate across all output streams, a named final treatment route with a jurisdiction-specific acceptance basis, and a use-specific product gate independent of mass-balance closure) must be a mandatory prerequisite for any later authorized pilot. The metals stop-condition is in force: any detectable metal above background in feedstock, wash water, air emission, solid residue, or final product triggers a halt; the stream cannot resume until analytical performance (inlet-to-outlet) is demonstrated. This sketch does not propose how to remove metals; it proposes that metals are a stop condition, not a solvable parameter within this sketch. The six method families remain as unvalidated inputs to this prerequisite framework.",
+      "assumptions": [
+        "The six method families catalogued in Batch-02 represent the complete set of known recycling approaches for cigarette butts as of the retrieval window.",
+        "Heavy metals (cadmium, lead, arsenic, mercury) are correctly treated as a stop condition rather than a parameter to be traded off.",
+        "A mass balance that is not dry-mass-based and analyte-resolved cannot establish that contaminants have been removed rather than redistributed.",
+        "A product gate that depends on mass-balance closure is circular and does not protect the intended use.",
+        "No located source demonstrates analytical performance (inlet-to-outlet) for any contaminant in any of the six families."
+      ],
+      "unresolvedDependencies": [
+        "Quantitative input-output data at pilot scale for any of the six method families.",
+        "Demonstrated analytical method performance for heavy metals across all process streams (inlet-to-outlet).",
+        "A use-specific product-quality standard for any recovered material from cigarette butts.",
+        "Novelty/patentability search — this sketch has NOT performed one.",
+        "Regulatory acceptance basis for any final route in any jurisdiction."
+      ],
+      "failureModes": [
+        "A later pilot demonstrates that one or more method families can achieve dry-mass and analyte-resolved closure without meeting the four-field sink prerequisite, falsifying the necessity claim.",
+        "Heavy metals are shown to be consistently below background in all process streams for a family, making the stop condition moot for that family.",
+        "A jurisdiction accepts a recovered material based on total contaminant limits rather than analyte-resolved fate, making the analyte-resolved field unnecessary in that context.",
+        "A product gate is established that is independent of mass-balance closure and is met by a family without the four-field sink being fully satisfied.",
+        "The metals stop-condition cannot be analytically implemented at the required sensitivity, making the prerequisite infeasible."
+      ],
+      "falsifiers": [
+        "Published pilot-scale data showing complete dry-mass balance with analyte-resolved contaminant fate for any of the six families.",
+        "Published analytical method validation demonstrating inlet-to-outlet performance for cadmium, lead, arsenic, and mercury across all process streams for any family.",
+        "A regulatory acceptance decision for a cigarette-butt-derived product that does not require analyte-resolved fate.",
+        "A demonstrated product-quality gate that is independent of mass-balance closure and is passed by a family without the four-field sink."
+      ],
+      "validationQuestionIds": ["mechanical-physical-gap-partition-or-removal", "thermal-gap-leaching-lifetime", "chemical-gap-solvent-fate", "biological-gap-metal-accumulation", "material-incorporation-gap-leaching-and-firing", "product-routes-gap-no-gate-any-route"],
+      "evidenceState": "derived-from-sourced-premises",
+      "validationState": "new-unvalidated-hypothesis",
+      "reviewer": "butt-lab batch-02 AI desk review (no human sign-off recorded)",
+      "recordVersion": "batch-02-pilot-v1",
+      "auditReferences": [
+        {
+          "label": "Batch-02 Invention Sketch (Phase 2 — Prior-Art Awareness Only)",
+          "url": "https://github.com/butt-lab/butt-lab/blob/main/reports/batch-02/invention.md",
+          "version": "batch-02-pilot-v1"
+        }
+      ]
+    }
+  ]
 }

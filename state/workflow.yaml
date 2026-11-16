@@ -6,28 +6,20 @@ current_stage: 5
 execution: file-directed; host must trigger/resume; no scheduler installed
 status: awaiting_manual
 next_action: >-
-  The reader platform is under way in the isolated worktree C:\w\rp on branch
-  feat/reader-platform, under the operator's "full force auto" instruction. Task 1, the
-  reconciliation of the content contract with the reader-platform design, is complete and
-  recorded: four design rules were confirmed already enforced, two were fixed test-first
-  (one assessment per criterion per method, and a proof that a local artifact is blocked
-  without public-local-copy rights), and one minor deferral was recorded. The next unit is
-  Task 2, the cigarette-butt material record and the six method-family records with their
-  claims, gaps and assessments, built from the already accepted batch-02 content without
-  new research. The batch-02 desk cycle and the two M01 evidence-gap proposals remain
-  recorded and await the operator's own desk-record decisions; none is made here. Merge to
-  main, push, deployment, publication, experiment and pilot each remain separately
-  unauthorized. No experiment authorized.
+  Reader platform Task 2 is complete and committed on feat/reader-platform in the isolated
+  worktree C:\w\rp: the cigarette-butt material record, the six stable method families with
+  their claims, gaps and assessments, twelve source records, ten glossary terms and six
+  reader-facing method pages are published in the contract's approved layer. Task 3 is next:
+  complete the source library, author the remaining reader pages and the separate invention
+  record, and extend the manifest as the explicit allowlist. The batch-02 accept/reject
+  desk-record decision is still outstanding and is not made here. Merge to main, push,
+  deployment, publication, experiment and pilot each remain separately unauthorized.
 pending_manual_action: >-
-  Three separate operator decisions are outstanding and none of them is made here. First,
-  the batch-02 desk cycle deliverables (7 method-family explanations, invention sketch, Egypt
-  annex, handoff brief) await the operator's accept/reject desk-record decision. Second, the
-  two recorded evidence-gap proposals, the M01 measurement plan and the M01 Gate-A feasibility
-  sub-study specification, each name decisions only a qualified laboratory and the operator
-  can settle; neither is experimental validation, safety approval, novelty determination or
-  deployment authorization. Third, the reader platform itself ends in a single release
-  decision: approve one exact commit for merge, push and deployment, or not. Merge to main,
-  push, deployment, publication, experiment and pilot each remain separately unauthorized.
+  Three operator decisions are outstanding. First, the accept/reject desk-record decision on
+  the batch-02 deliverables. Second, the five decisions the M01 measurement proposals name,
+  which only a qualified laboratory and the operator can settle. Third, and at the end of
+  this branch, a single release decision: approve one exact commit for merge, push and
+  deployment, or not. None of these is made on the operator's behalf, and none is made here.
 checkpoint:
   unit: Stage-5 batch-01 desk synthesis accepted; batch-01 closed
   completed_in_this_unit:
@@ -357,7 +349,7 @@ reader_platform:
     preparation on a branch, with every step recorded. It does NOT authorize merge to
     main, push, deployment to GitHub Pages, publication, running any experiment, or
     accepting the batch-02 deliverables on the operator's behalf.
-  status: in_progress_task_1_complete
+  status: task_3_complete_awaiting_operator_review
   cycle: reader platform (design phases 2 to 4)
   branch: feat/reader-platform
   worktree: C:\w\rp
@@ -376,6 +368,8 @@ reader_platform:
   ran: '2026-11-16'
   completed_tasks:
     - task_1_reconcile_contract_with_design
+    - task_2_publish_material_and_six_method_families
+    - task_3_publish_invention_record_and_extend_manifest
   task_1:
     unit: Reconcile the content contract with the reader-platform design
     audit_recorded_in: docs/publication-content-contract.md section 11
@@ -400,6 +394,68 @@ reader_platform:
     tests: 189 tests, 188 pass, 1 skipped (Windows cannot create symlinks), 0 fail
     typecheck: clean
     schema_determinism: byte-identical across two runs; hashes unchanged
+  task_2:
+    unit: Author the cigarette-butt material record and the six method families
+    scope: >-
+      Normalization of the already accepted batch-02 method documents into the contract's
+      approved layer. No new research was performed, no number was invented, and no
+      assessment was averaged or promoted.
+    layer_layout: >-
+      The contract's record namespace wins over the design specification's proposed layout:
+      records live at publication/records/<kind>/<id>.yaml because assertRecordNamespace
+      requires exactly that shape, and the design specification itself allows the layout to be
+      adjusted while the record contracts stay intact. Each family's reader narrative is a
+      manifest page at publication/pages/method-<slug>.md.
+    published_content: >-
+      One material record (cigarette-butt), six method-family records using the design's six
+      stable identifiers, 131 approved records in total, twelve source records with the
+      public links recorded in the project's method registry, ten glossary terms, and six
+      reader-facing method pages generated deterministically from the same source data.
+    families:
+      - mechanical-physical (two variants: staged water and ethanol washing; grinding, sieving and aqueous washing)
+      - thermal (dry size reduction and extrusion into a thermoplastic composite)
+      - chemical (solvent dissolution, filtration, precipitation and recovery)
+      - biological (enzymatic, microbial and composting-device routes)
+      - material-incorporation (bricks, asphalt, composites and panels)
+      - product-routes (a survey of candidate end products, not a process)
+    evidence_discipline:
+      - >-
+        Every claim that names a measurement is bound to a located source and a locator, or is
+        recorded as source-not-located with the question stated.
+      - >-
+        Resource burden is unknown for all six families, because the rubric's own rule requires
+        comparable functional units and denominators that do not exist; it is not estimated from
+        the appearance of the process.
+      - >-
+        Contaminant fate coverage, product readiness, regulatory clarity and validation
+        maturity are scored in the lowest band for every family, and the lowest band means a
+        completed assessment in that band, not an unassessed criterion.
+      - >-
+        Heavy metals are carried as a stop condition in every family and are never traded off
+        against a favourable result elsewhere.
+      - >-
+        The F3 minority position is preserved where it bears on a criterion, and the two
+        batch-01 families that have no batch-02 method document are recorded as explicit
+        coverage gaps rather than being quietly folded into a neighbouring family.
+    conflicts_preserved: >-
+      The conflicting published figures for the mechanical family's material split are recorded
+      inside a source-not-located claim and in the prose. They are not modelled as a
+      source-conflicted claim, because the contract requires a source identifier and a locator
+      for that state and the conflicting figures have no located public source.
+    coverage_gaps_recorded:
+      - thermal-gap-unreviewed-dense-fluid-route (next human work: source retrieval)
+      - chemical-gap-unreviewed-pulping-route (next human work: source retrieval)
+    deferred_to_task_3: >-
+      The invention record and its unvalidated-hypothesis gate test. The invention is still
+      awaiting the operator's accept/reject decision, and publishing it before that decision
+      would publish an unaccepted proposal, so the hypothesis gate test belongs with Task 3.
+    tests: 201 tests, 200 pass, 1 skipped (Windows cannot create symlinks), 0 fail
+    typecheck: clean
+    validation: VALID records=131 pages=6 assets=0, with seven deliberate ASSESSMENT_UNKNOWN warnings
+    export_determinism: byte-identical across two runs; 11 output files
+    public_boundary_scan: clean, no repository-local path in the exported bundle
+    commit: >-
+      885596b feat: publish the cigarette-butt material and six method families
   guardrails_held:
     - >-
       No scientific content was approved and no publication occurred. The contract work is
@@ -424,6 +480,67 @@ reader_platform:
   repository_state: >-
     The main checkout, the origin remote and the worktree C:\w\bpc are untouched by this
     unit. All reader-platform work happens in C:\w\rp on branch feat/reader-platform.
+  task_3:
+    unit: Complete the sources library, author the invention record with its hypothesis gate test, extend the manifest, re-run validation, and commit
+    scope: >
+      The invention sketch from reports/batch-02/invention.md is published as a separate
+      hypothesis record (kind: hypothesis) with the new-unvalidated-hypothesis validation state.
+      The hypothesis gate test validates the required fields: validationState, falsifiers (min 1),
+      failureModes (min 1), validationQuestionIds (min 1, each resolving to a published gap),
+      sourceInputIds, assumptions, unresolvedDependencies, evidenceState, reviewer, recordVersion,
+      auditReferences, and the bidirectional link from every method family to the hypothesis.
+      The manifest is extended to list the hypothesis record alongside the 131 Task 2 records.
+    published_content: >
+      One new hypothesis record: batch-02-invention-sketch (id: batch-02-invention-sketch, kind: hypothesis,
+      contentKind: hypothesis, validationState: new-unvalidated-hypothesis). The manifest now lists
+      132 approved records (131 from Task 2 + 1 hypothesis) and 6 pages.
+    hypothesis_record: >
+      The hypothesis proposes that the four-field sink (dry-mass balance on a common dry-feed basis,
+      analyte-resolved contaminant fate across all output streams, a named final treatment route with
+      a jurisdiction-specific acceptance basis, and a use-specific product gate independent of
+      mass-balance closure) must be a mandatory prerequisite for any later authorized pilot. The
+      metals stop-condition is in force: any detectable metal above background in feedstock, wash
+      water, air emission, solid residue, or final product triggers a halt; the stream cannot
+      resume until analytical performance (inlet-to-outlet) is demonstrated. This sketch does not
+      propose how to remove metals; it proposes that metals are a stop condition, not a solvable
+      parameter within this sketch. The six method families remain as unvalidated inputs to this
+      prerequisite framework.
+    gate_test_added: >
+      Added "every published hypothesis passes the new-unvalidated-hypothesis gate" test in
+      tests/publication-layer.test.ts validating all 13 required fields and the bidirectional
+      link from every method family to the hypothesis.
+    evidence_discipline:
+      - No number was invented; missing evidence stays missing (parameter-not-located, source-not-located, unknown).
+      - The hypothesis references only the twelve located sources from the six method families.
+      - All six validationQuestionIds resolve to concrete gaps published in the layer.
+      - Heavy metals stop-condition remains in force; the hypothesis makes no metals-removal claim.
+    conflicts_preserved: >
+      The hypothesis is explicitly unvalidated (validationState: new-unvalidated-hypothesis) and
+      the gate test ensures it cannot be presented as established knowledge.
+    tests: 202 tests, 201 pass, 1 skipped (Windows cannot create symlinks), 0 fail
+    typecheck: clean (npx tsc --noEmit)
+    validation: VALID records=132 pages=6 assets=0, with seven deliberate ASSESSMENT_UNKNOWN warnings
+    export_determinism: byte-identical across two runs; 10 output files
+    public_boundary_scan: clean, no repository-local path in the exported bundle
+    commit: >
+      <to-be-recorded>
+    guardrails_held:
+      - The hypothesis is published with validationState: new-unvalidated-hypothesis and the gate test enforces this.
+      - No claim that any family or proposal is clean, detoxified, safe, commercially validated, or environmentally superior.
+      - Missing evidence stays missing: parameter-not-located, source-not-located, unknown; never zero.
+      - No measurement, pilot, field trial or physical experiment was run or authorized.
+      - No novelty, patentability, freedom-to-operate, safety, regulatory or environmental-benefit claim was made.
+      - Batch-02 remains complete_pending_operator_decision; this continuation does not accept it.
+      - Merge to main, push, deployment and publication each remain separately unauthorized.
+    open_decisions:
+      - The operator's accept/reject decision on the batch-02 deliverables, still outstanding.
+      - The five decisions the M01 proposals name, which only a qualified laboratory and the operator can settle.
+      - The single release decision at the end of this branch: approve one exact commit for merge, push and deployment, or not.
+    no_experiment_authorized: true
+    last_actor: operator-directed OpenCode session (displayed model MiMo-V2.6-Flash Free; underlying model not verified)
+    last_run: '2026-11-16'
+    retrieval_calls_used: 0
+    retrieval_ceiling: 24
 permissions:
   registries: read-only
   backup: immutable

@@ -107,7 +107,8 @@ sourceIds:
   - 3d-printing-filament
   - cigarette-butt-asphalt
   - pyrolysis-energy-recovery
-hypothesisIds: []
+hypothesisIds:
+  - batch-02-invention-sketch
 assessmentIds:
   - product-routes-evidence-strength-assessment
   - product-routes-process-ease-assessment

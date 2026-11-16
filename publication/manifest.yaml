@@ -10,9 +10,12 @@ records:
   - id: analyte-resolved-fate
     path: records/terms/analyte-resolved-fate.yaml
     sha256: 44af790108224129607f38b3face97b665255ad1908d1073060e49af0925a62b
+  - id: batch-02-invention-sketch
+    path: records/hypotheses/batch-02-invention-sketch.yaml
+    sha256: 146b02e1b2916e0fa30d6d7b5a4c495a5ef771be8356881a636aed3e17c28f4b
   - id: biological
     path: records/methods/biological.yaml
-    sha256: b7a1309c494bbf3edfde468a391c976109bc12dfe2acf56650ce61f3fd33de00
+    sha256: a3fb17969e07aa2108d4518bfd8bccd6e9f89c5058c97d5cd4fe728acf92f81b
   - id: biological-contaminant-fate-coverage-assessment
     path: records/assessments/biological-contaminant-fate-coverage-assessment.yaml
     sha256: 21f05f39960700103814751b96cccfabbee3fc51279e69eae4ec2390c98a79eb
@@ -69,7 +72,7 @@ records:
     sha256: 3aea16d9f037f2a7214ed6d94b8009f51228f4b6e392f4d06042f1a33884dc92
   - id: chemical
     path: records/methods/chemical.yaml
-    sha256: 1ff1e251d170ebd00b00885b117227ffa301282c45373efe44678d0da364932d
+    sha256: 146378067d6c748b3f2e908124e54fc4cbcfbee8db6443b38fd9c6b6bb45bab4
   - id: chemical-analyte-partitioning-not-located
     path: records/claims/chemical-analyte-partitioning-not-located.yaml
     sha256: d153d4e35b43d4ee9bb42e268668cda8e91ef85c8659f7736de17ccca838facc
@@ -153,7 +156,7 @@ records:
     sha256: 009ea06eb1465ca2fa44e85a3f44503229cc8b2789a09597abe88c6afd29ef3c
   - id: material-incorporation
     path: records/methods/material-incorporation.yaml
-    sha256: 30b689eb77e8e171b9a890121433883a6a543903c3f3a34cb577d7f8dc1db90c
+    sha256: e5fed5904340773583c637a22fe9c13d622eb3a709c0fd2c62de5ea37a5b7de4
   - id: material-incorporation-contaminant-fate-coverage-assessment
     path: records/assessments/material-incorporation-contaminant-fate-coverage-assessment.yaml
     sha256: 2a0aa8aa067226adb89d30946bbd8ebbfad7c80a3967f61d089e6b2929abd69c
@@ -210,7 +213,7 @@ records:
     sha256: fb12a9c29790d1d9d31313f09e282d475aa05e1f970e69d9dc53d8275338c07b
   - id: mechanical-physical
     path: records/methods/mechanical-physical.yaml
-    sha256: 81187f283786dbaa8d028e3ba5d62567dc760cfc993c254fc7be13f4d2a31fcb
+    sha256: 3eec2c31bc25cea0625b9e4d9637e8faecd96aeabc1a5c5fb8f26b0df8a15fc4
   - id: mechanical-physical-analyte-removal-not-located
     path: records/claims/mechanical-physical-analyte-removal-not-located.yaml
     sha256: 0dbb48f4d99da08d5e68fa2f25ce32a2cde7e5f9de58e548783b42fc93bc922e
@@ -276,7 +279,7 @@ records:
     sha256: 0dac93b0e3d5629bad5c7947a200af572d244648cf9f91bb9248e85600f36d36
   - id: product-routes
     path: records/methods/product-routes.yaml
-    sha256: 820863462f585bf3a5ae82e77a10d9c9cfcdb871a09009e54f93a3b4de7df3c1
+    sha256: f6923e5e367acc8ddd498b5c92ba1ca3b805f3aef47489bad2fc45b720000316
   - id: product-routes-asphalt-route-reported
     path: records/claims/product-routes-asphalt-route-reported.yaml
     sha256: 7811c67a43bd93c2dd2268fb9c45e15f85b73f817de0a65a2d7baafe3848ee9d
@@ -339,7 +342,7 @@ records:
     sha256: 5f5ea29383a20a7fa0318871f9f22c47e3eac4a9c984ac21127a5214aedcb8d6
   - id: thermal
     path: records/methods/thermal.yaml
-    sha256: 87e25139fc2f0211f41e932d3c66fc30d705a7158cbc744e1958c223193a4a6e
+    sha256: 1aebc67995415b2d272a99a762aa2bcb4097e6887da197b0eed5fa5fec2a9b81
   - id: thermal-contaminant-fate-coverage-assessment
     path: records/assessments/thermal-contaminant-fate-coverage-assessment.yaml
     sha256: f3e691910078dfd861eeea38ddc643f0b233b7a3ec24823f030b0029c8b634eb

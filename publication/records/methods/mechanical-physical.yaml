@@ -123,7 +123,8 @@ sourceIds:
   - mego-fr3066128a1
   - academic-green-ethanol-wash
   - matteri-ep2520184a1
-hypothesisIds: []
+hypothesisIds:
+  - batch-02-invention-sketch
 assessmentIds:
   - mechanical-physical-evidence-strength-assessment
   - mechanical-physical-process-ease-assessment

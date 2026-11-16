@@ -407,3 +407,104 @@ test("the published layer keeps every claim attached to a method family it is ab
     }
   }
 });
+
+/**
+ * Hypothesis gate: every published hypothesis must carry the explicit
+ * new-unvalidated-hypothesis validation state, at least one falsifier,
+ * at least one failure mode, and must link to concrete gaps via
+ * validationQuestionIds. This is the reader-platform gate that prevents
+ * an unvalidated hypothesis from being presented as established knowledge.
+ */
+test("every published hypothesis passes the new-unvalidated-hypothesis gate", async () => {
+  const loaded = await loadAndValidateManifest(PUBLICATION_ROOT);
+  const hypotheses = recordsOfKind(loaded.records.values(), "hypothesis", 0);
+
+  for (const hypothesis of hypotheses) {
+    // 1. validationState must be exactly "new-unvalidated-hypothesis"
+    assert.equal(
+      hypothesis.validationState,
+      "new-unvalidated-hypothesis",
+      `${hypothesis.id} must declare validationState: "new-unvalidated-hypothesis"`,
+    );
+
+    // 2. At least one falsifier (the measurement that could kill the hypothesis)
+    assert.ok(
+      hypothesis.falsifiers.length > 0,
+      `${hypothesis.id} must name at least one falsifier (the measurement that could kill it)`,
+    );
+
+    // 3. At least one failure mode (how the hypothesis could be wrong)
+    assert.ok(
+      hypothesis.failureModes.length > 0,
+      `${hypothesis.id} must name at least one failure mode (how it could be wrong)`,
+    );
+
+    // 4. At least one validationQuestionId linking to concrete gaps
+    assert.ok(
+      hypothesis.validationQuestionIds.length > 0,
+      `${hypothesis.id} must link to at least one concrete gap via validationQuestionIds`,
+    );
+
+    // 5. Each validationQuestionId must resolve to a published gap
+    const gapIds = new Set(
+      recordsOfKind(loaded.records.values(), "gap").map((gap) => gap.id),
+    );
+    for (const qid of hypothesis.validationQuestionIds) {
+      assert.ok(
+        gapIds.has(qid),
+        `${hypothesis.id} references unknown gap ${qid} in validationQuestionIds`,
+      );
+    }
+
+    // 6. The hypothesis must name its source inputs
+    assert.ok(
+      hypothesis.sourceInputIds.length > 0,
+      `${hypothesis.id} must name its source inputs`,
+    );
+
+    // 7. The hypothesis must declare assumptions
+    assert.ok(
+      hypothesis.assumptions.length > 0,
+      `${hypothesis.id} must declare at least one assumption`,
+    );
+
+    // 8. The hypothesis must declare unresolved dependencies
+    assert.ok(
+      hypothesis.unresolvedDependencies.length > 0,
+      `${hypothesis.id} must declare at least one unresolved dependency`,
+    );
+
+    // 9. The hypothesis must carry an evidenceState derived from sourced premises
+    assert.equal(
+      hypothesis.evidenceState,
+      "derived-from-sourced-premises",
+      `${hypothesis.id} must declare evidenceState: "derived-from-sourced-premises"`,
+    );
+
+    // 10. The hypothesis must name its reviewer
+    assert.ok(
+      hypothesis.reviewer.length > 0,
+      `${hypothesis.id} must name its reviewer`,
+    );
+
+    // 11. The hypothesis must carry a recordVersion
+    assert.ok(
+      hypothesis.recordVersion.length > 0,
+      `${hypothesis.id} must carry a recordVersion`,
+    );
+
+    // 12. The hypothesis must carry audit references
+    assert.ok(
+      hypothesis.auditReferences.length > 0,
+      `${hypothesis.id} must carry at least one audit reference`,
+    );
+
+    // 13. Every method family must reference this hypothesis
+    for (const family of recordsOfKind(loaded.records.values(), "method-family")) {
+      assert.ok(
+        family.hypothesisIds.includes(hypothesis.id),
+        `${family.id} must reference hypothesis ${hypothesis.id} in hypothesisIds`,
+      );
+    }
+  }
+});
