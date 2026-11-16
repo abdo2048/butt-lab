@@ -1,0 +1,149 @@
+schemaVersion: 1
+id: mechanical-physical
+title: Mechanical separation with aqueous washing
+publicationState: approved
+auditAliases:
+  - F0
+  - F1
+  - batch-02 F0
+  - batch-02 F1
+kind: method-family
+family: mechanical-physical
+summary: The butt is broken up and washed in water, so that the cellulose acetate filter fraction is separated from the paper, tobacco and ash, and the surface residues are carried away in the wash water.
+mechanism: "Two variants sit in this family. In staged washing, butts are washed in water and then optionally in ethanol, and the filter material is recovered without being dissolved. In the grinding route, butts are milled so that the filter fraction separates from the paper and tobacco matrix, sieved out, washed in water, dried and milled again into fibrous particles. In both variants the question is the same: whether washing removes contaminants from the fibre or only redistributes them between fibre, water and sludge."
+feedstock: Collected whole spent cigarette butts, including filter, paper and residual tobacco. The mass basis of a collected lot is not stated by any located source, and it is not established whether butts must be dry before processing.
+preparation: Drying where the lot is wet, then either direct washing or grinding and sieving to separate the filter fraction from the paper, tobacco and ash fraction.
+steps:
+  - id: collection
+    label: Collection and drying
+    description: Spent cigarette butts are collected from ash trays, bins or street litter and dried where the lot is wet. No located source states a moisture content or a drying protocol for collected butts.
+  - id: separation
+    label: Separation of the filter fraction
+    description: In the grinding variant, butts are milled so that the plastic filter separates from the tobacco and paper matrix, and sieves recover the filter fraction while the paper, tobacco and ash fraction is rejected as a separate stream. No located source states a particle size, a sieve aperture, or how much of the fines fraction is lost with the rejected stream.
+  - id: water-wash
+    label: Aqueous wash
+    description: The filter fraction is agitated in water so that surface dust, loose tobacco and dissolved residues are carried into the wash water. Some described designs use more than one wash tank in sequence and recycle the wash water. No located source states a wash temperature, a contact time, a water-to-feed ratio, or whether the recycled water receives any treatment or purge.
+  - id: ethanol-wash
+    label: Optional ethanol wash
+    description: In the staged variant, a second wash in ethanol is used for residues that water does not dissolve. No located source states an ethanol concentration, a ratio or a recovery method, and this step is described only in the literature and company material, not in a located operating record.
+  - id: drying-and-fibrous-form
+    label: Drying and size reduction
+    description: The washed material is dried and may be milled into a fibrous or particulate form. The batch-02 source documents give illustrative temperature ranges for drying and state that these are inventor choices rather than measured reference values; no located source states a drying protocol.
+inputs:
+  - id: collected-butts
+    label: Collected spent cigarette butts
+    description: Whole collected butts, including the filter, the paper wrapper, residual tobacco and ash.
+  - id: process-water
+    label: Process water
+    description: Wash water, some described designs recovering it through a closed loop with a limited capacity per cycle.
+  - id: optional-ethanol
+    label: Ethanol, optional
+    description: Used in the staged variant only, to dissolve residues that water does not.
+streams:
+  - id: fibre
+    label: Washed filter fibre
+    type: product
+    contaminants:
+      - nicotine
+      - tobacco-specific nitrosamines
+      - polycyclic aromatic hydrocarbons
+      - cadmium
+      - lead
+      - arsenic
+    fateState: inferred
+  - id: wash-water
+    label: Wash water
+    type: liquid
+    contaminants:
+      - nicotine
+      - polycyclic aromatic hydrocarbons
+      - cadmium
+      - lead
+      - arsenic
+      - combustion salts
+    fateState: inferred
+  - id: rejected-solids
+    label: Rejected paper, tobacco and ash fraction
+    type: reject
+    contaminants:
+      - nicotine
+      - tobacco-specific nitrosamines
+      - polycyclic aromatic hydrocarbons
+      - cadmium
+      - lead
+      - arsenic
+    fateState: unresolved
+  - id: fines-loss
+    label: Fines carried away with the rejected stream
+    type: unexplained-loss
+    contaminants:
+      - polycyclic aromatic hydrocarbons
+    fateState: unresolved
+  - id: filter-dust
+    label: Inhalable filter dust
+    type: emission
+    contaminants:
+      - nicotine
+    fateState: unresolved
+products:
+  - id: washed-fibre
+    label: Washed cellulose acetate fibre
+    description: Dried, optionally milled filter material recovered after washing. Its residual contaminant content and mechanical properties are not established by any located source.
+    intendedUse: Not established. No product standard accepts washed filter material for any stated use.
+sinks:
+  - id: washed-material-sink
+    material: Cellulose acetate recovered from cigarette filters, in a material split reported by a company rather than a product specification.
+    intendedUse: A composite filler and, in one described route, thermo-compressed sheets for outdoor furniture. Use-compliance is not demonstrated by any located source.
+    acceptanceBasis: Not established. No product gate, leaching test or regulatory acceptance has been located for this material.
+    issuer: Not established. No company, standard body or authority has been located as the issuer of an accepted product.
+    finalRoute: Not established. The wash water, the rejected solids and the sludge have no demonstrated final disposal route in any located source.
+claimIds:
+  - mechanical-physical-mechanism-staged-wash
+  - mechanical-physical-mechanism-grind-sieve-wash
+  - mechanical-physical-split-basis-not-stated
+  - mechanical-physical-analyte-removal-not-located
+  - mechanical-physical-metals-fate-not-located
+  - mechanical-physical-regulatory-status-not-located
+  - mechanical-physical-inference-description-without-removal-data
+gapIds:
+  - mechanical-physical-gap-partition-or-removal
+  - mechanical-physical-note-reclosed-water-loop
+termIds:
+  - cellulose-acetate
+  - nicotine
+  - tsna
+  - pah
+  - heavy-metals
+  - tar
+  - microplastics
+  - dry-mass-basis
+  - analyte-resolved-fate
+  - four-field-sink
+sourceIds:
+  - mego-fr3066128a1
+  - academic-green-ethanol-wash
+  - matteri-ep2520184a1
+hypothesisIds: []
+assessmentIds:
+  - mechanical-physical-evidence-strength-assessment
+  - mechanical-physical-process-ease-assessment
+  - mechanical-physical-resource-burden-assessment
+  - mechanical-physical-contaminant-fate-coverage-assessment
+  - mechanical-physical-sink-completeness-assessment
+  - mechanical-physical-product-readiness-assessment
+  - mechanical-physical-regulatory-clarity-assessment
+  - mechanical-physical-validation-maturity-assessment
+organizations:
+  - name: MéGo!
+    role: Company whose located patent describes a collection network and a grinding, washing, water-recycling, drying and milling route, and whose environmental assessment is described as not publicly available.
+  - name: Re-Cig
+    role: Company whose documents are described as covering a recycled-content declaration model, an end-of-waste annex with a product specification, and organisational rather than product-level certification.
+auditReferences:
+  - label: MéGo! patent FR3066128A1
+    url: https://patents.google.com/patent/FR3066128A1/en
+    version: FR3066128A1
+    internalId: batch-02-f1-mego-patent
+  - label: Matteri process patent EP2520184A1
+    url: https://patents.google.com/patent/EP2520184A1/en
+    version: EP2520184A1
+    internalId: batch-01-matteri-ep2520184a1

@@ -1,0 +1,14 @@
+schemaVersion: 1
+id: product-routes-resource-burden-assessment
+title: Resource burden for the candidate product routes
+publicationState: approved
+kind: assessment
+methodId: product-routes
+criterionId: resource-burden
+status: unknown
+rubricVersion: 1.0.0
+supportingClaimIds: []
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+unknownReason: No located source reports water, energy or cost on a stated functional unit for any candidate route, and the routes do not share a functional unit between them, so this criterion stays unknown.

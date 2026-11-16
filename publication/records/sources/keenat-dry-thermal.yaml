@@ -1,0 +1,19 @@
+schemaVersion: 1
+id: keenat-dry-thermal
+title: Keenat - dry treatment and composite valorisation of cigarette butts
+publicationState: approved
+auditAliases:
+  - batch-01 Keenat
+kind: source
+citation: Keenat company materials describing a dry treatment and extrusion-composite route for cigarette butts (FR3110470A1, EP3912739A1).
+sourceType: company
+publisherOrIssuer: Keenat
+versionOrDate: Company materials; EP family from May 2020
+originalUrl: https://keenat.com/recyclage-valorisation-megots
+accessDate: 2026-11-11
+rights: link-only
+derivatives: []
+claimIds:
+  - thermal-mechanism-dry-extrusion
+methodIds:
+  - thermal

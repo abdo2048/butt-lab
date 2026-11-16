@@ -1,0 +1,19 @@
+schemaVersion: 1
+id: chemical-contaminant-fate-coverage-assessment
+title: Contaminant fate coverage for solvent dissolution and polymer recovery
+publicationState: approved
+kind: assessment
+methodId: chemical
+criterionId: contaminant-fate-coverage
+status: scored
+rubricVersion: 1.0.0
+supportingClaimIds:
+  - chemical-analyte-partitioning-not-located
+  - chemical-metals-removal-unknown
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+score: 1
+label: Minimal
+rationale: No located source measures where the named analytes go. The streams are described but their contents are not, so neither the decision-relevant analytes nor the major output streams have been measured.
+basis: inference

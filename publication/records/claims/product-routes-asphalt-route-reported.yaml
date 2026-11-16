@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: product-routes-asphalt-route-reported
+title: Cigarette butt material mixed into asphalt has been reported
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: A technical article describes mixing cigarette butt material into asphalt to make a road material.
+evidenceState: source-supported
+methodIds:
+  - product-routes
+  - material-incorporation
+hypothesisIds: []
+sourceId: cigarette-butt-asphalt
+locator: Article summary
+counterevidenceClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

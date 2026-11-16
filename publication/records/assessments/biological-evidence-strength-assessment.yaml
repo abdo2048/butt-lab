@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: biological-evidence-strength-assessment
+title: Evidence strength for biological treatment
+publicationState: approved
+kind: assessment
+methodId: biological
+criterionId: evidence-strength
+status: scored
+rubricVersion: 1.0.0
+supportingClaimIds:
+  - biological-patent-device-exists
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+score: 1
+label: Minimal
+rationale: The located support is a granted patent for a device and general literature on polymer biodegradation that was not written about cigarette butts. No directly relevant support for this feedstock was located, and the search boundary was recorded, which is what the lowest band describes.
+basis: inference

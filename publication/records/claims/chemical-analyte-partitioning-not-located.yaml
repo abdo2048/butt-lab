@@ -1,0 +1,15 @@
+schemaVersion: 1
+id: chemical-analyte-partitioning-not-located
+title: No located source reports how contaminants partition across this family's streams
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: No located source reports what share of nicotine, tar components, polycyclic aromatic hydrocarbons or heavy metals ends up in the recovered polymer rather than in the filtration residue or the spent solvent.
+evidenceState: source-not-located
+methodIds:
+  - chemical
+hypothesisIds: []
+counterevidenceClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

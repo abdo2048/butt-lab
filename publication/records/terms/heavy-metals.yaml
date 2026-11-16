@@ -1,0 +1,27 @@
+schemaVersion: 1
+id: heavy-metals
+title: Heavy metals
+publicationState: approved
+auditAliases: []
+kind: term
+preferredLabel: Heavy metals
+aliases:
+  - cadmium, lead, arsenic and mercury
+  - metals
+tooltip: Cadmium, lead, arsenic and mercury, treated as a stop condition rather than a parameter.
+explanation: Heavy metals are treated throughout this layer as a stop condition rather than as a value to be averaged or traded off. A stream whose heavy-metal content has not been characterised cannot be routed to a product or to unclassified waste, and a favourable result on another criterion does not offset that.
+methodIds:
+  - mechanical-physical
+  - thermal
+  - chemical
+  - biological
+  - material-incorporation
+  - product-routes
+claimIds:
+  - mechanical-physical-metals-fate-not-located
+  - thermal-metals-not-removed
+  - chemical-metals-removal-unknown
+  - biological-metals-not-destroyed
+  - material-incorporation-metals-retained
+  - product-routes-metals-measurement-required
+sourceIds: []

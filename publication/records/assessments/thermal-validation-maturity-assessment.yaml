@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: thermal-validation-maturity-assessment
+title: Validation maturity for dry treatment and composite extrusion
+publicationState: approved
+kind: assessment
+methodId: thermal
+criterionId: validation-maturity
+status: scored
+rubricVersion: 1.0.0
+supportingClaimIds:
+  - thermal-leaching-unmeasured
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+score: 1
+label: Foundational unknowns
+rationale: Whether the containment holds over the product's life is a basic physical question that has to be answered before a bounded test against any product criterion can be defined.
+basis: inference

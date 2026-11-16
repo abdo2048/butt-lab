@@ -1,0 +1,19 @@
+schemaVersion: 1
+id: chemical-product-readiness-assessment
+title: Product readiness for solvent dissolution and polymer recovery
+publicationState: approved
+kind: assessment
+methodId: chemical
+criterionId: product-readiness
+status: scored
+rubricVersion: 1.0.0
+supportingClaimIds:
+  - chemical-mechanism-extraction-characterisation
+  - chemical-analyte-partitioning-not-located
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+score: 1
+label: Undefined
+rationale: Although the recovered polymer has been characterised in one study, its purity, residual solvent, molecular weight and residual toxicity are not established on a comparable basis and no product gate has been located, so there is no product performance evidence to judge.
+basis: inference

@@ -1,0 +1,22 @@
+schemaVersion: 1
+id: product-routes-note-routes-inherit-the-intermediate
+title: Choosing a route does not choose a clean product
+publicationState: approved
+auditAliases: []
+kind: gap
+contentKind: ai-gap-closing-note
+question: How should a reader weigh the candidate routes against each other?
+gapType: interpretation
+whyItMatters: The routes differ in what they are made from and in where they are sold, not in how clean they are. Presenting them as a set of options without saying so would let a reader assume that one of them avoids the contaminant problem.
+affectedRecordIds:
+  - product-routes
+evidenceState: derived-from-sourced-premises
+validationState: requires-human-validation
+nextHumanWork: independent-product-or-intended-use-testing
+sourceInputIds:
+  - product-routes-asphalt-route-reported
+  - product-routes-no-independent-evidence
+assumptions:
+  - Each route is proposed to use the intermediate from another family without an intervening treatment step.
+  - No located source describes a route-specific contaminant reduction.
+falsifierOrDecisionCondition: If a located source described a treatment step specific to one route that measurably reduced the contaminant load, that route would have to be presented separately from the others.

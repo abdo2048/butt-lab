@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: material-incorporation-regulatory-clarity-assessment
+title: Regulatory clarity for material incorporation
+publicationState: approved
+kind: assessment
+methodId: material-incorporation
+criterionId: regulatory-clarity
+status: scored
+rubricVersion: 1.0.0
+supportingClaimIds:
+  - material-incorporation-regulatory-status-not-located
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+score: 1
+label: Unlocated
+rationale: No jurisdiction, material status or authority has been located for this family. Building codes, product rules, leaching limits and emission permits would all have to be checked for the specific jurisdiction and product, and none of them has been.
+basis: inference

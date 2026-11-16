@@ -1,0 +1,17 @@
+schemaVersion: 1
+id: thermal-mechanism-dry-extrusion
+title: A company describes a dry route that blends butt material into a thermoplastic composite
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: Company materials describe a process in which cigarette butts are dried and size-reduced, blended with a thermoplastic binder and extruded into composite profiles, with no washing stage.
+evidenceState: source-supported
+methodIds:
+  - thermal
+hypothesisIds: []
+sourceId: keenat-dry-thermal
+locator: Company process description
+counterevidenceClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

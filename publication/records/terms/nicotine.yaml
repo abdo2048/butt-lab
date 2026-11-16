@@ -1,0 +1,19 @@
+schemaVersion: 1
+id: nicotine
+title: Nicotine
+publicationState: approved
+auditAliases: []
+kind: term
+preferredLabel: Nicotine
+aliases: []
+tooltip: The main soluble residue carried by the tobacco and the filter.
+explanation: Nicotine is the best-studied contaminant of cigarette butts because it is soluble in water and is the residue most consistently described as being partly leached by washing. No located source reports nicotine removal efficiency for any recycling route on a stated mass basis, so the fraction removed remains unknown rather than small.
+methodIds:
+  - mechanical-physical
+  - thermal
+  - chemical
+  - biological
+  - material-incorporation
+  - product-routes
+claimIds: []
+sourceIds: []

@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: chemical-sink-completeness-assessment
+title: Sink completeness for solvent dissolution and polymer recovery
+publicationState: approved
+kind: assessment
+methodId: chemical
+criterionId: sink-completeness
+status: scored
+rubricVersion: 1.0.0
+supportingClaimIds:
+  - chemical-analyte-partitioning-not-located
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+score: 2
+label: Proposed
+rationale: The dissolution, precipitation and drying route is named, but no acceptance basis and no issuer have been located for the recovered polymer, and the route for the spent solvent and the filtration residue is undefined.
+basis: inference

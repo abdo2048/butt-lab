@@ -1,0 +1,22 @@
+schemaVersion: 1
+id: dry-mass-basis
+title: Dry-mass basis
+publicationState: approved
+auditAliases: []
+kind: term
+preferredLabel: Dry-mass basis
+aliases:
+  - dry feed basis
+  - dry matter basis
+tooltip: A way of counting mass that does not change with how wet the material is.
+explanation: A dry-mass basis states the mass of material excluding water, so that a wet lot and a dried lot of the same material can be compared. Without it, two reported splits can describe the same material, and a balance cannot be checked. Several published figures for this material do not state whether they were measured wet or dry.
+methodIds:
+  - mechanical-physical
+  - thermal
+  - chemical
+  - biological
+  - material-incorporation
+  - product-routes
+claimIds:
+  - mechanical-physical-split-basis-not-stated
+sourceIds: []

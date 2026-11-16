@@ -1,0 +1,15 @@
+schemaVersion: 1
+id: mechanical-physical-split-basis-not-stated
+title: Published material-split figures for this family carry no mass basis and conflict with each other
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: Figures published for this family give a material split into filter material, wash residues and rejected solids, and a figure for butt mass per kilogram, but none of them states whether the mass was measured wet or dry, and two published figures for butt mass per kilogram disagree with each other.
+evidenceState: source-not-located
+methodIds:
+  - mechanical-physical
+hypothesisIds: []
+counterevidenceClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

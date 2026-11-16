@@ -1,0 +1,25 @@
+schemaVersion: 1
+id: cellulose-acetate
+title: Cellulose acetate
+publicationState: approved
+auditAliases: []
+kind: term
+preferredLabel: Cellulose acetate
+acronym: CA
+aliases:
+  - cellulose acetate filter
+  - acetate tow
+tooltip: The plastic filter material most cigarette filters are made from.
+explanation: Cellulose acetate is the thermoplastic material in the filter of a finished cigarette. Recovering it intact is the goal of the solvent-based routes; the washing and incorporation routes keep it physically intact but chemically unchanged. Its properties after any recycling route are not established for the material collected from cigarette filters, because no located source characterises the recovered polymer on a comparable basis.
+methodIds:
+  - mechanical-physical
+  - thermal
+  - chemical
+  - biological
+  - material-incorporation
+  - product-routes
+claimIds:
+  - chemical-mechanism-extraction-characterisation
+sourceIds:
+  - defenzo-2020-materials
+  - academic-green-ethanol-wash

@@ -1,0 +1,20 @@
+schemaVersion: 1
+id: mego-fr3066128a1
+title: FR3066128A1 - Method and device for valorising cigarette butts
+publicationState: approved
+auditAliases:
+  - batch-01 FR3066128A1
+  - MéGo! patent
+kind: source
+citation: FR3066128A1, Method and device for valorising cigarette butts (MéGo!), granted 2019-07-19 as FR3066128B1.
+sourceType: patent
+publisherOrIssuer: European Patent Office / INPI
+versionOrDate: FR3066128A1; granted 2019-07-19
+originalUrl: https://patents.google.com/patent/FR3066128A1/en
+accessDate: 2026-11-11
+rights: link-only
+derivatives: []
+claimIds:
+  - mechanical-physical-mechanism-grind-sieve-wash
+methodIds:
+  - mechanical-physical

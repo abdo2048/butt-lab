@@ -1,0 +1,15 @@
+schemaVersion: 1
+id: material-incorporation-leaching-unmeasured
+title: No located source reports leaching from a product containing butt material
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: No located source reports whether contaminants leach from a finished product that contains butt material under weathering, rain or contact with water and soil, and no located source reports the emissions from firing butt material.
+evidenceState: source-not-located
+methodIds:
+  - material-incorporation
+hypothesisIds: []
+counterevidenceClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

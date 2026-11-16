@@ -1,0 +1,22 @@
+schemaVersion: 1
+id: thermal-note-containment-is-not-removal
+title: Containment is not removal
+publicationState: approved
+auditAliases: []
+kind: gap
+contentKind: ai-gap-closing-note
+question: Should the composite route be described as a recycling route at all?
+gapType: interpretation
+whyItMatters: If the contaminants travel into the product and the product is then used outdoors, the route changes the form of the waste rather than the amount of it, and calling that recycling without qualification would mislead a reader.
+affectedRecordIds:
+  - thermal
+evidenceState: derived-from-sourced-premises
+validationState: requires-human-validation
+nextHumanWork: independent-product-or-intended-use-testing
+sourceInputIds:
+  - thermal-mechanism-dry-extrusion
+  - thermal-contaminants-not-removed
+assumptions:
+  - The product is used in the open, as the claimed street-furniture applications imply.
+  - No later treatment removes the contaminants once the composite is in service.
+falsifierOrDecisionCondition: If a located source demonstrated that the contaminants are removed or immobilised to a defined standard before or during use, the route could be described as treatment; until then the description stays as containment.

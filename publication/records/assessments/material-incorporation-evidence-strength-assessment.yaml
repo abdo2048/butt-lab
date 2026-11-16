@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: material-incorporation-evidence-strength-assessment
+title: Evidence strength for material incorporation
+publicationState: approved
+kind: assessment
+methodId: material-incorporation
+criterionId: evidence-strength
+status: scored
+rubricVersion: 1.0.0
+supportingClaimIds:
+  - material-incorporation-small-scale-brick-study
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+score: 2
+label: Limited
+rationale: The located support is a small number of small-scale studies and trade-press reports, with no independent verification of performance, safety or environmental benefit at commercial scale. There is directly relevant support, but it is narrow in scale and coverage, which is the limited band.
+basis: inference

@@ -1,0 +1,15 @@
+schemaVersion: 1
+id: product-routes-metals-measurement-required
+title: Heavy metals must be measured before any route is considered
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: No located source reports the heavy-metal content of any candidate product from this family or its leaching potential, and no route can be considered until that measurement exists.
+evidenceState: source-not-located
+methodIds:
+  - product-routes
+hypothesisIds: []
+counterevidenceClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

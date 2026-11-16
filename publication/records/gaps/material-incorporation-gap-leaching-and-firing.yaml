@@ -1,0 +1,16 @@
+schemaVersion: 1
+id: material-incorporation-gap-leaching-and-firing
+title: Do the contaminants stay inside the product for its whole life
+publicationState: approved
+auditAliases: []
+kind: gap
+contentKind: unresolved-question
+question: When butt material is built into a brick, a panel or a road surface, do the contaminants stay inside the product for its whole life, or do they leach out or volatilise during firing and use?
+gapType: material-fate
+whyItMatters: This family makes the contamination less visible rather than smaller. If the contaminants leave the product slowly, then a product sold as a partial raw-material replacement is a slow source of the same substances that made butt litter a problem in the first place.
+affectedRecordIds:
+  - material-incorporation
+evidenceState: source-not-located
+validationState: requires-human-validation
+nextHumanWork: independent-product-or-intended-use-testing
+falsifierOrDecisionCondition: A leaching study on a product containing butt material, together with emission measurements for any firing step, would show whether the contaminants remain contained.

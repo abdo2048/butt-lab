@@ -1,0 +1,20 @@
+schemaVersion: 1
+id: microplastics
+title: Microplastics
+publicationState: approved
+auditAliases: []
+kind: term
+preferredLabel: Microplastics
+aliases:
+  - cellulose acetate microplastic
+  - filter fibre fragments
+tooltip: Small plastic fragments produced when filters are handled or degraded.
+explanation: The cellulose acetate filter is itself a source of microplastic fragments, and size reduction steps turn butts into a particle stream. Washing does not remove that potential, and partial biological degradation does not eliminate it. The magnitude is not measured in any located source.
+methodIds:
+  - mechanical-physical
+  - thermal
+  - biological
+  - material-incorporation
+  - product-routes
+claimIds: []
+sourceIds: []

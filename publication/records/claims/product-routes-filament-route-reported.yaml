@@ -1,0 +1,17 @@
+schemaVersion: 1
+id: product-routes-filament-route-reported
+title: A filament product from cigarette butt material has been reported
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: A news report describes a business producing three-dimensional printing filament from cigarette butt material, alongside research publications on the same route.
+evidenceState: source-supported
+methodIds:
+  - product-routes
+hypothesisIds: []
+sourceId: 3d-printing-filament
+locator: News report summary
+counterevidenceClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

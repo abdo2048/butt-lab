@@ -1,0 +1,15 @@
+schemaVersion: 1
+id: biological-degradation-fate-unknown
+title: It is not known whether biological treatment degrades or concentrates the contaminants
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: No located source reports whether nicotine, tar components or heavy metals are degraded, transformed or simply concentrated by a biological treatment of cigarette butts.
+evidenceState: source-not-located
+methodIds:
+  - biological
+hypothesisIds: []
+counterevidenceClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

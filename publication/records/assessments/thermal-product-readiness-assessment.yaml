@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: thermal-product-readiness-assessment
+title: Product readiness for dry treatment and composite extrusion
+publicationState: approved
+kind: assessment
+methodId: thermal
+criterionId: product-readiness
+status: scored
+rubricVersion: 1.0.0
+supportingClaimIds:
+  - thermal-leaching-unmeasured
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+score: 1
+label: Undefined
+rationale: No mechanical testing data, no leaching behaviour and no product gate have been located for the composite, so there is no product performance evidence to judge.
+basis: inference

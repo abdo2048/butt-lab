@@ -1,0 +1,14 @@
+schemaVersion: 1
+id: product-routes-process-ease-assessment
+title: Process ease for the candidate product routes
+publicationState: approved
+kind: assessment
+methodId: product-routes
+criterionId: process-ease
+status: unknown
+rubricVersion: 1.0.0
+supportingClaimIds: []
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+unknownReason: This family is a survey of end-product destinations rather than a single process, so process ease is a property of each route and of the family that supplies its input, and it cannot be scored for the family as a whole.

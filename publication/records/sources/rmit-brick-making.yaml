@@ -1,0 +1,19 @@
+schemaVersion: 1
+id: rmit-brick-making
+title: RMIT University cigarette butt brick-making study
+publicationState: approved
+auditAliases:
+  - batch-01 RMIT brick making
+kind: source
+citation: Lab Manager news report on RMIT University research making bricks from cigarette butt material at a low inclusion rate, with a claimed energy reduction.
+sourceType: web-page
+publisherOrIssuer: Lab Manager, reporting RMIT University research
+versionOrDate: News report of a university study
+originalUrl: https://www.labmanager.com/how-cigarette-butts-can-be-recycled-into-bricks-23843
+accessDate: 2026-11-11
+rights: link-only
+derivatives: []
+claimIds:
+  - material-incorporation-small-scale-brick-study
+methodIds:
+  - material-incorporation

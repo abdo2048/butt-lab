@@ -1,0 +1,14 @@
+schemaVersion: 1
+id: material-incorporation-resource-burden-assessment
+title: Resource burden for material incorporation
+publicationState: approved
+kind: assessment
+methodId: material-incorporation
+criterionId: resource-burden
+status: unknown
+rubricVersion: 1.0.0
+supportingClaimIds: []
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+unknownReason: No located source reports water, energy or processing cost on a stated functional unit for any product in this family, and the one reported energy comparison does not state its boundary, so this criterion stays unknown.

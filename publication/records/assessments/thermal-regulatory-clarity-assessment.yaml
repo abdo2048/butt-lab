@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: thermal-regulatory-clarity-assessment
+title: Regulatory clarity for dry treatment and composite extrusion
+publicationState: approved
+kind: assessment
+methodId: thermal
+criterionId: regulatory-clarity
+status: scored
+rubricVersion: 1.0.0
+supportingClaimIds:
+  - thermal-regulatory-status-not-located
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+score: 1
+label: Unlocated
+rationale: No located source names a jurisdiction, a material status or an authority for this composite. Building codes, product rules and chemical rules would all have to be checked for any jurisdiction before this material could be used.
+basis: inference

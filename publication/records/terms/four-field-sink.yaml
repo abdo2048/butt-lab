@@ -1,0 +1,21 @@
+schemaVersion: 1
+id: four-field-sink
+title: The four-field sink
+publicationState: approved
+auditAliases: []
+kind: term
+preferredLabel: The four-field sink
+aliases:
+  - four-field sink
+  - four-field sink accounting
+tooltip: The four things that must be located before a recovered material can be called a product.
+explanation: The four fields are a dry-mass balance on a common dry-feed basis, analyte-resolved contaminant fate across the streams, a named final treatment route with a jurisdiction-specific acceptance basis, and a use-specific product gate that is independent of whether the mass balance closes. A method family that cannot locate all four is a hypothesis with a measurement plan attached, not a finished route.
+methodIds:
+  - mechanical-physical
+  - thermal
+  - chemical
+  - biological
+  - material-incorporation
+  - product-routes
+claimIds: []
+sourceIds: []

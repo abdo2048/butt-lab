@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: thermal-inference-no-contaminant-fate-comparison
+title: This family cannot be compared with other families on contaminant fate
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: inference
+proposition: Because this family contains the contaminants rather than treating them, comparing it with a washing or dissolution family on contaminant fate would compare a containment step with a treatment step, and no located source supports such a comparison.
+evidenceState: derived-from-sourced-premises
+methodIds:
+  - thermal
+hypothesisIds: []
+counterevidenceClaimIds: []
+premiseClaimIds:
+  - thermal-mechanism-dry-extrusion
+reasoning: A contaminant-fate comparison assumes that each route moves contaminants in some describable way. Here the located description gives no transfer step at all, so the family has no fate to compare. The comparison is therefore withheld rather than scored.
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

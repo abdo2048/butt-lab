@@ -1,0 +1,16 @@
+schemaVersion: 1
+id: mechanical-physical-gap-partition-or-removal
+title: Does washing remove contaminants from the fibre or only redistribute them
+publicationState: approved
+auditAliases: []
+kind: gap
+contentKind: unresolved-question
+question: When this family washes cigarette butts, do the contaminants leave with the wash water and the rejected solids, or do they stay bound in the cellulose acetate that becomes the product?
+gapType: material-fate
+whyItMatters: The whole value of the route depends on the answer. If the contaminants redistribute rather than leave, then the product carries the same contaminant burden in a different place, and the wash water becomes a concentrated stream that needs a route of its own.
+affectedRecordIds:
+  - mechanical-physical
+evidenceState: source-not-located
+validationState: requires-human-validation
+nextHumanWork: controlled-laboratory-evidence
+falsifierOrDecisionCondition: A measurement of the same named analytes in the input lot, in each wash liquor and in the washed fibre, on one dry-mass basis, would either close this question or show that the contaminants stay with the fibre.

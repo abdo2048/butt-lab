@@ -1,0 +1,19 @@
+schemaVersion: 1
+id: cigarette-butt-asphalt
+title: Cigarette butts mixed with asphalt
+publicationState: approved
+auditAliases:
+  - batch-01 cigarette butt asphalt
+kind: source
+citation: Ceramics Monthly technical article on mixing cigarette butt material into asphalt for road construction.
+sourceType: web-page
+publisherOrIssuer: American Ceramic Society, Ceramic Tech Today
+versionOrDate: Technical article
+originalUrl: https://ceramics.org/ceramic-tech-today/cigarette-butts-mixed-with-asphalt-create-new-pavement-material/
+accessDate: 2026-11-11
+rights: link-only
+derivatives: []
+claimIds: []
+methodIds:
+  - material-incorporation
+  - product-routes

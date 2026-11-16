@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: biological-sink-completeness-assessment
+title: Sink completeness for biological treatment
+publicationState: approved
+kind: assessment
+methodId: biological
+criterionId: sink-completeness
+status: scored
+rubricVersion: 1.0.0
+supportingClaimIds:
+  - biological-metals-not-destroyed
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+score: 1
+label: Undefined
+rationale: No final treatment route for the spent biological medium has been defined at all, and no acceptance basis or issuer has been located for the treated material, so the produced material and its final route are both unnamed.
+basis: inference

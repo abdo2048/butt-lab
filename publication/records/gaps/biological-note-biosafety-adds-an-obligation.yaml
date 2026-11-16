@@ -1,0 +1,21 @@
+schemaVersion: 1
+id: biological-note-biosafety-adds-an-obligation
+title: Biological routes carry containment obligations that chemical routes do not
+publicationState: approved
+auditAliases: []
+kind: gap
+contentKind: ai-gap-closing-note
+question: What does the choice of a living or enzyme system add to the obligations of any later trial?
+gapType: handling-and-regulation
+whyItMatters: A route description that names a biological agent without naming the containment and disposal obligations attached to it would make an untested family look ready for a trial when it is not.
+affectedRecordIds:
+  - biological
+evidenceState: derived-from-sourced-premises
+validationState: requires-human-validation
+nextHumanWork: regulatory-review
+sourceInputIds:
+  - biological-patent-device-exists
+assumptions:
+  - Any later trial would use a living culture or an enzyme preparation.
+  - The treated material would need to be handled and the spent medium disposed of under rules that apply to biological agents.
+falsifierOrDecisionCondition: If a located source documented a specific containment and disposal regime that applies to this feedstock, this note would become a requirement to satisfy rather than an open question.

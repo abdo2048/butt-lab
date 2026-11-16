@@ -1,0 +1,15 @@
+schemaVersion: 1
+id: mechanical-physical-metals-fate-not-located
+title: No located source states where metals go in this family
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: No located source states the fate of heavy metals in this family, and no located source demonstrates a metals-removal outcome or a lawful route for metal-bearing residue.
+evidenceState: source-not-located
+methodIds:
+  - mechanical-physical
+hypothesisIds: []
+counterevidenceClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

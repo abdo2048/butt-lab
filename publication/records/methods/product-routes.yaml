@@ -1,0 +1,135 @@
+schemaVersion: 1
+id: product-routes
+title: Where the recovered material could go
+publicationState: approved
+auditAliases:
+  - F6
+  - batch-02 F6
+kind: method-family
+family: product-routes
+summary: "A survey of the end products that recovered butt material could be routed into. It is not a process of its own: it maps the outputs of the other families onto candidate products."
+mechanism: There is no mechanism here. Each of the other families produces a different intermediate, and this page lists where each intermediate could plausibly go. Every route inherits the contaminants of the intermediate it starts from, so a route only removes contaminants when it is paired with a washing or dissolution family.
+feedstock: "Not a single feedstock. The inputs are the intermediates of the other families: washed fibre, milled particles, recovered polymer, partly deacetylated cellulose, and an incorporated composite."
+preparation: Each route would need its own preparation, from the intermediate it starts with to the finished article.
+steps:
+  - id: construction
+    label: Construction materials
+    description: Milled particles or ash mixed into clay, concrete, tile or asphalt. The located evidence is a small number of small-scale studies, and no located source demonstrates commercial scale.
+  - id: composites
+    label: Composite profiles
+    description: Butt particles blended with a thermoplastic resin and formed into outdoor furniture, bollards, decking and construction profiles. The located evidence is company claim without independent performance or lifecycle data.
+  - id: textiles
+    label: Textiles and nonwovens
+    description: Recovered polymer or partly deacetylated cellulose used to make fibre for textiles and nonwoven products. The located patent literature describes dissolving the polymer; no located study covers cigarette-butt-specific textile products.
+  - id: films
+    label: Films and membranes
+    description: Recovered polymer used for films and membranes for packaging, filtration and separation. The located evidence is general polymer literature, with no cigarette-butt-specific study located.
+  - id: insulation
+    label: Insulation and acoustic panels
+    description: Butt fibre or composite material used for insulation boards or acoustic panels. No located source specific to cigarette butts has been found for this route, and the flammability of the material is unresolved.
+  - id: energy
+    label: Energy recovery
+    description: Butts burned with energy capture. The flue gas carries nicotine, tar and metals and the ash holds concentrated residues, so this route is energy recovery rather than material recycling, and it would need air-quality permits.
+inputs:
+  - id: intermediates
+    label: Intermediates from the other families
+    description: Washed fibre, milled particles, recovered polymer, partly deacetylated cellulose or an incorporated composite.
+streams:
+  - id: route-products
+    label: Finished articles of each candidate route
+    type: product
+    contaminants:
+      - nicotine
+      - polycyclic aromatic hydrocarbons
+      - cadmium
+      - lead
+      - arsenic
+    fateState: unresolved
+  - id: flue-gas
+    label: Flue gas from energy recovery
+    type: emission
+    contaminants:
+      - nicotine
+      - polycyclic aromatic hydrocarbons
+      - cadmium
+      - lead
+      - arsenic
+    fateState: unresolved
+  - id: ash
+    label: Ash from energy recovery
+    type: reject
+    contaminants:
+      - cadmium
+      - lead
+      - arsenic
+    fateState: unresolved
+  - id: installation-release
+    label: Release during installation and use
+    type: unexplained-loss
+    contaminants:
+      - polycyclic aromatic hydrocarbons
+    fateState: unresolved
+products:
+  - id: route-articles
+    label: Candidate finished articles
+    description: Bricks and road materials, composite profiles, textile fibre, films and membranes, insulation and acoustic panels, and energy recovery. None has an independent evidence base for safety, performance or environmental benefit.
+    intendedUse: Each route names a use, and none of them has a located product standard, product gate or regulatory pathway that accepts it.
+sinks:
+  - id: routes-sink
+    material: Materials derived from recovered butt material, in a state whose contaminant content has not been established.
+    intendedUse: Construction, textiles, membranes, insulation and energy recovery, depending on the route.
+    acceptanceBasis: Not established. No product standard, building code or regulatory pathway accepts cigarette butt material for any of these routes.
+    issuer: Not established. No company, standard body or authority has been located as the issuer of an accepted product.
+    finalRoute: Not established. Only the energy-recovery route has a nominal final form, and its ash has no located route either.
+claimIds:
+  - product-routes-filament-route-reported
+  - product-routes-asphalt-route-reported
+  - product-routes-no-independent-evidence
+  - product-routes-metals-measurement-required
+  - product-routes-regulatory-status-not-located
+  - product-routes-inference-routes-inherit-contamination
+gapIds:
+  - product-routes-gap-no-gate-any-route
+  - product-routes-gap-energy-recovery-is-not-recycling
+  - product-routes-note-routes-inherit-the-intermediate
+termIds:
+  - cellulose-acetate
+  - nicotine
+  - tsna
+  - pah
+  - heavy-metals
+  - tar
+  - microplastics
+  - dry-mass-basis
+  - analyte-resolved-fate
+  - four-field-sink
+sourceIds:
+  - 3d-printing-filament
+  - cigarette-butt-asphalt
+  - pyrolysis-energy-recovery
+hypothesisIds: []
+assessmentIds:
+  - product-routes-evidence-strength-assessment
+  - product-routes-process-ease-assessment
+  - product-routes-resource-burden-assessment
+  - product-routes-contaminant-fate-coverage-assessment
+  - product-routes-sink-completeness-assessment
+  - product-routes-product-readiness-assessment
+  - product-routes-regulatory-clarity-assessment
+  - product-routes-validation-maturity-assessment
+organizations:
+  - name: Keenat
+    role: Company claiming composite profile products, cited in this family as the source of the composite route claim.
+auditReferences:
+  - label: 3D printing filament from cigarette butts
+    url: https://3dprinting.com/news/cigarette-butts-get-new-life-as-feedstock/
+    version: 3D Printing Industry news report
+    internalId: batch-01-3d-printing-filament
+  - label: Cigarette butts mixed with asphalt
+    url: https://ceramics.org/ceramic-tech-today/cigarette-butts-mixed-with-asphalt-create-new-pavement-material/
+    version: Ceramic Tech Today article
+    internalId: batch-01-cigarette-butt-asphalt
+  - label: Pyrolysis energy recovery study
+    url: https://www.sciencedirect.com/science/article/abs/pii/S016523702300311X
+    version: S016523702300311X
+    internalId: batch-01-pyrolysis-energy-recovery

@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: material-incorporation-inference-energy-claim-not-comparable
+title: The claimed energy saving cannot be compared across this family
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: inference
+proposition: Because the located study reports an energy comparison without stating the functional unit, the boundary and the butt inclusion rate on a common basis, its energy saving cannot be compared with any other product in this family.
+evidenceState: derived-from-sourced-premises
+methodIds:
+  - material-incorporation
+hypothesisIds: []
+counterevidenceClaimIds: []
+premiseClaimIds:
+  - material-incorporation-small-scale-brick-study
+reasoning: An energy claim only compares if the system boundary, the functional unit and the inclusion rate are stated. The located report gives none of them, and no other product in the family has a comparable figure. The claim is therefore recorded as reported and marked as not comparable, rather than repeated as a benefit.
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

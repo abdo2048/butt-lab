@@ -1,0 +1,19 @@
+schemaVersion: 1
+id: mechanical-physical-inference-description-without-removal-data
+title: The located descriptions of this family do not establish contaminant removal
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: inference
+proposition: Because the located description of this family sets out the separation and washing steps but reports no contaminant removal figures for them, the family cannot be compared with any other family on contaminant fate.
+evidenceState: derived-from-sourced-premises
+methodIds:
+  - mechanical-physical
+hypothesisIds: []
+counterevidenceClaimIds: []
+premiseClaimIds:
+  - mechanical-physical-mechanism-staged-wash
+  - mechanical-physical-mechanism-grind-sieve-wash
+reasoning: Both located sources describe the process sequence. Neither states a removal figure for any named contaminant, so the sequence can be reported but its effect cannot be compared. The absence of a removal figure is recorded here as an absence, not as a small removal.
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

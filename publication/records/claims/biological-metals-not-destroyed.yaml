@@ -1,0 +1,15 @@
+schemaVersion: 1
+id: biological-metals-not-destroyed
+title: Heavy metals are not destroyed by a biological process
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: No located source describes a biological step that removes heavy metals from cigarette butt material, and the fate of those metals between the treated material and the spent medium has not been reported.
+evidenceState: source-not-located
+methodIds:
+  - biological
+hypothesisIds: []
+counterevidenceClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

@@ -1,0 +1,19 @@
+schemaVersion: 1
+id: thermal-contaminant-fate-coverage-assessment
+title: Contaminant fate coverage for dry treatment and composite extrusion
+publicationState: approved
+kind: assessment
+methodId: thermal
+criterionId: contaminant-fate-coverage
+status: scored
+rubricVersion: 1.0.0
+supportingClaimIds:
+  - thermal-leaching-unmeasured
+  - thermal-metals-not-removed
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+score: 1
+label: Minimal
+rationale: The decision-relevant analytes and the major output streams have not been measured, and the located description contains no stage at which a contaminant could leave the material, so nothing is measured and nothing is removed.
+basis: inference

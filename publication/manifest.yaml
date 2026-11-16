@@ -1,5 +1,416 @@
 schemaVersion: 1
-publicationVersion: phase-1-contract
-records: []
-pages: []
+publicationVersion: batch-02-pilot
+records:
+  - id: 3d-printing-filament
+    path: records/sources/3d-printing-filament.yaml
+    sha256: b2c13830abc30ddf90d0df64d95681b8360177b1cfab922837867e43722c9215
+  - id: academic-green-ethanol-wash
+    path: records/sources/academic-green-ethanol-wash.yaml
+    sha256: 71c21430a813ad8473357f3aedc5b4541da18ed4f1663128ec3a96605307b692
+  - id: analyte-resolved-fate
+    path: records/terms/analyte-resolved-fate.yaml
+    sha256: 44af790108224129607f38b3face97b665255ad1908d1073060e49af0925a62b
+  - id: biological
+    path: records/methods/biological.yaml
+    sha256: b7a1309c494bbf3edfde468a391c976109bc12dfe2acf56650ce61f3fd33de00
+  - id: biological-contaminant-fate-coverage-assessment
+    path: records/assessments/biological-contaminant-fate-coverage-assessment.yaml
+    sha256: 21f05f39960700103814751b96cccfabbee3fc51279e69eae4ec2390c98a79eb
+  - id: biological-degradation-fate-unknown
+    path: records/claims/biological-degradation-fate-unknown.yaml
+    sha256: 5853127be4d2109c7d08e5aeec1c293b47ba3428946430b139d12533178b4f34
+  - id: biological-evidence-strength-assessment
+    path: records/assessments/biological-evidence-strength-assessment.yaml
+    sha256: d2c88a8a5a8d5a70b90846772d9d51cc67b2ca2236de94dfaf30b45820d94b21
+  - id: biological-gap-metal-accumulation
+    path: records/gaps/biological-gap-metal-accumulation.yaml
+    sha256: ad9fc002a64ef4b252697cd3488b6085fba61f87a7fd388089436bc9e60fd2ea
+  - id: biological-gap-no-degradation-study
+    path: records/gaps/biological-gap-no-degradation-study.yaml
+    sha256: 37c7210310c4eefa26fbe5f8a3fe81a4a97dc7007a57404fbf035f9548f44cff
+  - id: biological-inference-earliest-stage-family
+    path: records/claims/biological-inference-earliest-stage-family.yaml
+    sha256: c8cc45a31220d5b2234b6c057fa1db75e2aa903e7b231bb19ebad1d6edd741fd
+  - id: biological-metals-not-destroyed
+    path: records/claims/biological-metals-not-destroyed.yaml
+    sha256: cc56991336de07059b7b717beb9b14e4b538e78bfcbc1a5f8810dc4ee112fad6
+  - id: biological-note-biosafety-adds-an-obligation
+    path: records/gaps/biological-note-biosafety-adds-an-obligation.yaml
+    sha256: 14e79d54b4ae4e636a7e7ffdd09a88c27edd5f43f7b2628e60da83fa5565b581
+  - id: biological-patent-device-exists
+    path: records/claims/biological-patent-device-exists.yaml
+    sha256: cff258e07ac6ba54263b18f84f4c150645cd309cccbd2c67564375ce59eb1e09
+  - id: biological-polymer-degradation-unquantified
+    path: records/claims/biological-polymer-degradation-unquantified.yaml
+    sha256: 72d32f70ccc6576f32ca09ef921d0538cb7c205c825df2b43277cd41d12b7863
+  - id: biological-process-ease-assessment
+    path: records/assessments/biological-process-ease-assessment.yaml
+    sha256: 9b944bf1fbc6fcc709cf0b5ca0d62e1fe32298afdabc6d641d9dcccda6359b88
+  - id: biological-product-readiness-assessment
+    path: records/assessments/biological-product-readiness-assessment.yaml
+    sha256: 1a487eed182c9ff56b170c1617ccaf896d4d5c88f8e737b86d09a1bfc7832483
+  - id: biological-regulatory-clarity-assessment
+    path: records/assessments/biological-regulatory-clarity-assessment.yaml
+    sha256: fa15d5aefe48e29457fa36f79c32a6fa3da1622ac82c7d923349c1e8a830f5b1
+  - id: biological-regulatory-status-not-located
+    path: records/claims/biological-regulatory-status-not-located.yaml
+    sha256: f90fc2a4c5ca4ca9ab1e2d239a3e6637f2749851fbd87a33f72f3168b4b5f739
+  - id: biological-resource-burden-assessment
+    path: records/assessments/biological-resource-burden-assessment.yaml
+    sha256: 8631635b4f2205aeb0baa9585d3712c48f2ec67aba55d0e870e57f107deef026
+  - id: biological-sink-completeness-assessment
+    path: records/assessments/biological-sink-completeness-assessment.yaml
+    sha256: fcab27347335c9157a1c1ed1f98d26210fe6e33345f7a2ed7a0339b4ccce5092
+  - id: biological-validation-maturity-assessment
+    path: records/assessments/biological-validation-maturity-assessment.yaml
+    sha256: d48bd9731acaf1ad8b28047af1cb87c77dd983410abd711985521cb67608318c
+  - id: cellulose-acetate
+    path: records/terms/cellulose-acetate.yaml
+    sha256: 3aea16d9f037f2a7214ed6d94b8009f51228f4b6e392f4d06042f1a33884dc92
+  - id: chemical
+    path: records/methods/chemical.yaml
+    sha256: 1ff1e251d170ebd00b00885b117227ffa301282c45373efe44678d0da364932d
+  - id: chemical-analyte-partitioning-not-located
+    path: records/claims/chemical-analyte-partitioning-not-located.yaml
+    sha256: d153d4e35b43d4ee9bb42e268668cda8e91ef85c8659f7736de17ccca838facc
+  - id: chemical-contaminant-fate-coverage-assessment
+    path: records/assessments/chemical-contaminant-fate-coverage-assessment.yaml
+    sha256: bb2a2c60e91c4d686da236cf907c2bcf13e5966bdec86411033068cfc2e291be
+  - id: chemical-evidence-strength-assessment
+    path: records/assessments/chemical-evidence-strength-assessment.yaml
+    sha256: 07b15b30c9a5895c45cd74b8bc9d5f80aea73a8c239dd592cd6192153e6c8743
+  - id: chemical-gap-solvent-fate
+    path: records/gaps/chemical-gap-solvent-fate.yaml
+    sha256: b78a9edfc914c4361ca52b81047e12361571b52adf577f02e64fdda9b52c0f38
+  - id: chemical-gap-unreviewed-pulping-route
+    path: records/gaps/chemical-gap-unreviewed-pulping-route.yaml
+    sha256: 7015aeece3eda14662e2338aa97840db5f612500f7f660a3f4fc7e6d407ef4b9
+  - id: chemical-inference-purity-is-not-performance
+    path: records/claims/chemical-inference-purity-is-not-performance.yaml
+    sha256: 2166927cb768ba9f1980eda98ead42c9a8d4d1b9905ad539c18ce060c0db60ce
+  - id: chemical-mechanism-extraction-characterisation
+    path: records/claims/chemical-mechanism-extraction-characterisation.yaml
+    sha256: 5c158f4f1badc303715c951fe058238192ac21ab4a14689bbb06d23526a88fe1
+  - id: chemical-mechanism-solvent-dissolution-precipitation
+    path: records/claims/chemical-mechanism-solvent-dissolution-precipitation.yaml
+    sha256: 2fec116f6fd200aa8cdd0759cc1aa7d34f89b39365b09a89c4c1f48a460c1eb7
+  - id: chemical-metals-removal-unknown
+    path: records/claims/chemical-metals-removal-unknown.yaml
+    sha256: d528b3af65c4a8f196e53f9e151c36ce94b325bd8287af67754deb6aa8d906f6
+  - id: chemical-note-solvent-and-nmp-are-handling-obligations
+    path: records/gaps/chemical-note-solvent-and-nmp-are-handling-obligations.yaml
+    sha256: a68112472cd6fff41418dbb18cc3ce1c289413256736ce2bc50c8d12e80fb734
+  - id: chemical-process-ease-assessment
+    path: records/assessments/chemical-process-ease-assessment.yaml
+    sha256: 4496760f7f8b648450872cbea583ab362c3f75ef05e0bf27a841f14cb97d176a
+  - id: chemical-product-readiness-assessment
+    path: records/assessments/chemical-product-readiness-assessment.yaml
+    sha256: 2dfa4545188fff1cfd57b582ea512b4186172981da756cf47f967ab9b977fda4
+  - id: chemical-regulatory-clarity-assessment
+    path: records/assessments/chemical-regulatory-clarity-assessment.yaml
+    sha256: 2e438c9d9da590ed90b319ec70402e75d1b307db35f7b033a19e137bee68ac58
+  - id: chemical-regulatory-status-not-located
+    path: records/claims/chemical-regulatory-status-not-located.yaml
+    sha256: bd3e72fb017a8622d693196fddd55d231ff3780e7083c54ee500b711dc0d8e80
+  - id: chemical-resource-burden-assessment
+    path: records/assessments/chemical-resource-burden-assessment.yaml
+    sha256: b81431e16fd4bc5f98415db177eb4c206ae6c143baec21fa6be8c095308c3f6f
+  - id: chemical-sink-completeness-assessment
+    path: records/assessments/chemical-sink-completeness-assessment.yaml
+    sha256: 7b5780401859cb05da03c9053a7b2aa0f30fbef5cd86a5f6d422c19dcc692ace
+  - id: chemical-validation-maturity-assessment
+    path: records/assessments/chemical-validation-maturity-assessment.yaml
+    sha256: 535972849060b83712f88af7e58a397c946451af13fbedaf22fcfd7cf91aab3e
+  - id: cigarette-butt
+    path: records/materials/cigarette-butt.yaml
+    sha256: f3240b56797b524ae8794c7d30ee58225828ac44794e9d1a3de6952af1f4a895
+  - id: cigarette-butt-asphalt
+    path: records/sources/cigarette-butt-asphalt.yaml
+    sha256: 25cf9063d96f7209f17cfa6d8dddc3a654cd734c94349399646627f174c113e2
+  - id: cn106928486
+    path: records/sources/cn106928486.yaml
+    sha256: d72771c6c1ca882ea5b8a083bf7bc7422a3fb230b032fb185adb4cea79e7ed3a
+  - id: cnr-knowledge-share-ca-recovery
+    path: records/sources/cnr-knowledge-share-ca-recovery.yaml
+    sha256: 87eb6337aad63eaa52eb11a91d2b34c8c0c91a8d30533a7c5bcabdfd3b20b16b
+  - id: defenzo-2020-materials
+    path: records/sources/defenzo-2020-materials.yaml
+    sha256: 94719370b613fb82115cfef808fb930490d0e4a1cf86560007f4141c6981e5d7
+  - id: dry-mass-basis
+    path: records/terms/dry-mass-basis.yaml
+    sha256: 326988664348b249d25543f6d89c890e3ca7fd456bb87054d8be077ef353349f
+  - id: four-field-sink
+    path: records/terms/four-field-sink.yaml
+    sha256: 6710d342c9cf29c631316f5eecc651f15f0f337bb741e506201455a196efd443
+  - id: heavy-metals
+    path: records/terms/heavy-metals.yaml
+    sha256: 5dc7d8a0eca951bc001fe3865bde92de05bf56ae6f9adebe4a871a42907610d8
+  - id: keenat-dry-thermal
+    path: records/sources/keenat-dry-thermal.yaml
+    sha256: 30b175dc4b816f272f5c078246e927ae0539d39b617c078842d501fdfc394b67
+  - id: kr-microbial-composting
+    path: records/sources/kr-microbial-composting.yaml
+    sha256: 009ea06eb1465ca2fa44e85a3f44503229cc8b2789a09597abe88c6afd29ef3c
+  - id: material-incorporation
+    path: records/methods/material-incorporation.yaml
+    sha256: 30b689eb77e8e171b9a890121433883a6a543903c3f3a34cb577d7f8dc1db90c
+  - id: material-incorporation-contaminant-fate-coverage-assessment
+    path: records/assessments/material-incorporation-contaminant-fate-coverage-assessment.yaml
+    sha256: 2a0aa8aa067226adb89d30946bbd8ebbfad7c80a3967f61d089e6b2929abd69c
+  - id: material-incorporation-evidence-strength-assessment
+    path: records/assessments/material-incorporation-evidence-strength-assessment.yaml
+    sha256: afe518bf6e40d8597f889539ec480009951383f966e1a84bb4ee3621feea834a
+  - id: material-incorporation-gap-incorporation-rate
+    path: records/gaps/material-incorporation-gap-incorporation-rate.yaml
+    sha256: 73a786a96824623700f27ea62b2b158e512e027ffca504c80c02afd7627f4ee6
+  - id: material-incorporation-gap-leaching-and-firing
+    path: records/gaps/material-incorporation-gap-leaching-and-firing.yaml
+    sha256: 7fd455494e54750cb3cc403568126f384b9df36dd67d31597b0a47dfec9990fe
+  - id: material-incorporation-inference-energy-claim-not-comparable
+    path: records/claims/material-incorporation-inference-energy-claim-not-comparable.yaml
+    sha256: 1d7c9f768a76c72b5796cc0c81f24f60e5721979b938fc9209e4bdbeac849585
+  - id: material-incorporation-leaching-unmeasured
+    path: records/claims/material-incorporation-leaching-unmeasured.yaml
+    sha256: 4d0d7641af8e57ba8cf99a968de5c0e2d5bd51360799d089e6a6e13838575961
+  - id: material-incorporation-metals-retained
+    path: records/claims/material-incorporation-metals-retained.yaml
+    sha256: afb46f2788b58283863e9a4eb85f185e4f139266f27e195cce3113fd2500890f
+  - id: material-incorporation-no-commercial-demonstration
+    path: records/claims/material-incorporation-no-commercial-demonstration.yaml
+    sha256: ee7adf99abc37b5cd10ae078b2622459291f14b4b916435ec901a3fe5f63ded6
+  - id: material-incorporation-note-the-family-moves-waste-not-contamination
+    path: records/gaps/material-incorporation-note-the-family-moves-waste-not-contamination.yaml
+    sha256: c4c30dcac0ba3eddc02e98760592516eae987e03e7485a0861411d3784d3a35a
+  - id: material-incorporation-process-ease-assessment
+    path: records/assessments/material-incorporation-process-ease-assessment.yaml
+    sha256: 476956a4fef7c2546bf2886a1d0ee5c99eab719d80157b7c530286d3ae6ebaed
+  - id: material-incorporation-product-readiness-assessment
+    path: records/assessments/material-incorporation-product-readiness-assessment.yaml
+    sha256: 84c14feba53c6a4b02de6cbe64940756e2c1787503b0bb4070081d957c50773c
+  - id: material-incorporation-regulatory-clarity-assessment
+    path: records/assessments/material-incorporation-regulatory-clarity-assessment.yaml
+    sha256: 78f94190dbff00e467972bed123ca3b4ba1228e6ab801d22f6fc408d86fd482e
+  - id: material-incorporation-regulatory-status-not-located
+    path: records/claims/material-incorporation-regulatory-status-not-located.yaml
+    sha256: c2b73ffd6fb453fab9114063c7d53b1693d4d9953a154ca9708652296776ad93
+  - id: material-incorporation-resource-burden-assessment
+    path: records/assessments/material-incorporation-resource-burden-assessment.yaml
+    sha256: ca9dc31ca2415876103b7c58ee66cd52a76427e97cb990f5cb74f83c81abb302
+  - id: material-incorporation-sink-completeness-assessment
+    path: records/assessments/material-incorporation-sink-completeness-assessment.yaml
+    sha256: 9355fa36cf58397daa3fb8c2c4f557097c21b1a44a671b16ca79ad9756d32857
+  - id: material-incorporation-small-scale-brick-study
+    path: records/claims/material-incorporation-small-scale-brick-study.yaml
+    sha256: aff984b3d63d5b9c111072236e3d2607f7081edc1b01c60e700b68235a8e45d6
+  - id: material-incorporation-validation-maturity-assessment
+    path: records/assessments/material-incorporation-validation-maturity-assessment.yaml
+    sha256: 1afb759e8cc52732b429ecb0d7aec39ea1a1280744e2c4d9b5980b73f2df6f9d
+  - id: matteri-ep2520184a1
+    path: records/sources/matteri-ep2520184a1.yaml
+    sha256: fb12a9c29790d1d9d31313f09e282d475aa05e1f970e69d9dc53d8275338c07b
+  - id: mechanical-physical
+    path: records/methods/mechanical-physical.yaml
+    sha256: 81187f283786dbaa8d028e3ba5d62567dc760cfc993c254fc7be13f4d2a31fcb
+  - id: mechanical-physical-analyte-removal-not-located
+    path: records/claims/mechanical-physical-analyte-removal-not-located.yaml
+    sha256: 0dbb48f4d99da08d5e68fa2f25ce32a2cde7e5f9de58e548783b42fc93bc922e
+  - id: mechanical-physical-contaminant-fate-coverage-assessment
+    path: records/assessments/mechanical-physical-contaminant-fate-coverage-assessment.yaml
+    sha256: 3a53b5145c290a0fd8c8d6a7b23d479d49cf16a138484e7b6fd5391d1f1baee2
+  - id: mechanical-physical-evidence-strength-assessment
+    path: records/assessments/mechanical-physical-evidence-strength-assessment.yaml
+    sha256: f1665e2e20761ac998d14e627b589a039c05935ae6e913d0c6907f2ff079764a
+  - id: mechanical-physical-gap-partition-or-removal
+    path: records/gaps/mechanical-physical-gap-partition-or-removal.yaml
+    sha256: 674ef6dcfe151de7a380393d97af718e5527cbc3a3dd82c93a5dc731d7b61aac
+  - id: mechanical-physical-inference-description-without-removal-data
+    path: records/claims/mechanical-physical-inference-description-without-removal-data.yaml
+    sha256: c35bc687dc2eef2dc5a2ef845657de64d4c67ec8fe0389b8a1e421bddd75a547
+  - id: mechanical-physical-mechanism-grind-sieve-wash
+    path: records/claims/mechanical-physical-mechanism-grind-sieve-wash.yaml
+    sha256: 44d96c6548ec32f24d4499c881935bf2fedbba3ca305fc291fd342b9172dadae
+  - id: mechanical-physical-mechanism-staged-wash
+    path: records/claims/mechanical-physical-mechanism-staged-wash.yaml
+    sha256: bdc76c9acdbcdd5d9b7375c0ee4e95083f9f501b6f933d401367c193908b1a0b
+  - id: mechanical-physical-metals-fate-not-located
+    path: records/claims/mechanical-physical-metals-fate-not-located.yaml
+    sha256: d8e1c54b46a9a88e0852eb94d3d1485946c9227b11243c68e999c9b7ba4fadce
+  - id: mechanical-physical-note-reclosed-water-loop
+    path: records/gaps/mechanical-physical-note-reclosed-water-loop.yaml
+    sha256: d9a86922e504d1c7cac6104c22958fc950f482a716ff64722ada525968a5dcf1
+  - id: mechanical-physical-process-ease-assessment
+    path: records/assessments/mechanical-physical-process-ease-assessment.yaml
+    sha256: 82724114b680d39927be65ad784ca7ce80731f50e86a4931ede5d9fb38149bef
+  - id: mechanical-physical-product-readiness-assessment
+    path: records/assessments/mechanical-physical-product-readiness-assessment.yaml
+    sha256: dc627fdd699cc649b84c8199b97bbd255b4b03253ec0dbbeb2f5f80a6c5cc7ba
+  - id: mechanical-physical-regulatory-clarity-assessment
+    path: records/assessments/mechanical-physical-regulatory-clarity-assessment.yaml
+    sha256: 40e48f6ca019f1569112f545a07676ffa4c5e4ee7a9d2f670b33eed50aff4df9
+  - id: mechanical-physical-regulatory-status-not-located
+    path: records/claims/mechanical-physical-regulatory-status-not-located.yaml
+    sha256: b1dd160ac7e059b4e3a1adb3ad53d7fb29c02578c5fd2737f0183b9cb2742511
+  - id: mechanical-physical-resource-burden-assessment
+    path: records/assessments/mechanical-physical-resource-burden-assessment.yaml
+    sha256: 291ab463195cdde556d0e5a8017c46f453f14b7b5b904dac5f5d65607e540718
+  - id: mechanical-physical-sink-completeness-assessment
+    path: records/assessments/mechanical-physical-sink-completeness-assessment.yaml
+    sha256: 366e7182f4cae2c128b90909ee2c68625f9273d842626ac40a49508e5ed22395
+  - id: mechanical-physical-split-basis-not-stated
+    path: records/claims/mechanical-physical-split-basis-not-stated.yaml
+    sha256: ad3bd4211ff28b014fa6d8c3020ede338ffbf0c4656c09d5a8057d1d21f2b69d
+  - id: mechanical-physical-validation-maturity-assessment
+    path: records/assessments/mechanical-physical-validation-maturity-assessment.yaml
+    sha256: 255b44c26fcabfda107e46e702f7efaa7e4ad46a9505d086ce4b39db429cddd4
+  - id: mego-fr3066128a1
+    path: records/sources/mego-fr3066128a1.yaml
+    sha256: fc8a6f5488c75731ae8ea7ae4fd53fd04bfd389a11de09f4b5d157d84d6cadaa
+  - id: microplastics
+    path: records/terms/microplastics.yaml
+    sha256: 15f733282f818d4ca48828a7ab7ddc25fc42422d695a6c6d7d27f997e2211738
+  - id: nicotine
+    path: records/terms/nicotine.yaml
+    sha256: cdfee93685669a05eabfd618b6726fcca10a0b3e6255892eb5ab7b8b26670ab2
+  - id: pah
+    path: records/terms/pah.yaml
+    sha256: 0dac93b0e3d5629bad5c7947a200af572d244648cf9f91bb9248e85600f36d36
+  - id: product-routes
+    path: records/methods/product-routes.yaml
+    sha256: 820863462f585bf3a5ae82e77a10d9c9cfcdb871a09009e54f93a3b4de7df3c1
+  - id: product-routes-asphalt-route-reported
+    path: records/claims/product-routes-asphalt-route-reported.yaml
+    sha256: 7811c67a43bd93c2dd2268fb9c45e15f85b73f817de0a65a2d7baafe3848ee9d
+  - id: product-routes-contaminant-fate-coverage-assessment
+    path: records/assessments/product-routes-contaminant-fate-coverage-assessment.yaml
+    sha256: 5775cb4b25730857e92bc3ad4444e5015c2ec4a9b5f8562678b6109bb525a430
+  - id: product-routes-evidence-strength-assessment
+    path: records/assessments/product-routes-evidence-strength-assessment.yaml
+    sha256: 159768c16b3cfffc581e471dd0ac4e7fc789506045a638eaff9dfee6f25c28fc
+  - id: product-routes-filament-route-reported
+    path: records/claims/product-routes-filament-route-reported.yaml
+    sha256: 2c9ea57377d2aa43f109fe0468fb7ed02860618f27152238a7b6e98d98b1ea24
+  - id: product-routes-gap-energy-recovery-is-not-recycling
+    path: records/gaps/product-routes-gap-energy-recovery-is-not-recycling.yaml
+    sha256: bd49193fd4c6f40b1a087c42d33e4d2b912c135bb1b0d5d18eaac2f46c080076
+  - id: product-routes-gap-no-gate-any-route
+    path: records/gaps/product-routes-gap-no-gate-any-route.yaml
+    sha256: 529ce25378ccc9a25b383f140b3c256be0453d75430ab096eb07475dd4fe5a72
+  - id: product-routes-inference-routes-inherit-contamination
+    path: records/claims/product-routes-inference-routes-inherit-contamination.yaml
+    sha256: 93fa412ae850091a08b07ce51f908fea2c3360424f4bfc60f6386664f45f4391
+  - id: product-routes-metals-measurement-required
+    path: records/claims/product-routes-metals-measurement-required.yaml
+    sha256: aa674622d27790f947b924cc1c8c8a38a011f7745ca0a69b3887702cc6f857a1
+  - id: product-routes-no-independent-evidence
+    path: records/claims/product-routes-no-independent-evidence.yaml
+    sha256: 555a11b96bee78daae8dd7bf4b00d90527e6e8a1f9d5d83afb761a492cbc4359
+  - id: product-routes-note-routes-inherit-the-intermediate
+    path: records/gaps/product-routes-note-routes-inherit-the-intermediate.yaml
+    sha256: 6d7163de1e29d9957c4997c99bb65e860611ea253668004608057cc683809d19
+  - id: product-routes-process-ease-assessment
+    path: records/assessments/product-routes-process-ease-assessment.yaml
+    sha256: a1017c78fb77d964ae6c82302659f6dfdf00c8d16cd82c34b56824d85d649f63
+  - id: product-routes-product-readiness-assessment
+    path: records/assessments/product-routes-product-readiness-assessment.yaml
+    sha256: e60690eb500e40d2d678c257257c002ee08343ad7214c137545e211fbb79610f
+  - id: product-routes-regulatory-clarity-assessment
+    path: records/assessments/product-routes-regulatory-clarity-assessment.yaml
+    sha256: 7a948ec35cb59a262aafe33e8eeb07eb2f152beac62882f044c23723fc48f739
+  - id: product-routes-regulatory-status-not-located
+    path: records/claims/product-routes-regulatory-status-not-located.yaml
+    sha256: 36a06d7de9c4665ef17c1b4da0c52db0fc6d4ea5987d7a40179fdcddc7f030c5
+  - id: product-routes-resource-burden-assessment
+    path: records/assessments/product-routes-resource-burden-assessment.yaml
+    sha256: 2095eb9d5df027b782b3577f54836faa1d0a8aab47b2f850181e94174ca44958
+  - id: product-routes-sink-completeness-assessment
+    path: records/assessments/product-routes-sink-completeness-assessment.yaml
+    sha256: 6239a9f4091083250fdb58e144475a341f8cfa4d591c5c1ca8ce7cd6007606b3
+  - id: product-routes-validation-maturity-assessment
+    path: records/assessments/product-routes-validation-maturity-assessment.yaml
+    sha256: 07bbc87612414117c97586d7bc0451a594e92c5db86c39b6f206b0ed4d373ffd
+  - id: pyrolysis-energy-recovery
+    path: records/sources/pyrolysis-energy-recovery.yaml
+    sha256: 53ff3bd4caa6aef256e5573beaf23496ed506cfd7d60e3a244e8f4f2564377fe
+  - id: rmit-brick-making
+    path: records/sources/rmit-brick-making.yaml
+    sha256: 8daed1a1bd3ef752ba7cb2c51d88b2081e63a657decf89a81bd894b3ae652a4a
+  - id: tar
+    path: records/terms/tar.yaml
+    sha256: 5f5ea29383a20a7fa0318871f9f22c47e3eac4a9c984ac21127a5214aedcb8d6
+  - id: thermal
+    path: records/methods/thermal.yaml
+    sha256: 87e25139fc2f0211f41e932d3c66fc30d705a7158cbc744e1958c223193a4a6e
+  - id: thermal-contaminant-fate-coverage-assessment
+    path: records/assessments/thermal-contaminant-fate-coverage-assessment.yaml
+    sha256: f3e691910078dfd861eeea38ddc643f0b233b7a3ec24823f030b0029c8b634eb
+  - id: thermal-contaminants-not-removed
+    path: records/claims/thermal-contaminants-not-removed.yaml
+    sha256: 776f042066d3b196a5a2d3cf499f21ae1bdf6d3850fd8da99d7b98c074f1cc8c
+  - id: thermal-evidence-strength-assessment
+    path: records/assessments/thermal-evidence-strength-assessment.yaml
+    sha256: 04b513b58d83b86535f2c8adc1008060773c27ddb3476b97eb4096360c2f1632
+  - id: thermal-gap-leaching-lifetime
+    path: records/gaps/thermal-gap-leaching-lifetime.yaml
+    sha256: 433d4d64c35d632df33d5bca6f335d7a4998e06c7664402f7cba60a564be8252
+  - id: thermal-gap-unreviewed-dense-fluid-route
+    path: records/gaps/thermal-gap-unreviewed-dense-fluid-route.yaml
+    sha256: 0f6f5c25ff459f14f71d5ac3708d9f2e7263fc5098d34dd4dcf9ccc183e52625
+  - id: thermal-inference-no-contaminant-fate-comparison
+    path: records/claims/thermal-inference-no-contaminant-fate-comparison.yaml
+    sha256: a07056acc5bc2d1d9de23f5b117ad9bd3c9eb81c634eaff1c4e99bf7c1cb5b5c
+  - id: thermal-leaching-unmeasured
+    path: records/claims/thermal-leaching-unmeasured.yaml
+    sha256: 9149089337039a823e0b3b59d8ddba82ed295bf4c9201d03753015fc66c5e10a
+  - id: thermal-mechanism-dry-extrusion
+    path: records/claims/thermal-mechanism-dry-extrusion.yaml
+    sha256: b640d5bd72280af352828795506ebd62eb969b9f822b91f2b7454bd5b422df6c
+  - id: thermal-metals-not-removed
+    path: records/claims/thermal-metals-not-removed.yaml
+    sha256: ae9cfeef7b960a786ebaff1473d2ee383198cf8e1c050e1ab562aaa8e4ddc5ee
+  - id: thermal-note-containment-is-not-removal
+    path: records/gaps/thermal-note-containment-is-not-removal.yaml
+    sha256: 70c9fa3d48b586245643d0fa180b5247dbc340c1744b39ff673ec1020ae2fe11
+  - id: thermal-process-ease-assessment
+    path: records/assessments/thermal-process-ease-assessment.yaml
+    sha256: c463eca53c9fb618f55d0803c3e4728d67f95b7c5d4a734aad941ffb955c8931
+  - id: thermal-product-readiness-assessment
+    path: records/assessments/thermal-product-readiness-assessment.yaml
+    sha256: e0670b64ca64993e8a0272754b0398dd975babb804d2764d4111c8d0297d98ed
+  - id: thermal-regulatory-clarity-assessment
+    path: records/assessments/thermal-regulatory-clarity-assessment.yaml
+    sha256: 5e42c376bc7b7ea8f95c81a57f256854cb89eb118d6b64b1740f5b1a4b3ad998
+  - id: thermal-regulatory-status-not-located
+    path: records/claims/thermal-regulatory-status-not-located.yaml
+    sha256: 640ba7682fef3289cc11536b5a484906cf14019f6187b7a5559772821bebd1ef
+  - id: thermal-resource-burden-assessment
+    path: records/assessments/thermal-resource-burden-assessment.yaml
+    sha256: db4d7681a580b7fd5fba4b864a8461f17c7dc2b639633d9dbb203938ec741b92
+  - id: thermal-sink-completeness-assessment
+    path: records/assessments/thermal-sink-completeness-assessment.yaml
+    sha256: a226653b600ab78a39573c58b2bf07571e02bc392be6a6055afbefa2eabdafc8
+  - id: thermal-validation-maturity-assessment
+    path: records/assessments/thermal-validation-maturity-assessment.yaml
+    sha256: f44508e616a0c4add80a8980dac87503724782e544ffe623840e36c3d8b08fbf
+  - id: tsna
+    path: records/terms/tsna.yaml
+    sha256: c760cd319162819cfab4c8c6a6e36686a54864d64afcbfb6754485136d934d0f
+pages:
+  - id: method-biological
+    path: pages/method-biological.md
+    sha256: ea044123a5cac617205918c48aa630ae96cf85a1242178c4f13f654a9434ca61
+  - id: method-chemical
+    path: pages/method-chemical.md
+    sha256: 08285e7283989d1dddd80712a693e872b093f703054e3ac589ac8fa067ecb821
+  - id: method-material-incorporation
+    path: pages/method-material-incorporation.md
+    sha256: c537ed016ad971d6019aebae101c218e06f8dcac4c47de927ac8c9ba4d50f688
+  - id: method-mechanical-physical
+    path: pages/method-mechanical-physical.md
+    sha256: 24fa07a990aad76c37c1a5921c70caaea89301fb480573a320c0bacd4ff5566c
+  - id: method-product-routes
+    path: pages/method-product-routes.md
+    sha256: deeb726d132501ecdd61affadad58f8f8f7cf5984d73589646f96d1c79d78a61
+  - id: method-thermal
+    path: pages/method-thermal.md
+    sha256: e54462fe3226de65f36ea32e3ea353764af4344a18d5d7e00ed2a69928b37906
 assets: []

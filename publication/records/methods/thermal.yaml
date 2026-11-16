@@ -1,0 +1,121 @@
+schemaVersion: 1
+id: thermal
+title: Dry treatment and composite extrusion
+publicationState: approved
+auditAliases:
+  - F2
+  - batch-02 F2
+kind: method-family
+family: thermal
+summary: The butt is dried and size-reduced without any washing, then blended into a plastic matrix and extruded into profiles. The contaminants are not removed; they are sealed inside the composite.
+mechanism: Drying, milling and blending into a thermoplastic binder, followed by extrusion into profiles such as planks, posts and panels. No washing stage is used, so the filter material and paper stay physically embedded in the plastic and the contaminants travel with them into the product.
+feedstock: Spent cigarette butts, dried, combined with a thermoplastic resin such as polyethylene or polypropylene. No located source states the blend ratio between butt material and binder, and no located source states a mass basis for the butt fraction.
+preparation: Drying the butts, then milling them to a fibrous or particulate form suitable for blending with the binder.
+steps:
+  - id: drying
+    label: Drying
+    description: Butts are dried so that moisture does not disrupt the extrusion step. No located source states a drying protocol or a moisture target.
+  - id: milling
+    label: Size reduction
+    description: The dried butts are milled to a fibrous or particulate form that can be blended with the binder. No located source states a particle size distribution.
+  - id: blending
+    label: Blending into a binder matrix
+    description: The milled material is mixed with a thermoplastic resin, sometimes with additives such as coupling agents or stabilisers. No located source states a blend ratio or a formulation.
+  - id: extrusion
+    label: Extrusion into profiles
+    description: The blend is melted and formed into profiles, then cooled and cut. The located company description gives an illustrative melting range and states that it is not a measured reference value.
+  - id: end-of-life
+    label: End of life
+    description: No located source names a route for the composite at end of life. Burning a composite that contains butt material would release what was sealed inside it.
+inputs:
+  - id: dry-butts
+    label: Dried spent cigarette butts
+    description: Dried butt material for use as a composite filler.
+  - id: thermoplastic-resin
+    label: Thermoplastic binder
+    description: Virgin or recycled polyethylene or polypropylene used to carry the butt material.
+streams:
+  - id: composite
+    label: Extruded composite profiles
+    type: product
+    contaminants:
+      - nicotine
+      - polycyclic aromatic hydrocarbons
+      - cadmium
+      - lead
+      - arsenic
+    fateState: inferred
+  - id: off-gas
+    label: Off-gas and condensate from processing
+    type: emission
+    contaminants:
+      - polycyclic aromatic hydrocarbons
+    fateState: unresolved
+  - id: end-of-life
+    label: Composite at end of life
+    type: unexplained-loss
+    contaminants:
+      - nicotine
+      - polycyclic aromatic hydrocarbons
+      - cadmium
+      - lead
+      - arsenic
+    fateState: unresolved
+products:
+  - id: extruded-profiles
+    label: Extruded composite profiles
+    description: Planks, posts and panels made from butt material bound in a thermoplastic matrix, offered for outdoor furniture and construction.
+    intendedUse: Outdoor furniture and construction products are named by the operator, but no located source demonstrates fitness for a load-bearing application and no product standard accepts this material.
+sinks:
+  - id: composite-sink
+    material: Thermoplastic composite containing dried cigarette butt material, at a blend ratio that no located source states.
+    intendedUse: Street furniture and construction profiles, as claimed by the operator.
+    acceptanceBasis: Not established. No product standard, building-code provision or leaching limit has been located for this composite.
+    issuer: Not established. No company, standard body or authority has been located as the issuer of an accepted product.
+    finalRoute: Not established. No route for the composite at end of life has been located, and burning it would release the encapsulated residues.
+claimIds:
+  - thermal-mechanism-dry-extrusion
+  - thermal-contaminants-not-removed
+  - thermal-leaching-unmeasured
+  - thermal-metals-not-removed
+  - thermal-regulatory-status-not-located
+  - thermal-inference-no-contaminant-fate-comparison
+gapIds:
+  - thermal-gap-leaching-lifetime
+  - thermal-gap-unreviewed-dense-fluid-route
+  - thermal-note-containment-is-not-removal
+termIds:
+  - cellulose-acetate
+  - nicotine
+  - pah
+  - heavy-metals
+  - tar
+  - microplastics
+  - dry-mass-basis
+  - analyte-resolved-fate
+  - four-field-sink
+sourceIds:
+  - keenat-dry-thermal
+  - pyrolysis-energy-recovery
+hypothesisIds: []
+assessmentIds:
+  - thermal-evidence-strength-assessment
+  - thermal-process-ease-assessment
+  - thermal-resource-burden-assessment
+  - thermal-contaminant-fate-coverage-assessment
+  - thermal-sink-completeness-assessment
+  - thermal-product-readiness-assessment
+  - thermal-regulatory-clarity-assessment
+  - thermal-validation-maturity-assessment
+organizations:
+  - name: Keenat
+    role: Company whose materials describe the dry treatment and extrusion-composite route and claim outdoor furniture products, without independent performance or lifecycle data.
+auditReferences:
+  - label: Keenat process description
+    url: https://keenat.com/recyclage-valorisation-megots
+    version: Keenat company materials
+    internalId: batch-01-keenat
+  - label: Pyrolysis energy recovery study
+    url: https://www.sciencedirect.com/science/article/abs/pii/S016523702300311X
+    version: S016523702300311X
+    internalId: batch-01-pyrolysis-energy-recovery

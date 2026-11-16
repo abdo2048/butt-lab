@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: mechanical-physical-validation-maturity-assessment
+title: Validation maturity for mechanical and physical washing
+publicationState: approved
+kind: assessment
+methodId: mechanical-physical
+criterionId: validation-maturity
+status: scored
+rubricVersion: 1.0.0
+supportingClaimIds:
+  - mechanical-physical-analyte-removal-not-located
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+score: 1
+label: Foundational unknowns
+rationale: "The partition itself is unresolved: whether washing removes or redistributes the contaminants is a basic question that has to be answered before a bounded test against any product criterion can even be designed."
+basis: inference

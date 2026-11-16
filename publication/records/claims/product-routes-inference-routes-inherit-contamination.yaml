@@ -1,0 +1,19 @@
+schemaVersion: 1
+id: product-routes-inference-routes-inherit-contamination
+title: A route inherits the contaminants of the intermediate it starts from
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: inference
+proposition: Because every route in this family takes material from another family without a step of its own, each route inherits the contaminant content of that intermediate, and only a route paired with a washing or dissolution family removes anything at all.
+evidenceState: derived-from-sourced-premises
+methodIds:
+  - product-routes
+hypothesisIds: []
+counterevidenceClaimIds: []
+premiseClaimIds:
+  - product-routes-filament-route-reported
+  - product-routes-asphalt-route-reported
+reasoning: The two located route descriptions show material moving from an intermediate into an article, with no treatment step of their own. A route therefore cannot be cleaner than its input. This is why the family is presented as a survey of destinations rather than as a family of methods.
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

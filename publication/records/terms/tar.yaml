@@ -1,0 +1,21 @@
+schemaVersion: 1
+id: tar
+title: Tar and combustion residues
+publicationState: approved
+auditAliases: []
+kind: term
+preferredLabel: Tar and combustion residues
+aliases:
+  - tar components
+  - combustion residue
+tooltip: The sticky combustion residue that binds other residues to the butt.
+explanation: "Tar and associated combustion residues are the fraction that makes washing difficult: they are only partly soluble in water and partly soluble in organic solvents, so no simple sequence of washes removes them completely. No located source quantifies what remains after any route."
+methodIds:
+  - mechanical-physical
+  - thermal
+  - chemical
+  - biological
+  - material-incorporation
+  - product-routes
+claimIds: []
+sourceIds: []

@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: thermal-contaminants-not-removed
+title: This family contains the contaminants rather than removing them
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: Because this family uses no washing or dissolution stage, the contaminants in the butt material remain inside the composite, and what can leave the product later is a question of leaching and weathering rather than of removal.
+evidenceState: derived-from-sourced-premises
+methodIds:
+  - thermal
+hypothesisIds: []
+counterevidenceClaimIds: []
+premiseClaimIds:
+  - thermal-mechanism-dry-extrusion
+reasoning: The located description has no stage at which a contaminant could leave the material, so the contamination stays with the product. Whether it later escapes the product is a separate and unmeasured question, so this proposition is an inference from the absence of a removal stage rather than a measured result.
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: material-incorporation-validation-maturity-assessment
+title: Validation maturity for material incorporation
+publicationState: approved
+kind: assessment
+methodId: material-incorporation
+criterionId: validation-maturity
+status: scored
+rubricVersion: 1.0.0
+supportingClaimIds:
+  - material-incorporation-leaching-unmeasured
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+score: 1
+label: Foundational unknowns
+rationale: "Two basics are unresolved at once: whether the contaminants stay in the product, and at what rate the material can be added without weakening it. Both are foundational, so the next human work is basic resolution rather than a bounded confirmation."
+basis: inference

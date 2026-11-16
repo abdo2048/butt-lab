@@ -1,0 +1,23 @@
+schemaVersion: 1
+id: analyte-resolved-fate
+title: Analyte-resolved contaminant fate
+publicationState: approved
+auditAliases: []
+kind: term
+preferredLabel: Analyte-resolved contaminant fate
+aliases:
+  - analyte-resolved mass balance
+tooltip: Knowing where each named contaminant ends up, not just that the total is smaller.
+explanation: Analyte-resolved contaminant fate means that for each named contaminant, the mass in each output stream is reported so that the mass leaving the process can be compared with the mass entering it. A total contaminant number cannot do this job, and a single favourable removal figure for one analyte does not transfer to another.
+methodIds:
+  - mechanical-physical
+  - thermal
+  - chemical
+  - biological
+  - material-incorporation
+  - product-routes
+claimIds:
+  - mechanical-physical-analyte-removal-not-located
+  - chemical-analyte-partitioning-not-located
+  - biological-degradation-fate-unknown
+sourceIds: []

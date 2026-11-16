@@ -1,0 +1,15 @@
+schemaVersion: 1
+id: product-routes-no-independent-evidence
+title: No route has independent evidence of safety, performance or environmental benefit
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: No candidate route located for this family has independent evidence of safety, performance or environmental benefit, and all of them remain unvalidated hypotheses.
+evidenceState: source-not-located
+methodIds:
+  - product-routes
+hypothesisIds: []
+counterevidenceClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

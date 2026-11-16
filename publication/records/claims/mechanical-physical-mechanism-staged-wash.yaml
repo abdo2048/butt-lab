@@ -1,0 +1,17 @@
+schemaVersion: 1
+id: mechanical-physical-mechanism-staged-wash
+title: A published study describes staged water and ethanol washing of cigarette filters
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: A published study describes extracting spent cigarette filters in hot water, rinsing them with cold water and then washing them with ethanol, and reports recovering cellulose acetate from that sequence.
+evidenceState: source-supported
+methodIds:
+  - mechanical-physical
+hypothesisIds: []
+sourceId: academic-green-ethanol-wash
+locator: Materials and methods, extraction procedure
+counterevidenceClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

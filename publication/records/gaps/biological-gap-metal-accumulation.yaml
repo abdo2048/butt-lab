@@ -1,0 +1,16 @@
+schemaVersion: 1
+id: biological-gap-metal-accumulation
+title: Metals may be concentrated into the spent medium
+publicationState: approved
+auditAliases: []
+kind: gap
+contentKind: unresolved-question
+question: If metals are carried into the biological medium rather than destroyed, does the medium then hold a concentrated metal load that has to go somewhere?
+gapType: material-fate
+whyItMatters: A biological route can concentrate a hazard while appearing to break it down, and the concentration would then sit in an effluent stream that is easier to overlook than solid residue.
+affectedRecordIds:
+  - biological
+evidenceState: source-not-located
+validationState: requires-human-validation
+nextHumanWork: controlled-laboratory-evidence
+falsifierOrDecisionCondition: Measuring metals in the spent medium against the input material on the same basis would show whether concentration occurs.

@@ -1,0 +1,17 @@
+schemaVersion: 1
+id: material-incorporation-small-scale-brick-study
+title: A university study made bricks from cigarette butt material at a low inclusion rate
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: A university study reported making bricks that contain cigarette butt material at a low inclusion rate, and reported a claimed reduction in the energy needed to make them compared with conventional bricks.
+evidenceState: source-supported
+methodIds:
+  - material-incorporation
+hypothesisIds: []
+sourceId: rmit-brick-making
+locator: Trade-press summary of the university study
+counterevidenceClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

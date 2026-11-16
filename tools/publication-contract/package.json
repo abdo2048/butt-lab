@@ -8,8 +8,8 @@
   },
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "test": "node --test tests/contracts.test.ts tests/rubrics.test.ts tests/policy.test.ts tests/manifest.test.ts tests/semantic.test.ts tests/export.test.ts tests/cli.test.ts",
-    "test:coverage": "node --test --experimental-test-coverage tests/contracts.test.ts tests/rubrics.test.ts tests/policy.test.ts tests/manifest.test.ts tests/semantic.test.ts tests/export.test.ts tests/cli.test.ts",
+    "test": "node --test tests/contracts.test.ts tests/rubrics.test.ts tests/policy.test.ts tests/manifest.test.ts tests/semantic.test.ts tests/export.test.ts tests/cli.test.ts tests/publication-layer.test.ts",
+    "test:coverage": "node --test --experimental-test-coverage tests/contracts.test.ts tests/rubrics.test.ts tests/policy.test.ts tests/manifest.test.ts tests/semantic.test.ts tests/export.test.ts tests/cli.test.ts tests/publication-layer.test.ts",
     "schemas": "node src/cli.ts schema --out ../../publication/contract/v1/schema",
     "validate": "node src/cli.ts validate --root ../../publication",
     "export": "node src/cli.ts export --root ../../publication --out ../../.publication-build"

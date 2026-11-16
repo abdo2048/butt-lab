@@ -1,0 +1,16 @@
+schemaVersion: 1
+id: product-routes-gap-no-gate-any-route
+title: No candidate route has a product gate
+publicationState: approved
+auditAliases: []
+kind: gap
+contentKind: unresolved-question
+question: If any of these routes were to be pursued, which one would be judged first, against which stated product requirement, in which jurisdiction?
+gapType: product-definition
+whyItMatters: A route can only be assessed once the intended product and the jurisdiction are fixed, because the acceptance criteria depend on what the article is for and where it is sold. Without that, every route looks equally unproven and none can be prioritised on evidence.
+affectedRecordIds:
+  - product-routes
+evidenceState: source-not-located
+validationState: requires-human-validation
+nextHumanWork: regulatory-review
+falsifierOrDecisionCondition: Stating a jurisdiction and an intended use for one route, and locating the acceptance basis that applies to it, would let that route be assessed and would leave the others waiting on the same decision.
