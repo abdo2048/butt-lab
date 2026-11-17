@@ -349,7 +349,7 @@ reader_platform:
     preparation on a branch, with every step recorded. It does NOT authorize merge to
     main, push, deployment to GitHub Pages, publication, running any experiment, or
     accepting the batch-02 deliverables on the operator's behalf.
-  status: task_3b_complete_committed
+  status: task_3c_repo_hygiene_complete_committed
   operator_acceptance:
     accepted: true
     statement: >
@@ -385,6 +385,7 @@ reader_platform:
     - task_2_publish_material_and_six_method_families
     - task_3_publish_invention_record_and_extend_manifest
     - task_3b_publish_scientist_inventor_hypothesis_records_and_repair_state_files
+    - task_3c_untrack_export_scratch_artifacts_and_record_branch_topology
   task_1:
     unit: Reconcile the content contract with the reader-platform design
     audit_recorded_in: docs/publication-content-contract.md section 11
@@ -642,10 +643,168 @@ reader_platform:
     last_run: '2026-11-17'
     retrieval_calls_used: 0
     retrieval_ceiling: 24
+  task_3c:
+    unit: >-
+      Repository hygiene: remove export scratch artifacts from git tracking, ignore the stray
+      root lockfile, carry the operator's scientist-inventor authorization onto this branch,
+      and record the branch-topology finding.
+    scope: >-
+      The operator asked why GitHub Desktop was showing a root package-lock.json, whether
+      everything had been committed, whether the worktree and branch structure makes sense,
+      what is next, whether the repo instructions need editing, and whether the repo is safe
+      to hand to another AI. This unit answers those questions with evidence and fixes only
+      what is unambiguous and local to this branch.
+    stray_root_lockfile:
+      tracked: false
+      content: '{"name":"rp","lockfileVersion":3,"requires":true,"packages":{}}'
+      root_package_json_exists: false
+      resolution: >-
+        Deleted from disk and ignored via /package-lock.json in .gitignore. It described a
+        package that does not exist at the root; the real, already-tracked lockfile is
+        tools/publication-contract/package-lock.json. Committing it would have added a
+        meaningless artifact.
+    build_artifacts_untracked:
+      count: 66
+      directories:
+        - .publication-build-a/
+        - .publication-build-b/
+        - publication/.export-stage-a/
+        - publication/.export-stage-b/
+        - publication/export-a/
+        - publication/export-b/
+      method: >-
+        git rm -r --cached on all six directories. The files remain on disk as untracked
+        scratch output; nothing was deleted from disk and no bytes were lost. The manifest
+        references none of them.
+      gitignore_patterns_added:
+        - .publication-build-*/
+        - publication/.export-stage-*/
+        - publication/export-*/
+        - /package-lock.json
+    operator_authorization_carried_forward: >-
+      This branch's state/workflow.yaml said permissions.experiments: not authorized and held
+      no permissions.ai_role block, because the file was restored from commit 9fdb58b, which
+      predates the operator instruction of 2026-11-17. The operator's authorization was
+      already recorded in the main checkout at commit 50281ae, where the Batch-02 deliverables
+      were accepted as the content basis for the reader site. The permissions.experiments
+      mapping and the permissions.ai_role block were copied verbatim from main, and the
+      ai_role block carries a note stating that it was copied for divergence reasons and
+      that a future hand-merge must preserve it.
+    evidence_discipline:
+      - No number was invented; missing evidence stays missing (parameter-not-located, source-not-located, unknown).
+      - The branch_topology finding records what was measured, not what was assumed.
+      - The merge probe was performed in a disposable worktree and removed; the repository was not altered by it.
+    guardrails_held:
+      - >-
+        Nothing was measured. No sample was collected, no material was handled and no
+        physical experiment, pilot or field trial was run or authorized.
+      - No claim that any family or proposal is clean, detoxified, safe, commercially validated or environmentally superior.
+      - Missing evidence stays missing: parameter-not-located, source-not-located, unknown; never zero.
+      - >-
+        No registry, backup or prior scientific output was deleted or rewritten. Only scratch
+        build output was removed from git tracking, with its bytes preserved on disk.
+      - >-
+        No merge to main, no branch deletion, no deployment and no publication. The merge
+        probe was run in a throwaway worktree and removed; git worktree list is unchanged.
+    no_experiment_authorized: true
+    last_actor: operator-directed OpenCode session (displayed model MiniMax M3.1 Flash Free; underlying model not verified)
+    last_run: '2026-11-17'
+    retrieval_calls_used: 0
+    retrieval_ceiling: 24
 permissions:
   registries: read-only
   backup: immutable
   prior_scientific_outputs: read-only; add versions/proposals
   progress_updates: checkpoint and session log as approved proposed edits
   external_writes: host approval required
-  experiments: not authorized
+  experiments:
+    status: ai_designed_only
+    authorized_by: operator instruction 2026-11-17, recorded in state/session-log.md
+    ai_may:
+      - design, specify and plan experiments and pilots
+      - propose methods, processes, formulations and protocols
+      - retrieve and read primary sources
+      - run executable simulations with explicit code, inputs, units and results
+    ai_must_not:
+      - handle material, collect samples, operate equipment or enter a laboratory
+      - perform any physical measurement, trial or pilot
+    physical_execution:
+      requires: a qualified facility, a risk assessment and lawful
+        contaminated-waste handling, and a named human actor
+      status: not arranged; no laboratory, no facility and no sample exist
+  ai_role:
+    title: scientist-inventor
+    granted_by: operator instruction 2026-11-17
+    standing: >-
+      The AI acts as a scientist-inventor with full knowledge of the accepted
+      record, permitted to retrieve further knowledge from the internet and to
+      invent new methods. Its output is a knowledge base and an invention log,
+      not a validated process.
+    may_do:
+      - explain every known method separately, in its own right
+      - fill gaps from its own knowledge, labeled as AI-generated
+      - invent new methods and improvement variants
+      - mark every statement with its status
+    readership_assumption: >-
+      Readers are already-trained domain experts who can judge what is weak,
+      what is strong and what to enhance or replace. The documents are written
+      for them, not for a cautious non-specialist.
+    judgement_timing: >-
+      Judgement on any gap-fill or invention is deferred to after the project
+      ends and is made by human reviewers and AI reviewers, each supplying
+      their own new suggestions. Nothing in this record is a pre-accepted
+      verdict.
+    labeling_required:
+      - source_supported: stated by a retrieved primary source
+      - ai_inference: reasoned by the AI, not in any source
+      - ai_proposal: invented by the AI, testable assumption
+      - parameter_not_located: no number exists at the required basis
+      - unverified: retrieved but not independently confirmed
+    carried_to_this_branch: >-
+      This block was copied verbatim from the operator's main checkout (state/workflow.yaml,
+      lines 350-398 at commit 50281ae) because this branch's state file was restored from
+      commit 9fdb58b, which predates the operator instruction of 2026-11-17. The
+      authorization was already recorded by the operator and accepted as the content basis
+      for the reader site; it was missing here only because of branch divergence, not because
+      it was withheld. A future hand-merge must preserve it.
+branch_topology:
+  status: divergence_identified_no_merge_performed
+  found: '2026-11-17'
+  finding: >-
+    The three branches have diverged and neither main nor this branch is complete. main
+    (50281ae) has no publication/ directory, no tools/publication-contract/ and no
+    docs/superpowers/. This branch (2ae8c90) has the entire publication layer but is missing
+    main's Batch-02 operator acceptance, the two Scientist-Inventor documents
+    (inventions/scientist-inventor-batch-02-proposals.md and
+    reports/batch-02/evidence-gaps/M02-M08-S01-S06-R01-R05-scientist-inventor-synthesis.md)
+    and operator/batch-02-acceptance-2026-11-17.md. feat/publication-content-contract
+    (19d1716) is not an ancestor of either branch and holds 64 gap-closing OCR and PNG files
+    that neither other branch has. git diff --stat main..feat/reader-platform reports 260
+    files changed and 81505 insertions.
+  merge_probe:
+    method: >-
+      A throwaway detached worktree at
+      C:\Users\Ad2048\AppData\Local\Temp\opencode\merge-probe was created, the merge was
+      attempted, the result was recorded, and the worktree was aborted and removed. The
+      repository was not altered; git worktree list is unchanged at three entries.
+    conflicts:
+      - findings.md
+      - progress.md
+      - state/session-log.md
+      - state/workflow.yaml
+      - task_plan.md
+    note: >-
+      All five conflicts are state and planning files that both branches appended to
+      independently. AGENTS.md states that old work-queue and progress files are preserved
+      history and not current dispatch, so they are noise rather than content loss.
+  required_hand_merge:
+    - >-
+      state/workflow.yaml must keep BOTH this branch's reader_platform section AND the
+      operator's permissions.experiments mapping and permissions.ai_role block from main.
+      A blind merge would drop the operator's scientist-inventor authorization.
+    - state/session-log.md and task_plan.md must be concatenated by unit, preserving both branches' entries.
+    - The 64 gap-closing files unique to feat/publication-content-contract must be carried in.
+  status_note: >-
+    This topology repair is a separate operator decision and was NOT performed. No merge to
+    main, no branch deletion, no deployment and no publication. Task 4 may still proceed on
+    this branch because it consumes the exported bundle only.
