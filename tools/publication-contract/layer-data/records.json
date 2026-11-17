@@ -337,6 +337,100 @@
           "version": "batch-02-pilot-v1"
         }
       ]
+    },
+    {
+      "id": "batch-02-scientist-inventor-proposals",
+      "title": "Scientist-Inventor Batch-02 Proposals: M01-Gate, J-H-01-M, F3-SC, F2-VSC, F5-ED",
+      "visibleLabel": "Five falsifiable engineering variants with executable simulations and metals stop-condition guardrails",
+      "sourceInputIds": ["mego-fr3066128a1", "defenzo-2020-materials", "keenat-dry-thermal", "cn106928486", "cnr-knowledge-share-ca-recovery", "kr-microbial-composting"],
+      "priorContext": "Batch-02 established that all six method families fail at least one field of the four-field sink. The Scientist-Inventor role (operator-authorized 2026-11-17) produced five falsifiable engineering variants (M01-Gate, J-H-01-M, F3-SC, F2-VSC, F5-ED) with executable simulations, each designed to address the metals stop-condition and the four-field sink prerequisite.",
+      "mechanism": "Each variant pairs an upstream M01-Gate (dry-pneumatic + triboelectric pre-fractionation) with a downstream polishing step (counter-current wash + GAC/IDA, microfiltration + EtOH/CO2 antisolvent, vacuum-vented extrusion + acid/S-GAC, or BMED + CIP) to close the four-field sink: dry-mass balance, analyte-resolved fate, named treatment route, and use-specific product gate.",
+      "assumptions": [
+        "M01-Gate diverts >=75% of Cd, Pb, As mass into the ash/fines + residual tobacco fraction.",
+        "GAC/IDA, EtOH/CO2, acid/S-GAC, and BMED polishing reduce residual nicotine/metals below Tier-1/Tier-2 use-gate limits.",
+        "All simulations use representative feed loadings and are labeled ai_inference / ai_proposal, not measured values."
+      ],
+      "unresolvedDependencies": [
+        "Authorized M01-M08 laboratory measurement to validate partition coefficients and polishing efficiency.",
+        "Jurisdiction-specific Tier-1/Tier-2 product gate limits.",
+        "Qualified facility, risk assessment, and lawful contaminated-waste handling for any physical execution."
+      ],
+      "failureModes": [
+        "M01-Gate leaves >25% of Cd/Pb/As/Hg on CA tow.",
+        "Polishing fails to keep Cycle-20 CA nicotine <50 mg/kg dry or Cd/Pb below use-gate limits.",
+        "Membrane/sorbent fouling or solvent recovery failure exceeds cost or energy thresholds."
+      ],
+      "falsifiers": [
+        "ICP-MS/OES showing >25% Cd/Pb/As/Hg remaining on CA tow post-M01-Gate.",
+        "Cycle-20 CA nicotine >50 mg/kg dry or Cd/Pb exceeding use-gate limits.",
+        "BMED current efficiency <85% at Cycle 10 or post-CIP <90%."
+      ],
+      "validationQuestionIds": ["mechanical-physical-gap-partition-or-removal", "chemical-gap-solvent-fate", "thermal-gap-leaching-lifetime", "biological-gap-metal-accumulation", "material-incorporation-gap-leaching-and-firing"],
+      "evidenceState": "derived-from-sourced-premises",
+      "validationState": "new-unvalidated-hypothesis",
+      "reviewer": "butt-lab Scientist-Inventor AI desk review (no human sign-off recorded)",
+      "recordVersion": "batch-02-scientist-inventor-v1",
+      "auditReferences": [
+        {
+          "label": "Scientist-Inventor Batch-02 Proposals & Executable Simulations",
+          "url": "https://github.com/abdo2048/butt-lab/blob/main/inventions/scientist-inventor-batch-02-proposals.md",
+          "version": "batch-02-scientist-inventor-v1"
+        },
+        {
+          "label": "UnB PI0305004-1 alkaline pulping to cellulose — F5-ED premise; source not published as a record in this layer",
+          "url": "https://cdt.unb.br/en/tecnologias-protegidas/materiais/335-vitrine-tencologica/vitrine-materiais/vitrine-papel-e-celulose/553-filtro-de-cigarro-pi0305004-1",
+          "version": "batch-01 S2-05 v1.0",
+          "internalId": "unb-pi0305004"
+        }
+      ]
+    },
+    {
+      "id": "batch-02-evidence-gap-synthesis",
+      "title": "Scientist-Inventor Batch-02 Evidence-Gap Synthesis: M02-M08, R01-R05, S01-S06",
+      "visibleLabel": "Cross-family system inventory, LCA gate, and falsifiable variants for F0-E, F3-SC-LEL, F4-Hybrid, F5-ED-CIP, R02-R03-Gate",
+      "sourceInputIds": ["mego-fr3066128a1", "defenzo-2020-materials", "keenat-dry-thermal", "cn106928486", "cnr-knowledge-share-ca-recovery", "kr-microbial-composting"],
+      "priorContext": "Batch-02 established that all six method families fail at least one field of the four-field sink. The Scientist-Inventor role (operator-authorized 2026-11-17) produced a cross-family system inventory and LCA gate covering F0-E, F3-SC-LEL, F4-Hybrid, F5-ED-CIP, and R02-R03-Gate, with executable simulations and falsification tests.",
+      "mechanism": "Each variant pairs an upstream M01-Gate with a downstream polishing step (3-stage water + 70% EtOH wash, N2-inerted microfiltration + condenser-first vapor capture + subcritical CO2, scCO2 pre-extraction + immobilized dead fungal mycelium biosorption, pre-oxidation + alkaline/enzymatic CIP on BMED stack, or Tier-1/Tier-2 product gate + named-recipient matrix) to close the four-field sink.",
+      "assumptions": [
+        "M01-Gate diverts >=75% of Cd, Pb, As mass into the ash/fines + residual tobacco fraction.",
+        "Polishing steps reduce residual nicotine/metals below Tier-1/Tier-2 use-gate limits.",
+        "All simulations use representative feed loadings and are labeled ai_inference / ai_proposal, not measured values."
+      ],
+      "unresolvedDependencies": [
+        "Authorized M01-M08 laboratory measurement to validate partition coefficients and polishing efficiency.",
+        "Jurisdiction-specific Tier-1/Tier-2 product gate limits.",
+        "Qualified facility, risk assessment, and lawful contaminated-waste handling for any physical execution."
+      ],
+      "failureModes": [
+        "M01-Gate leaves >25% of Cd/Pb/As/Hg on CA tow.",
+        "Polishing fails to keep Cycle-20 CA nicotine <50 mg/kg dry or Cd/Pb below use-gate limits.",
+        "BMED current efficiency <85% at Cycle 10 or post-CIP <90%.",
+        "N2 blanketing fails to keep vessel O2 <8% or condenser recovery <95%."
+      ],
+      "falsifiers": [
+        "ICP-MS/OES showing >25% Cd/Pb/As/Hg remaining on CA tow post-M01-Gate.",
+        "Cycle-20 CA nicotine >50 mg/kg dry or Cd/Pb exceeding use-gate limits.",
+        "BMED current efficiency <85% at Cycle 10 or post-CIP <90%.",
+        "N2 blanketing fails to keep vessel O2 <8% or condenser recovery <95%."
+      ],
+      "validationQuestionIds": ["mechanical-physical-gap-partition-or-removal", "chemical-gap-solvent-fate", "thermal-gap-leaching-lifetime", "biological-gap-metal-accumulation", "material-incorporation-gap-leaching-and-firing", "product-routes-gap-no-gate-any-route"],
+      "evidenceState": "derived-from-sourced-premises",
+      "validationState": "new-unvalidated-hypothesis",
+      "reviewer": "butt-lab Scientist-Inventor AI desk review (no human sign-off recorded)",
+      "recordVersion": "batch-02-scientist-inventor-v1",
+      "auditReferences": [
+        {
+          "label": "Scientist-Inventor Synthesis: M02-M08, R01-R05, S01-S06",
+          "url": "https://github.com/abdo2048/butt-lab/blob/main/reports/batch-02/evidence-gaps/M02-M08-S01-S06-R01-R05-scientist-inventor-synthesis.md",
+          "version": "batch-02-scientist-inventor-v1"
+        },
+        {
+          "label": "UnB PI0305004-1 alkaline pulping to cellulose — F5-ED premise; source not published as a record in this layer",
+          "url": "https://cdt.unb.br/en/tecnologias-protegidas/materiais/335-vitrine-tencologica/vitrine-materiais/vitrine-papel-e-celulose/553-filtro-de-cigarro-pi0305004-1",
+          "version": "batch-01 S2-05 v1.0",
+          "internalId": "unb-pi0305004"
+        }
+      ]
     }
   ]
 }

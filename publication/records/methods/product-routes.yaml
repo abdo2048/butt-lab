@@ -109,6 +109,8 @@ sourceIds:
   - pyrolysis-energy-recovery
 hypothesisIds:
   - batch-02-invention-sketch
+  - batch-02-scientist-inventor-proposals
+  - batch-02-evidence-gap-synthesis
 assessmentIds:
   - product-routes-evidence-strength-assessment
   - product-routes-process-ease-assessment

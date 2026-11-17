@@ -13,9 +13,8 @@ sourceInputIds:
   - cn106928486
   - cnr-knowledge-share-ca-recovery
   - kr-microbial-composting
-  - unb-pi0305004
-priorContext: "Batch-02 established that all six method families fail at least one field of the four-field sink. The Scientist-Inventor role (operator-authorized 2026-11-17) produced a cross-family system inventory and LCA gate covering F0-E, F3-SC-LEL, F4-Hybrid, F5-ED-CIP, and R02-R03-Gate, with executable simulations and falsification tests."
-mechanism: "Each variant pairs an upstream M01-Gate with a downstream polishing step (3-stage water + 70% EtOH wash, N2-inerted microfiltration + condenser-first vapor capture + subcritical CO2, scCO2 pre-extraction + immobilized dead fungal mycelium biosorption, pre-oxidation + alkaline/enzymatic CIP on BMED stack, or Tier-1/Tier-2 product gate + named-recipient matrix) to close the four-field sink."
+priorContext: Batch-02 established that all six method families fail at least one field of the four-field sink. The Scientist-Inventor role (operator-authorized 2026-11-17) produced a cross-family system inventory and LCA gate covering F0-E, F3-SC-LEL, F4-Hybrid, F5-ED-CIP, and R02-R03-Gate, with executable simulations and falsification tests.
+mechanism: Each variant pairs an upstream M01-Gate with a downstream polishing step (3-stage water + 70% EtOH wash, N2-inerted microfiltration + condenser-first vapor capture + subcritical CO2, scCO2 pre-extraction + immobilized dead fungal mycelium biosorption, pre-oxidation + alkaline/enzymatic CIP on BMED stack, or Tier-1/Tier-2 product gate + named-recipient matrix) to close the four-field sink.
 assumptions:
   - M01-Gate diverts >=75% of Cd, Pb, As mass into the ash/fines + residual tobacco fraction.
   - Polishing steps reduce residual nicotine/metals below Tier-1/Tier-2 use-gate limits.
@@ -46,6 +45,10 @@ validationState: new-unvalidated-hypothesis
 reviewer: butt-lab Scientist-Inventor AI desk review (no human sign-off recorded)
 recordVersion: batch-02-scientist-inventor-v1
 auditReferences:
-  - label: Scientist-Inventor Synthesis: M02-M08, R01-R05, S01-S06
+  - label: "Scientist-Inventor Synthesis: M02-M08, R01-R05, S01-S06"
     url: https://github.com/abdo2048/butt-lab/blob/main/reports/batch-02/evidence-gaps/M02-M08-S01-S06-R01-R05-scientist-inventor-synthesis.md
     version: batch-02-scientist-inventor-v1
+  - label: UnB PI0305004-1 alkaline pulping to cellulose — F5-ED premise; source not published as a record in this layer
+    url: https://cdt.unb.br/en/tecnologias-protegidas/materiais/335-vitrine-tencologica/vitrine-materiais/vitrine-papel-e-celulose/553-filtro-de-cigarro-pi0305004-1
+    version: batch-01 S2-05 v1.0
+    internalId: unb-pi0305004

@@ -13,8 +13,7 @@ sourceInputIds:
   - cn106928486
   - cnr-knowledge-share-ca-recovery
   - kr-microbial-composting
-  - unb-pi0305004
-priorContext: "Batch-02 established that all six method families fail at least one field of the four-field sink. The Scientist-Inventor role (operator-authorized 2026-11-17) produced five falsifiable engineering variants (M01-Gate, J-H-01-M, F3-SC, F2-VSC, F5-ED) with executable simulations, each designed to address the metals stop-condition and the four-field sink prerequisite."
+priorContext: Batch-02 established that all six method families fail at least one field of the four-field sink. The Scientist-Inventor role (operator-authorized 2026-11-17) produced five falsifiable engineering variants (M01-Gate, J-H-01-M, F3-SC, F2-VSC, F5-ED) with executable simulations, each designed to address the metals stop-condition and the four-field sink prerequisite.
 mechanism: "Each variant pairs an upstream M01-Gate (dry-pneumatic + triboelectric pre-fractionation) with a downstream polishing step (counter-current wash + GAC/IDA, microfiltration + EtOH/CO2 antisolvent, vacuum-vented extrusion + acid/S-GAC, or BMED + CIP) to close the four-field sink: dry-mass balance, analyte-resolved fate, named treatment route, and use-specific product gate."
 assumptions:
   - M01-Gate diverts >=75% of Cd, Pb, As mass into the ash/fines + residual tobacco fraction.
@@ -46,3 +45,7 @@ auditReferences:
   - label: Scientist-Inventor Batch-02 Proposals & Executable Simulations
     url: https://github.com/abdo2048/butt-lab/blob/main/inventions/scientist-inventor-batch-02-proposals.md
     version: batch-02-scientist-inventor-v1
+  - label: UnB PI0305004-1 alkaline pulping to cellulose — F5-ED premise; source not published as a record in this layer
+    url: https://cdt.unb.br/en/tecnologias-protegidas/materiais/335-vitrine-tencologica/vitrine-materiais/vitrine-papel-e-celulose/553-filtro-de-cigarro-pi0305004-1
+    version: batch-01 S2-05 v1.0
+    internalId: unb-pi0305004

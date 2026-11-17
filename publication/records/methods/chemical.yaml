@@ -115,6 +115,8 @@ sourceIds:
   - cn106928486
 hypothesisIds:
   - batch-02-invention-sketch
+  - batch-02-scientist-inventor-proposals
+  - batch-02-evidence-gap-synthesis
 assessmentIds:
   - chemical-evidence-strength-assessment
   - chemical-process-ease-assessment
