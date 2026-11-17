@@ -8,6 +8,14 @@ _synth_test/
 # Publication contract tooling
 tools/publication-contract/node_modules/
 tools/publication-contract/coverage/
-.publication-build/
-.publication-stage-*/
 tools/publication-contract/export-output/
+
+# Export scratch output (reproducible from `npm run export`; never tracked)
+.publication-build/
+.publication-build-*/
+.publication-stage-*/
+publication/.export-stage-*/
+publication/export-*/
+
+# Root has no package.json — a root package-lock.json is a stray artifact, not the real lockfile
+/package-lock.json
