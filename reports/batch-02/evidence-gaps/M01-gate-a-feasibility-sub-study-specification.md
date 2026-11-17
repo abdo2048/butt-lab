@@ -677,7 +677,7 @@ to the operator:
 - `reports/batch-02/invention.md` — the four-field sink requirement and the metals stop-condition.
 - `state/workflow.yaml` — `gap_closing.remaining_open_gaps` (the M/R/S agenda) and
   `evidence_gap_continuation` (this continuation's record).
-- `docs/superpowers/specs/2026-11-13-butt-lab-reader-platform-design.md` — the approved reader
+- `docs/history/superpowers/specs/2026-11-13-butt-lab-reader-platform-design.md` — the approved reader
   platform design. It is a **presentation layer** over approved records: it does not run the
   research workflow, does not execute experiments, and does not become a second scientific source
   of truth. It also defines the vocabulary this continuation inherits — publication state

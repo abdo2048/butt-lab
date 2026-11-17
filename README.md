@@ -1,11 +1,40 @@
-# Butt Lab: five-stage virtual research
+# Butt Lab
 
-Scope: patents of ALL statuses, companies with or without located patents (including Code Effort and TerraCycle), papers and public evidence/failures. Desk research and falsifiable invention, not a validated treatment plant.
+A knowledge base of cigarette-butt recycling methods: what each one does, what the
+evidence actually says about it, what is still unknown, and what the AI has proposed on
+top. It is written for scientists and engineers who can judge it.
 
-> Read START_HERE.md and resume the workflow in AUTO mode.
+## What is in here
 
-[OPERATOR_GUIDE.md](OPERATOR_GUIDE.md): your steps/free-interface options. [WORKFLOW.md](WORKFLOW.md): controller/checkpoints/gates. [state/workflow.yaml](state/workflow.yaml): current stage state. Old queue/trackers are preserved history, not active dispatch.
+- **Methods** — seven method families and thirty registry entries, each explained on its
+  own, with its own mechanism, products, failure modes and open questions.
+- **Evidence** — every statement carries its basis: sourced, AI-derived, or a stated gap.
+  A number that could not be located is left as `parameter-not-located`, never estimated.
+- **New invention** — proposals from the AI acting as scientist-inventor, all of them
+  marked as unvalidated hypotheses with their falsifiers attached.
+- **Gaps** — the M/R/S agenda of what still has to be measured, and by whom.
 
-1 Harvester single -> 2 Deep-dive single -> 3 Red-team three workers + judge (manual) -> 4 Inventor three workers + judge (manual) -> 5 Synthesizer single. [FUSION_PROTOCOL.md](FUSION_PROTOCOL.md) has fixed commands. Worker replacement resumes, not restarts. Files do not launch models, supply credits or remove write approvals.
+**This is not a validated treatment process.** Nothing here has been experimentally
+verified, safety-approved, costed, or shown to be novel. The review comes after
+publication, from trained human and AI readers.
 
-Initial migration 2026-11-04: landscape available/company-scope work pending; Stage 2 partial; formal Stages 3-5 pending. H1-H3 are draft seeds. Prior research/registries/backup remain intact. Readiness is scoped; lab validation/legal/product safety remain separate.
+## Where to start
+
+1. [`PROJECT-OVERVIEW.md`](PROJECT-OVERVIEW.md) — what the project is and where it stands.
+2. [`state/workflow.yaml`](state/workflow.yaml) — the authoritative current state.
+3. [`charter.md`](charter.md) — the scope and safety rules.
+
+## Layout
+
+| Path | What it is |
+|---|---|
+| [`charter.md`](charter.md) | Scope, safety, and the AI's role. |
+| [`PROJECT-OVERVIEW.md`](PROJECT-OVERVIEW.md) | Human-readable project status. |
+| [`state/workflow.yaml`](state/workflow.yaml) | Authoritative current state. |
+| [`docs/BUILD-PLAN.md`](docs/BUILD-PLAN.md) | The active build plan and ledger. |
+| [`publication/`](publication/) | The approved, validated content layer — 134 records and 10 pages. |
+| [`tools/publication-contract/`](tools/publication-contract/) | Schemas, validator and deterministic exporter. |
+| [`tools/reader-site/`](tools/reader-site/) | The reader website (Astro + Pagefind) — being built. |
+| [`reports/`](reports/) | The batch-01 and batch-02 research records. |
+| [`registry/methods.yaml`](registry/methods.yaml) | The method registry (read-only). |
+| [`docs/history/`](docs/history/) | Frozen history. Read for provenance; never edited. |

@@ -64,10 +64,11 @@ publication/
 
 ## Current State Files
 
-- **Workflow**: `state/workflow.yaml` - Updated with task_2 completion
-- **Session Log**: `state/session-log.md` - CRLF format, contains T1 and T2 entries
-- **Task Plan**: `task_plan.md` - Phase 17 outline (Task 1 complete, Task 2 complete, Task 3 next)
-- **Progress**: `progress.md`
+- **Workflow**: `state/workflow.yaml` - authoritative; slimmed to current state on 2026-11-17
+- **Session Log**: `docs/history/session-log.md` - CRLF format, contains T1 and T2 entries
+- **Active Plan**: `docs/BUILD-PLAN.md` - Phases A–E (reader platform, CI, release, hosting)
+- **Task Plan**: `docs/history/task_plan.md` - Phase 17 outline (frozen)
+- **Progress**: `docs/history/progress.md` (frozen)
 
 ## What Still Needs to Be Done
 

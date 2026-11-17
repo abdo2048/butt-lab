@@ -1,9 +1,13 @@
 # Five-stage controller and resume protocol
 
+> **Superseded on 2026-11-17.** The research is closed and this controller is frozen
+> history. The current work is the reader platform. Read `state/workflow.yaml` (current
+> state) and `docs/BUILD-PLAN.md` (active plan) instead.
+
 This is file-directed AI work, not a deployed scheduler or multi-model API integration. Operator triggers a working session once; AUTO chooses subsequent units until a gate/limit. Host approvals still govern external writes.
 
 ## State and checkpoints
-state/workflow.yaml is authoritative. Old state/work-queue.yaml/progress.md remain historical. Imported specs, source audit, comparison and H1-H3 are drafts, not accepted panels. Initial stage: 1 scope extension; Stage 2 partial; Stages 3-5 pending.
+state/workflow.yaml is authoritative. Old `state/work-queue.yaml` and the frozen planning and progress files under `docs/history/` remain historical. Imported specs, source audit, comparison and H1-H3 are drafts, not accepted panels. Initial stage: 1 scope extension; Stage 2 partial; Stages 3-5 pending.
 
 Unit statuses: pending/in_progress/complete_bounded/blocked. Stage statuses: in_progress/partial/complete_scoped/awaiting_manual/accepted/desk_complete. Checkpoint actual outputs/source attempts, remaining questions, next action, actor and run. Reconcile files on resume; a dangling in_progress unit resumes, missing promised outputs are a discrepancy, and uncommitted local changes are not assumed visible elsewhere. Never overwrite partial human work. Preserve unknowns rather than fabricate closure.
 

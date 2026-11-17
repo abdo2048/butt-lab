@@ -28,7 +28,7 @@ and awaiting the operator's accept/reject desk-record decision.
 | `WORKFLOW.md` | The staged process definition (Stages 1–5) |
 | `charter.md` | Governs scope and safety |
 | `state/workflow.yaml` | **The authoritative machine-readable state.** Operator acceptances, stages, permissions, and the `batch_02:` record all live here. |
-| `state/session-log.md` | The append-only human-readable session history |
+| `docs/history/session-log.md` | The append-only human-readable session history |
 
 `state/workflow.yaml` is authoritative for operator acceptance. Nothing in a report file
 overrides it.
@@ -270,7 +270,7 @@ Two honest limitations you should factor into your own work:
 ## 11. Operator authorization recorded 2026-11-17 (this session)
 
 **AI Role: Scientist-Inventor** — granted by operator instruction, recorded in
-`state/workflow.yaml` → `permissions.ai_role` and `state/session-log.md`.
+`state/workflow.yaml` → `permissions.ai_role` and `docs/history/session-log.md`.
 
 - The AI acts as a scientist-inventor with full knowledge of the accepted record, permitted to
   retrieve further knowledge from the internet and to invent new methods.
@@ -293,11 +293,13 @@ Two honest limitations you should factor into your own work:
 
 ## 12. Where the current state is recorded
 
-- `state/workflow.yaml` → `batch_02:` block (status `complete_pending_operator_decision`),  
-  `gap_closing.remaining_open_gaps`, `permissions.ai_role`, `permissions.experiments`
-- `state/session-log.md` → `## 2026-11-17: Operator authorization for AI scientist-inventor role and AI-designed experiments ...`
-- `task_plan.md`, `progress.md`, `findings.md` at the repository root → Phase 11/12 entries
+- `state/workflow.yaml` → `acceptances.batch_02` (status `accepted`), `content_state`,
+  `permissions.ai_role`, `permissions.experiments`, `open_decisions`
+- `docs/history/session-log.md` → `## 2026-11-17: Operator authorization for AI scientist-inventor role and AI-designed experiments ...`
+- `docs/history/task_plan.md`, `docs/history/progress.md`, `docs/history/findings.md` → Phase 11/12 entries (frozen history)
 
-The nine Batch-02 deliverables in `reports/batch-02/` are complete and awaiting the **operator's
-own accept/reject desk-record decision**. That decision has not been made. Nothing in this brief
-substitutes for it.
+The nine Batch-02 deliverables in `reports/batch-02/` are complete and were **accepted by the
+operator on 2026-11-17**; the desk record is `operator/batch-02-acceptance-2026-11-17.md` and the
+state entry is `state/workflow.yaml` → `acceptances.batch_02`. Acceptance covers the content
+landscape only — it does not authorise any experiment, publication or deployment, each of which
+remains a separate operator decision.

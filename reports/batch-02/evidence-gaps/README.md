@@ -78,4 +78,4 @@ dry-feed denominator, a wash-liquid inventory cannot be stated on a comparable b
 | 2026-11-16 | Phase 15 | `M01-gate-a-feasibility-sub-study-specification.md` |
 
 Both units are desk-only. `state/workflow.yaml` → `evidence_gap_continuation` carries the
-authoritative record; `state/session-log.md` carries the session history.
+authoritative record; `docs/history/session-log.md` carries the session history.

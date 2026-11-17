@@ -318,11 +318,11 @@ Warnings do not block an export and never change scientific or publication state
 - Publish or deploy content
 - Authorize experiments
 
-**Every publication version requires explicit human operator approval** before publication. The operator records the decision in `state/workflow.yaml` and `state/session-log.md`. The exporter cannot publish — it only produces a local build directory (`.publication-build/` by default) that the operator may inspect and then manually promote.
+**Every publication version requires explicit human operator approval** before publication. The operator records the decision in `state/workflow.yaml` and `docs/history/session-log.md`. The exporter cannot publish — it only produces a local build directory (`.publication-build/` by default) that the operator may inspect and then manually promote.
 
 ## 11. Contract-to-design reconciliation audit (2026-11-16)
 
-This section records a line-by-line audit of the contract against the reader-platform design specification (`docs/superpowers/specs/2026-11-13-butt-lab-reader-platform-design.md`). Each design rule was either confirmed as already enforced, fixed with a named failing-then-passing test, or recorded as a deliberate deferral.
+This section records a line-by-line audit of the contract against the reader-platform design specification (`docs/history/superpowers/specs/2026-11-13-butt-lab-reader-platform-design.md`). Each design rule was either confirmed as already enforced, fixed with a named failing-then-passing test, or recorded as a deliberate deferral.
 
 ### Rules confirmed as already enforced
 

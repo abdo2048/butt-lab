@@ -142,11 +142,12 @@ reports/batch-02/
 ### State & Progress Tracking
 | File | Purpose |
 |------|---------|
-| `state/workflow.yaml` | Authoritative workflow state (includes `reader_platform:` block) |
-| `state/session-log.md` | Append-only log with dated entries (CRLF) |
-| `task_plan.md` | Phase 17 outline |
-| `progress.md` | Task progress tracking |
-| `findings.md` | Key findings log |
+| `state/workflow.yaml` | Authoritative workflow state (slimmed to current state on 2026-11-17) |
+| `docs/history/session-log.md` | Append-only log with dated entries (CRLF) |
+| `docs/BUILD-PLAN.md` | Active plan (Phases A–E: reader platform, CI, release, hosting) |
+| `docs/history/task_plan.md` | Phase 17 outline (frozen) |
+| `docs/history/progress.md` | Task progress tracking (frozen) |
+| `docs/history/findings.md` | Key findings log (frozen) |
 
 ### Contract Tooling
 | Path | Purpose |
@@ -212,7 +213,7 @@ npm run export             # to .publication-build-b (different out dir)
 ### 3. Examine Key Files
 - Read `CHECKPOINT-MASTER.md` (this worktree) for detailed summary
 - Read `state/workflow.yaml` → `reader_platform:` block
-- Read `state/session-log.md` → last two entries (Task 1, Task 2)
+- Read `docs/history/session-log.md` → last two entries (Task 1, Task 2)
 - Read `tools/publication-contract/layer-data/*.json` — understand data structure
 - Read `tools/publication-contract/scripts/build-publication-layer.mjs` — understand generator
 - Read `reports/batch-02/invention.md` — understand what invention record needs
@@ -278,7 +279,7 @@ A **scientific evidence platform** for cigarette butt recycling. It does NOT cla
 
 1. **Re-read this checkpoint** — it has all verification commands
 2. **Check `state/workflow.yaml`** — authoritative state machine
-3. **Check `state/session-log.md`** — full provenance chain
+3. **Check `docs/history/session-log.md`** — full provenance chain
 4. **Run verification suite** — confirms you're at the right starting point
 5. **Read the source documents** in `reports/batch-02/` — they are the evidence base
 

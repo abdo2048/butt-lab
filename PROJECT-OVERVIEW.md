@@ -54,21 +54,24 @@ Batch-02 was defined in `specs/batch-02-launch-plan.md` (v1.0, operator decision
 
 ## How to work in this repo
 
-1. Read `START_HERE.md`, `WORKFLOW.md`, and `OPERATOR_GUIDE.md` for the operating system.
-2. Read `state/workflow.yaml` (current machine state) and `state/session-log.md` (dated history) before doing anything.
+1. Read `charter.md` (scope, safety and the AI role), then `state/workflow.yaml` (current machine state) and this file, `PROJECT-OVERVIEW.md`.
+2. Read `docs/BUILD-PLAN.md` (the active plan) before doing anything. Everything under `docs/history/` — including `docs/history/session-log.md` — is dated history, not dispatch.
 3. The operator (human) is the only authority for acceptances, launches, and state changes. AIs propose; the operator decides.
+
+The earlier five-stage controller (`START_HERE.md`, `WORKFLOW.md`, `OPERATOR_GUIDE.md`) and the batch work queue are frozen history: the research is closed and the current work is the reader platform.
 
 ## Publication layer
 
 The publication content contract (Phase 1) provides schemas, a validator, and an exporter for a reviewed publication layer. It is **derived** from the repository's research and workflow outputs — the repository remains authoritative.
 
 Key references:
-- Publication content contract: implementation plan and design record `docs/superpowers/plans/2026-11-14-publication-content-contract.md`
-- Reader-platform design: `docs/superpowers/specs/2026-11-13-butt-lab-reader-platform-design.md`; implementation plan `docs/superpowers/plans/2026-11-16-butt-lab-reader-platform.md`
+- Active plan: `docs/BUILD-PLAN.md`
+- Publication content contract: implementation plan and design record `docs/history/superpowers/plans/2026-11-14-publication-content-contract.md`
+- Reader-platform design: `docs/history/superpowers/specs/2026-11-13-butt-lab-reader-platform-design.md`; implementation plan `docs/history/superpowers/plans/2026-11-16-butt-lab-reader-platform.md`
 - Publication directory overview: `publication/README.md`
 - Full usage and operator workflows: `docs/publication-content-contract.md`
 
-**`state/workflow.yaml` remains authoritative for operator acceptance.** The Phase-1 exporter produces a local build directory only; it cannot publish, deploy, or approve scientific content. Every future publication version requires explicit human operator approval recorded in `state/workflow.yaml` and `state/session-log.md`.
+**`state/workflow.yaml` remains authoritative for operator acceptance.** The Phase-1 exporter produces a local build directory only; it cannot publish, deploy, or approve scientific content. Every future publication version requires explicit human operator approval recorded in `state/workflow.yaml` and `docs/history/session-log.md`.
 
 ## Guardrails (non-negotiable)
 
@@ -77,4 +80,4 @@ Key references:
 - J-H-01 and every batch-01/batch-02 invention remain unvalidated hypotheses awaiting the measurement that could kill them.
 - Metals are an explicit stop condition.
 - Source-derived content and AI gap-closing content must always be distinguishable.
-- Every acceptance, launch, and state change is recorded in `state/workflow.yaml` and `state/session-log.md`.
+- Every acceptance, launch, and state change is recorded in `state/workflow.yaml` and `docs/history/session-log.md`.
