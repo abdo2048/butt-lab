@@ -64,3 +64,20 @@ Task 3c: Ruling: the topology repair itself was NOT performed — cost if wrong:
 
 Task 3c: complete (verification: npm test → 202 tests, 201 pass, 1 skipped, 0 fail; validate → records=134 pages=6; export byte-identical across two runs; working tree clean)
 
+### Task 3d: Publish the four narrative pages the reader routes need — complete
+
+The reader-platform plan requires `publication/pages/{start-here.md,egypt-annex.md,how-the-research-works.md}` (file map, line 54) and limitations content inside `pages/` (line 108). Only the six generated method pages existed, so the manifest listed `pages=6` and Task 4 would have built `/start/`, `/egypt/`, `/research-method/` and `/limitations/` with nothing behind them. This unit closes that gap.
+
+The four pages were authored under the contract's own layer-data directory (`layer-data/pages/`), with a `layer-data/pages.json` index declaring each page's id, file and reader route. The deterministic generator was extended to read that index, copy each page into `publication/pages/`, and push a manifest entry with the sha256 computed from the bytes actually written — so the manifest stays reproducible and no page is ever hand-edited into it. A `NARRATIVE_PAGE_FILE_MISMATCH` guard prevents a page id and filename from disagreeing silently, the same class of defect that caused the earlier `e575390` and `b436794` failures.
+
+The four tests were written first. RED: 17 tests, 13 pass, 4 fail — the four new tests failed for the right reason (the pages and the index did not exist). GREEN: 17 tests, 17 pass, 0 fail. Full suite: 206 tests, 205 pass, 1 skipped (Windows cannot create symlinks), 0 fail.
+
+Verification: `npx tsc --noEmit` → clean. `npm run validate` → `VALID records=134 pages=10 assets=0` with the same seven deliberate `ASSESSMENT_UNKNOWN` warnings and no errors. `npm run export` → run twice into two output directories at the worktree root and compared file by file by SHA-256, byte-identical (`files_a=15 files_b=15`, `file_list_identical=true`, `mismatches=0`); the exported `records.json` hash is unchanged from the previous run (`b9998a625cc4`), which confirms the 134 records did not move and only the page set grew. Public-boundary path scan of the exported bundle → no repository-local absolute path; the two hits for a repository path substring are the pre-existing public GitHub URLs inside the hypothesis records' audit references, inside a `records.json` whose hash is byte-identical to the previous run.
+
+Task 3d: Ruling: the pages are curation of already-accepted content, not new research — cost if wrong: a reader may find the narrative pages thinner than the method pages; they are orientation and honesty pages, and every claim in them points at the records and pages that carry the substance.
+Task 3d: Ruling: the manifest was regenerated rather than hand-edited, so a reader who clones the repo and runs the generator gets the same manifest — cost if wrong: the authored markdown now lives in two places conceptually (layer-data and publication), and the generator is the only thing that keeps them in step; the reproducibility test is what guards that.
+Task 3d: Ruling: the pages use the publication label vocabulary (`source-supported`, `derived-from-sourced-premises`, `new-unvalidated-hypothesis`, and so on) rather than the charter-level five labels, because that is the vocabulary the six existing method pages and all 134 records already use — cost if wrong: the site speaks in two vocabularies across documents, which is a known and recorded inconsistency rather than a hidden one.
+Task 3d: Ruling: no number was introduced anywhere in the four pages; every quantitative gap stays `parameter-not-located` — cost if wrong: a reader looking for a threshold, a sample count or a cost figure will not find one, which is the correct answer for this project today.
+
+Task 3d: complete (verification: npm test → 206 tests, 205 pass, 1 skipped, 0 fail; validate → records=134 pages=10; export byte-identical across two runs; records set unchanged)
+

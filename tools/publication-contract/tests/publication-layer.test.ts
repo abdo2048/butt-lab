@@ -26,6 +26,7 @@
  */
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import test from "node:test";
 
@@ -41,6 +42,22 @@ const PUBLICATION_ROOT = fileURLToPath(
 const RUBRICS_PATH = fileURLToPath(
   new URL("../../../publication/contract/v1/rubrics.yaml", import.meta.url),
 );
+const LAYER_PAGES_DIR = fileURLToPath(new URL("../layer-data/pages/", import.meta.url));
+const LAYER_PAGES_INDEX = fileURLToPath(
+  new URL("../layer-data/pages.json", import.meta.url),
+);
+
+/**
+ * The narrative pages the reader application routes point at. Each one is
+ * written by the research assistant and published through the manifest, so
+ * that a route never exists without content behind it.
+ */
+const NARRATIVE_PAGES: ReadonlyArray<{ id: string; route: string }> = [
+  { id: "start-here", route: "/start/" },
+  { id: "egypt-annex", route: "/egypt/" },
+  { id: "how-the-research-works", route: "/research-method/" },
+  { id: "limitations", route: "/limitations/" },
+];
 
 type FamilyRecord = Extract<ContentRecord, { kind: "method-family" }>;
 type ClaimRecord = Extract<ContentRecord, { kind: "claim" }>;
@@ -506,5 +523,104 @@ test("every published hypothesis passes the new-unvalidated-hypothesis gate", as
         `${family.id} must reference hypothesis ${hypothesis.id} in hypothesisIds`,
       );
     }
+  }
+});
+
+/**
+ * Narrative-page gate.
+ *
+ * The reader application has routes for the four narrative pages: start here,
+ * the Egypt annex, how the research was produced, and the limitations. A route
+ * with no published page behind it is a broken route, so the manifest must
+ * list all four, each at a stable path, with content.
+ *
+ * The narrative pages are authored by the research assistant, so they live in
+ * the layer data and are published by the generator. The second test pins that
+ * relationship: the published page must be byte-identical to its source, which
+ * keeps the manifest reproducible and stops a page from being edited in place
+ * behind the generator's back.
+ */
+test("the manifest publishes the four narrative pages the reader routes need", async () => {
+  const loaded = await loadAndValidateManifest(PUBLICATION_ROOT);
+
+  assert.equal(
+    loaded.manifest.pages.length,
+    METHOD_FAMILY_IDS.length + NARRATIVE_PAGES.length,
+    "the layer must publish one page per method family plus one per narrative page",
+  );
+
+  for (const page of NARRATIVE_PAGES) {
+    const entry = loaded.manifest.pages.find((candidate) => candidate.id === page.id);
+    assert.ok(entry, `the manifest must list the narrative page "${page.id}"`);
+    assert.equal(
+      entry.path,
+      `pages/${page.id}.md`,
+      `the narrative page "${page.id}" must be published at a stable path`,
+    );
+
+    const text = loaded.pages.get(page.id);
+    assert.ok(
+      text !== undefined && text.trim().length > 0,
+      `the narrative page "${page.id}" must have content`,
+    );
+  }
+});
+
+test("every narrative page is reproducible from the layer-data source of truth", async () => {
+  const loaded = await loadAndValidateManifest(PUBLICATION_ROOT);
+
+  for (const page of NARRATIVE_PAGES) {
+    const source = readFileSync(join(LAYER_PAGES_DIR, `${page.id}.md`), "utf8");
+    const published = loaded.pages.get(page.id);
+    assert.equal(
+      published,
+      source,
+      `the published narrative page "${page.id}" must match its layer-data source byte for byte`,
+    );
+  }
+});
+
+test("the narrative-page index declares a route for every narrative page", async () => {
+  const index = parse(readFileSync(LAYER_PAGES_INDEX, "utf8")) as {
+    pages?: Array<{ id?: unknown; route?: unknown; file?: unknown }>;
+  };
+  assert.ok(Array.isArray(index.pages), "the narrative-page index must list pages");
+
+  const byId = new Map(
+    index.pages.map((page) => [String(page.id), page] as const),
+  );
+
+  for (const page of NARRATIVE_PAGES) {
+    const entry = byId.get(page.id);
+    assert.ok(entry, `the narrative-page index must list "${page.id}"`);
+    assert.equal(
+      String(entry.route),
+      page.route,
+      `the narrative page "${page.id}" must declare its reader route`,
+    );
+    assert.equal(
+      String(entry.file),
+      `${page.id}.md`,
+      `the narrative page "${page.id}" must name its markdown file`,
+    );
+  }
+
+  assert.equal(
+    byId.size,
+    NARRATIVE_PAGES.length,
+    "the narrative-page index must not list pages the reader has no route for",
+  );
+});
+
+test("every narrative page states that it does not authorise an experiment", async () => {
+  const loaded = await loadAndValidateManifest(PUBLICATION_ROOT);
+
+  for (const page of NARRATIVE_PAGES) {
+    const text = loaded.pages.get(page.id) ?? "";
+    assert.match(
+      text,
+      /does not authorise any experiment/i,
+      `the narrative page "${page.id}" must say that it does not authorise any experiment`,
+    );
   }
 });

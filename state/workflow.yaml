@@ -349,7 +349,7 @@ reader_platform:
     preparation on a branch, with every step recorded. It does NOT authorize merge to
     main, push, deployment to GitHub Pages, publication, running any experiment, or
     accepting the batch-02 deliverables on the operator's behalf.
-  status: task_3c_repo_hygiene_complete_committed
+  status: task_3d_narrative_pages_complete_committed
   operator_acceptance:
     accepted: true
     statement: >
@@ -386,6 +386,7 @@ reader_platform:
     - task_3_publish_invention_record_and_extend_manifest
     - task_3b_publish_scientist_inventor_hypothesis_records_and_repair_state_files
     - task_3c_untrack_export_scratch_artifacts_and_record_branch_topology
+    - task_3d_publish_four_narrative_pages_for_reader_routes
   task_1:
     unit: Reconcile the content contract with the reader-platform design
     audit_recorded_in: docs/publication-content-contract.md section 11
@@ -708,6 +709,101 @@ reader_platform:
       - >-
         No merge to main, no branch deletion, no deployment and no publication. The merge
         probe was run in a throwaway worktree and removed; git worktree list is unchanged.
+    no_experiment_authorized: true
+    last_actor: operator-directed OpenCode session (displayed model MiniMax M3.1 Flash Free; underlying model not verified)
+    last_run: '2026-11-17'
+    retrieval_calls_used: 0
+    retrieval_ceiling: 24
+  task_3d:
+    unit: publish the four narrative pages the reader routes need, closing the Task-3 page gap
+    scope: >-
+      Author the four reader-facing narrative pages required by the plan's file map and
+      Task 3 steps 3 and 6, wire them into the deterministic generator so the manifest
+      lists them with computed hashes, and verify the whole contract. This closes the
+      Task-3 gap where the manifest published 134 records but only 6 of the 10 pages the
+      reader routes require, which would have left /start/, /egypt/, /research-method/ and
+      /limitations/ with no content behind them. Content is curation of already-accepted
+      material: the material record, the six family pages, the accepted Egypt annex, the
+      handoff brief and the accepted gap agenda. No new research and no new numbers.
+    pages_published:
+      - id: start-here
+        file: start-here.md
+        reader_route: /start/
+        subject: >-
+          What a cigarette butt contains, the six families published here, how the evidence
+          labels work, why material fate and product quality are two different questions,
+          how to compare the families, and where the invention lives.
+      - id: egypt-annex
+        file: egypt-annex.md
+        reader_route: /egypt/
+        subject: >-
+          The accepted Egypt annex as unvalidated observations and unvalidated hypotheses
+          only. No recommendation, no feasibility claim.
+      - id: how-the-research-works
+        file: how-the-research-works.md
+        reader_route: /research-method/
+        subject: >-
+          The honest method: harvest, deep dive, red team, invention, synthesis. Names who
+          did the work and who did not, including that Batch-02 was a single-AI execution
+          with no three-model panel and no judge packet.
+      - id: limitations
+        file: limitations.md
+        reader_route: /limitations/
+        subject: >-
+          The numbered gap agenda as a list rather than a summary: eight measurement gaps,
+          five jurisdiction and regulatory acceptance gaps, six scale, cost and energy gaps,
+          the unresolved rather than missing items, and the preserved dissent.
+    source_of_truth:
+      authored_markdown: tools/publication-contract/layer-data/pages/ (one file per page)
+      index: tools/publication-contract/layer-data/pages.json (id, file, title, reader route)
+      generator: >-
+        build-publication-layer.mjs reads the index, copies each markdown file into
+        publication/pages/ and pushes a manifest entry with the sha256 computed from the
+        bytes it actually wrote. The manifest therefore stays reproducible from the
+        generator; no manifest entry was hand-edited. A NARRATIVE_PAGE_FILE_MISMATCH guard
+        rejects an index entry whose file name disagrees with its id, the same class of
+        silent defect that caused the earlier placeholder corruption.
+    manifest_change: pages 6 to 10; records unchanged at 134
+    record_integrity: >-
+      The exported records set is byte-identical to the previous run (records.json sha256
+      unchanged). Only the page set changed. No published claim, gap, source, assessment,
+      claim, hypothesis or term was altered by this unit.
+    evidence_discipline:
+      - >-
+        Every narrative page names no repository-local path. Sources are referred to
+        descriptively and by public link only, so a reader never sees an internal file
+        location.
+      - >-
+        The pages speak in the publication label vocabulary already used by the six method
+        pages and the 134 records: evidence support (source-supported, source-conflicted,
+        source-not-located, derived-from-sourced-premises) and validation state
+        (desk-research-only, requires-human-validation, new-unvalidated-hypothesis).
+        Statements the assistant adds beyond the published record carry an explicit AI
+        inference or AI proposal marker.
+      - >-
+        No new numerical value appears anywhere. Every quantitative gap stays
+        parameter-not-located, and the Egypt annex carries observations and hypotheses
+        only.
+      - >-
+        The preserved dissent, the unvalidated primary hypothesis, the minority
+        comparator, the metals stop-condition and the four-field sink all appear on the
+        pages in their accepted wording.
+    guardrails_held:
+      - >-
+        Nothing was measured. No sample was collected, no material was handled and no
+        physical experiment, pilot or field trial was run or authorized.
+      - >-
+        No claim that any family or proposal is clean, detoxified, safe, commercially
+        validated, environmentally beneficial, novel, patentable, deployable or costed.
+      - >-
+        Missing evidence stays missing: parameter-not-located, source-not-located, unknown;
+        never zero.
+      - >-
+        No prior scientific output was deleted or rewritten. This unit adds pages only and
+        changes the generator, the page layer data and the state files.
+      - >-
+        No merge to main, no deployment and no publication. The merge into main is the next
+        unit and is separately authorized by the operator on 2026-11-17.
     no_experiment_authorized: true
     last_actor: operator-directed OpenCode session (displayed model MiniMax M3.1 Flash Free; underlying model not verified)
     last_run: '2026-11-17'

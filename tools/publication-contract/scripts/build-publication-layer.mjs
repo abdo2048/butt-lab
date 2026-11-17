@@ -72,6 +72,10 @@ async function readJson(name) {
   return JSON.parse(await readFile(join(dataRoot, name), "utf8"));
 }
 
+async function readPageSource(fileName) {
+  return readFile(join(dataRoot, "pages", fileName), "utf8");
+}
+
 async function writeYaml(relativePath, value) {
   const absolute = join(publicationRoot, relativePath);
   await mkdir(dirname(absolute), { recursive: true });
@@ -362,6 +366,24 @@ async function main() {
     const pagePath = `pages/${pageId}.md`;
     const sha = await writePage(pagePath, renderFamilyPage(family, sourcesById));
     manifestPages.push({ id: pageId, path: pagePath, sha256: sha });
+  }
+
+  // ---- authored narrative pages -------------------------------------
+  // These sit beside the generated family pages. Their markdown lives in
+  // layer-data/pages/ and pages.json declares the id, file and reader route
+  // for each one, so the manifest stays reproducible from the generator
+  // rather than hand-edited.
+  const pageIndex = await readJson("pages.json");
+  for (const page of pageIndex.pages ?? []) {
+    if (page.file !== `${page.id}.md`) {
+      throw new Error(
+        `NARRATIVE_PAGE_FILE_MISMATCH: page ${page.id} declares file ${page.file}`,
+      );
+    }
+    const pagePath = `pages/${page.id}.md`;
+    const text = await readPageSource(page.file);
+    const sha = await writePage(pagePath, text);
+    manifestPages.push({ id: page.id, path: pagePath, sha256: sha });
   }
 
   const manifest = {

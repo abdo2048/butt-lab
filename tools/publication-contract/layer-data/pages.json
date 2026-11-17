@@ -1,0 +1,28 @@
+{
+  "pages": [
+    {
+      "id": "start-here",
+      "file": "start-here.md",
+      "title": "Start here",
+      "route": "/start/"
+    },
+    {
+      "id": "egypt-annex",
+      "file": "egypt-annex.md",
+      "title": "Egypt annex",
+      "route": "/egypt/"
+    },
+    {
+      "id": "how-the-research-works",
+      "file": "how-the-research-works.md",
+      "title": "How the research was produced",
+      "route": "/research-method/"
+    },
+    {
+      "id": "limitations",
+      "file": "limitations.md",
+      "title": "Limitations and open questions",
+      "route": "/limitations/"
+    }
+  ]
+}
