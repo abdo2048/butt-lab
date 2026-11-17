@@ -571,7 +571,9 @@ reader_platform:
       the damaged commits had added to publication/records/hypotheses/ were moved into the
       generator's source of truth so that the manifest lists them deterministically.
     corruption_found:
-      detected_in_commit: e575390 "feat(reader-platform): add batch-02-evidence-gap-synthesis hypothesis record and update manifest/workflow/session-log/task-plan"
+      detected_in_commit: >-
+        e575390 "feat(reader-platform): add batch-02-evidence-gap-synthesis hypothesis
+        record and update manifest/workflow/session-log/task-plan"
       affected_files:
         - publication/manifest.yaml
         - state/workflow.yaml
