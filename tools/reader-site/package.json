@@ -1,0 +1,31 @@
+{
+  "name": "butt-lab-reader-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "export:bundle": "npm --prefix ../publication-contract run export",
+    "build:content": "node scripts/build-content.ts",
+    "build:site": "astro build",
+    "build:index": "pagefind --site dist",
+    "build": "npm run build:content && npm run build:site && npm run build:index",
+    "dev": "astro dev",
+    "preview": "astro preview",
+    "test": "node --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "astro": "^7.4.12",
+    "marked": "^16.4.2"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^30.0.0",
+    "@types/node": "^24.10.0",
+    "jsdom": "^29.1.1",
+    "pagefind": "^1.4.0",
+    "typescript": "^5.9.0"
+  }
+}

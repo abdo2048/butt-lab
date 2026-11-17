@@ -1,0 +1,122 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getBundle, recordsOfKind, terms } from "../../lib/bundle";
+import { renderMarkdown, splitDisclaimer, splitPage, splitSectionBody } from "../../lib/markdown";
+import AuditDrawer from "../../components/AuditDrawer.astro";
+import MethodScorecard from "../../components/MethodScorecard.astro";
+import RelatedPanel from "../../components/RelatedPanel.astro";
+import SourceCards from "../../components/SourceCards.astro";
+import type {
+  AssessmentRecord,
+  ClaimRecord,
+  MethodFamilyRecord,
+  SourceRecord,
+} from "../../lib/types";
+
+export function getStaticPaths() {
+  const bundle = getBundle();
+  return recordsOfKind(bundle, "method-family").map((record) => ({
+    params: { slug: record.id },
+    props: { family: record as MethodFamilyRecord },
+  }));
+}
+
+const { family } = Astro.props as { family: MethodFamilyRecord };
+const bundle = getBundle();
+const glossaryTerms = terms(bundle);
+
+const page = bundle.pages.get(`method-${family.id}`);
+if (!page) throw new Error(`the method page for ${family.id} is missing from the bundle`);
+const parsed = splitPage(page.markdown);
+
+const assessments = family.assessmentIds
+  .map((id) => bundle.records.get(id))
+  .filter((record): record is AssessmentRecord => Boolean(record));
+
+const claims = new Map<string, ClaimRecord>();
+for (const id of family.claimIds) {
+  const claim = bundle.records.get(id) as ClaimRecord | undefined;
+  if (claim) claims.set(id, claim);
+}
+
+const sources = family.sourceIds
+  .map((id) => bundle.records.get(id))
+  .filter((record): record is SourceRecord => Boolean(record));
+
+const reviewer = assessments.find((assessment) => assessment.reviewer)?.reviewer;
+const reviewDate = assessments.find((assessment) => assessment.reviewDate)?.reviewDate;
+
+const OVERRIDES: Record<string, string> = {
+  "how the evidence compares": "scorecard",
+  sources: "sources",
+  "audit trail": "audit",
+};
+
+// The standing disclaimer paragraph closes every published page. The audit section is
+// replaced by the structured drawer, so the disclaimer is lifted out of the markdown
+// first and rendered once, after the sections, whatever the section overrides did.
+const blocks = parsed.sections.map((section) => {
+  const kind = OVERRIDES[section.heading.toLowerCase()] ?? "prose";
+  const separated = splitDisclaimer(section.body);
+  if (kind === "scorecard") {
+    const parts = splitSectionBody(separated.prose);
+    return {
+      ...section,
+      kind,
+      html: renderMarkdown(parts.prose, { terms: glossaryTerms }),
+      disclaimer: separated.disclaimer,
+    };
+  }
+  return {
+    ...section,
+    kind,
+    html: renderMarkdown(separated.prose, { terms: glossaryTerms }),
+    disclaimer: separated.disclaimer,
+  };
+});
+
+const disclaimer = blocks.map((block) => block.disclaimer).find((value) => value !== undefined);
+---
+
+<BaseLayout
+  title={`${parsed.title} — Butt Lab`}
+  description={family.summary}
+  eyebrow="Method family"
+  recordId={family.id}
+>
+  <h1>{parsed.title}</h1>
+  <div class="prose" set:html={renderMarkdown(parsed.preamble, { terms: glossaryTerms })} />
+
+  {
+    blocks.map((block) => (
+      <section class="section" aria-labelledby={block.slug}>
+        <div class="section__heading">
+          <h2 id={block.slug}>{block.heading}</h2>
+        </div>
+        {block.kind === "prose" && <div class="prose" set:html={block.html} />}
+        {block.kind === "scorecard" && (
+          <>
+            <div class="prose" set:html={block.html} />
+            <MethodScorecard assessments={assessments} claims={claims} />
+          </>
+        )}
+        {block.kind === "sources" && <SourceCards sources={sources} />}
+        {block.kind === "audit" && (
+          <AuditDrawer
+            recordId={family.id}
+            aliases={family.auditAliases}
+            references={family.auditReferences}
+            schemaVersion={family.schemaVersion}
+            publicationState={family.publicationState}
+            reviewer={reviewer}
+            reviewDate={reviewDate}
+          />
+        )}
+      </section>
+    ))
+  }
+
+  {disclaimer && <p class="disclaimer">{disclaimer}</p>}
+
+  <RelatedPanel bundle={bundle} id={family.id} />
+</BaseLayout>

@@ -1,0 +1,93 @@
+---
+import type { AuditReference } from "../lib/types";
+
+interface Props {
+  recordId: string;
+  aliases?: string[] | undefined;
+  references?: AuditReference[] | undefined;
+  schemaVersion?: number | undefined;
+  reviewer?: string | undefined;
+  reviewDate?: string | undefined;
+  publicationState?: string | undefined;
+}
+
+const {
+  recordId,
+  aliases = [],
+  references = [],
+  schemaVersion,
+  reviewer,
+  reviewDate,
+  publicationState,
+} = Astro.props;
+---
+
+<details class="drawer">
+  <summary class="drawer__summary">Technical audit trail</summary>
+  <div class="drawer__body">
+    <dl class="audit-list">
+      <dt>Record id</dt>
+      <dd class="mono">{recordId}</dd>
+      {
+        aliases.length > 0 && (
+          <>
+            <dt>Internal names</dt>
+            <dd class="mono">{aliases.join(", ")}</dd>
+          </>
+        )
+      }
+      {
+        references.length > 0 && (
+          <>
+            <dt>Public records</dt>
+            <dd>
+              <ul class="record-list">
+                {references.map((reference) => (
+                  <li>
+                    <a href={reference.url} rel="noopener noreferrer">
+                      {reference.label}
+                    </a>{" "}
+                    <span class="small mono">version {reference.version}</span>
+                    <span class="small mono record-id">{reference.internalId}</span>
+                  </li>
+                ))}
+              </ul>
+            </dd>
+          </>
+        )
+      }
+      {
+        schemaVersion !== undefined && (
+          <>
+            <dt>Schema version</dt>
+            <dd class="mono">{schemaVersion}</dd>
+          </>
+        )
+      }
+      {
+        publicationState !== undefined && (
+          <>
+            <dt>Publication state</dt>
+            <dd class="mono">{publicationState}</dd>
+          </>
+        )
+      }
+      {
+        reviewer !== undefined && (
+          <>
+            <dt>Reviewer</dt>
+            <dd>{reviewer}</dd>
+          </>
+        )
+      }
+      {
+        reviewDate !== undefined && (
+          <>
+            <dt>Review date</dt>
+            <dd class="mono">{reviewDate}</dd>
+          </>
+        )
+      }
+    </dl>
+  </div>
+</details>

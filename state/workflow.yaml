@@ -14,11 +14,12 @@ status: reader_platform_task_4_in_progress
 execution: file-directed; host must trigger/resume; no scheduler installed
 
 next_action: >-
-  Build Task 4, the Astro and Pagefind reader application, in tools/reader-site/ on
-  branch feat/reader-platform. The app consumes the exported publication bundle only and
-  never the source YAML. Then build CI that cannot deploy, prepare the release gate, and
-  write the manual Cloudflare Workers steps for the operator. Deployment, publication,
-  experiment and pilot each remain separately unauthorized.
+  Task 4, the Astro and Pagefind reader application, is built and verified in
+  tools/reader-site: 28 static pages, a Pagefind index, and 99 reader tests that pass.
+  The remaining work is Phase C (CI that cannot deploy), Phase D (release preparation and
+  the acceptance gate) and Phase E (the Cloudflare Workers setup and the manual wrangler
+  steps for the operator). Deployment, publication, experiment and pilot each remain
+  separately unauthorized.
 
 pending_manual_action: >-
   Three operator decisions remain outstanding and none of them is made here. First, the
@@ -53,7 +54,7 @@ current_unit:
     - /egypt/
     - /research-method/
     - /limitations/
-  status: in_progress
+  status: complete_built_and_verified
   last_actor: operator-directed OpenCode session (displayed model MiniMax M3.1 Flash Free; underlying model not verified)
   last_run: '2026-11-17'
 
@@ -81,9 +82,27 @@ content_state:
     validation_state: new-unvalidated-hypothesis
   evidence_gap_agenda: M01-M08, R01-R05 and S01-S06, published on the limitations page
   reader_site:
-    status: not built
+    status: built
     location: tools/reader-site/
     stack: Astro plus Pagefind static search
+    pages_built: 28
+    pagefind_index: 28 pages, 2056 words
+    reader_tests: 99 tests, 99 pass, 0 fail
+    build_command: npm run build in tools/reader-site
+    bundle_rule: >-
+      The site consumes the exported bundle only. scripts/build-content.ts verifies every
+      bundle-manifest.json output hash against the actual bytes before staging anything,
+      and writes nothing when verification fails.
+    file_map_deviation: >-
+      The frozen plan named scripts/build-content.mjs. The implementation is
+      scripts/build-content.ts so it can be type-checked and imported directly by the
+      native-TypeScript test runner.
+    dependency_advisory: >-
+      npm audit reports 10 high findings, all from one upstream advisory (picomatch ReDoS,
+      GHSA-fc5q-39xc-vjpf, range up to and including 4.0.7, which is the newest published
+      version) reached through astro's build tree. No fixed release exists, nothing from
+      that tree ships in the static artifact, and an npm override was tried and removed
+      because it bought no security. Disclosed rather than hidden.
 
 acceptances:
   batch_01:

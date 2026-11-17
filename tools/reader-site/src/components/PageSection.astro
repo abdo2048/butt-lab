@@ -1,0 +1,19 @@
+---
+interface Props {
+  heading: string;
+  slug?: string | undefined;
+  level?: "h2" | "h3" | undefined;
+  note?: string | undefined;
+}
+
+const { heading, slug, level = "h2", note } = Astro.props;
+const id = slug ?? heading.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+---
+
+<section class="section" aria-labelledby={id}>
+  <div class="section__heading-row">
+    <h2 id={id} class="section__heading">{heading}</h2>
+    {note && <span class="record-id">{note}</span>}
+  </div>
+  <slot />
+</section>

@@ -1,0 +1,310 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageSection from "../components/PageSection.astro";
+import EvidenceChip from "../components/EvidenceChip.astro";
+import ScoreTicks from "../components/ScoreTicks.astro";
+import { getBundle, recordsOfKind } from "../lib/bundle.ts";
+import {
+  assessmentFor,
+  sortByCriterion,
+  type AssessmentView,
+  type ComparisonRow,
+} from "../lib/compare.ts";
+import { basisChip, criterionLabel, scoreSummary, statusChip } from "../lib/format.ts";
+
+const bundle = getBundle();
+const families = recordsOfKind(bundle, "method-family").sort((a, b) =>
+  a.title.localeCompare(b.title),
+);
+
+const rows: ComparisonRow[] = families.map((family) => {
+  const assessments: Record<string, AssessmentView> = {};
+  for (const assessmentId of family.assessmentIds) {
+    const record = bundle.records.get(assessmentId);
+    if (record === undefined || record.kind !== "assessment") continue;
+    assessments[record.criterionId] = {
+      id: record.id,
+      methodId: record.methodId,
+      criterionId: record.criterionId,
+      status: record.status,
+      ...(record.score !== undefined ? { score: record.score } : {}),
+      ...(record.label !== undefined ? { label: record.label } : {}),
+      ...(record.basis !== undefined ? { basis: record.basis } : {}),
+      ...(record.rationale !== undefined ? { rationale: record.rationale } : {}),
+      ...(record.unknownReason !== undefined ? { unknownReason: record.unknownReason } : {}),
+      ...(record.notApplicableReason !== undefined
+        ? { notApplicableReason: record.notApplicableReason }
+        : {}),
+    };
+  }
+  return { methodId: family.id, title: family.title, assessments };
+});
+
+const criterionIds: string[] = [];
+for (const family of families) {
+  for (const assessmentId of family.assessmentIds) {
+    const record = bundle.records.get(assessmentId);
+    if (record && record.kind === "assessment" && !criterionIds.includes(record.criterionId)) {
+      criterionIds.push(record.criterionId);
+    }
+  }
+}
+
+const orders: Record<string, Record<string, string[]>> = {};
+for (const criterionId of criterionIds) {
+  orders[criterionId] = {
+    default: sortByCriterion(rows, criterionId, "default").map((row) => row.methodId),
+    "evidence-gaps": sortByCriterion(rows, criterionId, "evidence-gaps").map((row) => row.methodId),
+  };
+}
+
+const rowFor = (methodId: string): ComparisonRow =>
+  rows.find((row) => row.methodId === methodId) as ComparisonRow;
+---
+
+<BaseLayout
+  title="Compare the evidence"
+  description="Compare the six method families one criterion at a time. Scores are never combined into one number, and unknown is never treated as zero."
+  eyebrow="Comparison"
+>
+  <PageSection
+    heading="Compare the evidence"
+    slug="compare"
+    note="One criterion at a time. The criteria are never combined into one number, and no family is declared the winner."
+  >
+    <p class="page__lede">
+      Six families, eight criteria, and a lot of open questions. Choose one criterion to
+      order the families by, then read the basis of each result beside it. The default
+      order puts the scored families first and the unknown ones last. The
+      <em>Find evidence gaps</em> order reverses that, so the missing measurements come
+      first. Nothing on this page adds the criteria together.
+    </p>
+
+    <div class="compare-controls">
+      <p class="control">
+        <label for="compare-criterion">Sort by criterion</label>
+        <select id="compare-criterion" name="criterion">
+          <option value="">Choose a criterion to sort…</option>
+          {
+            criterionIds.map((criterionId) => (
+              <option value={criterionId}>{criterionLabel(criterionId)}</option>
+            ))
+          }
+        </select>
+      </p>
+      <p class="control">
+        <label for="compare-mode">Order</label>
+        <select id="compare-mode" name="mode">
+          <option value="default">Scored first, unknown last</option>
+          <option value="evidence-gaps">Find evidence gaps — unknown first</option>
+        </select>
+      </p>
+      <p class="control">
+        <label for="compare-status">Show only</label>
+        <select id="compare-status" name="status">
+          <option value="">Every result state</option>
+          <option value="scored">Scored</option>
+          <option value="unknown">Unknown</option>
+          <option value="not-applicable">Not applicable</option>
+        </select>
+      </p>
+      <p class="control">
+        <label for="compare-basis">Evidence basis</label>
+        <select id="compare-basis" name="basis">
+          <option value="">Every basis</option>
+          <option value="source-supported">Source-supported</option>
+          <option value="inference">Inference</option>
+          <option value="ai-assessed-human-reviewed">AI assessed, human reviewed</option>
+        </select>
+      </p>
+    </div>
+
+    <p class="mode-note">
+      A score of 1 means a completed assessment placed that family in the lowest band. It
+      does not mean the question was left unanswered. <strong>Unknown</strong> means the
+      evidence needed to answer the criterion was not found, and it is never counted as
+      zero.
+    </p>
+
+    <div class="compare-table">
+      <div class="table-scroll">
+        <table class="table table--scores" id="compare-table">
+        <caption class="visually-hidden">
+          The six method families against the eight assessment criteria. Each cell carries
+          the result state and the evidence basis of the assessment behind it.
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Method family</th>
+            {
+              criterionIds.map((criterionId) => (
+                <th scope="col">
+                  <span class="criterion-label">{criterionLabel(criterionId)}</span>
+                  <span class="mono small">{criterionId}</span>
+                </th>
+              ))
+            }
+          </tr>
+        </thead>
+        <tbody id="compare-rows">
+          {
+            families.map((family) => {
+              const row = rowFor(family.id);
+              return (
+                <tr data-method-id={family.id}>
+                  <th scope="row">
+                    <a href={`/methods/${family.id}/`}>{family.title}</a>
+                  </th>
+                  {criterionIds.map((criterionId) => {
+                    const assessment = assessmentFor(row, criterionId);
+                    return (
+                      <td
+                        data-criterion={criterionId}
+                        data-status={assessment.status}
+                        data-basis={assessment.basis ?? ""}
+                      >
+                        <ScoreTicks
+                          status={assessment.status}
+                          score={assessment.score}
+                        />
+                        <span class="score-text">{scoreSummary(assessment)}</span>
+                        <span class="chip-row">
+                          <EvidenceChip chip={statusChip(assessment.status)} />
+                          <EvidenceChip chip={basisChip(assessment.basis)} />
+                        </span>
+                      </td>
+                    );
+                  })}
+                </tr>
+              );
+            })
+          }
+        </tbody>
+      </table>
+      </div>
+    </div>
+
+    <ul class="compare-cards" id="compare-cards">
+      {
+        families.map((family) => {
+          const row = rowFor(family.id);
+          return (
+            <li class="compare-card" data-method-id={family.id}>
+              <h3>
+                <a href={`/methods/${family.id}/`}>{family.title}</a>
+              </h3>
+              <dl class="audit-list">
+                {criterionIds.map((criterionId) => {
+                  const assessment = assessmentFor(row, criterionId);
+                  return (
+                    <>
+                      <dt>{criterionLabel(criterionId)}</dt>
+                      <dd>
+                        {scoreSummary(assessment)}{" "}
+                        <span class="mono small">{assessment.basis ?? "no basis"}</span>
+                      </dd>
+                    </>
+                  );
+                })}
+              </dl>
+            </li>
+          );
+        })
+      }
+    </ul>
+
+    <p class="small muted">
+      Every result above is an assessment of a criterion, not a measurement. The rationale
+      behind each one is on the family page, and the underlying records are in the audit
+      drawer at the foot of every page.
+    </p>
+  </PageSection>
+
+  <script id="compare-order" type="application/json" set:html={JSON.stringify(orders)}></script>
+
+  <script is:inline>
+    (function () {
+      var orderNode = document.getElementById("compare-order");
+      var criterionSelect = document.getElementById("compare-criterion");
+      var modeSelect = document.getElementById("compare-mode");
+      var statusSelect = document.getElementById("compare-status");
+      var basisSelect = document.getElementById("compare-basis");
+      var tableBody = document.getElementById("compare-rows");
+      var cardList = document.getElementById("compare-cards");
+      if (!orderNode || !criterionSelect || !modeSelect || !tableBody) return;
+
+      var orders;
+      try {
+        orders = JSON.parse(orderNode.textContent || "{}");
+      } catch (error) {
+        return;
+      }
+      if (!orders || typeof orders !== "object") return;
+
+      // The sorting and filtering controls stay hidden until this script is running,
+      // so a reader without JavaScript gets the complete unsorted table instead of
+      // controls that would do nothing.
+      document.documentElement.classList.add("has-js");
+
+      function orderFor(criterion, mode) {
+        if (!criterion || !orders[criterion]) return null;
+        var wanted = mode === "evidence-gaps" ? orders[criterion]["evidence-gaps"] : orders[criterion]["default"];
+        return wanted || null;
+      }
+
+      function place(container, wanted) {
+        if (!container || !wanted) return;
+        var items = Array.prototype.slice.call(
+          container.querySelectorAll("[data-method-id]"),
+        );
+        items.sort(function (left, right) {
+          var leftIndex = wanted.indexOf(left.getAttribute("data-method-id"));
+          var rightIndex = wanted.indexOf(right.getAttribute("data-method-id"));
+          if (leftIndex === -1) leftIndex = items.length;
+          if (rightIndex === -1) rightIndex = items.length;
+          return leftIndex - rightIndex;
+        });
+        items.forEach(function (item) {
+          container.appendChild(item);
+        });
+      }
+
+      function apply() {
+        var criterion = criterionSelect.value;
+        var mode = modeSelect.value;
+        var wanted = orderFor(criterion, mode);
+        place(tableBody, wanted);
+        place(cardList, wanted);
+
+        var status = statusSelect ? statusSelect.value : "";
+        var basis = basisSelect ? basisSelect.value : "";
+        var rows = Array.prototype.slice.call(tableBody.querySelectorAll("tr"));
+        rows.forEach(function (row) {
+          var cell = criterion
+            ? row.querySelector('td[data-criterion="' + criterion + '"]')
+            : null;
+          if (!cell) {
+            row.hidden = false;
+            return;
+          }
+          var rowStatus = cell.getAttribute("data-status") || "";
+          var rowBasis = cell.getAttribute("data-basis") || "";
+          row.hidden = (status && rowStatus !== status) || (basis && rowBasis !== basis);
+        });
+
+        var cards = cardList ? Array.prototype.slice.call(cardList.children) : [];
+        cards.forEach(function (card) {
+          var row = tableBody.querySelector(
+            'tr[data-method-id="' + card.getAttribute("data-method-id") + '"]',
+          );
+          card.hidden = row ? row.hidden : false;
+        });
+      }
+
+      criterionSelect.addEventListener("change", apply);
+      modeSelect.addEventListener("change", apply);
+      if (statusSelect) statusSelect.addEventListener("change", apply);
+      if (basisSelect) basisSelect.addEventListener("change", apply);
+    })();
+  </script>
+</BaseLayout>

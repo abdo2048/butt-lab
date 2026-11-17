@@ -1,0 +1,64 @@
+---
+import { getBundle, terms } from "../lib/bundle";
+import { renderMarkdown, splitDisclaimer, splitPage } from "../lib/markdown";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+interface Props {
+  pageId: string;
+  eyebrow: string;
+  title?: string | undefined;
+  description?: string | undefined;
+  recordId?: string | undefined;
+}
+
+const { pageId, eyebrow, title, description, recordId } = Astro.props;
+
+const bundle = getBundle();
+const page = bundle.pages.get(pageId);
+if (!page) {
+  throw new Error(`Narrative page ${pageId} is missing from the published bundle.`);
+}
+
+const parsed = splitPage(page.markdown);
+const glossaryTerms = terms(bundle);
+
+// The standing disclaimer paragraph closes every published page; it is lifted out of
+// the last section and rendered once, with the disclaimer styling.
+const sections = parsed.sections.map((section) => {
+  const separated = splitDisclaimer(section.body);
+  return {
+    ...section,
+    html: renderMarkdown(separated.prose, { terms: glossaryTerms }),
+    disclaimer: separated.disclaimer,
+  };
+});
+const disclaimer = sections.map((section) => section.disclaimer).find((value) => value !== undefined);
+---
+
+<BaseLayout
+  title={`${title ?? parsed.title} — Butt Lab`}
+  description={description ?? parsed.title}
+  eyebrow={eyebrow}
+  recordId={recordId ?? pageId}
+>
+  <h1>{title ?? parsed.title}</h1>
+
+  {
+    parsed.preamble && (
+      <div class="prose" set:html={renderMarkdown(parsed.preamble, { terms: glossaryTerms })} />
+    )
+  }
+
+  {
+    sections.map((section) => (
+      <section class="section" aria-labelledby={section.slug}>
+        <div class="section__heading">
+          <h2 id={section.slug}>{section.heading}</h2>
+        </div>
+        <div class="prose" set:html={section.html} />
+      </section>
+    ))
+  }
+
+  {disclaimer && <p class="disclaimer">{disclaimer}</p>}
+</BaseLayout>

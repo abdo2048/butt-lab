@@ -1,0 +1,187 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getBundle, recordsOfKind } from "../lib/bundle";
+import { evidenceStateLabel } from "../lib/format";
+import type { GapRecord, SourceRecord } from "../lib/types";
+
+const bundle = getBundle();
+const hypotheses = recordsOfKind(bundle, "hypothesis");
+
+const validationQuestions = (ids: string[]) =>
+  ids
+    .map((id) => bundle.records.get(id))
+    .filter((record): record is GapRecord => record?.kind === "gap");
+
+const sourceInputs = (ids: string[]) =>
+  ids
+    .map((id) => bundle.records.get(id))
+    .filter((record): record is SourceRecord => record?.kind === "source");
+---
+
+<BaseLayout
+  title="New invention — Butt Lab"
+  description="The AI scientist-inventor proposals produced after the method landscape was complete. Every one of them is an unvalidated hypothesis."
+  eyebrow="New invention"
+>
+  <h1>New invention</h1>
+
+  <p class="page__lede">
+    The six method families were read, written up and closed before any invention was proposed.
+    What follows is what the research assistant then invented, working in the scientist-inventor
+    role: three proposals that carry their own assumptions, failure modes and falsifiers, and
+    that nobody has tested.
+  </p>
+
+  <div class="callout">
+    <p class="callout__label">Unvalidated hypothesis</p>
+    <p>
+      Every proposal on this page is an <strong>unvalidated hypothesis</strong> recorded as
+      <span class="mono">new-unvalidated-hypothesis</span>. It was written by the AI and reviewed
+      by the AI; no human has signed it off. It is a proposal for a reader to judge, test, replace
+      or discard — not a process that exists. Nothing here authorises an experiment, and no
+      measurement was made.
+    </p>
+  </div>
+
+  {
+    hypotheses.map((hypothesis) => (
+      <article class="section" id={hypothesis.id}>
+        <div class="section__heading">
+          <h2>{hypothesis.title}</h2>
+          <span class="record-id">{hypothesis.id}</span>
+        </div>
+
+        <p class="page__lede">{hypothesis.visibleLabel}</p>
+
+        <dl class="audit-list">
+          <dt>Validation state</dt>
+          <dd>
+            <span class="chip chip--ai">UNVALIDATED HYPOTHESIS</span>{" "}
+            <span class="mono small">{hypothesis.validationState}</span>
+          </dd>
+          <dt>Evidence state</dt>
+          <dd>{evidenceStateLabel(hypothesis.evidenceState)}</dd>
+          <dt>Record version</dt>
+          <dd class="mono">{hypothesis.recordVersion}</dd>
+          <dt>Reviewer</dt>
+          <dd>{hypothesis.reviewer}</dd>
+        </dl>
+
+        <div class="prose">
+          <h3>The mechanism it proposes</h3>
+          <p>{hypothesis.mechanism}</p>
+          <h3>What it starts from</h3>
+          <p>{hypothesis.priorContext}</p>
+        </div>
+
+        {hypothesis.assumptions.length > 0 && (
+          <div class="prose">
+            <h3>Assumptions it rests on</h3>
+            <ul>
+              {hypothesis.assumptions.map((assumption) => (
+                <li>{assumption}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {hypothesis.failureModes.length > 0 && (
+          <div class="prose">
+            <h3>How it fails</h3>
+            <ul>
+              {hypothesis.failureModes.map((failure) => (
+                <li>{failure}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {hypothesis.falsifiers.length > 0 && (
+          <div class="prose">
+            <h3>What would kill it</h3>
+            <ul>
+              {hypothesis.falsifiers.map((falsifier) => (
+                <li>{falsifier}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {hypothesis.unresolvedDependencies.length > 0 && (
+          <div class="prose">
+            <h3>What it still depends on</h3>
+            <ul>
+              {hypothesis.unresolvedDependencies.map((dependency) => (
+                <li>{dependency}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {validationQuestions(hypothesis.validationQuestionIds).length > 0 && (
+          <div class="prose">
+            <h3>Open questions it would have to answer</h3>
+            <ul>
+              {validationQuestions(hypothesis.validationQuestionIds).map((question) => (
+                <li>
+                  {question.question}{" "}
+                  <span class="mono small">
+                    {question.validationState} · {question.nextHumanWork}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {sourceInputs(hypothesis.sourceInputIds).length > 0 && (
+          <div class="prose">
+            <h3>The published record it starts from</h3>
+            <ul>
+              {sourceInputs(hypothesis.sourceInputIds).map((source) => (
+                <li>
+                  <a href={`/sources/${source.id}/`}>{source.title}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {hypothesis.auditReferences.length > 0 && (
+          <details class="drawer">
+            <summary>Audit trail</summary>
+            <div class="drawer__body">
+              <dl class="audit-list">
+                <dt>Record id</dt>
+                <dd class="mono">{hypothesis.id}</dd>
+                {hypothesis.auditAliases.length > 0 && (
+                  <>
+                    <dt>Internal names</dt>
+                    <dd class="mono">{hypothesis.auditAliases.join(", ")}</dd>
+                  </>
+                )}
+                <dt>Public records</dt>
+                <dd>
+                  {hypothesis.auditReferences.map((reference) => (
+                    <span class="small">
+                      <a href={reference.url} rel="noreferrer noopener">
+                        {reference.label}
+                      </a>{" "}
+                      <span class="mono">
+                        version {reference.version} · {reference.internalId}
+                      </span>
+                    </span>
+                  ))}
+                </dd>
+                <dt>Publication state</dt>
+                <dd>{hypothesis.publicationState}</dd>
+                <dt>Schema version</dt>
+                <dd class="mono">{hypothesis.schemaVersion}</dd>
+              </dl>
+            </div>
+          </details>
+        )}
+      </article>
+    ))
+  }
+</BaseLayout>

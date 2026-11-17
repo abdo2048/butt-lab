@@ -1,0 +1,11 @@
+---
+import type { Chip } from "../lib/format";
+
+interface Props {
+  chip: Chip;
+}
+
+const { chip } = Astro.props;
+---
+
+<span class={`chip chip--${chip.tone}`}>{chip.text}</span>

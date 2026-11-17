@@ -1,0 +1,38 @@
+---
+import { rightsLabel } from "../lib/format";
+import type { SourceRecord } from "../lib/types";
+
+interface Props {
+  sources: SourceRecord[];
+}
+
+const { sources } = Astro.props;
+---
+
+<ul class="record-list source-list">
+  {
+    sources.map((source) => (
+      <li class="source-card">
+        <h4 class="source-card__title">
+          <a href={source.originalUrl} rel="noopener noreferrer">
+            {source.title}
+          </a>
+        </h4>
+        <p class="small">{source.citation}</p>
+        <p class="small mono source-card__meta">
+          {source.sourceType} · {source.versionOrDate} · accessed {source.accessDate} ·{" "}
+          {rightsLabel(source.rights)}
+        </p>
+        <p class="small">
+          <a href={source.originalUrl} rel="noopener noreferrer">
+            Open the source
+          </a>
+        </p>
+      </li>
+    ))
+  }
+</ul>
+<p class="small muted">
+  Link availability is not checked when this site is built. The citation above is the record; the
+  link is one way to reach it.
+</p>

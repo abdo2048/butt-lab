@@ -1,0 +1,54 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getBundle, recordsOfKind } from "../lib/bundle";
+
+const bundle = getBundle();
+const glossaryTerms = recordsOfKind(bundle, "term")
+  .slice()
+  .sort((a, b) => a.preferredLabel.localeCompare(b.preferredLabel));
+---
+
+<BaseLayout
+  title="Glossary — Butt Lab"
+  description="The ten terms the published layer depends on, each with the short version and the full explanation."
+  eyebrow="Glossary"
+>
+  <h1>Glossary</h1>
+
+  <p class="page__lede">
+    These are the terms the published layer leans on. Wherever one of them appears in a method
+    explanation it carries a short tooltip and a link back to this page, so a reader never has
+    to guess what a word means in context.
+  </p>
+
+  {
+    glossaryTerms.map((term) => (
+      <article class="section" id={term.id}>
+        <div class="section__heading">
+          <h2>{term.preferredLabel}</h2>
+          <span class="record-id">{term.id}</span>
+        </div>
+        <p class="page__lede">{term.tooltip}</p>
+        {term.explanation.split("\n\n").map((paragraph) => (
+          <div class="prose">
+            <p>{paragraph}</p>
+          </div>
+        ))}
+        {term.aliases.length > 0 && (
+          <p class="mono small muted">Also called: {term.aliases.join(" · ")}</p>
+        )}
+        {term.methodIds.length > 0 && (
+          <p class="small">
+            Used by:{" "}
+            {term.methodIds.map((id) => {
+              const method = bundle.records.get(id);
+              return method?.kind === "method-family" ? (
+                <a href={`/methods/${method.id}/`}>{method.title}</a>
+              ) : null;
+            })}
+          </p>
+        )}
+      </article>
+    ))
+  }
+</BaseLayout>

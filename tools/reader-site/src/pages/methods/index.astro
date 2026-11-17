@@ -1,0 +1,70 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getBundle, recordsOfKind } from "../../lib/bundle";
+import { scoreSummary } from "../../lib/format";
+import type { AssessmentRecord, MethodFamilyRecord } from "../../lib/types";
+
+const bundle = getBundle();
+const families = (recordsOfKind(bundle, "method-family") as MethodFamilyRecord[]).sort((a, b) =>
+  a.id.localeCompare(b.id),
+);
+
+const assessmentsFor = (family: MethodFamilyRecord): AssessmentRecord[] =>
+  family.assessmentIds
+    .map((id) => bundle.records.get(id))
+    .filter((record): record is AssessmentRecord => Boolean(record));
+
+const scored = (family: MethodFamilyRecord) =>
+  assessmentsFor(family).filter((assessment) => assessment.status === "scored").length;
+const unknown = (family: MethodFamilyRecord) =>
+  assessmentsFor(family).filter((assessment) => assessment.status === "unknown").length;
+---
+
+<BaseLayout
+  title="Methods — the six recycling families"
+  description="Every published cigarette-butt recycling method family, explained on its own, with its assessment states and open questions."
+  eyebrow="Methods"
+>
+  <h1>The six method families</h1>
+  <p class="page__lede">
+    A family is a group of routes that work on the material in a broadly similar way. Each page below
+    explains one family on its own terms: what it starts from, what it does, where the material and
+    the contamination go, what the evidence supports, and what is still missing.
+  </p>
+
+  <ul class="record-list family-list">
+    {
+      families.map((family) => (
+        <li class="family-row">
+          <h2 class="family-row__title">
+            <a href={`/methods/${family.id}/`}>{family.title}</a>
+          </h2>
+          <p class="family-row__summary">{family.summary}</p>
+          <p class="family-row__meta mono">
+            <span class="record-id">{family.id}</span> · {scored(family)} criteria scored · {unknown(family)}{" "}
+            unknown
+          </p>
+        </li>
+      ))
+    }
+  </ul>
+
+  <section class="section" aria-labelledby="how-to-read-a-family">
+    <div class="section__heading">
+      <h2 id="how-to-read-a-family">How to read a family page</h2>
+    </div>
+    <div class="prose">
+      <p>
+        Every family page carries the same eleven sections in the same order, so two families can be
+        read against each other without hunting. The assessment table scores one criterion at a time
+        against that criterion's own rubric. An unknown is a result: it means the evidence needed to
+        answer the criterion was not located, and it is never turned into a zero.
+      </p>
+      <p>
+        To put two families side by side, use <a href="/compare/">Compare evidence</a>. It sorts by one
+        criterion at a time and can reorder the list to put the unknowns first, which is the fastest way
+        to find where the record is thinnest.
+      </p>
+    </div>
+  </section>
+</BaseLayout>

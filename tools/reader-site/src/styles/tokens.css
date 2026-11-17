@@ -1,0 +1,60 @@
+/* Butt Lab reader site — design tokens.
+   Every colour, type face, measure and step lives here as a custom property.
+   No colour literal appears anywhere else in the stylesheet. */
+
+:root {
+  /* --- surfaces --------------------------------------------------- */
+  --paper: #f3efe7;
+  --paper-raised: #fbf8f2;
+  --paper-sunken: #e9e3d7;
+
+  /* --- ink -------------------------------------------------------- */
+  --ink: #1f2328;
+  --ink-muted: #56616d;
+  --ink-faint: #7b8490;
+
+  /* --- rules ------------------------------------------------------ */
+  --rule: #d9d2c4;
+  --rule-strong: #b3a894;
+  --transparent: #0000;
+
+  /* --- print ------------------------------------------------------ */
+  --print-ink: #000;
+  --print-paper: #fff;
+
+  /* --- meaning ---------------------------------------------------- */
+  --teal: #1f5f6b;
+  --teal-soft: #e2eded;
+  --blue: #2c4a6e;
+  --blue-soft: #e7ecf3;
+  --amber: #94570f;
+  --amber-soft: #f7eddb;
+  --warn: #8a2e1e;
+  --warn-soft: #f8e8e3;
+
+  /* --- type ------------------------------------------------------- */
+  --font-display: "Archivo", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Source Serif 4", "Iowan Old Style", Georgia, serif;
+  --font-mono: "IBM Plex Mono", "Cascadia Mono", ui-monospace, monospace;
+
+  --step--1: 0.8125rem;
+  --step-0: 1.0625rem;
+  --step-1: 1.1875rem;
+  --step-2: 1.4375rem;
+  --step-3: 1.75rem;
+  --step-4: 2.125rem;
+  --step-5: 2.75rem;
+
+  /* --- measure and rhythm ---------------------------------------- */
+  --measure: 68ch;
+  --measure-wide: 84ch;
+  --gutter: 1.25rem;
+  --gap: 1rem;
+  --gap-lg: 2rem;
+  --radius: 2px;
+
+  /* --- motion ----------------------------------------------------- */
+  --motion-fast: 120ms;
+  --motion-slow: 260ms;
+  --ease: cubic-bezier(0.2, 0, 0.2, 1);
+}

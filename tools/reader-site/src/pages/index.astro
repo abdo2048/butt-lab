@@ -1,0 +1,108 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getBundle, recordsOfKind } from "../lib/bundle";
+import type { MaterialRecord, MethodFamilyRecord } from "../lib/types";
+
+const bundle = getBundle();
+const families = (recordsOfKind(bundle, "method-family") as MethodFamilyRecord[]).sort((a, b) =>
+  a.id.localeCompare(b.id),
+);
+const material = bundle.records.get("cigarette-butt") as MaterialRecord | undefined;
+---
+
+<BaseLayout
+  title="Butt Lab — the cigarette-butt recycling knowledge base"
+  description="Six method families, explained one by one, with every statement labelled by its evidence basis and every gap left open for a reader to judge."
+  eyebrow="Knowledge base"
+>
+  <div class="hero">
+    <div class="hero__text">
+      <h1 class="hero__title">What the evidence actually says about recycling cigarette butts</h1>
+      <p class="hero__lede">
+        Six method families, thirty registry entries, 134 published records. Each method is explained on
+        its own. Every statement carries the basis it rests on. Every number that could not be located
+        is left missing rather than estimated. The invention at the end of this is a set of
+        assumptions, not a finished process.
+      </p>
+      <p class="hero__actions">
+        <a class="action" href="/start/">Start here</a>
+        <a class="action action--quiet" href="/methods/">All six families</a>
+        <a class="action action--quiet" href="/compare/">Compare the evidence</a>
+      </p>
+    </div>
+    {
+      material && (
+        <dl class="specimen">
+          <div>
+            <dt>Specimen</dt>
+            <dd>{material.title}</dd>
+          </div>
+          <div>
+            <dt>Composition</dt>
+            <dd>{material.compositionSummary}</dd>
+          </div>
+          <div>
+            <dt>Carried residues</dt>
+            <dd>{material.contaminants.join(", ")}</dd>
+          </div>
+          <div>
+            <dt>Stopping condition</dt>
+            <dd>Heavy metals — cadmium, lead, arsenic, mercury — are a stop condition, not a parameter.</dd>
+          </div>
+          <div>
+            <dt>State of the record</dt>
+            <dd>Desk research. No measurement was made for this project.</dd>
+          </div>
+        </dl>
+      )
+    }
+  </div>
+
+  <section class="section" aria-labelledby="families">
+    <div class="section__heading">
+      <h2 id="families">The six method families</h2>
+      <p class="section__note">Each family is a route group, not a company, and each one opens on its own page.</p>
+    </div>
+    <ul class="family-grid">
+      {
+        families.map((family) => (
+          <li class="family-card">
+            <h3 class="family-card__title">
+              <a href={`/methods/${family.id}/`}>{family.title}</a>
+            </h3>
+            <p class="family-card__summary">{family.summary}</p>
+            <p class="family-card__more">
+              <a href={`/methods/${family.id}/`}>Read the method</a>
+            </p>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <section class="section" aria-labelledby="how-to-read">
+    <div class="section__heading">
+      <h2 id="how-to-read">How to read this site</h2>
+    </div>
+    <div class="prose">
+      <p>
+        A statement marked <span class="chip chip--source">SOURCE</span> rests on a retrieved primary
+        source. A statement marked <span class="chip chip--inference">INFERENCE</span> was reasoned by
+        the research assistant and is not in any source. A statement marked
+        <span class="chip chip--ai">AI REVIEWED</span> is a proposal. Where evidence is missing, the
+        page says so instead of filling the gap.
+      </p>
+      <p>
+        Scores are given against one criterion at a time, never combined into a single grade, and an
+        unknown score is a result rather than a failure. Nothing on this site has been experimentally
+        validated, safety-approved, costed, or shown to be novel, and nothing here authorises an
+        experiment.
+      </p>
+      <p>
+        <a href="/start/">Start here</a> explains the material, the families and the labels. The
+        <a href="/research-method/">research-method page</a> explains who did the work and what was
+        never done. The <a href="/limitations/">limitations page</a> lists every open gap.
+      </p>
+    </div>
+  </section>
+</BaseLayout>

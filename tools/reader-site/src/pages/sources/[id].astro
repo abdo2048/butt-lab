@@ -1,0 +1,135 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getBundle, recordsOfKind } from "../../lib/bundle";
+import { evidenceStateLabel, rightsLabel } from "../../lib/format";
+import type { MethodFamilyRecord, SourceRecord } from "../../lib/types";
+
+export function getStaticPaths() {
+  const bundle = getBundle();
+  return recordsOfKind(bundle, "source").map((source) => ({
+    params: { id: source.id },
+    props: { source },
+  }));
+}
+
+const { source } = Astro.props as { source: SourceRecord };
+
+const bundle = getBundle();
+const claims = recordsOfKind(bundle, "claim").filter((claim) => claim.sourceId === source.id);
+const methods = source.methodIds
+  .map((id) => bundle.records.get(id))
+  .filter((record): record is MethodFamilyRecord => record?.kind === "method-family");
+---
+
+<BaseLayout
+  title={`${source.title} — Butt Lab`}
+  description={source.citation}
+  eyebrow="Source"
+  recordId={source.id}
+>
+  <h1>{source.title}</h1>
+
+  <p class="page__lede">{source.citation}</p>
+
+  <section class="section" aria-labelledby="source-facts">
+    <div class="section__heading">
+      <h2 id="source-facts">The record</h2>
+    </div>
+    <dl class="audit-list">
+      <dt>Type</dt>
+      <dd>{source.sourceType}</dd>
+      <dt>Version or date</dt>
+      <dd>{source.versionOrDate}</dd>
+      <dt>Accessed</dt>
+      <dd>{source.accessDate}</dd>
+      <dt>Publisher or issuer</dt>
+      <dd>{source.publisherOrIssuer}</dd>
+      <dt>Rights</dt>
+      <dd>{rightsLabel(source.rights)}</dd>
+      {
+        source.derivatives.length > 0 && (
+          <>
+            <dt>Derivatives held</dt>
+            <dd>
+              {source.derivatives.map((derivative) => (
+                <span class="small">
+                  {derivative.title} — {derivative.qualityNote}
+                </span>
+              ))}
+            </dd>
+          </>
+        )
+      }
+      <dt>Original</dt>
+      <dd>
+        <a href={source.originalUrl} rel="noreferrer noopener">
+          {source.originalUrl}
+        </a>
+      </dd>
+    </dl>
+    <p class="small muted">
+      The link above points to the publisher. Link availability is not checked when this page is
+      built, so a dead link is possible; the citation above stands on its own.
+    </p>
+  </section>
+
+  {
+    methods.length > 0 && (
+      <section class="section" aria-labelledby="source-methods">
+        <div class="section__heading">
+          <h2 id="source-methods">Method families that rest on this source</h2>
+        </div>
+        <ul class="record-list">
+          {methods.map((method) => (
+            <li>
+              <a href={`/methods/${method.id}/`}>{method.title}</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+
+  {
+    claims.length > 0 && (
+      <section class="section" aria-labelledby="source-claims">
+        <div class="section__heading">
+          <h2 id="source-claims">Claims taken from this source</h2>
+        </div>
+        <ul class="record-list">
+          {claims.map((claim) => (
+            <li>
+              <p>{claim.proposition}</p>
+              <p class="mono small">
+                {evidenceStateLabel(claim.evidenceState)}
+                {claim.locator ? ` · locator: ${claim.locator}` : ""}
+              </p>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+
+  <section class="section" aria-labelledby="source-audit">
+    <div class="section__heading">
+      <h2 id="source-audit">Audit trail</h2>
+    </div>
+    <dl class="audit-list">
+      <dt>Record id</dt>
+      <dd class="mono">{source.id}</dd>
+      {
+        source.auditAliases.length > 0 && (
+          <>
+            <dt>Internal names</dt>
+            <dd class="mono">{source.auditAliases.join(", ")}</dd>
+          </>
+        )
+      }
+      <dt>Publication state</dt>
+      <dd>{source.publicationState}</dd>
+      <dt>Schema version</dt>
+      <dd class="mono">{source.schemaVersion}</dd>
+    </dl>
+  </section>
+</BaseLayout>

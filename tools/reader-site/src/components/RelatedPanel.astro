@@ -1,0 +1,62 @@
+---
+import { backlinks, outgoing } from "../lib/relationships";
+import type { BundleData } from "../lib/bundle";
+
+interface Props {
+  bundle: BundleData;
+  id: string;
+  heading?: string | undefined;
+}
+
+const { bundle, id, heading = "Related records" } = Astro.props;
+const out = outgoing(bundle, id);
+const incoming = backlinks(bundle, id);
+---
+
+<section class="section related" aria-labelledby="related-heading">
+  <h2 id="related-heading" class="section__heading">{heading}</h2>
+  <div class="related__cols">
+    <div>
+      <h3 class="related__subhead">This record points at</h3>
+      {
+        out.length === 0 ? (
+          <p class="muted small">Nothing else in the published layer points here.</p>
+        ) : (
+          <ul class="related__list">
+            {out.map((item) => (
+              <li>
+                {item.href ? (
+                  <a href={item.href}>{item.title}</a>
+                ) : (
+                  <span>{item.title}</span>
+                )}
+                <span class="related__kind">{item.kind}</span>
+              </li>
+            ))}
+          </ul>
+        )
+      }
+    </div>
+    <div>
+      <h3 class="related__subhead">Points here</h3>
+      {
+        incoming.length === 0 ? (
+          <p class="muted small">No other published record points here.</p>
+        ) : (
+          <ul class="related__list">
+            {incoming.map((item) => (
+              <li>
+                {item.href ? (
+                  <a href={item.href}>{item.title}</a>
+                ) : (
+                  <span>{item.title}</span>
+                )}
+                <span class="related__kind">{item.kind}</span>
+              </li>
+            ))}
+          </ul>
+        )
+      }
+    </div>
+  </div>
+</section>

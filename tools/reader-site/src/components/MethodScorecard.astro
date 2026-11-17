@@ -1,0 +1,91 @@
+---
+import EvidenceChip from "./EvidenceChip.astro";
+import ScoreTicks from "./ScoreTicks.astro";
+import { basisChip, criterionLabel, scoreSummary, statusChip } from "../lib/format";
+import type { AssessmentRecord, ClaimRecord } from "../lib/types";
+
+interface Props {
+  assessments: AssessmentRecord[];
+  claims: Map<string, ClaimRecord>;
+}
+
+const { assessments, claims } = Astro.props;
+---
+
+<table class="table table--scores">
+  <caption class="visually-hidden">
+    Criterion assessments for this method. Each criterion is scored against its own rubric;
+    the criteria are not averaged and no overall ranking is given.
+  </caption>
+  <thead>
+    <tr>
+      <th scope="col">Criterion</th>
+      <th scope="col">Result</th>
+      <th scope="col">Basis</th>
+      <th scope="col">Why</th>
+    </tr>
+  </thead>
+  <tbody>
+    {
+      assessments.map((assessment) => {
+        const supporting = assessment.supportingClaimIds
+          .map((id) => claims.get(id))
+          .filter((claim): claim is ClaimRecord => claim !== undefined);
+        const counter = assessment.conflictingClaimIds
+          .map((id) => claims.get(id))
+          .filter((claim): claim is ClaimRecord => claim !== undefined);
+        const reason =
+          assessment.rationale ?? assessment.unknownReason ?? assessment.notApplicableReason ?? "";
+        return (
+          <tr>
+            <th scope="row">
+              <span class="criterion-label">{criterionLabel(assessment.criterionId)}</span>
+              <span class="record-id">{assessment.criterionId}</span>
+            </th>
+            <td>
+              <span class="score-line">
+                <ScoreTicks status={assessment.status} score={assessment.score} />
+                <span class="score-value">{scoreSummary(assessment)}</span>
+              </span>
+              <EvidenceChip chip={statusChip(assessment.status)} />
+            </td>
+            <td>
+              <EvidenceChip chip={basisChip(assessment.basis)} />
+            </td>
+            <td>
+              <p class="why">{reason}</p>
+              {supporting.length > 0 && (
+                <details class="drawer drawer--inline">
+                  <summary>Supporting claims ({supporting.length})</summary>
+                  <div class="drawer__body">
+                    <ul class="record-list">
+                      {supporting.map((claim) => (
+                        <li>
+                          <span class="small">{claim.proposition}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </details>
+              )}
+              {counter.length > 0 && (
+                <details class="drawer drawer--inline">
+                  <summary>Counter-evidence and dissent ({counter.length})</summary>
+                  <div class="drawer__body">
+                    <ul class="record-list">
+                      {counter.map((claim) => (
+                        <li>
+                          <span class="small">{claim.proposition}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </details>
+              )}
+            </td>
+          </tr>
+        );
+      })
+    }
+  </tbody>
+</table>
