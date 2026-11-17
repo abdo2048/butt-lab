@@ -164,12 +164,13 @@ function findEscapingManifestPath(value: unknown): string | undefined {
 function assertAllowedListedPath(path: string): void {
   const segments = path.split("/");
   if (
+    segments[0] === ".github" ||
     segments[0] === ".superpowers" ||
     segments.some((segment) => segment === "session-log" || segment === "session-log.md")
   ) {
     fail(
       "PATH_FORBIDDEN",
-      "Internal planning and session-log paths may not be publication inputs.",
+      "Internal planning, CI configuration and session-log paths may not be publication inputs.",
       path,
     );
   }

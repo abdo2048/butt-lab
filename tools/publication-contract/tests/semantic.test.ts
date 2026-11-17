@@ -736,6 +736,27 @@ test("SOURCE_DERIVATIVE_PATH_INVALID reports a derivative whose path enters a re
   assert.ok(errorCodes(result).includes("SOURCE_DERIVATIVE_PATH_INVALID"));
 });
 
+test("SOURCE_DERIVATIVE_PATH_INVALID reports a derivative whose path enters the CI configuration directory", async (t) => {
+  const records = cloneFixtureRecords();
+  const source = findFixtureRecord(records, "example-patent");
+  source["derivatives"] = [
+    {
+      id: "fixture-derivative",
+      path: ".github/workflows/build.yml",
+      sha256: "b".repeat(64),
+      extractionMethod: "Fixture extraction.",
+      pageMapping: "Fixture page mapping.",
+      qualityWarnings: [],
+      publicationRight: "publish-full-text",
+    },
+  ];
+
+  const loaded = await loadFixture(t, records);
+  const result = validatePublicationSemantics(loaded, rubrics);
+
+  assert.ok(errorCodes(result).includes("SOURCE_DERIVATIVE_PATH_INVALID"));
+});
+
 test("SOURCE_DERIVATIVE_HASH_MISMATCH reports a derivative whose hash does not match its manifest-listed path", async (t) => {
   const records = cloneFixtureRecords();
   const source = findFixtureRecord(records, "example-patent");

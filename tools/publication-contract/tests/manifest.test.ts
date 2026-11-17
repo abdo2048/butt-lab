@@ -315,6 +315,7 @@ test("forbidden prefixes and session-log paths cannot resolve", async (t) => {
     ["../packets/packet.md", "PATH_OUTSIDE_PUBLICATION_ROOT"],
     ["../materials/raw.md", "PATH_OUTSIDE_PUBLICATION_ROOT"],
     [".superpowers/private.md", "PATH_FORBIDDEN"],
+    [".github/pull_request_template.md", "PATH_FORBIDDEN"],
     ["state/session-log.md", "PATH_FORBIDDEN"],
   ] as const;
 

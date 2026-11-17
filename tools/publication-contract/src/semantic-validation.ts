@@ -37,6 +37,7 @@ type AuditReference = Readonly<{
  * `publication` is the public layer and is deliberately absent.
  */
 const REPOSITORY_LOCAL_ROOT_SEGMENTS: ReadonlySet<string> = new Set([
+  ".github",
   ".superpowers",
   "agents",
   "docs",

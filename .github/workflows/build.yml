@@ -1,0 +1,73 @@
+name: build
+
+# This workflow builds and validates. It has no deploy step and no access to deployment
+# credentials. The deploy workflow is a separate, manual, approval-gated workflow.
+on:
+  push:
+    branches:
+      - main
+      - feat/reader-platform
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: |
+            tools/publication-contract/package-lock.json
+            tools/reader-site/package-lock.json
+
+      - name: Install the publication contract dependencies
+        working-directory: tools/publication-contract
+        run: npm ci
+
+      - name: Install the reader site dependencies
+        working-directory: tools/reader-site
+        run: npm ci
+
+      - name: Validate the publication layer
+        working-directory: tools/publication-contract
+        run: npm run validate
+
+      - name: Run the publication contract tests
+        working-directory: tools/publication-contract
+        run: npm test
+
+      - name: Export the publication bundle
+        working-directory: tools/publication-contract
+        run: npm run export
+
+      - name: Build the reader site
+        working-directory: tools/reader-site
+        run: npm run build
+
+      - name: Run the reader site tests
+        working-directory: tools/reader-site
+        run: npm test
+
+      - name: Assemble the content-addressed artifact
+        working-directory: tools/reader-site
+        env:
+          PUBLICATION_VERSION: batch-02-pilot
+          SOURCE_COMMIT: ${{ github.sha }}
+        run: node scripts/build-artifact.ts ../.. artifact
+
+      - name: Upload the artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: butt-lab-reader-${{ github.sha }}
+          path: tools/reader-site/artifact
+          retention-days: 30
+          if-no-files-found: error

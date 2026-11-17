@@ -9,17 +9,19 @@
 
 version: 3
 updated: '2026-11-17'
-status: reader_platform_task_4_in_progress
+status: reader_platform_release_gate_in_progress
 
 execution: file-directed; host must trigger/resume; no scheduler installed
 
 next_action: >-
-  Task 4, the Astro and Pagefind reader application, is built and verified in
-  tools/reader-site: 28 static pages, a Pagefind index, and 99 reader tests that pass.
-  The remaining work is Phase C (CI that cannot deploy), Phase D (release preparation and
-  the acceptance gate) and Phase E (the Cloudflare Workers setup and the manual wrangler
-  steps for the operator). Deployment, publication, experiment and pilot each remain
-  separately unauthorized.
+  Phase C is half done. The release gate exists and refuses every deployment: the
+  content-addressed artifact, the approval verifier, and the two CI workflows, with
+  build.yml unable to deploy and deploy.yml able to deploy only after the operator's
+  approval record is verified against the artifact's actual bytes. The remaining work
+  is to finish Phase C (the wrangler configuration and the manual deployment guide
+  written from the real wrangler help output), then Phase D (release preparation and
+  the acceptance gate), then Phase E (hosting, on the operator's explicit go-ahead).
+  Deployment, publication, experiment and pilot each remain separately unauthorized.
 
 pending_manual_action: >-
   Three operator decisions remain outstanding and none of them is made here. First, the
@@ -31,8 +33,8 @@ pending_manual_action: >-
 current_plan: docs/BUILD-PLAN.md
 
 current_unit:
-  name: reader_platform_task_4
-  unit: Build the Astro and Pagefind reader application over the exported bundle
+  name: reader_platform_release_gate
+  unit: Phase C, the CI and the gated deployment path that refuses until the operator approves
   branch: feat/reader-platform
   worktree: C:\w\rp
   plan: docs/BUILD-PLAN.md
@@ -54,18 +56,37 @@ current_unit:
     - /egypt/
     - /research-method/
     - /limitations/
-  status: complete_built_and_verified
+  status: release_gate_built_and_verified
   last_actor: operator-directed OpenCode session (displayed model MiniMax M3.1 Flash Free; underlying model not verified)
   last_run: '2026-11-17'
+
+release_gate:
+  artifact:
+    builder: tools/reader-site/scripts/build-artifact.ts
+    identity: the sha256 of artifact-manifest.json, which lists every file with its own hash
+    contents: the built site, the bundle manifest, and artifact-manifest.json
+  verifier:
+    script: tools/reader-site/scripts/verify-approval.ts
+    behaviour: refuses on a missing approval, a different commit, version, build run or
+      artifact hash, a changed file, or an extra file; it never approves
+  build_workflow: .github/workflows/build.yml
+  build_workflow_capability: builds, validates and uploads an artifact; it cannot deploy
+  deploy_workflow: .github/workflows/deploy.yml
+  deploy_workflow_capability: workflow_dispatch only; verifies the approval against the
+    artifact bytes before it deploys
+  approval_record: operator/deployment-approval.json
+  approval_record_state: not created; the gate therefore refuses every deployment
+  status: built_and_verified
 
 archive:
   frozen_history: docs/history/
   pre_slim_state: docs/history/workflow-state-2026-11-17.yaml
-  session_log: docs/history/session-log.md
+  frozen_session_log: docs/history/session-log.md
+  active_session_log: state/session-log.md
   note: >-
     docs/history/ is frozen. Read it to learn why a decision was made. Never edit it,
-    never extend it and never treat it as dispatch. The current dispatch is this file
-    and docs/BUILD-PLAN.md.
+    never extend it and never treat it as dispatch. The current dispatch is this file,
+    state/session-log.md and docs/BUILD-PLAN.md.
 
 content_state:
   method_registry:
@@ -87,7 +108,7 @@ content_state:
     stack: Astro plus Pagefind static search
     pages_built: 28
     pagefind_index: 28 pages, 2056 words
-    reader_tests: 99 tests, 99 pass, 0 fail
+    reader_tests: 113 tests, 113 pass, 0 fail
     build_command: npm run build in tools/reader-site
     bundle_rule: >-
       The site consumes the exported bundle only. scripts/build-content.ts verifies every
@@ -135,7 +156,7 @@ permissions:
   registries: read-only
   backup: immutable
   prior_scientific_outputs: read-only; add versions/proposals
-  progress_updates: checkpoint in state/workflow.yaml; dated history in docs/history/session-log.md
+  progress_updates: checkpoint in state/workflow.yaml; dated history in state/session-log.md; the pre-2026-11-17 log is frozen at docs/history/session-log.md
   external_writes: host approval required
   experiments:
     status: ai_designed_only
