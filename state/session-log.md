@@ -542,3 +542,39 @@ This continuation added no commit and staged nothing. Working tree at the end of
 ### Provenance
 
 Derived entirely from the accepted batch-01 record, the Batch-02 deliverables, the M01 plan, and the operator-approved reader-platform design. No new primary source was read. Methodological discipline (blocking and randomization; the experimental unit and the pseudoreplication guard; pre-stated criteria and between-day precision; named-approach detection and quantitation limits with confirmation; the GUM budget with per-input distribution and degrees of freedom; no invented effect size and a sensitivity range rather than a single n) follows the experimental-design, statistical-power, analytical-method-validation and uncertainty-and-units skills, whose required reference is recorded in the document and repeated to the operator.
+
+---
+
+## 2026-11-17: Operator authorization for AI scientist-inventor role and AI-designed experiments
+
+**Operator instruction:** The AI shall act as a scientist-inventor with full knowledge of the accepted record, permitted to retrieve further knowledge from the internet and to invent new methods. Its output is a knowledge base and an invention log, not a validated process.
+
+**Changes recorded:**
+
+1. **`state/workflow.yaml` → `permissions.ai_role`** (new block):
+   - `title: scientist-inventor`
+   - `granted_by: operator instruction 2026-11-17`
+   - `standing, may_do, readership_assumption, judgement_timing, labeling_required` all set per operator vision
+   - Labeling: `source_supported`, `ai_inference`, `ai_proposal`, `parameter_not_located`, `unverified`
+
+2. **`state/workflow.yaml` → `permissions.experiments`** (updated):
+   - `status: ai_designed_only`
+   - `authorized_by: operator instruction 2026-11-17`
+   - `ai_may`: design/specify/plan experiments, propose methods/processes/formulations/protocols, retrieve/read primary sources, run executable simulations
+   - `ai_must_not`: handle material, collect samples, operate equipment, enter laboratory, perform physical measurement/trial/pilot
+   - `physical_execution`: requires qualified facility, risk assessment, lawful contaminated-waste handling, named human actor; status: not arranged
+
+3. **`charter.md`**: amended with AI Scientist-Inventor Role section and Experiment Authorization section
+
+4. **`reports/batch-02/HANDOFF-BRIEF.md`**: sections 8, 10 rewritten; new section 11 added recording authorizations
+
+5. **`reports/batch-02/invention.md`**: header updated with AI role and labeling convention
+
+**Guardrails held:**
+- No physical experiment authorized; AI-designed only
+- Physical execution boundary explicit: requires qualified facility, risk assessment, lawful waste handling, named human actor — none exist
+- No declaration of any family or proposal as clean, detoxified, safe, commercially validated, environmentally beneficial, novel, patentable, deployable, or costed
+- Labelling required on every statement; judgement deferred to after project end by human and AI reviewers
+- Metals stop-condition and four-field sink requirement unchanged
+
+**Next action:** AI proceeds with scientist-inventor work — explaining methods, filling gaps from own knowledge (labeled), inventing new methods (labeled), designing experiment proposals (labeled), building knowledge base. Operator's accept/reject desk-record decision on batch-02 deliverables remains outstanding.

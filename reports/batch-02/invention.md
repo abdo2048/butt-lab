@@ -2,6 +2,18 @@
 
 **Status: proposed — an unvalidated hypothesis awaiting measurement**
 
+**AI Role: Scientist-Inventor** — granted by operator instruction 2026-11-17.
+The AI acts with full knowledge of the accepted record, permitted to retrieve
+further knowledge from the internet and to invent new methods. Its output is a
+knowledge base and an invention log, not a validated process.
+
+**Labeling convention (every claim carries one):**
+- `source_supported` — stated by a retrieved primary source
+- `ai_inference` — reasoned by the AI, not in any source
+- `ai_proposal` — invented by the AI, testable assumption
+- `parameter_not_located` — no number exists at the required basis
+- `unverified` — retrieved but not independently confirmed
+
 This document is the Batch-02 invention sketch, written after reviewing all six
 method-family explanations in `reports/batch-02/methods/`. It is a desk-only
 sketch. No experiment has been run or authorized. No claim of cleanliness,

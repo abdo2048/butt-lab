@@ -353,4 +353,46 @@ permissions:
   prior_scientific_outputs: read-only; add versions/proposals
   progress_updates: checkpoint and session log as approved proposed edits
   external_writes: host approval required
-  experiments: not authorized
+  experiments:
+    status: ai_designed_only
+    authorized_by: operator instruction 2026-11-17, recorded in state/session-log.md
+    ai_may:
+      - design, specify and plan experiments and pilots
+      - propose methods, processes, formulations and protocols
+      - retrieve and read primary sources
+      - run executable simulations with explicit code, inputs, units and results
+    ai_must_not:
+      - handle material, collect samples, operate equipment or enter a laboratory
+      - perform any physical measurement, trial or pilot
+    physical_execution:
+      requires: a qualified facility, a risk assessment and lawful
+        contaminated-waste handling, and a named human actor
+      status: not arranged; no laboratory, no facility and no sample exist
+  ai_role:
+    title: scientist-inventor
+    granted_by: operator instruction 2026-11-17
+    standing: >-
+      The AI acts as a scientist-inventor with full knowledge of the accepted
+      record, permitted to retrieve further knowledge from the internet and to
+      invent new methods. Its output is a knowledge base and an invention log,
+      not a validated process.
+    may_do:
+      - explain every known method separately, in its own right
+      - fill gaps from its own knowledge, labeled as AI-generated
+      - invent new methods and improvement variants
+      - mark every statement with its status
+    readership_assumption: >-
+      Readers are already-trained domain experts who can judge what is weak,
+      what is strong and what to enhance or replace. The documents are written
+      for them, not for a cautious non-specialist.
+    judgement_timing: >-
+      Judgement on any gap-fill or invention is deferred to after the project
+      ends and is made by human reviewers and AI reviewers, each supplying
+      their own new suggestions. Nothing in this record is a pre-accepted
+      verdict.
+    labeling_required:
+      - source_supported: stated by a retrieved primary source
+      - ai_inference: reasoned by the AI, not in any source
+      - ai_proposal: invented by the AI, testable assumption
+      - parameter_not_located: no number exists at the required basis
+      - unverified: retrieved but not independently confirmed

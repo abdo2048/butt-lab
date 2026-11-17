@@ -187,29 +187,38 @@ reinforces rather than relaxes the stop-condition.
 
 ## 8. Evidence discipline — the vocabulary to use
 
-Use these terms with their accepted meanings. Do not relax them.
+The AI writes for **already-trained domain experts** who can judge what is weak, what is strong,
+and what to enhance or replace. Judgement on any gap-fill or invention is deferred to after the
+project ends and is made by human reviewers and AI reviewers, each supplying their own new
+suggestions. Nothing in this record is a pre-accepted verdict.
 
-- **Source-supported** — the read record states a mechanism or claim.
-- **Inference** — interpretation without demonstrated performance.
-- **New-assumption** — an unmeasured performance, routing or usability proposition.
-- **`parameter-not-located`** — any unspecified numerical criterion, sample count, method
-  performance, price, operating condition or partition value. This is the correct label for a
-  missing number. It does **not** create a universal threshold.
+Every statement must carry one of these labels:
 
-Rules for the work you are being handed:
+- **source_supported** — stated by a retrieved primary source (patent, paper, standard, regulatory
+  doc, company filing). Quote the exact section and give the URL or citation.
+- **ai_inference** — reasoned by the AI from available knowledge, not in any source. Write the
+  reasoning explicitly.
+- **ai_proposal** — invented by the AI as a testable hypothesis, design, or improvement variant.
+  State what would falsify it.
+- **parameter_not_located** — no number exists at the required basis and boundary. This is not
+  "zero" and not "unknown everywhere" — it is a precise gap label.
+- **unverified** — retrieved from a source but not independently confirmed.
 
-1. **Never write a favourable number that the source does not state.** A recovered price, an
-   efficiency, a removal percentage, a sample count or a temperature that is not in the record
-   stays `parameter-not-located`.
+Rules for the work:
+
+1. **Fill gaps from your own knowledge, and label it `ai_inference` or `ai_proposal`.** Do not
+   leave `parameter_not_located` where you can reason to a plausible value — write the value, show
+   the reasoning, and label it. The label is the honesty; the reasoning is the value.
 2. **Never let one field substitute for another.** A closed mass balance is not a safety result; a
    permit or partner name is not treatment performance; a certificate is not product performance.
 3. **Never declare a family clean, detoxified, safe, commercially validated or environmentally
    superior.** No family has the evidence for any of these.
-4. **Label every claim.** When you write, mark whether a statement is source-supported, inference,
-   or new-assumption.
-5. **Gap-closing convention:** continuing the established format from the Batch-02 documents:
-   `> **[GAP-CLOSING NOTE — AI, scientist-inventor role]** ...` — naming the missing evidence and
-   who could produce it, filled in-line rather than invented.
+4. **Label every claim.** Every paragraph, table cell, and numerical entry must carry its label.
+5. **Gap-closing convention:** use `> **[GAP-CLOSING NOTE — AI, scientist-inventor role]** ...`
+   to mark where you filled a gap from your own knowledge, naming what is missing and why your
+   fill is reasonable.
+6. **Invention convention:** for new methods or variants, use `> **[INVENTION — AI, scientist-inventor role]** ...`
+   to present the proposal with its falsification test.
 
 ## 9. Known limitations of this handoff — read before trusting it
 
@@ -226,33 +235,67 @@ Two honest limitations you should factor into your own work:
 
 ## 10. What you may and may not do
 
-**Acceptable continuation work (desk research):**
+**Acceptable continuation work (AI as scientist-inventor):**
 
 - Retrieve and read primary sources — patents, journal articles, standards, regulatory documents,
   company filings.
-- Extend the gap-closing evidence: locate, quote, and cite what already exists.
-- Close document-level gaps that retrieval can close.
-- Draft **measurement and pilot plans as proposals**, clearly labeled as unvalidated and awaiting
-  the measurement that could kill them.
-- Tighten the four-field sink failure map per family and per stream.
+- Explain every known method separately, in its own right, with full mechanistic detail.
+- Fill gaps from your own knowledge, labeled as `ai_inference` or `ai_proposal`.
+- Invent new methods, improvement variants, and hybrid process designs.
+- Mark every statement with its status label (source_supported, ai_inference, ai_proposal,
+  parameter_not_located, unverified).
+- Design, specify, and plan experiments and pilots as **testable proposals**, clearly labeled as
+  `ai_proposal` with their falsification test named.
+- Run executable simulations with explicit code, inputs, units, and results.
+- Build a complete knowledge base of the cigarette-butt recycling industry.
 
-**NOT acceptable without new, separate operator authorization:**
+**Physical execution boundary (AI does not cross this):**
 
-- Running, or appearing to run, any experiment, laboratory measurement, pilot or field trial.
-- Declaring any family or proposal clean, detoxified, safe, commercially validated,
-  environmentally beneficial, novel, patentable, deployable or costed.
-- Making freedom-to-operate, legal, regulatory-acceptance or deployment determinations.
-- Publishing, deploying, merging, or starting a reader application.
+- The AI does not handle material, collect samples, operate equipment, or enter a laboratory.
+- The AI does not perform any physical measurement, trial, or pilot.
+- Physical execution requires a qualified facility, a risk assessment, lawful contaminated-waste
+  handling, and a named human actor. None of these exist yet.
 
-Closing a **measurement** gap requires an authorized experiment, which does not exist. If your
-conclusion needs a measurement that has not been made, the correct output is a **proposed
-measurement with its decisive test named** — not the measurement's presumed result.
+**Judgement is deferred:**
 
-## 11. Where the current state is recorded
+- No family or proposal is declared clean, detoxified, safe, commercially validated,
+  environmentally beneficial, novel, patentable, deployable, or costed.
+- No freedom-to-operate, legal, regulatory-acceptance, or deployment determination is made.
+- Publication, deployment, merge, or reader-application start requires separate operator
+  authorization.
+- **Judgement on any gap-fill or invention happens after the project ends**, by human reviewers
+  and AI reviewers, each supplying their own new suggestions. The AI's output is the knowledge
+  base and the invention log — the verdict comes later.
 
-- `state/workflow.yaml` → `batch_02:` block (status `complete_pending_operator_decision`) and
-  `gap_closing.remaining_open_gaps`
-- `state/session-log.md` → `## 2026-11-16: Batch-02 desk cycle complete ...`
+## 11. Operator authorization recorded 2026-11-17 (this session)
+
+**AI Role: Scientist-Inventor** — granted by operator instruction, recorded in
+`state/workflow.yaml` → `permissions.ai_role` and `state/session-log.md`.
+
+- The AI acts as a scientist-inventor with full knowledge of the accepted record, permitted to
+  retrieve further knowledge from the internet and to invent new methods.
+- Its output is a knowledge base and an invention log, not a validated process.
+- Readers are already-trained domain experts who can judge what is weak, what is strong, and what
+  to enhance or replace.
+- Judgement on any gap-fill or invention is deferred to after the project ends and is made by
+  human reviewers and AI reviewers, each supplying their own new suggestions.
+
+**Experiments: AI-Designed Only** — recorded in `state/workflow.yaml` → `permissions.experiments`.
+
+- The AI **may** design, specify, and plan experiments and pilots; propose methods, processes,
+  formulations, and protocols; retrieve and read primary sources; run executable simulations with
+  explicit code, inputs, units, and results.
+- The AI **must not** handle material, collect samples, operate equipment, or enter a laboratory;
+  perform any physical measurement, trial, or pilot.
+- Physical execution requires a qualified facility, a risk assessment, lawful contaminated-waste
+  handling, and a named human actor. Status: not arranged; no laboratory, no facility, and no
+  sample exist.
+
+## 12. Where the current state is recorded
+
+- `state/workflow.yaml` → `batch_02:` block (status `complete_pending_operator_decision`),  
+  `gap_closing.remaining_open_gaps`, `permissions.ai_role`, `permissions.experiments`
+- `state/session-log.md` → `## 2026-11-17: Operator authorization for AI scientist-inventor role and AI-designed experiments ...`
 - `task_plan.md`, `progress.md`, `findings.md` at the repository root → Phase 11/12 entries
 
 The nine Batch-02 deliverables in `reports/batch-02/` are complete and awaiting the **operator's
