@@ -95,6 +95,12 @@ approved artifact, verifies it against the approval record, and only then runs
 does not exist, so the gate refuses every deployment until the operator creates it.
 
 **Proved.** 14 release tests and the full 113-test reader suite pass; typecheck clean.
+The publication contract also grew a test for the hole the new workflows opened (a
+derivative path or a publication input could have pointed into `.github/`), and now
+reads 207 tests / 206 pass / 1 skipped / 0 fail with
+`VALID records=134 pages=10 assets=0`.
+
+**Commit.** `f8608af`, pushed to `origin/feat/reader-platform`.
 
 **Remaining.** `wrangler.jsonc` and `docs/DEPLOY.md` with the manual Cloudflare Workers
 steps; the release-preparation checklist; the final verification run; then the
