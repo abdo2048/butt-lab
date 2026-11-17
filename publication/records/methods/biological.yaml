@@ -1,0 +1,124 @@
+schemaVersion: 1
+id: biological
+title: Biological treatment
+publicationState: approved
+auditAliases:
+  - F4
+  - batch-02 F4
+kind: method-family
+family: biological
+summary: "Enzymes or microorganisms are used to break down or modify the butt material over hours or days. It is the least developed family: no commercial process, no pilot-scale demonstration and no located evidence of full-butt biological recycling at any scale."
+mechanism: Enzymes such as esterases and deacetylases, or fungal and bacterial cultures, act on the butt under controlled temperature, acidity, moisture and aeration, with the aim of partly deacetylating the cellulose acetate or degrading the paper and tobacco fraction. The treated material is then separated from the biological medium, washed and dried.
+feedstock: Spent cigarette butts, possibly shredded, dried or sterilised first. No located source states a mass basis for the butt feed.
+preparation: Collection, and optional shredding, drying or sterilisation before the biological stage.
+steps:
+  - id: preparation
+    label: Collection and pre-treatment
+    description: Butts are collected and may be shredded, dried or sterilised before treatment. No located source states a preparation protocol.
+  - id: biological-treatment
+    label: Biological treatment
+    description: Enzymes or microorganisms act on the material under controlled conditions of temperature, acidity, moisture and aeration. No located source states an enzyme type or dose, a microbial strain, an incubation time, a temperature, an acidity or a nutrient formulation. The use of some organisms or enzymes is subject to biosafety and containment rules that any later trial would have to respect.
+  - id: separation
+    label: Separation and recovery
+    description: Treated material is separated from the biological medium by filtration or centrifugation, and any recovered cellulose or cellulose-acetate derivative is washed and dried.
+  - id: residual-handling
+    label: Residual handling
+    description: The spent biological medium contains degraded components, nutrients and any metals that were carried into it, and it requires a disposal route that has not been located.
+inputs:
+  - id: spent-butts
+    label: Spent cigarette butts
+    description: Butts as the substrate for the biological stage.
+  - id: biological-agent
+    label: Enzymes or microbial cultures
+    description: The biological agent used to deacetylate or degrade the material. No located source names a strain or an enzyme for this feedstock.
+  - id: nutrient-medium
+    label: Nutrient medium, where growth is required
+    description: Medium for microbial growth, where the route uses living cultures.
+streams:
+  - id: treated-material
+    label: Treated material
+    type: product
+    contaminants:
+      - nicotine
+      - cadmium
+      - lead
+      - arsenic
+    fateState: unresolved
+  - id: spent-medium
+    label: Spent biological medium
+    type: liquid
+    contaminants:
+      - nicotine
+      - cadmium
+      - lead
+      - arsenic
+    fateState: unresolved
+  - id: wash-water
+    label: Wash water from the recovered material
+    type: treatment-outlet
+    contaminants:
+      - nicotine
+    fateState: unresolved
+  - id: separated-solids
+    label: Separated solids
+    type: reject
+    contaminants:
+      - polycyclic aromatic hydrocarbons
+    fateState: unresolved
+products:
+  - id: treated-butts
+    label: Treated butt material
+    description: Partly deacetylated cellulose acetate, partly degraded cellulose or treated butt material, depending on the biological route. The degree of change, the purity and the residual toxicity are not established.
+    intendedUse: No use is established. No product standard accepts biologically treated material from this source and no located source demonstrates performance in any application.
+sinks:
+  - id: treated-material-sink
+    material: Biologically treated butt material, with an unestablished degree of change and unestablished residual contamination.
+    intendedUse: None established by any located source.
+    acceptanceBasis: Not established. No product standard, purity specification or contamination limit has been located for biologically treated material.
+    issuer: Not established. No company, standard body or authority has been located as the issuer of an accepted product.
+    finalRoute: Not established. The spent biological medium has no demonstrated disposal route in any located source.
+claimIds:
+  - biological-patent-device-exists
+  - biological-degradation-fate-unknown
+  - biological-metals-not-destroyed
+  - biological-polymer-degradation-unquantified
+  - biological-regulatory-status-not-located
+  - biological-inference-earliest-stage-family
+gapIds:
+  - biological-gap-no-degradation-study
+  - biological-gap-metal-accumulation
+  - biological-note-biosafety-adds-an-obligation
+termIds:
+  - cellulose-acetate
+  - nicotine
+  - tsna
+  - pah
+  - heavy-metals
+  - tar
+  - microplastics
+  - dry-mass-basis
+  - analyte-resolved-fate
+  - four-field-sink
+sourceIds:
+  - kr-microbial-composting
+hypothesisIds:
+  - batch-02-invention-sketch
+  - batch-02-scientist-inventor-proposals
+  - batch-02-evidence-gap-synthesis
+assessmentIds:
+  - biological-evidence-strength-assessment
+  - biological-process-ease-assessment
+  - biological-resource-burden-assessment
+  - biological-contaminant-fate-coverage-assessment
+  - biological-sink-completeness-assessment
+  - biological-product-readiness-assessment
+  - biological-regulatory-clarity-assessment
+  - biological-validation-maturity-assessment
+organizations:
+  - name: Korean patent holder for KR10-1782684-1
+    role: Holder of a granted Korean patent for a device that treats cigarette butts microbially, described through a trade-press reference rather than a located patent text.
+auditReferences:
+  - label: KR10-1782684-1 microbial treatment device
+    url: https://www.cctoday.co.kr/news
+    version: KR10-1782684-1
+    internalId: batch-01-kr10-1782684-1

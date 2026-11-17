@@ -1,0 +1,19 @@
+schemaVersion: 1
+id: mechanical-physical-evidence-strength-assessment
+title: Evidence strength for mechanical and physical washing
+publicationState: approved
+kind: assessment
+methodId: mechanical-physical
+criterionId: evidence-strength
+status: scored
+rubricVersion: 1.0.0
+supportingClaimIds:
+  - mechanical-physical-mechanism-staged-wash
+  - mechanical-physical-mechanism-grind-sieve-wash
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+score: 2
+label: Limited
+rationale: The located support is a granted patent and a peer-reviewed extraction study, both first-party or narrowly scoped, with no independent verification of any performance claim and no published removal data. That places the family in the limited band rather than the minimal band, because direct descriptions of the process do exist.
+basis: inference

@@ -1,33 +1,25 @@
 version: 2
-updated: '2026-11-16'
+updated: '2026-11-17'
 base_commit: fda66af351a37d38287792ed3b578a258eedf7fc
 batch: batch-01
 current_stage: 5
 execution: file-directed; host must trigger/resume; no scheduler installed
 status: awaiting_manual
 next_action: >-
-  Batch-01 desk investigation remains closed and its Stage-5 acceptance is unchanged.
-  Batch-02 desk cycle deliverables are complete and awaiting the operator's desk-record
-  decision (accept or reject); that decision has not been made and this continuation does
-  not make it. The evidence-gap continuation now holds two recorded proposals under
-  evidence_gap_continuation: the M01 measurement plan (Phase 14) and the M01 Gate-A
-  feasibility sub-study specification (Phase 15). Together they specify the question and
-  the study that would answer it; no measurement has been made and no sample count exists.
-  The next unit is a further gap proposal, on operator direction. Reader app, publication,
-  experiment, pilot and deployment each remain separately unauthorized. No experiment
-  authorized.
+  The reader platform and the Batch-02 content are now merged into main. The published
+  contract layer holds 134 approved records and 10 reader pages, validates clean, and
+  exports a byte-identical bundle on every run. The next build unit is Task 4, the Astro
+  and Pagefind reader application, which consumes the exported bundle only and never the
+  source YAML. Batch-02 is accepted as the content basis. The five decisions the M01
+  measurement proposals name remain open and are the operator's alone. Deployment,
+  publication, experiment and pilot each remain separately unauthorized.
 pending_manual_action: >-
-  Two separate desk-record decisions are outstanding. First, the batch-02 desk cycle
-  deliverables (7 method-family explanations, invention sketch, Egypt annex, handoff brief)
-  await the operator's accept/reject decision. Second, the evidence-gap continuation holds
-  two recorded proposals, the M01 measurement plan and the M01 Gate-A feasibility
-  sub-study specification, both unvalidated; each names decisions only a qualified
-  laboratory and the operator can settle separately (the minimum important difference, the
-  precision target, the fraction definitions and fines aperture, the analytical target
-  profile, and the authorization and resourcing of any laboratory work). Neither proposal
-  is experimental validation, safety approval, novelty determination, or deployment
-  authorization. Reader app, publication, experiment, pilot and deployment each remain
-  separately unauthorized.
+  Three operator decisions remain outstanding and none of them is made here. First, the
+  five decisions the M01 measurement proposals name, which only a qualified laboratory and
+  the operator can settle. Second, the release decision for the reader application, which
+  requires approving one exact commit for deployment, or not. Third, the decision on the
+  59 page images held only on the feat/publication-content-contract branch, which were
+  deliberately not carried into main.
 checkpoint:
   unit: Stage-5 batch-01 desk synthesis accepted; batch-01 closed
   completed_in_this_unit:
@@ -217,7 +209,7 @@ batch_02:
     batch-01 was closed as a desk investigation. Scope is desk research only. This
     authorization does not cover any experiment, pilot, reader application,
     publication, merge, deployment or push.
-  status: complete_pending_operator_decision
+  status: complete_accepted
   cycle: batch-02 desk cycle (method explanations, invention sketch, Egypt annex)
   execution: single AI execution, no three-model panel and no judge packet
   plan: specs/batch-02-launch-plan.md
@@ -251,8 +243,26 @@ batch_02:
     evidence gaps no dry-mass basis, no analyte-resolved contaminant fate, no
     leaching data, no use-specific performance evidence and the numbered
     M/R/S gap agenda, so the work can continue in another AI agent as desk
-    research and gap-closing proposals only. Awaiting the operator's
-    desk-record decision (accept or reject).
+    research and gap-closing proposals only. The operator accepted the Batch-02
+    desk-record deliverables on 2026-11-17 as the content basis for the reader site;
+    see operator_acceptance below.
+  operator_acceptance:
+    accepted: true
+    accepted_on: '2026-11-17'
+    statement: >-
+      OPERATOR DECISION RECORDED 2026-11-17: ACCEPT THE BATCH-02 DESK-RECORD DELIVERABLES
+      AS THE CONTENT BASIS FOR THE READER SITE. This entry records a decision the operator
+      already made; it does not make a new one. The decision itself was made in commit
+      50281ae, which added the acceptance document operator/batch-02-acceptance-2026-11-17.md
+      and was already reflected in the reader_platform operator_acceptance block. The
+      batch_02 status field was left at complete_pending_operator_decision in that commit,
+      which was an inconsistency in the record rather than a pending decision. The
+      acceptance covers the nine desk deliverables as the content basis for the reader
+      site. It accepts no experimental validation, no safety approval, no novelty or
+      patentability determination, no commercial or environmental claim, and no deployment
+      authorization.
+    provenance: >-
+      operator/batch-02-acceptance-2026-11-17.md, added in commit 50281ae
   no_experiment_authorized: true
   last_actor: operator-directed OpenCode session (displayed model MiMo-V2.6-Flash Free; underlying model not verified)
   last_run: '2026-11-16'
@@ -347,6 +357,553 @@ evidence_gap_continuation:
     branch feat/publication-content-contract and is not an ancestor of main; its file
     contents appear in main by the operator's own commit rather than by a merge of
     that branch.
+reader_platform:
+  authorization: >-
+    The operator instructed "full force auto" after the batch-02 research was closed:
+    the research, the method explanations and the invention are done, and the remaining
+    path to the deliverable is the public reader website, with external readers and an
+    optional AI second layer providing the critique. This authorizes building the
+    approved knowledge layer, the reader application, the CI build and the release
+    preparation on a branch, with every step recorded. It does NOT authorize merge to
+    main, push, deployment to GitHub Pages, publication, running any experiment, or
+    accepting the batch-02 deliverables on the operator's behalf.
+  status: task_3d_narrative_pages_complete_committed
+  operator_acceptance:
+    accepted: true
+    statement: >
+      OPERATOR DECISION: FULL AUTHORIZATION FOR AI CONTINUATION ON feat/reader-platform.
+      I authorize the AI agent to: read, edit, create, and delete files; commit and push
+      to feat/reader-platform; open pull requests; deploy preview builds (e.g., Vercel
+      preview deployments); run CI/builds; and continue research and development on the
+      reader-platform. The evidence discipline constraints remain in force per the design
+      spec: missing evidence = parameter-not-located/source-not-located/unknown (never
+      zero/invented); metals stop-condition remains in force; no experiment/physical trial
+      without separate authorization. Batch-02 deliverables are accepted as the content
+      basis for the reader site. Merge to main and production deployment remain separate
+      operator decisions.
+    recorded: '2026-11-17'
+  cycle: reader platform (design phases 2 to 4)
+  branch: feat/reader-platform
+  worktree: C:\w\rp
+  base: >-
+    main at 3d76367 "adding plan" plus the content contract cherry-picked as
+    4ed09b0 "feat: add publication content contract" (the branch feat/publication-content-contract
+    at 784bb14 is not an ancestor of main; its file contents were carried into main by
+    the operator's own commit).
+  plan: docs/superpowers/plans/2026-11-16-butt-lab-reader-platform.md
+  plan_version: v1.0
+  ledger: .superpowers/sdd/2026-11-16-butt-lab-reader-platform/progress.md
+  authority: >-
+    docs/superpowers/specs/2026-11-13-butt-lab-reader-platform-design.md together with
+    charter.md. The design specification is the binding requirement; the plan is its
+    argument and this unit records the rulings.
+  ran: '2026-11-16'
+  completed_tasks:
+    - task_1_reconcile_contract_with_design
+    - task_2_publish_material_and_six_method_families
+    - task_3_publish_invention_record_and_extend_manifest
+    - task_3b_publish_scientist_inventor_hypothesis_records_and_repair_state_files
+    - task_3c_untrack_export_scratch_artifacts_and_record_branch_topology
+    - task_3d_publish_four_narrative_pages_for_reader_routes
+  task_1:
+    unit: Reconcile the content contract with the reader-platform design
+    audit_recorded_in: docs/publication-content-contract.md section 11
+    rules_confirmed_enforced:
+      - Only an approved record may enter the publication manifest (RECORD_NOT_APPROVED).
+      - Inclusion is not transitive; a relationship to an unlisted record is a build error.
+      - Every output file is accounted for by manifest-derived closure (STAGE_CLOSURE_MISMATCH).
+      - A local artifact is blocked without public-local-copy rights (SOURCE_LOCAL_COPY_RIGHTS_INVALID).
+    rules_fixed:
+      - >-
+        One assessment per criterion per method. ASSESSMENT_DUPLICATE_CRITERION and
+        ASSESSMENT_CRITERION_MISSING added; the fixture method now carries all eight
+        catalog criteria.
+      - >-
+        The local-artifact rights rule is now proved by two named export tests, one for
+        rights-unresolved and one for link-only, using a correct asset hash so the rights
+        branch is the only thing that can fail the export.
+    deferred_minor: >-
+      Derive the claim content-kind enum from the canonical CONTENT_KINDS constant and add
+      a generated-schema union drift guard; the schema already contains exactly the five
+      canonical kinds, so this would characterize existing behaviour.
+    tests: 189 tests, 188 pass, 1 skipped (Windows cannot create symlinks), 0 fail
+    typecheck: clean
+    schema_determinism: byte-identical across two runs; hashes unchanged
+  task_2:
+    unit: Author the cigarette-butt material record and the six method families
+    scope: >-
+      Normalization of the already accepted batch-02 method documents into the contract's
+      approved layer. No new research was performed, no number was invented, and no
+      assessment was averaged or promoted.
+    layer_layout: >-
+      The contract's record namespace wins over the design specification's proposed layout:
+      records live at publication/records/<kind>/<id>.yaml because assertRecordNamespace
+      requires exactly that shape, and the design specification itself allows the layout to be
+      adjusted while the record contracts stay intact. Each family's reader narrative is a
+      manifest page at publication/pages/method-<slug>.md.
+    published_content: >-
+      One material record (cigarette-butt), six method-family records using the design's six
+      stable identifiers, 131 approved records in total, twelve source records with the
+      public links recorded in the project's method registry, ten glossary terms, and six
+      reader-facing method pages generated deterministically from the same source data.
+    families:
+      - mechanical-physical (two variants: staged water and ethanol washing; grinding, sieving and aqueous washing)
+      - thermal (dry size reduction and extrusion into a thermoplastic composite)
+      - chemical (solvent dissolution, filtration, precipitation and recovery)
+      - biological (enzymatic, microbial and composting-device routes)
+      - material-incorporation (bricks, asphalt, composites and panels)
+      - product-routes (a survey of candidate end products, not a process)
+    evidence_discipline:
+      - >-
+        Every claim that names a measurement is bound to a located source and a locator, or is
+        recorded as source-not-located with the question stated.
+      - >-
+        Resource burden is unknown for all six families, because the rubric's own rule requires
+        comparable functional units and denominators that do not exist; it is not estimated from
+        the appearance of the process.
+      - >-
+        Contaminant fate coverage, product readiness, regulatory clarity and validation
+        maturity are scored in the lowest band for every family, and the lowest band means a
+        completed assessment in that band, not an unassessed criterion.
+      - >-
+        Heavy metals are carried as a stop condition in every family and are never traded off
+        against a favourable result elsewhere.
+      - >-
+        The F3 minority position is preserved where it bears on a criterion, and the two
+        batch-01 families that have no batch-02 method document are recorded as explicit
+        coverage gaps rather than being quietly folded into a neighbouring family.
+    conflicts_preserved: >-
+      The conflicting published figures for the mechanical family's material split are recorded
+      inside a source-not-located claim and in the prose. They are not modelled as a
+      source-conflicted claim, because the contract requires a source identifier and a locator
+      for that state and the conflicting figures have no located public source.
+    coverage_gaps_recorded:
+      - thermal-gap-unreviewed-dense-fluid-route (next human work: source retrieval)
+      - chemical-gap-unreviewed-pulping-route (next human work: source retrieval)
+    deferred_to_task_3: >-
+      The invention record and its unvalidated-hypothesis gate test. The invention is still
+      awaiting the operator's accept/reject decision, and publishing it before that decision
+      would publish an unaccepted proposal, so the hypothesis gate test belongs with Task 3.
+    tests: 201 tests, 200 pass, 1 skipped (Windows cannot create symlinks), 0 fail
+    typecheck: clean
+    validation: VALID records=131 pages=6 assets=0, with seven deliberate ASSESSMENT_UNKNOWN warnings
+    export_determinism: byte-identical across two runs; 11 output files
+    public_boundary_scan: clean, no repository-local path in the exported bundle
+    commit: >-
+      885596b feat: publish the cigarette-butt material and six method families
+  guardrails_held:
+    - >-
+      No scientific content was approved and no publication occurred. The contract work is
+      tooling only; it decides no chemistry.
+    - The exporter remains network-free and deterministic.
+    - Missing evidence stays missing: parameter-not-located, source-not-located, unknown; never zero.
+    - No measurement, pilot, field trial or physical experiment was run or authorized.
+    - No novelty, patentability, freedom-to-operate, safety, regulatory or environmental-benefit claim was made.
+    - Batch-02 remains complete_pending_operator_decision; this continuation does not accept it.
+    - Merge to main, push, deployment and publication each remain separately unauthorized.
+    - The operator's own review model differs from design sections 12.5 and 14.5; the departure is recorded as a ruling and the deployment gate is retained because deployment is an action, not a review.
+  open_decisions:
+    - Whether to authorize a separate AI reviewer that reads the frozen package and proposes structured corrections; it may never approve or publish.
+    - Whether to build the second recyclable material on the same foundation.
+    - The operator's accept/reject decision on the batch-02 deliverables, still outstanding.
+    - The five decisions the M01 proposals name, which only a qualified laboratory and the operator can settle.
+  no_experiment_authorized: true
+  last_actor: operator-directed OpenCode session (displayed model MiniMax M3.1 Flash Free; underlying model not verified)
+  last_run: '2026-11-16'
+  retrieval_calls_used: 0
+  retrieval_ceiling: 24
+  repository_state: >-
+    The main checkout, the origin remote and the worktree C:\w\bpc are untouched by this
+    unit. All reader-platform work happens in C:\w\rp on branch feat/reader-platform.
+  task_3:
+    unit: Complete the sources library, author the invention record with its hypothesis gate test, extend the manifest, re-run validation, and commit
+    scope: >
+      The invention sketch from reports/batch-02/invention.md is published as a separate
+      hypothesis record (kind: hypothesis) with the new-unvalidated-hypothesis validation state.
+      The hypothesis gate test validates the required fields: validationState, falsifiers (min 1),
+      failureModes (min 1), validationQuestionIds (min 1, each resolving to a published gap),
+      sourceInputIds, assumptions, unresolvedDependencies, evidenceState, reviewer, recordVersion,
+      auditReferences, and the bidirectional link from every method family to the hypothesis.
+      The manifest is extended to list the hypothesis record alongside the 131 Task 2 records.
+    published_content: >
+      One new hypothesis record: batch-02-invention-sketch (id: batch-02-invention-sketch, kind: hypothesis,
+      contentKind: hypothesis, validationState: new-unvalidated-hypothesis). The manifest now lists
+      132 approved records (131 from Task 2 + 1 hypothesis) and 6 pages.
+    hypothesis_record: >
+      The hypothesis proposes that the four-field sink (dry-mass balance on a common dry-feed basis,
+      analyte-resolved contaminant fate across all output streams, a named final treatment route with
+      a jurisdiction-specific acceptance basis, and a use-specific product gate independent of
+      mass-balance closure) must be a mandatory prerequisite for any later authorized pilot. The
+      metals stop-condition is in force: any detectable metal above background in feedstock, wash
+      water, air emission, solid residue, or final product triggers a halt; the stream cannot
+      resume until analytical performance (inlet-to-outlet) is demonstrated. This sketch does not
+      propose how to remove metals; it proposes that metals are a stop condition, not a solvable
+      parameter within this sketch. The six method families remain as unvalidated inputs to this
+      prerequisite framework.
+    gate_test_added: >
+      Added "every published hypothesis passes the new-unvalidated-hypothesis gate" test in
+      tests/publication-layer.test.ts validating all 13 required fields and the bidirectional
+      link from every method family to the hypothesis.
+    evidence_discipline:
+      - No number was invented; missing evidence stays missing (parameter-not-located, source-not-located, unknown).
+      - The hypothesis references only the twelve located sources from the six method families.
+      - All six validationQuestionIds resolve to concrete gaps published in the layer.
+      - Heavy metals stop-condition remains in force; the hypothesis makes no metals-removal claim.
+    conflicts_preserved: >
+      The hypothesis is explicitly unvalidated (validationState: new-unvalidated-hypothesis) and
+      the gate test ensures it cannot be presented as established knowledge.
+    tests: 202 tests, 201 pass, 1 skipped (Windows cannot create symlinks), 0 fail
+    typecheck: clean (npx tsc --noEmit)
+    validation: VALID records=132 pages=6 assets=0, with seven deliberate ASSESSMENT_UNKNOWN warnings
+    export_determinism: byte-identical across two runs; 10 output files
+    public_boundary_scan: clean, no repository-local path in the exported bundle
+    commit: >
+      a661e7f feat: publish invention record with hypothesis gate test (Task 3)
+    guardrails_held:
+      - The hypothesis is published with validationState: new-unvalidated-hypothesis and the gate test enforces this.
+      - No claim that any family or proposal is clean, detoxified, safe, commercially validated, or environmentally superior.
+      - Missing evidence stays missing: parameter-not-located, source-not-located, unknown; never zero.
+      - No measurement, pilot, field trial or physical experiment was run or authorized.
+      - No novelty, patentability, freedom-to-operate, safety, regulatory or environmental-benefit claim was made.
+      - Batch-02 remains complete_pending_operator_decision; this continuation does not accept it.
+      - Merge to main, push, deployment and publication each remain separately unauthorized.
+    open_decisions:
+      - The operator's accept/reject decision on the batch-02 deliverables, still outstanding.
+      - The five decisions the M01 proposals name, which only a qualified laboratory and the operator can settle.
+      - The single release decision at the end of this branch: approve one exact commit for merge, push and deployment, or not.
+    no_experiment_authorized: true
+    last_actor: operator-directed OpenCode session (displayed model MiMo-V2.6-Flash Free; underlying model not verified)
+    last_run: '2026-11-16'
+  task_3b:
+    unit: >-
+      Publish the two Scientist-Inventor hypothesis records as manifest entries, extend the
+      manifest to 134 records, and repair the four tracked files that commit e575390 had
+      replaced with one-line placeholders.
+    scope: >-
+      A local verification run of this branch found that commit e575390 had overwritten
+      publication/manifest.yaml, state/workflow.yaml, state/session-log.md and task_plan.md
+      with the literal strings PLACEHOLDER_MANIFEST_CONTENT, PLACEHOLDER_WORKFLOW_CONTENT,
+      PLACEHOLDER_SESSION_LOG_CONTENT and PLACEHOLDER_TASK_PLAN_CONTENT. The manifest
+      therefore failed PublicationManifestSchema, npm run validate exited 1, and the test
+      suite failed every test that loads the manifest. The four files were restored from
+      commit 9fdb58b, the last commit before the damage, and the two hypothesis records that
+      the damaged commits had added to publication/records/hypotheses/ were moved into the
+      generator's source of truth so that the manifest lists them deterministically.
+    corruption_found:
+      detected_in_commit: >-
+        e575390 "feat(reader-platform): add batch-02-evidence-gap-synthesis hypothesis
+        record and update manifest/workflow/session-log/task-plan"
+      affected_files:
+        - publication/manifest.yaml
+        - state/workflow.yaml
+        - state/session-log.md
+        - task_plan.md
+      restored_from: 9fdb58b
+      already_pushed_to_origin: true
+      note: >-
+        The corruption was already present on origin/feat/reader-platform at e575390, so the
+        repair is published as a new commit rather than a force-push. No history was rewritten.
+    published_content: >
+      Two new hypothesis records: batch-02-scientist-inventor-proposals and
+      batch-02-evidence-gap-synthesis (both kind: hypothesis, contentKind: hypothesis,
+      validationState: new-unvalidated-hypothesis, evidenceState:
+      derived-from-sourced-premises). Each carries three assumptions, three unresolved
+      dependencies, three or four failure modes, three or four falsifiers, and validation
+      question ids that resolve to published gap records. The manifest now lists 134 approved
+      records and 6 pages.
+    source_of_truth_correction: >
+      Both records were first written by hand straight into publication/records/hypotheses/
+      without being added to tools/publication-contract/layer-data/records.json, so the
+      deterministic generator never listed them and the manifest never counted them. The
+      established pattern, used by the Task-3 invention record in a661e7f, is to add the
+      hypothesis to layer-data/records.json and re-run scripts/build-publication-layer.mjs.
+      That pattern was applied here; the generator now writes both records, attaches their ids
+      to every method family's hypothesisIds list, and computes the manifest hashes from the
+      bytes it writes.
+    yaml_defect_repaired: >-
+      The committed batch-02-evidence-gap-synthesis.yaml contained an unquoted label scalar
+      containing a colon-space, which the yaml parser rejects with BLOCK_AS_IMPLICIT_KEY.
+      The generator's output quotes that value correctly, so the regenerated file parses. The
+      regenerated record was compared field by field against the committed one after repairing
+      only that line in memory: all 22 top-level fields are equal, so the difference is
+      quoting style and the parse fix, not a content change.
+    premise_substitution: >-
+      With the manifest repaired, semantic validation reported two
+      RELATIONSHIP_TARGET_UNLISTED errors: both hypotheses listed unb-pi0305004 in
+      sourceInputIds, but that source was never published as a record in this layer. The id is
+      real and accepted at batch-01 stage 2 (specs/unb-pi0305004-source-reconstruction.md,
+      unit S2-05; Brazilian patent PI 0305004-1, Universidade de Brasilia), but the layer
+      publishes no source record for it, and the alkaline pulping route deliberately remains
+      outside the layer behind the open gap chemical-gap-unreviewed-pulping-route. Three
+      repairs were considered: publish an unb-pi0305004 source record, drop the premise, or
+      represent it as a public-safe audit reference. The third was taken because it is the
+      mechanism the reader-platform design spec sanctions at section 12.8: a published
+      relationship to an unlisted record is a build error unless represented as a public-safe
+      audit reference. The id was therefore removed from both sourceInputIds lists, which now
+      name the six published sources shared by the six method families, and each hypothesis
+      gained an audit reference carrying the working public UnB patent-page URL, the version
+      and the internalId unb-pi0305004. The premise is preserved and traceable for a reader
+      instead of being silently dropped, and the manifest count stays at 134.
+    evidence_discipline:
+      - No number was invented; missing evidence stays missing (parameter-not-located, source-not-located, unknown).
+      - The two hypotheses reference only the six published sources shared by the six method families; the seventh premise, unb-pi0305004, is carried as a public-safe audit reference and is explicitly labelled as a source not published as a record in this layer.
+      - Every validationQuestionId resolves to a gap record published in the layer.
+      - Heavy metals stop-condition remains in force; neither hypothesis claims metals removal.
+      - Both hypotheses remain explicitly unvalidated; the gate test enforces new-unvalidated-hypothesis.
+    guardrails_held:
+      - >-
+        Nothing was measured. No sample was collected, no material was handled and no
+        physical experiment, pilot or field trial was run or authorized.
+      - No claim that any family or proposal is clean, detoxified, safe, commercially validated or environmentally superior.
+      - Missing evidence stays missing: parameter-not-located, source-not-located, unknown; never zero.
+      - No novelty, patentability, freedom-to-operate, safety, regulatory or environmental-benefit claim was made.
+      - No merge to main and no production deployment; push to feat/reader-platform is authorized by the recorded operator acceptance.
+      - The repair did not rewrite history and did not touch the main checkout or the C:\w\bpc worktree.
+    no_experiment_authorized: true
+    last_actor: operator-directed OpenCode session (displayed model MiniMax M3.1 Flash Free; underlying model not verified)
+    last_run: '2026-11-17'
+    retrieval_calls_used: 0
+    retrieval_ceiling: 24
+  task_3c:
+    unit: >-
+      Repository hygiene: remove export scratch artifacts from git tracking, ignore the stray
+      root lockfile, carry the operator's scientist-inventor authorization onto this branch,
+      and record the branch-topology finding.
+    scope: >-
+      The operator asked why GitHub Desktop was showing a root package-lock.json, whether
+      everything had been committed, whether the worktree and branch structure makes sense,
+      what is next, whether the repo instructions need editing, and whether the repo is safe
+      to hand to another AI. This unit answers those questions with evidence and fixes only
+      what is unambiguous and local to this branch.
+    stray_root_lockfile:
+      tracked: false
+      content: '{"name":"rp","lockfileVersion":3,"requires":true,"packages":{}}'
+      root_package_json_exists: false
+      resolution: >-
+        Deleted from disk and ignored via /package-lock.json in .gitignore. It described a
+        package that does not exist at the root; the real, already-tracked lockfile is
+        tools/publication-contract/package-lock.json. Committing it would have added a
+        meaningless artifact.
+    build_artifacts_untracked:
+      count: 66
+      directories:
+        - .publication-build-a/
+        - .publication-build-b/
+        - publication/.export-stage-a/
+        - publication/.export-stage-b/
+        - publication/export-a/
+        - publication/export-b/
+      method: >-
+        git rm -r --cached on all six directories. The files remain on disk as untracked
+        scratch output; nothing was deleted from disk and no bytes were lost. The manifest
+        references none of them.
+      gitignore_patterns_added:
+        - .publication-build-*/
+        - publication/.export-stage-*/
+        - publication/export-*/
+        - /package-lock.json
+    operator_authorization_carried_forward: >-
+      This branch's state/workflow.yaml said permissions.experiments: not authorized and held
+      no permissions.ai_role block, because the file was restored from commit 9fdb58b, which
+      predates the operator instruction of 2026-11-17. The operator's authorization was
+      already recorded in the main checkout at commit 50281ae, where the Batch-02 deliverables
+      were accepted as the content basis for the reader site. The permissions.experiments
+      mapping and the permissions.ai_role block were copied verbatim from main, and the
+      ai_role block carries a note stating that it was copied for divergence reasons and
+      that a future hand-merge must preserve it.
+    evidence_discipline:
+      - No number was invented; missing evidence stays missing (parameter-not-located, source-not-located, unknown).
+      - The branch_topology finding records what was measured, not what was assumed.
+      - The merge probe was performed in a disposable worktree and removed; the repository was not altered by it.
+    guardrails_held:
+      - >-
+        Nothing was measured. No sample was collected, no material was handled and no
+        physical experiment, pilot or field trial was run or authorized.
+      - No claim that any family or proposal is clean, detoxified, safe, commercially validated or environmentally superior.
+      - Missing evidence stays missing: parameter-not-located, source-not-located, unknown; never zero.
+      - >-
+        No registry, backup or prior scientific output was deleted or rewritten. Only scratch
+        build output was removed from git tracking, with its bytes preserved on disk.
+      - >-
+        No merge to main, no branch deletion, no deployment and no publication. The merge
+        probe was run in a throwaway worktree and removed; git worktree list is unchanged.
+    no_experiment_authorized: true
+    last_actor: operator-directed OpenCode session (displayed model MiniMax M3.1 Flash Free; underlying model not verified)
+    last_run: '2026-11-17'
+    retrieval_calls_used: 0
+    retrieval_ceiling: 24
+  task_3d:
+    unit: publish the four narrative pages the reader routes need, closing the Task-3 page gap
+    scope: >-
+      Author the four reader-facing narrative pages required by the plan's file map and
+      Task 3 steps 3 and 6, wire them into the deterministic generator so the manifest
+      lists them with computed hashes, and verify the whole contract. This closes the
+      Task-3 gap where the manifest published 134 records but only 6 of the 10 pages the
+      reader routes require, which would have left /start/, /egypt/, /research-method/ and
+      /limitations/ with no content behind them. Content is curation of already-accepted
+      material: the material record, the six family pages, the accepted Egypt annex, the
+      handoff brief and the accepted gap agenda. No new research and no new numbers.
+    pages_published:
+      - id: start-here
+        file: start-here.md
+        reader_route: /start/
+        subject: >-
+          What a cigarette butt contains, the six families published here, how the evidence
+          labels work, why material fate and product quality are two different questions,
+          how to compare the families, and where the invention lives.
+      - id: egypt-annex
+        file: egypt-annex.md
+        reader_route: /egypt/
+        subject: >-
+          The accepted Egypt annex as unvalidated observations and unvalidated hypotheses
+          only. No recommendation, no feasibility claim.
+      - id: how-the-research-works
+        file: how-the-research-works.md
+        reader_route: /research-method/
+        subject: >-
+          The honest method: harvest, deep dive, red team, invention, synthesis. Names who
+          did the work and who did not, including that Batch-02 was a single-AI execution
+          with no three-model panel and no judge packet.
+      - id: limitations
+        file: limitations.md
+        reader_route: /limitations/
+        subject: >-
+          The numbered gap agenda as a list rather than a summary: eight measurement gaps,
+          five jurisdiction and regulatory acceptance gaps, six scale, cost and energy gaps,
+          the unresolved rather than missing items, and the preserved dissent.
+    source_of_truth:
+      authored_markdown: tools/publication-contract/layer-data/pages/ (one file per page)
+      index: tools/publication-contract/layer-data/pages.json (id, file, title, reader route)
+      generator: >-
+        build-publication-layer.mjs reads the index, copies each markdown file into
+        publication/pages/ and pushes a manifest entry with the sha256 computed from the
+        bytes it actually wrote. The manifest therefore stays reproducible from the
+        generator; no manifest entry was hand-edited. A NARRATIVE_PAGE_FILE_MISMATCH guard
+        rejects an index entry whose file name disagrees with its id, the same class of
+        silent defect that caused the earlier placeholder corruption.
+    manifest_change: pages 6 to 10; records unchanged at 134
+    record_integrity: >-
+      The exported records set is byte-identical to the previous run (records.json sha256
+      unchanged). Only the page set changed. No published claim, gap, source, assessment,
+      claim, hypothesis or term was altered by this unit.
+    evidence_discipline:
+      - >-
+        Every narrative page names no repository-local path. Sources are referred to
+        descriptively and by public link only, so a reader never sees an internal file
+        location.
+      - >-
+        The pages speak in the publication label vocabulary already used by the six method
+        pages and the 134 records: evidence support (source-supported, source-conflicted,
+        source-not-located, derived-from-sourced-premises) and validation state
+        (desk-research-only, requires-human-validation, new-unvalidated-hypothesis).
+        Statements the assistant adds beyond the published record carry an explicit AI
+        inference or AI proposal marker.
+      - >-
+        No new numerical value appears anywhere. Every quantitative gap stays
+        parameter-not-located, and the Egypt annex carries observations and hypotheses
+        only.
+      - >-
+        The preserved dissent, the unvalidated primary hypothesis, the minority
+        comparator, the metals stop-condition and the four-field sink all appear on the
+        pages in their accepted wording.
+    guardrails_held:
+      - >-
+        Nothing was measured. No sample was collected, no material was handled and no
+        physical experiment, pilot or field trial was run or authorized.
+      - >-
+        No claim that any family or proposal is clean, detoxified, safe, commercially
+        validated, environmentally beneficial, novel, patentable, deployable or costed.
+      - >-
+        Missing evidence stays missing: parameter-not-located, source-not-located, unknown;
+        never zero.
+      - >-
+        No prior scientific output was deleted or rewritten. This unit adds pages only and
+        changes the generator, the page layer data and the state files.
+      - >-
+        No merge to main, no deployment and no publication. The merge into main is the next
+        unit and is separately authorized by the operator on 2026-11-17.
+    no_experiment_authorized: true
+    last_actor: operator-directed OpenCode session (displayed model MiniMax M3.1 Flash Free; underlying model not verified)
+    last_run: '2026-11-17'
+    retrieval_calls_used: 0
+    retrieval_ceiling: 24
+  task_3e:
+    unit: >-
+      Repair the merged tree so that a fresh checkout validates, and record the topology
+      resolution. This unit ran in the main checkout on the merge branch, after the
+      hand-merge of feat/reader-platform into main.
+    scope: >-
+      Two defects that only a fresh checkout exposes, plus the state record for the merge
+      itself.
+    line_ending_defect:
+      symptom: >-
+        On a fresh checkout, 17 tests failed with MANIFEST_HASH_MISMATCH. The manifest
+        stores a SHA-256 of every published file, so a line-ending conversion changes the
+        bytes and breaks the hash.
+      root_cause: >-
+        The repository .gitattributes file set text=auto for every path, and the
+        repository-local git configuration sets core.autocrlf=true. Git therefore stored
+        LF in the blobs but checked out CRLF on Windows. The publication layer had always
+        been validated inside the feature worktree immediately after the generator had
+        rewritten it as LF, so the defect was never visible until a fresh checkout was
+        forced by the merge.
+      repair: >-
+        The .gitattributes file now forces publication/ and the generator's layer-data/
+        input tree to LF in the repository and on checkout on every platform. The
+        working tree was restored from the index after the attribute change so the
+        checked-out bytes match the hashes the manifest records.
+      verification: >-
+        The byte-exact trees contain no CRLF file, validation reports records=134 and
+        pages=10 with no errors, and the exported record set is byte-identical to the
+        build produced in the feature worktree.
+    scratch_directory_test_defect:
+      symptom: >-
+        One test failed on the main checkout only: every repository-local top-level
+        directory is rejected as an audit reference. It failed on a directory named
+        _synth_test, which is already listed in .gitignore and holds no tracked file.
+      root_cause: >-
+        The test enumerated every directory present in the working tree instead of the
+        directories that hold repository content. An incidental scratch folder at the
+        repository root is not part of the repository and must not be able to fail the
+        check.
+      repair: >-
+        The test now enumerates the top-level directories that contain git-tracked files.
+        No production code changed. The tracked directory list is unchanged and every
+        tracked directory is already covered by the validator's deny-list.
+    evidence_discipline:
+      - >-
+        Nothing was measured. The merge brought together desk research that was already
+        accepted and published; no new experimental result exists.
+      - >-
+        The exported record set is byte-identical to the build produced in the feature
+        worktree, so the merge changed no scientific content.
+      - >-
+        No claim that any family or proposal is clean, detoxified, safe, commercially
+        validated, environmentally beneficial, novel, patentable, deployable or costed.
+      - >-
+        The metals stop-condition and the four-field sink requirement are unchanged.
+      - >-
+        No prior scientific output was deleted or rewritten. The merge resolved five
+        state and planning files by taking the union of both sides.
+    guardrails_held:
+      - >-
+        No deployment and no publication. The merge is a repository operation only.
+      - >-
+        No experiment, pilot or physical measurement. The scientist-inventor role remains
+        ai_designed_only.
+      - >-
+        No branch deleted and no worktree removed. The feature worktree is host-owned and
+        the reader application continues there.
+      - >-
+        No registry was rewritten; the registry stays read-only.
+      - >-
+        No acceptance was invented. The Batch-02 acceptance records the operator decision
+        already made in commit 50281ae.
+    no_experiment_authorized: true
+    last_actor: operator-directed OpenCode session (displayed model MiniMax M3.1 Flash Free; underlying model not verified)
+    last_run: '2026-11-17'
+    retrieval_calls_used: 0
+    retrieval_ceiling: 24
 permissions:
   registries: read-only
   backup: immutable
@@ -396,3 +953,90 @@ permissions:
       - ai_proposal: invented by the AI, testable assumption
       - parameter_not_located: no number exists at the required basis
       - unverified: retrieved but not independently confirmed
+    carried_to_this_branch: >-
+      This block was copied verbatim from the operator's main checkout (state/workflow.yaml,
+      lines 350-398 at commit 50281ae) because this branch's state file was restored from
+      commit 9fdb58b, which predates the operator instruction of 2026-11-17. The
+      authorization was already recorded by the operator and accepted as the content basis
+      for the reader site; it was missing here only because of branch divergence, not because
+      it was withheld. A future hand-merge must preserve it.
+branch_topology:
+  status: resolved_by_hand_merge_into_main
+  found: '2026-11-17'
+  finding: >-
+    The three branches have diverged and neither main nor this branch is complete. main
+    (50281ae) has no publication/ directory, no tools/publication-contract/ and no
+    docs/superpowers/. This branch (2ae8c90) has the entire publication layer but is missing
+    main's Batch-02 operator acceptance, the two Scientist-Inventor documents
+    (inventions/scientist-inventor-batch-02-proposals.md and
+    reports/batch-02/evidence-gaps/M02-M08-S01-S06-R01-R05-scientist-inventor-synthesis.md)
+    and operator/batch-02-acceptance-2026-11-17.md. feat/publication-content-contract
+    (19d1716) is not an ancestor of either branch and holds 64 gap-closing OCR and PNG files
+    that neither other branch has. git diff --stat main..feat/reader-platform reports 260
+    files changed and 81505 insertions.
+  merge_probe:
+    method: >-
+      A throwaway detached worktree at
+      C:\Users\Ad2048\AppData\Local\Temp\opencode\merge-probe was created, the merge was
+      attempted, the result was recorded, and the worktree was aborted and removed. The
+      repository was not altered; git worktree list is unchanged at three entries.
+    conflicts:
+      - findings.md
+      - progress.md
+      - state/session-log.md
+      - state/workflow.yaml
+      - task_plan.md
+    note: >-
+      All five conflicts are state and planning files that both branches appended to
+      independently. AGENTS.md states that old work-queue and progress files are preserved
+      history and not current dispatch, so they are noise rather than content loss.
+  required_hand_merge:
+    - >-
+      state/workflow.yaml must keep BOTH this branch's reader_platform section AND the
+      operator's permissions.experiments mapping and permissions.ai_role block from main.
+      A blind merge would drop the operator's scientist-inventor authorization.
+    - state/session-log.md and task_plan.md must be concatenated by unit, preserving both branches' entries.
+    - The 64 gap-closing files unique to feat/publication-content-contract must be carried in.
+  resolution:
+    performed_on: '2026-11-17'
+    authorized_by: >-
+      Operator instruction 2026-11-17 to hand-merge feat/reader-platform into main and to
+      write the four missing narrative pages.
+    method: >-
+      A merge branch was cut from main and feat/reader-platform was merged into it with
+      --no-ff. Exactly the five files named in merge_probe conflicted. Each was resolved
+      by taking the union of both sides, so that this branch's reader_platform section,
+      main's Batch-02 acceptance records and the operator's permissions.experiments
+      mapping and permissions.ai_role authorization all survive in the merged record.
+    conflicts_resolved:
+      - >-
+        findings.md and progress.md took this branch's content, because main's side of
+        each conflict was empty.
+      - >-
+        task_plan.md took both sides, main's phase content first and this branch's
+        reader-platform content second, so the plan reads in chronological order.
+      - >-
+        state/session-log.md took both sides, main's entries followed by this branch's.
+        The merged log has 22 headings, all distinct.
+      - >-
+        state/workflow.yaml took this branch's version in all three conflicts, because
+        main's side of each was empty. This branch already carried main's permissions
+        block verbatim, so the operator's authorization survives intact.
+    third_branch:
+      branch: feat/publication-content-contract
+      assessment: >-
+        main and feat/reader-platform held identical gap-closing evidence, so the merge
+        lost no evidence. The third branch held 64 files that neither other branch had:
+        59 page rasterizations and 5 OCR text extracts, all derivatives of 5 papers
+        whose PDFs were already in the repository.
+      decision: >-
+        The 5 OCR text extracts were carried in, because searchable text of a document
+        already held adds no third-party content and completes the local text audit.
+        The 59 page images were deliberately not carried in, because they add no
+        evidentiary value once both the PDF and the OCR text are present and they bloat
+        the repository with binary copies. They remain available on
+        feat/publication-content-contract if the operator wants them.
+  status_note: >-
+    The topology repair is complete. The publication layer, the reader-platform
+    documentation and the Batch-02 acceptance now live on one branch. No branch was
+    deleted, no worktree was removed, and nothing was deployed or published.

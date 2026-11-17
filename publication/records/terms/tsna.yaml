@@ -1,0 +1,21 @@
+schemaVersion: 1
+id: tsna
+title: Tobacco-specific nitrosamines
+publicationState: approved
+auditAliases: []
+kind: term
+preferredLabel: Tobacco-specific nitrosamines
+acronym: TSNAs
+aliases:
+  - tobacco-specific N-nitrosamines
+tooltip: Carcinogenic compounds formed during tobacco combustion.
+explanation: Tobacco-specific nitrosamines, of which NNN and NNK are the ones most often named, are part of the combustion residue carried by butts. They are named here because any credible measurement of contaminant fate has to include them; no located source reports their partitioning across any recycling route.
+methodIds:
+  - mechanical-physical
+  - thermal
+  - chemical
+  - biological
+  - material-incorporation
+  - product-routes
+claimIds: []
+sourceIds: []

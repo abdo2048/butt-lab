@@ -1,0 +1,17 @@
+schemaVersion: 1
+id: biological-patent-device-exists
+title: A granted Korean patent describes a device for microbial treatment of cigarette butts
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: A patent granted in South Korea describes a device for treating cigarette butts with microorganisms.
+evidenceState: source-supported
+methodIds:
+  - biological
+hypothesisIds: []
+sourceId: kr-microbial-composting
+locator: Patent title and trade-press reference
+counterevidenceClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

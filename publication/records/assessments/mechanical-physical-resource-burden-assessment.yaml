@@ -1,0 +1,14 @@
+schemaVersion: 1
+id: mechanical-physical-resource-burden-assessment
+title: Resource burden for mechanical and physical washing
+publicationState: approved
+kind: assessment
+methodId: mechanical-physical
+criterionId: resource-burden
+status: unknown
+rubricVersion: 1.0.0
+supportingClaimIds: []
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+unknownReason: No located source reports water or energy consumption on a stated functional unit, and no comparable denominator exists across the families, so this criterion stays unknown rather than being estimated from the appearance of the process.

@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: material-incorporation-process-ease-assessment
+title: Process ease for material incorporation
+publicationState: approved
+kind: assessment
+methodId: material-incorporation
+criterionId: process-ease
+status: scored
+rubricVersion: 1.0.0
+supportingClaimIds:
+  - material-incorporation-small-scale-brick-study
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+score: 3
+label: Moderate
+rationale: Mixing, forming, curing and firing are established operations that a brick or concrete producer already owns, but the incorporation step adds a variable material whose effect on the product is not yet known, which keeps the route out of the easy bands.
+basis: inference

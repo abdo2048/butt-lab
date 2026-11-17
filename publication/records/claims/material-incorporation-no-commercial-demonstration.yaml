@@ -1,0 +1,15 @@
+schemaVersion: 1
+id: material-incorporation-no-commercial-demonstration
+title: No located source demonstrates this family at commercial scale
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: No located source demonstrates commercial-scale viability for a product containing cigarette butt material; the located studies are small in scale, and no independent verification of performance, safety or environmental benefit has been located.
+evidenceState: source-not-located
+methodIds:
+  - material-incorporation
+hypothesisIds: []
+counterevidenceClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

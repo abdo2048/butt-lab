@@ -1,0 +1,19 @@
+schemaVersion: 1
+id: defenzo-2020-materials
+title: Clean process for obtaining high-quality cellulose acetate from cigarette butts
+publicationState: approved
+auditAliases:
+  - batch-01 De Fenzo 2020
+kind: source
+citation: De Fenzo, Giordano and Sansone, Clean Process for Obtaining High-Quality Cellulose Acetate from Cigarette Butts, Materials 13 (2020) 4710.
+sourceType: paper
+publisherOrIssuer: Materials (MDPI)
+versionOrDate: 2020, 13, 4710
+originalUrl: https://doi.org/10.3390/ma13214710
+accessDate: 2026-11-11
+rights: link-only
+derivatives: []
+claimIds:
+  - chemical-mechanism-extraction-characterisation
+methodIds:
+  - chemical

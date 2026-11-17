@@ -1,0 +1,15 @@
+schemaVersion: 1
+id: material-incorporation-metals-retained
+title: Heavy metals are carried into the product in this family
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: No located source describes a step in this family that would remove heavy metals, and no located source reports the heavy-metal content of a finished product or its leaching potential.
+evidenceState: source-not-located
+methodIds:
+  - material-incorporation
+hypothesisIds: []
+counterevidenceClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

@@ -1,0 +1,25 @@
+{
+  "name": "@butt-lab/publication-contract",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/contracts.test.ts tests/rubrics.test.ts tests/policy.test.ts tests/manifest.test.ts tests/semantic.test.ts tests/export.test.ts tests/cli.test.ts tests/publication-layer.test.ts",
+    "test:coverage": "node --test --experimental-test-coverage tests/contracts.test.ts tests/rubrics.test.ts tests/policy.test.ts tests/manifest.test.ts tests/semantic.test.ts tests/export.test.ts tests/cli.test.ts tests/publication-layer.test.ts",
+    "schemas": "node src/cli.ts schema --out ../../publication/contract/v1/schema",
+    "validate": "node src/cli.ts validate --root ../../publication",
+    "export": "node src/cli.ts export --root ../../publication --out ../../.publication-build"
+  },
+  "dependencies": {
+    "yaml": "2.9.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "typescript": "5.9.3"
+  }
+}

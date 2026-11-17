@@ -1,0 +1,19 @@
+schemaVersion: 1
+id: chemical-validation-maturity-assessment
+title: Validation maturity for solvent dissolution and polymer recovery
+publicationState: approved
+kind: assessment
+methodId: chemical
+criterionId: validation-maturity
+status: scored
+rubricVersion: 1.0.0
+supportingClaimIds:
+  - chemical-analyte-partitioning-not-located
+  - chemical-metals-removal-unknown
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+score: 1
+label: Foundational unknowns
+rationale: The partition of every named contaminant across the three streams is unresolved, and the recovery rate of the solvent is unknown, so the route's viability itself rests on basic measurements that have to come first.
+basis: inference

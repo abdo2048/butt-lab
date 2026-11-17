@@ -1,0 +1,19 @@
+schemaVersion: 1
+id: chemical-inference-purity-is-not-performance
+title: Recovering a polymer is not the same as producing a usable product
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: inference
+proposition: Because the located sources show that the polymer can be recovered and characterised but report neither contaminant partitioning nor any performance measurement, recovering the polymer says nothing about whether the recovered material could be used in any application.
+evidenceState: derived-from-sourced-premises
+methodIds:
+  - chemical
+hypothesisIds: []
+counterevidenceClaimIds: []
+premiseClaimIds:
+  - chemical-mechanism-solvent-dissolution-precipitation
+  - chemical-mechanism-extraction-characterisation
+reasoning: The two located sources together establish recovery and characterisation. Neither addresses contaminant partitioning or product performance, so the gap between a recovered polymer and a usable product is not bridged by anything located. The inference is that the two questions are separate and both remain open.
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

@@ -1,0 +1,19 @@
+schemaVersion: 1
+id: pyrolysis-energy-recovery
+title: Pyrolysis energy recovery from cigarette butts
+publicationState: approved
+auditAliases:
+  - batch-01 pyrolysis energy recovery
+kind: source
+citation: Fuel article on pyrolysis of cigarette butts for energy recovery, reporting triacetin, char and biofuel products.
+sourceType: paper
+publisherOrIssuer: Fuel (Elsevier)
+versionOrDate: ScienceDirect record S016523702300311X
+originalUrl: https://www.sciencedirect.com/science/article/abs/pii/S016523702300311X
+accessDate: 2026-11-11
+rights: link-only
+derivatives: []
+claimIds: []
+methodIds:
+  - product-routes
+  - thermal

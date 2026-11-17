@@ -1,0 +1,15 @@
+schemaVersion: 1
+id: material-incorporation-regulatory-status-not-located
+title: No jurisdiction-specific regulatory status has been located for this family
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: No located source names a jurisdiction, a material status, an acceptance pathway or an authority for this family, so the regulatory position of the recovered material remains unlocated.
+evidenceState: source-not-located
+methodIds:
+  - material-incorporation
+hypothesisIds: []
+counterevidenceClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

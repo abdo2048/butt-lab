@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: product-routes-validation-maturity-assessment
+title: Validation maturity for the candidate product routes
+publicationState: approved
+kind: assessment
+methodId: product-routes
+criterionId: validation-maturity
+status: scored
+rubricVersion: 1.0.0
+supportingClaimIds:
+  - product-routes-no-independent-evidence
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+score: 1
+label: Foundational unknowns
+rationale: For every route the intended product, the jurisdiction and the acceptance basis are all still undecided, so the first human work is a decision about what would be judged, not a bounded test.
+basis: inference

@@ -1,0 +1,21 @@
+schemaVersion: 1
+id: chemical-note-solvent-and-nmp-are-handling-obligations
+title: Some solvents in this family carry regulatory handling obligations
+publicationState: approved
+auditAliases: []
+kind: gap
+contentKind: ai-gap-closing-note
+question: What does the choice of solvent add to the obligations of any later trial?
+gapType: handling-and-regulation
+whyItMatters: A route description that names solvents without naming their handling obligations would make a route look simpler than it is to operate lawfully.
+affectedRecordIds:
+  - chemical
+evidenceState: derived-from-sourced-premises
+validationState: requires-human-validation
+nextHumanWork: regulatory-review
+sourceInputIds:
+  - chemical-mechanism-solvent-dissolution-precipitation
+assumptions:
+  - The route would use one of the solvents named in the located sources.
+  - No alternative solvent with a lighter regulatory profile has been located for this recovery.
+falsifierOrDecisionCondition: If a located source documented an equivalent route using a solvent without those obligations, this note would no longer bind the design of any later trial.

@@ -1,0 +1,17 @@
+schemaVersion: 1
+id: mechanical-physical-mechanism-grind-sieve-wash
+title: A patent describes grinding, washing, water recycling, drying and milling of cigarette butts
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: A granted patent describes a route in which cigarette butts are ground, sieved so that the filter fraction is separated, washed with water, dried and milled again, with the wash water recovered through a closed loop.
+evidenceState: source-supported
+methodIds:
+  - mechanical-physical
+hypothesisIds: []
+sourceId: mego-fr3066128a1
+locator: Patent abstract
+counterevidenceClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

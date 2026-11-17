@@ -1,2 +1,12 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# The published layer is byte-exact: the manifest stores a SHA-256 of every
+# published file, so any line-ending conversion changes the bytes and breaks
+# MANIFEST_HASH_MISMATCH. Force LF in the repo and on checkout on every
+# platform, including Windows checkouts with core.autocrlf=true.
+publication/** text eol=lf
+
+# The generator's inputs must be the same bytes it publishes, so the authored
+# source of truth is held to the same rule as its output.
+tools/publication-contract/layer-data/** text eol=lf

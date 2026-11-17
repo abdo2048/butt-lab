@@ -1,0 +1,17 @@
+schemaVersion: 1
+id: chemical-mechanism-solvent-dissolution-precipitation
+title: A patent offering describes dissolving the filter polymer and precipitating it again with water
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: A patent offering describes extracting cellulose acetate and nicotine from cigarette butts and filters with acetone, filtering the solution, precipitating the polymer by adding water, and recovering the acetone by boiling.
+evidenceState: source-supported
+methodIds:
+  - chemical
+hypothesisIds: []
+sourceId: cnr-knowledge-share-ca-recovery
+locator: Patent offering description
+counterevidenceClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

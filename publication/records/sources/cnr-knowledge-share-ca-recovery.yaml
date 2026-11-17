@@ -1,0 +1,19 @@
+schemaVersion: 1
+id: cnr-knowledge-share-ca-recovery
+title: Cellulose acetate from recycling of cigarette butts and filters
+publicationState: approved
+auditAliases:
+  - batch-01 CNR knowledge share
+kind: source
+citation: "CNR patent offering: cellulose acetate from recycling of cigarette butts and filters, acetone extraction with filtration, water anti-solvent precipitation and acetone recovery."
+sourceType: patent
+publisherOrIssuer: Consiglio Nazionale delle Ricerche, offered through Knowledge Share
+versionOrDate: Patent offering published on the Knowledge Share platform
+originalUrl: https://www.knowledge-share.eu/en/patents/cellulose-acetate-from-recycling-of-cigarette-butts-and-filters/
+accessDate: 2026-11-11
+rights: link-only
+derivatives: []
+claimIds:
+  - chemical-mechanism-solvent-dissolution-precipitation
+methodIds:
+  - chemical

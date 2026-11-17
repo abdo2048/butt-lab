@@ -213,3 +213,23 @@ No sample count, recovery figure, acceptance limit, detection or quantitation li
 ### Remaining work / next action
 
 M01 remains open — two files are not a measurement, and no sample count exists. Five decisions stand open and none of them is this project's to make: the minimum important difference, the precision target, the fraction definitions and fines aperture, the analytical target profile, and whether to authorize any laboratory work at all. M02–M08, R01–R05 and S01–S06 are untouched. The operator's accept/reject desk-record decision on the batch-02 deliverables remains outstanding and is not made here; committing this continuation in the main checkout is a separate operator decision. Next: await the operator's direction on the next gap proposal (M02 onward) or on the decisions above.
+
+## 2026-11-16 — Reader platform opened; Task 1 reconciles the content contract with the reader-platform design
+
+**Where.** New isolated worktree `C:\w\rp`, branch `feat/reader-platform`, based on `main` at `3d76367` with the content contract cherry-picked as `4ed09b0`. The main checkout, the `origin` remote and the worktree `C:\w\bpc` were not touched.
+
+**Why.** The operator's instruction was "full force auto" after the batch-02 research was closed: the research, the method explanations and the invention are done, and the remaining path to the deliverable is the public reader website, with external readers and an optional AI second layer providing the critique. That authorizes building the layer, the application, the CI and the release preparation on a branch. It does not authorize merge, push, deployment, publication, an experiment, or accepting batch-02 on the operator's behalf.
+
+**Artifacts.**
+- `docs/superpowers/plans/2026-11-16-butt-lab-reader-platform.md` — six tasks, six rulings, acceptance criteria, deferrals.
+- `.superpowers/sdd/2026-11-16-butt-lab-reader-platform/progress.md` — the ledger.
+- `docs/publication-content-contract.md` §11 — the reconciliation audit.
+- `state/workflow.yaml` — a new top-level `reader_platform:` block.
+
+**Task 1 result.** Four design rules were confirmed already enforced: approved-only manifest listing (`RECORD_NOT_APPROVED`), non-transitive inclusion (`RELATIONSHIP_TARGET_UNLISTED` and its specialised variants), manifest-derived output closure (`STAGE_CLOSURE_MISMATCH`), and the local-artifact rights rule (`SOURCE_LOCAL_COPY_RIGHTS_INVALID`). Two were fixed test-first. `ASSESSMENT_DUPLICATE_CRITERION` and `ASSESSMENT_CRITERION_MISSING` were added, so the comparison surface can no longer hold two answers for one (method, criterion) cell and a published method cannot carry a hole where the `unknown` status was meant to be. Two named export tests now prove the rights rule for `rights-unresolved` and `link-only` with a correct asset hash, because the old fixture's placeholder hash made the export fail on the hash before the rights branch could fire. One minor was deferred and recorded: deriving the claim content kind from the canonical `CONTENT_KINDS` constant and adding a generated-schema drift guard.
+
+**Verification.** `npm run typecheck` clean; `npm test` 189 tests, 188 pass, 1 skipped (Windows cannot create symlinks), 0 fail; schemas regenerate byte-identically with unchanged hashes; a source-versus-documentation diagnostic-code audit finds no code the source emits that the documentation omits.
+
+**Guardrails.** No scientific content approved and no publication occurred. The exporter stays network-free and deterministic. Missing evidence stays missing. No measurement, pilot, field trial or physical experiment was run or authorized. No novelty, patentability, freedom-to-operate, safety, regulatory or environmental-benefit claim was made. Batch-02 remains `complete_pending_operator_decision`.
+
+**Next.** Task 2 — the cigarette-butt material record and the six method-family records with their claims, gaps and assessments, built only from the accepted batch-02 content, no new research, no invented scores, no averaging, with the F3 minority position and the metals stop-condition preserved where they bear on a criterion.

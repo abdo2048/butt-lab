@@ -1,0 +1,171 @@
+schemaVersion: 1
+rubricVersion: 1.0.0
+criteria:
+  - id: evidence-strength
+    title: Evidence strength
+    description: "Relevance, independence, directness, and coverage of available support."
+    higherIsMoreFavorable: true
+    unknownRule: "Use unknown when the review boundary or evidence basis is insufficient for a completed five-band assessment."
+    bands:
+      - score: 1
+        label: Minimal
+        definition: "The completed review located no accessible direct support for the decision-relevant proposition, while recording its search boundary."
+      - score: 2
+        label: Limited
+        definition: "First-party, indirect, or narrowly scoped support has material gaps."
+      - score: 3
+        label: Mixed
+        definition: "Directly relevant support exists, but independence, scale, or coverage is limited."
+      - score: 4
+        label: Substantial
+        definition: "Multiple relevant sources include independent support and report key conditions and denominators."
+      - score: 5
+        label: Strong
+        definition: "Convergent independent evidence covers use-relevant conditions and material counterevidence."
+  - id: process-ease
+    title: Process ease
+    description: "Number and complexity of steps, specialized equipment or controls, and external dependencies."
+    higherIsMoreFavorable: true
+    unknownRule: "Use unknown when process steps, controls, or dependencies are not described well enough for a completed five-band assessment."
+    bands:
+      - score: 1
+        label: Very difficult
+        definition: "Many tightly coupled steps, specialized controls, or critical external dependencies are disclosed."
+      - score: 2
+        label: Difficult
+        definition: "Several specialized steps or dependencies materially constrain operation."
+      - score: 3
+        label: Moderate
+        definition: "Mixed standard and specialized steps have manageable but material dependencies."
+      - score: 4
+        label: Relatively easy
+        definition: "Mostly standard steps have few specialized dependencies."
+      - score: 5
+        label: Simple
+        definition: "A short, clearly bounded sequence uses broadly standard operations and minimal external dependencies."
+  - id: resource-burden
+    title: Resource burden
+    description: "Water, energy, reagents, and waste under an explicit functional unit."
+    higherIsMoreFavorable: true
+    unknownRule: "Use unknown without comparable functional units and denominators; never estimate this criterion from process appearance."
+    bands:
+      - score: 1
+        label: Very high
+        definition: "Comparable functional-unit evidence shows the highest material, water, energy, or waste burden in scope."
+      - score: 2
+        label: High
+        definition: "Comparable evidence shows substantial burden across one or more material categories."
+      - score: 3
+        label: Moderate or mixed
+        definition: "Comparable evidence shows neither consistently high nor consistently low burden."
+      - score: 4
+        label: Low
+        definition: "Comparable evidence shows relatively low burden with material categories reported."
+      - score: 5
+        label: Very low
+        definition: "Comparable evidence shows the lowest burden in scope with the major resource and waste categories closed."
+  - id: contaminant-fate-coverage
+    title: Contaminant-fate coverage
+    description: "Completeness of named-analyte accounting across product, liquids, rejects, emissions, treatment outlet, and unexplained loss."
+    higherIsMoreFavorable: true
+    unknownRule: "Use unknown when the declared analyte panel, stream inventory, measurement basis, or uncertainty framework is insufficient for assessment."
+    bands:
+      - score: 1
+        label: Minimal
+        definition: "Decision-relevant analytes or major output streams are not measured."
+      - score: 2
+        label: Partial
+        definition: "Some analytes or streams are measured, but major fate paths remain open."
+      - score: 3
+        label: Mixed
+        definition: "Most major streams are represented, but analyte coverage, uncertainty, or unexplained loss is incomplete."
+      - score: 4
+        label: Substantial
+        definition: "Named analytes are measured across the major product, liquid, reject, and emissions paths with uncertainty reported."
+      - score: 5
+        label: Complete for stated scope
+        definition: "The stated analyte panel closes across all declared streams, treatment outlet, and unexplained loss within a predefined uncertainty framework."
+  - id: sink-completeness
+    title: Sink completeness
+    description: "Whether material, intended use, acceptance basis, issuer, and final route are located and characterized."
+    higherIsMoreFavorable: true
+    unknownRule: "Use unknown when the available record cannot support a completed assessment of the four sink fields and final route."
+    bands:
+      - score: 1
+        label: Undefined
+        definition: "The produced material or final route is not named."
+      - score: 2
+        label: Proposed
+        definition: "Material and intended route are named, but acceptance basis or issuer is absent."
+      - score: 3
+        label: Partly specified
+        definition: "Most four-field elements are located, but acceptance or final routing remains conditional."
+      - score: 4
+        label: Documented
+        definition: "Material, intended use, acceptance basis, issuer, and final route are documented, with one material performance gap remaining."
+      - score: 5
+        label: Complete for stated scope
+        definition: "All four fields and the final route are documented and linked to relevant analytical acceptance evidence."
+  - id: product-readiness
+    title: Product readiness
+    description: "Product identity, quality, intended-use performance, leaching or exposure evidence, and product gate."
+    higherIsMoreFavorable: true
+    unknownRule: "Use unknown when product identity, intended use, or the evidence boundary is not defined well enough for assessment."
+    bands:
+      - score: 1
+        label: Undefined
+        definition: "Product identity or intended use is not adequately defined."
+      - score: 2
+        label: Conceptual
+        definition: "A product is named, but specifications or intended-use evidence are missing."
+      - score: 3
+        label: Characterized
+        definition: "Identity and selected quality properties are reported, while intended-use, leaching, exposure, or independent performance evidence remains incomplete."
+      - score: 4
+        label: Substantial
+        definition: "Defined specifications and intended-use evidence are present with limited remaining independent validation."
+      - score: 5
+        label: Ready for stated evidence scope
+        definition: "Product specifications, independent intended-use performance, and relevant leaching or exposure gates are documented; this is not a universal safety or commercial-readiness claim."
+  - id: regulatory-clarity
+    title: Regulatory clarity
+    description: "Located jurisdiction-specific status, acceptance pathway, and remaining regulatory questions."
+    higherIsMoreFavorable: true
+    unknownRule: "Use unknown when the jurisdiction, authority, or applicability boundary is not identified well enough for assessment."
+    bands:
+      - score: 1
+        label: Unlocated
+        definition: "No current jurisdiction-specific pathway or decision is located."
+      - score: 2
+        label: Preliminary
+        definition: "Potentially relevant instruments are identified, but applicability or acceptance is unresolved."
+      - score: 3
+        label: Partial
+        definition: "Jurisdiction, authority, and likely pathway are located, with material interpretation or acceptance questions open."
+      - score: 4
+        label: Documented
+        definition: "The current pathway and required decision points are documented from authoritative sources."
+      - score: 5
+        label: Explicit for stated scope
+        definition: "A current authority or authorized issuer has documented the applicable status or acceptance for the stated material, use, and jurisdiction; this is not a broader approval claim."
+  - id: validation-maturity
+    title: Validation maturity
+    description: "Whether the next human work is foundational or a bounded test against predefined criteria."
+    higherIsMoreFavorable: true
+    unknownRule: "Use unknown when the outstanding questions and decision conditions are not sufficiently identified for a completed assessment."
+    bands:
+      - score: 1
+        label: Foundational unknowns
+        definition: "Mechanism, partition, product, or sink assumptions require basic resolution."
+      - score: 2
+        label: Broad validation needed
+        definition: "The main concept is described, but several independent evidence classes remain missing."
+      - score: 3
+        label: Bounded programme definable
+        definition: "Major questions are known and can be expressed as explicit tests and decision conditions."
+      - score: 4
+        label: Narrow confirmation needed
+        definition: "Most decision-critical evidence is present, with a small set of predefined confirmation gaps."
+      - score: 5
+        label: Maintenance for stated scope
+        definition: "The stated evidence package is complete and remaining work is monitoring or repeat confirmation; this does not authorize deployment or imply safety."

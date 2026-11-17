@@ -1,0 +1,22 @@
+schemaVersion: 1
+id: material-incorporation-note-the-family-moves-waste-not-contamination
+title: This family relocates a waste stream without treating it
+publicationState: approved
+auditAliases: []
+kind: gap
+contentKind: ai-gap-closing-note
+question: Should this family be described as treating cigarette butts?
+gapType: interpretation
+whyItMatters: The butt material reaches the product with its contaminants intact. Calling that treatment would imply that the contamination was dealt with, when what actually happened is that it was given a different and less visible form.
+affectedRecordIds:
+  - material-incorporation
+evidenceState: derived-from-sourced-premises
+validationState: requires-human-validation
+nextHumanWork: independent-product-or-intended-use-testing
+sourceInputIds:
+  - material-incorporation-small-scale-brick-study
+  - material-incorporation-metals-retained
+assumptions:
+  - No treatment step precedes the incorporation in this family.
+  - The product is used in circumstances where leaching or contact is possible, which construction and road applications generally are.
+falsifierOrDecisionCondition: If a located source demonstrated that the contaminants are immobilised to a defined standard before incorporation, the description could change from relocation to treatment.

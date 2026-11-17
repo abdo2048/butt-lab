@@ -1,0 +1,16 @@
+schemaVersion: 1
+id: material-incorporation-gap-incorporation-rate
+title: At what rate can the material be added without weakening the product
+publicationState: approved
+auditAliases: []
+kind: gap
+contentKind: unresolved-question
+question: What incorporation rate can butt material be added at before the mechanical performance of the product falls below what its use requires?
+gapType: process-performance
+whyItMatters: "The rate is the trade-off between diverting waste and producing a usable product. Without it, the family cannot be judged on either side: it is neither a proven waste solution nor a proven product."
+affectedRecordIds:
+  - material-incorporation
+evidenceState: source-not-located
+validationState: requires-human-validation
+nextHumanWork: controlled-laboratory-evidence
+falsifierOrDecisionCondition: Mechanical testing across a range of stated incorporation rates against a stated product requirement would either establish a usable rate or show that none exists.

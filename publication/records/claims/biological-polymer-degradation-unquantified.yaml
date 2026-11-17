@@ -1,0 +1,15 @@
+schemaVersion: 1
+id: biological-polymer-degradation-unquantified
+title: The extent of change to the cellulose acetate is unknown
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: No located source quantifies how far cellulose acetate from cigarette butts can be deacetylated or degraded, and no located source demonstrates complete mineralisation.
+evidenceState: source-not-located
+methodIds:
+  - biological
+hypothesisIds: []
+counterevidenceClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

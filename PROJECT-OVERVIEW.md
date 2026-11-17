@@ -1,6 +1,6 @@
 # Project Overview — butt-lab (read this first)
 
-**Last updated:** 2026-11-13 · **Maintainer:** operator (human) + coordinating assistant (Perplexity)
+**Last updated:** 2026-11-17 · **Maintainer:** operator (human) + coordinating assistant
 
 ## What this project is
 
@@ -38,15 +38,19 @@ Plus a post-Stage-5 **gap-closing retrieval unit** (2026-11-08 to 2026-11-11) th
 - `materials/gap-closing/gap-closing-round2/review-re-cig-AUT-end-of-waste.md` — review of the only public EoW authorization for butt recycling
 - `specs/batch-02-launch-plan.md` — the current (batch-02) plan, v1.0
 
-## Current status — batch-02 (planned, not yet launched)
+## Current status — batch-02 accepted; reader platform in build
 
-Batch-02 is defined in `specs/batch-02-launch-plan.md` (v1.0, operator decisions recorded 2026-11-13):
+Batch-02 ran 2026-11-16 and its desk-record deliverables were **accepted by the operator on 2026-11-17** as the content basis for the reader site. See `state/workflow.yaml` (`batch_02.operator_acceptance`) and `operator/batch-02-acceptance-2026-11-17.md`.
+
+Batch-02 was defined in `specs/batch-02-launch-plan.md` (v1.0, operator decisions recorded 2026-11-13):
 
 - **Phase 1:** six readable method explanations (mechanical, thermal, chemical, biological, material incorporation, product routes) for medicine-faculty students and general readers, with inline gap-closing notes at the exact locations where sources are missing information
 - **Phase 2:** the AI's own invention after seeing all methods, informed by prior art (batch-01 outputs read as awareness, not reference; weaknesses of previous methods must be recorded explicitly)
 - **Egypt annex:** separate file for Egypt-specific considerations; main content worldwide
 - **Product focus:** deliberately open until after Phase 2
 - **Review:** any future AI review is outside the workflow
+
+**Reader platform (in build, not deployed).** The publication content contract and the reader-application work were merged into this branch on 2026-11-17. The published layer currently holds **134 approved records and 10 reader pages** (six method-family pages plus `start-here`, `egypt-annex`, `how-the-research-works` and `limitations`), validates clean, and exports a byte-identical bundle. The next build unit is the Astro + Pagefind reader application, which consumes the exported bundle only — never the source YAML. Nothing is deployed or published.
 
 ## How to work in this repo
 
@@ -59,8 +63,8 @@ Batch-02 is defined in `specs/batch-02-launch-plan.md` (v1.0, operator decisions
 The publication content contract (Phase 1) provides schemas, a validator, and an exporter for a reviewed publication layer. It is **derived** from the repository's research and workflow outputs — the repository remains authoritative.
 
 Key references:
-- Approved design spec: `docs/superpowers/plans/2026-11-14-publication-content-contract.md`
-- Phase-1 implementation plan: same document (Tasks 1–10)
+- Publication content contract: implementation plan and design record `docs/superpowers/plans/2026-11-14-publication-content-contract.md`
+- Reader-platform design: `docs/superpowers/specs/2026-11-13-butt-lab-reader-platform-design.md`; implementation plan `docs/superpowers/plans/2026-11-16-butt-lab-reader-platform.md`
 - Publication directory overview: `publication/README.md`
 - Full usage and operator workflows: `docs/publication-content-contract.md`
 
@@ -68,7 +72,7 @@ Key references:
 
 ## Guardrails (non-negotiable)
 
-- **No experiment is authorized.** Desk work only.
+- **No physical experiment is authorized.** The AI may design, specify and simulate experiments; it must never handle material, collect samples, operate equipment or perform a physical measurement. See `state/workflow.yaml` (`permissions.experiments`).
 - No claim that any method or proposal is clean, safe, validated, costed, patentable, or environmentally superior without measurement.
 - J-H-01 and every batch-01/batch-02 invention remain unvalidated hypotheses awaiting the measurement that could kill them.
 - Metals are an explicit stop condition.

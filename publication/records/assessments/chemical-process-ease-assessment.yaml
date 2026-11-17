@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: chemical-process-ease-assessment
+title: Process ease for solvent dissolution and polymer recovery
+publicationState: approved
+kind: assessment
+methodId: chemical
+criterionId: process-ease
+status: scored
+rubricVersion: 1.0.0
+supportingClaimIds:
+  - chemical-mechanism-solvent-dissolution-precipitation
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+score: 2
+label: Difficult
+rationale: The route needs dissolution, filtration, precipitation, washing, drying and in some designs solvent recovery by distillation, together with handling of regulated solvents and a solvent recovery step that has to run for the economics to hold. That is well beyond the moderate band.
+basis: inference

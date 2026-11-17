@@ -1,0 +1,142 @@
+schemaVersion: 1
+id: chemical
+title: Solvent dissolution and polymer recovery
+publicationState: approved
+auditAliases:
+  - F3
+  - batch-02 F3
+kind: method-family
+family: chemical
+summary: The filter material is dissolved in a solvent so that it separates from paper, tobacco and ash, then precipitated again as a solid and dried. The route targets the valuable polymer itself rather than using the butt as filler.
+mechanism: Dissolution of the cellulose acetate in a solvent, filtration of the insoluble residue, precipitation of the polymer by adding a non-solvent, washing to strip residual solvent and dissolved contaminants, drying, and in some processes recovery of the solvent by distillation.
+feedstock: Spent cigarette butts, with the tobacco and paper either separated beforehand or left in. No located source states a mass basis for the butt feed.
+preparation: Collection, and optionally the separation of tobacco and paper from the filter material before the solvent stage.
+steps:
+  - id: dissolution
+    label: Solvent dissolution
+    description: The filter material is dissolved in a solvent so that it separates from the paper, tobacco and ash. No located source states a solvent concentration, a temperature, a time or a solvent-to-feed ratio, and several of the named solvents carry regulatory obligations that a route description has to respect.
+  - id: filtration
+    label: Filtration
+    description: The undissolved residue, consisting of paper, tobacco, ash and part of the contamination, is filtered out and becomes a contaminated solid stream.
+  - id: precipitation
+    label: Precipitation
+    description: The polymer solution is combined with a non-solvent, which is typically water, so that the cellulose acetate comes back out as a solid.
+  - id: washing
+    label: Washing
+    description: The precipitated solid is washed to remove residual solvent and dissolved contaminants. Whether the washing is thorough enough to remove the solvent traces has not been measured.
+  - id: drying
+    label: Drying and solvent recovery
+    description: The washed solid is dried to recover the polymer, and in some described processes the solvent and non-solvent mixture is distilled and reused. The energy demand of that recovery is described as a major unknown.
+inputs:
+  - id: spent-butts
+    label: Spent cigarette butts
+    description: Butts as the source of the cellulose acetate to be recovered.
+  - id: solvent
+    label: Organic solvent
+    description: A solvent in which cellulose acetate dissolves, such as acetone, N-methyl-2-pyrrolidone, dimethylacetamide or tetrahydrofuran. Several of these are regulated substances with handling, storage and disposal requirements.
+  - id: non-solvent
+    label: Non-solvent for precipitation
+    description: Typically water, used to precipitate the polymer back out of the solution.
+streams:
+  - id: recovered-polymer
+    label: Recovered cellulose acetate
+    type: product
+    contaminants:
+      - nicotine
+      - polycyclic aromatic hydrocarbons
+      - cadmium
+      - lead
+      - arsenic
+    fateState: inferred
+  - id: filtration-residue
+    label: Filtration residue
+    type: reject
+    contaminants:
+      - nicotine
+      - tobacco-specific nitrosamines
+      - polycyclic aromatic hydrocarbons
+      - cadmium
+      - lead
+      - arsenic
+    fateState: unresolved
+  - id: spent-solvent
+    label: Spent solvent and non-solvent mixture
+    type: liquid
+    contaminants:
+      - nicotine
+      - polycyclic aromatic hydrocarbons
+      - cadmium
+      - lead
+      - arsenic
+    fateState: unresolved
+  - id: wash-water
+    label: Wash water from the precipitated solid
+    type: treatment-outlet
+    contaminants:
+      - nicotine
+    fateState: unresolved
+products:
+  - id: recovered-ca
+    label: Recovered cellulose acetate
+    description: Powder, flake or pellet recovered by precipitation and drying, offered for textile, film and membrane applications. Its purity, molecular weight and residual toxicity have not been characterised.
+    intendedUse: Textiles, films and membranes are named as target applications, but no product standard accepts recovered cellulose acetate from this source and no source demonstrates performance in any of them.
+sinks:
+  - id: recovered-polymer-sink
+    material: Cellulose acetate recovered by solvent dissolution and re-precipitation, with purity and molecular weight not established.
+    intendedUse: Textile, film and membrane applications, as proposed in the located sources.
+    acceptanceBasis: Not established. No product standard, leaching limit or purity specification has been located for recovered cellulose acetate from this source.
+    issuer: Not established. No company, standard body or authority has been located as the issuer of an accepted product.
+    finalRoute: Not established. The filtration residue and the spent solvent mixture have no demonstrated final route, and the spent solvent carries the extracted toxins.
+claimIds:
+  - chemical-mechanism-solvent-dissolution-precipitation
+  - chemical-mechanism-extraction-characterisation
+  - chemical-analyte-partitioning-not-located
+  - chemical-metals-removal-unknown
+  - chemical-regulatory-status-not-located
+  - chemical-inference-purity-is-not-performance
+gapIds:
+  - chemical-gap-solvent-fate
+  - chemical-gap-unreviewed-pulping-route
+  - chemical-note-solvent-and-nmp-are-handling-obligations
+termIds:
+  - cellulose-acetate
+  - nicotine
+  - tsna
+  - pah
+  - heavy-metals
+  - tar
+  - microplastics
+  - dry-mass-basis
+  - analyte-resolved-fate
+  - four-field-sink
+sourceIds:
+  - cnr-knowledge-share-ca-recovery
+  - defenzo-2020-materials
+  - cn106928486
+hypothesisIds:
+  - batch-02-invention-sketch
+  - batch-02-scientist-inventor-proposals
+  - batch-02-evidence-gap-synthesis
+assessmentIds:
+  - chemical-evidence-strength-assessment
+  - chemical-process-ease-assessment
+  - chemical-resource-burden-assessment
+  - chemical-contaminant-fate-coverage-assessment
+  - chemical-sink-completeness-assessment
+  - chemical-product-readiness-assessment
+  - chemical-regulatory-clarity-assessment
+  - chemical-validation-maturity-assessment
+organizations:
+  - name: Consiglio Nazionale delle Ricerche
+    role: Research body whose patent offering describes acetone extraction, filtration, water precipitation and acetone recovery from cigarette butts and filters, and reports reuse of the recovered polymer in fabricated articles.
+  - name: Cerdia
+    role: Company named as pursuing recovery of cellulose acetate from post-consumer mouthpieces, with a published patent family.
+auditReferences:
+  - label: CNR cellulose acetate recovery patent offering
+    url: https://www.knowledge-share.eu/en/patents/cellulose-acetate-from-recycling-of-cigarette-butts-and-filters/
+    version: CNR knowledge-share offering
+    internalId: batch-01-cnr-knowledge-share
+  - label: CN106928486A cellulose acetate recovery
+    url: https://patents.google.com/patent/CN106928486A/en
+    version: CN106928486A
+    internalId: batch-01-cn106928486

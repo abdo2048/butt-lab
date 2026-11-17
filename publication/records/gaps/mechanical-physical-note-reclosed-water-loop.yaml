@@ -1,0 +1,21 @@
+schemaVersion: 1
+id: mechanical-physical-note-reclosed-water-loop
+title: A closed wash-water loop without a stated purge concentrates contaminants
+publicationState: approved
+auditAliases: []
+kind: gap
+contentKind: ai-gap-closing-note
+question: How should the recycled wash water in this family be treated before it is used again?
+gapType: process-control
+whyItMatters: "A loop that reuses wash water without a stated purge or treatment step is a concentrating loop: what leaves the fibre accumulates in the water that is used to wash the next lot."
+affectedRecordIds:
+  - mechanical-physical
+evidenceState: derived-from-sourced-premises
+validationState: requires-human-validation
+nextHumanWork: analytical-method-work
+sourceInputIds:
+  - mechanical-physical-mechanism-grind-sieve-wash
+assumptions:
+  - The recycled water is used on more than one batch, as the located description implies.
+  - No treatment step other than settling is applied between uses, because no located source describes one.
+falsifierOrDecisionCondition: If a located source described the treatment applied to the recycled water, or a measured purge, then the concentrating effect would be bounded rather than open, and this note would no longer hold.

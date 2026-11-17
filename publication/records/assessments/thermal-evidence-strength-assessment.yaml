@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: thermal-evidence-strength-assessment
+title: Evidence strength for dry treatment and composite extrusion
+publicationState: approved
+kind: assessment
+methodId: thermal
+criterionId: evidence-strength
+status: scored
+rubricVersion: 1.0.0
+supportingClaimIds:
+  - thermal-mechanism-dry-extrusion
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+score: 2
+label: Limited
+rationale: The located support is company material and general composite literature, with no independent verification of product performance, safety or environmental benefit, and no analyte or leaching data.
+basis: inference

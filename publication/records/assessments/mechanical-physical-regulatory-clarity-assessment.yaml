@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: mechanical-physical-regulatory-clarity-assessment
+title: Regulatory clarity for mechanical and physical washing
+publicationState: approved
+kind: assessment
+methodId: mechanical-physical
+criterionId: regulatory-clarity
+status: scored
+rubricVersion: 1.0.0
+supportingClaimIds:
+  - mechanical-physical-regulatory-status-not-located
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+score: 1
+label: Unlocated
+rationale: No located source names a jurisdiction, a material status, or an authority that would regulate this material as a product rather than as waste. A company-level end-of-waste annex exists for one operator, but it is not a regulatory pathway.
+basis: inference

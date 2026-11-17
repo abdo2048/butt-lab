@@ -1,0 +1,17 @@
+schemaVersion: 1
+id: chemical-mechanism-extraction-characterisation
+title: A published study extracted cellulose acetate with organic solvents and characterised it
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: A peer-reviewed study describes extracting cellulose acetate from cigarette butts with acetone or ethyl acetate, characterising the recovered polymer by infrared and thermogravimetric analysis, studying its degradation, and forming a transparent film from it.
+evidenceState: source-supported
+methodIds:
+  - chemical
+hypothesisIds: []
+sourceId: defenzo-2020-materials
+locator: Abstract and experimental description
+counterevidenceClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

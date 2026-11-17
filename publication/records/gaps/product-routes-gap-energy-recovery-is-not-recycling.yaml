@@ -1,0 +1,16 @@
+schemaVersion: 1
+id: product-routes-gap-energy-recovery-is-not-recycling
+title: Energy recovery is a different proposition from material recovery
+publicationState: approved
+auditAliases: []
+kind: gap
+contentKind: unresolved-question
+question: Should the energy-recovery route be counted as a recycling route at all, given that it destroys the material and concentrates the metals into ash?
+gapType: interpretation
+whyItMatters: Counting it would inflate the apparent number of options available, because it does not deliver any recovered material and it leaves a residue that still has to be routed.
+affectedRecordIds:
+  - product-routes
+evidenceState: source-not-located
+validationState: requires-human-validation
+nextHumanWork: treatment-acceptance
+falsifierOrDecisionCondition: If a located source showed that the ash from this route had an accepted outlet under a stated standard, the route could be presented as a complete option rather than as energy recovery with a residue problem.

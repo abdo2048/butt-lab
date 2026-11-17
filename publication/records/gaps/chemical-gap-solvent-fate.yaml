@@ -1,0 +1,16 @@
+schemaVersion: 1
+id: chemical-gap-solvent-fate
+title: Where do the extracted toxins go once the solvent is spent
+publicationState: approved
+auditAliases: []
+kind: gap
+contentKind: unresolved-question
+question: When the filter polymer is dissolved and the solvent is later spent, what is in that solvent, and what route exists for it?
+gapType: material-fate
+whyItMatters: The route moves contamination out of the polymer and into a liquid. If that liquid has no route, the process has moved the problem rather than solved it, and the contamination is now in a more concentrated and less visible form.
+affectedRecordIds:
+  - chemical
+evidenceState: source-not-located
+validationState: requires-human-validation
+nextHumanWork: treatment-acceptance
+falsifierOrDecisionCondition: A located source that names the treatment route for the spent solvent, together with measured contaminant levels in it, would close this question.

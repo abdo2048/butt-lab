@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: product-routes-product-readiness-assessment
+title: Product readiness for the candidate product routes
+publicationState: approved
+kind: assessment
+methodId: product-routes
+criterionId: product-readiness
+status: scored
+rubricVersion: 1.0.0
+supportingClaimIds:
+  - product-routes-no-independent-evidence
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+score: 1
+label: Undefined
+rationale: No product standard, product gate or performance evidence has been located for any candidate route, so there is no product performance evidence to judge in any of them.
+basis: inference

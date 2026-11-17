@@ -1,0 +1,16 @@
+schemaVersion: 1
+id: thermal-gap-leaching-lifetime
+title: Do contaminants stay inside the composite for the life of the product
+publicationState: approved
+auditAliases: []
+kind: gap
+contentKind: unresolved-question
+question: If the contaminants are sealed inside the composite rather than removed, do they stay there for the life of the product, or do they migrate out under rain, heat and ultraviolet exposure?
+gapType: material-fate
+whyItMatters: The route's entire environmental argument rests on containment holding for as long as the product is in use. If it does not hold, the product becomes a slow source of the same contaminants it was made from.
+affectedRecordIds:
+  - thermal
+evidenceState: source-not-located
+validationState: requires-human-validation
+nextHumanWork: controlled-laboratory-evidence
+falsifierOrDecisionCondition: A leaching study that measures the named analytes in the composite over time under stated exposure conditions would either show that containment holds or show that it does not.

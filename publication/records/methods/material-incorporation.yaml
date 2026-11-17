@@ -1,0 +1,134 @@
+schemaVersion: 1
+id: material-incorporation
+title: Material incorporation into other products
+publicationState: approved
+auditAliases:
+  - F5
+  - batch-02 F5
+kind: method-family
+family: material-incorporation
+summary: Butt material is added to another material as a partial replacement, in bricks, concrete, tiles, asphalt, panels or insulation. It is conceptually simple, and the contaminants stay with the butts.
+mechanism: Butt material is physically incorporated into a host matrix at a stated rate, mixed, formed and then cured or fired. The butts are not chemically changed; the contaminants travel with them into the product, and may leach from it or volatilise during firing.
+feedstock: Dried cigarette butts, optionally milled or washed, combined with a host matrix such as clay, cement, aggregate, asphalt binder or polymer resin. No located source states the incorporation rate as a percentage of mass or volume, and no located source states a mass basis.
+preparation: Drying, and optionally milling or washing the butt material before it is mixed into the matrix.
+steps:
+  - id: pre-treatment
+    label: Pre-treatment of the butt material
+    description: The butt material is dried and optionally milled or washed. No located source states a particle size distribution or a preparation protocol.
+  - id: matrix-preparation
+    label: Matrix preparation
+    description: The host matrix is prepared in the usual way for the product being made, such as a clay mix, a concrete mix or an asphalt binder.
+  - id: incorporation
+    label: Incorporation
+    description: The butt material is added to the matrix at a stated rate. No located source states the rate as a percentage of mass or volume for any product.
+  - id: forming-and-curing
+    label: Forming, curing and firing
+    description: The blend is formed into the product and then cured, fired or cooled. Where butt material is fired, the located source material records warn that volatile compounds would be released to the air and that emission controls would be needed.
+  - id: end-of-life
+    label: End of life
+    description: No located source names a route for a product that contains butt material when it is demolished or discarded, and demolition waste containing butt material would need separate handling.
+inputs:
+  - id: butt-material
+    label: Prepared butt material
+    description: Dried, and optionally milled or washed, butt material used as a partial raw-material replacement.
+  - id: host-matrix
+    label: Host matrix materials
+    description: Clay, cement, aggregate, asphalt binder or polymer resin, depending on the product.
+streams:
+  - id: products
+    label: Products containing butt material
+    type: product
+    contaminants:
+      - nicotine
+      - polycyclic aromatic hydrocarbons
+      - cadmium
+      - lead
+      - arsenic
+    fateState: unresolved
+  - id: firing-emissions
+    label: Firing emissions
+    type: emission
+    contaminants:
+      - nicotine
+      - polycyclic aromatic hydrocarbons
+    fateState: unresolved
+  - id: leaching
+    label: Leaching from the finished product
+    type: treatment-outlet
+    contaminants:
+      - cadmium
+      - lead
+      - arsenic
+    fateState: unresolved
+  - id: demolition-waste
+    label: Demolition waste containing butt material
+    type: unexplained-loss
+    contaminants:
+      - cadmium
+      - lead
+      - arsenic
+    fateState: unresolved
+products:
+  - id: incorporation-products
+    label: Bricks, concrete, tiles, asphalt and panels containing butt material
+    description: Construction and composite products in which butt material is used as a partial replacement for a conventional raw material.
+    intendedUse: Construction and, in some reported cases, outdoor products. No located source demonstrates fitness for a load-bearing application, and no product standard accepts butt material as an ingredient.
+sinks:
+  - id: incorporation-sink
+    material: Construction and composite products containing cigarette butt material at an incorporation rate that no located source states.
+    intendedUse: Construction materials and, in some reported cases, outdoor products.
+    acceptanceBasis: Not established. No product standard, building-code provision, leaching limit or emission limit has been located for this material.
+    issuer: Not established. No company, standard body or authority has been located as the issuer of an accepted product.
+    finalRoute: Not established. No route for the finished product at end of life has been located, and demolition waste containing butt material would need separate handling.
+claimIds:
+  - material-incorporation-small-scale-brick-study
+  - material-incorporation-no-commercial-demonstration
+  - material-incorporation-leaching-unmeasured
+  - material-incorporation-metals-retained
+  - material-incorporation-regulatory-status-not-located
+  - material-incorporation-inference-energy-claim-not-comparable
+gapIds:
+  - material-incorporation-gap-leaching-and-firing
+  - material-incorporation-gap-incorporation-rate
+  - material-incorporation-note-the-family-moves-waste-not-contamination
+termIds:
+  - cellulose-acetate
+  - nicotine
+  - tsna
+  - pah
+  - heavy-metals
+  - tar
+  - microplastics
+  - dry-mass-basis
+  - analyte-resolved-fate
+  - four-field-sink
+sourceIds:
+  - rmit-brick-making
+  - cigarette-butt-asphalt
+hypothesisIds:
+  - batch-02-invention-sketch
+  - batch-02-scientist-inventor-proposals
+  - batch-02-evidence-gap-synthesis
+assessmentIds:
+  - material-incorporation-evidence-strength-assessment
+  - material-incorporation-process-ease-assessment
+  - material-incorporation-resource-burden-assessment
+  - material-incorporation-contaminant-fate-coverage-assessment
+  - material-incorporation-sink-completeness-assessment
+  - material-incorporation-product-readiness-assessment
+  - material-incorporation-regulatory-clarity-assessment
+  - material-incorporation-validation-maturity-assessment
+organizations:
+  - name: RMIT University
+    role: University whose research on making bricks from cigarette butt material is described in a trade-press report, at a low inclusion rate.
+  - name: Re-Cig
+    role: Company whose end-of-waste annex is described as referencing product criteria for recycled material.
+auditReferences:
+  - label: RMIT University brick-making study
+    url: https://www.labmanager.com/how-cigarette-butts-can-be-recycled-into-bricks-23843
+    version: Trade-press report of the university study
+    internalId: batch-01-rmit-brick-making
+  - label: Cigarette butts mixed with asphalt
+    url: https://ceramics.org/ceramic-tech-today/cigarette-butts-mixed-with-asphalt-create-new-pavement-material/
+    version: Ceramic Tech Today article
+    internalId: batch-01-cigarette-butt-asphalt

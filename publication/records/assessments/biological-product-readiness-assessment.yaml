@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: biological-product-readiness-assessment
+title: Product readiness for biological treatment
+publicationState: approved
+kind: assessment
+methodId: biological
+criterionId: product-readiness
+status: scored
+rubricVersion: 1.0.0
+supportingClaimIds:
+  - biological-polymer-degradation-unquantified
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+score: 1
+label: Undefined
+rationale: The treated material has not been characterised for purity, degree of change or residual toxicity, and no product gate has been located, so there is no product performance evidence to judge.
+basis: inference

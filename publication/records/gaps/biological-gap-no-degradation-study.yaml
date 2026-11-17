@@ -1,0 +1,16 @@
+schemaVersion: 1
+id: biological-gap-no-degradation-study
+title: No degradation study exists for cigarette butts under biological treatment
+publicationState: approved
+auditAliases: []
+kind: gap
+contentKind: unresolved-question
+question: When cigarette butts are treated biologically, are the nicotine and the combustion residues degraded into harmless products, transformed into something else, or simply moved into the spent medium?
+gapType: material-fate
+whyItMatters: The three answers lead to completely different routes. A process that degrades the residues is a treatment; a process that moves them into the liquid has produced a contaminated effluent that needs its own solution; a process that leaves them in the solid has achieved nothing for product purposes.
+affectedRecordIds:
+  - biological
+evidenceState: source-not-located
+validationState: requires-human-validation
+nextHumanWork: controlled-laboratory-evidence
+falsifierOrDecisionCondition: A measurement of the named analytes in the input material, in the spent medium and in the treated solid, on one dry-mass basis, would distinguish the three answers.

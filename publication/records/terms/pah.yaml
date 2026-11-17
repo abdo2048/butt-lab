@@ -1,0 +1,20 @@
+schemaVersion: 1
+id: pah
+title: Polycyclic aromatic hydrocarbons
+publicationState: approved
+auditAliases: []
+kind: term
+preferredLabel: Polycyclic aromatic hydrocarbons
+acronym: PAHs
+aliases: []
+tooltip: Combustion-derived compounds that many routes redistribute rather than remove.
+explanation: Polycyclic aromatic hydrocarbons are the combustion residue most often described as being only partly transferred to the wash liquor. Because several routes simply encapsulate the butt material rather than treating it, the question for them is not removal but whether the compound can later escape the product.
+methodIds:
+  - mechanical-physical
+  - thermal
+  - chemical
+  - biological
+  - material-incorporation
+  - product-routes
+claimIds: []
+sourceIds: []

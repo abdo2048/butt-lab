@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: biological-inference-earliest-stage-family
+title: This family is at an earlier stage than the others
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: inference
+proposition: Because the located evidence for this family is a single granted patent for a treatment device together with general literature on polymer biodegradation that was not written about cigarette butts, this family has a weaker basis for any claim than the families with a peer-reviewed study behind them.
+evidenceState: derived-from-sourced-premises
+methodIds:
+  - biological
+hypothesisIds: []
+counterevidenceClaimIds: []
+premiseClaimIds:
+  - biological-patent-device-exists
+reasoning: The one located source establishes that a device has been patented, not that the approach works on this feedstock. The general biodegradation literature is not about cigarette butts and cannot be transferred without a measurement. The comparison is therefore made against the evidence each family actually has, and it favours the others.
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

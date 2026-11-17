@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: biological-regulatory-clarity-assessment
+title: Regulatory clarity for biological treatment
+publicationState: approved
+kind: assessment
+methodId: biological
+criterionId: regulatory-clarity
+status: scored
+rubricVersion: 1.0.0
+supportingClaimIds:
+  - biological-regulatory-status-not-located
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+score: 1
+label: Unlocated
+rationale: No jurisdiction, material status or authority has been located for this family, and the biosafety obligations attached to the biological agent are a separate matter from any end-of-waste status.
+basis: inference

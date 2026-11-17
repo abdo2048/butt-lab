@@ -1,0 +1,19 @@
+schemaVersion: 1
+id: product-routes-contaminant-fate-coverage-assessment
+title: Contaminant fate coverage for the candidate product routes
+publicationState: approved
+kind: assessment
+methodId: product-routes
+criterionId: contaminant-fate-coverage
+status: scored
+rubricVersion: 1.0.0
+supportingClaimIds:
+  - product-routes-no-independent-evidence
+  - product-routes-metals-measurement-required
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+score: 1
+label: Minimal
+rationale: Every route inherits the contaminants of its input intermediate, and no located source measures the content of any candidate product, its flue gas or its ash, so nothing about the fate of the named analytes has been measured.
+basis: inference

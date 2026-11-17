@@ -1,0 +1,60 @@
+schemaVersion: 1
+id: cigarette-butt
+title: Cigarette butt
+publicationState: approved
+auditAliases:
+  - cigarette butt
+  - cigarette butts
+  - spent cigarette butts
+  - butts
+kind: material
+description: The filter, the paper, the remaining tobacco and the ash left in a finished cigarette after it has been smoked, as collected from ash trays, bins and street litter.
+compositionSummary: "A spent cigarette butt is a layered composite rather than a single material: a cellulose acetate filter tow, a paper wrapper carrying combustion residue, a short tobacco rod that retains tobacco-specific compounds, and fine ash. What matters for every recycling route is that these layers carry different contaminants, so a process that treats the butt as one material will either leave some contaminants untouched or redistribute them without removing them."
+contaminants:
+  - nicotine
+  - tobacco-specific nitrosamines
+  - polycyclic aromatic hydrocarbons
+  - tar and combustion residues
+  - cadmium
+  - lead
+  - arsenic
+  - mercury
+  - combustion salts
+termIds:
+  - cellulose-acetate
+  - nicotine
+  - tsna
+  - pah
+  - heavy-metals
+  - tar
+  - microplastics
+  - dry-mass-basis
+  - analyte-resolved-fate
+  - four-field-sink
+jurisdictions:
+  - France
+  - Italy
+  - Spain
+  - Germany
+  - Portugal
+  - Turkey
+  - Brazil
+  - China
+  - South Korea
+  - Taiwan
+  - Australia
+  - United States
+tags:
+  - waste-stream
+  - post-consumer
+  - cellulose-acetate
+  - composite-material
+  - litter
+  - recycling
+methodFamilyIds:
+  - mechanical-physical
+  - thermal
+  - chemical
+  - biological
+  - material-incorporation
+  - product-routes

@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: mechanical-physical-process-ease-assessment
+title: Process ease for mechanical and physical washing
+publicationState: approved
+kind: assessment
+methodId: mechanical-physical
+criterionId: process-ease
+status: scored
+rubricVersion: 1.0.0
+supportingClaimIds:
+  - mechanical-physical-mechanism-grind-sieve-wash
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+score: 3
+label: Moderate
+rationale: The described sequence uses common equipment and a short set of steps, but it depends on sieving that has to separate a fine filter fraction from a fine paper and ash fraction, and on wash-water handling. Neither difficulty is severe enough to make the route very difficult.
+basis: inference

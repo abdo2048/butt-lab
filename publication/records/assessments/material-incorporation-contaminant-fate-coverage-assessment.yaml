@@ -1,0 +1,19 @@
+schemaVersion: 1
+id: material-incorporation-contaminant-fate-coverage-assessment
+title: Contaminant fate coverage for material incorporation
+publicationState: approved
+kind: assessment
+methodId: material-incorporation
+criterionId: contaminant-fate-coverage
+status: scored
+rubricVersion: 1.0.0
+supportingClaimIds:
+  - material-incorporation-leaching-unmeasured
+  - material-incorporation-metals-retained
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+score: 1
+label: Minimal
+rationale: The contaminants are not removed by this family and no leaching, firing-emission or end-of-life study has been located, so the named analytes and the major output streams are unmeasured.
+basis: inference

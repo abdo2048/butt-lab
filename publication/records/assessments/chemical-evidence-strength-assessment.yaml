@@ -1,0 +1,19 @@
+schemaVersion: 1
+id: chemical-evidence-strength-assessment
+title: Evidence strength for solvent dissolution and polymer recovery
+publicationState: approved
+kind: assessment
+methodId: chemical
+criterionId: evidence-strength
+status: scored
+rubricVersion: 1.0.0
+supportingClaimIds:
+  - chemical-mechanism-solvent-dissolution-precipitation
+  - chemical-mechanism-extraction-characterisation
+conflictingClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16
+score: 2
+label: Limited
+rationale: The located support is a patent offering and a peer-reviewed study, with no independent verification of any performance claim and no published contaminant or cost data. The peer-reviewed characterisation gives the family more than the minimal band, but not the mixed band, because no independent party has reproduced it.
+basis: inference

@@ -1,0 +1,15 @@
+schemaVersion: 1
+id: chemical-metals-removal-unknown
+title: Heavy-metal removal in this family is unknown
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: No located source reports whether heavy metals follow the dissolved cellulose acetate into the recovered polymer or stay in the insoluble residue, and no located source describes a step that would remove them.
+evidenceState: source-not-located
+methodIds:
+  - chemical
+hypothesisIds: []
+counterevidenceClaimIds: []
+reviewer: butt-lab batch-02 AI desk review (no human sign-off recorded)
+reviewDate: 2026-11-16

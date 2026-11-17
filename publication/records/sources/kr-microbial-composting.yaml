@@ -1,0 +1,19 @@
+schemaVersion: 1
+id: kr-microbial-composting
+title: KR10-1782684-1 - device for microbial treatment of cigarette butts
+publicationState: approved
+auditAliases:
+  - batch-01 KR10-1782684-1
+kind: source
+citation: KR10-1782684-1, device for microbial treatment of cigarette butts, granted in South Korea in 2018; trade-press reference recorded in the project's method registry.
+sourceType: web-page
+publisherOrIssuer: CCTV Today trade press, citing the granted Korean patent
+versionOrDate: KR10-1782684-1; granted 2018
+originalUrl: https://www.cctoday.co.kr/news
+accessDate: 2026-11-11
+rights: link-only
+derivatives: []
+claimIds:
+  - biological-patent-device-exists
+methodIds:
+  - biological

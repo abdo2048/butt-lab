@@ -1,0 +1,19 @@
+schemaVersion: 1
+id: 3d-printing-filament
+title: 3D printing filament from cigarette butts
+publicationState: approved
+auditAliases:
+  - batch-01 3D printing filament
+kind: source
+citation: 3D Printing Industry news report on producing 3D printing filament from cigarette butt material.
+sourceType: web-page
+publisherOrIssuer: 3D Printing Industry
+versionOrDate: News report on a startup and associated research publications
+originalUrl: https://3dprinting.com/news/cigarette-butts-get-new-life-as-feedstock/
+accessDate: 2026-11-11
+rights: link-only
+derivatives: []
+claimIds:
+  - product-routes-filament-route-reported
+methodIds:
+  - product-routes
