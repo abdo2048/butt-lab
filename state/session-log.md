@@ -217,3 +217,10 @@ push and deployment, or not. Then Phase E — the operator runs `docs/DEPLOY.md`
 The agent does not create `operator/deployment-approval.json`; the gate refuses every
 deployment until the operator does. Nothing is deployed, published, or experimentally
 validated.
+
+**Release candidate.** The commit to approve is **`65d429f`** on `origin/feat/reader-platform`
+— the Phase D commit. The commit that follows it only records this hash in the two state
+files and changes no site byte, so the built site and the artifact hash are identical from
+either commit. When packaging the artifact, set `SOURCE_COMMIT=65d429f` so that the
+artifact manifest, the operator's approval record and `docs/RELEASE-CHECKLIST.md` all name
+the same commit.

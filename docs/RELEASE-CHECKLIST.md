@@ -25,15 +25,22 @@ anywhere in the site or in this checklist. The inventions on the site are labell
 
 ## 2. The release candidate
 
-The candidate is the **tip of `origin/feat/reader-platform`** after the Phase D commit. The
-exact commit hash is recorded in `state/workflow.yaml` under `release_gate.release_candidate`
-and repeated in `state/session-log.md`.
+The candidate is commit **`65d429f`** on `origin/feat/reader-platform` — the Phase D
+commit. The exact commit hash is recorded in `state/workflow.yaml` under
+`release_gate.release_candidate` and repeated in `state/session-log.md`.
+
+The commit that follows `65d429f` only writes that hash into the two state files.
+It changes **no site byte**, so the built site and the artifact hash are identical
+from either commit. When you package the artifact, set `SOURCE_COMMIT=65d429f` so
+that the artifact manifest, your approval record and this checklist all name the
+same commit.
 
 To confirm what you are approving:
 
 ```powershell
 git -C C:\w\rp fetch origin
 git -C C:\w\rp log --oneline -3 origin/feat/reader-platform
+git -C C:\w\rp show --stat 65d429f
 git -C C:\w\rp status --short            # must print nothing
 ```
 
