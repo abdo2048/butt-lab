@@ -73,6 +73,12 @@ jobs:
           --request deployment-request.json
           --artifact artifact
 
+      - name: Stage the approved bytes for the assets binding
+        # The deployed bytes must be exactly the bytes the operator approved, so the
+        # site is copied out of the artifact. This workflow never rebuilds.
+        working-directory: tools/reader-site
+        run: rm -rf dist && cp -r artifact/site dist
+
       - name: Publish the verified site
         working-directory: tools/reader-site
         env:

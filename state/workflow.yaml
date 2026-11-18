@@ -9,19 +9,20 @@
 
 version: 3
 updated: '2026-11-17'
-status: reader_platform_release_gate_in_progress
+status: reader_platform_release_preparation_in_progress
 
 execution: file-directed; host must trigger/resume; no scheduler installed
 
 next_action: >-
-  Phase C is half done. The release gate exists and refuses every deployment: the
-  content-addressed artifact, the approval verifier, and the two CI workflows, with
-  build.yml unable to deploy and deploy.yml able to deploy only after the operator's
-  approval record is verified against the artifact's actual bytes. The remaining work
-  is to finish Phase C (the wrangler configuration and the manual deployment guide
-  written from the real wrangler help output), then Phase D (release preparation and
-  the acceptance gate), then Phase E (hosting, on the operator's explicit go-ahead).
-  Deployment, publication, experiment and pilot each remain separately unauthorized.
+  Phase C is complete. The hosting configuration and the manual deployment guide exist
+  and are verified against the real wrangler: a dry run compiles and checks the site
+  and uploads nothing, and the deploy workflow stages the approved artifact bytes and
+  never rebuilds them. The remaining work is Phase D (the release-preparation
+  checklist: the full validation suite, the rights and exposure audit, the scientific
+  review rehearsal, the accessibility and responsive checks, the local preview, and the
+  operator's single approve-this-commit-or-not decision), then Phase E (hosting, which
+  the operator performs by hand from docs/DEPLOY.md). Deployment, publication,
+  experiment and pilot each remain separately unauthorized.
 
 pending_manual_action: >-
   Three operator decisions remain outstanding and none of them is made here. First, the
@@ -33,8 +34,8 @@ pending_manual_action: >-
 current_plan: docs/BUILD-PLAN.md
 
 current_unit:
-  name: reader_platform_release_gate
-  unit: Phase C, the CI and the gated deployment path that refuses until the operator approves
+  name: reader_platform_release_preparation
+  unit: Phase D, the release-preparation checklist and the acceptance gate
   branch: feat/reader-platform
   worktree: C:\w\rp
   plan: docs/BUILD-PLAN.md
@@ -76,7 +77,23 @@ release_gate:
     artifact bytes before it deploys
   approval_record: operator/deployment-approval.json
   approval_record_state: not created; the gate therefore refuses every deployment
-  status: built_and_verified
+  status: release_gate_built_and_verified
+  hosting_config:
+    file: tools/reader-site/wrangler.jsonc
+    worker_name: butt-lab
+    shape: assets-only Worker; no script, no database; assets.directory is ./dist
+    dry_run: npx wrangler deploy --dry-run exits 0, reads 121 files, uploads nothing
+    wrangler_version: 4.164.0, pinned as an exact devDependency
+  manual_guide:
+    file: docs/DEPLOY.md
+    audience: the operator, with no AI present
+    steps: install, login, build, package the artifact, approve, request, verify, stage, deploy, read the URL, redeploy, rollback
+  approval_template:
+    file: operator/deployment-approval.template.json
+    note: placeholders only; the gate refuses the template, so it cannot be mistaken for an approval
+  operator_decision: >-
+    The operator runs the deployment by hand. The agent does not publish, does not hold
+    credentials and does not create the approval record.
 
 archive:
   frozen_history: docs/history/
@@ -108,7 +125,7 @@ content_state:
     stack: Astro plus Pagefind static search
     pages_built: 28
     pagefind_index: 28 pages, 2056 words
-    reader_tests: 113 tests, 113 pass, 0 fail
+    reader_tests: 120 tests, 120 pass, 0 fail
     build_command: npm run build in tools/reader-site
     bundle_rule: >-
       The site consumes the exported bundle only. scripts/build-content.ts verifies every

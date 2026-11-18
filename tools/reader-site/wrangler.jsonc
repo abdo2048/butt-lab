@@ -1,0 +1,16 @@
+{
+  // Cloudflare Workers configuration for the Butt Lab reader site.
+  // The operator deploys this by hand; the exact steps are in docs/DEPLOY.md.
+  // Nothing here is a credential. Do not put credentials in this file.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "butt-lab",
+  "compatibility_date": "2026-11-18",
+  "workers_dev": true,
+  "assets": {
+    // The built Astro site. `npm run build` writes it to tools/reader-site/dist.
+    // No asset binding: wrangler rejects a binding on an assets-only Worker
+    // ("Cannot use assets with a binding in an assets-only Worker"), and this site
+    // is static, so no Worker script needs to read the assets.
+    "directory": "./dist"
+  }
+}

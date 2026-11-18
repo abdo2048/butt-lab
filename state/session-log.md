@@ -112,6 +112,45 @@ commit and push.
 
 ---
 
+## 2026-11-18 — Phase C finish: the hosting configuration and the manual guide
+
+**Operator decisions, taken 2026-11-18.** The Worker is named `butt-lab`. The operator
+runs the deployment by hand from the guide; the agent prepares and dry-runs but never
+publishes. `wrangler` may be pinned as an exact devDependency.
+
+**Done.** `tools/reader-site/wrangler.jsonc` configures an assets-only Worker named
+`butt-lab` serving `./dist` on `workers.dev`. `docs/DEPLOY.md` gives the operator
+eleven numbered steps — install, login, build, package the artifact, write the
+approval, write the request, verify the gate, stage the approved bytes, deploy, read
+the URL, redeploy, rollback — plus a troubleshooting table and the GitHub-Actions
+alternative, all written from the real `wrangler --help` output of the pinned 4.164.0.
+`operator/deployment-approval.template.json` holds placeholders only. `deploy.yml` now
+stages `artifact/site` into `dist` before the deploy command and never rebuilds, so
+the published bytes are exactly the bytes that were approved.
+
+**One real error caught by the tool, not by reading.** The first config declared an
+asset binding; `wrangler deploy --dry-run` refused it with "Cannot use assets with a
+binding in an assets-only Worker." The binding was removed and the test that encoded
+it was corrected to assert its absence. The dry run then exited 0: "Read 121 files
+from the assets directory", "--dry-run: exiting now" — nothing was uploaded.
+
+**Proved.** The new `tests/deploy-config.test.ts` was written first and watched fail
+(6 of 7 failing) before any config existed; it now passes 7/7. Full reader suite
+**120 tests / 120 pass / 0 fail**; `npx tsc --noEmit` clean. `npm audit` still reports
+the same 10 high findings, all the one picomatch advisory — no new advisory from
+wrangler.
+
+**Deferred finding.** The Astro build produces no `404.html`, so unmatched paths get
+Cloudflare's default 404 response. A branded 404 page is new scope and is carried to
+the release checklist as the operator's decision, not slipped in.
+
+**Next action.** Phase D: the release-preparation checklist — the full validation
+suite, the rights and exposure audit, the scientific review rehearsal, the
+accessibility and responsive checks, the local preview — then the operator's single
+approve-this-commit-or-not decision, then Phase E (hosting, by hand).
+
+---
+
 ## 2026-11-17 — Checkpoint
 
 **State.** The knowledge base is complete (30 registry methods, 134 approved published

@@ -1,0 +1,8 @@
+{
+  "approvedCommit": "<the commit sha you approved>",
+  "publicationVersion": "batch-02-pilot",
+  "buildRunId": "<the build run id that produced the approved artifact>",
+  "artifactSha256": "<the sha256 of the approved artifact manifest>",
+  "approvedBy": "<your name>",
+  "approvedOn": "<YYYY-MM-DD>"
+}
