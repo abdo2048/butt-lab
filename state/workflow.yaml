@@ -9,21 +9,20 @@
 
 version: 3
 updated: '2026-11-18'
-status: reader_platform_release_candidate_awaiting_operator_decision
+status: reader_platform_release_prepared_awaiting_operator_deployment
 
 execution: file-directed; host must trigger/resume; no scheduler installed
 
 next_action: >-
-  Phase D is complete, including the final whole-branch review and its fix pass.
-  A fresh-context reviewer returned NOT READY (1 Critical, 4 Important, 2 Minor);
-  all seven findings were fixed test-first and the whole suite was re-run: reader
-  site 172 tests / 172 pass / 0 fail, typecheck clean, build 28 pages and 2058
-  indexed words, release audit 0 findings over 134 records, publication contract
-  207 tests / 206 pass / 1 skipped / 0 fail, VALID records=134 pages=10 assets=0.
-  The only thing outstanding is the operator's single approve-this-commit-or-not
-  decision on the candidate recorded below; after that, Phase E is executed by the
-  operator by hand using docs/DEPLOY.md. Deployment, publication, experiment and
-  pilot each remain separately unauthorized.
+  Phase E is prepared and the operator's approval is recorded. The branch was merged
+  into main, the site was rebuilt, the artifact was packaged, the approval record was
+  written from the operator's in-session approval, the release gate printed APPROVED,
+  and npx wrangler deploy --dry-run exited 0 while uploading nothing. Two commands
+  remain, and only the operator runs them: npx wrangler login, then npx wrangler
+  deploy, in tools/reader-site. The site URL will be
+  https://butt-lab.<your-workers-subdomain>.workers.dev. Nothing is online until the
+  operator runs them. Deployment, publication, experiment and pilot each remain
+  separately unauthorized.
 
 pending_manual_action: >-
   Three operator decisions remain outstanding and none of them is made here. First, the
@@ -35,10 +34,10 @@ pending_manual_action: >-
 current_plan: docs/BUILD-PLAN.md
 
 current_unit:
-  name: reader_platform_release_candidate
-  unit: Phase D complete; awaiting the operator's approve-this-commit-or-not decision
-  branch: feat/reader-platform
-  worktree: C:\w\rp
+  name: reader_platform_release_prepared
+  unit: Phase E prepared; the operator runs the final wrangler commands by hand
+  branch: main
+  worktree: C:\Users\Ad2048\Downloads\butt-lab-starter-kit\butt-lab
   plan: docs/BUILD-PLAN.md
   design: docs/history/superpowers/specs/2026-11-13-butt-lab-reader-platform-design.md
   bundle_contract: >-
@@ -58,7 +57,7 @@ current_unit:
     - /egypt/
     - /research-method/
     - /limitations/
-  status: release_preparation_complete_awaiting_operator_decision
+  status: release_prepared_awaiting_operator_deployment
   last_actor: operator-directed OpenCode session (displayed model MiniMax M3.1 Flash Free; underlying model not verified)
   last_run: '2026-11-18'
 
@@ -77,13 +76,18 @@ release_gate:
   deploy_workflow_capability: workflow_dispatch only; verifies the approval against the
     artifact bytes before it deploys
   approval_record: operator/deployment-approval.json
-  approval_record_state: not created; the gate therefore refuses every deployment
-  status: release_gate_built_and_verified
+  approval_record_state: >-
+    Written on 2026-11-18 from the operator's real in-session approval. It names the
+    candidate commit 1c0c40254715de64177ff6e885f27cb12b619cfd, publication version
+    batch-02-pilot, build run local, and the artifact sha256
+    deb8dde6824422cb11f5f25976a140082eddedd957d317c358198a2c6937a3f4. The approver
+    line records who and when, and may be re-signed by hand.
+  status: release_gate_verified_against_the_prepared_artifact
   hosting_config:
     file: tools/reader-site/wrangler.jsonc
     worker_name: butt-lab
     shape: assets-only Worker; no script, no database; assets.directory is ./dist
-    dry_run: npx wrangler deploy --dry-run exits 0, reads 121 files, uploads nothing
+    dry_run: npx wrangler deploy --dry-run exits 0, reads 121 files from dist, total upload 0.31 KiB, uploads nothing
     wrangler_version: 4.164.0, pinned as an exact devDependency
   manual_guide:
     file: docs/DEPLOY.md
@@ -93,16 +97,35 @@ release_gate:
     file: operator/deployment-approval.template.json
     note: placeholders only; the gate refuses the template, so it cannot be mistaken for an approval
   operator_decision: >-
-    The operator runs the deployment by hand. The agent does not publish, does not hold
-    credentials and does not create the approval record.
+    On 2026-11-18 the operator approved the release candidate in session and asked for
+    everything to be written and prepared so that the only thing left is running the
+    wrangler steps by hand. The agent prepared and dry-ran the release; it does not
+    publish, does not hold credentials, and did not deploy.
   release_candidate:
-    branch: feat/reader-platform
-    commit: 1c0c402
-    note: the Phase D commit. The commit that follows it only records this hash in
-      state/workflow.yaml and state/session-log.md, so the built site bytes and the artifact
-      hash are identical from either commit. When packaging the artifact, set
-      SOURCE_COMMIT=1c0c402 so the artifact manifest, the operator's approval record and the
-      release checklist all name the same commit.
+    branch: main
+    commit: 1c0c40254715de64177ff6e885f27cb12b619cfd
+    note: >-
+      The Phase D fix-pass commit, merged into main by fast-forward. The commits that
+      follow it record state and documentation only, so the built site bytes and the
+      artifact hash are identical from any of them. The artifact was packaged with
+      SOURCE_COMMIT=1c0c40254715de64177ff6e885f27cb12b619cfd, so the artifact manifest,
+      the operator's approval record and the release checklist all name the same commit.
+  prepared_release:
+    artifact_sha256: deb8dde6824422cb11f5f25976a140082eddedd957d317c358198a2c6937a3f4
+    artifact_files: 90
+    publication_version: batch-02-pilot
+    build_run_id: local
+    gate_result: >-
+      APPROVED: commit=1c0c40254715de64177ff6e885f27cb12b619cfd version=batch-02-pilot
+      run=local artifact=deb8dde6824422cb11f5f25976a140082eddedd957d317c358198a2c6937a3f4
+    staged_bytes: dist holds exactly the approved artifact site, 89 files
+    dry_run: >-
+      npx wrangler deploy --dry-run exits 0, reads 121 files from the assets directory,
+      total upload 0.31 KiB, no bindings found, and exits before uploading anything.
+    remaining_commands: >-
+      In tools/reader-site, npx wrangler login, then npx wrangler deploy. The URL will be
+      https://butt-lab.<your-workers-subdomain>.workers.dev. Nothing is online until the
+      operator runs them.
   release_audit:
     script: tools/reader-site/scripts/release-audit.ts
     command: npm run audit:release in tools/reader-site

@@ -320,3 +320,34 @@ passed=true`. The publication contract is unchanged: **207 tests / 206 pass /
 **The review changes what the operator approves.** The candidate named in
 §2 is the commit that contains this fix pass, not `65d429f`. The candidate
 recorded in `state/workflow.yaml` is the one to approve.
+
+## 12. Deployment preparation (Phase E)
+
+The operator approved the release candidate in session on 2026-11-18 and asked for
+everything to be prepared so that the only thing left is running the wrangler steps by
+hand. The branch was merged into `main` by fast-forward, the site was rebuilt there,
+the artifact was packaged, the approval was recorded, the gate was run and the
+deployment was dry-run.
+
+| Item | Value |
+|---|---|
+| Release candidate commit | `1c0c40254715de64177ff6e885f27cb12b619cfd` |
+| Publication version | `batch-02-pilot` |
+| Build run id | `local` |
+| Artifact sha256 | `deb8dde6824422cb11f5f25976a140082eddedd957d317c358198a2c6937a3f4` |
+| Artifact files | 90 (the built site plus the bundle manifest) |
+| Approval record | `operator/deployment-approval.json`, written from the operator's in-session approval and re-signable by hand |
+| Release gate | `APPROVED: commit=1c0c40254715de64177ff6e885f27cb12b619cfd version=batch-02-pilot run=local artifact=deb8dde6824422cb11f5f25976a140082eddedd957d317c358198a2c6937a3f4` |
+| Staged bytes | `dist/` holds exactly the approved artifact site (89 files) |
+| Dry run | `npx wrangler deploy --dry-run` exited 0 — "Read 121 files from the assets directory", "Total Upload: 0.31 KiB", "No bindings found", "--dry-run: exiting now." Nothing was uploaded. |
+
+**One more real defect was found by actually running the packaging command** that the
+tests had not caught: the artifact builder was invoked with a source path pointing at
+the parent directory, which has no built site, so both the CI artifact step and the
+manual step 4 would have failed. It is now fixed test-first
+(`tools/reader-site/tests/artifact-packaging.test.ts`, 4 tests) and the artifact above
+is the product of the fixed command.
+
+**Nothing is online.** Two commands remain, and only the operator runs them:
+`npx wrangler login`, then `npx wrangler deploy`, in `tools/reader-site`. The URL will
+be `https://butt-lab.<your-workers-subdomain>.workers.dev`.

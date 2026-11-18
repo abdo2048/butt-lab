@@ -66,7 +66,7 @@ jobs:
         env:
           PUBLICATION_VERSION: batch-02-pilot
           SOURCE_COMMIT: ${{ github.sha }}
-        run: node scripts/build-artifact.ts ../.. artifact
+        run: node scripts/build-artifact.ts
 
       - name: Upload the artifact
         uses: actions/upload-artifact@v4

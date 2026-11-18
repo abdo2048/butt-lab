@@ -7,8 +7,42 @@
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
+import { fileURLToPath } from "node:url";
 
 export const ARTIFACT_MANIFEST_NAME = "artifact-manifest.json";
+
+/**
+ * The reader site root: the directory that holds `dist/` and the staged bundle.
+ *
+ * The packaging command resolves its source from this script's own location, so it
+ * reads the site it just built no matter which directory it is invoked from.
+ */
+export function defaultSourceDir(): string {
+  return path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+}
+
+/**
+ * Locates the exported bundle manifest inside a source tree.
+ *
+ * The manifest sits at the root of the exported bundle and is staged at
+ * `src/content/bundle/bundle-manifest.json`. Either location is accepted; a source
+ * with neither is refused, because an artifact without its bundle manifest would
+ * not describe the content it serves.
+ */
+export function resolveBundleManifestPath(sourceDir: string): string {
+  const candidates = [
+    path.join(sourceDir, "bundle-manifest.json"),
+    path.join(sourceDir, "src", "content", "bundle", "bundle-manifest.json"),
+  ];
+  for (const candidate of candidates) {
+    if (fs.existsSync(candidate)) {
+      return candidate;
+    }
+  }
+  throw new Error(
+    `No bundle manifest found under ${sourceDir}. Expected bundle-manifest.json or src/content/bundle/bundle-manifest.json.`,
+  );
+}
 
 export interface ArtifactFile {
   path: string;
@@ -89,9 +123,15 @@ export function buildArtifact(
 ): ArtifactManifest {
   fs.rmSync(targetDir, { recursive: true, force: true });
   fs.mkdirSync(targetDir, { recursive: true });
-  fs.cpSync(path.join(sourceDir, "dist"), path.join(targetDir, "site"), { recursive: true });
+  const distDir = path.join(sourceDir, "dist");
+  if (!fs.existsSync(distDir)) {
+    throw new Error(
+      `No built site found at ${distDir}. Run the site build before packaging the artifact.`,
+    );
+  }
+  fs.cpSync(distDir, path.join(targetDir, "site"), { recursive: true });
   fs.copyFileSync(
-    path.join(sourceDir, "bundle-manifest.json"),
+    resolveBundleManifestPath(sourceDir),
     path.join(targetDir, "bundle-manifest.json"),
   );
   const manifest = buildArtifactManifest(targetDir, metadata);
@@ -100,7 +140,8 @@ export function buildArtifact(
 }
 
 if (import.meta.filename === process.argv[1]) {
-  const [sourceDir = ".", targetDir = "artifact"] = process.argv.slice(2);
+  const [sourceArg, targetDir = "artifact"] = process.argv.slice(2);
+  const sourceDir = sourceArg === undefined ? defaultSourceDir() : path.resolve(process.cwd(), sourceArg);
   const publicationVersion = process.env.PUBLICATION_VERSION ?? "unknown";
   const sourceCommit = process.env.SOURCE_COMMIT ?? "unknown";
   const manifest = buildArtifact(sourceDir, targetDir, { publicationVersion, sourceCommit });

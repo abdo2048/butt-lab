@@ -282,3 +282,37 @@ blocking=0 review=0 passed=true`. Publication contract: **207 tests / 206 pass
 release candidate, and put one decision to the operator: approve that exact
 commit, or not. The agent does not create `operator/deployment-approval.json`.
 Nothing is deployed, published, or experimentally validated.
+
+## 2026-11-18 — Phase E preparation
+
+**What the operator decided.** In session on 2026-11-18 the operator approved the
+release candidate and authorised the merge ("if you see its good to do the merge then
+do it"), with one condition: "you write all stuff and all whats left to me is just run
+wrangler steps myself". The approval record in `operator/deployment-approval.json`
+transcribes that approval; the approver line can be re-signed by hand.
+
+**Done.** `feat/reader-platform` was fast-forward merged into `main` (9f3ffff →
+b3b53bd, identical tree). In the main checkout: `npm ci`, `npm run export`
+(`EXPORTED version=batch-02-pilot records=134 pages=10 assets=0 files=14`),
+`npm run build` (28 pages, Pagefind 28 pages / 2058 words). The artifact was packaged
+as `ARTIFACT version=batch-02-pilot commit=1c0c402 files=90
+sha256=deb8dde6824422cb11f5f25976a140082eddedd957d317c358198a2c6937a3f4`. The release
+gate printed `APPROVED: commit=1c0c40254715de64177ff6e885f27cb12b619cfd
+version=batch-02-pilot run=local artifact=deb8dde6…`. The approved bytes were staged
+into `dist/` (89 files) and `npx wrangler deploy --dry-run` exited 0 — "Read 121 files",
+"Total Upload: 0.31 KiB", "--dry-run: exiting now." Nothing was uploaded.
+
+**One more real defect, found by running the command rather than reading it.** The
+artifact builder was invoked with a source path pointing at the parent directory, which
+holds no built site, so the CI artifact step and the manual step 4 were both broken.
+Fixed test-first (`tools/reader-site/tests/artifact-packaging.test.ts`, 4 tests, the
+first run failing on the missing `defaultSourceDir` export): the script resolves its own
+source directory, finds the staged bundle manifest under `src/content/bundle/`, and
+refuses a source with no built site or no bundle manifest. The reader suite is now 176
+tests / 176 pass / 0 fail with a clean typecheck.
+
+**What remains.** Two commands, run by the operator in `tools/reader-site`:
+`npx wrangler login`, then `npx wrangler deploy`. The URL will be
+`https://butt-lab.<your-workers-subdomain>.workers.dev`. Nothing is online until then.
+Nothing is published or experimentally validated; the knowledge base is unchanged in
+substance, and the reader site's disclosures now match what the corpus carries.

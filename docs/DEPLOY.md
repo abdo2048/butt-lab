@@ -11,6 +11,34 @@ act, not a build side effect.
 
 ---
 
+## The prepared release
+
+Everything below the "What you are deploying" table is already built, verified and
+dry-run. The only thing left is two commands.
+
+- **Release candidate commit:** `1c0c40254715de64177ff6e885f27cb12b619cfd`
+- **Publication version:** `batch-02-pilot`
+- **Build run id:** `local`
+- **Artifact sha256:** `deb8dde6824422cb11f5f25976a140082eddedd957d317c358198a2c6937a3f4`
+- **Release gate:** `APPROVED` — the approval record names the same commit, version, run and hash
+- **Dry run:** `npx wrangler deploy --dry-run` exited 0, read 121 files and uploaded nothing
+- **Online?** **No.** Nothing is published until you run the commands below.
+
+**Your two commands** (in `tools/reader-site`):
+
+```bash
+npx wrangler login
+npx wrangler deploy
+```
+
+`wrangler login` opens a browser so Cloudflare can confirm your account. `wrangler
+deploy` prints the live URL, which will be
+`https://butt-lab.<your-workers-subdomain>.workers.dev`.
+
+If you rebuild the site yourself, the artifact hash changes, so the approval record has
+to be rewritten to match the new hash before the gate will pass again. That is
+deliberate: an approval covers one exact set of bytes.
+
 ## What you are deploying
 
 | | |
@@ -83,22 +111,24 @@ file against the bundle manifest, it builds the Astro site into `dist/`, and it 
 the Pagefind search index. If the bundle verification fails, the build stops and writes
 nothing.
 
-Expect `Indexed 28 pages` and `Indexed 2056 words` at the end.
+Expect `Indexed 28 pages` and `Indexed 2058 words` at the end.
 
 ## Step 4 — package the artifact you are going to approve
 
 ```powershell
 $env:PUBLICATION_VERSION = "batch-02-pilot"
 # Use the release candidate recorded in state/workflow.yaml, not HEAD: the
-# approval record must name the same commit as the artifact.
-$env:SOURCE_COMMIT = "1c0c402"
-node scripts/build-artifact.ts ../.. artifact
+# approval record must name the same commit as the artifact. Write the full
+# 40-character sha here so that the artifact, the approval record and the
+# request all name exactly the same commit.
+$env:SOURCE_COMMIT = "1c0c40254715de64177ff6e885f27cb12b619cfd"
+node scripts/build-artifact.ts
 ```
 
 The last line prints something like:
 
 ```
-ARTIFACT version=batch-02-pilot commit=<40-character sha> files=121 sha256=<64 hex characters>
+ARTIFACT version=batch-02-pilot commit=<40-character sha> files=90 sha256=<64 hex characters>
 ```
 
 **Write down the `sha256` value.** That single hash identifies exactly the bytes you
@@ -108,8 +138,10 @@ Bash:
 
 ```bash
 export PUBLICATION_VERSION=batch-02-pilot
-export SOURCE_COMMIT=$(git rev-parse HEAD)
-node scripts/build-artifact.ts ../.. artifact
+# The release candidate recorded in state/workflow.yaml, resolved to its full
+# 40-character sha. Not HEAD: the approval record must name the same commit.
+export SOURCE_COMMIT=$(git rev-parse 1c0c402)
+node scripts/build-artifact.ts
 ```
 
 ## Step 5 — write your approval record
