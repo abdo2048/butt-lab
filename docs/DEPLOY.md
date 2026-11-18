@@ -91,7 +91,7 @@ Expect `Indexed 28 pages` and `Indexed 2056 words` at the end.
 $env:PUBLICATION_VERSION = "batch-02-pilot"
 # Use the release candidate recorded in state/workflow.yaml, not HEAD: the
 # approval record must name the same commit as the artifact.
-$env:SOURCE_COMMIT = "65d429f"
+$env:SOURCE_COMMIT = "1c0c402"
 node scripts/build-artifact.ts ../.. artifact
 ```
 

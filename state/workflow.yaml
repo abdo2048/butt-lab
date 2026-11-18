@@ -97,11 +97,11 @@ release_gate:
     credentials and does not create the approval record.
   release_candidate:
     branch: feat/reader-platform
-    commit: PENDING-REVIEW-FIX-PASS
+    commit: 1c0c402
     note: the Phase D commit. The commit that follows it only records this hash in
       state/workflow.yaml and state/session-log.md, so the built site bytes and the artifact
       hash are identical from either commit. When packaging the artifact, set
-      SOURCE_COMMIT=<the candidate recorded in this file> so the artifact manifest, the operator's approval record and the
+      SOURCE_COMMIT=1c0c402 so the artifact manifest, the operator's approval record and the
       release checklist all name the same commit.
   release_audit:
     script: tools/reader-site/scripts/release-audit.ts
