@@ -124,7 +124,11 @@ const BINARY_EXTENSIONS = new Set([
 
 const REPOSITORY_PATH_PATTERNS: ReadonlyArray<{ pattern: RegExp; label: string }> = [
   {
-    pattern: /(^|[^A-Za-z0-9])([A-Za-z]):[\\/](?!\/)/,
+    // A real leaked path always has a path character after the separator
+    // ("C:\Users" or "C:/Users"). Requiring one keeps the compressed bytes of
+    // a Pagefind fragment - which can contain a coincidental "a:/" - from
+    // reading as a leak.
+    pattern: /(^|[^A-Za-z0-9])([A-Za-z]):[\\/](?!\/)[A-Za-z0-9_.~-]/,
     label: "an absolute Windows path",
   },
   {
@@ -133,7 +137,7 @@ const REPOSITORY_PATH_PATTERNS: ReadonlyArray<{ pattern: RegExp; label: string }
   },
   {
     pattern:
-      /(^|[\s"'`(])((?:\.\.\/)*)(?:tools\/reader-site|tools\/publication-contract|src\/content\/bundle|publication\/|registry\/|state\/|docs\/|reports\/|panels\/|packets\/|materials\/|inventions\/|operator\/|reviews\/|dossier\/|experiments\/|agents\/)/,
+      /(^|[\s"'`>(])((?:\.\.\/)*)(?:tools\/reader-site|tools\/publication-contract|src\/content\/bundle|publication|registry|state|docs|reports|panels|packets|materials|inventions|operator|reviews|dossier|experiments|agents)\/[^\s"'`<>]+/,
     label: "a repository-local path",
   },
 ];
@@ -143,10 +147,11 @@ const CREDENTIAL_PATTERNS: ReadonlyArray<{ pattern: RegExp; label: string }> = [
   { pattern: /\bAKIA[0-9A-Z]{16}\b/, label: "an AWS access key id" },
   { pattern: /\bsk-[A-Za-z0-9_-]{20,}/, label: "a secret key" },
   { pattern: /\bgh[pousr]_[A-Za-z0-9]{20,}/, label: "a GitHub token" },
+  { pattern: /\bgithub_pat_[A-Za-z0-9_]{20,}/, label: "a GitHub fine-grained token" },
   { pattern: /\bBearer\s+[A-Za-z0-9._~+/-]{20,}/, label: "a bearer token" },
   {
     pattern:
-      /(?:api[_-]?key|password|passwd|client[_-]?secret|access[_-]?token)\s*[:=]\s*["'][^"']{6,}["']/i,
+      /(?:api[_-]?key|password|passwd|client[_-]?secret|access[_-]?token)\s*[:=]\s*(?:"[^"']{6,}"|'[^"']{6,}'|(?=[A-Za-z0-9+/=_-]*[A-Za-z])(?=[A-Za-z0-9+/=_-]*\d)[A-Za-z0-9+/=_-]{12,})/i,
     label: "a credential assignment",
   },
 ];
@@ -163,9 +168,6 @@ export function scanBuiltOutput(root: string): Finding[] {
       continue;
     }
     const bytes = fs.readFileSync(file);
-    if (bytes.subarray(0, 8000).includes(0)) {
-      continue;
-    }
     const text = bytes.toString("utf8");
     const where = relative(root, file);
 

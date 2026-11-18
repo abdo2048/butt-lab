@@ -290,3 +290,33 @@ can continue as long as it needs to.
 | The durable plan and its ledger | `docs/BUILD-PLAN.md` |
 | Current machine-readable state | `state/workflow.yaml` |
 | The dated working log | `state/session-log.md` |
+
+---
+
+## 11. The final whole-branch review (added after the release preparation)
+
+A fresh-context reviewer read the whole branch against the plan, the design
+spec and the charter, and returned **NOT READY: 1 Critical, 4 Important,
+2 Minor**. Every finding was fixed test-first and the whole suite was re-run
+afterwards. The reviewer had no knowledge-graph access (the worktree is not
+indexed) and read the source directly.
+
+| Finding | Severity | What was wrong | What changed |
+| --- | --- | --- | --- |
+| Workflow inputs interpolated into a shell heredoc | Critical | An input containing a newline and `EOF` could run commands before the approval check, so the gate could be bypassed. | The heredoc is gone. Inputs reach `scripts/deployment-request.ts` only through `env:`; the writer validates them (commit `^[0-9a-f]{7,40}$`, version `^[a-z0-9][a-z0-9.-]*$`, build run `^[0-9]+$`, sha256 `^[0-9a-f]{64}$`) and writes the request with `JSON.stringify`. It refuses anything else. |
+| The verifier did not bind the artifact to the approved commit | Important | The artifact's own `sourceCommit` was never compared with the approval, so an artifact built from another commit could pass. | `APPROVAL_ARTIFACT_COMMIT_MISMATCH` and `APPROVAL_ARTIFACT_VERSION_MISMATCH` are now refused. |
+| The exposure audit could report green while missing leaks | Important | A repository path inside markup, an unquoted credential assignment, a `github_pat_` token and any text file containing a NUL byte all passed silently. | The patterns were widened and the NUL-byte skip removed. One false positive (a coincidental `a:/` inside a compressed Pagefind fragment) was fixed by requiring a real path character after the drive separator, not by suppressing the file. |
+| The shipped pages overstated the labelling guarantee | Important | "Every published record carries two labels", "every statement carries its evidence state" and "every claim carries its status" were false: 77 of the 134 records carry no evidence state. | The page text, the site footer and the README now name the record types that carry an evidence state and the ones that carry a role instead. No label was invented to make the old sentence true. |
+| The deploy workflow could not download its own artifact | Important | `actions: read` was missing, and an explicit `permissions` block defaults every other scope to none. | `actions: read` is granted. The path fails safely rather than silently. |
+| Markdown emphasis rendered literally in list items | Minor | 105 built lines showed raw `**`. | The renderer now mirrors marked's default and a list item renders `<strong>`. |
+| 24 pages repeated the site suffix in their title | Minor | "— Butt Lab — Butt Lab". | The suffix is added only when the title does not already end with it. |
+
+Re-run after the fix pass: reader site **172 tests / 172 pass / 0 fail /
+0 skipped**, typecheck clean, build 28 pages and 2058 indexed words, and
+`npm run audit:release` → `AUDIT records=134 findings=0 blocking=0 review=0
+passed=true`. The publication contract is unchanged: **207 tests / 206 pass /
+1 skipped (Windows symlink) / 0 fail**, `VALID records=134 pages=10 assets=0`.
+
+**The review changes what the operator approves.** The candidate named in
+§2 is the commit that contains this fix pass, not `65d429f`. The candidate
+recorded in `state/workflow.yaml` is the one to approve.

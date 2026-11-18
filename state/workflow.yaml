@@ -14,16 +14,16 @@ status: reader_platform_release_candidate_awaiting_operator_decision
 execution: file-directed; host must trigger/resume; no scheduler installed
 
 next_action: >-
-  Phase D is complete. The release-preparation checklist is written, the automated
-  release audit is repeatable and green over the real build, the scientific review
-  rehearsal is recorded over all 134 published records, and the accessibility and
-  responsive checks were made in a real browser with Lighthouse at 1.0 for
-  accessibility, best practices and SEO. Two real defects were found and fixed during
-  this phase: a contrast failure on small text and a broken search submit path. The
-  only thing outstanding is the operator's single decision, approve this exact commit
-  for merge, push and deployment, or not. Phase E is then the operator running
-  docs/DEPLOY.md by hand. Deployment, publication, experiment and pilot each remain
-  separately unauthorized.
+  Phase D is complete, including the final whole-branch review and its fix pass.
+  A fresh-context reviewer returned NOT READY (1 Critical, 4 Important, 2 Minor);
+  all seven findings were fixed test-first and the whole suite was re-run: reader
+  site 172 tests / 172 pass / 0 fail, typecheck clean, build 28 pages and 2058
+  indexed words, release audit 0 findings over 134 records, publication contract
+  207 tests / 206 pass / 1 skipped / 0 fail, VALID records=134 pages=10 assets=0.
+  The only thing outstanding is the operator's single approve-this-commit-or-not
+  decision on the candidate recorded below; after that, Phase E is executed by the
+  operator by hand using docs/DEPLOY.md. Deployment, publication, experiment and
+  pilot each remain separately unauthorized.
 
 pending_manual_action: >-
   Three operator decisions remain outstanding and none of them is made here. First, the
@@ -97,11 +97,11 @@ release_gate:
     credentials and does not create the approval record.
   release_candidate:
     branch: feat/reader-platform
-    commit: 65d429f
+    commit: PENDING-REVIEW-FIX-PASS
     note: the Phase D commit. The commit that follows it only records this hash in
       state/workflow.yaml and state/session-log.md, so the built site bytes and the artifact
       hash are identical from either commit. When packaging the artifact, set
-      SOURCE_COMMIT=65d429f so the artifact manifest, the operator's approval record and the
+      SOURCE_COMMIT=<the candidate recorded in this file> so the artifact manifest, the operator's approval record and the
       release checklist all name the same commit.
   release_audit:
     script: tools/reader-site/scripts/release-audit.ts
@@ -182,7 +182,7 @@ content_state:
     stack: Astro plus Pagefind static search
     pages_built: 28
     pagefind_index: 28 pages, 2056 words
-    reader_tests: 152 tests, 152 pass, 0 fail, 0 skipped
+    reader_tests: 172 tests, 172 pass, 0 fail, 0 skipped
     release_audit: npm run audit:release reports 0 findings over 134 records
     build_command: npm run build in tools/reader-site
     bundle_rule: >-
@@ -319,3 +319,30 @@ branch_topology:
     The 59 page rasterizations remain available on feat/publication-content-contract if
     the operator wants them. The 5 OCR text extracts of those same papers were carried
     in, because searchable text of a document already held adds no third-party content.
+
+final_review:
+  reviewer: fresh-context reviewer over the whole branch, source read only (the
+    worktree is not indexed by the knowledge graph, so no graph access was used)
+  range_reviewed: 9f3ffff..1af6e38
+  verdict_before_fixes: NOT_READY
+  findings_before_fixes: 1 critical, 4 important, 2 minor
+  fixes:
+    critical:
+      - "The deploy workflow interpolated untrusted workflow_dispatch inputs into a shell heredoc, which could run commands before the approval check. The heredoc is gone and the inputs now reach scripts/deployment-request.ts only through env:, are validated against strict patterns, and are written with JSON.stringify."
+    important:
+      - "The verifier did not compare the artifact manifest's own sourceCommit and publicationVersion with the approval. It now refuses APPROVAL_ARTIFACT_COMMIT_MISMATCH and APPROVAL_ARTIFACT_VERSION_MISMATCH."
+      - "The exposure audit missed a repository path inside markup, an unquoted credential assignment, a github_pat_ token, and text files containing a NUL byte. The patterns were widened and the NUL-byte skip removed."
+      - "The shipped pages overstated the labelling guarantee while 77 of the 134 records carry no evidence state. The page text, the site footer and the README now state what carries an evidence state and what carries a role instead."
+      - "The deploy workflow could not download its own cross-run artifact. actions read is now granted in the permissions block."
+    minor_fixed:
+      - "Markdown emphasis rendered literally in list items. The renderer now mirrors marked's default and a list item renders strong."
+      - "24 pages repeated the site suffix in their title. The suffix is now added only when the title does not already end with it."
+  tests: tools/reader-site/tests/release-review.test.ts, 20 tests, written first and
+    watched fail with ERR_MODULE_NOT_FOUND
+  verification_after_fixes:
+    reader_site: 172 tests, 172 pass, 0 fail, 0 skipped; npx tsc --noEmit clean;
+      npm run build exit 0 with 28 pages and 2058 indexed words;
+      npm run audit:release reports 0 findings over 134 records
+    publication_contract: 207 tests, 206 pass, 1 skipped (Windows symlink), 0 fail;
+      VALID records=134 pages=10 assets=0
+  status: fixed_and_verified

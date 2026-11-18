@@ -1,4 +1,4 @@
-import { Marked, type Tokens } from "marked";
+import { Marked, type Token, type Tokens } from "marked";
 
 /**
  * Markdown pipeline for the reader site.
@@ -114,6 +114,17 @@ function createRenderer(pattern: TermPattern | undefined): Marked {
   instance.use({
     renderer: {
       text(token: Tokens.Text | Tokens.Escape): string {
+        // A block-level text token can carry inline tokens. Marked's own
+        // renderer parses them, which is what turns **bold** inside a list
+        // item into <strong>; without this the markers would be printed.
+        const inline = (token as { tokens?: Token[] }).tokens;
+        if (inline !== undefined && inline.length > 0) {
+          return this.parser.parseInline(inline);
+        }
+        const escaped = (token as { escaped?: boolean }).escaped;
+        if (escaped === true) {
+          return token.text;
+        }
         return wrapTerms(escapeMarkup(token.text), pattern);
       },
       heading(token: Tokens.Heading): string {

@@ -409,7 +409,7 @@ pages:
     sha256: d17fbffdf4c2b2945a06e073fbc726fdf6c7d10b2cd6398dfd6ce4e36b4e5f69
   - id: how-the-research-works
     path: pages/how-the-research-works.md
-    sha256: 9c3df8670eafb9df82c57c2fbe054193778da87678eec36605f712bb11076de9
+    sha256: 64674c35fb68e0dd45f5947267fe6a3683458295236d172ae09c216556c5d1c7
   - id: limitations
     path: pages/limitations.md
     sha256: 4c3a069428c3847e488b1b3aac2d08bd14ffdb1479790d641191c986c8cd207f
@@ -433,5 +433,5 @@ pages:
     sha256: e54462fe3226de65f36ea32e3ea353764af4344a18d5d7e00ed2a69928b37906
   - id: start-here
     path: pages/start-here.md
-    sha256: 06bcc33db3e8627e0371010f603ff8691a79827b420c97fe36da5c5f07b295da
+    sha256: 3a5bba3bfc73583e2729c8d59b157b4d5afbb776bd91ad5c9b5adf7e0ab34a5c
 assets: []

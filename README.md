@@ -6,9 +6,10 @@ top. It is written for scientists and engineers who can judge it.
 
 ## What is in here
 
-- **Methods** — seven method families and thirty registry entries, each explained on its
+- **Methods** — six method families and thirty registry entries, each explained on its
   own, with its own mechanism, products, failure modes and open questions.
-- **Evidence** — every statement carries its basis: sourced, AI-derived, or a stated gap.
+- **Evidence** — claims, assessments, gaps and hypotheses carry their basis: sourced,
+  inferred, AI-derived, or a stated gap.
   A number that could not be located is left as `parameter-not-located`, never estimated.
 - **New invention** — proposals from the AI acting as scientist-inventor, all of them
   marked as unvalidated hypotheses with their falsifiers attached.

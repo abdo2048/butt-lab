@@ -30,13 +30,13 @@ Two of these six are best read as surveys rather than treatments: material incor
 
 ## How the evidence is labelled
 
-Every published record carries two labels, and the site never hides either one.
+Records that make an evidence claim carry two labels, and the site never hides either one. Sources, terms, method families and the material record carry the role they play instead of an evidence state.
 
-**How well the evidence is supported.** A record is marked as supported by a located source, as sources disagree, as having no located source, as reasoned from located sources, or as not applicable.
+**How well the evidence is supported.** A claim, assessment, gap or hypothesis carries an evidence state: supported by a located source, sources disagree, no located source, reasoned from located sources, an AI proposal, an AI gap-closing note, or unverified. Every assessment also carries its basis: sourced, inferred, or AI-reviewed.
 
-**How far the claim has been validated.** A record is marked as desk research only, as needing human validation, as a new and unvalidated hypothesis, or as not applicable.
+**How far the claim has been validated.** An assessment carries a result: scored, unknown, or not applicable. A gap needs human validation. A hypothesis is new and unvalidated.
 
-The second label is the one to read first, because most of this site is marked desk research only or new and unvalidated hypothesis.
+The second label is the one to read first: every hypothesis on this site is a new and unvalidated hypothesis, and every gap still needs human validation.
 
 Where the research assistant has added reasoning that goes beyond what a source states, it is marked inline as an AI inference or an AI proposal. Where a number could not be located, it is left as parameter-not-located rather than filled with a plausible figure. A missing number is not a zero, and it is not a licence to invent one.
 

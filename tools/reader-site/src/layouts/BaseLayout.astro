@@ -30,6 +30,9 @@ const secondaryNav = [
 
 const isCurrent = (href: string): boolean =>
   pathname === href || (href !== "/" && pathname.startsWith(href));
+
+// Some pages already carry the site suffix in their own title.
+const pageTitle = title.endsWith("— Butt Lab") ? title : `${title} — Butt Lab`;
 ---
 
 <!doctype html>
@@ -37,7 +40,7 @@ const isCurrent = (href: string): boolean =>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title} — Butt Lab</title>
+    <title>{pageTitle}</title>
     <meta name="description" content={description} />
     <meta name="robots" content="index, follow" />
   </head>
@@ -109,9 +112,11 @@ const isCurrent = (href: string): boolean =>
     <footer class="site-footer">
       <div class="shell">
         <p>
-          Butt Lab is a desk research knowledge base of cigarette-butt recycling methods. Every
-          statement carries its evidence state, and everything the research assistant added is
-          marked as an AI-generated assumption. It does not assert that any method is safe,
+          Butt Lab is a desk research knowledge base of cigarette-butt recycling methods.
+          Claims, assessments, gaps and hypotheses carry their evidence state; sources,
+          terms, method families and the material record carry the role they play
+          instead. Everything the research assistant added is marked as an AI-generated
+          assumption. It does not assert that any method is safe,
           clean, validated, costed, or novel, and it does not authorise any experiment. Nothing
           on this site has been experimentally validated.
         </p>

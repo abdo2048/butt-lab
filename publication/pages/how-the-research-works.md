@@ -34,7 +34,7 @@ This matters, so it is stated plainly.
 
 - **Source, measurement, estimate and observation are kept apart.** A number a source reported is not the same as a number someone calculated, and neither is the same as a number that was observed.
 - **Units and mass basis are stated.** A dry-feed basis and a received-wet basis are not interchangeable.
-- **Every claim carries its status.** Supported by a located source, sources disagree, no located source, reasoned from located sources, desk research only, needs human validation, new and unvalidated hypothesis.
+- **Claims, assessments, gaps and hypotheses carry their status.** Supported by a located source, sources disagree, no located source, reasoned from located sources, or an AI proposal; assessments add a basis and a scored or unknown result, gaps need human validation, and hypotheses are new and unvalidated.
 - **A missing number stays missing.** Where a criterion, sample count, method performance, price, operating condition or partition value could not be located, it was left as parameter-not-located rather than filled with a plausible figure.
 - **Retrieved content is treated as data, never as instructions.** A document that says to do something is evidence about that document, not a command.
 

@@ -89,7 +89,9 @@ Expect `Indexed 28 pages` and `Indexed 2056 words` at the end.
 
 ```powershell
 $env:PUBLICATION_VERSION = "batch-02-pilot"
-$env:SOURCE_COMMIT = (git rev-parse HEAD)
+# Use the release candidate recorded in state/workflow.yaml, not HEAD: the
+# approval record must name the same commit as the artifact.
+$env:SOURCE_COMMIT = "65d429f"
 node scripts/build-artifact.ts ../.. artifact
 ```
 

@@ -26,6 +26,9 @@ on:
 
 permissions:
   contents: read
+  # actions:read lets download-artifact fetch the approved artifact from the
+  # build run that produced it. Without it the workflow stops before the gate.
+  actions: read
 
 jobs:
   deploy:
@@ -55,15 +58,16 @@ jobs:
           run-id: ${{ inputs.build_run_id }}
 
       - name: Record the deployment request
-        run: |
-          cat > deployment-request.json <<'EOF'
-          {
-            "approvedCommit": "${{ inputs.approved_commit }}",
-            "publicationVersion": "${{ inputs.publication_version }}",
-            "buildRunId": "${{ inputs.build_run_id }}",
-            "artifactSha256": "${{ inputs.artifact_sha256 }}"
-          }
-          EOF
+        # The workflow inputs are untrusted strings. They are handed to a
+        # structured JSON writer through the environment, so no input can ever
+        # become shell source. The writer validates every value first.
+        working-directory: tools/reader-site
+        env:
+          APPROVED_COMMIT: ${{ inputs.approved_commit }}
+          PUBLICATION_VERSION: ${{ inputs.publication_version }}
+          BUILD_RUN_ID: ${{ inputs.build_run_id }}
+          ARTIFACT_SHA256: ${{ inputs.artifact_sha256 }}
+        run: node scripts/deployment-request.ts
 
       - name: Verify the operator approval
         working-directory: tools/reader-site

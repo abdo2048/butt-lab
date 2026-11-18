@@ -49,6 +49,24 @@ function isBlank(value: string | undefined): boolean {
   return value === undefined || value.trim().length === 0;
 }
 
+/**
+ * Two commit names match when one is a prefix of the other, because an
+ * operator may approve the short name of the commit the artifact names in
+ * full. Both names must be at least seven hexadecimal characters; anything
+ * else has to be equal to be accepted.
+ */
+function commitsMatch(left: string, right: string): boolean {
+  if (left === right) {
+    return true;
+  }
+  const short = left.length <= right.length ? left : right;
+  const long = left.length <= right.length ? right : left;
+  if (!/^[0-9a-f]{7,40}$/.test(short) || !/^[0-9a-f]{7,40}$/.test(long)) {
+    return false;
+  }
+  return long.startsWith(short);
+}
+
 export function verifyApproval(input: VerifyApprovalInput): ApprovalResult {
   const problems: string[] = [];
   const { approval, request, artifactRoot, manifest } = input;
@@ -115,6 +133,21 @@ export function verifyApproval(input: VerifyApprovalInput): ApprovalResult {
     publicationVersion: declared.publicationVersion,
     sourceCommit: declared.sourceCommit,
   });
+
+  // The manifest declares which commit and which publication version the
+  // artifact was built from. That declaration is untrusted, so it must match
+  // the operator's approval record: otherwise an artifact built from another
+  // commit would pass every other check.
+  if (!commitsMatch(declared.sourceCommit, approval.approvedCommit)) {
+    problems.push(
+      `APPROVAL_ARTIFACT_COMMIT_MISMATCH: the artifact was built from commit ${declared.sourceCommit} but the operator approved ${approval.approvedCommit}.`,
+    );
+  }
+  if (declared.publicationVersion !== approval.publicationVersion) {
+    problems.push(
+      `APPROVAL_ARTIFACT_VERSION_MISMATCH: the artifact was built for publication ${declared.publicationVersion} but the operator approved ${approval.publicationVersion}.`,
+    );
+  }
 
   const declaredByPath = new Map(declared.files.map((file) => [file.path, file.sha256]));
   const actualByPath = new Map(actual.files.map((file) => [file.path, file.sha256]));

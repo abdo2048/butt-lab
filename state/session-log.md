@@ -224,3 +224,61 @@ files and changes no site byte, so the built site and the artifact hash are iden
 either commit. When packaging the artifact, set `SOURCE_COMMIT=65d429f` so that the
 artifact manifest, the operator's approval record and `docs/RELEASE-CHECKLIST.md` all name
 the same commit.
+
+---
+
+## 2026-11-18 — Phase D, the final whole-branch review and its fix pass
+
+**What was reviewed.** A fresh-context reviewer read the whole branch
+(`9f3ffff..1af6e38`) against `docs/BUILD-PLAN.md`, the reader-platform design
+spec and `charter.md`. It had no graph access — the worktree is not indexed by
+the knowledge graph (the only indexed project is an unrelated one) — so it read
+and grepped the source directly. It changed no file.
+
+**What it found: NOT READY — 1 Critical, 4 Important, 2 Minor.**
+
+- **Critical.** The deploy workflow interpolated untrusted `workflow_dispatch`
+  inputs into a shell heredoc. An input containing a newline and `EOF` could
+  terminate the heredoc and run commands *before* the approval check, so the
+  gate could be bypassed.
+- **Important.** (1) The verifier never compared the artifact manifest's own
+  `sourceCommit`/`publicationVersion` with the approval. (2) The exposure audit
+  could report green while missing a path inside markup, an unquoted credential
+  assignment, a `github_pat_` token, and any text file containing a NUL byte.
+  (3) The shipped pages overstated the labelling guarantee while 77 of the 134
+  records carry no evidence state. (4) The deploy workflow could not download
+  its own cross-run artifact (`actions: read` missing).
+- **Minor.** Markdown emphasis rendered literally in list items (105 built
+  lines); 24 pages repeated the site suffix in their `<title>`.
+
+**What was fixed, test-first.** `tools/reader-site/tests/release-review.test.ts`
+(20 tests) was written first and watched fail with `ERR_MODULE_NOT_FOUND`. The
+heredoc is gone: the inputs reach a new `scripts/deployment-request.ts` only
+through `env:`, it validates them against strict patterns and writes the
+request with `JSON.stringify`. The verifier now refuses an artifact whose
+manifest names another commit or publication version. The audit's patterns were
+widened and the NUL-byte skip removed; the one false positive (a coincidental
+`a:/` inside a compressed Pagefind fragment) was fixed by requiring a real path
+character after the drive separator, not by suppressing the file. The page
+text, the site footer and the README now state exactly what carries an
+evidence state and what carries a role instead. `actions: read` was granted.
+The two minors were fixed rather than deferred, because both were visible to
+every reader.
+
+**A wrong assumption, corrected.** The publication-layer generator is
+`tools/publication-contract/scripts/build-publication-layer.mjs`; my first
+attempt used a non-existent root-level path and failed with `MODULE_NOT_FOUND`.
+The layer was then regenerated from `layer-data/`, exported, and the site
+rebuilt from the exported bundle.
+
+**Proved on the fixed tree.** Reader site: **172 tests / 172 pass / 0 fail /
+0 skipped**; `npx tsc --noEmit` clean; `npm run build` exit 0 with 28 pages and
+2058 indexed words; `npm run audit:release` → `AUDIT records=134 findings=0
+blocking=0 review=0 passed=true`. Publication contract: **207 tests / 206 pass
+/ 1 skipped (Windows symlink) / 0 fail**; `npm run validate` →
+`VALID records=134 pages=10 assets=0`.
+
+**Next action.** Commit and push the fix pass, record that commit as the new
+release candidate, and put one decision to the operator: approve that exact
+commit, or not. The agent does not create `operator/deployment-approval.json`.
+Nothing is deployed, published, or experimentally validated.
