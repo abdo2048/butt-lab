@@ -368,6 +368,16 @@ hr {
   margin-bottom: 0;
 }
 
+/* A table with no wrapper element is its own scroll container on a narrow
+ * screen: the tables written in the markdown, and the criterion scorecard.
+ * Without this a wide table pushes the whole page sideways. */
+.prose table,
+.table--scores {
+  display: block;
+  overflow-x: auto;
+  max-inline-size: 100%;
+}
+
 /* The margin column carries the eyebrow and the record id on wide screens. */
 .sheet {
   display: grid;
@@ -610,6 +620,49 @@ hr {
   overflow-wrap: anywhere;
 }
 
+/* -------------------------------------------------------- audit lists */
+
+/* Record facts as a definition list. The drawer, the start page, the source
+ * pages and the invention page all use this shape; on the pages the pairs are
+ * sometimes wrapped in a plain div, which `display: contents` dissolves so the
+ * grid sees the dt and dd directly. */
+.audit-list {
+  display: grid;
+  grid-template-columns: minmax(8rem, auto) minmax(0, 1fr);
+  gap: 0.3rem 1rem;
+  max-inline-size: var(--measure);
+  margin: 0 0 1em;
+}
+
+.audit-list > div {
+  display: contents;
+}
+
+.audit-list dt {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+.audit-list dd {
+  margin: 0;
+  min-inline-size: 0;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 30rem) {
+  .audit-list {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.15rem;
+  }
+
+  .audit-list dd {
+    margin-bottom: 0.5rem;
+  }
+}
+
 /* ----------------------------------------------------------- callout */
 
 .callout {
@@ -673,6 +726,22 @@ hr {
 .term:focus::after {
   opacity: 1;
   visibility: visible;
+}
+
+/* A card anchored to the term cannot be kept inside a narrow viewport: it
+ * would push the whole page sideways. Below the two-column breakpoint the card
+ * becomes a fixed strip above the bottom edge, still opened by hover or by
+ * keyboard focus on the term. */
+@media (max-width: 63.999rem) {
+  .term::after {
+    position: fixed;
+    inset-inline: 1rem;
+    inset-block-start: auto;
+    inset-block-end: 1rem;
+    inline-size: auto;
+    max-inline-size: none;
+    z-index: 30;
+  }
 }
 
 /* ----------------------------------------------------------- related */
@@ -1052,6 +1121,14 @@ hr {
   .search,
   .compare-controls {
     display: none;
+  }
+
+  /* On paper a table must set its own width and may break across pages, so the
+   * narrow-screen scroll container is not wanted here. */
+  .prose table,
+  .table--scores {
+    display: table;
+    overflow-x: visible;
   }
 
   body {
