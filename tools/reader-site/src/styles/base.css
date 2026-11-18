@@ -376,6 +376,7 @@ hr {
   display: block;
   overflow-x: auto;
   max-inline-size: 100%;
+  scrollbar-color: var(--rule-strong) var(--paper-sunken);
 }
 
 /* The margin column carries the eyebrow and the record id on wide screens. */
@@ -521,6 +522,7 @@ hr {
   margin-bottom: 1.25rem;
   border: 1px solid var(--rule);
   background: var(--paper-raised);
+  scrollbar-color: var(--rule-strong) var(--paper-sunken);
 }
 
 .table {
@@ -738,7 +740,8 @@ hr {
 }
 
 .term:hover::after,
-.term:focus::after {
+.term:focus::after,
+.term--open::after {
   opacity: 1;
   visibility: visible;
 }
