@@ -8,21 +8,22 @@
 # space unquoted. Use a folded block scalar (>-). This defect was introduced twice before.
 
 version: 3
-updated: '2026-11-17'
-status: reader_platform_release_preparation_in_progress
+updated: '2026-11-18'
+status: reader_platform_release_candidate_awaiting_operator_decision
 
 execution: file-directed; host must trigger/resume; no scheduler installed
 
 next_action: >-
-  Phase C is complete. The hosting configuration and the manual deployment guide exist
-  and are verified against the real wrangler: a dry run compiles and checks the site
-  and uploads nothing, and the deploy workflow stages the approved artifact bytes and
-  never rebuilds them. The remaining work is Phase D (the release-preparation
-  checklist: the full validation suite, the rights and exposure audit, the scientific
-  review rehearsal, the accessibility and responsive checks, the local preview, and the
-  operator's single approve-this-commit-or-not decision), then Phase E (hosting, which
-  the operator performs by hand from docs/DEPLOY.md). Deployment, publication,
-  experiment and pilot each remain separately unauthorized.
+  Phase D is complete. The release-preparation checklist is written, the automated
+  release audit is repeatable and green over the real build, the scientific review
+  rehearsal is recorded over all 134 published records, and the accessibility and
+  responsive checks were made in a real browser with Lighthouse at 1.0 for
+  accessibility, best practices and SEO. Two real defects were found and fixed during
+  this phase: a contrast failure on small text and a broken search submit path. The
+  only thing outstanding is the operator's single decision, approve this exact commit
+  for merge, push and deployment, or not. Phase E is then the operator running
+  docs/DEPLOY.md by hand. Deployment, publication, experiment and pilot each remain
+  separately unauthorized.
 
 pending_manual_action: >-
   Three operator decisions remain outstanding and none of them is made here. First, the
@@ -34,8 +35,8 @@ pending_manual_action: >-
 current_plan: docs/BUILD-PLAN.md
 
 current_unit:
-  name: reader_platform_release_preparation
-  unit: Phase D, the release-preparation checklist and the acceptance gate
+  name: reader_platform_release_candidate
+  unit: Phase D complete; awaiting the operator's approve-this-commit-or-not decision
   branch: feat/reader-platform
   worktree: C:\w\rp
   plan: docs/BUILD-PLAN.md
@@ -57,9 +58,9 @@ current_unit:
     - /egypt/
     - /research-method/
     - /limitations/
-  status: release_gate_built_and_verified
+  status: release_preparation_complete_awaiting_operator_decision
   last_actor: operator-directed OpenCode session (displayed model MiniMax M3.1 Flash Free; underlying model not verified)
-  last_run: '2026-11-17'
+  last_run: '2026-11-18'
 
 release_gate:
   artifact:
@@ -94,6 +95,59 @@ release_gate:
   operator_decision: >-
     The operator runs the deployment by hand. The agent does not publish, does not hold
     credentials and does not create the approval record.
+  release_candidate:
+    branch: feat/reader-platform
+    commit: recorded in the commit that follows the Phase D work
+    note: the commit that records that hash changes only state/workflow.yaml and
+      state/session-log.md, so the built site bytes and the artifact hash are identical
+  release_audit:
+    script: tools/reader-site/scripts/release-audit.ts
+    command: npm run audit:release in tools/reader-site
+    tests: tools/reader-site/tests/release-audit.test.ts
+    result: AUDIT records=134 findings=0 blocking=0 review=0 passed=true
+    checks: >-
+      Repository-path leaks, session-log references, credential-shaped strings, unresolved
+      rights, link-only sources carrying derivatives, missing assessment rationales or
+      unknown reasons, hypotheses not marked new-unvalidated-hypothesis, incomplete
+      hypotheses or gaps, dangling cross-references, forbidden positive declarations,
+      page language, title, landmarks and skip link, focus-visible, reduced motion,
+      non-colour status and WCAG AA contrast.
+    limitation: >-
+      Contrast is resolved per CSS rule, so a colour inherited from an ancestor rule is
+      approximate. Every ink-faint and ink-muted use was read by hand and confirmed to sit
+      on a light surface.
+  release_checklist:
+    file: docs/RELEASE-CHECKLIST.md
+    contents: >-
+      Every check with its command and result, the corpus census, the dissent and
+      openness position, the browser evidence, the two defects found and fixed, the
+      limitations that were not verified, and the operator's single decision.
+  browser_checks:
+    where: real Chromium against the local preview on http://localhost:4321
+    result: >-
+      No console errors. Keyboard-only traversal reached the skip link, the brand, the
+      search field and button and the six primary navigation links, each with a visible
+      focus outline. The skip link moved focus into the main region. Right-to-left and
+      360-pixel layouts showed no horizontal overflow. Lighthouse on /methods/ scored
+      accessibility 1.0, best practices 1.0 and SEO 1.0 with zero failures. The search
+      returned 28 pages for aluminium and honestly reported no page for zzzqqq.
+    limitation: >-
+      The harness could not deliver raw key presses to an unfocused window, so the search
+      was driven by filling the field and submitting the form through its own submit path.
+  defects_fixed_in_release_preparation:
+    contrast: >-
+      --ink-faint #7b8490 gave 3.30 to 1 for small text in nine rules. Changed to
+      #5b6470, and --ink-muted #56616d to #4f5a66, preserving the hierarchy and clearing
+      WCAG AA on every paper surface.
+    search: >-
+      Pagefind returns results as an array of items each with its own data promise, so
+      the old results.slice(...).data() call threw and the catch branch reported that
+      search was unavailable. The logic now lives in src/lib/search.ts and
+      src/scripts/search.ts, is covered by tests, and keeps the Pagefind module lazy.
+  final_verification:
+    reader_site: 152 tests, 152 pass, 0 fail, 0 skipped; npx tsc --noEmit clean; npm run build exit 0 with 28 pages and 2056 indexed words
+    publication_contract: 207 tests, 206 pass, 1 skipped, 0 fail; npm run validate reports VALID records=134 pages=10 assets=0; npx tsc --noEmit clean
+    hosting_dry_run: npx wrangler deploy --dry-run exits 0, reads 121 files, uploads nothing
 
 archive:
   frozen_history: docs/history/
@@ -125,7 +179,8 @@ content_state:
     stack: Astro plus Pagefind static search
     pages_built: 28
     pagefind_index: 28 pages, 2056 words
-    reader_tests: 120 tests, 120 pass, 0 fail
+    reader_tests: 152 tests, 152 pass, 0 fail, 0 skipped
+    release_audit: npm run audit:release reports 0 findings over 134 records
     build_command: npm run build in tools/reader-site
     bundle_rule: >-
       The site consumes the exported bundle only. scripts/build-content.ts verifies every

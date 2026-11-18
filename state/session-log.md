@@ -161,3 +161,59 @@ artifact.
 **Next action.** Phase C finish (wrangler config + manual deploy guide), then Phase D
 (release preparation and the acceptance gate), then Phase E (hosting, on the operator's
 explicit go-ahead). Nothing is deployed, published, or experimentally validated.
+
+---
+
+## 2026-11-18 — Phase D: release preparation and the acceptance gate
+
+**Done.** The release preparation is complete and recorded in `docs/RELEASE-CHECKLIST.md`.
+
+The checks are repository code, not a manual scan: `tools/reader-site/scripts/release-audit.ts`
+(with `tests/release-audit.test.ts`, 24 tests) audits exposure, rights, scientific
+discipline, declarations and accessibility over the real build, and CI runs it
+(`npm run audit:release`).
+
+**Two real defects were found and fixed, both test-first.**
+
+1. **Contrast.** The first real audit run failed with 9 blocking `CONTRAST_BELOW_AA`
+   findings, all at 3.30:1 — `--ink-faint` was used for small text in nine rules. Fixed
+   in `src/styles/tokens.css`: `--ink-faint` → `#5b6470`, `--ink-muted` → `#4f5a66`,
+   keeping the type hierarchy and clearing AA on every paper surface.
+2. **Search.** Driving the live preview showed the search form reporting that search
+   was unavailable. The cause was measured: Pagefind returns `results` as a plain array
+   of items each with its own `data()` promise, so the old `results.slice(...).data()`
+   threw and the catch branch swallowed it. Fixed by moving the logic into
+   `src/lib/search.ts` and `src/scripts/search.ts` (8 new tests, RED first) and
+   replacing the inline script in `BaseLayout.astro` with a bundled one that keeps the
+   Pagefind module lazily imported. Proven in the browser: "aluminium" → 28 page(s)
+   match with 12 links and 12 excerpts; "zzzqqq" → No page matches, 0 links.
+
+**Browser evidence.** No console errors. Keyboard-only traversal reached the skip link,
+the brand, the search field and button and the six primary navigation links, each with a
+visible focus outline; the skip link moved focus into the main region. Right-to-left and
+360-pixel layouts produced no horizontal overflow. Lighthouse on `/methods/`: accessibility
+1.0, best practices 1.0, SEO 1.0, zero failures. The preview server was stopped and the
+temporary harness file removed.
+
+**The scientific review rehearsal** is recorded over all 134 published records: 12
+sources (all `link-only`, none carrying derivatives), 10 terms, 3 hypotheses (all
+`new-unvalidated-hypothesis`), 6 method families, 48 assessments (41 scored with a
+rationale, 7 unknown with a reason, all basis `inference`), 37 claims, 17 gaps (all
+`requires-human-validation`) and 1 material. Structured dissent is empty — 0
+`conflictingClaimIds` and 0 `counterevidenceClaimIds` — while dissent lives in prose
+(failure modes, falsifiers, unknown reasons, unresolved questions); that is recorded as a
+gap in representation, not filled in by the agent. All 88 reviewer strings say "no human
+sign-off recorded".
+
+**Proved.** Reader suite **152 tests / 152 pass / 0 fail / 0 skipped**; `npx tsc
+--noEmit` clean; `npm run build` exit 0 with 28 pages and 2056 indexed words;
+`npm run audit:release` → `AUDIT records=134 findings=0 blocking=0 review=0 passed=true`.
+Publication contract **207 tests / 206 pass / 1 skipped / 0 fail**;
+`VALID records=134 pages=10 assets=0`; typecheck clean. Hosting dry run exit 0, reads 121
+files, uploads nothing.
+
+**Next action.** The operator's single decision: approve this exact commit for merge,
+push and deployment, or not. Then Phase E — the operator runs `docs/DEPLOY.md` by hand.
+The agent does not create `operator/deployment-approval.json`; the gate refuses every
+deployment until the operator does. Nothing is deployed, published, or experimentally
+validated.

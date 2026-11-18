@@ -259,7 +259,17 @@ test("the invention page labels every hypothesis as unvalidated", () => {
 
 test("the page search is a retrieval aid, not a content mutation", () => {
   const html = readDist("index.html");
-  assert.match(html, /pagefind\/pagefind\.js/, "the search bundle is not loaded lazily");
+  // The search bundle is reached through a dynamic import inside the site's own
+  // bundled module script, so the path is present in the document while no
+  // pagefind script is loaded eagerly. Assert both halves: an eager script tag
+  // would defeat the lazy load, and a missing path would mean the search can
+  // never run.
+  assert.match(html, /pagefind\/pagefind\.js/, "the search bundle path is not referenced");
+  assert.doesNotMatch(
+    html,
+    /<script[^>]+src=["'][^"']*pagefind/,
+    "the search bundle is loaded eagerly",
+  );
   assert.match(html, /<noscript>[\s\S]*\/methods\//, "there is no no-JavaScript route to the content");
 });
 

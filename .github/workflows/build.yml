@@ -57,6 +57,10 @@ jobs:
         working-directory: tools/reader-site
         run: npm test
 
+      - name: Run the release audit
+        working-directory: tools/reader-site
+        run: npm run audit:release
+
       - name: Assemble the content-addressed artifact
         working-directory: tools/reader-site
         env:
