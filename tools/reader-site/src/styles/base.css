@@ -147,8 +147,11 @@ hr {
 
 /* ------------------------------------------------------------- shell */
 
+/* The shell is the page's content width. 74rem left ~180px of dead space on a
+ * 1366px laptop, which reads as a page that had not been sized to its screen.
+ * 80rem closes most of that without crowding the 68ch measure. */
 .shell {
-  width: min(100% - 2rem, 74rem);
+  width: min(100% - 2rem, 80rem);
   margin-inline: auto;
 }
 
@@ -306,6 +309,19 @@ hr {
   padding-block: 2rem 3rem;
 }
 
+/* Keep left/right balance consistent across the site. The eyebrow/record-id
+ * sits in the margin column and the body starts under it. Without a top
+ * align the first heading, the margin column looks detached on narrow screens. */
+.sheet__margin {
+  align-self: start;
+}
+@media (max-width: 59.999rem) {
+  .sheet__margin {
+    gap: 0.4rem 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+}
+
 .page__lede {
   font-size: var(--step-0);
   line-height: 1.55;
@@ -348,6 +364,18 @@ hr {
   margin: 0;
 }
 
+/* The qualifier that rides beside a section heading must read as a caption,
+ * not a second paragraph. Without this it inherits the body type and, on a
+ * narrow screen, wraps under the heading into something that looks like the
+ * start of the body copy. */
+.section__note {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  color: var(--ink-faint);
+}
+
 .prose {
   max-width: var(--measure);
 }
@@ -379,10 +407,18 @@ hr {
   scrollbar-color: var(--rule-strong) var(--paper-sunken);
 }
 
-/* The margin column carries the eyebrow and the record id on wide screens. */
+/* The margin column carries the eyebrow and the record id on wide screens.
+ * The whole sheet is one raised panel: without a surface of its own the
+ * sticky margin column is a strip of text floating over the body background,
+ * and on pages where it holds only a single label (the home page) it reads as
+ * an abandoned leftover rather than a sidebar. The panel gives both columns
+ * one surface and the rule between them something to sit on. */
 .sheet {
   display: grid;
   gap: 0 2.5rem;
+  background: var(--paper-raised);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
 }
 
 .sheet__margin {
@@ -410,7 +446,7 @@ hr {
     align-self: start;
     border-bottom: 0;
     border-inline-end: 1px solid var(--rule);
-    padding: 0 1.25rem 0 0;
+    padding: 0.5rem 1.25rem 0.5rem 0;
   }
 
   .sheet__margin .record-id {
@@ -442,7 +478,7 @@ hr {
 
 .chip--unknown {
   color: var(--ink-muted);
-  background: var(--transparent);
+  background: var(--paper-sunken);
   border-style: dashed;
 }
 
@@ -844,6 +880,13 @@ hr {
   padding-block: 1rem 2.5rem;
   border-bottom: 1px solid var(--rule);
 }
+@media (min-width: 54rem) {
+  .hero {
+    grid-template-columns: minmax(0, 1.5fr) minmax(16rem, 1fr);
+    gap: 2.5rem 3rem;
+    align-items: start;
+  }
+}
 
 .hero__title {
   font-size: var(--step-5);
@@ -881,6 +924,47 @@ hr {
 
 .specimen dd:last-child {
   margin-bottom: 0;
+}
+
+/* The three CTAs must read as the primary actions on the page. Without
+ * explicit styling they are plain underlined links — the weakest element on
+ * the page, which inverts the hierarchy against the 44px H1. */
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0;
+}
+
+.hero__actions .action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.55rem 1.1rem;
+  background: var(--paper-raised);
+  color: var(--ink);
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius);
+  font: 600 0.95rem / 1.2 var(--font-display);
+  text-decoration: none;
+  transition: background var(--motion-fast) var(--ease),
+              border-color var(--motion-fast) var(--ease);
+}
+
+.hero__actions .action:hover,
+.hero__actions .action:focus-visible {
+  background: var(--paper-sunken);
+  border-color: var(--ink);
+}
+
+.hero__actions .action--quiet {
+  background: transparent;
+  border-color: var(--rule);
+}
+
+.hero__actions .action--quiet:hover,
+.hero__actions .action--quiet:focus-visible {
+  border-color: var(--ink-faint);
 }
 
 @media (min-width: 54rem) {
