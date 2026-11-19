@@ -1,6 +1,6 @@
 version: 4
 updated: '2026-11-19'
-status: reader_refresh_ready_for_review
+status: reader_r3_ready_for_review_reviewer_gateway_not_deployed
 
 production:
   url: https://butt-lab.am6.workers.dev/
@@ -11,17 +11,30 @@ production:
 
 current_unit:
   branch: arena/2dc0ddeb-butt-lab
-  publication_version: reader-evidence-2026-11-r2
-  scope: Plain-language reader, library coverage, worked method examples, AI candidate, source filtering, and separation of local reading/workflow files from the reader.
+  publication_version: reader-evidence-2026-11-r3
+  scope: Plain-language reader, one-row navigation, responsive reading and comparison pages, worked examples, and two verified public PDF copies.
   provenance: docs/READER-REFRESH.md
   library_review: docs/LIBRARY-REVIEW.md
   repository_map: docs/REPOSITORY-MAP.md
   extraction_guide: docs/LOCAL-LIBRARY.md
+  ui_review: docs/READER-LAYOUT-REVIEW.md
+  public_pdfs: docs/PUBLIC-SOURCE-PDFS.md
   source_data: tools/publication-contract/layer-data/
 
+reviewer_library:
+  guide: docs/REVIEWER-LIBRARY.md
+  status: Local viewer works; hosted Worker and upload tooling tested but not deployed.
+  originals: {paths: 55, unique_pdfs: 51}
+  public_reader_pdf_copies: 2
+  remote_uploads_this_pass: 0
+  repository_visibility: Temporarily public per operator; no visibility or history change made here.
+
 next_action: >-
-  Review the preview, then approve and deploy the exact new artifact from an authenticated
-  Cloudflare environment. Treat deployment as separate from research review or approval of experiments.
+  The operator confirms which exact PDFs can be shared and provisions a private R2
+  bucket, reviewer hostname, and Worker secret. Keep the collection separate from the
+  public reader and restore private repository visibility when temporary public access ends.
+  Separately review and approve the exact public-reader artifact if releasing it.
+  For research, deepen the alkaline-pulping review using the paper, thesis and patent.
 
 open_research:
   - Source screening is not a line-by-line extraction or worldwide survey. See the coverage ledger for the next evidence pass.

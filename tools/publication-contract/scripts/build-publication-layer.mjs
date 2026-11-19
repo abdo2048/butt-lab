@@ -23,7 +23,7 @@ const publicationRoot = join(packageRoot, "..", "..", "publication");
 const dataRoot = join(packageRoot, "layer-data");
 
 const RUBRIC_VERSION = "1.0.0";
-const PUBLICATION_VERSION = "reader-evidence-2026-11-r2";
+const PUBLICATION_VERSION = "reader-evidence-2026-11-r3";
 
 const HUMAN_WORK_LABELS = {
   "source-retrieval": "Finding and reading the missing source",
@@ -133,6 +133,7 @@ async function main() {
 
   const manifestRecords = [];
   const manifestPages = [];
+  const manifestAssets = [];
   const hypothesisIds = [];
 
   // ---- material -------------------------------------------------------
@@ -159,6 +160,19 @@ async function main() {
 
   // ---- sources --------------------------------------------------------
   for (const source of sources) {
+    // Only original PDFs explicitly assigned to a source with confirmed rights
+    // are added. Never glob the library or automatically accept a new hash.
+    if (source.localArtifact || source.redistributionLicense) {
+      const expectedPath = `assets/${source.id}.pdf`;
+      if (source.rights !== "public-local-copy" || !source.redistributionLicense || source.localArtifact?.path !== expectedPath) {
+        throw new Error(`Invalid authored PDF entry for ${source.id}`);
+      }
+      const bytes = await readFile(join(publicationRoot, expectedPath));
+      if (sha256Of(bytes) !== source.localArtifact.sha256) {
+        throw new Error(`Authored PDF hash mismatch for ${source.id}`);
+      }
+      manifestAssets.push({ id: `${source.id}-pdf`, ...source.localArtifact });
+    }
     const value = {
       ...base(source.id, source.title, source.auditAliases),
       kind: "source",
@@ -169,6 +183,8 @@ async function main() {
       originalUrl: source.originalUrl,
       accessDate: source.accessDate ?? accessDate,
       rights: source.rights,
+      ...(source.localArtifact ? { localArtifact: source.localArtifact } : {}),
+      ...(source.redistributionLicense ? { redistributionLicense: source.redistributionLicense } : {}),
       derivatives: [],
       claimIds: source.claimIds,
       methodIds: source.methodIds,
@@ -399,7 +415,7 @@ async function main() {
     publicationVersion: PUBLICATION_VERSION,
     records: manifestRecords.sort((a, b) => a.id.localeCompare(b.id)),
     pages: manifestPages.sort((a, b) => a.id.localeCompare(b.id)),
-    assets: [],
+    assets: manifestAssets.sort((a, b) => a.id.localeCompare(b.id)),
   };
   await writeYaml("manifest.yaml", manifest);
 

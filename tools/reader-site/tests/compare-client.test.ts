@@ -1,4 +1,4 @@
-// Tests for the one piece of client JavaScript in the site: the comparison page's
+// Tests for the comparison page's
 // inline script. The script may only reorder and hide DOM nodes that the server
 // already rendered. It must never change a score, a basis, an evidence state or
 // an approval, and the page must stay complete when the script never runs.
@@ -150,5 +150,51 @@ test("the comparison page is complete when the script never runs", () => {
       `the server-rendered comparison must link to ${family} without JavaScript`,
     );
   }
+  dom.window.close();
+});
+
+test("criterion selection focuses both views and clearing restores the complete comparison", () => {
+  const { dom, document } = loadCompare("dangerously");
+  const initial = rowOrder(document);
+  const mode = document.querySelector<HTMLSelectElement>("#compare-mode")!;
+  const basis = document.querySelector<HTMLSelectElement>("#compare-basis")!;
+  const empty = document.getElementById("compare-empty")!;
+  const message = document.getElementById("compare-status-message")!;
+  assert.ok(document.querySelector("main h1"));
+  assert.ok(mode.disabled && basis.disabled);
+  assert.equal(document.querySelectorAll("#compare-table thead [hidden]").length, 0);
+  select(document, "compare-criterion", "resource-burden");
+  assert.ok(!mode.disabled && !basis.disabled);
+  assert.equal(document.querySelectorAll("#compare-table thead [data-criterion]:not([hidden])").length, 1);
+  assert.equal(document.querySelectorAll(".compare-card:first-child dt:not([hidden])").length, 1);
+  select(document, "compare-status", "unknown");
+  select(document, "compare-basis", "source-supported");
+  assert.equal(document.querySelectorAll("#compare-rows tr:not([hidden])").length, 0);
+  assert.equal(document.querySelectorAll("#compare-cards li:not([hidden])").length, 0);
+  assert.ok(!empty.hidden);
+  assert.match(message.textContent ?? "", /Showing 0 of 6/);
+  select(document, "compare-criterion", "");
+  assert.ok(mode.disabled && basis.disabled && empty.hidden);
+  assert.equal(basis.value, "");
+  assert.deepEqual(rowOrder(document), initial);
+  assert.equal(document.querySelectorAll("#compare-rows tr:not([hidden])").length, 6);
+  assert.equal(document.querySelectorAll("#compare-table thead [hidden]").length, 0);
+  dom.window.close();
+});
+
+
+test("the comparison reveals supplementary controls only after choosing a question", () => {
+  const { dom, document } = loadCompare("dangerously");
+  const filters = document.getElementById("compare-options")!;
+  const help = document.getElementById("compare-criterion-help")!;
+  assert.equal(filters.hidden, true);
+  assert.match(help.textContent ?? "", /Pick a question/);
+  select(document, "compare-criterion", "sink-completeness");
+  assert.equal(filters.hidden, false);
+  assert.match(help.textContent ?? "", /who accepts it under what requirements/);
+  assert.match(document.querySelector('th[data-criterion="sink-completeness"]')?.textContent ?? "", /What accepts the outputs/);
+  select(document, "compare-criterion", "");
+  assert.equal(filters.hidden, true);
+  assert.match(help.textContent ?? "", /Pick a question/);
   dom.window.close();
 });

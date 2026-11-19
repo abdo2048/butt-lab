@@ -1,5 +1,7 @@
 # Publish Butt Lab to Cloudflare
 
+This guide is for the **public reader only**. For private PDF review use the separate [reviewer library runbook](REVIEWER-LIBRARY.md); do not add its inventory, files or secrets to the public artifact.
+
 Production is [butt-lab.am6.workers.dev](https://butt-lab.am6.workers.dev/), an assets-only Worker. Changes on a branch or in a preview do not update it. The release gate is for publishing exact bytes, not for approving any physical process. The prior approval in `operator/` applies only to its old artifact.
 
 ## Build and inspect
@@ -35,7 +37,7 @@ The output gives the commit, version and SHA-256 of `artifact/artifact-manifest.
    ```
 
    PowerShell for staging: `Remove-Item -Recurse -Force dist; Copy-Item -Recurse artifact/site dist`. Do not rebuild between verification and deploy. If logged in already, use `npx wrangler whoami` to confirm the correct account instead of logging in again.
-5. Open the production URL, check `/sources/` and `/invention/`, then test one search. To undo a release, use `npx wrangler versions list` and `npx wrangler rollback <version-id>` from the site directory.
+5. Open the production URL, check `/sources/` and `/invention/`, then test one search. For a release with [public source PDFs](PUBLIC-SOURCE-PDFS.md), also open and download a listed PDF and verify the response is `application/pdf`. To undo a release, use `npx wrangler versions list` and `npx wrangler rollback <version-id>` from the site directory.
 
 To redeploy a later change, repeat the build, inspection and approval for the new artifact.
 

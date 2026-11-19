@@ -7,6 +7,8 @@
 - [Current status and next steps](state/workflow.yaml)
 - [Repository map, branches and remaining work](docs/REPOSITORY-MAP.md)
 - [Prepare the local PDF reading library](docs/LOCAL-LIBRARY.md)
+- [Set up password-protected reviewer PDF access](docs/REVIEWER-LIBRARY.md)
+- [Reader layout and navigation decisions](docs/READER-LAYOUT-REVIEW.md)
 - [Working-library coverage](docs/LIBRARY-REVIEW.md)
 - [Deployment](docs/DEPLOY.md)
 
@@ -33,6 +35,7 @@ The preview includes the actual Pagefind index. To check a change before release
 | --- | --- |
 | Public source records, claims or narrative | [`tools/publication-contract/layer-data/`](tools/publication-contract/layer-data/), then regenerate [`publication/`](publication/) |
 | Reader layout, navigation or search | [`tools/reader-site/`](tools/reader-site/) |
+| Password-protected remote review | [`tools/reviewer-gateway/`](tools/reviewer-gateway/) and [the reviewer runbook](docs/REVIEWER-LIBRARY.md); separate from the public deployment |
 | Underlying documents and past research | [`materials/`](materials/), [`registry/`](registry/), [`reports/`](reports/) and [`inventions/`](inventions/) |
 | Operator workflow and generated reading copies | `.research-local/` (local, Git-ignored; never part of the reader) |
 

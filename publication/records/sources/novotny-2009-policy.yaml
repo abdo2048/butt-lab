@@ -10,7 +10,13 @@ publisherOrIssuer: Novotny et al. · IJERPH
 versionOrDate: 2009, 6:1691–1705
 originalUrl: https://doi.org/10.3390/ijerph6051691
 accessDate: 2026-11-19
-rights: link-only
+rights: public-local-copy
+localArtifact:
+  path: assets/novotny-2009-policy.pdf
+  sha256: beb08cde1a1c1a12dc4840f7995b308343236c3235c676adb34a381cad784fc2
+redistributionLicense:
+  name: CC BY 3.0
+  url: https://creativecommons.org/licenses/by/3.0/
 derivatives: []
 claimIds: []
 methodIds: []

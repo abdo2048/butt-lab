@@ -22,3 +22,8 @@ publication/export-*/
 
 # Local workflow notes and reproducible PDF reading copies (never publish)
 /.research-local/
+
+# Private reviewer deployment configuration and local secret overrides
+/tools/reviewer-gateway/wrangler.local.jsonc
+/tools/reviewer-gateway/.dev.vars*
+/tools/reviewer-gateway/.env*

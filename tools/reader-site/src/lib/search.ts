@@ -68,5 +68,5 @@ export function searchStatusText(query: string, total: number): string {
   if (total === 0) {
     return `No page matches “${query}”.`;
   }
-  return `${total} page(s) match “${query}”.`;
+  return total === 1 ? `1 page matches “${query}”.` : `${total} pages match “${query}”.`;
 }

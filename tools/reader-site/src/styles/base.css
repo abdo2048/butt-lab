@@ -147,9 +147,8 @@ hr {
 
 /* ------------------------------------------------------------- shell */
 
-/* The shell is the page's content width. 74rem left ~180px of dead space on a
- * 1366px laptop, which reads as a page that had not been sized to its screen.
- * 80rem closes most of that without crowding the 68ch measure. */
+/* Catalogues and comparison tables use the wide shell. Long-form pages keep
+ * the whole article (including headings and rules) in a centered reading column. */
 .shell {
   width: min(100% - 2rem, 80rem);
   margin-inline: auto;
@@ -164,7 +163,7 @@ hr {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  gap: 0.5rem 1.5rem;
+  gap: 0.5rem clamp(0.6rem, 1.8vw, 1.5rem);
   padding-block: 1rem 0.75rem;
 }
 
@@ -194,8 +193,7 @@ hr {
   color: var(--ink-muted);
 }
 
-.nav-primary ul,
-.nav-secondary ul {
+.nav-primary ul {
   display: flex;
   flex-wrap: wrap;
   gap: 0.15rem 1.1rem;
@@ -204,13 +202,11 @@ hr {
   padding: 0;
 }
 
-.nav-primary li + li,
-.nav-secondary li + li {
+.nav-primary li + li {
   margin-top: 0;
 }
 
-.nav-primary a,
-.nav-secondary a {
+.nav-primary a {
   display: inline-block;
   padding: 0.3rem 0;
   font-family: var(--font-display);
@@ -221,37 +217,21 @@ hr {
   border-bottom: 2px solid var(--transparent);
 }
 
-.nav-primary a:hover,
-.nav-secondary a:hover {
+.nav-primary a:hover {
   color: var(--ink);
   border-bottom-color: var(--rule-strong);
 }
 
-.nav-primary a[aria-current="page"],
-.nav-secondary a[aria-current="page"] {
+.nav-primary a[aria-current="page"] {
   color: var(--ink);
   border-bottom-color: var(--teal);
 }
 
-.nav-secondary {
-  border-top: 1px dotted var(--rule);
-  padding-block: 0.45rem;
-}
-
-.nav-secondary a {
-  font-size: 0.82rem;
-  font-weight: 400;
-  color: var(--ink-muted);
-}
-
-.nav-secondary a:hover,
-.nav-secondary a[aria-current="page"] {
-  color: var(--teal);
-  border-bottom-color: var(--teal);
+.site-search-toggle {
+  display: none;
 }
 
 .search {
-  margin-inline-start: auto;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -283,11 +263,6 @@ hr {
   color: var(--ink-muted);
 }
 
-.search__results {
-  border-top: 1px solid var(--rule);
-  padding-block: 0.75rem;
-}
-
 .search__results ol {
   list-style: none;
   padding: 0;
@@ -307,6 +282,10 @@ hr {
 
 .page {
   padding-block: 2rem 3rem;
+}
+
+.page--reading {
+  max-inline-size: var(--measure);
 }
 
 .page__lede {
@@ -365,6 +344,7 @@ hr {
 
 .prose {
   max-width: var(--measure);
+  overflow-wrap: anywhere;
 }
 
 .prose h3 {
@@ -381,17 +361,6 @@ hr {
 
 .prose blockquote p:last-child {
   margin-bottom: 0;
-}
-
-/* A table with no wrapper element is its own scroll container on a narrow
- * screen: the tables written in the markdown, and the criterion scorecard.
- * Without this a wide table pushes the whole page sideways. */
-.prose table,
-.table--scores {
-  display: block;
-  overflow-x: auto;
-  max-inline-size: 100%;
-  scrollbar-color: var(--rule-strong) var(--paper-sunken);
 }
 
 /* ------------------------------------------------------------- chips */
@@ -503,6 +472,7 @@ hr {
 .table {
   width: 100%;
   border-collapse: collapse;
+  margin: 0;
   font-size: 0.92rem;
 }
 
@@ -722,10 +692,10 @@ hr {
 }
 
 /* A card anchored to the term cannot be kept inside a narrow viewport: it
- * would push the whole page sideways. Below the two-column breakpoint the card
- * becomes a fixed strip above the bottom edge, still opened by hover or by
+ * would push the whole page sideways, including beside the method sidebar.
+ * At narrower widths the card becomes a fixed strip above the bottom edge, still opened by hover or by
  * keyboard focus on the term. */
-@media (max-width: 63.999rem) {
+@media (max-width: 74.999rem) {
   .term::after {
     position: fixed;
     inset-inline: 1rem;
@@ -865,17 +835,15 @@ hr {
   margin-bottom: 0;
 }
 
-/* The three CTAs must read as the primary actions on the page. Without
- * explicit styling they are plain underlined links — the weakest element on
- * the page, which inverts the hierarchy against the 44px H1. */
-.hero__actions {
+/* Give the main actions a consistent hierarchy on landing and browse pages. */
+.page-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
   margin: 0;
 }
 
-.hero__actions .action {
+.page-actions .action {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
@@ -890,19 +858,19 @@ hr {
               border-color var(--motion-fast) var(--ease);
 }
 
-.hero__actions .action:hover,
-.hero__actions .action:focus-visible {
+.page-actions .action:hover,
+.page-actions .action:focus-visible {
   background: var(--paper-sunken);
   border-color: var(--ink);
 }
 
-.hero__actions .action--quiet {
+.page-actions .action--quiet {
   background: transparent;
   border-color: var(--rule);
 }
 
-.hero__actions .action--quiet:hover,
-.hero__actions .action--quiet:focus-visible {
+.page-actions .action--quiet:hover,
+.page-actions .action--quiet:focus-visible {
   border-color: var(--ink-faint);
 }
 
@@ -914,13 +882,12 @@ hr {
 }
 
 .family-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
   list-style: none;
   padding: 0;
-  margin: 0;
-  display: grid;
-  gap: 1px;
-  background: var(--rule);
-  border: 1px solid var(--rule);
+  margin: 1.5rem 0 0;
 }
 
 @media (min-width: 48rem) {
@@ -929,34 +896,46 @@ hr {
   }
 }
 
-@media (min-width: 68rem) {
-  .family-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-}
-
 .family-grid > li {
+  min-inline-size: 0;
+  margin: 0;
+  padding: clamp(1rem, 2vw, 1.5rem);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
   background: var(--paper-raised);
-  padding: 1rem 1.1rem;
+  overflow-wrap: anywhere;
 }
 
-.family-grid h3 {
-  margin-bottom: 0.3rem;
-}
-
-.family-grid h3 a {
-  color: var(--ink);
-  text-decoration: none;
-}
-
-.family-grid h3 a:hover {
-  color: var(--blue);
-  text-decoration: underline;
-}
-
-.family-grid p {
-  font-size: 0.92rem;
+.family-grid h2 {
   margin-bottom: 0.5rem;
+}
+
+.family-grid__details {
+  display: grid;
+  gap: 0.2rem 1rem;
+  margin: 0;
+  padding-block-start: 0.7rem;
+  border-block-start: 1px solid var(--rule);
+  font-size: 0.9rem;
+}
+
+.family-grid__details dt {
+  font-family: var(--font-display);
+  font-weight: 600;
+}
+
+.family-grid__details dd {
+  margin: 0 0 0.5rem;
+}
+
+.family-grid__details dd:last-child {
+  margin-block-end: 0;
+}
+
+@media (min-width: 68rem) {
+  .family-grid__details {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
 }
 
 /* ----------------------------------------------------------- compare */
@@ -965,9 +944,7 @@ hr {
  * the reader gets the complete unsorted table, which is the documented fallback. */
 .compare-controls {
   display: none;
-  flex-wrap: wrap;
-  gap: 1rem 1.5rem;
-  align-items: flex-end;
+  gap: 1rem;
   padding: 0.9rem 1rem;
   border: 1px solid var(--rule);
   background: var(--paper-raised);
@@ -975,7 +952,40 @@ hr {
 }
 
 .has-js .compare-controls {
+  display: grid;
+}
+
+.compare-question {
+  inline-size: min(100%, 30rem);
+}
+
+.compare-question > label {
+  font: 600 1rem var(--font-display);
+}
+
+.compare-question__help {
+  margin: 0;
+}
+
+.compare-options {
   display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1.5rem;
+}
+
+.compare-guide {
+  max-inline-size: var(--measure);
+  margin-block: 0 1rem;
+}
+
+.compare-guide dd {
+  margin: 0 0 0.65rem;
+}
+
+@media (max-width: 38rem) {
+  .compare-options .control {
+    flex: 1 1 11rem;
+  }
 }
 
 .control {
@@ -1039,7 +1049,8 @@ hr {
   padding: 0.9rem 1rem;
 }
 
-.compare-card h3 {
+.compare-card h2 {
+  font-size: var(--step-1);
   margin-bottom: 0.2rem;
 }
 
@@ -1090,6 +1101,14 @@ hr {
   margin-bottom: 0.5rem;
 }
 
+.source-documents > p {
+  margin-block: 0.5rem 0;
+}
+
+.source-reference-note {
+  margin-block: 1rem;
+}
+
 /* ------------------------------------------------------------ footer */
 
 .site-footer {
@@ -1108,7 +1127,19 @@ hr {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  align-items: baseline;
   gap: 0.25rem 1.1rem;
+  margin: 0;
+}
+
+.site-footer__nav li {
+  margin: 0;
+}
+
+.site-footer__nav a {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: 2rem;
 }
 
 /* -------------------------------------------------------- utilities */
@@ -1166,12 +1197,9 @@ hr {
     display: none;
   }
 
-  /* On paper a table must set its own width and may break across pages, so the
-   * narrow-screen scroll container is not wanted here. */
-  .prose table,
-  .table--scores {
-    display: table;
-    overflow-x: visible;
+  .table-scroll {
+    overflow: visible;
+    border: 0;
   }
 
   body {
@@ -1205,14 +1233,14 @@ hr {
   max-width: 15ch;
 }
 
-.hero__actions .action--primary {
+.page-actions .action--primary {
   background: var(--teal);
   border-color: var(--teal);
   color: var(--paper-raised);
 }
 
-.hero__actions .action--primary:hover,
-.hero__actions .action--primary:focus-visible {
+.page-actions .action--primary:hover,
+.page-actions .action--primary:focus-visible {
   background: var(--ink);
   color: var(--paper-raised);
 }
@@ -1285,13 +1313,102 @@ hr {
   background: var(--paper-raised);
 }
 
-@media (max-width: 38rem) {
+.site-search-toggle,
+.nav-more summary {
+  padding: 0.35rem 0.65rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius);
+  font: 600 0.88rem / 1.4 var(--font-display);
+  color: var(--teal);
+  background: var(--paper-raised);
+  cursor: pointer;
+}
+
+.site-search-toggle[aria-expanded="true"],
+.nav-more[open] summary,
+.nav-more:has([aria-current="page"]) summary {
+  background: var(--teal-soft);
+}
+
+.nav-more {
+  position: relative;
+}
+
+@media (min-width: 45rem) {
+  .nav-more {
+    margin-inline-start: auto;
+  }
+}
+
+.nav-more nav {
+  position: absolute;
+  inset-block-start: calc(100% + 0.35rem);
+  inset-inline-end: 0;
+  z-index: 20;
+  inline-size: 12rem;
+  max-inline-size: calc(100vw - 2rem);
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius);
+  background: var(--paper-raised);
+}
+
+.nav-more ul {
+  list-style: none;
+  padding: 0.25rem;
+  margin: 0;
+}
+
+.nav-more li {
+  margin: 0;
+}
+
+.nav-more a {
+  display: block;
+  padding: 0.4rem 0.65rem;
+  font: 0.9rem / 1.4 var(--font-display);
+  color: var(--teal);
+}
+
+.nav-more a[aria-current="page"] {
+  background: var(--teal-soft);
+  font-weight: 600;
+}
+
+@media (max-width: 55.999rem) {
   .site-header__tagline {
+    display: none;
+  }
+}
+
+@media (max-width: 44.999rem) {
+  .site-header__inner {
+    align-items: center;
+    gap: 0.5rem;
+    padding-block: 0.5rem 0.2rem;
+  }
+
+  .brand {
+    margin-inline-end: auto;
+  }
+
+  .nav-primary ul {
+    column-gap: 0.5rem;
+    justify-content: space-between;
+  }
+
+  .nav-primary a {
+    padding-block: 0.5rem;
+  }
+
+  .site-search-toggle {
+    display: block;
+  }
+
+  .site-search-toggle[aria-expanded="false"] ~ .search {
     display: none;
   }
 
   .search {
-    flex-wrap: wrap;
     margin-inline-start: 0;
     inline-size: 100%;
   }
@@ -1299,10 +1416,6 @@ hr {
   .search input {
     flex: 1;
     min-inline-size: 0;
-  }
-
-  .search__status:not(:empty) {
-    flex-basis: 100%;
   }
 }
 
@@ -1315,9 +1428,6 @@ hr {
   max-inline-size: 100%;
 }
 
-.site-header__inner > .search__results {
-  flex-basis: 100%;
-}
 
 .page__eyebrow {
   margin-block-end: 0.65rem;
@@ -1370,4 +1480,202 @@ hr {
 
 .source-filter [role="status"] {
   margin: 0.5rem 0 0;
+}
+
+.site-search-feedback .search__status:not(:empty) {
+  padding-block: 0.65rem;
+}
+
+.site-search-feedback .search__results {
+  max-inline-size: 46rem;
+  padding: 1rem;
+  margin-block-end: 1rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: var(--paper-raised);
+  overflow-wrap: anywhere;
+}
+
+.search__clear {
+  margin-block-start: 0.75rem;
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius);
+  padding: 0.3rem 0.65rem;
+  cursor: pointer;
+  font: 0.85rem var(--font-display);
+}
+
+.search__results mark {
+  background: var(--amber-soft);
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.method-overview {
+  margin-block: 1.25rem 1.5rem;
+  max-inline-size: 52rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--rule);
+  border-inline-start: 3px solid var(--teal);
+  border-radius: var(--radius);
+  background: var(--paper-raised);
+}
+
+.method-overview .prose > :last-child {
+  margin-block-end: 0;
+}
+
+.method-reading__content {
+  min-inline-size: 0;
+}
+
+.method-reading__content > .section:first-child {
+  margin-block-start: 1rem;
+}
+
+@media (min-width: 62rem) and (min-height: 36rem) {
+  .method-reading {
+    display: grid;
+    grid-template-columns: 12rem minmax(0, 1fr);
+    gap: clamp(1rem, 3vw, 3rem);
+  }
+
+  .method-reading__aside {
+    align-self: start;
+    position: sticky;
+    top: 1.25rem;
+    padding: 0.8rem;
+    background: var(--paper-raised);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+  }
+
+  .method-jumps ul {
+    display: grid;
+    margin-bottom: 0;
+    gap: 0.25rem;
+  }
+
+  .method-jumps a {
+    border-color: var(--transparent);
+    padding-inline: 0.3rem;
+  }
+
+  .method-reading__content > .section:first-child {
+    margin-block-start: 0;
+  }
+}
+
+.glossary-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1rem;
+  font-size: 0.85rem;
+}
+
+.glossary-links li {
+  margin: 0;
+}
+
+.compare-controls .control {
+  margin: 0;
+}
+
+.compare-controls select:disabled {
+  opacity: 0.62;
+}
+
+.compare-status {
+  min-block-size: 1.4rem;
+}
+
+.compare-status:empty {
+  display: none;
+}
+
+.compare-cards {
+  padding: 0;
+  list-style: none;
+}
+
+.compare-card {
+  margin: 0;
+  border-radius: var(--radius);
+}
+
+.compare-card__basis {
+  display: block;
+}
+
+.callout--neutral {
+  border-inline-start-color: var(--teal);
+  background: var(--teal-soft);
+}
+
+.compare-table thead th {
+  white-space: normal;
+}
+
+.compare-table tr > :first-child {
+  min-inline-size: 10rem;
+}
+
+.compare-table tr > :not(:first-child) {
+  min-inline-size: 8rem;
+}
+
+@media (max-width: 25rem) {
+  .compare-card dl {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 0.45rem 0.7rem;
+  }
+}
+
+.compare-score {
+  display: block;
+  font-weight: 600;
+}
+
+/* The proposal reads like an article; only the scenario table breaks out. */
+.proposal-reading {
+  max-inline-size: var(--measure);
+  margin-inline: auto;
+}
+
+.proposal-feature {
+  padding: clamp(1rem, 3vw, 1.5rem);
+  border: 1px solid var(--rule);
+  border-inline-start: 3px solid var(--teal);
+  border-radius: var(--radius);
+  background: var(--paper-raised);
+  overflow-wrap: anywhere;
+}
+
+.proposal-feature .chip {
+  margin-block-end: 0.5rem;
+}
+
+.proposal-feature > :last-child {
+  margin-block-end: 0;
+}
+
+.proposal-table {
+  max-inline-size: 64rem;
+  margin-inline: auto;
+}
+
+.proposal-table .table {
+  min-inline-size: 46rem;
+}
+
+.proposal-table thead th {
+  white-space: normal;
+}
+
+.earlier-proposals {
+  margin-block-start: 2rem;
 }

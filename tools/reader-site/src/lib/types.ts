@@ -32,6 +32,8 @@ export interface SourceRecord {
   accessDate: string;
   publisherOrIssuer: string;
   rights: string;
+  localArtifact?: { path: string; sha256: string };
+  redistributionLicense?: { name: string; url: string };
   claimIds: string[];
   methodIds: string[];
   derivatives: Derivative[];

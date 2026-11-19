@@ -1,4 +1,9 @@
 ---
 import NarrativePage from "../components/NarrativePage.astro";
 ---
-<NarrativePage pageId="start-here" eyebrow="Start here" title="Recycling cigarette butts" />
+<NarrativePage pageId="start-here" eyebrow="Start here" title="Recycling cigarette butts">
+  <nav slot="after-intro" class="page-actions" aria-label="Start exploring">
+    <a class="action action--primary" href="/methods/">Explore methods</a>
+    <a class="action action--quiet" href="/methods/examples/">Worked examples</a>
+  </nav>
+</NarrativePage>

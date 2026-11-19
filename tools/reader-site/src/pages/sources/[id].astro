@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getBundle, recordsOfKind } from "../../lib/bundle";
+import { sourcePdf } from "../../lib/source-pdf.ts";
 import { evidenceStateLabel, rightsLabel } from "../../lib/format";
 import type { MethodFamilyRecord, SourceRecord } from "../../lib/types";
 
@@ -13,6 +14,7 @@ export function getStaticPaths() {
 }
 
 const { source } = Astro.props as { source: SourceRecord };
+const pdf = sourcePdf(source);
 
 const bundle = getBundle();
 const claims = recordsOfKind(bundle, "claim").filter((claim) => claim.sourceId === source.id);
@@ -25,73 +27,29 @@ const methods = source.methodIds
   title={`${source.title} — Butt Lab`}
   description={source.citation}
   eyebrow="Source"
+  layout="reading"
 >
   <p class="small"><a href="/sources/">← All sources</a></p>
   <h1>{source.title}</h1>
-
   <p class="page__lede">{source.citation}</p>
 
-  <section class="section" aria-labelledby="source-facts">
-    <div class="section__heading">
-      <h2 id="source-facts">The record</h2>
+  {pdf ? (
+    <div class="source-documents" data-pagefind-ignore>
+      <div class="page-actions">
+        <a class="action action--primary" href={pdf.url}>View PDF</a>
+        <a class="action action--quiet" href={pdf.url} download={pdf.filename}>Download PDF</a>
+        <a class="action action--quiet" href={source.originalUrl} rel="noreferrer noopener">Publisher page <span aria-hidden="true">↗</span></a>
+      </div>
+      <p class="small muted">Unmodified original · <a href={pdf.license.url} rel="noreferrer noopener">{pdf.license.name}</a></p>
     </div>
-    <dl class="audit-list">
-      <dt>Type</dt>
-      <dd>{source.sourceType}</dd>
-      <dt>Version or date</dt>
-      <dd>{source.versionOrDate}</dd>
-      <dt>Accessed</dt>
-      <dd>{source.accessDate}</dd>
-      <dt>Publisher or issuer</dt>
-      <dd>{source.publisherOrIssuer}</dd>
-      <dt>Rights</dt>
-      <dd>{rightsLabel(source.rights)}</dd>
-      {
-        source.derivatives.length > 0 && (
-          <>
-            <dt>Derivatives held</dt>
-            <dd>
-              {source.derivatives.map((derivative) => (
-                <span class="small">
-                  {derivative.title} — {derivative.qualityNote}
-                </span>
-              ))}
-            </dd>
-          </>
-        )
-      }
-      <dt>Original</dt>
-      <dd>
-        <a href={source.originalUrl} rel="noreferrer noopener">
-          {source.originalUrl}
-        </a>
-      </dd>
-    </dl>
-    <p class="small muted">
-      The link above points to the publisher. Link availability is not checked when this page is
-      built, so a dead link is possible; the citation above stands on its own.
+  ) : (
+    <p class="page-actions" data-pagefind-ignore>
+      <a class="action action--primary" href={source.originalUrl} rel="noreferrer noopener">Open original <span aria-hidden="true">↗</span></a>
     </p>
-  </section>
+  )}
 
   {
-    methods.length > 0 && (
-      <section class="section" aria-labelledby="source-methods">
-        <div class="section__heading">
-          <h2 id="source-methods">Related method families</h2>
-        </div>
-        <ul class="record-list">
-          {methods.map((method) => (
-            <li>
-              <a href={`/methods/${method.id}/`}>{method.title}</a>
-            </li>
-          ))}
-        </ul>
-      </section>
-    )
-  }
-
-  {
-    claims.length > 0 && (
+    claims.length > 0 ? (
       <section class="section" aria-labelledby="source-claims">
         <div class="section__heading">
           <h2 id="source-claims">What the source reports</h2>
@@ -102,34 +60,79 @@ const methods = source.methodIds
               <p>{claim.proposition}</p>
               <p class="mono small">
                 {evidenceStateLabel(claim.evidenceState)}
-                {claim.locator ? ` · locator: ${claim.locator}` : ""}
+                {claim.locator ? ` · ${claim.locator}` : ""}
               </p>
             </li>
+          ))}
+        </ul>
+      </section>
+    ) : (
+      <p class="source-reference-note small muted" data-pagefind-ignore>
+        Supporting reference. Butt Lab hasn’t linked individual findings to this source.
+      </p>
+    )
+  }
+
+  {
+    methods.length > 0 && (
+      <section class="section" aria-labelledby="source-methods">
+        <div class="section__heading">
+          <h2 id="source-methods">Related methods</h2>
+        </div>
+        <ul class="record-list">
+          {methods.map((method) => (
+            <li><a href={`/methods/${method.id}/`}>{method.title}</a></li>
           ))}
         </ul>
       </section>
     )
   }
 
-  <section class="section" aria-labelledby="source-audit">
-    <div class="section__heading">
-      <h2 id="source-audit">Audit trail</h2>
+  <details id="source-facts" class="drawer section" data-pagefind-ignore>
+    <summary>About this source</summary>
+    <div class="drawer__body">
+      <dl class="audit-list">
+        <dt>Type</dt>
+        <dd>{source.sourceType}</dd>
+        <dt>Version or date</dt>
+        <dd>{source.versionOrDate}</dd>
+        <dt>Accessed</dt>
+        <dd>{source.accessDate}</dd>
+        <dt>Publisher or issuer</dt>
+        <dd>{source.publisherOrIssuer}</dd>
+        <dt>Rights</dt>
+        <dd>{rightsLabel(source.rights)}</dd>
+        {source.derivatives.length > 0 && (
+          <>
+            <dt>Copies and derivatives</dt>
+            <dd>
+              {source.derivatives.map((derivative) => (
+                <span class="small">{derivative.title} — {derivative.qualityNote}</span>
+              ))}
+            </dd>
+          </>
+        )}
+      </dl>
     </div>
-    <dl class="audit-list">
-      <dt>Record id</dt>
-      <dd class="mono">{source.id}</dd>
-      {
-        source.auditAliases.length > 0 && (
+  </details>
+
+  <details id="source-audit" class="drawer" data-pagefind-ignore>
+    <summary>Audit trail</summary>
+    <div class="drawer__body">
+      <dl class="audit-list">
+        <dt>Record id</dt>
+        <dd class="mono">{source.id}</dd>
+        {source.auditAliases.length > 0 && (
           <>
             <dt>Internal names</dt>
             <dd class="mono">{source.auditAliases.join(", ")}</dd>
           </>
-        )
-      }
-      <dt>Publication state</dt>
-      <dd>{source.publicationState}</dd>
-      <dt>Schema version</dt>
-      <dd class="mono">{source.schemaVersion}</dd>
-    </dl>
-  </section>
+        )}
+        <dt>Publication state</dt>
+        <dd>{source.publicationState}</dd>
+        <dt>Schema version</dt>
+        <dd class="mono">{source.schemaVersion}</dd>
+      </dl>
+    </div>
+  </details>
 </BaseLayout>

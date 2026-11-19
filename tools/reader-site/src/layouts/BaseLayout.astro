@@ -7,20 +7,21 @@ interface Props {
   title: string;
   description: string;
   eyebrow?: string;
+  layout?: "wide" | "reading";
 }
 
-const { title, description, eyebrow } = Astro.props;
+const { title, description, eyebrow, layout = "wide" } = Astro.props;
 const pathname = Astro.url.pathname;
 
 const primaryNav = [
   { href: "/start/", label: "Start here" },
   { href: "/methods/", label: "Methods" },
-  { href: "/invention/", label: "AI proposals" },
+  { href: "/compare/", label: "Compare" },
   { href: "/sources/", label: "Sources" },
 ];
 
-const secondaryNav = [
-  { href: "/compare/", label: "Compare evidence" },
+const moreNav = [
+  { href: "/invention/", label: "AI proposals" },
   { href: "/glossary/", label: "Glossary" },
   { href: "/egypt/", label: "Egypt" },
   { href: "/research-method/", label: "About the evidence" },
@@ -53,7 +54,19 @@ const pageTitle = title.endsWith("— Butt Lab") ? title : `${title} — Butt La
         >
         <p class="site-header__tagline">Cigarette-butt recycling evidence</p>
 
-        <form class="search" id="search-form" role="search" novalidate>
+        <button type="button" class="site-search-toggle" id="search-toggle" aria-expanded="false" aria-controls="search-form search-feedback" hidden>Search</button>
+        <details class="nav-more">
+          <summary>More</summary>
+          <nav aria-label="More pages">
+            <ul>
+              {moreNav.map((item) => (
+                <li><a href={item.href} aria-current={isCurrent(item.href) ? "page" : undefined}>{item.label}</a></li>
+              ))}
+            </ul>
+          </nav>
+        </details>
+
+        <form class="search" id="search-form" role="search" novalidate hidden>
           <label class="visually-hidden" for="search-input">Search the reader site</label>
           <input
             id="search-input"
@@ -63,8 +76,15 @@ const pageTitle = title.endsWith("— Butt Lab") ? title : `${title} — Butt La
             placeholder="Search Butt Lab"
           />
           <button type="submit">Search</button>
-          <p class="search__status" id="search-status" role="status"></p>
         </form>
+      </div>
+
+      <div class="shell site-search-feedback" id="search-feedback">
+        <div id="search-status" class="search__status" role="status"></div>
+        <div id="search-results" class="search__results" hidden>
+          <ol id="search-hits" aria-label="Search results"></ol>
+          <button class="search__clear" type="button" id="search-clear">Clear search</button>
+        </div>
       </div>
 
       <nav class="shell nav-primary" aria-label="Primary">
@@ -81,22 +101,9 @@ const pageTitle = title.endsWith("— Butt Lab") ? title : `${title} — Butt La
         </ul>
       </nav>
 
-      <nav class="shell nav-secondary" aria-label="Secondary">
-        <ul>
-          {
-            secondaryNav.map((item) => (
-              <li>
-                <a href={item.href} aria-current={isCurrent(item.href) ? (pathname === item.href ? "page" : "location") : undefined}>
-                  {item.label}
-                </a>
-              </li>
-            ))
-          }
-        </ul>
-      </nav>
     </header>
 
-    <main id="main" class="shell page" data-pagefind-body>
+    <main id="main" class:list={["shell", "page", { "page--reading": layout === "reading" }]} data-pagefind-body>
       {eyebrow && <p class="eyebrow page__eyebrow">{eyebrow}</p>}
       <slot />
     </main>
@@ -112,9 +119,12 @@ const pageTitle = title.endsWith("— Butt Lab") ? title : `${title} — Butt La
             <li><a href="/start/">Start here</a></li>
             <li><a href="/methods/">Methods</a></li>
             <li><a href="/compare/">Compare evidence</a></li>
+            <li><a href="/invention/">AI proposals</a></li>
             <li><a href="/sources/">Sources</a></li>
             <li><a href="/glossary/">Glossary</a></li>
+            <li><a href="/egypt/">Egypt</a></li>
             <li><a href="/research-method/">About the evidence</a></li>
+            <li><a href="/limitations/">Limitations</a></li>
           </ul>
         </nav>
       </div>

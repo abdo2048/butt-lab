@@ -25,7 +25,15 @@
       "publisherOrIssuer": "Rahman, Mohajerani & Giustozzi · Materials",
       "versionOrDate": "2020, 13:734",
       "originalUrl": "https://doi.org/10.3390/ma13030734",
-      "rights": "link-only",
+      "rights": "public-local-copy",
+      "localArtifact": {
+        "path": "assets/rahman-2020-bitumen.pdf",
+        "sha256": "79ae28a06e27a5304fa366b58ee21230fb4d8edad25df928eba93ed96281081e"
+      },
+      "redistributionLicense": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
       "accessDate": "2026-11-19",
       "claimIds": [
         "rahman-2020-bitumen-finding"
@@ -221,7 +229,15 @@
       "publisherOrIssuer": "Novotny et al. · IJERPH",
       "versionOrDate": "2009, 6:1691–1705",
       "originalUrl": "https://doi.org/10.3390/ijerph6051691",
-      "rights": "link-only",
+      "rights": "public-local-copy",
+      "localArtifact": {
+        "path": "assets/novotny-2009-policy.pdf",
+        "sha256": "beb08cde1a1c1a12dc4840f7995b308343236c3235c676adb34a381cad784fc2"
+      },
+      "redistributionLicense": {
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/"
+      },
       "accessDate": "2026-11-19",
       "claimIds": [],
       "methodIds": []

@@ -38,6 +38,7 @@ const disclaimer = sections.map((section) => section.disclaimer).find((value) =>
   title={`${title ?? parsed.title} — Butt Lab`}
   description={description ?? parsed.title}
   eyebrow={eyebrow}
+  layout="reading"
 >
   <h1>{title ?? parsed.title}</h1>
 
@@ -46,6 +47,8 @@ const disclaimer = sections.map((section) => section.disclaimer).find((value) =>
       <div class="prose" set:html={renderMarkdown(parsed.preamble, { terms: glossaryTerms })} />
     )
   }
+
+  <slot name="after-intro" />
 
   {
     sections.map((section) => (

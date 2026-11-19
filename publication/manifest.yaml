@@ -1,5 +1,5 @@
 schemaVersion: 1
-publicationVersion: reader-evidence-2026-11-r2
+publicationVersion: reader-evidence-2026-11-r3
 records:
   - id: 3d-printing-filament
     path: records/sources/3d-printing-filament.yaml
@@ -351,7 +351,7 @@ records:
     sha256: f2d4c27b3fb2cf2d945f24cefbcf6a36b9046724bb6fd7400e8b5c33d188deca
   - id: novotny-2009-policy
     path: records/sources/novotny-2009-policy.yaml
-    sha256: b58183f0c41512e19294d9e2362d87899ac3f9b3687d2cc610da5994458a2202
+    sha256: 1fdddbbd101e475bef69c7d88c30add982afde5003700d19d215c93c1e48776c
   - id: pah
     path: records/terms/pah.yaml
     sha256: 0dac93b0e3d5629bad5c7947a200af572d244648cf9f91bb9248e85600f36d36
@@ -414,7 +414,7 @@ records:
     sha256: 53ff3bd4caa6aef256e5573beaf23496ed506cfd7d60e3a244e8f4f2564377fe
   - id: rahman-2020-bitumen
     path: records/sources/rahman-2020-bitumen.yaml
-    sha256: 9f7b463b50ad69b646cbf3144c942ea9db7a652244eaf308a72453aca82757c5
+    sha256: e45f3cf2a52385c543bc4dc33475719739271346a000ebadb999f59a2c7479ad
   - id: rahman-2020-bitumen-finding
     path: records/claims/rahman-2020-bitumen-finding.yaml
     sha256: f38bb648f4e4d884b7ea92a6d5ac56e6cffda586451241991fd4473723370714
@@ -563,4 +563,10 @@ pages:
   - id: start-here
     path: pages/start-here.md
     sha256: 29dca35728277126dd49f14e4d15e75874af5e92e882b82b2cb1b9c2057dabe6
-assets: []
+assets:
+  - id: novotny-2009-policy-pdf
+    path: assets/novotny-2009-policy.pdf
+    sha256: beb08cde1a1c1a12dc4840f7995b308343236c3235c676adb34a381cad784fc2
+  - id: rahman-2020-bitumen-pdf
+    path: assets/rahman-2020-bitumen.pdf
+    sha256: 79ae28a06e27a5304fa366b58ee21230fb4d8edad25df928eba93ed96281081e

@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getBundle, recordsOfKind } from "../../lib/bundle";
+import { sourcePdf } from "../../lib/source-pdf.ts";
 import type { SourceRecord } from "../../lib/types";
 
 const bundle = getBundle();
@@ -17,7 +18,7 @@ const sections = groups.map((group) => ({ ...group, sources: sources.filter((sou
 <BaseLayout title="Sources" description="Browse studies, patents, company disclosures and supporting research." eyebrow="Reference library">
   <h1>Sources</h1>
   <p class="page__lede">{sources.length} public references, from laboratory studies and patent disclosures to company descriptions, exposure research and life-cycle models. These are selected references, not the whole working library.</p>
-  <p class="source-intro">Open a title for its citation and linked findings, or go straight to the original document. For how those sources inform the research, see the <a href="/methods/examples/">worked method examples</a>.</p>
+  <p class="source-intro">Open a title for its citation and linked findings, or go straight to the original. Sources marked “PDF available” have a copy you can read or download here. For how those sources inform the research, see the <a href="/methods/examples/">worked method examples</a>.</p>
   <div class="source-filter" id="source-filter-controls" hidden>
     <label for="source-filter">Filter the source catalogue</label>
     <div class="source-filter__row">
@@ -39,7 +40,7 @@ const sections = groups.map((group) => ({ ...group, sources: sources.filter((sou
           <li class="source-card">
             <h3><a href={`/sources/${source.id}/`}>{source.title}</a></h3>
             <p class="small">{source.publisherOrIssuer} · {source.versionOrDate}</p>
-            <p class="source-card__meta">{source.claimIds.length > 0 ? "Linked findings" : "Supporting reference"} · <a href={source.originalUrl} rel="noreferrer noopener" aria-label={`Open the original: ${source.title}`}>Original ↗</a></p>
+            <p class="source-card__meta">{source.claimIds.length > 0 ? "Linked findings" : "Supporting reference"} · {sourcePdf(source) && <>PDF available · </>}<a href={source.originalUrl} rel="noreferrer noopener" aria-label={`Open the original: ${source.title}`}>Original ↗</a></p>
           </li>
         ))}
       </ul>

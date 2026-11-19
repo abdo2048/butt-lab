@@ -75,6 +75,8 @@ const blocks = parsed.sections.map((section) => {
   };
 });
 
+const summary = blocks.find((block) => block.slug === "in-one-minute");
+const detailBlocks = blocks.filter((block) => block !== summary);
 const disclaimer = blocks.map((block) => block.disclaimer).find((value) => value !== undefined);
 const jumpLabels = new Map([
   ["The steps", "Process"],
@@ -95,47 +97,59 @@ const jumps = blocks.flatMap(({ heading, slug }) => {
   eyebrow="Method family"
 >
   <h1>{parsed.title}</h1>
-  <div class="prose" set:html={renderMarkdown(parsed.preamble, { terms: glossaryTerms })} />
-  <nav aria-label="On this method page" class="source-jumps">
-    <ul>{jumps.map(({ label, slug }) => <li><a href={`#${slug}`}>{label}</a></li>)}</ul>
-  </nav>
+  {parsed.preamble.trim() && <div class="prose" set:html={renderMarkdown(parsed.preamble, { terms: glossaryTerms })} />}
+  {summary && (
+    <section class="method-overview" aria-labelledby={summary.slug}>
+      <h2 id={summary.slug}>In one minute</h2>
+      <div class="prose" set:html={summary.html} />
+    </section>
+  )}
+  <div class="method-reading">
+    <aside class="method-reading__aside">
+      <nav aria-label="On this method page" class="source-jumps method-jumps">
+        <p class="eyebrow">On this page</p>
+        <ul>{jumps.map(({ label, slug }) => <li><a href={`#${slug}`}>{label}</a></li>)}</ul>
+      </nav>
+    </aside>
+    <div class="method-reading__content">
+      {
+        detailBlocks.map((block) => (
+          <section class="section" aria-labelledby={block.slug}>
+            <div class="section__heading">
+              <h2 id={block.slug}>{block.heading}</h2>
+            </div>
+            {block.kind === "prose" && <div class="prose" set:html={block.html} />}
+            {block.kind === "scorecard" && (
+              <>
+                <div class="prose" set:html={block.html} />
+                <details class="drawer">
+                  <summary>Show criterion-by-criterion assessment</summary>
+                  <div class="drawer__body"><MethodScorecard assessments={assessments} claims={claims} /></div>
+                </details>
+              </>
+            )}
+            {block.kind === "sources" && <SourceCards sources={sources} />}
+            {block.kind === "audit" && (
+              <AuditDrawer
+                recordId={family.id}
+                aliases={family.auditAliases}
+                references={family.auditReferences}
+                schemaVersion={family.schemaVersion}
+                publicationState={family.publicationState}
+                reviewer={reviewer}
+                reviewDate={reviewDate}
+              />
+            )}
+          </section>
+        ))
+      }
 
-  {
-    blocks.map((block) => (
-      <section class="section" aria-labelledby={block.slug}>
-        <div class="section__heading">
-          <h2 id={block.slug}>{block.heading}</h2>
-        </div>
-        {block.kind === "prose" && <div class="prose" set:html={block.html} />}
-        {block.kind === "scorecard" && (
-          <>
-            <div class="prose" set:html={block.html} />
-            <details class="drawer">
-              <summary>Show criterion-by-criterion assessment</summary>
-              <div class="drawer__body"><MethodScorecard assessments={assessments} claims={claims} /></div>
-            </details>
-          </>
-        )}
-        {block.kind === "sources" && <SourceCards sources={sources} />}
-        {block.kind === "audit" && (
-          <AuditDrawer
-            recordId={family.id}
-            aliases={family.auditAliases}
-            references={family.auditReferences}
-            schemaVersion={family.schemaVersion}
-            publicationState={family.publicationState}
-            reviewer={reviewer}
-            reviewDate={reviewDate}
-          />
-        )}
-      </section>
-    ))
-  }
+      {disclaimer && <p class="disclaimer">{disclaimer}</p>}
 
-  {disclaimer && <p class="disclaimer">{disclaimer}</p>}
-
-  <details class="drawer">
-    <summary>Show linked records</summary>
-    <div class="drawer__body"><RelatedPanel bundle={bundle} id={family.id} /></div>
-  </details>
+      <details class="drawer">
+        <summary>Show linked records</summary>
+        <div class="drawer__body"><RelatedPanel bundle={bundle} id={family.id} /></div>
+      </details>
+    </div>
+  </div>
 </BaseLayout>

@@ -24,10 +24,14 @@
  * The audit refuses on blocking findings. It reports review findings for a
  * human to judge. It never approves anything.
  */
+import { createHash } from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
+import { gunzipSync } from "node:zlib";
+import cbor from "cbor";
 import { JSDOM } from "jsdom";
+import { MAX_STATIC_PDF_BYTES, sourcePdf } from "../src/lib/source-pdf.ts";
 
 export type Severity = "blocking" | "review";
 
@@ -124,10 +128,7 @@ const BINARY_EXTENSIONS = new Set([
 
 const REPOSITORY_PATH_PATTERNS: ReadonlyArray<{ pattern: RegExp; label: string }> = [
   {
-    // A real leaked path always has a path character after the separator
-    // ("C:\Users" or "C:/Users"). Requiring one keeps the compressed bytes of
-    // a Pagefind fragment - which can contain a coincidental "a:/" - from
-    // reading as a leak.
+    // Require a path character after the drive and separator.
     pattern: /(^|[^A-Za-z0-9])([A-Za-z]):[\\/](?!\/)[A-Za-z0-9_.~-]/,
     label: "an absolute Windows path",
   },
@@ -156,6 +157,51 @@ const CREDENTIAL_PATTERNS: ReadonlyArray<{ pattern: RegExp; label: string }> = [
   },
 ];
 
+// Pagefind publishes gzip-wrapped JSON fragments, CBOR index/metadata and a WASM
+// runtime. Scan the actual strings, not compressed bytes or CBOR integers.
+const PAGEFIND_FORMATS = new Set([".pf_fragment", ".pf_index", ".pf_meta", ".pf_filter", ".pf_sort", ".pagefind"]);
+const PAGEFIND_HEADER = Buffer.from("pagefind_dcd");
+const WASM_HEADER = Buffer.from([0, 97, 115, 109]);
+
+function* textFields(value: unknown): Generator<string> {
+  if (typeof value === "string") {
+    yield value;
+  } else if (Array.isArray(value)) {
+    for (const entry of value) yield* textFields(entry);
+  } else if (value instanceof Map) {
+    for (const [key, entry] of value.entries()) {
+      yield* textFields(key);
+      yield* textFields(entry);
+    }
+  } else if (isRecord(value) && !ArrayBuffer.isView(value)) {
+    for (const [key, entry] of Object.entries(value)) {
+      yield key;
+      yield* textFields(entry);
+    }
+  }
+}
+
+function builtText(file: string): string {
+  const extension = path.extname(file).toLowerCase();
+  const bytes = fs.readFileSync(file);
+  if (!PAGEFIND_FORMATS.has(extension)) return bytes.toString("utf8");
+
+  const raw = gunzipSync(bytes, { maxOutputLength: 64 * 1024 * 1024 });
+  if (!raw.subarray(0, PAGEFIND_HEADER.length).equals(PAGEFIND_HEADER)) {
+    throw new Error("Invalid Pagefind header");
+  }
+  const payload = raw.subarray(PAGEFIND_HEADER.length);
+  if (extension === ".pagefind") {
+    if (!payload.subarray(0, WASM_HEADER.length).equals(WASM_HEADER)) throw new Error("Invalid Pagefind runtime");
+    return "";
+  }
+  const decoded: unknown = extension === ".pf_fragment"
+    ? JSON.parse(payload.toString("utf8"))
+    : cbor.decodeAllSync(payload);
+  // Separate fields so patterns don't match paths or credentials assembled from unrelated fields.
+  return [...textFields(decoded)].join("\n\0\n");
+}
+
 /**
  * Scan built output for anything that exposes internal working state or a
  * secret. Binary files are skipped: a font is not text and a byte sequence
@@ -167,9 +213,19 @@ export function scanBuiltOutput(root: string): Finding[] {
     if (BINARY_EXTENSIONS.has(path.extname(file).toLowerCase())) {
       continue;
     }
-    const bytes = fs.readFileSync(file);
-    const text = bytes.toString("utf8");
     const where = relative(root, file);
+    let text: string;
+    try {
+      text = builtText(file);
+    } catch {
+      findings.push({
+        code: "UNREADABLE_BUILT_OUTPUT",
+        severity: "blocking",
+        file: where,
+        message: "the built output could not be read for the exposure audit",
+      });
+      continue;
+    }
 
     for (const { pattern, label } of REPOSITORY_PATH_PATTERNS) {
       const match = pattern.exec(text);
@@ -243,6 +299,40 @@ export function auditRights(records: BundleRecordLike[]): Finding[] {
       });
     }
   }
+  return findings;
+}
+
+/** Reject stray PDFs, missing copies and changed bytes in the actual site output. */
+export function auditPublicPdfs(root: string, records: BundleRecordLike[]): Finding[] {
+  const findings: Finding[] = [];
+  const expected = new Map<string, string>();
+  const block = (file: string, message: string) => findings.push({
+    code: "PUBLIC_PDF_INVALID", severity: "blocking", file, message,
+  });
+  for (const record of records) {
+    if (record.kind !== "source" || !isRecord(record.localArtifact)) continue;
+    const local = record.localArtifact.path;
+    if (typeof local !== "string" || !local.toLowerCase().endsWith(".pdf")) continue;
+    const pdf = sourcePdf(record);
+    if (pdf) expected.set(pdf.url.slice(1), pdf.sha256);
+    else block(record.id, "The public PDF source has no matching copy rights, license, path or checksum.");
+  }
+  for (const file of walkFiles(root)) {
+    if (path.extname(file).toLowerCase() !== ".pdf") continue;
+    const relativePath = relative(root, file);
+    const hash = expected.get(relativePath);
+    if (!hash) {
+      block(relativePath, "The PDF is not an allowlisted source copy.");
+      continue;
+    }
+    expected.delete(relativePath);
+    const bytes = fs.readFileSync(file);
+    if (
+      bytes.length > MAX_STATIC_PDF_BYTES || bytes.toString("ascii", 0, 5) !== "%PDF-" ||
+      createHash("sha256").update(bytes).digest("hex") !== hash
+    ) block(relativePath, "The PDF is not the recorded original or exceeds the static asset limit.");
+  }
+  for (const file of expected.keys()) block(file, "The allowlisted PDF is missing from the built site.");
   return findings;
 }
 
@@ -834,6 +924,7 @@ export function runReleaseAudit(options: {
   const findings = [
     ...scanBuiltOutput(options.distRoot),
     ...auditRights(options.records),
+    ...auditPublicPdfs(options.distRoot, options.records),
     ...auditScientific(options.records),
     ...auditDeclarations(options.records),
     ...auditAccessibility(options),

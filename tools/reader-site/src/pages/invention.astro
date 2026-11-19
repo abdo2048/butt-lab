@@ -23,11 +23,18 @@ const sourceInputs = (ids: string[]) =>
     .filter((record): record is SourceRecord => record?.kind === "source");
 ---
 
-<BaseLayout title="AI proposals" description="A candidate cigarette-butt recycling route, assumptions, a sensitivity calculation and earlier proposals." eyebrow="Ideas to test">
-  <h1>AI proposals for recycling cigarette butts</h1>
-  <p class="page__lede">These are unvalidated hypotheses, not recipes or claims of novelty. Butt Lab has not run an experiment. A qualified team can use the assumptions and failure criteria to decide whether a comparison is worth making.</p>
+<BaseLayout title="AI proposals" description="A candidate cigarette-butt recycling route, assumptions, a sensitivity calculation and earlier proposals.">
+  <header class="proposal-reading">
+    <p class="eyebrow page__eyebrow">Ideas to test</p>
+    <h1>AI proposals for recycling cigarette butts</h1>
+    <p class="page__lede">These are unvalidated hypotheses, not recipes or claims of novelty. Butt Lab has not run an experiment. Each proposal explains its assumptions and what would make a qualified team revise or reject it.</p>
+    <nav class="page-actions" aria-label="Explore the proposals">
+      <a class="action action--primary" href={`#${candidate.id}`}>Read the proposal</a>
+      <a class="action action--quiet" href="#scenario">See the calculation</a>
+    </nav>
+  </header>
 
-  <section class="section prose" aria-labelledby={candidate.id}>
+  <section class="section proposal-reading proposal-feature" aria-labelledby={candidate.id}>
     <span class="chip chip--ai">AI hypothesis · Unvalidated</span>
     <h2 id={candidate.id}>{candidate.title}</h2>
     <p>{candidate.priorContext}</p>
@@ -42,21 +49,22 @@ const sourceInputs = (ids: string[]) =>
   </section>
 
   <section class="section" aria-labelledby="scenario">
-    <h2 id="scenario">Scenario calculation: when does early separation help?</h2>
-    <div class="prose">
+    <div class="proposal-reading prose">
+      <h2 id="scenario">When might early separation help?</h2>
+      <p class="eyebrow">Illustrative calculation · not measured</p>
       <p>Below is a bookkeeping exercise for one hypothetical contaminant, not a prediction or a safe operating target. Start with one unit of contaminant and one unit of recoverable filter mass. Let <var>L</var> be the fraction of the contaminant that reaches the wash, <var>W</var> the fraction of that load transferred into wash waste, and <var>R</var> the fraction of filter mass recovered at the end.</p>
       <p>The simplified model assigns <strong>1 − L</strong> to early rejects, <strong>L × W</strong> to wash waste, and <strong>L × (1 − W)</strong> to recovered material. Divide the last term by <strong>R</strong> to compare the burden per unit of recovered filter. For illustration, <var>W</var> is 50% in every row. The model has no air losses or measurement uncertainty; real work must account for both.</p>
     </div>
-    <div class="table-scroll" tabindex="0" role="region" aria-label="Illustrative wash comparison">
+    <div class="table-scroll proposal-table" tabindex="0" role="region" aria-label="Illustrative wash comparison">
       <table class="table">
         <thead><tr><th scope="col">Assumed case</th><th scope="col">Filter recovered</th><th scope="col">Load in rejects</th><th scope="col">Load in wash waste</th><th scope="col">Load retained</th><th scope="col">Load per unit recovered filter</th></tr></thead>
         <tbody>{scenarios.map((row) => <tr><th scope="row">{row.label}</th><td>{percent(row.filterRecovery)}</td><td>{percent(row.earlyReject)}</td><td>{percent(row.washWaste)}</td><td>{percent(row.retainedLoad)}</td><td>{row.loadPerRecoveredFilter?.toFixed(3) ?? "Undefined"}</td></tr>)}</tbody>
       </table>
     </div>
-    <p class="page__lede">Notice the last row: the wash carries less of the contaminant, yet the recovered filter carries more per unit of mass. That is why both the contaminant split and filter recovery need measuring. In an actual study, uncharacterised cadmium, lead, arsenic or mercury stays a stop condition even if the total mass balances.</p>
+    <p class="proposal-reading callout callout--neutral">Notice the last row: the wash carries less of the contaminant, yet the recovered filter carries more per unit of mass. That is why both the contaminant split and filter recovery need measuring. In an actual study, uncharacterised cadmium, lead, arsenic or mercury stays a stop condition even if the total mass balances.</p>
   </section>
 
-  <details class="drawer section">
+  <details class="drawer proposal-reading earlier-proposals">
     <summary>Earlier AI proposals and evidence-gap notes</summary>
     <div class="drawer__body">
     {
@@ -64,7 +72,6 @@ const sourceInputs = (ids: string[]) =>
       <article class="section" id={hypothesis.id}>
         <div class="section__heading">
           <h2>{hypothesis.title}</h2>
-          <span class="record-id">{hypothesis.id}</span>
         </div>
 
         <p class="page__lede">{hypothesis.visibleLabel}</p>

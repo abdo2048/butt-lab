@@ -37,3 +37,5 @@ To test the extractor: `python -m unittest discover -s tests -p test_prepare_lib
 ## This pass
 
 The full corpus run found 55 PDF paths and produced 51 unique reading copies with no failed files. Across 1,773 pages, 1,564 retained embedded text, 138 used offline OCR, 26 had short text, and 45 yielded no text. The no-text pages have images for inspection; they should not be assumed blank. The run wrote 2,122 page views and crops. Original PDFs and earlier conversions were not modified.
+
+To browse and download the original (not extracted) PDFs locally, or stage a rights-reviewed subset for a private hosted reviewer library, see [Reviewer PDF access](REVIEWER-LIBRARY.md). The original 55 paths remain in place.

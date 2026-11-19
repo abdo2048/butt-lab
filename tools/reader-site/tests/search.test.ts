@@ -81,5 +81,5 @@ test("searchStatusText reports that nothing matched", () => {
 });
 
 test("searchStatusText reports the number of matching pages", () => {
-  assert.equal(searchStatusText("aluminium", 3), "3 page(s) match “aluminium”.");
+  assert.equal(searchStatusText("aluminium", 3), "3 pages match “aluminium”.");
 });

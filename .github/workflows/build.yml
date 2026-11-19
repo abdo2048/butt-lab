@@ -37,6 +37,11 @@ jobs:
         working-directory: tools/reader-site
         run: npm ci
 
+      - name: Test the separate reviewer library
+        run: |
+          node --test tools/reviewer-gateway/worker.test.mjs
+          python3 -m unittest discover -s tests -p 'test*reviewer*.py'
+
       - name: Validate the publication layer
         working-directory: tools/publication-contract
         run: npm run validate

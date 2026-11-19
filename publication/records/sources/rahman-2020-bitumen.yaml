@@ -10,7 +10,13 @@ publisherOrIssuer: Rahman, Mohajerani & Giustozzi · Materials
 versionOrDate: 2020, 13:734
 originalUrl: https://doi.org/10.3390/ma13030734
 accessDate: 2026-11-19
-rights: link-only
+rights: public-local-copy
+localArtifact:
+  path: assets/rahman-2020-bitumen.pdf
+  sha256: 79ae28a06e27a5304fa366b58ee21230fb4d8edad25df928eba93ed96281081e
+redistributionLicense:
+  name: CC BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
 derivatives: []
 claimIds:
   - rahman-2020-bitumen-finding

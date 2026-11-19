@@ -1207,6 +1207,14 @@ function validateRecordSemantics(
 
   if (record.kind === "source") {
     const localArtifact = record.localArtifact;
+    if (record.redistributionLicense && !localArtifact) {
+      diagnostics.push(errorDiagnostic(
+        "SOURCE_LOCAL_COPY_RIGHTS_INVALID",
+        `Source ${record.id} states a copy license without identifying the local artifact.`,
+        record.id,
+        path,
+      ));
+    }
     if (localArtifact !== undefined) {
       if (record.rights !== "public-local-copy") {
         diagnostics.push(
