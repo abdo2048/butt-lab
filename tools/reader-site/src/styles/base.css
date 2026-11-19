@@ -309,19 +309,6 @@ hr {
   padding-block: 2rem 3rem;
 }
 
-/* Keep left/right balance consistent across the site. The eyebrow/record-id
- * sits in the margin column and the body starts under it. Without a top
- * align the first heading, the margin column looks detached on narrow screens. */
-.sheet__margin {
-  align-self: start;
-}
-@media (max-width: 59.999rem) {
-  .sheet__margin {
-    gap: 0.4rem 0.75rem;
-    padding-bottom: 0.75rem;
-  }
-}
-
 .page__lede {
   font-size: var(--step-0);
   line-height: 1.55;
@@ -405,54 +392,6 @@ hr {
   overflow-x: auto;
   max-inline-size: 100%;
   scrollbar-color: var(--rule-strong) var(--paper-sunken);
-}
-
-/* The margin column carries the eyebrow and the record id on wide screens.
- * The whole sheet is one raised panel: without a surface of its own the
- * sticky margin column is a strip of text floating over the body background,
- * and on pages where it holds only a single label (the home page) it reads as
- * an abandoned leftover rather than a sidebar. The panel gives both columns
- * one surface and the rule between them something to sit on. */
-.sheet {
-  display: grid;
-  gap: 0 2.5rem;
-  background: var(--paper-raised);
-  border: 1px solid var(--rule);
-  border-radius: var(--radius);
-}
-
-.sheet__margin {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.25rem 1rem;
-  align-items: baseline;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--rule);
-}
-
-.sheet__body {
-  min-width: 0;
-}
-
-@media (min-width: 60rem) {
-  .sheet {
-    grid-template-columns: 13rem minmax(0, 1fr);
-  }
-
-  .sheet__margin {
-    display: block;
-    position: sticky;
-    top: 1.5rem;
-    align-self: start;
-    border-bottom: 0;
-    border-inline-end: 1px solid var(--rule);
-    padding: 0.5rem 1.25rem 0.5rem 0;
-  }
-
-  .sheet__margin .record-id {
-    display: block;
-    margin-top: 0.35rem;
-  }
 }
 
 /* ------------------------------------------------------------- chips */
@@ -1367,15 +1306,6 @@ hr {
   }
 }
 
-.callout--reference {
-  border-inline-start-color: var(--teal);
-  background: var(--teal-soft);
-}
-
-.callout--reference .callout__label {
-  color: var(--teal);
-}
-
 .compare-controls .control {
   min-inline-size: 0;
   max-inline-size: 100%;
@@ -1387,4 +1317,57 @@ hr {
 
 .site-header__inner > .search__results {
   flex-basis: 100%;
+}
+
+.page__eyebrow {
+  margin-block-end: 0.65rem;
+}
+
+.source-intro,
+.source-filter {
+  max-width: var(--measure);
+}
+
+.source-filter {
+  padding: 1rem;
+  margin-block: 1.5rem 1rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: var(--paper-raised);
+}
+
+.source-filter label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-family: var(--font-display);
+  font-weight: 600;
+}
+
+.source-filter__row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.source-filter input,
+.source-filter button {
+  font: inherit;
+  min-height: 2.65rem;
+  padding: 0.35rem 0.6rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius);
+}
+
+.source-filter input {
+  flex: 1;
+  min-inline-size: 0;
+  background: var(--paper);
+}
+
+.source-filter button {
+  background: var(--paper-raised);
+  cursor: pointer;
+}
+
+.source-filter [role="status"] {
+  margin: 0.5rem 0 0;
 }

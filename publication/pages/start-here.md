@@ -26,6 +26,6 @@ These labels describe findings and ideas. A bibliography or glossary entry is ma
 
 Follow the recovered material, solid rejects, liquids and air emissions. Ask where each contaminant went, how it was measured, and whether each output has an appropriate destination. Cadmium, lead, arsenic and mercury cannot be averaged away: an uncharacterised stream remains unresolved. Product performance and suitability for a specific use need separate evidence, even when all the incoming mass has been accounted for.
 
-See [how the research was done](/research-method/) to propose a correction, or use the [research playbook](/research-playbook/) for a different waste material.
+See [how the research was done](/research-method/) to propose a correction.
 
 This site does not authorise any experiment.

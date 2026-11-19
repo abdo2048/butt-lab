@@ -5,7 +5,8 @@
 ## Start here
 
 - [Current status and next steps](state/workflow.yaml)
-- [Repository, branch and evidence review](docs/READER-REFRESH.md)
+- [Repository map, branches and remaining work](docs/REPOSITORY-MAP.md)
+- [Prepare the local PDF reading library](docs/LOCAL-LIBRARY.md)
 - [Working-library coverage](docs/LIBRARY-REVIEW.md)
 - [Deployment](docs/DEPLOY.md)
 
@@ -33,6 +34,6 @@ The preview includes the actual Pagefind index. To check a change before release
 | Public source records, claims or narrative | [`tools/publication-contract/layer-data/`](tools/publication-contract/layer-data/), then regenerate [`publication/`](publication/) |
 | Reader layout, navigation or search | [`tools/reader-site/`](tools/reader-site/) |
 | Underlying documents and past research | [`materials/`](materials/), [`registry/`](registry/), [`reports/`](reports/) and [`inventions/`](inventions/) |
-| A new material | [Research playbook](tools/publication-contract/layer-data/pages/research-playbook.md) |
+| Operator workflow and generated reading copies | `.research-local/` (local, Git-ignored; never part of the reader) |
 
 Historical workflows, panel logs and plans are provenance, not prerequisites for a new desk-research pass. A useful pass needs a narrow question, traceable sources, clearly labelled assumptions, and a decision about what evidence to look for next.

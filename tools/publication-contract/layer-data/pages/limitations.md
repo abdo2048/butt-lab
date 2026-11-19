@@ -63,7 +63,7 @@ Until those exist, the site remains a map of reported routes, independent resear
 
 ## Audit trail
 
-- Publication version: `reader-evidence-2026-11`
+- Publication version: `reader-evidence-2026-11-r2`
 - Content contract version: `1.0.0`
 - Gap agenda: the numbered measurement, regulatory and scale agenda carried forward from the accepted desk record.
 - Machine-readable manifest: every published record and page, with a content hash for each.

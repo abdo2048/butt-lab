@@ -11,10 +11,12 @@ production:
 
 current_unit:
   branch: arena/2dc0ddeb-butt-lab
-  publication_version: reader-evidence-2026-11
-  scope: Plain-language reader, library coverage, worked method examples, AI candidate, and reusable research guide.
+  publication_version: reader-evidence-2026-11-r2
+  scope: Plain-language reader, library coverage, worked method examples, AI candidate, source filtering, and separation of local reading/workflow files from the reader.
   provenance: docs/READER-REFRESH.md
   library_review: docs/LIBRARY-REVIEW.md
+  repository_map: docs/REPOSITORY-MAP.md
+  extraction_guide: docs/LOCAL-LIBRARY.md
   source_data: tools/publication-contract/layer-data/
 
 next_action: >-

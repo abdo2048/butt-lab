@@ -76,6 +76,17 @@ const blocks = parsed.sections.map((section) => {
 });
 
 const disclaimer = blocks.map((block) => block.disclaimer).find((value) => value !== undefined);
+const jumpLabels = new Map([
+  ["The steps", "Process"],
+  ["Where the material and the contamination go", "Material & waste"],
+  ["How the evidence compares", "Evidence"],
+  ["What is missing, and what is still unknown", "Open questions"],
+  ["Sources", "Sources"],
+]);
+const jumps = blocks.flatMap(({ heading, slug }) => {
+  const label = jumpLabels.get(heading);
+  return label ? [{ label, slug }] : [];
+});
 ---
 
 <BaseLayout
@@ -85,6 +96,9 @@ const disclaimer = blocks.map((block) => block.disclaimer).find((value) => value
 >
   <h1>{parsed.title}</h1>
   <div class="prose" set:html={renderMarkdown(parsed.preamble, { terms: glossaryTerms })} />
+  <nav aria-label="On this method page" class="source-jumps">
+    <ul>{jumps.map(({ label, slug }) => <li><a href={`#${slug}`}>{label}</a></li>)}</ul>
+  </nav>
 
   {
     blocks.map((block) => (
@@ -96,7 +110,10 @@ const disclaimer = blocks.map((block) => block.disclaimer).find((value) => value
         {block.kind === "scorecard" && (
           <>
             <div class="prose" set:html={block.html} />
-            <MethodScorecard assessments={assessments} claims={claims} />
+            <details class="drawer">
+              <summary>Show criterion-by-criterion assessment</summary>
+              <div class="drawer__body"><MethodScorecard assessments={assessments} claims={claims} /></div>
+            </details>
           </>
         )}
         {block.kind === "sources" && <SourceCards sources={sources} />}
@@ -117,5 +134,8 @@ const disclaimer = blocks.map((block) => block.disclaimer).find((value) => value
 
   {disclaimer && <p class="disclaimer">{disclaimer}</p>}
 
-  <RelatedPanel bundle={bundle} id={family.id} />
+  <details class="drawer">
+    <summary>Show linked records</summary>
+    <div class="drawer__body"><RelatedPanel bundle={bundle} id={family.id} /></div>
+  </details>
 </BaseLayout>

@@ -19,3 +19,6 @@ publication/export-*/
 
 # Root has no package.json — a root package-lock.json is a stray artifact, not the real lockfile
 /package-lock.json
+
+# Local workflow notes and reproducible PDF reading copies (never publish)
+/.research-local/

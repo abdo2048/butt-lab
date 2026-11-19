@@ -62,7 +62,6 @@ const staticRoutes = [
   { route: "/egypt/", file: ["egypt", "index.html"], contains: "Egypt" },
   { route: "/research-method/", file: ["research-method", "index.html"], contains: "research" },
   { route: "/methods/examples/", file: ["methods", "examples", "index.html"], contains: "From sources to recycling methods" },
-  { route: "/research-playbook/", file: ["research-playbook", "index.html"], contains: "repeatable guide" },
   { route: "/limitations/", file: ["limitations", "index.html"], contains: "limitations" },
 ];
 
@@ -321,5 +320,14 @@ test("published pages link to existing internal routes and anchors", () => {
       assert.ok(target, `${route} links to missing page ${href}`);
       if (url.hash) assert.ok(target.ids.has(decodeURIComponent(url.hash.slice(1))), `${route} links to missing anchor ${href}`);
     }
+  }
+});
+
+
+test("the private workflow is absent from the staged bundle and built reader", () => {
+  assert.ok(!fs.existsSync(path.join(dist, "research-playbook")));
+  assert.ok(!fs.existsSync(path.join(bundleDir, "pages", "research-playbook.md")));
+  for (const file of walk(dist).filter((entry) => entry.endsWith(".html"))) {
+    assert.doesNotMatch(fs.readFileSync(file, "utf8"), /research-playbook|\.research-local|A repeatable guide for researching any waste material/i);
   }
 });

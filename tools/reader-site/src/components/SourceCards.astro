@@ -13,11 +13,9 @@ const { sources } = Astro.props;
   {
     sources.map((source) => (
       <li class="source-card">
-        <h4 class="source-card__title">
-          <a href={source.originalUrl} rel="noopener noreferrer">
-            {source.title}
-          </a>
-        </h4>
+        <h3 class="source-card__title">
+          <a href={`/sources/${source.id}/`}>{source.title}</a>
+        </h3>
         <p class="small">{source.citation}</p>
         <p class="small mono source-card__meta">
           {source.sourceType} · {source.versionOrDate} · accessed {source.accessDate} ·{" "}
@@ -25,7 +23,7 @@ const { sources } = Astro.props;
         </p>
         <p class="small">
           <a href={source.originalUrl} rel="noopener noreferrer">
-            Open the source
+            Original document
           </a>
         </p>
       </li>

@@ -17,17 +17,22 @@ const sections = groups.map((group) => ({ ...group, sources: sources.filter((sou
 <BaseLayout title="Sources" description="Browse studies, patents, company disclosures and supporting research." eyebrow="Reference library">
   <h1>Sources</h1>
   <p class="page__lede">{sources.length} public references, from laboratory studies and patent disclosures to company descriptions, exposure research and life-cycle models. These are selected references, not the whole working library.</p>
-  <div class="callout callout--reference">
-    <p class="callout__label">What’s included</p>
-    <p>Follow a title to see the citation, its original link and any linked findings. Some entries are supporting reading, not evidence for a particular method. The site links to the documents rather than republishing them. For the evidence in context, see the <a href="/methods/examples/">worked method examples</a>.</p>
+  <p class="source-intro">Open a title for its citation and linked findings, or go straight to the original document. For how those sources inform the research, see the <a href="/methods/examples/">worked method examples</a>.</p>
+  <div class="source-filter" id="source-filter-controls" hidden>
+    <label for="source-filter">Filter the source catalogue</label>
+    <div class="source-filter__row">
+      <input type="search" id="source-filter" placeholder="Try Teixeira, a patent number, or asphalt" />
+      <button type="button" id="source-filter-reset">Clear</button>
+    </div>
+    <p id="source-filter-status" class="small muted" role="status"></p>
   </div>
   <nav aria-label="Source categories" class="source-jumps">
     <ul>
-      {sections.map((section) => <li><a href={`#${section.id}`}>{section.title} ({section.sources.length})</a></li>)}
+      {sections.map((section) => <li id={`jump-${section.id}`}><a href={`#${section.id}`}>{section.title} ({section.sources.length})</a></li>)}
     </ul>
   </nav>
   {sections.map((section) => (
-    <section class="section" aria-labelledby={section.id}>
+    <section class="section" aria-labelledby={section.id} data-source-group={section.id}>
       <div class="section__heading"><h2 id={section.id}>{section.title}</h2></div>
       <ul class="source-grid">
         {section.sources.map((source) => (
@@ -41,3 +46,8 @@ const sections = groups.map((group) => ({ ...group, sources: sources.filter((sou
     </section>
   ))}
 </BaseLayout>
+
+<script>
+  import { initSourceFilter } from "../../lib/source-filter";
+  initSourceFilter(document);
+</script>

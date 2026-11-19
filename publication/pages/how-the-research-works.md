@@ -17,6 +17,6 @@ The first desk pass looked for routes and their sources, reconstructed selected 
 
 Start with a specific claim on a method page and ask how it could be wrong. For recovery claims, track what leaves in the recovered material, rejects, liquid and air. Product performance needs separate evidence for a specified use. Do not infer safety from appearance, odour, material identity, or a balanced total mass. For cadmium, lead, arsenic and mercury, an uncharacterised stream stays unresolved; it does not get a product or disposal clearance from this project.
 
-If you have a correction, [open a public research note](https://github.com/abdo2048/butt-lab/issues/new) with the page, the exact claim, an original source with a page or section, and what you would change. Do not share private or identifiable data. For a lab result, include the feedstock, controls, uncertainty and where the materials went. See the [research playbook](/research-playbook/) for using the same approach with another material.
+If you have a correction, [open a public research note](https://github.com/abdo2048/butt-lab/issues/new) with the page, the exact claim, an original source with a page or section, and what you would change. Do not share private or identifiable data. For a lab result, include the feedstock, controls, uncertainty and where the materials went.
 
 This site does not authorise any experiment.

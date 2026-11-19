@@ -1,5 +1,5 @@
 schemaVersion: 1
-publicationVersion: reader-evidence-2026-11
+publicationVersion: reader-evidence-2026-11-r2
 records:
   - id: 3d-printing-filament
     path: records/sources/3d-printing-filament.yaml
@@ -538,10 +538,10 @@ pages:
     sha256: ef89c29db41a04e63677e5d8373f01278dba5fb0280244445cbd4749c2e83dde
   - id: how-the-research-works
     path: pages/how-the-research-works.md
-    sha256: 0bd1d25d4a75c408d49d371224b0e2c8e7596597850a35ce4e4e34397adcb36b
+    sha256: 5b10683406bbfcc97998a8bfe39c73f743f3e8d753d04c02f454a35a889b0be1
   - id: limitations
     path: pages/limitations.md
-    sha256: ade703a8cf5f0c2f0cba9c444136216cdb1819e98c4f162a9241906411c4814d
+    sha256: f3f6b80ccca8b0e1b08ef1361cb398d82c1e36c5d9d329e3f301859b0b09ccd1
   - id: method-biological
     path: pages/method-biological.md
     sha256: 640fb65c4bc7f5be0c9c21ce33171fcc49ed29ae5a6695b22a6d70a81730b733
@@ -560,10 +560,7 @@ pages:
   - id: method-thermal
     path: pages/method-thermal.md
     sha256: 7c85a0a14562b84d684b2694e404243ac6c726e1174a78ad9f749684c4d53c3d
-  - id: research-playbook
-    path: pages/research-playbook.md
-    sha256: 90dbb8224f03df214737c4f193fd87e92dec88d8b4a35ec193968dfe53f5fc0f
   - id: start-here
     path: pages/start-here.md
-    sha256: 0fa44f57badde06f88e645805968c448cd9968eba55ec89cf5ad086e53748332
+    sha256: 29dca35728277126dd49f14e4d15e75874af5e92e882b82b2cb1b9c2057dabe6
 assets: []

@@ -58,7 +58,6 @@ const NARRATIVE_PAGES: ReadonlyArray<{ id: string; route: string }> = [
   { id: "how-the-research-works", route: "/research-method/" },
   { id: "limitations", route: "/limitations/" },
   { id: "evidence-map", route: "/methods/examples/" },
-  { id: "research-playbook", route: "/research-playbook/" },
 ];
 
 type FamilyRecord = Extract<ContentRecord, { kind: "method-family" }>;

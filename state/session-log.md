@@ -324,3 +324,9 @@ Inspected both feature tips without changing branches; the reader work is alread
 Screened the 36-PDF working shelf, maintained a disposition list, added selected library and online sources, and corrected a duplicate/incorrect citation. Rebuilt the reader around method examples, a grouped bibliography, explicit evidence and assumption labels, and a featured comparative design with dimensionless scenario calculations. Published no raw third-party files. Added the reusable playbook and simplified the active orientation and release steps.
 
 The refreshed content passed publication validation and the release audit. The live site was not changed. The operator's next action is to approve and deploy the new exact artifact; the next evidence pass should use the library ledger to deepen one route comparison rather than re-run the old stages.
+
+## 2026-11-19 — Separate the operator workflow and prepare the local library
+
+Removed the research playbook from public routes, export, navigation and Pagefind. Kept a Git-ignored local copy. Documented branch/worktree relationships and ownership of original sources, reading copies, research records, the publication allowlist and the reader. Generated page-indexed Markdown and images locally: 55 input paths, 51 unique PDFs, 1,773 pages, 138 OCR pages, 45 no-text pages with images, and no failed files. Verified PDF/image links and page line locators against the generated inventory. This is preparation for research, not a full review of the source claims.
+
+Added method-page jump links, expandable evidence/audit details and catalogue filtering. Verified the playbook path returns 404 in the build and the public source count is unchanged. Tests and the release audit passed; production remains on its earlier version. Deep source checks and a final reader review remain open.

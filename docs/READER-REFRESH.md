@@ -4,7 +4,7 @@
 
 The project is a public research notebook: gather reported recycling approaches and the supporting science, show where each explanation is incomplete, and propose **testable alternatives**, not reconstructed secret recipes. A source says what was claimed or measured. An AI hypothesis explains what could be true and how to check it. A third party's result does not become a Butt Lab experiment.
 
-The reader now leads with the question, gives direct paths to the methods, sources and AI proposals, and shows the evidence in worked examples. The grouped bibliography differentiates references attached to claims from background. Keep the detailed records and archive, but do not require readers to learn the old project stages, IDs or review panels first. The reusable playbook is in the reader, not in the build controller.
+The reader now leads with the question, gives direct paths to the methods, sources and AI proposals, and shows the evidence in worked examples. The grouped bibliography differentiates references attached to claims from background. Keep the detailed records and archive, but do not require readers to learn the old project stages, IDs or review panels first. The reusable playbook is now kept in a Git-ignored local copy, separate from the reader. See the [repository map](REPOSITORY-MAP.md).
 
 ## Branches and historical CI
 

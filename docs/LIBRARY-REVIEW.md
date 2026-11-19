@@ -1,5 +1,7 @@
 # Working library coverage · 2026-11-19
 
+For the local page-indexed Markdown and images, see [PDF reading library](LOCAL-LIBRARY.md). Extraction does not change the evidence dispositions below.
+
 The directory `materials/gap-closing/library/` contains **36 PDFs and 12 Markdown extracts** on both the current branch and `feat/publication-content-contract`. In a local extraction pass, 32 PDFs had a readable text layer on at least some pages; four returned no usable embedded text and have Markdown OCR. Most of the PDFs do not need an online converter just to start reading. Check tables, formulas and figures against the original page before citing details; the date, name and publisher on the first page take precedence over a filename. The 59 extra PNGs on the publication branch are reading aids, not additional sources and not cleared website assets.
 
 The list below is a document-level screen, **not** a claim to have checked every page, datum or underlying citation. “Used” means the updated reader cites the document or ties it to a specific point. “Linked” means catalogued as further reading or prior art; it does not support a new numerical claim. “Hold” means retained for a specific later decision or outside the direct evidence scope. The public source count includes online references and earlier published entries as well as part of this library.

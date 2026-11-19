@@ -23,7 +23,7 @@ const publicationRoot = join(packageRoot, "..", "..", "publication");
 const dataRoot = join(packageRoot, "layer-data");
 
 const RUBRIC_VERSION = "1.0.0";
-const PUBLICATION_VERSION = "reader-evidence-2026-11";
+const PUBLICATION_VERSION = "reader-evidence-2026-11-r2";
 
 const HUMAN_WORK_LABELS = {
   "source-retrieval": "Finding and reading the missing source",

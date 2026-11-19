@@ -1,6 +1,6 @@
 # Research charter (2026-11-04; amended 2026-11-17)
 
-> Reader refresh (2026-11-19): Work in small evidence passes using the [research playbook](tools/publication-contract/layer-data/pages/research-playbook.md). The five roles and workflow gates below describe the original desk cycle; they are not mandatory for new work. Preserve the scientific safeguards. Write the public explanation for general readers first, with source and audit detail available to technical readers.
+> Reader refresh (2026-11-19): Work in small evidence passes using the operator’s internal playbook. The five roles and workflow gates below describe the original desk cycle; they are not mandatory for new work. Preserve the scientific safeguards. Write the public explanation for general readers first, with source and audit detail available to technical readers.
 
 Goal: investigate effective cigarette-butt cleaning/recycling, reconstruct evidence and develop falsifiable improvements for later qualified validation. Five roles: single logical Harvester; single Deep-dive; Red-team three workers + judge; Inventor three workers + judge; single Synthesizer. Replacements resume a role, not restart it. WORKFLOW.md defines gates.
 
