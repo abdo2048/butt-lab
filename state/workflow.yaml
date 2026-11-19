@@ -8,8 +8,8 @@
 # space unquoted. Use a folded block scalar (>-). This defect was introduced twice before.
 
 version: 3
-updated: '2026-11-18'
-status: reader_platform_release_prepared_awaiting_operator_deployment
+updated: '2026-11-19'
+status: reader_platform_design_reviewed
 
 execution: file-directed; host must trigger/resume; no scheduler installed
 
