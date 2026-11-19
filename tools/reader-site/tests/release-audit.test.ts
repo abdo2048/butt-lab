@@ -7,7 +7,10 @@
 //
 // These tests describe behaviour of `scripts/release-audit.ts`. The audit script
 // does not exist yet — this file is the RED.
+import { gzipSync } from "node:zlib";
+import cbor from "cbor";
 import assert from "node:assert/strict";
+import { createHash } from "node:crypto";
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
@@ -17,6 +20,7 @@ import {
   auditAccessibility,
   auditDeclarations,
   auditRights,
+  auditPublicPdfs,
   auditScientific,
   runReleaseAudit,
   scanBuiltOutput,
@@ -109,6 +113,30 @@ test("scanBuiltOutput passes clean reader-facing output", (t) => {
   write(dir, "index.html", "<main><h1>Butt Lab</h1><p>Read the evidence.</p></main>");
   const findings = scanBuiltOutput(dir);
   assert.deepEqual(findings, []);
+});
+
+test("scanBuiltOutput inspects decoded Pagefind fragment text for real leaks", (t) => {
+  const dir = tempDir(t);
+  write(dir, "pagefind/fragment/en_sample.pf_fragment", gzipSync("pagefind_dcd" + JSON.stringify({
+    content: "built at C:\\Users\\someone\\butt-lab; see state/session-log.md",
+  })));
+  assert.deepEqual(codes(scanBuiltOutput(dir)).sort(), ["REPOSITORY_PATH_LEAK", "REPOSITORY_PATH_LEAK", "SESSION_LOG_REFERENCE"]);
+});
+
+test("scanBuiltOutput scans Pagefind index strings but not arbitrary bytes", (t) => {
+  const dir = tempDir(t);
+  const index = "pagefind/index/en_sample.pf_index";
+  const header = Buffer.from("pagefind_dcd");
+  write(dir, index, gzipSync(Buffer.concat([header, cbor.encode([["reader", [21, 18, 1], Buffer.from(" J:/Y")]])])));
+  assert.deepEqual(scanBuiltOutput(dir), []);
+  write(dir, index, gzipSync(Buffer.concat([header, cbor.encode([["/home/user/local", [1]]])])));
+  assert.deepEqual(codes(scanBuiltOutput(dir)), ["REPOSITORY_PATH_LEAK"]);
+});
+
+test("scanBuiltOutput blocks an unreadable Pagefind file", (t) => {
+  const dir = tempDir(t);
+  write(dir, "pagefind/fragment/en_bad.pf_fragment", "not a search fragment");
+  assert.deepEqual(codes(scanBuiltOutput(dir)), ["UNREADABLE_BUILT_OUTPUT"]);
 });
 
 // --- rights -----------------------------------------------------------------
@@ -333,4 +361,24 @@ test("runReleaseAudit counts what it inspected", (t) => {
   assert.equal(report.counts.records, bundleRecords().length);
   assert.equal(report.counts.blocking + report.counts.review, report.findings.length);
   assert.equal(report.passed, report.counts.blocking === 0);
+});
+
+
+test("the release audit rejects unlisted, unlicensed, altered or missing PDFs", (t) => {
+  const dir = tempDir(t);
+  const payload = "%PDF-1.5\nexample test payload";
+  const evidence: BundleRecordLike = {
+    id: "example-paper", kind: "source", rights: "public-local-copy",
+    localArtifact: { path: "assets/example-paper.pdf", sha256: createHash("sha256").update(payload).digest("hex") },
+    redistributionLicense: { name: "CC BY 4.0", url: "https://creativecommons.org/licenses/by/4.0/" },
+  };
+  assert.deepEqual(codes(auditPublicPdfs(dir, [evidence])), ["PUBLIC_PDF_INVALID"], "missing PDF");
+  write(dir, "documents/example-paper.pdf", payload);
+  assert.deepEqual(auditPublicPdfs(dir, [evidence]), []);
+  assert.equal(auditPublicPdfs(dir, [{ ...evidence, redistributionLicense: undefined }]).length, 2);
+  assert.equal(auditPublicPdfs(dir, [{ ...evidence, rights: "link-only" }]).length, 2);
+  write(dir, "documents/example-paper.pdf", payload + "\nreplacement");
+  assert.equal(auditPublicPdfs(dir, [evidence]).length, 1);
+  write(dir, "unlisted.pdf", payload);
+  assert.equal(auditPublicPdfs(dir, [evidence]).length, 2);
 });

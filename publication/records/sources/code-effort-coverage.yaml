@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: code-effort-coverage
+title: Putting the focus on butt recovery
+publicationState: approved
+auditAliases: []
+kind: source
+citation: Putting the focus on butt recovery — Tobacco Asia, 2021 trade reporting.
+sourceType: web-page
+publisherOrIssuer: Tobacco Asia
+versionOrDate: 2021 trade reporting
+originalUrl: https://www.tobaccoasia.com/features/putting-the-focus-on-butt-recovery/
+accessDate: 2026-11-19
+rights: link-only
+derivatives: []
+claimIds:
+  - code-effort-coverage-finding
+methodIds:
+  - product-routes

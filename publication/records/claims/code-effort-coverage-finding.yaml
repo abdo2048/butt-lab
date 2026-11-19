@@ -1,0 +1,17 @@
+schemaVersion: 1
+id: code-effort-coverage-finding
+title: Trade reporting describes Code Effort’s different output streams
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: The article describes fibre for stuffing, a paper-derived product, and composting of separated tobacco. It describes chemical treatment broadly; this is not an independent verification of product quality or contaminant fate.
+evidenceState: source-supported
+methodIds:
+  - product-routes
+hypothesisIds: []
+sourceId: code-effort-coverage
+locator: Code Effort section
+counterevidenceClaimIds: []
+reviewer: AI source comparison; no independent review
+reviewDate: 2026-11-19

@@ -1,0 +1,17 @@
+schemaVersion: 1
+id: belzagui-2021-microfibres-finding
+title: Spent filters released microfibres in water tests
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: The authors reported detachment of fibres from smoked filters in water; the fibre-release work was on smoked filters under study conditions, not on a recycling plant wash stream.
+evidenceState: source-supported
+methodIds:
+  - mechanical-physical
+hypothesisIds: []
+sourceId: belzagui-2021-microfibres
+locator: §4, Conclusions
+counterevidenceClaimIds: []
+reviewer: AI source comparison; no independent review
+reviewDate: 2026-11-19

@@ -1,0 +1,39 @@
+schemaVersion: 1
+id: split-before-washing
+title: Separate the filter before washing
+publicationState: approved
+auditAliases: []
+kind: hypothesis
+contentKind: hypothesis
+visibleLabel: "AI hypothesis: separating the filter-rich fraction first may change where the contamination goes."
+sourceInputIds:
+  - mego-fr3066128a1
+  - defenzo-2020-materials
+  - belzagui-2021-microfibres
+  - teixeira-2017-pulp
+priorContext: Mechanical separation and staged washing are already described in the literature and patents. Fibre-release tests and pulping liquor data flag two potential losses that bulk recovered mass alone would miss. This candidate combines existing ideas for comparison, not as a claim of novelty.
+mechanism: Compare early separation followed by contained staged washing with washing without early separation. Account for the separated tobacco and paper, fibres or solids captured from the wash, dissolved wash residues, and the recovered filter material. Keep the recovered material on hold until independent intended-use evidence is available.
+assumptions:
+  - Some contamination may follow the rejected fraction rather than the recovered filter. The direction and size of that split are unknown for individual contaminants.
+  - Early separation may lose useful filter fibre. Comparing contaminant load per unit of recovered filter matters alongside total waste-stream loads.
+  - The two routes would be compared using comparable feed, the same measurement basis and a defined non-contact end use.
+unresolvedDependencies:
+  - Measured partition by contaminant, including cadmium, lead, arsenic and mercury.
+  - Fibre loss, occupational exposure, wash residues, treatment acceptance and independent end-use measurements.
+failureModes:
+  - The lower wash load comes at the expense of unmanageable solid rejects.
+  - Fibre losses or weak separation leave equal or greater contaminant load per unit of recovered filter.
+falsifiers:
+  - Comparable runs show no meaningful reduction in the wash load at an agreed fibre recovery, or show greater residual load per recovered fibre for the contaminant being evaluated.
+  - The mass balance cannot account for the lost contaminant, a metals stream remains uncharacterised, or an output lacks a documented receiving route.
+validationQuestionIds:
+  - mechanical-physical-gap-partition-or-removal
+  - product-routes-gap-no-gate-any-route
+evidenceState: derived-from-sourced-premises
+validationState: new-unvalidated-hypothesis
+reviewer: AI desk synthesis; no independent review
+recordVersion: 2026-11-19-v1
+auditReferences:
+  - label: Butt Lab — worked examples and their sources
+    url: https://butt-lab.am6.workers.dev/methods/examples/
+    version: 2026-11-19

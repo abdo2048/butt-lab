@@ -18,19 +18,6 @@
       "methodIds": ["mechanical-physical"]
     },
     {
-      "id": "academic-green-ethanol-wash",
-      "title": "Green extraction of cellulose acetate from spent cigarette filters",
-      "citation": "Green staged water and ethanol extraction of cellulose acetate from spent cigarette filters (PMC7659942).",
-      "sourceType": "paper",
-      "publisherOrIssuer": "Peer-reviewed literature, deposited at PubMed Central",
-      "versionOrDate": "PMC7659942",
-      "originalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7659942/",
-      "rights": "link-only",
-      "auditAliases": ["batch-01 green ethanol wash"],
-      "claimIds": ["mechanical-physical-mechanism-staged-wash"],
-      "methodIds": ["mechanical-physical"]
-    },
-    {
       "id": "defenzo-2020-materials",
       "title": "Clean process for obtaining high-quality cellulose acetate from cigarette butts",
       "citation": "De Fenzo, Giordano and Sansone, Clean Process for Obtaining High-Quality Cellulose Acetate from Cigarette Butts, Materials 13 (2020) 4710.",
@@ -38,10 +25,11 @@
       "publisherOrIssuer": "Materials (MDPI)",
       "versionOrDate": "2020, 13, 4710",
       "originalUrl": "https://doi.org/10.3390/ma13214710",
+      "accessDate": "2026-11-19",
       "rights": "link-only",
       "auditAliases": ["batch-01 De Fenzo 2020"],
-      "claimIds": ["chemical-mechanism-extraction-characterisation"],
-      "methodIds": ["chemical"]
+      "claimIds": ["mechanical-physical-mechanism-staged-wash", "chemical-mechanism-extraction-characterisation"],
+      "methodIds": ["mechanical-physical", "chemical"]
     },
     {
       "id": "keenat-dry-thermal",
@@ -172,7 +160,7 @@
       "explanation": "Cellulose acetate is the thermoplastic material in the filter of a finished cigarette. Recovering it intact is the goal of the solvent-based routes; the washing and incorporation routes keep it physically intact but chemically unchanged. Its properties after any recycling route are not established for the material collected from cigarette filters, because no located source characterises the recovered polymer on a comparable basis.",
       "methodIds": ["mechanical-physical", "thermal", "chemical", "biological", "material-incorporation", "product-routes"],
       "claimIds": ["chemical-mechanism-extraction-characterisation"],
-      "sourceIds": ["defenzo-2020-materials", "academic-green-ethanol-wash"]
+      "sourceIds": ["defenzo-2020-materials"]
     },
     {
       "id": "nicotine",
@@ -292,18 +280,63 @@
   "families": [],
   "hypotheses": [
     {
+      "id": "split-before-washing",
+      "title": "Separate the filter before washing",
+      "visibleLabel": "AI hypothesis: separating the filter-rich fraction first may change where the contamination goes.",
+      "sourceInputIds": [
+        "mego-fr3066128a1",
+        "defenzo-2020-materials",
+        "belzagui-2021-microfibres",
+        "teixeira-2017-pulp"
+      ],
+      "priorContext": "Mechanical separation and staged washing are already described in the literature and patents. Fibre-release tests and pulping liquor data flag two potential losses that bulk recovered mass alone would miss. This candidate combines existing ideas for comparison, not as a claim of novelty.",
+      "mechanism": "Compare early separation followed by contained staged washing with washing without early separation. Account for the separated tobacco and paper, fibres or solids captured from the wash, dissolved wash residues, and the recovered filter material. Keep the recovered material on hold until independent intended-use evidence is available.",
+      "assumptions": [
+        "Some contamination may follow the rejected fraction rather than the recovered filter. The direction and size of that split are unknown for individual contaminants.",
+        "Early separation may lose useful filter fibre. Comparing contaminant load per unit of recovered filter matters alongside total waste-stream loads.",
+        "The two routes would be compared using comparable feed, the same measurement basis and a defined non-contact end use."
+      ],
+      "unresolvedDependencies": [
+        "Measured partition by contaminant, including cadmium, lead, arsenic and mercury.",
+        "Fibre loss, occupational exposure, wash residues, treatment acceptance and independent end-use measurements."
+      ],
+      "failureModes": [
+        "The lower wash load comes at the expense of unmanageable solid rejects.",
+        "Fibre losses or weak separation leave equal or greater contaminant load per unit of recovered filter."
+      ],
+      "falsifiers": [
+        "Comparable runs show no meaningful reduction in the wash load at an agreed fibre recovery, or show greater residual load per recovered fibre for the contaminant being evaluated.",
+        "The mass balance cannot account for the lost contaminant, a metals stream remains uncharacterised, or an output lacks a documented receiving route."
+      ],
+      "validationQuestionIds": [
+        "mechanical-physical-gap-partition-or-removal",
+        "product-routes-gap-no-gate-any-route"
+      ],
+      "evidenceState": "derived-from-sourced-premises",
+      "validationState": "new-unvalidated-hypothesis",
+      "reviewer": "AI desk synthesis; no independent review",
+      "recordVersion": "2026-11-19-v1",
+      "auditReferences": [
+        {
+          "label": "Butt Lab — worked examples and their sources",
+          "url": "https://butt-lab.am6.workers.dev/methods/examples/",
+          "version": "2026-11-19"
+        }
+      ]
+    },
+    {
       "id": "batch-02-invention-sketch",
       "title": "Batch-02 Invention Sketch: Four-Field Sink as Mandatory Pilot Prerequisite",
       "visibleLabel": "Four-field sink accounting as a stop-condition prerequisite for any authorized pilot",
-      "sourceInputIds": ["mego-fr3066128a1", "academic-green-ethanol-wash", "defenzo-2020-materials", "keenat-dry-thermal", "cnr-knowledge-share-ca-recovery", "cn106928486", "kr-microbial-composting", "rmit-brick-making", "cigarette-butt-asphalt", "3d-printing-filament", "pyrolysis-energy-recovery", "matteri-ep2520184a1"],
+      "sourceInputIds": ["mego-fr3066128a1", "defenzo-2020-materials", "keenat-dry-thermal", "cnr-knowledge-share-ca-recovery", "cn106928486", "kr-microbial-composting", "rmit-brick-making", "cigarette-butt-asphalt", "3d-printing-filament", "pyrolysis-energy-recovery", "matteri-ep2520184a1"],
       "priorContext": "Batch-01 identified cigarette butt recycling as an open problem with no located evidence of full-butt recycling at any scale. Six method families were catalogued (mechanical-physical, thermal, chemical, biological, material-incorporation, product-routes). Batch-01 established heavy metals as an explicit stop condition. Batch-02 reviewed all six families and found each fails at least one field of the four-field sink: dry-mass closure, analyte-resolved contaminant fate, use-specific product gate, and metals stop condition. No family demonstrates a complete dry-mass balance with analyte-resolved accounting; no family shows where each measured analyte goes through every process step; no family sets an independent product-quality gate separate from mass-balance closure; no family treats metals as an explicit stop condition with a demonstrated analytical test.",
       "mechanism": "This hypothesis proposes that the four-field sink (dry-mass balance on a common dry-feed basis, analyte-resolved contaminant fate across all output streams, a named final treatment route with a jurisdiction-specific acceptance basis, and a use-specific product gate independent of mass-balance closure) must be a mandatory prerequisite for any later authorized pilot. The metals stop-condition is in force: any detectable metal above background in feedstock, wash water, air emission, solid residue, or final product triggers a halt; the stream cannot resume until analytical performance (inlet-to-outlet) is demonstrated. This sketch does not propose how to remove metals; it proposes that metals are a stop condition, not a solvable parameter within this sketch. The six method families remain as unvalidated inputs to this prerequisite framework.",
       "assumptions": [
-        "The six method families catalogued in Batch-02 represent the complete set of known recycling approaches for cigarette butts as of the retrieval window.",
+        "The six method families are a working grouping of the routes reviewed here, not an exhaustive inventory of known approaches.",
         "Heavy metals (cadmium, lead, arsenic, mercury) are correctly treated as a stop condition rather than a parameter to be traded off.",
         "A mass balance that is not dry-mass-based and analyte-resolved cannot establish that contaminants have been removed rather than redistributed.",
         "A product gate that depends on mass-balance closure is circular and does not protect the intended use.",
-        "No located source demonstrates analytical performance (inlet-to-outlet) for any contaminant in any of the six families."
+        "The sources used in the original sketch did not establish complete inlet-to-outlet accounting across all relevant streams."
       ],
       "unresolvedDependencies": [
         "Quantitative input-output data at pilot scale for any of the six method families.",
@@ -333,7 +366,7 @@
       "auditReferences": [
         {
           "label": "Batch-02 Invention Sketch (Phase 2 — Prior-Art Awareness Only)",
-          "url": "https://github.com/butt-lab/butt-lab/blob/main/reports/batch-02/invention.md",
+          "url": "https://github.com/abdo2048/butt-lab/blob/main/reports/batch-02/invention.md",
           "version": "batch-02-pilot-v1"
         }
       ]

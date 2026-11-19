@@ -32,6 +32,14 @@ There is no mechanism here. Each of the other families produces a different inte
 5. **Insulation and acoustic panels.** Butt fibre or composite material used for insulation boards or acoustic panels. No located source specific to cigarette butts has been found for this route, and the flammability of the material is unresolved.
 6. **Energy recovery.** Butts burned with energy capture. The flue gas carries nicotine, tar and metals and the ash holds concentrated residues, so this route is energy recovery rather than material recycling, and it would need air-quality permits.
 
+## Findings from individual routes
+
+These results describe the specific routes or samples reported. They do not change the scope of the family scorecard. See the [worked examples](/methods/examples/) for comparisons and AI hypotheses.
+
+- **A laboratory study tested a butt-derived fibre blend for air filtration.** The authors used recovered cellulose acetate from cigarette butts with polyacrylonitrile to make prototype nanofibre membranes and measured particle filtration and pressure drop. [Recycled cigarette butts as a sustainable additive in PAN-based nanofiber membranes for high-efficiency air filtration](/sources/air-filtration-2026/) (Abstract; §3, Results and discussion).
+- **A laboratory study used recovered cellulose fibres as a catalyst support.** The researchers incorporated recovered cigarette butt cellulose fibres into a photocatalyst composite and evaluated it against model dye solutions. [Photocatalyst on cellulose fibres from recycled cigarette butts for dye degradation](/sources/dye-photocatalyst-2024/) (Abstract; §4, Conclusions).
+- **Trade reporting describes Code Effort’s different output streams.** The article describes fibre for stuffing, a paper-derived product, and composting of separated tobacco. It describes chemical treatment broadly; this is not an independent verification of product quality or contaminant fate. [Putting the focus on butt recovery](/sources/code-effort-coverage/) (Code Effort section).
+
 ## Where the material and the contamination go
 
 | Stream | Kind | What it carries | What is known about it |
@@ -89,6 +97,11 @@ These notes are additions from the research assistant, not source material. Each
 - **3D printing filament from cigarette butts** — 3D Printing Industry news report on producing 3D printing filament from cigarette butt material. (3D Printing Industry, News report on a startup and associated research publications). [Open the source](https://3dprinting.com/news/cigarette-butts-get-new-life-as-feedstock/)
 - **Cigarette butts mixed with asphalt** — Ceramics Monthly technical article on mixing cigarette butt material into asphalt for road construction. (American Ceramic Society, Ceramic Tech Today, Technical article). [Open the source](https://ceramics.org/ceramic-tech-today/cigarette-butts-mixed-with-asphalt-create-new-pavement-material/)
 - **Pyrolysis energy recovery from cigarette butts** — Fuel article on pyrolysis of cigarette butts for energy recovery, reporting triacetin, char and biofuel products. (Fuel (Elsevier), ScienceDirect record S016523702300311X). [Open the source](https://www.sciencedirect.com/science/article/abs/pii/S016523702300311X)
+- **Recycled cigarette butts as a sustainable additive in PAN-based nanofiber membranes for high-efficiency air filtration** — Recycled cigarette butts as a sustainable additive in PAN-based nanofiber membranes for high-efficiency air filtration — Akid et al. · Sustainable Chemistry and Pharmacy, 2026, 52:102484. (Akid et al. · Sustainable Chemistry and Pharmacy, 2026, 52:102484). [Open the source](https://doi.org/10.1016/j.scp.2026.102484)
+- **Photocatalyst on cellulose fibres from recycled cigarette butts for dye degradation** — Photocatalyst on cellulose fibres from recycled cigarette butts for dye degradation — Journal of Molecular Liquids, 2024, 398:124261. (Journal of Molecular Liquids, 2024, 398:124261). [Open the source](https://doi.org/10.1016/j.molliq.2024.124261)
+- **Use of cigarette butt fibres in thermal or acoustic insulation** — Use of cigarette butt fibres in thermal or acoustic insulation — INPI, FR3102075B1. (INPI, FR3102075B1). [Open the source](https://patents.google.com/patent/FR3102075B1/en)
+- **Code Effort Knowledge Center** — Code Effort Knowledge Center — Code Effort, Company page as accessed. (Code Effort, Company page as accessed). [Open the source](https://codeefforts.com/pages/knowledge-center)
+- **Putting the focus on butt recovery** — Putting the focus on butt recovery — Tobacco Asia, 2021 trade reporting. (Tobacco Asia, 2021 trade reporting). [Open the source](https://www.tobaccoasia.com/features/putting-the-focus-on-butt-recovery/)
 
 ## The four fields a sink needs
 
@@ -109,4 +122,4 @@ Internal record names and versions, for anyone checking this page against the pr
 - Cigarette butts mixed with asphalt — version Ceramic Tech Today article — [public record](https://ceramics.org/ceramic-tech-today/cigarette-butts-mixed-with-asphalt-create-new-pavement-material/)
 - Pyrolysis energy recovery study — version S016523702300311X — [public record](https://www.sciencedirect.com/science/article/abs/pii/S016523702300311X)
 
-This page was produced by desk research on 2026-11-16. It does not assert that the method is safe, clean, commercial, novel or approved, and it does not authorise any experiment.
+This page was produced by desk research. It does not assert that the method is safe, clean, commercial, novel or approved, and it does not authorise any experiment.

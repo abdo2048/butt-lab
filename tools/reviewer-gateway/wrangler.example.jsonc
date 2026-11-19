@@ -1,0 +1,12 @@
+{
+  // Copy to the ignored wrangler.local.jsonc and replace the example hostname and bucket.
+  "name": "butt-lab-reviewer",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-11-19",
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [{ "pattern": "review.example.com", "custom_domain": true }],
+  "vars": { "REVIEW_HOST": "review.example.com" },
+  "r2_buckets": [{ "binding": "REVIEW_PDFS", "bucket_name": "butt-lab-reviewer-pdfs" }],
+  "ratelimits": [{ "name": "REVIEW_RATE_LIMIT", "namespace_id": "38175", "simple": { "limit": 8, "period": 60 } }]
+}

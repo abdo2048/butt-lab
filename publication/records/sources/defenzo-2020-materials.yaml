@@ -10,10 +10,12 @@ sourceType: paper
 publisherOrIssuer: Materials (MDPI)
 versionOrDate: 2020, 13, 4710
 originalUrl: https://doi.org/10.3390/ma13214710
-accessDate: 2026-11-11
+accessDate: 2026-11-19
 rights: link-only
 derivatives: []
 claimIds:
+  - mechanical-physical-mechanism-staged-wash
   - chemical-mechanism-extraction-characterisation
 methodIds:
+  - mechanical-physical
   - chemical

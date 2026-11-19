@@ -1,16 +1,16 @@
 schemaVersion: 1
 id: thermal-gap-unreviewed-dense-fluid-route
-title: A dense-fluid extraction route has no reviewed method page in this layer
+title: Dense-fluid extraction has no comparable performance assessment
 publicationState: approved
 auditAliases: []
 kind: gap
 contentKind: unresolved-question
-question: A dense pressurized-fluid extraction route for cigarette butts is recorded in the project's method record, but it has not been given a reviewed method-family page in this layer. What does it do, and how does it compare with the dry composite route?
+question: How does the disclosed dense-fluid extraction route compare with dry treatment on contaminants recovered, residues and product release?
 gapType: method-coverage
-whyItMatters: The reader would otherwise take this page as a complete account of thermal routes, when one thermal route has been described in the project's records and not yet assessed here.
+whyItMatters: The patent disclosure explains the route but is not a process-level mass balance or an independent performance test.
 affectedRecordIds:
   - thermal
 evidenceState: source-not-located
 validationState: requires-human-validation
 nextHumanWork: source-retrieval
-falsifierOrDecisionCondition: A reviewed method page, with its own claims, gaps and assessments, would close this gap and show where the route sits against the dry composite route.
+falsifierOrDecisionCondition: Comparable output, residue and exposure measurements would permit a comparison with the dry composite route.

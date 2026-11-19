@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: jin-2019-asphalt
+title: Research on the road performance of cigarette butts modified asphalt mixture
+publicationState: approved
+auditAliases: []
+kind: source
+citation: "Research on the road performance of cigarette butts modified asphalt mixture — Jin et al. · Journal of Physics: Conference Series, 2019, 1168:022053."
+sourceType: paper
+publisherOrIssuer: "Jin et al. · Journal of Physics: Conference Series"
+versionOrDate: 2019, 1168:022053
+originalUrl: https://doi.org/10.1088/1742-6596/1168/2/022053
+accessDate: 2026-11-19
+rights: link-only
+derivatives: []
+claimIds:
+  - jin-2019-asphalt-finding
+methodIds:
+  - material-incorporation

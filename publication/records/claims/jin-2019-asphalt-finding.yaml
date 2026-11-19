@@ -1,0 +1,17 @@
+schemaVersion: 1
+id: jin-2019-asphalt-finding
+title: A second asphalt study measured mixture performance
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: The study describes incorporating cigarette butts into an asphalt mixture and comparing Marshall and rutting test results with an ordinary mixture.
+evidenceState: source-supported
+methodIds:
+  - material-incorporation
+hypothesisIds: []
+sourceId: jin-2019-asphalt
+locator: Abstract; road performance tests
+counterevidenceClaimIds: []
+reviewer: AI source comparison; no independent review
+reviewDate: 2026-11-19

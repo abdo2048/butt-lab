@@ -1,0 +1,17 @@
+schemaVersion: 1
+id: dye-photocatalyst-2024-finding
+title: A laboratory study used recovered cellulose fibres as a catalyst support
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: The researchers incorporated recovered cigarette butt cellulose fibres into a photocatalyst composite and evaluated it against model dye solutions.
+evidenceState: source-supported
+methodIds:
+  - product-routes
+hypothesisIds: []
+sourceId: dye-photocatalyst-2024
+locator: Abstract; §4, Conclusions
+counterevidenceClaimIds: []
+reviewer: AI source comparison; no independent review
+reviewDate: 2026-11-19

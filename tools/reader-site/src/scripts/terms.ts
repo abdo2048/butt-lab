@@ -3,8 +3,8 @@
  *
  * A term is a real link to `/glossary/#<id>`, and that must keep working for
  * mouse and keyboard users. On a touch pointer the first tap opens the term's
- * own definition instead of leaving the page; a second tap, Escape or a tap
- * elsewhere closes it. No definition text is added here: the card already
+ * own definition instead of leaving the page; a second tap follows the link.
+ * Escape or a tap elsewhere closes it. No definition text is added here: the card already
  * renders the term's `data-tip`, so open/close only toggles a class.
  */
 
@@ -38,14 +38,13 @@ document.addEventListener("click", (event: MouseEvent) => {
     return;
   }
 
-  // Touch taps open/close the inline card and never leave the page.
-  event.preventDefault();
-
+  // A second tap follows the link so touch users can reach the full entry.
   if (openTerm === term) {
     close();
     return;
   }
 
+  event.preventDefault();
   close();
   openTerm = term;
   term.classList.add(OPEN_CLASS);

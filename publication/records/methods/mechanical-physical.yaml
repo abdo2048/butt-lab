@@ -105,6 +105,7 @@ claimIds:
   - mechanical-physical-metals-fate-not-located
   - mechanical-physical-regulatory-status-not-located
   - mechanical-physical-inference-description-without-removal-data
+  - belzagui-2021-microfibres-finding
 gapIds:
   - mechanical-physical-gap-partition-or-removal
   - mechanical-physical-note-reclosed-water-loop
@@ -121,9 +122,11 @@ termIds:
   - four-field-sink
 sourceIds:
   - mego-fr3066128a1
-  - academic-green-ethanol-wash
+  - defenzo-2020-materials
   - matteri-ep2520184a1
+  - belzagui-2021-microfibres
 hypothesisIds:
+  - split-before-washing
   - batch-02-invention-sketch
   - batch-02-scientist-inventor-proposals
   - batch-02-evidence-gap-synthesis

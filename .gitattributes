@@ -3,9 +3,11 @@
 
 # The published layer is byte-exact: the manifest stores a SHA-256 of every
 # published file, so any line-ending conversion changes the bytes and breaks
-# MANIFEST_HASH_MISMATCH. Force LF in the repo and on checkout on every
-# platform, including Windows checkouts with core.autocrlf=true.
+# MANIFEST_HASH_MISMATCH. Force LF for text in the repo and on checkout on
+# every platform, including Windows checkouts with core.autocrlf=true.
 publication/** text eol=lf
+# Preserve the original bytes of published PDFs, including embedded CRLFs.
+publication/**/*.pdf binary !eol
 
 # The generator's inputs must be the same bytes it publishes, so the authored
 # source of truth is held to the same rule as its output.

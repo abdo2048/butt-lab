@@ -1,0 +1,610 @@
+{
+  "sources": [
+    {
+      "id": "teixeira-2017-pulp",
+      "title": "Process development for cigarette butts recycling into cellulose pulp",
+      "citation": "Process development for cigarette butts recycling into cellulose pulp — d’Heni Teixeira et al. · Waste Management, 2017, 60:140–150.",
+      "sourceType": "paper",
+      "publisherOrIssuer": "d’Heni Teixeira et al. · Waste Management",
+      "versionOrDate": "2017, 60:140–150",
+      "originalUrl": "https://doi.org/10.1016/j.wasman.2016.10.013",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [
+        "teixeira-2017-pulp-finding"
+      ],
+      "methodIds": [
+        "chemical"
+      ]
+    },
+    {
+      "id": "rahman-2020-bitumen",
+      "title": "Possible recycling of cigarette butts as fiber modifier in bitumen for asphalt concrete",
+      "citation": "Possible recycling of cigarette butts as fiber modifier in bitumen for asphalt concrete — Rahman, Mohajerani & Giustozzi · Materials, 2020, 13:734.",
+      "sourceType": "paper",
+      "publisherOrIssuer": "Rahman, Mohajerani & Giustozzi · Materials",
+      "versionOrDate": "2020, 13:734",
+      "originalUrl": "https://doi.org/10.3390/ma13030734",
+      "rights": "public-local-copy",
+      "localArtifact": {
+        "path": "assets/rahman-2020-bitumen.pdf",
+        "sha256": "79ae28a06e27a5304fa366b58ee21230fb4d8edad25df928eba93ed96281081e"
+      },
+      "redistributionLicense": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "accessDate": "2026-11-19",
+      "claimIds": [
+        "rahman-2020-bitumen-finding"
+      ],
+      "methodIds": [
+        "material-incorporation"
+      ]
+    },
+    {
+      "id": "kurmus-2020-bricks",
+      "title": "Recycling of cigarette butts in fired clay bricks: A new laboratory investigation",
+      "citation": "Recycling of cigarette butts in fired clay bricks: A new laboratory investigation — Kurmus & Mohajerani · Materials, 2020, 13:790.",
+      "sourceType": "paper",
+      "publisherOrIssuer": "Kurmus & Mohajerani · Materials",
+      "versionOrDate": "2020, 13:790",
+      "originalUrl": "https://doi.org/10.3390/ma13030790",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [],
+      "methodIds": [
+        "material-incorporation"
+      ]
+    },
+    {
+      "id": "jin-2019-asphalt",
+      "title": "Research on the road performance of cigarette butts modified asphalt mixture",
+      "citation": "Research on the road performance of cigarette butts modified asphalt mixture — Jin et al. · Journal of Physics: Conference Series, 2019, 1168:022053.",
+      "sourceType": "paper",
+      "publisherOrIssuer": "Jin et al. · Journal of Physics: Conference Series",
+      "versionOrDate": "2019, 1168:022053",
+      "originalUrl": "https://doi.org/10.1088/1742-6596/1168/2/022053",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [
+        "jin-2019-asphalt-finding"
+      ],
+      "methodIds": [
+        "material-incorporation"
+      ]
+    },
+    {
+      "id": "belzagui-2021-microfibres",
+      "title": "Cigarette butts as a microfiber source with a microplastic level of concern",
+      "citation": "Cigarette butts as a microfiber source with a microplastic level of concern — Belzagui et al. · Science of the Total Environment, 2021, 762:144165.",
+      "sourceType": "paper",
+      "publisherOrIssuer": "Belzagui et al. · Science of the Total Environment",
+      "versionOrDate": "2021, 762:144165",
+      "originalUrl": "https://doi.org/10.1016/j.scitotenv.2020.144165",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [
+        "belzagui-2021-microfibres-finding"
+      ],
+      "methodIds": [
+        "mechanical-physical"
+      ]
+    },
+    {
+      "id": "nongdren-2024-leachate",
+      "title": "Cigarette butt littering as a potential source of water pollution and human health risk",
+      "citation": "Cigarette butt littering as a potential source of water pollution and human health risk — Nongdren, Parveen & Vanapalli · Journal of Environmental Chemical Engineering, 2024, 12:114941.",
+      "sourceType": "paper",
+      "publisherOrIssuer": "Nongdren, Parveen & Vanapalli · Journal of Environmental Chemical Engineering",
+      "versionOrDate": "2024, 12:114941",
+      "originalUrl": "https://doi.org/10.1016/j.jece.2024.114941",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [],
+      "methodIds": []
+    },
+    {
+      "id": "nongdren-2026-lca",
+      "title": "Cradle to grave environmental analysis of cigarettes with emphasis on end-of-life management",
+      "citation": "Cradle to grave environmental analysis of cigarettes with emphasis on end-of-life management — Nongdren, Parveen & Vanapalli · Waste Management, 2026, article 115553.",
+      "sourceType": "paper",
+      "publisherOrIssuer": "Nongdren, Parveen & Vanapalli · Waste Management",
+      "versionOrDate": "2026, article 115553",
+      "originalUrl": "https://doi.org/10.1016/j.wasman.2026.115553",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [],
+      "methodIds": []
+    },
+    {
+      "id": "marinello-2020-review",
+      "title": "A second life for cigarette butts: A review of recycling solutions",
+      "citation": "A second life for cigarette butts: A review of recycling solutions — Marinello et al. · Journal of Hazardous Materials, 2020, 384:121245.",
+      "sourceType": "paper",
+      "publisherOrIssuer": "Marinello et al. · Journal of Hazardous Materials",
+      "versionOrDate": "2020, 384:121245",
+      "originalUrl": "https://doi.org/10.1016/j.jhazmat.2019.121245",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [],
+      "methodIds": []
+    },
+    {
+      "id": "george-2022-review",
+      "title": "Review on recycling of microplastics in cigarette butts",
+      "citation": "Review on recycling of microplastics in cigarette butts — George et al. · IOP Conference Series: Earth and Environmental Science, 2022, 1084:012027.",
+      "sourceType": "paper",
+      "publisherOrIssuer": "George et al. · IOP Conference Series: Earth and Environmental Science",
+      "versionOrDate": "2022, 1084:012027",
+      "originalUrl": "https://doi.org/10.1088/1755-1315/1084/1/012027",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [],
+      "methodIds": []
+    },
+    {
+      "id": "shah-2023-review",
+      "title": "A comprehensive review on triple R eco-management strategies to reduce, reuse and recycle of hazardous cigarette butts",
+      "citation": "A comprehensive review on triple R eco-management strategies to reduce, reuse and recycle of hazardous cigarette butts — Shah, Bhatt & Soni · Heliyon, 2023, 9:e16642.",
+      "sourceType": "paper",
+      "publisherOrIssuer": "Shah et al. · Heliyon",
+      "versionOrDate": "2023, 9:e16642",
+      "originalUrl": "https://doi.org/10.1016/j.heliyon.2023.e16642",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [],
+      "methodIds": []
+    },
+    {
+      "id": "torkashvand-2019-review",
+      "title": "A systematic review on cigarette butt management as a hazardous waste and prevalent litter",
+      "citation": "A systematic review on cigarette butt management as a hazardous waste and prevalent litter — Torkashvand & Farzadkia · Environmental Science and Pollution Research, 2019, 26:11618–11630.",
+      "sourceType": "paper",
+      "publisherOrIssuer": "Torkashvand & Farzadkia · Environmental Science and Pollution Research",
+      "versionOrDate": "2019, 26:11618–11630",
+      "originalUrl": "https://doi.org/10.1007/s11356-019-04250-x",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [],
+      "methodIds": []
+    },
+    {
+      "id": "kurmus-2020-valorization",
+      "title": "The toxicity and valorization options of cigarette butts",
+      "citation": "The toxicity and valorization options of cigarette butts — Kurmus & Mohajerani · Waste Management, 2020, 104:104–118.",
+      "sourceType": "paper",
+      "publisherOrIssuer": "Kurmus & Mohajerani · Waste Management",
+      "versionOrDate": "2020, 104:104–118",
+      "originalUrl": "https://doi.org/10.1016/j.wasman.2020.01.011",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [],
+      "methodIds": []
+    },
+    {
+      "id": "moroz-2021-review",
+      "title": "Toxicity of cigarette butts and possible recycling solutions: a literature review",
+      "citation": "Toxicity of cigarette butts and possible recycling solutions: a literature review — Moroz et al. · Environmental Science and Pollution Research, 2021.",
+      "sourceType": "paper",
+      "publisherOrIssuer": "Moroz et al. · Environmental Science and Pollution Research",
+      "versionOrDate": "2021",
+      "originalUrl": "https://doi.org/10.1007/s11356-020-11856-z",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [],
+      "methodIds": []
+    },
+    {
+      "id": "ade-2026-leachates",
+      "title": "Microplastic fibers and leachates from cigarette butts",
+      "citation": "Microplastic fibers and leachates from cigarette butts — Adeleye et al. · Environmental Research, 2026, article 124160.",
+      "sourceType": "paper",
+      "publisherOrIssuer": "Adeleye et al. · Environmental Research",
+      "versionOrDate": "2026, article 124160",
+      "originalUrl": "https://doi.org/10.1016/j.envres.2026.124160",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [],
+      "methodIds": []
+    },
+    {
+      "id": "toxicants-2026-review",
+      "title": "Toxicants released from cigarette butt and other tobacco and nicotine product waste and their ecotoxicological impact",
+      "citation": "Toxicants released from cigarette butt and other tobacco and nicotine product waste and their ecotoxicological impact — Toxics, 2026, 14:846.",
+      "sourceType": "paper",
+      "publisherOrIssuer": "Toxics",
+      "versionOrDate": "2026, 14:846",
+      "originalUrl": "https://doi.org/10.3390/toxics14100846",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [],
+      "methodIds": []
+    },
+    {
+      "id": "novotny-2009-policy",
+      "title": "Cigarettes butts and the case for an environmental policy on hazardous cigarette waste",
+      "citation": "Cigarettes butts and the case for an environmental policy on hazardous cigarette waste — Novotny et al. · IJERPH, 2009, 6:1691–1705.",
+      "sourceType": "paper",
+      "publisherOrIssuer": "Novotny et al. · IJERPH",
+      "versionOrDate": "2009, 6:1691–1705",
+      "originalUrl": "https://doi.org/10.3390/ijerph6051691",
+      "rights": "public-local-copy",
+      "localArtifact": {
+        "path": "assets/novotny-2009-policy.pdf",
+        "sha256": "beb08cde1a1c1a12dc4840f7995b308343236c3235c676adb34a381cad784fc2"
+      },
+      "redistributionLicense": {
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/"
+      },
+      "accessDate": "2026-11-19",
+      "claimIds": [],
+      "methodIds": []
+    },
+    {
+      "id": "us-2020-waste-cost-model",
+      "title": "An online simulation model to estimate total costs of tobacco product waste in large US cities",
+      "citation": "An online simulation model to estimate total costs of tobacco product waste in large US cities — International Journal of Environmental Research and Public Health, 2020, 17:4705.",
+      "sourceType": "paper",
+      "publisherOrIssuer": "International Journal of Environmental Research and Public Health",
+      "versionOrDate": "2020, 17:4705",
+      "originalUrl": "https://doi.org/10.3390/ijerph17134705",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [],
+      "methodIds": []
+    },
+    {
+      "id": "air-filtration-2026",
+      "title": "Recycled cigarette butts as a sustainable additive in PAN-based nanofiber membranes for high-efficiency air filtration",
+      "citation": "Recycled cigarette butts as a sustainable additive in PAN-based nanofiber membranes for high-efficiency air filtration — Akid et al. · Sustainable Chemistry and Pharmacy, 2026, 52:102484.",
+      "sourceType": "paper",
+      "publisherOrIssuer": "Akid et al. · Sustainable Chemistry and Pharmacy",
+      "versionOrDate": "2026, 52:102484",
+      "originalUrl": "https://doi.org/10.1016/j.scp.2026.102484",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [
+        "air-filtration-2026-finding"
+      ],
+      "methodIds": [
+        "product-routes"
+      ]
+    },
+    {
+      "id": "dye-photocatalyst-2024",
+      "title": "Photocatalyst on cellulose fibres from recycled cigarette butts for dye degradation",
+      "citation": "Photocatalyst on cellulose fibres from recycled cigarette butts for dye degradation — Journal of Molecular Liquids, 2024, 398:124261.",
+      "sourceType": "paper",
+      "publisherOrIssuer": "Journal of Molecular Liquids",
+      "versionOrDate": "2024, 398:124261",
+      "originalUrl": "https://doi.org/10.1016/j.molliq.2024.124261",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [
+        "dye-photocatalyst-2024-finding"
+      ],
+      "methodIds": [
+        "product-routes"
+      ]
+    },
+    {
+      "id": "tchaomegot-fr3102076b3",
+      "title": "Supercritical-fluid treatment of cigarette butts for insulation",
+      "citation": "Supercritical-fluid treatment of cigarette butts for insulation — INPI, FR3102076B3.",
+      "sourceType": "patent",
+      "publisherOrIssuer": "INPI",
+      "versionOrDate": "FR3102076B3",
+      "originalUrl": "https://patents.google.com/patent/FR3102076B3/en",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [
+        "tchaomegot-fr3102076b3-finding"
+      ],
+      "methodIds": [
+        "thermal"
+      ]
+    },
+    {
+      "id": "tchaomegot-fr3102075b1",
+      "title": "Use of cigarette butt fibres in thermal or acoustic insulation",
+      "citation": "Use of cigarette butt fibres in thermal or acoustic insulation — INPI, FR3102075B1.",
+      "sourceType": "patent",
+      "publisherOrIssuer": "INPI",
+      "versionOrDate": "FR3102075B1",
+      "originalUrl": "https://patents.google.com/patent/FR3102075B1/en",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [],
+      "methodIds": [
+        "product-routes"
+      ]
+    },
+    {
+      "id": "unb-br0305004b1",
+      "title": "Recovery of cellulose acetate fibres and cigarette filters for cellulose and paper",
+      "citation": "Recovery of cellulose acetate fibres and cigarette filters for cellulose and paper — Brazilian patent publication, BR0305004B1.",
+      "sourceType": "patent",
+      "publisherOrIssuer": "Brazilian patent publication",
+      "versionOrDate": "BR0305004B1",
+      "originalUrl": "https://patents.google.com/patent/BR0305004B1/en",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [],
+      "methodIds": [
+        "chemical"
+      ]
+    },
+    {
+      "id": "hudina-wo2026074041a2",
+      "title": "Method for recovering cellulose acetate from post-consumer items",
+      "citation": "Method for recovering cellulose acetate from post-consumer items — WIPO international application, WO2026074041A2.",
+      "sourceType": "patent",
+      "publisherOrIssuer": "WIPO international application",
+      "versionOrDate": "WO2026074041A2",
+      "originalUrl": "https://patents.google.com/patent/WO2026074041A2/en",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [],
+      "methodIds": [
+        "chemical"
+      ]
+    },
+    {
+      "id": "collection-fr3125946b1",
+      "title": "Urban ashtray for cigarette butt collection",
+      "citation": "Urban ashtray for cigarette butt collection — INPI, FR3125946B1.",
+      "sourceType": "patent",
+      "publisherOrIssuer": "INPI",
+      "versionOrDate": "FR3125946B1",
+      "originalUrl": "https://patents.google.com/patent/FR3125946B1/en",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [],
+      "methodIds": []
+    },
+    {
+      "id": "terracycle-process",
+      "title": "How cigarette butts are recycled",
+      "citation": "How cigarette butts are recycled — TerraCycle · handout hosted by City of Charleston, Undated process handout.",
+      "sourceType": "company",
+      "publisherOrIssuer": "TerraCycle · handout hosted by City of Charleston",
+      "versionOrDate": "Undated process handout",
+      "originalUrl": "https://www.charleston-sc.gov/DocumentCenter/View/21823",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [
+        "terracycle-process-finding"
+      ],
+      "methodIds": [
+        "thermal"
+      ]
+    },
+    {
+      "id": "code-effort-knowledge-centre",
+      "title": "Code Effort Knowledge Center",
+      "citation": "Code Effort Knowledge Center — Code Effort, Company page as accessed.",
+      "sourceType": "company",
+      "publisherOrIssuer": "Code Effort",
+      "versionOrDate": "Company page as accessed",
+      "originalUrl": "https://codeefforts.com/pages/knowledge-center",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [],
+      "methodIds": [
+        "product-routes"
+      ]
+    },
+    {
+      "id": "code-effort-coverage",
+      "title": "Putting the focus on butt recovery",
+      "citation": "Putting the focus on butt recovery — Tobacco Asia, 2021 trade reporting.",
+      "sourceType": "web-page",
+      "publisherOrIssuer": "Tobacco Asia",
+      "versionOrDate": "2021 trade reporting",
+      "originalUrl": "https://www.tobaccoasia.com/features/putting-the-focus-on-butt-recovery/",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [
+        "code-effort-coverage-finding"
+      ],
+      "methodIds": [
+        "product-routes"
+      ]
+    },
+    {
+      "id": "gst-2025-critique",
+      "title": "Recycling cigarette filters: An environmental, health and technical impasse",
+      "citation": "Recycling cigarette filters: An environmental, health and technical impasse — Générations sans Tabac, 2025 factsheet.",
+      "sourceType": "web-page",
+      "publisherOrIssuer": "Générations sans Tabac",
+      "versionOrDate": "2025 factsheet",
+      "originalUrl": "https://www.generationsanstabac.org/en/fiches/le-recyclage-des-filtres-de-cigarette-une-impasse-environnementale-sanitaire-et-technique/",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [],
+      "methodIds": []
+    },
+    {
+      "id": "teixeira-2016-thesis",
+      "title": "Characterisation and treatment of effluent from cigarette butt pulping",
+      "citation": "Characterisation and treatment of effluent from cigarette butt pulping — Maria Betânia d’Heni Teixeira · Universidade de Brasília, 2016 doctoral thesis.",
+      "sourceType": "thesis",
+      "publisherOrIssuer": "Maria Betânia d’Heni Teixeira · Universidade de Brasília",
+      "versionOrDate": "2016 doctoral thesis",
+      "originalUrl": "https://repositorio.unb.br/handle/10482/22749",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [],
+      "methodIds": [
+        "chemical"
+      ]
+    },
+    {
+      "id": "ineris-2017-collection-treatment",
+      "title": "Study of cigarette butt collection and treatment routes",
+      "citation": "Study of cigarette butt collection and treatment routes — Ineris, 2017 · INERIS-DRC-17-162405-01313C.",
+      "sourceType": "report",
+      "publisherOrIssuer": "Ineris",
+      "versionOrDate": "2017 · INERIS-DRC-17-162405-01313C",
+      "originalUrl": "https://www.ineris.fr/sites/default/files/contribution/Documents/INERIS-DRC-17-162405-01313C%20Rapport%20%C3%A9tude%20m%C3%A9gots_vf.pdf",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [],
+      "methodIds": []
+    },
+    {
+      "id": "ineris-2019-recycling",
+      "title": "Study of cigarette butt recycling routes",
+      "citation": "Study of cigarette butt recycling routes — Ineris, 2019 · INERIS-DRC-18-177385-09634B.",
+      "sourceType": "report",
+      "publisherOrIssuer": "Ineris",
+      "versionOrDate": "2019 · INERIS-DRC-18-177385-09634B",
+      "originalUrl": "https://www.ineris.fr/fr/etude-filieres-recyclage-megots-cigarettes",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [],
+      "methodIds": []
+    },
+    {
+      "id": "recig-trento-permit",
+      "title": "Re-Cig Civezzano waste-treatment authorisation",
+      "citation": "Re-Cig Civezzano waste-treatment authorisation — APPA · Autonomous Province of Trento (company-hosted copy), 2025 authorisation annex.",
+      "sourceType": "regulatory",
+      "publisherOrIssuer": "APPA · Autonomous Province of Trento (company-hosted copy)",
+      "versionOrDate": "2025 authorisation annex",
+      "originalUrl": "https://www.re-cig.it/wp-content/uploads/2026/04/Autorizzazione-impianto-trattamento-rifiuti.pdf",
+      "rights": "link-only",
+      "accessDate": "2026-11-19",
+      "claimIds": [
+        "recig-trento-permit-finding"
+      ],
+      "methodIds": [
+        "thermal"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "teixeira-2017-pulp-finding",
+      "title": "Pulp recovery generates a difficult liquid waste stream",
+      "contentKind": "claim",
+      "proposition": "The researchers produced cellulose pulp by alkaline treatment. Their dark process liquor contained metals and organic compounds. The treatment sequence did not reduce chemical oxygen demand to an acceptable level in their tests; the paper also reports reuse of clarified liquor over several cooking cycles.",
+      "evidenceState": "source-supported",
+      "sourceId": "teixeira-2017-pulp",
+      "locator": "Abstract; §4; Table 11",
+      "methodIds": [
+        "chemical"
+      ]
+    },
+    {
+      "id": "rahman-2020-bitumen-finding",
+      "title": "Filter fibre changed the properties of asphalt binder",
+      "contentKind": "claim",
+      "proposition": "The paper describes adding cigarette butt fibre to several bitumen binders and comparing them with controls. The authors report improved binder drain-off behaviour under their test conditions; the penetration response varied by binder.",
+      "evidenceState": "source-supported",
+      "sourceId": "rahman-2020-bitumen",
+      "locator": "§2.2; §4",
+      "methodIds": [
+        "material-incorporation"
+      ]
+    },
+    {
+      "id": "jin-2019-asphalt-finding",
+      "title": "A second asphalt study measured mixture performance",
+      "contentKind": "claim",
+      "proposition": "The study describes incorporating cigarette butts into an asphalt mixture and comparing Marshall and rutting test results with an ordinary mixture.",
+      "evidenceState": "source-supported",
+      "sourceId": "jin-2019-asphalt",
+      "locator": "Abstract; road performance tests",
+      "methodIds": [
+        "material-incorporation"
+      ]
+    },
+    {
+      "id": "belzagui-2021-microfibres-finding",
+      "title": "Spent filters released microfibres in water tests",
+      "contentKind": "claim",
+      "proposition": "The authors reported detachment of fibres from smoked filters in water; the fibre-release work was on smoked filters under study conditions, not on a recycling plant wash stream.",
+      "evidenceState": "source-supported",
+      "sourceId": "belzagui-2021-microfibres",
+      "locator": "§4, Conclusions",
+      "methodIds": [
+        "mechanical-physical"
+      ]
+    },
+    {
+      "id": "air-filtration-2026-finding",
+      "title": "A laboratory study tested a butt-derived fibre blend for air filtration",
+      "contentKind": "claim",
+      "proposition": "The authors used recovered cellulose acetate from cigarette butts with polyacrylonitrile to make prototype nanofibre membranes and measured particle filtration and pressure drop.",
+      "evidenceState": "source-supported",
+      "sourceId": "air-filtration-2026",
+      "locator": "Abstract; §3, Results and discussion",
+      "methodIds": [
+        "product-routes"
+      ]
+    },
+    {
+      "id": "dye-photocatalyst-2024-finding",
+      "title": "A laboratory study used recovered cellulose fibres as a catalyst support",
+      "contentKind": "claim",
+      "proposition": "The researchers incorporated recovered cigarette butt cellulose fibres into a photocatalyst composite and evaluated it against model dye solutions.",
+      "evidenceState": "source-supported",
+      "sourceId": "dye-photocatalyst-2024",
+      "locator": "Abstract; §4, Conclusions",
+      "methodIds": [
+        "product-routes"
+      ]
+    },
+    {
+      "id": "tchaomegot-fr3102076b3-finding",
+      "title": "A patent describes extraction before making an insulation product",
+      "contentKind": "claim",
+      "proposition": "A French patent document describes using a supercritical fluid to extract residues from cigarette filters for a proposed insulation application. This is a disclosed route rather than operating evidence.",
+      "evidenceState": "source-supported",
+      "sourceId": "tchaomegot-fr3102076b3",
+      "locator": "Abstract; claim 1",
+      "methodIds": [
+        "thermal"
+      ]
+    },
+    {
+      "id": "terracycle-process-finding",
+      "title": "TerraCycle describes splitting paper and tobacco from the filters",
+      "contentKind": "claim",
+      "proposition": "TerraCycle says it sends separated paper and tobacco to composting, cleans and pelletises the filters by extrusion, and blends the plastic with other polymers for products.",
+      "evidenceState": "source-supported",
+      "sourceId": "terracycle-process",
+      "locator": "How are cigarette butts recycled?",
+      "methodIds": [
+        "thermal"
+      ]
+    },
+    {
+      "id": "code-effort-coverage-finding",
+      "title": "Trade reporting describes Code Effort’s different output streams",
+      "contentKind": "claim",
+      "proposition": "The article describes fibre for stuffing, a paper-derived product, and composting of separated tobacco. It describes chemical treatment broadly; this is not an independent verification of product quality or contaminant fate.",
+      "evidenceState": "source-supported",
+      "sourceId": "code-effort-coverage",
+      "locator": "Code Effort section",
+      "methodIds": [
+        "product-routes"
+      ]
+    },
+    {
+      "id": "recig-trento-permit-finding",
+      "title": "A provincial authorisation documents one site and product route",
+      "contentKind": "claim",
+      "proposition": "The authorisation describes a site-specific route that includes sorting, washing and drying, followed by thermal mixing and granulation. The annex sets conformity requirements for the recovered material; the listed material criteria in Table 2 do not include the four metals tracked by Butt Lab.",
+      "evidenceState": "source-supported",
+      "sourceId": "recig-trento-permit",
+      "locator": "Annex 1; Sub-annex 1.1, Table 2",
+      "methodIds": [
+        "thermal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: recig-trento-permit
+title: Re-Cig Civezzano waste-treatment authorisation
+publicationState: approved
+auditAliases: []
+kind: source
+citation: Re-Cig Civezzano waste-treatment authorisation — APPA · Autonomous Province of Trento (company-hosted copy), 2025 authorisation annex.
+sourceType: regulatory
+publisherOrIssuer: APPA · Autonomous Province of Trento (company-hosted copy)
+versionOrDate: 2025 authorisation annex
+originalUrl: https://www.re-cig.it/wp-content/uploads/2026/04/Autorizzazione-impianto-trattamento-rifiuti.pdf
+accessDate: 2026-11-19
+rights: link-only
+derivatives: []
+claimIds:
+  - recig-trento-permit-finding
+methodIds:
+  - thermal

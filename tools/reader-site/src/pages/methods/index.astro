@@ -1,70 +1,89 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getBundle, recordsOfKind } from "../../lib/bundle";
-import { scoreSummary } from "../../lib/format";
-import type { AssessmentRecord, MethodFamilyRecord } from "../../lib/types";
 
 const bundle = getBundle();
-const families = (recordsOfKind(bundle, "method-family") as MethodFamilyRecord[]).sort((a, b) =>
-  a.id.localeCompare(b.id),
-);
+const families = recordsOfKind(bundle, "method-family");
+const familyById = new Map(families.map((family) => [family.id, family]));
 
-const assessmentsFor = (family: MethodFamilyRecord): AssessmentRecord[] =>
-  family.assessmentIds
-    .map((id) => bundle.records.get(id))
-    .filter((record): record is AssessmentRecord => Boolean(record));
+// Brief reader-facing descriptions of existing family records and open questions.
+// The detailed evidence and qualifications stay on the linked method pages.
+const introductions = {
+  "mechanical-physical": {
+    approach: "Separate the filter from the rest of the butt and wash the fibres.",
+    question: "What ends up in the wash water or discarded solids, and what stays in the fibre?",
+  },
+  chemical: {
+    approach: "Dissolve the filter plastic to separate it from other material, then recover it as a solid.",
+    question: "What contaminants remain in the used solvent, and how can that waste be managed?",
+  },
+  thermal: {
+    approach: "Blend dried butt material into plastic and form it into a composite, without washing first.",
+    question: "Can contaminants escape as the composite ages in rain, heat, or sunlight?",
+  },
+  "material-incorporation": {
+    approach: "Use butt material as an ingredient in a construction material such as bricks or asphalt.",
+    question: "Do contaminants escape during manufacturing or over the product’s lifetime?",
+  },
+  biological: {
+    approach: "Use enzymes or microorganisms to break down or modify parts of the butt.",
+    question: "Do nicotine and other residues break down, change into other compounds, or move into the treatment medium?",
+  },
+  "product-routes": {
+    approach: "Explore potential uses for recovered butt material. This is a survey of end uses, not a treatment process.",
+    question: "Which product requirements would each candidate use have to meet?",
+  },
+};
 
-const scored = (family: MethodFamilyRecord) =>
-  assessmentsFor(family).filter((assessment) => assessment.status === "scored").length;
-const unknown = (family: MethodFamilyRecord) =>
-  assessmentsFor(family).filter((assessment) => assessment.status === "unknown").length;
+const cards = Object.entries(introductions).flatMap(([id, introduction]) => {
+  const family = familyById.get(id);
+  return family ? [{ family, ...introduction }] : [];
+});
+// Don't hide newly published families before their short introductions are written.
+for (const family of families) {
+  if (!Object.hasOwn(introductions, family.id)) {
+    const gap = bundle.records.get(family.gapIds[0] ?? "");
+    cards.push({ family, approach: family.summary, question: gap?.kind === "gap" ? gap.question : "" });
+  }
+}
 ---
 
 <BaseLayout
-  title="Methods — the six recycling families"
-  description="Every published cigarette-butt recycling method family, explained on its own, with its assessment states and open questions."
-  eyebrow="Methods"
+  title="Cigarette-butt recycling methods"
+  description="Browse cigarette-butt treatment methods, the materials they aim to produce, and what the evidence has yet to answer."
+  eyebrow="Research guide"
 >
-  <h1>The six method families</h1>
+  <h1>Recycling methods</h1>
   <p class="page__lede">
-    A family is a group of routes that work on the material in a broadly similar way. Each page below
-    explains one family on its own terms: what it starts from, what it does, where the material and
-    the contamination go, what the evidence supports, and what is still missing.
+    Browse reported ways to treat cigarette butts and possible uses for the recovered material.
+    Start with what each route aims to produce and what’s still unknown.
   </p>
 
-  <ul class="record-list family-list">
-    {
-      families.map((family) => (
-        <li class="family-row">
-          <h2 class="family-row__title">
-            <a href={`/methods/${family.id}/`}>{family.title}</a>
-          </h2>
-          <p class="family-row__summary">{family.summary}</p>
-          <p class="family-row__meta mono">
-            <span class="record-id">{family.id}</span> · {scored(family)} criteria scored · {unknown(family)}{" "}
-            unknown
-          </p>
-        </li>
-      ))
-    }
-  </ul>
+  <nav class="page-actions" aria-label="Related ways to explore">
+    <a class="action action--primary" href="/methods/examples/">Worked examples</a>
+    <a class="action action--quiet" href="/compare/">Compare evidence</a>
+  </nav>
 
-  <section class="section" aria-labelledby="how-to-read-a-family">
-    <div class="section__heading">
-      <h2 id="how-to-read-a-family">How to read a family page</h2>
-    </div>
-    <div class="prose">
-      <p>
-        Every family page carries the same eleven sections in the same order, so two families can be
-        read against each other without hunting. The assessment table scores one criterion at a time
-        against that criterion's own rubric. An unknown is a result: it means the evidence needed to
-        answer the criterion was not located, and it is never turned into a zero.
-      </p>
-      <p>
-        To put two families side by side, use <a href="/compare/">Compare evidence</a>. It sorts by one
-        criterion at a time and can reorder the list to put the unknowns first, which is the fastest way
-        to find where the record is thinnest.
-      </p>
-    </div>
-  </section>
+  <ul class="family-grid" aria-label="Method families">
+    {cards.map(({ family, approach, question }) => (
+      <li>
+        <h2><a href={`/methods/${family.id}/`}>{family.title}</a></h2>
+        <p>{approach}</p>
+        <dl class="family-grid__details">
+          {family.products.length > 0 && (
+            <>
+              <dt>{family.id === "product-routes" ? "Possible outputs" : "Target output"}</dt>
+              <dd>{family.products.map((product) => product.label).join("; ")}</dd>
+            </>
+          )}
+          {question && (
+            <>
+              <dt>Open question</dt>
+              <dd>{question}</dd>
+            </>
+          )}
+        </dl>
+      </li>
+    ))}
+  </ul>
 </BaseLayout>

@@ -316,3 +316,24 @@ tests / 176 pass / 0 fail with a clean typecheck.
 `https://butt-lab.<your-workers-subdomain>.workers.dev`. Nothing is online until then.
 Nothing is published or experimentally validated; the knowledge base is unchanged in
 substance, and the reader site's disclosures now match what the corpus carries.
+
+## 2026-11-19 — Reader, evidence and workflow refresh
+
+Inspected both feature tips without changing branches; the reader work is already in `main` and the publication branch's 59 extra library images do not extend the bibliography. Verified the live Worker served the earlier reader. Recorded the historical audit/packaging failures and the scope of local reproduction in `docs/READER-REFRESH.md`.
+
+Screened the 36-PDF working shelf, maintained a disposition list, added selected library and online sources, and corrected a duplicate/incorrect citation. Rebuilt the reader around method examples, a grouped bibliography, explicit evidence and assumption labels, and a featured comparative design with dimensionless scenario calculations. Published no raw third-party files. Added the reusable playbook and simplified the active orientation and release steps.
+
+The refreshed content passed publication validation and the release audit. The live site was not changed. The operator's next action is to approve and deploy the new exact artifact; the next evidence pass should use the library ledger to deepen one route comparison rather than re-run the old stages.
+
+## 2026-11-19 — Separate the operator workflow and prepare the local library
+
+Removed the research playbook from public routes, export, navigation and Pagefind. Kept a Git-ignored local copy. Documented branch/worktree relationships and ownership of original sources, reading copies, research records, the publication allowlist and the reader. Generated page-indexed Markdown and images locally: 55 input paths, 51 unique PDFs, 1,773 pages, 138 OCR pages, 45 no-text pages with images, and no failed files. Verified PDF/image links and page line locators against the generated inventory. This is preparation for research, not a full review of the source claims.
+
+Added method-page jump links, expandable evidence/audit details and catalogue filtering. Verified the playbook path returns 404 in the build and the public source count is unchanged. Tests and the release audit passed; production remains on its earlier version. Deep source checks and a final reader review remain open.
+
+
+## 2026-11-19 — Navigation, licensed PDFs and reviewer delivery preparation
+
+Simplified the preview to one main navigation path with a More disclosure. Centered article-style pages and the AI proposal, kept wide tables usable, improved source hierarchy, and fixed search and comparison interaction issues. Two originals with verified Creative Commons permissions were added to the public release allowlist (r3); the working-library files were not moved. The updated public reader is not deployed.
+
+The operator clarified that GitHub visibility is temporary for tooling and that the original PDFs came from a private evidence repository. Prepared a password-protected local viewer and a separate Cloudflare reviewer Worker with a private-bucket upload tool. The ignored inventory lists 55 paths and 51 distinct originals. The hosted reviewer inventory is awaiting per-file sharing clearance; no assets were uploaded, no credentials were set, and no repository settings or branches were changed. Current setup and next actions live in `docs/REVIEWER-LIBRARY.md` and `state/workflow.yaml`. The next research task is the alkaline-pulping cross-check.

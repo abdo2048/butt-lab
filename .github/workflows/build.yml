@@ -37,6 +37,11 @@ jobs:
         working-directory: tools/reader-site
         run: npm ci
 
+      - name: Test the separate reviewer library
+        run: |
+          node --test tools/reviewer-gateway/worker.test.mjs
+          python3 -m unittest discover -s tests -p 'test*reviewer*.py'
+
       - name: Validate the publication layer
         working-directory: tools/publication-contract
         run: npm run validate
@@ -59,12 +64,12 @@ jobs:
 
       - name: Run the release audit
         working-directory: tools/reader-site
-        run: npm run audit:release
+        shell: bash
+        run: npm run audit:release | tee -a "$GITHUB_STEP_SUMMARY"
 
       - name: Assemble the content-addressed artifact
         working-directory: tools/reader-site
         env:
-          PUBLICATION_VERSION: batch-02-pilot
           SOURCE_COMMIT: ${{ github.sha }}
         run: node scripts/build-artifact.ts
 

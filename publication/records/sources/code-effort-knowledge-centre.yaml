@@ -1,0 +1,17 @@
+schemaVersion: 1
+id: code-effort-knowledge-centre
+title: Code Effort Knowledge Center
+publicationState: approved
+auditAliases: []
+kind: source
+citation: Code Effort Knowledge Center — Code Effort, Company page as accessed.
+sourceType: company
+publisherOrIssuer: Code Effort
+versionOrDate: Company page as accessed
+originalUrl: https://codeefforts.com/pages/knowledge-center
+accessDate: 2026-11-19
+rights: link-only
+derivatives: []
+claimIds: []
+methodIds:
+  - product-routes

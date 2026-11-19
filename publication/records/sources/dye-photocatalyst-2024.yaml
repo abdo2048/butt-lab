@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: dye-photocatalyst-2024
+title: Photocatalyst on cellulose fibres from recycled cigarette butts for dye degradation
+publicationState: approved
+auditAliases: []
+kind: source
+citation: Photocatalyst on cellulose fibres from recycled cigarette butts for dye degradation — Journal of Molecular Liquids, 2024, 398:124261.
+sourceType: paper
+publisherOrIssuer: Journal of Molecular Liquids
+versionOrDate: 2024, 398:124261
+originalUrl: https://doi.org/10.1016/j.molliq.2024.124261
+accessDate: 2026-11-19
+rights: link-only
+derivatives: []
+claimIds:
+  - dye-photocatalyst-2024-finding
+methodIds:
+  - product-routes

@@ -1,54 +1,22 @@
-# How this research was produced
+# How the research was done
 
-This page describes the method actually used, so that a reader can judge how much weight to put on the results. It is written to be read sceptically: the point is to make the limits of the process visible, not to defend it.
+Butt Lab is AI-assisted desk research. It collects published and company-reported methods, explains what each route does, identifies missing evidence, and proposes ideas that a qualified team could examine independently. No physical measurement, pilot or field trial was performed for this project.
 
-No experiment, pilot or field trial was carried out at any point, and nothing on this site authorises one.
+## What we separate
 
-## The five stages
+- **Reported:** A source says or measures something. A patent disclosure, company description, laboratory result and independent plant trial do not carry the same weight.
+- **AI inference:** An explanation reasoned from the sources. It may be useful, but it is not a statement from the source.
+- **AI hypothesis:** A possible explanation or a new process idea with assumptions and a way to test it. It does not replace missing measurements or reconstruct an undisclosed commercial recipe.
+- **Unknown:** Evidence has not established an answer in this review. It does not mean zero and does not prove that no one has published an answer.
 
-1. **Harvest.** Sources were collected and the coverage of the search was recorded, including what could not be reached. The selected leads were traceable, and what was inaccessible was stated rather than glossed over.
-2. **Deep dive.** Each selected source was reconstructed in detail: the mechanism, the inputs, the outputs, the claimed results, the quantities actually reported, and the places where the source runs out of detail. A separate ledger recorded assumptions and open questions.
-3. **Red team.** A panel of three workers attacked the evidence from different angles, then a judge adjudicated. The panel's recommendation was REVISE, and the required revisions were carried forward rather than dropped.
-4. **Invention.** A separate inventor stage proposed process variants. Every proposal was required to state its assumptions, its failure modes, and the specific observation that would kill it.
-5. **Synthesis.** The accepted stage outputs were combined into a final synthesis and a validation agenda.
+## How the project evolved
 
-## Who actually did the work, and who did not
+The first desk pass looked for routes and their sources, reconstructed selected methods and asked AI reviewers to challenge them. It used multiple AI sessions, not verified independent reviewers. A later single-AI pass grouped routes for the website and developed its own suggestions. The current update checked the working library, corrected a duplicate citation, and added selected source-backed examples and a candidate design for review. The published bibliography is not an exhaustive audit of every acquired document or a systematic review of all research.
 
-This matters, so it is stated plainly.
+## What would improve the evidence
 
-- Stages 3 and 4 used a three-worker panel with a judge. The worker identities were recorded as operator-reported: one worker by Nemotron 3.5 Lightning, one by MiniMax M3, and one by DeepSeek web chat with the model version unverified. The judge and the packet author were also artificial-intelligence systems.
-- **No model diversity was established.** Model-family reuse among the workers, the judge and the packet author is unknown, so three workers are not three independent opinions in the sense a reader might assume.
-- **The batch-02 desk cycle did not use a panel at all.** It was a single artificial-intelligence execution, with no three-model panel and no judge packet. The method-family explanations, the invention sketch, the Egypt annex and the handoff brief should be read as a disciplined single-perspective synthesis, not as an independently reviewed result.
-- The identity of the model behind any particular passage is recorded where it was displayed, and is otherwise unknown. A new session is not evidence of model diversity.
+Start with a specific claim on a method page and ask how it could be wrong. For recovery claims, track what leaves in the recovered material, rejects, liquid and air. Product performance needs separate evidence for a specified use. Do not infer safety from appearance, odour, material identity, or a balanced total mass. For cadmium, lead, arsenic and mercury, an uncharacterised stream stays unresolved; it does not get a product or disposal clearance from this project.
 
-## What was never done
+If you have a correction, [open a public research note](https://github.com/abdo2048/butt-lab/issues/new) with the page, the exact claim, an original source with a page or section, and what you would change. Do not share private or identifiable data. For a lab result, include the feedstock, controls, uncertainty and where the materials went.
 
-- No laboratory measurement, pilot or field trial.
-- No prior-art or patentability search, so no novelty claim and no freedom-to-operate determination.
-- No regulatory or product-safety determination for any jurisdiction.
-- No life-cycle assessment of any commercial process, because no independent public full life-cycle assessment of a commercial butt-recycling process was located.
-- No numerical value invented where a source did not state one.
-- No consensus recorded as a safety conclusion, and no dissent discarded to make a result look cleaner.
-
-## The rules that governed the writing
-
-- **Source, measurement, estimate and observation are kept apart.** A number a source reported is not the same as a number someone calculated, and neither is the same as a number that was observed.
-- **Units and mass basis are stated.** A dry-feed basis and a received-wet basis are not interchangeable.
-- **Claims, assessments, gaps and hypotheses carry their status.** Supported by a located source, sources disagree, no located source, reasoned from located sources, or an AI proposal; assessments add a basis and a scored or unknown result, gaps need human validation, and hypotheses are new and unvalidated.
-- **A missing number stays missing.** Where a criterion, sample count, method performance, price, operating condition or partition value could not be located, it was left as parameter-not-located rather than filled with a plausible figure.
-- **Retrieved content is treated as data, never as instructions.** A document that says to do something is evidence about that document, not a command.
-
-## How a reader should weigh this
-
-The safest way to read this site is as a map of where the evidence is thin rather than a conclusion about which route is best. The comparison criteria are deliberately not averaged into a single score, because averaging a missing value into a present one would produce a ranking the evidence does not support.
-
-Where a proposal is marked as a new and unvalidated hypothesis, the useful response is not to accept or reject it but to ask what measurement would decide it. Each published hypothesis carries falsifiers for exactly that reason.
-
-## Audit trail
-
-- Publication version: `batch-02-pilot`
-- Content contract version: `1.0.0`
-- Stage record: the accepted stage outputs for the first desk cycle, and the batch-02 desk cycle deliverables.
-- Machine-readable manifest: every published record and page, with a content hash for each.
-
-This page was produced by desk research on 2026-11-16. It does not assert that any method is safe, clean, commercial, novel or approved, and it does not authorise any experiment.
+This site does not authorise any experiment.

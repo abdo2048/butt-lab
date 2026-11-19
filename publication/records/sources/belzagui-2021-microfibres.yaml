@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: belzagui-2021-microfibres
+title: Cigarette butts as a microfiber source with a microplastic level of concern
+publicationState: approved
+auditAliases: []
+kind: source
+citation: Cigarette butts as a microfiber source with a microplastic level of concern — Belzagui et al. · Science of the Total Environment, 2021, 762:144165.
+sourceType: paper
+publisherOrIssuer: Belzagui et al. · Science of the Total Environment
+versionOrDate: 2021, 762:144165
+originalUrl: https://doi.org/10.1016/j.scitotenv.2020.144165
+accessDate: 2026-11-19
+rights: link-only
+derivatives: []
+claimIds:
+  - belzagui-2021-microfibres-finding
+methodIds:
+  - mechanical-physical

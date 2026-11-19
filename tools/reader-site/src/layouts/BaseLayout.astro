@@ -6,26 +6,26 @@ import "../styles/base.css";
 interface Props {
   title: string;
   description: string;
-  recordId?: string;
   eyebrow?: string;
+  layout?: "wide" | "reading";
 }
 
-const { title, description, recordId, eyebrow } = Astro.props;
+const { title, description, eyebrow, layout = "wide" } = Astro.props;
 const pathname = Astro.url.pathname;
 
 const primaryNav = [
   { href: "/start/", label: "Start here" },
   { href: "/methods/", label: "Methods" },
-  { href: "/compare/", label: "Compare evidence" },
+  { href: "/compare/", label: "Compare" },
   { href: "/sources/", label: "Sources" },
-  { href: "/glossary/", label: "Glossary" },
 ];
 
-const secondaryNav = [
-  { href: "/invention/", label: "New invention" },
-  { href: "/egypt/", label: "Egypt annex" },
-  { href: "/research-method/", label: "How the research was produced" },
-  { href: "/limitations/", label: "Audit links and limitations" },
+const moreNav = [
+  { href: "/invention/", label: "AI proposals" },
+  { href: "/glossary/", label: "Glossary" },
+  { href: "/egypt/", label: "Egypt" },
+  { href: "/research-method/", label: "About the evidence" },
+  { href: "/limitations/", label: "Limitations" },
 ];
 
 const isCurrent = (href: string): boolean =>
@@ -54,18 +54,37 @@ const pageTitle = title.endsWith("— Butt Lab") ? title : `${title} — Butt La
         >
         <p class="site-header__tagline">Cigarette-butt recycling evidence</p>
 
-        <form class="search" id="search-form" role="search" novalidate>
+        <button type="button" class="site-search-toggle" id="search-toggle" aria-expanded="false" aria-controls="search-form search-feedback" hidden>Search</button>
+        <details class="nav-more">
+          <summary>More</summary>
+          <nav aria-label="More pages">
+            <ul>
+              {moreNav.map((item) => (
+                <li><a href={item.href} aria-current={isCurrent(item.href) ? "page" : undefined}>{item.label}</a></li>
+              ))}
+            </ul>
+          </nav>
+        </details>
+
+        <form class="search" id="search-form" role="search" novalidate hidden>
           <label class="visually-hidden" for="search-input">Search the reader site</label>
           <input
             id="search-input"
             name="q"
             type="search"
             autocomplete="off"
-            placeholder="Search methods, sources, terms"
+            placeholder="Search Butt Lab"
           />
           <button type="submit">Search</button>
-          <p class="search__status" id="search-status" role="status"></p>
         </form>
+      </div>
+
+      <div class="shell site-search-feedback" id="search-feedback">
+        <div id="search-status" class="search__status" role="status"></div>
+        <div id="search-results" class="search__results" hidden>
+          <ol id="search-hits" aria-label="Search results"></ol>
+          <button class="search__clear" type="button" id="search-clear">Clear search</button>
+        </div>
       </div>
 
       <nav class="shell nav-primary" aria-label="Primary">
@@ -73,7 +92,7 @@ const pageTitle = title.endsWith("— Butt Lab") ? title : `${title} — Butt La
           {
             primaryNav.map((item) => (
               <li>
-                <a href={item.href} aria-current={isCurrent(item.href) ? "page" : undefined}>
+                <a href={item.href} aria-current={isCurrent(item.href) ? (pathname === item.href ? "page" : "location") : undefined}>
                   {item.label}
                 </a>
               </li>
@@ -82,52 +101,30 @@ const pageTitle = title.endsWith("— Butt Lab") ? title : `${title} — Butt La
         </ul>
       </nav>
 
-      <nav class="shell nav-secondary" aria-label="Secondary">
-        <ul>
-          {
-            secondaryNav.map((item) => (
-              <li>
-                <a href={item.href} aria-current={isCurrent(item.href) ? "page" : undefined}>
-                  {item.label}
-                </a>
-              </li>
-            ))
-          }
-        </ul>
-      </nav>
     </header>
 
-    <main id="main" class="shell page" data-pagefind-body>
-      {
-        (eyebrow || recordId) && (
-          <div class="sheet__margin">
-            {eyebrow && <p class="eyebrow">{eyebrow}</p>}
-            {recordId && <p class="record-id">{recordId}</p>}
-          </div>
-        )
-      }
+    <main id="main" class:list={["shell", "page", { "page--reading": layout === "reading" }]} data-pagefind-body>
+      {eyebrow && <p class="eyebrow page__eyebrow">{eyebrow}</p>}
       <slot />
     </main>
 
     <footer class="site-footer">
       <div class="shell">
         <p>
-          Butt Lab is a desk research knowledge base of cigarette-butt recycling methods.
-          Claims, assessments, gaps and hypotheses carry their evidence state; sources,
-          terms, method families and the material record carry the role they play
-          instead. Everything the research assistant added is marked as an AI-generated
-          assumption. It does not assert that any method is safe,
-          clean, validated, costed, or novel, and it does not authorise any experiment. Nothing
-          on this site has been experimentally validated.
+          Butt Lab is AI-assisted desk research. It does not assert that any method is safe or fit for use.
+          No experiment was run by this project, and this site does not authorise one.
         </p>
         <nav class="site-footer__nav" aria-label="Footer">
           <ul>
             <li><a href="/start/">Start here</a></li>
             <li><a href="/methods/">Methods</a></li>
             <li><a href="/compare/">Compare evidence</a></li>
+            <li><a href="/invention/">AI proposals</a></li>
             <li><a href="/sources/">Sources</a></li>
             <li><a href="/glossary/">Glossary</a></li>
-            <li><a href="/research-method/">How the research was produced</a></li>
+            <li><a href="/egypt/">Egypt</a></li>
+            <li><a href="/research-method/">About the evidence</a></li>
+            <li><a href="/limitations/">Limitations</a></li>
           </ul>
         </nav>
       </div>

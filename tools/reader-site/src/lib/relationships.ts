@@ -50,7 +50,7 @@ export function hrefFor(bundle: BundleData, id: string): string | null {
     case "hypothesis":
       return `/invention/#${record.id}`;
     case "material":
-      return `/start/#${record.id}`;
+      return "/start/#what-a-cigarette-butt-actually-is";
     case "claim":
     case "gap":
     case "assessment": {

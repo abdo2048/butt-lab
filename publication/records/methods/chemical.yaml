@@ -94,6 +94,7 @@ claimIds:
   - chemical-metals-removal-unknown
   - chemical-regulatory-status-not-located
   - chemical-inference-purity-is-not-performance
+  - teixeira-2017-pulp-finding
 gapIds:
   - chemical-gap-solvent-fate
   - chemical-gap-unreviewed-pulping-route
@@ -113,7 +114,12 @@ sourceIds:
   - cnr-knowledge-share-ca-recovery
   - defenzo-2020-materials
   - cn106928486
+  - teixeira-2017-pulp
+  - unb-br0305004b1
+  - hudina-wo2026074041a2
+  - teixeira-2016-thesis
 hypothesisIds:
+  - split-before-washing
   - batch-02-invention-sketch
   - batch-02-scientist-inventor-proposals
   - batch-02-evidence-gap-synthesis

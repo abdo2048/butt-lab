@@ -1,0 +1,17 @@
+schemaVersion: 1
+id: terracycle-process-finding
+title: TerraCycle describes splitting paper and tobacco from the filters
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: TerraCycle says it sends separated paper and tobacco to composting, cleans and pelletises the filters by extrusion, and blends the plastic with other polymers for products.
+evidenceState: source-supported
+methodIds:
+  - thermal
+hypothesisIds: []
+sourceId: terracycle-process
+locator: How are cigarette butts recycled?
+counterevidenceClaimIds: []
+reviewer: AI source comparison; no independent review
+reviewDate: 2026-11-19

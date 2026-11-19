@@ -1,4 +1,4 @@
-import { Marked, type Token, type Tokens } from "marked";
+import { Marked, Renderer, type Token, type Tokens } from "marked";
 
 /**
  * Markdown pipeline for the reader site.
@@ -111,6 +111,7 @@ function wrapTerms(value: string, pattern: TermPattern | undefined): string {
 
 function createRenderer(pattern: TermPattern | undefined): Marked {
   const instance = new Marked({ gfm: true, async: false });
+  let insideLink = false;
   instance.use({
     renderer: {
       text(token: Tokens.Text | Tokens.Escape): string {
@@ -125,7 +126,20 @@ function createRenderer(pattern: TermPattern | undefined): Marked {
         if (escaped === true) {
           return token.text;
         }
-        return wrapTerms(escapeMarkup(token.text), pattern);
+        return wrapTerms(escapeMarkup(token.text), insideLink ? undefined : pattern);
+      },
+      link(token: Tokens.Link): string {
+        const previous = insideLink;
+        insideLink = true;
+        try {
+          return Renderer.prototype.link.call(this, token);
+        } finally {
+          insideLink = previous;
+        }
+      },
+      table(token: Tokens.Table): string {
+        const table = Renderer.prototype.table.call(this, token).replace("<table>", '<table class="table">');
+        return `<div class="table-scroll" tabindex="0" role="group" aria-label="Scrollable table">${table}</div>\n`;
       },
       heading(token: Tokens.Heading): string {
         const plain = this.parser.parseInline(token.tokens, this.parser.textRenderer);

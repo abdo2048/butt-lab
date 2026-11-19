@@ -22,6 +22,14 @@ Drying, milling and blending into a thermoplastic binder, followed by extrusion 
 4. **Extrusion into profiles.** The blend is melted and formed into profiles, then cooled and cut. The located company description gives an illustrative melting range and states that it is not a measured reference value.
 5. **End of life.** No located source names a route for the composite at end of life. Burning a composite that contains butt material would release what was sealed inside it.
 
+## Findings from individual routes
+
+These results describe the specific routes or samples reported. They do not change the scope of the family scorecard. See the [worked examples](/methods/examples/) for comparisons and AI hypotheses.
+
+- **A patent describes extraction before making an insulation product.** A French patent document describes using a supercritical fluid to extract residues from cigarette filters for a proposed insulation application. This is a disclosed route rather than operating evidence. [Supercritical-fluid treatment of cigarette butts for insulation](/sources/tchaomegot-fr3102076b3/) (Abstract; claim 1).
+- **TerraCycle describes splitting paper and tobacco from the filters.** TerraCycle says it sends separated paper and tobacco to composting, cleans and pelletises the filters by extrusion, and blends the plastic with other polymers for products. [How cigarette butts are recycled](/sources/terracycle-process/) (How are cigarette butts recycled?).
+- **A provincial authorisation documents one site and product route.** The authorisation describes a site-specific route that includes sorting, washing and drying, followed by thermal mixing and granulation. The annex sets conformity requirements for the recovered material; the listed material criteria in Table 2 do not include the four metals tracked by Butt Lab. [Re-Cig Civezzano waste-treatment authorisation](/sources/recig-trento-permit/) (Annex 1; Sub-annex 1.1, Table 2).
+
 ## Where the material and the contamination go
 
 | Stream | Kind | What it carries | What is known about it |
@@ -54,7 +62,7 @@ Each criterion is scored separately against its own rubric. A score of 1 means a
 ## What is missing, and what is still unknown
 
 - **If the contaminants are sealed inside the composite rather than removed, do they stay there for the life of the product, or do they migrate out under rain, heat and ultraviolet exposure?** The route's entire environmental argument rests on containment holding for as long as the product is in use. If it does not hold, the product becomes a slow source of the same contaminants it was made from.
-- **A dense pressurized-fluid extraction route for cigarette butts is recorded in the project's method record, but it has not been given a reviewed method-family page in this layer. What does it do, and how does it compare with the dry composite route?** The reader would otherwise take this page as a complete account of thermal routes, when one thermal route has been described in the project's records and not yet assessed here.
+- **How does the disclosed dense-fluid extraction route compare with dry treatment on contaminants recovered, residues and product release?** The patent disclosure explains the route but is not a process-level mass balance or an independent performance test.
 - **Should the composite route be described as a recycling route at all?** If the contaminants travel into the product and the product is then used outdoors, the route changes the form of the waste rather than the amount of it, and calling that recycling without qualification would mislead a reader.
 
 ## The human work that would close these gaps
@@ -62,7 +70,7 @@ Each criterion is scored separately against its own rubric. A score of 1 means a
 | Question | Kind of work needed | Validation state |
 | --- | --- | --- |
 | If the contaminants are sealed inside the composite rather than removed, do they stay there for the life of the product, or do they migrate out under rain, heat and ultraviolet exposure? | Controlled laboratory measurement | Needs human validation |
-| A dense pressurized-fluid extraction route for cigarette butts is recorded in the project's method record, but it has not been given a reviewed method-family page in this layer. What does it do, and how does it compare with the dry composite route? | Finding and reading the missing source | Needs human validation |
+| How does the disclosed dense-fluid extraction route compare with dry treatment on contaminants recovered, residues and product release? | Finding and reading the missing source | Needs human validation |
 | Should the composite route be described as a recycling route at all? | Independent product or intended-use testing | Needs human validation |
 
 ## Notes written by the research assistant
@@ -89,6 +97,9 @@ These notes are additions from the research assistant, not source material. Each
 
 - **Keenat - dry treatment and composite valorisation of cigarette butts** — Keenat company materials describing a dry treatment and extrusion-composite route for cigarette butts (FR3110470A1, EP3912739A1). (Keenat, Company materials; EP family from May 2020). [Open the source](https://keenat.com/recyclage-valorisation-megots)
 - **Pyrolysis energy recovery from cigarette butts** — Fuel article on pyrolysis of cigarette butts for energy recovery, reporting triacetin, char and biofuel products. (Fuel (Elsevier), ScienceDirect record S016523702300311X). [Open the source](https://www.sciencedirect.com/science/article/abs/pii/S016523702300311X)
+- **Supercritical-fluid treatment of cigarette butts for insulation** — Supercritical-fluid treatment of cigarette butts for insulation — INPI, FR3102076B3. (INPI, FR3102076B3). [Open the source](https://patents.google.com/patent/FR3102076B3/en)
+- **How cigarette butts are recycled** — How cigarette butts are recycled — TerraCycle · handout hosted by City of Charleston, Undated process handout. (TerraCycle · handout hosted by City of Charleston, Undated process handout). [Open the source](https://www.charleston-sc.gov/DocumentCenter/View/21823)
+- **Re-Cig Civezzano waste-treatment authorisation** — Re-Cig Civezzano waste-treatment authorisation — APPA · Autonomous Province of Trento (company-hosted copy), 2025 authorisation annex. (APPA · Autonomous Province of Trento (company-hosted copy), 2025 authorisation annex). [Open the source](https://www.re-cig.it/wp-content/uploads/2026/04/Autorizzazione-impianto-trattamento-rifiuti.pdf)
 
 ## The four fields a sink needs
 
@@ -108,4 +119,4 @@ Internal record names and versions, for anyone checking this page against the pr
 - Keenat process description — version Keenat company materials — [public record](https://keenat.com/recyclage-valorisation-megots)
 - Pyrolysis energy recovery study — version S016523702300311X — [public record](https://www.sciencedirect.com/science/article/abs/pii/S016523702300311X)
 
-This page was produced by desk research on 2026-11-16. It does not assert that the method is safe, clean, commercial, novel or approved, and it does not authorise any experiment.
+This page was produced by desk research. It does not assert that the method is safe, clean, commercial, novel or approved, and it does not authorise any experiment.

@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: terracycle-process
+title: How cigarette butts are recycled
+publicationState: approved
+auditAliases: []
+kind: source
+citation: How cigarette butts are recycled — TerraCycle · handout hosted by City of Charleston, Undated process handout.
+sourceType: company
+publisherOrIssuer: TerraCycle · handout hosted by City of Charleston
+versionOrDate: Undated process handout
+originalUrl: https://www.charleston-sc.gov/DocumentCenter/View/21823
+accessDate: 2026-11-19
+rights: link-only
+derivatives: []
+claimIds:
+  - terracycle-process-finding
+methodIds:
+  - thermal

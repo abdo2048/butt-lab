@@ -88,6 +88,9 @@ claimIds:
   - product-routes-metals-measurement-required
   - product-routes-regulatory-status-not-located
   - product-routes-inference-routes-inherit-contamination
+  - air-filtration-2026-finding
+  - dye-photocatalyst-2024-finding
+  - code-effort-coverage-finding
 gapIds:
   - product-routes-gap-no-gate-any-route
   - product-routes-gap-energy-recovery-is-not-recycling
@@ -107,7 +110,13 @@ sourceIds:
   - 3d-printing-filament
   - cigarette-butt-asphalt
   - pyrolysis-energy-recovery
+  - air-filtration-2026
+  - dye-photocatalyst-2024
+  - tchaomegot-fr3102075b1
+  - code-effort-knowledge-centre
+  - code-effort-coverage
 hypothesisIds:
+  - split-before-washing
   - batch-02-invention-sketch
   - batch-02-scientist-inventor-proposals
   - batch-02-evidence-gap-synthesis

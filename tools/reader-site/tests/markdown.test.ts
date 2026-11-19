@@ -103,7 +103,7 @@ test("splitSectionBody leaves a body without a scorecard untouched", () => {
 test("renderMarkdown renders an unrelated table as a table", () => {
   const table = "| Stream | Kind |\n| --- | --- |\n| fibre | product |\n";
   const html = renderMarkdown(table, { terms: [] });
-  assert.match(html, /<table>/);
+  assert.match(html, /<div class="table-scroll" tabindex="0"[^>]*><table class="table">/);
   assert.match(html, /<th>Stream<\/th>/);
 });
 
@@ -143,4 +143,11 @@ test("splitDisclaimer leaves an empty prose when the body is only the disclaimer
 test("splitDisclaimer does not mistake an ordinary sentence for the disclaimer", () => {
   const parts = splitDisclaimer("This page was produced by desk research in an earlier draft.");
   assert.equal(parts.disclaimer, undefined);
+});
+
+
+test("renderMarkdown leaves linked glossary terms inside their original link", () => {
+  const html = renderMarkdown("[Heavy metals](/sources/) and heavy metals.", { terms: TERMS });
+  assert.match(html, /<a href="\/sources\/">Heavy metals<\/a>/);
+  assert.equal(html.match(/class="term"/g)?.length, 1);
 });

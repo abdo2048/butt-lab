@@ -142,6 +142,9 @@ export const SourceRecordSchema = BaseRecordSchema.extend({
       sha256: Sha256Schema,
     })
     .optional(),
+  redistributionLicense: z
+    .strictObject({ name: NonemptyStringSchema, url: HttpUrlSchema })
+    .optional(),
   rights: SourceRightSchema,
   derivatives: z.array(DerivativeSchema),
   claimIds: z.array(StableIdSchema),

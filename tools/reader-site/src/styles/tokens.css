@@ -51,7 +51,7 @@
   --gutter: 1.25rem;
   --gap: 1rem;
   --gap-lg: 2rem;
-  --radius: 2px;
+  --radius: 8px;
 
   /* --- motion ----------------------------------------------------- */
   --motion-fast: 120ms;

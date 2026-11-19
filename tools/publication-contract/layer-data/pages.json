@@ -23,6 +23,12 @@
       "file": "limitations.md",
       "title": "Limitations and open questions",
       "route": "/limitations/"
+    },
+    {
+      "id": "evidence-map",
+      "file": "evidence-map.md",
+      "title": "From sources to recycling methods",
+      "route": "/methods/examples/"
     }
   ]
 }

@@ -1,16 +1,16 @@
 schemaVersion: 1
 id: chemical-gap-unreviewed-pulping-route
-title: An alkaline pulping route has no reviewed method page in this layer
+title: Alkaline pulping has no complete comparison with solvent recovery
 publicationState: approved
 auditAliases: []
 kind: gap
 contentKind: unresolved-question
-question: An alkaline pulping route that takes the material towards cellulose rather than back to acetate is recorded in the project's method record, but it has not been given a reviewed method-family page in this layer. How does it compare with solvent dissolution?
+question: Can alkaline pulping and solvent recovery be compared on product quality and the full fate of their liquid and solid waste streams?
 gapType: method-coverage
-whyItMatters: This page would otherwise read as a complete account of the chemical routes, when a second chemical route exists in the project's records and has not been assessed here.
+whyItMatters: Alkaline pulping produces cellulose pulp, not recovered cellulose acetate. Reusing the liquor in reported tests does not account for long-term buildup, solids, or any eventual purge.
 affectedRecordIds:
   - chemical
 evidenceState: source-not-located
 validationState: requires-human-validation
 nextHumanWork: source-retrieval
-falsifierOrDecisionCondition: A reviewed method page with its own claims, gaps and assessments would close this gap and show where the pulping route sits against solvent dissolution.
+falsifierOrDecisionCondition: A comparison needs matched input and output measurements, a documented purge or residuals route, and separate performance criteria for pulp and acetate.
