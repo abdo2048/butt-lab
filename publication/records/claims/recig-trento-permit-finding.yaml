@@ -1,0 +1,17 @@
+schemaVersion: 1
+id: recig-trento-permit-finding
+title: A provincial authorisation documents one site and product route
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: The authorisation describes a site-specific route that includes sorting, washing and drying, followed by thermal mixing and granulation. The annex sets conformity requirements for the recovered material; the listed material criteria in Table 2 do not include the four metals tracked by Butt Lab.
+evidenceState: source-supported
+methodIds:
+  - thermal
+hypothesisIds: []
+sourceId: recig-trento-permit
+locator: Annex 1; Sub-annex 1.1, Table 2
+counterevidenceClaimIds: []
+reviewer: AI source comparison; no independent review
+reviewDate: 2026-11-19

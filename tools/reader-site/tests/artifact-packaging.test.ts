@@ -8,6 +8,7 @@ import { fileURLToPath } from "node:url";
 import {
   buildArtifact,
   defaultSourceDir,
+  readPublicationVersion,
 } from "../scripts/build-artifact.ts";
 
 const here = dirname(fileURLToPath(import.meta.url));
@@ -93,4 +94,15 @@ test("no packaging command is told to read the source from a parent directory", 
       );
     }
   }
+});
+
+
+test("packaging takes the publication version from the staged bundle and rejects a stale override", (t) => {
+  const source = sourceTree(t);
+  mkdirSync(join(source, "src", "content", "bundle"), { recursive: true });
+  writeFileSync(join(source, "src", "content", "bundle", "bundle-manifest.json"),
+    JSON.stringify({ publicationVersion: "current-version" }));
+  writeFileSync(join(source, "bundle-manifest.json"), JSON.stringify({ publicationVersion: "older-copy" }));
+  assert.equal(readPublicationVersion(source), "current-version");
+  assert.throws(() => readPublicationVersion(source, "older-version"), /staged bundle is current-version/);
 });

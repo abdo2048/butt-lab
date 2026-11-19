@@ -8,10 +8,9 @@ interface Props {
   eyebrow: string;
   title?: string | undefined;
   description?: string | undefined;
-  recordId?: string | undefined;
 }
 
-const { pageId, eyebrow, title, description, recordId } = Astro.props;
+const { pageId, eyebrow, title, description } = Astro.props;
 
 const bundle = getBundle();
 const page = bundle.pages.get(pageId);
@@ -39,7 +38,6 @@ const disclaimer = sections.map((section) => section.disclaimer).find((value) =>
   title={`${title ?? parsed.title} — Butt Lab`}
   description={description ?? parsed.title}
   eyebrow={eyebrow}
-  recordId={recordId ?? pageId}
 >
   <h1>{title ?? parsed.title}</h1>
 

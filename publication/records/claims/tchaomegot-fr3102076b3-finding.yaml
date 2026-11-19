@@ -1,0 +1,17 @@
+schemaVersion: 1
+id: tchaomegot-fr3102076b3-finding
+title: A patent describes extraction before making an insulation product
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: A French patent document describes using a supercritical fluid to extract residues from cigarette filters for a proposed insulation application. This is a disclosed route rather than operating evidence.
+evidenceState: source-supported
+methodIds:
+  - thermal
+hypothesisIds: []
+sourceId: tchaomegot-fr3102076b3
+locator: Abstract; claim 1
+counterevidenceClaimIds: []
+reviewer: AI source comparison; no independent review
+reviewDate: 2026-11-19

@@ -1,0 +1,17 @@
+schemaVersion: 1
+id: rahman-2020-bitumen-finding
+title: Filter fibre changed the properties of asphalt binder
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: The paper describes adding cigarette butt fibre to several bitumen binders and comparing them with controls. The authors report improved binder drain-off behaviour under their test conditions; the penetration response varied by binder.
+evidenceState: source-supported
+methodIds:
+  - material-incorporation
+hypothesisIds: []
+sourceId: rahman-2020-bitumen
+locator: §2.2; §4
+counterevidenceClaimIds: []
+reviewer: AI source comparison; no independent review
+reviewDate: 2026-11-19

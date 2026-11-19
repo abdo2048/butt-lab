@@ -1,8 +1,6 @@
 # Five-stage controller and resume protocol
 
-> **Superseded on 2026-11-17.** The research is closed and this controller is frozen
-> history. The current work is the reader platform. Read `state/workflow.yaml` (current
-> state) and `docs/BUILD-PLAN.md` (active plan) instead.
+> **Historical controller.** The original five-stage desk cycle is closed. For current reader and research work, start with `START_HERE.md` and `state/workflow.yaml`; the stages below are provenance.
 
 This is file-directed AI work, not a deployed scheduler or multi-model API integration. Operator triggers a working session once; AUTO chooses subsequent units until a gate/limit. Host approvals still govern external writes.
 

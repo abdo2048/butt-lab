@@ -29,6 +29,13 @@ Butt material is physically incorporated into a host matrix at a stated rate, mi
 4. **Forming, curing and firing.** The blend is formed into the product and then cured, fired or cooled. Where butt material is fired, the located source material records warn that volatile compounds would be released to the air and that emission controls would be needed.
 5. **End of life.** No located source names a route for a product that contains butt material when it is demolished or discarded, and demolition waste containing butt material would need separate handling.
 
+## Findings from individual routes
+
+These results describe the specific routes or samples reported. They do not change the scope of the family scorecard. See the [worked examples](/methods/examples/) for comparisons and AI hypotheses.
+
+- **Filter fibre changed the properties of asphalt binder.** The paper describes adding cigarette butt fibre to several bitumen binders and comparing them with controls. The authors report improved binder drain-off behaviour under their test conditions; the penetration response varied by binder. [Possible recycling of cigarette butts as fiber modifier in bitumen for asphalt concrete](/sources/rahman-2020-bitumen/) (§2.2; §4).
+- **A second asphalt study measured mixture performance.** The study describes incorporating cigarette butts into an asphalt mixture and comparing Marshall and rutting test results with an ordinary mixture. [Research on the road performance of cigarette butts modified asphalt mixture](/sources/jin-2019-asphalt/) (Abstract; road performance tests).
+
 ## Where the material and the contamination go
 
 | Stream | Kind | What it carries | What is known about it |
@@ -97,6 +104,9 @@ These notes are additions from the research assistant, not source material. Each
 
 - **RMIT University cigarette butt brick-making study** — Lab Manager news report on RMIT University research making bricks from cigarette butt material at a low inclusion rate, with a claimed energy reduction. (Lab Manager, reporting RMIT University research, News report of a university study). [Open the source](https://www.labmanager.com/how-cigarette-butts-can-be-recycled-into-bricks-23843)
 - **Cigarette butts mixed with asphalt** — Ceramics Monthly technical article on mixing cigarette butt material into asphalt for road construction. (American Ceramic Society, Ceramic Tech Today, Technical article). [Open the source](https://ceramics.org/ceramic-tech-today/cigarette-butts-mixed-with-asphalt-create-new-pavement-material/)
+- **Possible recycling of cigarette butts as fiber modifier in bitumen for asphalt concrete** — Possible recycling of cigarette butts as fiber modifier in bitumen for asphalt concrete — Rahman, Mohajerani & Giustozzi · Materials, 2020, 13:734. (Rahman, Mohajerani & Giustozzi · Materials, 2020, 13:734). [Open the source](https://doi.org/10.3390/ma13030734)
+- **Recycling of cigarette butts in fired clay bricks: A new laboratory investigation** — Recycling of cigarette butts in fired clay bricks: A new laboratory investigation — Kurmus & Mohajerani · Materials, 2020, 13:790. (Kurmus & Mohajerani · Materials, 2020, 13:790). [Open the source](https://doi.org/10.3390/ma13030790)
+- **Research on the road performance of cigarette butts modified asphalt mixture** — Research on the road performance of cigarette butts modified asphalt mixture — Jin et al. · Journal of Physics: Conference Series, 2019, 1168:022053. (Jin et al. · Journal of Physics: Conference Series, 2019, 1168:022053). [Open the source](https://doi.org/10.1088/1742-6596/1168/2/022053)
 
 ## The four fields a sink needs
 
@@ -116,4 +126,4 @@ Internal record names and versions, for anyone checking this page against the pr
 - RMIT University brick-making study — version Trade-press report of the university study — [public record](https://www.labmanager.com/how-cigarette-butts-can-be-recycled-into-bricks-23843)
 - Cigarette butts mixed with asphalt — version Ceramic Tech Today article — [public record](https://ceramics.org/ceramic-tech-today/cigarette-butts-mixed-with-asphalt-create-new-pavement-material/)
 
-This page was produced by desk research on 2026-11-16. It does not assert that the method is safe, clean, commercial, novel or approved, and it does not authorise any experiment.
+This page was produced by desk research. It does not assert that the method is safe, clean, commercial, novel or approved, and it does not authorise any experiment.

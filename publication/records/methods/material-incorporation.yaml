@@ -87,6 +87,8 @@ claimIds:
   - material-incorporation-metals-retained
   - material-incorporation-regulatory-status-not-located
   - material-incorporation-inference-energy-claim-not-comparable
+  - rahman-2020-bitumen-finding
+  - jin-2019-asphalt-finding
 gapIds:
   - material-incorporation-gap-leaching-and-firing
   - material-incorporation-gap-incorporation-rate
@@ -105,7 +107,11 @@ termIds:
 sourceIds:
   - rmit-brick-making
   - cigarette-butt-asphalt
+  - rahman-2020-bitumen
+  - kurmus-2020-bricks
+  - jin-2019-asphalt
 hypothesisIds:
+  - split-before-washing
   - batch-02-invention-sketch
   - batch-02-scientist-inventor-proposals
   - batch-02-evidence-gap-synthesis

@@ -8,6 +8,7 @@ import fs from "node:fs";
 import path from "node:path";
 import test from "node:test";
 import { fileURLToPath } from "node:url";
+import { JSDOM } from "jsdom";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const siteRoot = path.resolve(here, "..");
@@ -57,9 +58,11 @@ const staticRoutes = [
   { route: "/compare/", file: ["compare", "index.html"], contains: "Compare evidence" },
   { route: "/sources/", file: ["sources", "index.html"], contains: "Sources" },
   { route: "/glossary/", file: ["glossary", "index.html"], contains: "Glossary" },
-  { route: "/invention/", file: ["invention", "index.html"], contains: "invention" },
+  { route: "/invention/", file: ["invention", "index.html"], contains: "AI proposals" },
   { route: "/egypt/", file: ["egypt", "index.html"], contains: "Egypt" },
   { route: "/research-method/", file: ["research-method", "index.html"], contains: "research" },
+  { route: "/methods/examples/", file: ["methods", "examples", "index.html"], contains: "From sources to recycling methods" },
+  { route: "/research-playbook/", file: ["research-playbook", "index.html"], contains: "repeatable guide" },
   { route: "/limitations/", file: ["limitations", "index.html"], contains: "limitations" },
 ];
 
@@ -91,7 +94,7 @@ test("every method family has a page", () => {
 });
 
 test("every source has a page", () => {
-  assert.equal(sources.length, 12);
+  assert.ok(sources.length > 12, "the original bibliography was not expanded");
   for (const source of sources) {
     const file = distPath("sources", source, "index.html");
     assert.ok(fs.existsSync(file), `source page for ${source} is missing`);
@@ -109,7 +112,7 @@ test("the page shell gives every page a skip link, landmarks and a current-route
     assert.match(html, /<footer[^>]*class="site-footer"/, `${entry.route} has no footer landmark`);
     assert.match(html, /<nav[^>]*aria-label="Primary"/, `${entry.route} has no primary navigation`);
     assert.match(html, /<nav[^>]*aria-label="Secondary"/, `${entry.route} has no secondary navigation`);
-    assert.match(html, /aria-current="page"/, `${entry.route} marks no current route`);
+    assert.match(html, /aria-current="(?:page|location)"/, `${entry.route} marks no current route`);
   }
 });
 
@@ -294,5 +297,29 @@ test("every page states what the site does not claim", () => {
       /does not assert|not a validated|no measurement|no experiment|desk research/i,
       `${entry.route} carries no evidence-boundary statement`,
     );
+  }
+});
+
+
+test("published pages link to existing internal routes and anchors", () => {
+  const origin = "https://butt-lab.test";
+  const pages = new Map<string, { ids: Set<string>; hrefs: string[] }>();
+  for (const file of walk(dist).filter((entry) => path.basename(entry) === "index.html")) {
+    const route = "/" + path.relative(dist, file).split(path.sep).join("/").replace(/index\.html$/, "");
+    const dom = new JSDOM(fs.readFileSync(file, "utf8"));
+    pages.set(route, {
+      ids: new Set(Array.from(dom.window.document.querySelectorAll("[id]"), (el) => el.id)),
+      hrefs: Array.from(dom.window.document.querySelectorAll("a[href]"), (el) => el.getAttribute("href")!),
+    });
+    dom.window.close();
+  }
+  for (const [route, page] of pages) {
+    for (const href of page.hrefs) {
+      const url = new URL(href, origin + route);
+      if (url.origin !== origin) continue;
+      const target = pages.get(url.pathname);
+      assert.ok(target, `${route} links to missing page ${href}`);
+      if (url.hash) assert.ok(target.ids.has(decodeURIComponent(url.hash.slice(1))), `${route} links to missing anchor ${href}`);
+    }
   }
 });

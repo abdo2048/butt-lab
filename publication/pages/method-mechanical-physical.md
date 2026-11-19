@@ -27,6 +27,12 @@ Two variants sit in this family. In staged washing, butts are washed in water an
 4. **Optional ethanol wash.** In the staged variant, a second wash in ethanol is used for residues that water does not dissolve. No located source states an ethanol concentration, a ratio or a recovery method, and this step is described only in the literature and company material, not in a located operating record.
 5. **Drying and size reduction.** The washed material is dried and may be milled into a fibrous or particulate form. The batch-02 source documents give illustrative temperature ranges for drying and state that these are inventor choices rather than measured reference values; no located source states a drying protocol.
 
+## Findings from individual routes
+
+These results describe the specific routes or samples reported. They do not change the scope of the family scorecard. See the [worked examples](/methods/examples/) for comparisons and AI hypotheses.
+
+- **Spent filters released microfibres in water tests.** The authors reported detachment of fibres from smoked filters in water; the fibre-release work was on smoked filters under study conditions, not on a recycling plant wash stream. [Cigarette butts as a microfiber source with a microplastic level of concern](/sources/belzagui-2021-microfibres/) (§4, Conclusions).
+
 ## Where the material and the contamination go
 
 | Stream | Kind | What it carries | What is known about it |
@@ -93,8 +99,9 @@ These notes are additions from the research assistant, not source material. Each
 ## Sources
 
 - **FR3066128A1 - Method and device for valorising cigarette butts** — FR3066128A1, Method and device for valorising cigarette butts (MéGo!), granted 2019-07-19 as FR3066128B1. (European Patent Office / INPI, FR3066128A1; granted 2019-07-19). [Open the source](https://patents.google.com/patent/FR3066128A1/en)
-- **Green extraction of cellulose acetate from spent cigarette filters** — Green staged water and ethanol extraction of cellulose acetate from spent cigarette filters (PMC7659942). (Peer-reviewed literature, deposited at PubMed Central, PMC7659942). [Open the source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7659942/)
+- **Clean process for obtaining high-quality cellulose acetate from cigarette butts** — De Fenzo, Giordano and Sansone, Clean Process for Obtaining High-Quality Cellulose Acetate from Cigarette Butts, Materials 13 (2020) 4710. (Materials (MDPI), 2020, 13, 4710). [Open the source](https://doi.org/10.3390/ma13214710)
 - **EP2520184A1 - process for recycling cigarette butts** — EP2520184A1, process for recycling cigarette butts (Matteri), published 2012 and deemed withdrawn effective 2013-05-08. (European Patent Office, EP2520184A1; deemed withdrawn effective 2013-05-08). [Open the source](https://patents.google.com/patent/EP2520184A1/en)
+- **Cigarette butts as a microfiber source with a microplastic level of concern** — Cigarette butts as a microfiber source with a microplastic level of concern — Belzagui et al. · Science of the Total Environment, 2021, 762:144165. (Belzagui et al. · Science of the Total Environment, 2021, 762:144165). [Open the source](https://doi.org/10.1016/j.scitotenv.2020.144165)
 
 ## The four fields a sink needs
 
@@ -114,4 +121,4 @@ Internal record names and versions, for anyone checking this page against the pr
 - MéGo! patent FR3066128A1 — version FR3066128A1 — [public record](https://patents.google.com/patent/FR3066128A1/en)
 - Matteri process patent EP2520184A1 — version EP2520184A1 — [public record](https://patents.google.com/patent/EP2520184A1/en)
 
-This page was produced by desk research on 2026-11-16. It does not assert that the method is safe, clean, commercial, novel or approved, and it does not authorise any experiment.
+This page was produced by desk research. It does not assert that the method is safe, clean, commercial, novel or approved, and it does not authorise any experiment.

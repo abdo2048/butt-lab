@@ -23,7 +23,7 @@ const publicationRoot = join(packageRoot, "..", "..", "publication");
 const dataRoot = join(packageRoot, "layer-data");
 
 const RUBRIC_VERSION = "1.0.0";
-const PUBLICATION_VERSION = "batch-02-pilot";
+const PUBLICATION_VERSION = "reader-evidence-2026-11";
 
 const HUMAN_WORK_LABELS = {
   "source-retrieval": "Finding and reading the missing source",
@@ -119,6 +119,14 @@ async function main() {
     ...(await readJson("families-b.json")),
   ];
 
+  const expansion = await readJson("evidence-expansion.json");
+  const sources = [...recordsData.sources, ...expansion.sources];
+  for (const family of families) {
+    family.sourceIds.push(...expansion.sources
+      .filter((source) => source.methodIds.includes(family.family)).map((source) => source.id));
+    family.claims.push(...expansion.claims.filter((claim) => claim.methodIds.includes(family.family)));
+  }
+
   const reviewer = recordsData.reviewer;
   const reviewDate = recordsData.reviewDate;
   const accessDate = recordsData.accessDate;
@@ -150,7 +158,7 @@ async function main() {
   });
 
   // ---- sources --------------------------------------------------------
-  for (const source of recordsData.sources) {
+  for (const source of sources) {
     const value = {
       ...base(source.id, source.title, source.auditAliases),
       kind: "source",
@@ -159,7 +167,7 @@ async function main() {
       publisherOrIssuer: source.publisherOrIssuer,
       versionOrDate: source.versionOrDate,
       originalUrl: source.originalUrl,
-      accessDate,
+      accessDate: source.accessDate ?? accessDate,
       rights: source.rights,
       derivatives: [],
       claimIds: source.claimIds,
@@ -223,7 +231,7 @@ async function main() {
   }
 
   // ---- method families, their claims, gaps and assessments -------------
-  const sourcesById = new Map(recordsData.sources.map((source) => [source.id, source]));
+  const sourcesById = new Map(sources.map((source) => [source.id, source]));
   for (const family of families) {
     const claimIds = [];
     const gapIds = [];
@@ -248,8 +256,8 @@ async function main() {
           ? { premiseClaimIds: claim.premiseClaimIds }
           : {}),
         ...(claim.reasoning ? { reasoning: claim.reasoning } : {}),
-        reviewer,
-        reviewDate,
+        reviewer: expansion.claims.includes(claim) ? "AI source comparison; no independent review" : reviewer,
+        reviewDate: expansion.claims.includes(claim) ? "2026-11-19" : reviewDate,
       };
       claimIds.push(claim.id);
       manifestRecords.push({
@@ -364,7 +372,7 @@ async function main() {
     // ---- reader narrative page ---------------------------------------
     const pageId = `method-${family.family}`;
     const pagePath = `pages/${pageId}.md`;
-    const sha = await writePage(pagePath, renderFamilyPage(family, sourcesById));
+    const sha = await writePage(pagePath, renderFamilyPage(family, sourcesById, expansion.claims));
     manifestPages.push({ id: pageId, path: pagePath, sha256: sha });
   }
 
@@ -401,7 +409,7 @@ async function main() {
   );
 }
 
-function renderFamilyPage(family, sourcesById) {
+function renderFamilyPage(family, sourcesById, newFindings) {
   const lines = [];
   lines.push(`# ${family.title}`);
   lines.push("");
@@ -438,6 +446,16 @@ function renderFamilyPage(family, sourcesById) {
     lines.push(`${index + 1}. **${step.label}.** ${step.description}`);
   });
   lines.push("");
+  const scoped = newFindings.filter((finding) => finding.methodIds.includes(family.family));
+  if (scoped.length > 0) {
+    lines.push("## Findings from individual routes", "");
+    lines.push("These results describe the specific routes or samples reported. They do not change the scope of the family scorecard. See the [worked examples](/methods/examples/) for comparisons and AI hypotheses.", "");
+    for (const finding of scoped) {
+      const source = sourcesById.get(finding.sourceId);
+      lines.push(`- **${finding.title}.** ${finding.proposition} [${source.title}](/sources/${source.id}/) (${finding.locator}).`);
+    }
+    lines.push("");
+  }
   lines.push("## Where the material and the contamination go");
   lines.push("");
   lines.push("| Stream | Kind | What it carries | What is known about it |");
@@ -573,7 +591,7 @@ function renderFamilyPage(family, sourcesById) {
   }
   lines.push("");
   lines.push(
-    "This page was produced by desk research on 2026-11-16. It does not " +
+    "This page was produced by desk research. It does not " +
       "assert that the method is safe, clean, commercial, novel or approved, " +
       "and it does not authorise any experiment.",
   );

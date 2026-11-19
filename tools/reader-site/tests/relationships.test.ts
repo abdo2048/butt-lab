@@ -252,7 +252,7 @@ describe("hrefFor", () => {
     assert.equal(hrefFor(bundle, "source-one"), "/sources/source-one/");
     assert.equal(hrefFor(bundle, "nicotine"), "/glossary/#nicotine");
     assert.equal(hrefFor(bundle, "batch-02-invention-sketch"), "/invention/#batch-02-invention-sketch");
-    assert.equal(hrefFor(bundle, "cigarette-butt"), "/start/#cigarette-butt");
+    assert.equal(hrefFor(bundle, "cigarette-butt"), "/start/#what-a-cigarette-butt-actually-is");
   });
 
   it("points a claim or a gap at the family that owns it", () => {

@@ -1,14 +1,12 @@
 # Limitations, open questions, and where this project is weakest
 
-This page collects everything the project does not know. The gaps are deliberately listed rather than summarised away, because the most useful thing a reader can take away is a clear view of them.
+The most important question is not whether something useful can be made. It is whether we can account for the whole process: what remains in the product, what goes into the air or wastewater, and where the rejects go. Butt Lab has not measured these outcomes. The tables below keep the earlier question IDs so that reviewers can refer to a specific gap.
 
-Nothing here was measured. Every gap below is open, and every one of them has been left open rather than filled with an estimate.
-
-These are future measurement and decision work, not retrieval work. Searching harder cannot close them; only authorised measurement can.
+A paper or public report can narrow a question; it cannot stand in for data from a different plant, product or type of feedstock. Where comparable data are unavailable, a qualified facility would have to do that work.
 
 ## Eight measurement gaps
 
-The complete comparable target-panel dataset does not exist for any route. These are the analyte-by-stream boundaries that would have to be closed, one per boundary.
+This review did not find a complete, comparable contaminant dataset for any route. These are the analyte-by-stream boundaries that would have to be closed, one per boundary.
 
 | # | Boundary | What is missing there |
 |---|---|---|
@@ -42,23 +40,17 @@ A written measurement plan and a written feasibility sub-study specification alr
 | S03 | Full-cycle throughput and utilisation | Dissolution duration is not whole-process residence time, and collection counts and nominal capacity do not define moisture-adjusted accepted feed or conforming throughput. |
 | S04 | Treatment cost per stream volume, per dry residual mass and per analyte load | Dilute liquid, metals-bearing residues, captured emissions and product rejects may control disposition, and no accepted price or affordable route was located. |
 | S05 | Product revenue, function and displacement | Recovered acetate, cellulose pulp and composite filler are different products, and a functional unit and a conforming output are needed before any cost or environmental comparison. |
-| S06 | Complete system inventory and comparator | Collection, transport, energy source, additives, treatment, emissions, residual disposal, end-of-life and displaced function. The one company retreat in the record is not an audit-ready cross-family assessment. |
+| S06 | Complete system inventory and comparator | Collection, transport, energy source, additives, treatment, emissions, residual disposal, end-of-life and displaced function. A company summary or single model is not a measured comparison across routes. |
 
 ## What is unresolved rather than missing
 
-Some items are not gaps in the literature. They are live disagreements inside the record, and they are recorded rather than settled.
+Two plausible starting points are to separate the material early (to see where contaminants go) or to focus on the quality of the recovered polymer (when the intended use demands it). Neither is preferred for every product. The [AI proposals](/invention/) show what would change the first decision; the [worked examples](/methods/examples/) show why a permit, patent or product test cannot decide it alone.
 
-- **The primary hypothesis remains an unvalidated judge hypothesis.** It is the preferred revision target and not an accepted process.
-- **The minority position is preserved.** The route that recovers polymer of a particular quality may be the better starting point when polymer quality is the controlling objective. That position was never merged into the main line, and it survives.
-- **Two secondary hypotheses sit behind the main one.** The earlier proposals they came from keep their provenance and are represented through the primary hypothesis's new combination.
-- **Preserved dissent.** The objection about routing the wrong stream and diluting it into a purge, the objection about unsolved metals, the warning about dilution and off-gas in the thermal route, and the absence of comparable scale evidence all survive.
+## Coverage limits
 
-## The limits of the method itself
-
-- The second desk cycle ran as a single artificial-intelligence execution with no three-model panel and no judge packet, so its documents are a disciplined single-perspective synthesis rather than an independently reviewed result.
-- Retrieval was not re-performed during that cycle. The evidence basis is the accepted first-cycle record, the gap-closing evidence, the method registry and the source reconstructions. Any new primary source found later is an improvement and should be recorded as one, not folded in silently.
-- A provenance follow-up about reconciling recorded hashes against raw committed bytes remains open. It is an operator-owned record-keeping question, and it is not permission to reopen a scientific input or to alter a chemistry verdict.
-- No independent, public, full life-cycle assessment of a commercial butt-recycling process was located, so the site has no comparator to measure the families against.
+- The source catalogue is selective, and the synthesis has not been independently reviewed. Finding more sources is worthwhile where they bear on a specific decision.
+- Published life-cycle models can help identify which quantities matter, but no comparable independent plant-level dataset has been found for all routes discussed here.
+- A source can close a documentation gap without closing a safety gap. The [Re-Cig authorisation](/sources/recig-trento-permit/), for example, documents site-specific requirements, not contaminant removal in measured lots.
 
 ## What would change these limitations
 
@@ -67,13 +59,13 @@ Some items are not gaps in the literature. They are live disagreements inside th
 - **A named final recipient for every residual stream**, including the dilute liquids and the metals-bearing residues, with a demonstrated analytical outlet.
 - **An independent review of the desk cycle** by someone other than the system that produced it.
 
-Until those exist, the correct summary of this project is that it has mapped the methods and located the gaps precisely, and that nothing has been demonstrated.
+Until those exist, the site remains a map of reported routes, independent research questions and untested proposals.
 
 ## Audit trail
 
-- Publication version: `batch-02-pilot`
+- Publication version: `reader-evidence-2026-11`
 - Content contract version: `1.0.0`
 - Gap agenda: the numbered measurement, regulatory and scale agenda carried forward from the accepted desk record.
 - Machine-readable manifest: every published record and page, with a content hash for each.
 
-This page was produced by desk research on 2026-11-16. It does not assert that any method is safe, clean, commercial, novel or approved, and it does not authorise any experiment.
+This page was produced by desk research. It does not assert that any method is safe, clean, commercial, novel or approved, and it does not authorise any experiment.

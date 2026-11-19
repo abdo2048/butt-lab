@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: air-filtration-2026
+title: Recycled cigarette butts as a sustainable additive in PAN-based nanofiber membranes for high-efficiency air filtration
+publicationState: approved
+auditAliases: []
+kind: source
+citation: Recycled cigarette butts as a sustainable additive in PAN-based nanofiber membranes for high-efficiency air filtration — Akid et al. · Sustainable Chemistry and Pharmacy, 2026, 52:102484.
+sourceType: paper
+publisherOrIssuer: Akid et al. · Sustainable Chemistry and Pharmacy
+versionOrDate: 2026, 52:102484
+originalUrl: https://doi.org/10.1016/j.scp.2026.102484
+accessDate: 2026-11-19
+rights: link-only
+derivatives: []
+claimIds:
+  - air-filtration-2026-finding
+methodIds:
+  - product-routes

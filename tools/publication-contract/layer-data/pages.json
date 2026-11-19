@@ -23,6 +23,18 @@
       "file": "limitations.md",
       "title": "Limitations and open questions",
       "route": "/limitations/"
+    },
+    {
+      "id": "evidence-map",
+      "file": "evidence-map.md",
+      "title": "From sources to recycling methods",
+      "route": "/methods/examples/"
+    },
+    {
+      "id": "research-playbook",
+      "file": "research-playbook.md",
+      "title": "Recycling research playbook",
+      "route": "/research-playbook/"
     }
   ]
 }

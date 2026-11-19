@@ -1,41 +1,38 @@
 # Butt Lab
 
-A knowledge base of cigarette-butt recycling methods: what each one does, what the
-evidence actually says about it, what is still unknown, and what the AI has proposed on
-top. It is written for scientists and engineers who can judge it.
+[Read the public notebook](https://butt-lab.am6.workers.dev/) for reported cigarette-butt recycling routes, the evidence behind them, and AI proposals a reviewer can challenge. The site is for curious readers as well as engineers, toxicologists, health researchers and waste specialists. Butt Lab has not carried out an experiment; a published proposal is not a working or approved process.
 
-## What is in here
+## Start here
 
-- **Methods** — six method families and thirty registry entries, each explained on its
-  own, with its own mechanism, products, failure modes and open questions.
-- **Evidence** — claims, assessments, gaps and hypotheses carry their basis: sourced,
-  inferred, AI-derived, or a stated gap.
-  A number that could not be located is left as `parameter-not-located`, never estimated.
-- **New invention** — proposals from the AI acting as scientist-inventor, all of them
-  marked as unvalidated hypotheses with their falsifiers attached.
-- **Gaps** — the M/R/S agenda of what still has to be measured, and by whom.
+- [Current status and next steps](state/workflow.yaml)
+- [Repository, branch and evidence review](docs/READER-REFRESH.md)
+- [Working-library coverage](docs/LIBRARY-REVIEW.md)
+- [Deployment](docs/DEPLOY.md)
 
-**This is not a validated treatment process.** Nothing here has been experimentally
-verified, safety-approved, costed, or shown to be novel. The review comes after
-publication, from trained human and AI readers.
+## Preview or verify an edit
 
-## Where to start
+Use Node.js 24. From the repository root:
 
-1. [`PROJECT-OVERVIEW.md`](PROJECT-OVERVIEW.md) — what the project is and where it stands.
-2. [`state/workflow.yaml`](state/workflow.yaml) — the authoritative current state.
-3. [`charter.md`](charter.md) — the scope and safety rules.
+```sh
+npm ci --prefix tools/publication-contract
+npm ci --prefix tools/reader-site
+# Regenerate only after editing tools/publication-contract/layer-data/.
+node tools/publication-contract/scripts/build-publication-layer.mjs
+npm --prefix tools/publication-contract run validate
+npm --prefix tools/publication-contract run export
+npm --prefix tools/reader-site run build
+npm --prefix tools/reader-site run preview -- --host 0.0.0.0
+```
 
-## Layout
+The preview includes the actual Pagefind index. To check a change before release, run `npm test` in both tool directories and `npm run audit:release` in `tools/reader-site`. The build workflow checks and packages; it does not publish.
 
-| Path | What it is |
-|---|---|
-| [`charter.md`](charter.md) | Scope, safety, and the AI's role. |
-| [`PROJECT-OVERVIEW.md`](PROJECT-OVERVIEW.md) | Human-readable project status. |
-| [`state/workflow.yaml`](state/workflow.yaml) | Authoritative current state. |
-| [`docs/BUILD-PLAN.md`](docs/BUILD-PLAN.md) | The active build plan and ledger. |
-| [`publication/`](publication/) | The approved, validated content layer — 134 records and 10 pages. |
-| [`tools/publication-contract/`](tools/publication-contract/) | Schemas, validator and deterministic exporter. |
-| [`tools/reader-site/`](tools/reader-site/) | The reader website (Astro + Pagefind) — being built. |
-| [`reports/`](reports/) | The batch-01 and batch-02 research records. |
-| [`registry/methods.yaml`](registry/methods.yaml) | The method registry (read-only). |
-| [`docs/history/`](docs/history/) | Frozen history. Read for provenance; never edited. |
+## Where to make changes
+
+| If you are changing… | Go here |
+| --- | --- |
+| Public source records, claims or narrative | [`tools/publication-contract/layer-data/`](tools/publication-contract/layer-data/), then regenerate [`publication/`](publication/) |
+| Reader layout, navigation or search | [`tools/reader-site/`](tools/reader-site/) |
+| Underlying documents and past research | [`materials/`](materials/), [`registry/`](registry/), [`reports/`](reports/) and [`inventions/`](inventions/) |
+| A new material | [Research playbook](tools/publication-contract/layer-data/pages/research-playbook.md) |
+
+Historical workflows, panel logs and plans are provenance, not prerequisites for a new desk-research pass. A useful pass needs a narrow question, traceable sources, clearly labelled assumptions, and a decision about what evidence to look for next.

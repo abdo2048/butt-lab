@@ -1,0 +1,17 @@
+schemaVersion: 1
+id: air-filtration-2026-finding
+title: A laboratory study tested a butt-derived fibre blend for air filtration
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: The authors used recovered cellulose acetate from cigarette butts with polyacrylonitrile to make prototype nanofibre membranes and measured particle filtration and pressure drop.
+evidenceState: source-supported
+methodIds:
+  - product-routes
+hypothesisIds: []
+sourceId: air-filtration-2026
+locator: Abstract; §3, Results and discussion
+counterevidenceClaimIds: []
+reviewer: AI source comparison; no independent review
+reviewDate: 2026-11-19

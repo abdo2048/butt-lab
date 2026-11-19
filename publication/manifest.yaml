@@ -1,12 +1,18 @@
 schemaVersion: 1
-publicationVersion: batch-02-pilot
+publicationVersion: reader-evidence-2026-11
 records:
   - id: 3d-printing-filament
     path: records/sources/3d-printing-filament.yaml
     sha256: b2c13830abc30ddf90d0df64d95681b8360177b1cfab922837867e43722c9215
-  - id: academic-green-ethanol-wash
-    path: records/sources/academic-green-ethanol-wash.yaml
-    sha256: 71c21430a813ad8473357f3aedc5b4541da18ed4f1663128ec3a96605307b692
+  - id: ade-2026-leachates
+    path: records/sources/ade-2026-leachates.yaml
+    sha256: 972c471d5ad0970b59b1a17689586d1859b2269cdaa6caaa8df1b23717362b42
+  - id: air-filtration-2026
+    path: records/sources/air-filtration-2026.yaml
+    sha256: 48c71657fc2f79ceb262a7dd5bbdd01261e26ed17788961e92300a5870b2f3f8
+  - id: air-filtration-2026-finding
+    path: records/claims/air-filtration-2026-finding.yaml
+    sha256: 81d090fb167a508467589856ae05ae4a777d664cc26d7d33b47f71da3df75313
   - id: analyte-resolved-fate
     path: records/terms/analyte-resolved-fate.yaml
     sha256: 44af790108224129607f38b3face97b665255ad1908d1073060e49af0925a62b
@@ -15,13 +21,19 @@ records:
     sha256: 4fd043d9ad38e5a616ca4c8b40770f2b65bb9952ebd3702e7bc42bd8fddf568f
   - id: batch-02-invention-sketch
     path: records/hypotheses/batch-02-invention-sketch.yaml
-    sha256: 146b02e1b2916e0fa30d6d7b5a4c495a5ef771be8356881a636aed3e17c28f4b
+    sha256: 10fe5651a4ec4f56d71066cb6fcf8d59e3b92405c46d6f2a498ac9c2088c232a
   - id: batch-02-scientist-inventor-proposals
     path: records/hypotheses/batch-02-scientist-inventor-proposals.yaml
     sha256: 395af90070a9789853bc647a34922fcd88cbf32e7bc7a4ac12a77cbf2bc9d574
+  - id: belzagui-2021-microfibres
+    path: records/sources/belzagui-2021-microfibres.yaml
+    sha256: 7e7ea489f85a39b5ae0abe160d57145b735e7bddfcd3e98db533da9ec1237d31
+  - id: belzagui-2021-microfibres-finding
+    path: records/claims/belzagui-2021-microfibres-finding.yaml
+    sha256: 99b094064d48a8a2d822f9cff1545dde65ecef5e02c6cb2f851a0728897ca526
   - id: biological
     path: records/methods/biological.yaml
-    sha256: fa191bf5dbee4073911b71f7508262e48627ba4fcc8e3d0512e5a0882774e22a
+    sha256: 84b201d68dd6022a2d74a069707e7c40120fbe516712462f2fde192be08fbf24
   - id: biological-contaminant-fate-coverage-assessment
     path: records/assessments/biological-contaminant-fate-coverage-assessment.yaml
     sha256: 21f05f39960700103814751b96cccfabbee3fc51279e69eae4ec2390c98a79eb
@@ -75,10 +87,10 @@ records:
     sha256: d48bd9731acaf1ad8b28047af1cb87c77dd983410abd711985521cb67608318c
   - id: cellulose-acetate
     path: records/terms/cellulose-acetate.yaml
-    sha256: 3aea16d9f037f2a7214ed6d94b8009f51228f4b6e392f4d06042f1a33884dc92
+    sha256: ef8c674c817960c33094d830fbbe5dd4aead5eb4c55faa3e92c5298f7f68c8ed
   - id: chemical
     path: records/methods/chemical.yaml
-    sha256: 90bd71127f57e86bdcf2decf01e02bf650a2c2306f4dbb2ad9766516471c877b
+    sha256: aae602fbea761b8df60930887d8af86cdb6b10621101a3a0b8d9632a81f41168
   - id: chemical-analyte-partitioning-not-located
     path: records/claims/chemical-analyte-partitioning-not-located.yaml
     sha256: d153d4e35b43d4ee9bb42e268668cda8e91ef85c8659f7736de17ccca838facc
@@ -93,13 +105,13 @@ records:
     sha256: b78a9edfc914c4361ca52b81047e12361571b52adf577f02e64fdda9b52c0f38
   - id: chemical-gap-unreviewed-pulping-route
     path: records/gaps/chemical-gap-unreviewed-pulping-route.yaml
-    sha256: 7015aeece3eda14662e2338aa97840db5f612500f7f660a3f4fc7e6d407ef4b9
+    sha256: eec908437a3f3d38f8214f6e9a8f7529ce6d71350db0bf22e4b882d42f66403c
   - id: chemical-inference-purity-is-not-performance
     path: records/claims/chemical-inference-purity-is-not-performance.yaml
     sha256: 2166927cb768ba9f1980eda98ead42c9a8d4d1b9905ad539c18ce060c0db60ce
   - id: chemical-mechanism-extraction-characterisation
     path: records/claims/chemical-mechanism-extraction-characterisation.yaml
-    sha256: 5c158f4f1badc303715c951fe058238192ac21ab4a14689bbb06d23526a88fe1
+    sha256: b20934f36a776e021e5120801e2e6304268c2511dad971ad2836c9a9e2714c95
   - id: chemical-mechanism-solvent-dissolution-precipitation
     path: records/claims/chemical-mechanism-solvent-dissolution-precipitation.yaml
     sha256: 2fec116f6fd200aa8cdd0759cc1aa7d34f89b39365b09a89c4c1f48a460c1eb7
@@ -142,27 +154,75 @@ records:
   - id: cnr-knowledge-share-ca-recovery
     path: records/sources/cnr-knowledge-share-ca-recovery.yaml
     sha256: 87eb6337aad63eaa52eb11a91d2b34c8c0c91a8d30533a7c5bcabdfd3b20b16b
+  - id: code-effort-coverage
+    path: records/sources/code-effort-coverage.yaml
+    sha256: d6fff9a9c0f8d77c2233f106fafca77dd2976bb52ba5f93428ec0ef0b0c0d30e
+  - id: code-effort-coverage-finding
+    path: records/claims/code-effort-coverage-finding.yaml
+    sha256: 482467bd81bbfbb1fb07002c7bc221e8433c6e837ebc4d7a6b8233d64bf4a9dc
+  - id: code-effort-knowledge-centre
+    path: records/sources/code-effort-knowledge-centre.yaml
+    sha256: 47075ad455d3fc3febb12e1df900f9260a2a54376d458630be07ca517bad6896
+  - id: collection-fr3125946b1
+    path: records/sources/collection-fr3125946b1.yaml
+    sha256: 1de1b14864054067213fe842bdfaba61e88daf5d6695008228bd6ad8552edd2e
   - id: defenzo-2020-materials
     path: records/sources/defenzo-2020-materials.yaml
-    sha256: 94719370b613fb82115cfef808fb930490d0e4a1cf86560007f4141c6981e5d7
+    sha256: 844a21e601ae019ec31fda09bca1d2bdcb25869dabe8892f02ae1a4c48ff3441
   - id: dry-mass-basis
     path: records/terms/dry-mass-basis.yaml
     sha256: 326988664348b249d25543f6d89c890e3ca7fd456bb87054d8be077ef353349f
+  - id: dye-photocatalyst-2024
+    path: records/sources/dye-photocatalyst-2024.yaml
+    sha256: 2e18721162f55f9aed618042a3995e2ebd57132c77b1f79838555cdd6f5cb4ec
+  - id: dye-photocatalyst-2024-finding
+    path: records/claims/dye-photocatalyst-2024-finding.yaml
+    sha256: a2d10169833fea93f43aebc58641a649fcf495399af4f86a5340fe8d341b672a
   - id: four-field-sink
     path: records/terms/four-field-sink.yaml
     sha256: 6710d342c9cf29c631316f5eecc651f15f0f337bb741e506201455a196efd443
+  - id: george-2022-review
+    path: records/sources/george-2022-review.yaml
+    sha256: a6feb0158c8256ee589b69dbb2c6c6e511dd48c6c74d0ef4885fac7d75f7e53c
+  - id: gst-2025-critique
+    path: records/sources/gst-2025-critique.yaml
+    sha256: 1e1fb331288dbffeb40ca3d687bf7aeb33146808e2954db90c5ea0e53052d1d8
   - id: heavy-metals
     path: records/terms/heavy-metals.yaml
     sha256: 5dc7d8a0eca951bc001fe3865bde92de05bf56ae6f9adebe4a871a42907610d8
+  - id: hudina-wo2026074041a2
+    path: records/sources/hudina-wo2026074041a2.yaml
+    sha256: 74a62e9e53abb6cb841140366171df23c99a480bbadeb6fd091b5712853a0dfc
+  - id: ineris-2017-collection-treatment
+    path: records/sources/ineris-2017-collection-treatment.yaml
+    sha256: 9b74c948dc6e6a9bf3ccebbb94e0fa79461dbdeae15fcd8874355de5156f132b
+  - id: ineris-2019-recycling
+    path: records/sources/ineris-2019-recycling.yaml
+    sha256: 50eed1b0551c46069d88fb960d98b0e28bd5847c523b923a04ff0a52930ba655
+  - id: jin-2019-asphalt
+    path: records/sources/jin-2019-asphalt.yaml
+    sha256: 3c00ad55209e13b7fb01ff70d86923a51265768b42ffb56e211ae08932cef670
+  - id: jin-2019-asphalt-finding
+    path: records/claims/jin-2019-asphalt-finding.yaml
+    sha256: 3fea54c71a8f557a83db91173837186ca520946756efa44610686f4bd8f2ff93
   - id: keenat-dry-thermal
     path: records/sources/keenat-dry-thermal.yaml
     sha256: 30b175dc4b816f272f5c078246e927ae0539d39b617c078842d501fdfc394b67
   - id: kr-microbial-composting
     path: records/sources/kr-microbial-composting.yaml
     sha256: 009ea06eb1465ca2fa44e85a3f44503229cc8b2789a09597abe88c6afd29ef3c
+  - id: kurmus-2020-bricks
+    path: records/sources/kurmus-2020-bricks.yaml
+    sha256: e625dad6a8057fccfa170d54bb9ca187831afff85ab67c25767257881224d61d
+  - id: kurmus-2020-valorization
+    path: records/sources/kurmus-2020-valorization.yaml
+    sha256: 538b4ced9f3aa852c51d1caf8ae41db401510bd130f36fee896866b2c1fb1182
+  - id: marinello-2020-review
+    path: records/sources/marinello-2020-review.yaml
+    sha256: bfba87ab741ea72e82722a5519fd7652bc28e243ecbc7be8248eca1a981e4225
   - id: material-incorporation
     path: records/methods/material-incorporation.yaml
-    sha256: 99f4d74980837b0839808c9e4f1a17f7e558f262c16e3e2411a868264b897b95
+    sha256: cc67e30079585faeed40e92bd9c4bc6a3551ba09ccdce767040139271a80b57f
   - id: material-incorporation-contaminant-fate-coverage-assessment
     path: records/assessments/material-incorporation-contaminant-fate-coverage-assessment.yaml
     sha256: 2a0aa8aa067226adb89d30946bbd8ebbfad7c80a3967f61d089e6b2929abd69c
@@ -219,7 +279,7 @@ records:
     sha256: fb12a9c29790d1d9d31313f09e282d475aa05e1f970e69d9dc53d8275338c07b
   - id: mechanical-physical
     path: records/methods/mechanical-physical.yaml
-    sha256: 968e2a9d97291d8b1f0c42a255283adbd6c84dea32ff3a459f24ce0d2e3a84d1
+    sha256: a15376f85a0ed7fbb4b23efd96c2ae79f2523c19762121729c083fd7c7518ac5
   - id: mechanical-physical-analyte-removal-not-located
     path: records/claims/mechanical-physical-analyte-removal-not-located.yaml
     sha256: 0dbb48f4d99da08d5e68fa2f25ce32a2cde7e5f9de58e548783b42fc93bc922e
@@ -240,7 +300,7 @@ records:
     sha256: 44d96c6548ec32f24d4499c881935bf2fedbba3ca305fc291fd342b9172dadae
   - id: mechanical-physical-mechanism-staged-wash
     path: records/claims/mechanical-physical-mechanism-staged-wash.yaml
-    sha256: bdc76c9acdbcdd5d9b7375c0ee4e95083f9f501b6f933d401367c193908b1a0b
+    sha256: c1aad0835d50083868e0cc29cfcf950e1ef0912702ca2244a9c0ae578ea2de49
   - id: mechanical-physical-metals-fate-not-located
     path: records/claims/mechanical-physical-metals-fate-not-located.yaml
     sha256: d8e1c54b46a9a88e0852eb94d3d1485946c9227b11243c68e999c9b7ba4fadce
@@ -277,15 +337,27 @@ records:
   - id: microplastics
     path: records/terms/microplastics.yaml
     sha256: 15f733282f818d4ca48828a7ab7ddc25fc42422d695a6c6d7d27f997e2211738
+  - id: moroz-2021-review
+    path: records/sources/moroz-2021-review.yaml
+    sha256: c52784903ef9ed0a29e4de5ca0de5030aece3f36170ac1f8be33121d2912bbf0
   - id: nicotine
     path: records/terms/nicotine.yaml
     sha256: cdfee93685669a05eabfd618b6726fcca10a0b3e6255892eb5ab7b8b26670ab2
+  - id: nongdren-2024-leachate
+    path: records/sources/nongdren-2024-leachate.yaml
+    sha256: 726ebd393b9c60db4f64eac62b92747fef6e1c46b3c29fad8c5daac35a433900
+  - id: nongdren-2026-lca
+    path: records/sources/nongdren-2026-lca.yaml
+    sha256: f2d4c27b3fb2cf2d945f24cefbcf6a36b9046724bb6fd7400e8b5c33d188deca
+  - id: novotny-2009-policy
+    path: records/sources/novotny-2009-policy.yaml
+    sha256: b58183f0c41512e19294d9e2362d87899ac3f9b3687d2cc610da5994458a2202
   - id: pah
     path: records/terms/pah.yaml
     sha256: 0dac93b0e3d5629bad5c7947a200af572d244648cf9f91bb9248e85600f36d36
   - id: product-routes
     path: records/methods/product-routes.yaml
-    sha256: be28d96576350a82efafdab18ca0050dfc269530adc25703b810abf1644eab14
+    sha256: 7401b7f1cfe2d2b7550446d60864b5712ab2a39250888f9d839784d6b25cf8fe
   - id: product-routes-asphalt-route-reported
     path: records/claims/product-routes-asphalt-route-reported.yaml
     sha256: 7811c67a43bd93c2dd2268fb9c45e15f85b73f817de0a65a2d7baafe3848ee9d
@@ -340,15 +412,57 @@ records:
   - id: pyrolysis-energy-recovery
     path: records/sources/pyrolysis-energy-recovery.yaml
     sha256: 53ff3bd4caa6aef256e5573beaf23496ed506cfd7d60e3a244e8f4f2564377fe
+  - id: rahman-2020-bitumen
+    path: records/sources/rahman-2020-bitumen.yaml
+    sha256: 9f7b463b50ad69b646cbf3144c942ea9db7a652244eaf308a72453aca82757c5
+  - id: rahman-2020-bitumen-finding
+    path: records/claims/rahman-2020-bitumen-finding.yaml
+    sha256: f38bb648f4e4d884b7ea92a6d5ac56e6cffda586451241991fd4473723370714
+  - id: recig-trento-permit
+    path: records/sources/recig-trento-permit.yaml
+    sha256: d8638012cadb555f3a44cd04761e2e983f1b4214e7dd4c61048282836e9e7e7e
+  - id: recig-trento-permit-finding
+    path: records/claims/recig-trento-permit-finding.yaml
+    sha256: 5414ef71fc2c39e460b524023d59eac23b14e173d61a435ca021564f3a533c4f
   - id: rmit-brick-making
     path: records/sources/rmit-brick-making.yaml
     sha256: 8daed1a1bd3ef752ba7cb2c51d88b2081e63a657decf89a81bd894b3ae652a4a
+  - id: shah-2023-review
+    path: records/sources/shah-2023-review.yaml
+    sha256: 36e8bc8d52772f06db12a273bb8d9d7ea8fe185c494f7ddbedd4131efc846119
+  - id: split-before-washing
+    path: records/hypotheses/split-before-washing.yaml
+    sha256: 64ecef60fd954e0e9e239c5312ecbe2fa7a80237be359612e2957bf5077f6935
   - id: tar
     path: records/terms/tar.yaml
     sha256: 5f5ea29383a20a7fa0318871f9f22c47e3eac4a9c984ac21127a5214aedcb8d6
+  - id: tchaomegot-fr3102075b1
+    path: records/sources/tchaomegot-fr3102075b1.yaml
+    sha256: 90f84fb65a6998bc8840632aa148d45d6940704140c17fc9a370dbd4d3589738
+  - id: tchaomegot-fr3102076b3
+    path: records/sources/tchaomegot-fr3102076b3.yaml
+    sha256: 7c30ee544c53ac18211a0012b32effba8451c56d565d9049523d03ffa763d0e7
+  - id: tchaomegot-fr3102076b3-finding
+    path: records/claims/tchaomegot-fr3102076b3-finding.yaml
+    sha256: 94d5bb11932b74d93c62e594bd0feb1790b87948a394f1a290844ba5970fe43a
+  - id: teixeira-2016-thesis
+    path: records/sources/teixeira-2016-thesis.yaml
+    sha256: 4f00075f118a5393a504924a85ebbc049ccb9f7b7c2ed690da53ef3713499bfd
+  - id: teixeira-2017-pulp
+    path: records/sources/teixeira-2017-pulp.yaml
+    sha256: a3fcc82caa41da331d917ff5f2908722272e746bf4ffb365d7a2e7a4b7c792fc
+  - id: teixeira-2017-pulp-finding
+    path: records/claims/teixeira-2017-pulp-finding.yaml
+    sha256: 88a56e3129b843ab67ef950c9afc9465015a2b455c2f094ef03dc63c347b8ad4
+  - id: terracycle-process
+    path: records/sources/terracycle-process.yaml
+    sha256: 5e8e2afea095ecdf23a22ca674b51e01f233e2d6d6d0942272d852c62eef269c
+  - id: terracycle-process-finding
+    path: records/claims/terracycle-process-finding.yaml
+    sha256: f682169ee5ce7055a76707f7895a43bfed02671bdc80ea01ffd8e3b5bee08c9c
   - id: thermal
     path: records/methods/thermal.yaml
-    sha256: 2d4ff1ebd200eefa580e0acb363669efd3e980d23198c778ab75e532106c0cc9
+    sha256: 10932b62b5b21d4acd5a609b6080d8991928c2494afa99c6a202cb3b2a202038
   - id: thermal-contaminant-fate-coverage-assessment
     path: records/assessments/thermal-contaminant-fate-coverage-assessment.yaml
     sha256: f3e691910078dfd861eeea38ddc643f0b233b7a3ec24823f030b0029c8b634eb
@@ -363,7 +477,7 @@ records:
     sha256: 433d4d64c35d632df33d5bca6f335d7a4998e06c7664402f7cba60a564be8252
   - id: thermal-gap-unreviewed-dense-fluid-route
     path: records/gaps/thermal-gap-unreviewed-dense-fluid-route.yaml
-    sha256: 0f6f5c25ff459f14f71d5ac3708d9f2e7263fc5098d34dd4dcf9ccc183e52625
+    sha256: de0e78bbf0b3922d800646fc44d0894ff40deac4200133de395fca403cfbae60
   - id: thermal-inference-no-contaminant-fate-comparison
     path: records/claims/thermal-inference-no-contaminant-fate-comparison.yaml
     sha256: a07056acc5bc2d1d9de23f5b117ad9bd3c9eb81c634eaff1c4e99bf7c1cb5b5c
@@ -400,38 +514,56 @@ records:
   - id: thermal-validation-maturity-assessment
     path: records/assessments/thermal-validation-maturity-assessment.yaml
     sha256: f44508e616a0c4add80a8980dac87503724782e544ffe623840e36c3d8b08fbf
+  - id: torkashvand-2019-review
+    path: records/sources/torkashvand-2019-review.yaml
+    sha256: 3871aa694881f53967ea77fe62d5487d5de29b0db1bd851099c5c66801e27e2f
+  - id: toxicants-2026-review
+    path: records/sources/toxicants-2026-review.yaml
+    sha256: 9d28b2bce441fb461d1c034bee84d7d690bfc5e2ddf9e22035518fb562115835
   - id: tsna
     path: records/terms/tsna.yaml
     sha256: c760cd319162819cfab4c8c6a6e36686a54864d64afcbfb6754485136d934d0f
+  - id: unb-br0305004b1
+    path: records/sources/unb-br0305004b1.yaml
+    sha256: 270f00d6dd22d70754b7eac98738a2fa5df2e1c1ad79192c52623ff467fde4b3
+  - id: us-2020-waste-cost-model
+    path: records/sources/us-2020-waste-cost-model.yaml
+    sha256: f91598a03979b7a0bd528b3302a1bdac3f90b8f01485e6d07cc6d68ceb464500
 pages:
   - id: egypt-annex
     path: pages/egypt-annex.md
     sha256: d17fbffdf4c2b2945a06e073fbc726fdf6c7d10b2cd6398dfd6ce4e36b4e5f69
+  - id: evidence-map
+    path: pages/evidence-map.md
+    sha256: ef89c29db41a04e63677e5d8373f01278dba5fb0280244445cbd4749c2e83dde
   - id: how-the-research-works
     path: pages/how-the-research-works.md
-    sha256: 64674c35fb68e0dd45f5947267fe6a3683458295236d172ae09c216556c5d1c7
+    sha256: 0bd1d25d4a75c408d49d371224b0e2c8e7596597850a35ce4e4e34397adcb36b
   - id: limitations
     path: pages/limitations.md
-    sha256: 4c3a069428c3847e488b1b3aac2d08bd14ffdb1479790d641191c986c8cd207f
+    sha256: ade703a8cf5f0c2f0cba9c444136216cdb1819e98c4f162a9241906411c4814d
   - id: method-biological
     path: pages/method-biological.md
-    sha256: ea044123a5cac617205918c48aa630ae96cf85a1242178c4f13f654a9434ca61
+    sha256: 640fb65c4bc7f5be0c9c21ce33171fcc49ed29ae5a6695b22a6d70a81730b733
   - id: method-chemical
     path: pages/method-chemical.md
-    sha256: 08285e7283989d1dddd80712a693e872b093f703054e3ac589ac8fa067ecb821
+    sha256: 9c5acf3fbe9e6deb3aa0a7e429305a32577278e238cec2b4b46a36cbccfb3fd5
   - id: method-material-incorporation
     path: pages/method-material-incorporation.md
-    sha256: c537ed016ad971d6019aebae101c218e06f8dcac4c47de927ac8c9ba4d50f688
+    sha256: b056e782f9fd4ed76c67e2b4eb34a76b414b252569ead85cddcc67883e566059
   - id: method-mechanical-physical
     path: pages/method-mechanical-physical.md
-    sha256: 24fa07a990aad76c37c1a5921c70caaea89301fb480573a320c0bacd4ff5566c
+    sha256: 8ab72ab57040595d0337e8c6e3042239496ccd322dd1bfc9a5e8c744979da024
   - id: method-product-routes
     path: pages/method-product-routes.md
-    sha256: deeb726d132501ecdd61affadad58f8f8f7cf5984d73589646f96d1c79d78a61
+    sha256: d72e8d4429a9347c3f02dcac7a6fac334c5eaed75ae1425f6d213afc148ad5e9
   - id: method-thermal
     path: pages/method-thermal.md
-    sha256: e54462fe3226de65f36ea32e3ea353764af4344a18d5d7e00ed2a69928b37906
+    sha256: 7c85a0a14562b84d684b2694e404243ac6c726e1174a78ad9f749684c4d53c3d
+  - id: research-playbook
+    path: pages/research-playbook.md
+    sha256: 90dbb8224f03df214737c4f193fd87e92dec88d8b4a35ec193968dfe53f5fc0f
   - id: start-here
     path: pages/start-here.md
-    sha256: 3a5bba3bfc73583e2729c8d59b157b4d5afbb776bd91ad5c9b5adf7e0ab34a5c
+    sha256: 0fa44f57badde06f88e645805968c448cd9968eba55ec89cf5ad086e53748332
 assets: []

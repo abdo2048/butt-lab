@@ -25,8 +25,8 @@ const methods = source.methodIds
   title={`${source.title} — Butt Lab`}
   description={source.citation}
   eyebrow="Source"
-  recordId={source.id}
 >
+  <p class="small"><a href="/sources/">← All sources</a></p>
   <h1>{source.title}</h1>
 
   <p class="page__lede">{source.citation}</p>
@@ -77,7 +77,7 @@ const methods = source.methodIds
     methods.length > 0 && (
       <section class="section" aria-labelledby="source-methods">
         <div class="section__heading">
-          <h2 id="source-methods">Method families that rest on this source</h2>
+          <h2 id="source-methods">Related method families</h2>
         </div>
         <ul class="record-list">
           {methods.map((method) => (
@@ -94,7 +94,7 @@ const methods = source.methodIds
     claims.length > 0 && (
       <section class="section" aria-labelledby="source-claims">
         <div class="section__heading">
-          <h2 id="source-claims">Claims taken from this source</h2>
+          <h2 id="source-claims">What the source reports</h2>
         </div>
         <ul class="record-list">
           {claims.map((claim) => (

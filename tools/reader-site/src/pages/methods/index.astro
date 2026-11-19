@@ -32,6 +32,8 @@ const unknown = (family: MethodFamilyRecord) =>
     the contamination go, what the evidence supports, and what is still missing.
   </p>
 
+  <p><a href="/methods/examples/">See worked examples from papers, patents and companies</a></p>
+
   <ul class="record-list family-list">
     {
       families.map((family) => (
@@ -41,7 +43,7 @@ const unknown = (family: MethodFamilyRecord) =>
           </h2>
           <p class="family-row__summary">{family.summary}</p>
           <p class="family-row__meta mono">
-            <span class="record-id">{family.id}</span> · {scored(family)} criteria scored · {unknown(family)}{" "}
+            {scored(family)} criteria scored · {unknown(family)}{" "}
             unknown
           </p>
         </li>

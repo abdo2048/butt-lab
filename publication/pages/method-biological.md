@@ -112,4 +112,4 @@ Internal record names and versions, for anyone checking this page against the pr
 - Internal names: `F4`, `batch-02 F4`
 - KR10-1782684-1 microbial treatment device — version KR10-1782684-1 — [public record](https://www.cctoday.co.kr/news)
 
-This page was produced by desk research on 2026-11-16. It does not assert that the method is safe, clean, commercial, novel or approved, and it does not authorise any experiment.
+This page was produced by desk research. It does not assert that the method is safe, clean, commercial, novel or approved, and it does not authorise any experiment.

@@ -308,14 +308,15 @@ test("a page title never repeats the site suffix", () => {
 test("the start-here page does not claim every record carries both labels", () => {
   const html = readFileSync(join(dist, "start", "index.html"), "utf8");
   assert.doesNotMatch(html, /Every published record carries two labels/);
-  assert.match(html, /Records that make an evidence claim carry two labels/);
-  assert.match(html, /sources, terms, method families/);
+  assert.match(html, /These labels describe findings and ideas/);
+  assert.match(html, /bibliography or glossary entry/);
 });
 
 test("the site footer does not claim every statement carries an evidence state", () => {
   const html = readFileSync(join(dist, "index.html"), "utf8");
   assert.doesNotMatch(html, /Every statement carries its evidence state/);
-  assert.match(html, /carry the role they play instead/);
+  assert.match(html, /AI-assisted desk research/);
+  assert.match(html, /No experiment was run by this project/);
 });
 
 test("the repository README does not claim every statement carries its basis", () => {

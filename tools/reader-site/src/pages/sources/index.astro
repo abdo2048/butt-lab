@@ -1,47 +1,43 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getBundle, recordsOfKind } from "../../lib/bundle";
-import { rightsLabel } from "../../lib/format";
+import type { SourceRecord } from "../../lib/types";
 
 const bundle = getBundle();
-const sources = recordsOfKind(bundle, "source")
-  .slice()
-  .sort((a, b) => a.title.localeCompare(b.title));
+const sources = recordsOfKind(bundle, "source").sort((a, b) => a.title.localeCompare(b.title));
+const groups: { id: string; title: string; types: SourceRecord["sourceType"][] }[] = [
+  { id: "studies", title: "Papers & theses", types: ["paper", "thesis"] },
+  { id: "patents", title: "Patent documents", types: ["patent"] },
+  { id: "companies", title: "Company disclosures", types: ["company"] },
+  { id: "context", title: "Reports, coverage & other references", types: ["report", "web-page", "regulatory", "other"] },
+];
+const sections = groups.map((group) => ({ ...group, sources: sources.filter((source) => group.types.includes(source.sourceType)) }));
 ---
 
-<BaseLayout
-  title="Sources — Butt Lab"
-  description="Every source in the published layer, with its citation, its rights state and the claims that rest on it."
-  eyebrow="Sources"
->
+<BaseLayout title="Sources" description="Browse studies, patents, company disclosures and supporting research." eyebrow="Reference library">
   <h1>Sources</h1>
-
-  <p class="page__lede">
-    {sources.length} sources back the published layer. Each one is shown with its citation, the
-    version or date it was read at, the date it was accessed, and its rights state. A link here
-    is a link to the original: the link-only entries are cited, not copied, so nothing on this
-    site republishes a source that was never cleared for redistribution.
-  </p>
-
-  <ul class="record-list">
-    {
-      sources.map((source) => (
-        <li class="source-card">
-          <h2>
-            <a href={`/sources/${source.id}/`}>{source.title}</a>
-          </h2>
-          <p class="small">{source.citation}</p>
-          <p class="mono small">
-            {source.sourceType} · {source.versionOrDate} · accessed {source.accessDate} ·{" "}
-            {rightsLabel(source.rights)}
-          </p>
-          <p class="small">
-            <a href={source.originalUrl} rel="noreferrer noopener">
-              Open the source
-            </a>
-          </p>
-        </li>
-      ))
-    }
-  </ul>
+  <p class="page__lede">{sources.length} public references, from laboratory studies and patent disclosures to company descriptions, exposure research and life-cycle models. These are selected references, not the whole working library.</p>
+  <div class="callout callout--reference">
+    <p class="callout__label">What’s included</p>
+    <p>Follow a title to see the citation, its original link and any linked findings. Some entries are supporting reading, not evidence for a particular method. The site links to the documents rather than republishing them. For the evidence in context, see the <a href="/methods/examples/">worked method examples</a>.</p>
+  </div>
+  <nav aria-label="Source categories" class="source-jumps">
+    <ul>
+      {sections.map((section) => <li><a href={`#${section.id}`}>{section.title} ({section.sources.length})</a></li>)}
+    </ul>
+  </nav>
+  {sections.map((section) => (
+    <section class="section" aria-labelledby={section.id}>
+      <div class="section__heading"><h2 id={section.id}>{section.title}</h2></div>
+      <ul class="source-grid">
+        {section.sources.map((source) => (
+          <li class="source-card">
+            <h3><a href={`/sources/${source.id}/`}>{source.title}</a></h3>
+            <p class="small">{source.publisherOrIssuer} · {source.versionOrDate}</p>
+            <p class="source-card__meta">{source.claimIds.length > 0 ? "Linked findings" : "Supporting reference"} · <a href={source.originalUrl} rel="noreferrer noopener" aria-label={`Open the original: ${source.title}`}>Original ↗</a></p>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
 </BaseLayout>

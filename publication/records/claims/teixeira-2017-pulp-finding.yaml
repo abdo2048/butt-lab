@@ -1,0 +1,17 @@
+schemaVersion: 1
+id: teixeira-2017-pulp-finding
+title: Pulp recovery generates a difficult liquid waste stream
+publicationState: approved
+auditAliases: []
+kind: claim
+contentKind: claim
+proposition: The researchers produced cellulose pulp by alkaline treatment. Their dark process liquor contained metals and organic compounds. The treatment sequence did not reduce chemical oxygen demand to an acceptable level in their tests; the paper also reports reuse of clarified liquor over several cooking cycles.
+evidenceState: source-supported
+methodIds:
+  - chemical
+hypothesisIds: []
+sourceId: teixeira-2017-pulp
+locator: Abstract; §4; Table 11
+counterevidenceClaimIds: []
+reviewer: AI source comparison; no independent review
+reviewDate: 2026-11-19

@@ -25,14 +25,15 @@ export function defaultSourceDir(): string {
  * Locates the exported bundle manifest inside a source tree.
  *
  * The manifest sits at the root of the exported bundle and is staged at
- * `src/content/bundle/bundle-manifest.json`. Either location is accepted; a source
+ * `src/content/bundle/bundle-manifest.json`. Prefer the staged bundle that actually
+ * fed the reader build. A source
  * with neither is refused, because an artifact without its bundle manifest would
  * not describe the content it serves.
  */
 export function resolveBundleManifestPath(sourceDir: string): string {
   const candidates = [
-    path.join(sourceDir, "bundle-manifest.json"),
     path.join(sourceDir, "src", "content", "bundle", "bundle-manifest.json"),
+    path.join(sourceDir, "bundle-manifest.json"),
   ];
   for (const candidate of candidates) {
     if (fs.existsSync(candidate)) {
@@ -42,6 +43,19 @@ export function resolveBundleManifestPath(sourceDir: string): string {
   throw new Error(
     `No bundle manifest found under ${sourceDir}. Expected bundle-manifest.json or src/content/bundle/bundle-manifest.json.`,
   );
+}
+
+/** Build metadata must name the publication version of the bytes being packaged. */
+export function readPublicationVersion(sourceDir: string, expected?: string): string {
+  const data = JSON.parse(fs.readFileSync(resolveBundleManifestPath(sourceDir), "utf8"));
+  const version: unknown = data.publicationVersion;
+  if (typeof version !== "string" || version.trim() === "") {
+    throw new Error("Bundle manifest has no publication version");
+  }
+  if (expected !== undefined && expected !== version) {
+    throw new Error(`Expected publication version ${expected}; the staged bundle is ${version}`);
+  }
+  return version;
 }
 
 export interface ArtifactFile {
@@ -142,7 +156,7 @@ export function buildArtifact(
 if (import.meta.filename === process.argv[1]) {
   const [sourceArg, targetDir = "artifact"] = process.argv.slice(2);
   const sourceDir = sourceArg === undefined ? defaultSourceDir() : path.resolve(process.cwd(), sourceArg);
-  const publicationVersion = process.env.PUBLICATION_VERSION ?? "unknown";
+  const publicationVersion = readPublicationVersion(sourceDir, process.env.PUBLICATION_VERSION);
   const sourceCommit = process.env.SOURCE_COMMIT ?? "unknown";
   const manifest = buildArtifact(sourceDir, targetDir, { publicationVersion, sourceCommit });
   console.log(

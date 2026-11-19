@@ -316,3 +316,11 @@ tests / 176 pass / 0 fail with a clean typecheck.
 `https://butt-lab.<your-workers-subdomain>.workers.dev`. Nothing is online until then.
 Nothing is published or experimentally validated; the knowledge base is unchanged in
 substance, and the reader site's disclosures now match what the corpus carries.
+
+## 2026-11-19 — Reader, evidence and workflow refresh
+
+Inspected both feature tips without changing branches; the reader work is already in `main` and the publication branch's 59 extra library images do not extend the bibliography. Verified the live Worker served the earlier reader. Recorded the historical audit/packaging failures and the scope of local reproduction in `docs/READER-REFRESH.md`.
+
+Screened the 36-PDF working shelf, maintained a disposition list, added selected library and online sources, and corrected a duplicate/incorrect citation. Rebuilt the reader around method examples, a grouped bibliography, explicit evidence and assumption labels, and a featured comparative design with dimensionless scenario calculations. Published no raw third-party files. Added the reusable playbook and simplified the active orientation and release steps.
+
+The refreshed content passed publication validation and the release audit. The live site was not changed. The operator's next action is to approve and deploy the new exact artifact; the next evidence pass should use the library ledger to deepen one route comparison rather than re-run the old stages.

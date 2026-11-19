@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: teixeira-2017-pulp
+title: Process development for cigarette butts recycling into cellulose pulp
+publicationState: approved
+auditAliases: []
+kind: source
+citation: Process development for cigarette butts recycling into cellulose pulp — d’Heni Teixeira et al. · Waste Management, 2017, 60:140–150.
+sourceType: paper
+publisherOrIssuer: d’Heni Teixeira et al. · Waste Management
+versionOrDate: 2017, 60:140–150
+originalUrl: https://doi.org/10.1016/j.wasman.2016.10.013
+accessDate: 2026-11-19
+rights: link-only
+derivatives: []
+claimIds:
+  - teixeira-2017-pulp-finding
+methodIds:
+  - chemical

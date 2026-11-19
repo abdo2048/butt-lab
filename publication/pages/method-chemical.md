@@ -27,6 +27,12 @@ Dissolution of the cellulose acetate in a solvent, filtration of the insoluble r
 4. **Washing.** The precipitated solid is washed to remove residual solvent and dissolved contaminants. Whether the washing is thorough enough to remove the solvent traces has not been measured.
 5. **Drying and solvent recovery.** The washed solid is dried to recover the polymer, and in some described processes the solvent and non-solvent mixture is distilled and reused. The energy demand of that recovery is described as a major unknown.
 
+## Findings from individual routes
+
+These results describe the specific routes or samples reported. They do not change the scope of the family scorecard. See the [worked examples](/methods/examples/) for comparisons and AI hypotheses.
+
+- **Pulp recovery generates a difficult liquid waste stream.** The researchers produced cellulose pulp by alkaline treatment. Their dark process liquor contained metals and organic compounds. The treatment sequence did not reduce chemical oxygen demand to an acceptable level in their tests; the paper also reports reuse of clarified liquor over several cooking cycles. [Process development for cigarette butts recycling into cellulose pulp](/sources/teixeira-2017-pulp/) (Abstract; §4; Table 11).
+
 ## Where the material and the contamination go
 
 | Stream | Kind | What it carries | What is known about it |
@@ -60,7 +66,7 @@ Each criterion is scored separately against its own rubric. A score of 1 means a
 ## What is missing, and what is still unknown
 
 - **When the filter polymer is dissolved and the solvent is later spent, what is in that solvent, and what route exists for it?** The route moves contamination out of the polymer and into a liquid. If that liquid has no route, the process has moved the problem rather than solved it, and the contamination is now in a more concentrated and less visible form.
-- **An alkaline pulping route that takes the material towards cellulose rather than back to acetate is recorded in the project's method record, but it has not been given a reviewed method-family page in this layer. How does it compare with solvent dissolution?** This page would otherwise read as a complete account of the chemical routes, when a second chemical route exists in the project's records and has not been assessed here.
+- **Can alkaline pulping and solvent recovery be compared on product quality and the full fate of their liquid and solid waste streams?** Alkaline pulping produces cellulose pulp, not recovered cellulose acetate. Reusing the liquor in reported tests does not account for long-term buildup, solids, or any eventual purge.
 - **What does the choice of solvent add to the obligations of any later trial?** A route description that names solvents without naming their handling obligations would make a route look simpler than it is to operate lawfully.
 
 ## The human work that would close these gaps
@@ -68,7 +74,7 @@ Each criterion is scored separately against its own rubric. A score of 1 means a
 | Question | Kind of work needed | Validation state |
 | --- | --- | --- |
 | When the filter polymer is dissolved and the solvent is later spent, what is in that solvent, and what route exists for it? | Acceptance by the receiving facility or authority | Needs human validation |
-| An alkaline pulping route that takes the material towards cellulose rather than back to acetate is recorded in the project's method record, but it has not been given a reviewed method-family page in this layer. How does it compare with solvent dissolution? | Finding and reading the missing source | Needs human validation |
+| Can alkaline pulping and solvent recovery be compared on product quality and the full fate of their liquid and solid waste streams? | Finding and reading the missing source | Needs human validation |
 | What does the choice of solvent add to the obligations of any later trial? | Regulatory review | Needs human validation |
 
 ## Notes written by the research assistant
@@ -96,6 +102,10 @@ These notes are additions from the research assistant, not source material. Each
 - **Cellulose acetate from recycling of cigarette butts and filters** — CNR patent offering: cellulose acetate from recycling of cigarette butts and filters, acetone extraction with filtration, water anti-solvent precipitation and acetone recovery. (Consiglio Nazionale delle Ricerche, offered through Knowledge Share, Patent offering published on the Knowledge Share platform). [Open the source](https://www.knowledge-share.eu/en/patents/cellulose-acetate-from-recycling-of-cigarette-butts-and-filters/)
 - **Clean process for obtaining high-quality cellulose acetate from cigarette butts** — De Fenzo, Giordano and Sansone, Clean Process for Obtaining High-Quality Cellulose Acetate from Cigarette Butts, Materials 13 (2020) 4710. (Materials (MDPI), 2020, 13, 4710). [Open the source](https://doi.org/10.3390/ma13214710)
 - **CN106928486A - Cellulose acetate recovery method** — CN106928486A, recovery method for cellulose acetate (Zhejiang University), granted in China 2020-08-21. (China National Intellectual Property Administration, CN106928486A; granted 2020-08-21). [Open the source](https://patents.google.com/patent/CN106928486A/en)
+- **Process development for cigarette butts recycling into cellulose pulp** — Process development for cigarette butts recycling into cellulose pulp — d’Heni Teixeira et al. · Waste Management, 2017, 60:140–150. (d’Heni Teixeira et al. · Waste Management, 2017, 60:140–150). [Open the source](https://doi.org/10.1016/j.wasman.2016.10.013)
+- **Recovery of cellulose acetate fibres and cigarette filters for cellulose and paper** — Recovery of cellulose acetate fibres and cigarette filters for cellulose and paper — Brazilian patent publication, BR0305004B1. (Brazilian patent publication, BR0305004B1). [Open the source](https://patents.google.com/patent/BR0305004B1/en)
+- **Method for recovering cellulose acetate from post-consumer items** — Method for recovering cellulose acetate from post-consumer items — WIPO international application, WO2026074041A2. (WIPO international application, WO2026074041A2). [Open the source](https://patents.google.com/patent/WO2026074041A2/en)
+- **Characterisation and treatment of effluent from cigarette butt pulping** — Characterisation and treatment of effluent from cigarette butt pulping — Maria Betânia d’Heni Teixeira · Universidade de Brasília, 2016 doctoral thesis. (Maria Betânia d’Heni Teixeira · Universidade de Brasília, 2016 doctoral thesis). [Open the source](https://repositorio.unb.br/handle/10482/22749)
 
 ## The four fields a sink needs
 
@@ -115,4 +125,4 @@ Internal record names and versions, for anyone checking this page against the pr
 - CNR cellulose acetate recovery patent offering — version CNR knowledge-share offering — [public record](https://www.knowledge-share.eu/en/patents/cellulose-acetate-from-recycling-of-cigarette-butts-and-filters/)
 - CN106928486A cellulose acetate recovery — version CN106928486A — [public record](https://patents.google.com/patent/CN106928486A/en)
 
-This page was produced by desk research on 2026-11-16. It does not assert that the method is safe, clean, commercial, novel or approved, and it does not authorise any experiment.
+This page was produced by desk research. It does not assert that the method is safe, clean, commercial, novel or approved, and it does not authorise any experiment.

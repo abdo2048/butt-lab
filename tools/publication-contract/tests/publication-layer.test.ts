@@ -57,6 +57,8 @@ const NARRATIVE_PAGES: ReadonlyArray<{ id: string; route: string }> = [
   { id: "egypt-annex", route: "/egypt/" },
   { id: "how-the-research-works", route: "/research-method/" },
   { id: "limitations", route: "/limitations/" },
+  { id: "evidence-map", route: "/methods/examples/" },
+  { id: "research-playbook", route: "/research-playbook/" },
 ];
 
 type FamilyRecord = Extract<ContentRecord, { kind: "method-family" }>;
@@ -540,7 +542,7 @@ test("every published hypothesis passes the new-unvalidated-hypothesis gate", as
  * keeps the manifest reproducible and stops a page from being edited in place
  * behind the generator's back.
  */
-test("the manifest publishes the four narrative pages the reader routes need", async () => {
+test("the manifest publishes the narrative pages the reader routes need", async () => {
   const loaded = await loadAndValidateManifest(PUBLICATION_ROOT);
 
   assert.equal(

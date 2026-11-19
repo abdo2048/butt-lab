@@ -1,0 +1,17 @@
+schemaVersion: 1
+id: kurmus-2020-bricks
+title: "Recycling of cigarette butts in fired clay bricks: A new laboratory investigation"
+publicationState: approved
+auditAliases: []
+kind: source
+citation: "Recycling of cigarette butts in fired clay bricks: A new laboratory investigation — Kurmus & Mohajerani · Materials, 2020, 13:790."
+sourceType: paper
+publisherOrIssuer: Kurmus & Mohajerani · Materials
+versionOrDate: 2020, 13:790
+originalUrl: https://doi.org/10.3390/ma13030790
+accessDate: 2026-11-19
+rights: link-only
+derivatives: []
+claimIds: []
+methodIds:
+  - material-incorporation

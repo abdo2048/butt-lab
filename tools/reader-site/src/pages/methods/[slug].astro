@@ -82,7 +82,6 @@ const disclaimer = blocks.map((block) => block.disclaimer).find((value) => value
   title={`${parsed.title} — Butt Lab`}
   description={family.summary}
   eyebrow="Method family"
-  recordId={family.id}
 >
   <h1>{parsed.title}</h1>
   <div class="prose" set:html={renderMarkdown(parsed.preamble, { terms: glossaryTerms })} />

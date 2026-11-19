@@ -7,6 +7,10 @@ import { defineConfig } from "astro/config";
 export default defineConfig({
   output: "static",
   trailingSlash: "always",
+  vite: {
+    server: { allowedHosts: [".e2b.app"] },
+    preview: { allowedHosts: [".e2b.app"] },
+  },
   build: {
     format: "directory",
   },

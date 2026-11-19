@@ -1,4 +1,6 @@
-# Project Overview — butt-lab (read this first)
+# Project overview — historical research context
+
+> For the current reader refresh, start with [README](README.md), [the review](docs/READER-REFRESH.md) and [current state](state/workflow.yaml). The dated overview below records the earlier research cycles.
 
 **Last updated:** 2026-11-17 · **Maintainer:** operator (human) + coordinating assistant
 

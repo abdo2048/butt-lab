@@ -102,6 +102,7 @@ termIds:
 sourceIds:
   - kr-microbial-composting
 hypothesisIds:
+  - split-before-washing
   - batch-02-invention-sketch
   - batch-02-scientist-inventor-proposals
   - batch-02-evidence-gap-synthesis

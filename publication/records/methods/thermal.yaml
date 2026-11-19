@@ -80,6 +80,9 @@ claimIds:
   - thermal-metals-not-removed
   - thermal-regulatory-status-not-located
   - thermal-inference-no-contaminant-fate-comparison
+  - tchaomegot-fr3102076b3-finding
+  - terracycle-process-finding
+  - recig-trento-permit-finding
 gapIds:
   - thermal-gap-leaching-lifetime
   - thermal-gap-unreviewed-dense-fluid-route
@@ -97,7 +100,11 @@ termIds:
 sourceIds:
   - keenat-dry-thermal
   - pyrolysis-energy-recovery
+  - tchaomegot-fr3102076b3
+  - terracycle-process
+  - recig-trento-permit
 hypothesisIds:
+  - split-before-washing
   - batch-02-invention-sketch
   - batch-02-scientist-inventor-proposals
   - batch-02-evidence-gap-synthesis

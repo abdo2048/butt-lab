@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: rahman-2020-bitumen
+title: Possible recycling of cigarette butts as fiber modifier in bitumen for asphalt concrete
+publicationState: approved
+auditAliases: []
+kind: source
+citation: Possible recycling of cigarette butts as fiber modifier in bitumen for asphalt concrete — Rahman, Mohajerani & Giustozzi · Materials, 2020, 13:734.
+sourceType: paper
+publisherOrIssuer: Rahman, Mohajerani & Giustozzi · Materials
+versionOrDate: 2020, 13:734
+originalUrl: https://doi.org/10.3390/ma13030734
+accessDate: 2026-11-19
+rights: link-only
+derivatives: []
+claimIds:
+  - rahman-2020-bitumen-finding
+methodIds:
+  - material-incorporation
