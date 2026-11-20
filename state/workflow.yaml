@@ -1,6 +1,6 @@
 version: 4
-updated: '2026-11-19'
-status: reader_r3_ready_for_review_reviewer_gateway_not_deployed
+updated: '2026-11-20'
+status: reader_r3_ready_for_review_library_images_restored
 
 production:
   url: https://butt-lab.am6.workers.dev/
@@ -10,11 +10,12 @@ production:
   guide: docs/DEPLOY.md
 
 current_unit:
-  branch: arena/2dc0ddeb-butt-lab
+  branch: main
   publication_version: reader-evidence-2026-11-r3
   scope: Plain-language reader, one-row navigation, responsive reading and comparison pages, worked examples, and two verified public PDF copies.
   provenance: docs/READER-REFRESH.md
   library_review: docs/LIBRARY-REVIEW.md
+  library_images: 59 figure crops copied from feat/publication-content-contract at their original paths; all 146 legacy reading-copy image references now resolve; the branch was not merged.
   repository_map: docs/REPOSITORY-MAP.md
   extraction_guide: docs/LOCAL-LIBRARY.md
   ui_review: docs/READER-LAYOUT-REVIEW.md

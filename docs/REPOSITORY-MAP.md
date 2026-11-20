@@ -8,7 +8,7 @@ A branch is a Git history pointer. A worktree is a folder with files checked out
 | --- | --- |
 | `origin/main` | Shared baseline for the reader and research history. `main` is not proof of what's deployed; the Worker serves the last uploaded artifact. |
 | `feat/reader-platform` (`b3b53bd`) | Already an ancestor of `main`; no merge needed. It has the same 36 library PDFs and 12 existing text extracts as the shared baseline. |
-| `feat/publication-content-contract` (`19d1716`) | Historical contract fork and 59 additional extracted PNGs. Its last common ancestor with the reader baseline is `d30adba`. Do not merge it just to get the pictures: it has an older implementation and the PNGs can be regenerated from the source PDFs. |
+| `feat/publication-content-contract` (`19d1716`) | Historical contract fork and 59 additional extracted PNGs. Its last common ancestor with the reader baseline is `d30adba`. Do not merge the branch: it has an older implementation of the contract. Its 59 figure crops were copied into `main` on 2026-11-20 at their original paths (see below); the branch itself remains unmerged and can be deleted. |
 | Current Arena branch | Proposed reader/library changes. Review the branch and its preview before making a release decision. Keep this branch as the only writable checkout for this session. |
 
 To inspect a branch without switching, use `git ls-remote --heads origin`, `git fetch origin <branch>`, `git log -1 FETCH_HEAD`, or `git diff HEAD FETCH_HEAD -- materials/gap-closing/library`. See [the earlier review](READER-REFRESH.md) for CI history.
@@ -25,6 +25,31 @@ To inspect a branch without switching, use `git ls-remote --heads origin`, `git 
 | Website and release | Astro/Pagefind in `tools/reader-site/` → `dist/` → exact artifact → Cloudflare | Do not import the reading cache into the reader. Test the built preview before releasing the exact artifact with [the deploy guide](DEPLOY.md). |
 
 The public **About the evidence** page explains what a reader can and cannot conclude and how to submit a correction. It does not expose the operator's workflow. The playbook is no longer a public route, bundle page, or search document. Git is historical: material from earlier commits can still exist in clones and patches. Keep a private copy of the local playbook if you need to retain it across worktrees or after the sandbox ends.
+
+## Reading copies: two generations, one of them tracked
+
+There are two kinds of local reading copy, and they must not be confused:
+
+| Generation | Where | Status |
+| --- | --- | --- |
+| Earlier run (legacy) | `materials/gap-closing/library/*_text.md` plus `*_text/` figure crops | Git-tracked. Frozen: the current generator refuses to write here. 146 image references, all resolving as of 2026-11-20 |
+| Current generator | `.research-local/library/` (`reading.md`, `images/`, `reading.json`, `inventory.json`, `INDEX.md`) | Git-ignored, regenerated on demand by `scripts/prepare_library.py` |
+
+`scripts/prepare_library.py` prints a refusal if `--output` points inside `materials/`, `publication/` or `tools/`, so a rerun cannot re-pollute the tracked tree. Read a legacy `*_text.md` when it already answers a question, but treat the PDF as the document: the Markdown is a derivative with its own extraction status.
+
+`materials/gap-closing/README.md` records what that folder holds, what the OCR audit did and did not do, and why the original filenames were kept.
+
+## Reader-site source files (there is no `global.css`)
+
+`tools/reader-site/src/styles/` contains exactly three stylesheets. A search for `global.css`, `main.css` or `reset.css` will find nothing, and that is not a defect:
+
+| File | Contains |
+| --- | --- |
+| `tokens.css` | Custom properties only — every colour, spacing and radius lives here, including the print tokens |
+| `fonts.css` | `@font-face` blocks for the self-hosted `.woff2` files |
+| `base.css` | Every rule in the site: base elements, layout shell, components, print block |
+
+`base.css` **is** the global stylesheet. Edit colour values in `tokens.css`, not inline in `base.css`; the release audit computes WCAG contrast from the token values. Component classes are BEM-ish and live in the same file, so a large `base.css` is expected. `docs/DESIGN-REVIEW.md` records the last CSS-only review pass.
 
 ## Is Butt Lab done?
 
