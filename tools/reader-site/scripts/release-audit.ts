@@ -31,7 +31,7 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 import { gunzipSync } from "node:zlib";
 import cbor from "cbor";
 import { JSDOM } from "jsdom";
-import { MAX_STATIC_PDF_BYTES, sourcePdf } from "../src/lib/source-pdf.ts";
+import { listDocuments } from "../src/lib/documents.ts";
 
 export type Severity = "blocking" | "review";
 
@@ -302,37 +302,24 @@ export function auditRights(records: BundleRecordLike[]): Finding[] {
   return findings;
 }
 
-/** Reject stray PDFs, missing copies and changed bytes in the actual site output. */
-export function auditPublicPdfs(root: string, records: BundleRecordLike[]): Finding[] {
+/** Every shelf document is served, and no other PDF is. */
+export function auditPublicPdfs(root: string, documents: string[]): Finding[] {
   const findings: Finding[] = [];
-  const expected = new Map<string, string>();
+  const expected = new Set(documents.map((id) => `documents/${id}.pdf`));
   const block = (file: string, message: string) => findings.push({
     code: "PUBLIC_PDF_INVALID", severity: "blocking", file, message,
   });
-  for (const record of records) {
-    if (record.kind !== "source" || !isRecord(record.localArtifact)) continue;
-    const local = record.localArtifact.path;
-    if (typeof local !== "string" || !local.toLowerCase().endsWith(".pdf")) continue;
-    const pdf = sourcePdf(record);
-    if (pdf) expected.set(pdf.url.slice(1), pdf.sha256);
-    else block(record.id, "The public PDF source has no matching copy rights, license, path or checksum.");
-  }
   for (const file of walkFiles(root)) {
     if (path.extname(file).toLowerCase() !== ".pdf") continue;
     const relativePath = relative(root, file);
-    const hash = expected.get(relativePath);
-    if (!hash) {
-      block(relativePath, "The PDF is not an allowlisted source copy.");
+    if (!expected.delete(relativePath)) {
+      block(relativePath, "The PDF is not one of the shelf documents.");
       continue;
     }
-    expected.delete(relativePath);
     const bytes = fs.readFileSync(file);
-    if (
-      bytes.length > MAX_STATIC_PDF_BYTES || bytes.toString("ascii", 0, 5) !== "%PDF-" ||
-      createHash("sha256").update(bytes).digest("hex") !== hash
-    ) block(relativePath, "The PDF is not the recorded original or exceeds the static asset limit.");
+    if (bytes.toString("ascii", 0, 5) !== "%PDF-") block(relativePath, "The file is not a PDF.");
   }
-  for (const file of expected.keys()) block(file, "The allowlisted PDF is missing from the built site.");
+  for (const file of expected) block(file, "The shelf document is missing from the built site.");
   return findings;
 }
 
@@ -924,7 +911,7 @@ export function runReleaseAudit(options: {
   const findings = [
     ...scanBuiltOutput(options.distRoot),
     ...auditRights(options.records),
-    ...auditPublicPdfs(options.distRoot, options.records),
+    ...auditPublicPdfs(options.distRoot, listDocuments().map(({ id }) => id)),
     ...auditScientific(options.records),
     ...auditDeclarations(options.records),
     ...auditAccessibility(options),

@@ -1,6 +1,6 @@
 # Source documents
 
-50 documents, one folder each. Humans read `document.pdf`; AI readers use `text.md`. See [README.md](README.md) for the rule.
+50 documents, one folder each. Humans read `document.pdf`; AI readers use `text.md`. See [README.md](README.md) for the rule. Every document is downloadable at `/documents/<id>.pdf`; `links.json` maps bibliographic source ids onto these shelf ids.
 
 | id | pdf | ai text | figures |
 | --- | --- | --- | --- |

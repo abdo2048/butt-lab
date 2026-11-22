@@ -31,9 +31,15 @@ So: 50 documents, 49 with text, 1 PDF-only.
 
 ## What this folder is not
 
-- **Not a licence statement.** The documents were collected for one research team's internal use. Being in this folder does not mean a document may be redistributed publicly. Two documents (Rahman 2020, Novotny 2009) are CC-licensed and separately cleared; the rest are not.
+- **Not a licence statement.** The documents were collected for one research team's internal use. Being in this folder does not make a document redistributable. The site serves this folder to that team on the operator's instruction; whether a document may later be published more widely is a separate question that has not been decided here.
 - **Not authoritative over the original.** Extraction drops tables, equations, footnotes and layout. Anything load-bearing must be checked against the PDF.
 - **Not a place to add new research notes.** Interpretation belongs in `publication/`, `reports/` or `state/`.
+
+## How the site uses this folder
+
+The reader site scans this folder at build time and publishes every `document.pdf` at `/documents/<id>.pdf`. The page `/documents/` lists all 50 with their sizes and download links, so a reader can reach the whole corpus, not just the documents cited in the write-up.
+
+The source records in `publication/` use bibliographic ids (`marinello-2020-review`), which do not always match the shelf id (`marinello-2019-review`). `links.json` is the hand-checked table that pairs them. A record with an entry there gets View PDF / Download PDF buttons on its page. Nothing is inferred from similarity; only listed pairs are linked.
 
 ## Adding a document
 

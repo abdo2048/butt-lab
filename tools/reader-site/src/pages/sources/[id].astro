@@ -40,7 +40,7 @@ const methods = source.methodIds
         <a class="action action--quiet" href={pdf.url} download={pdf.filename}>Download PDF</a>
         <a class="action action--quiet" href={source.originalUrl} rel="noreferrer noopener">Publisher page <span aria-hidden="true">↗</span></a>
       </div>
-      <p class="small muted">Unmodified original · <a href={pdf.license.url} rel="noreferrer noopener">{pdf.license.name}</a></p>
+      <p class="small muted">Unmodified original from the project corpus. The publisher page is the version of record.</p>
     </div>
   ) : (
     <p class="page-actions" data-pagefind-ignore>

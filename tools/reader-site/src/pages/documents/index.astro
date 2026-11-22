@@ -1,0 +1,67 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getBundle, recordsOfKind } from "../../lib/bundle";
+import { documentIdForRecord, listDocuments } from "../../lib/documents.ts";
+import type { SourceRecord } from "../../lib/types";
+
+const bundle = getBundle();
+const sources = recordsOfKind(bundle, "source") as SourceRecord[];
+
+const byDocument = new Map<string, SourceRecord>();
+for (const source of sources) {
+  const documentId = documentIdForRecord(source.id);
+  if (documentId && !byDocument.has(documentId)) byDocument.set(documentId, source);
+}
+
+const documents = listDocuments().map((entry) => ({
+  ...entry,
+  source: byDocument.get(entry.id),
+}));
+
+const megabytes = (bytes: number) => `${(bytes / 1048576).toFixed(1)} MB`;
+const withText = documents.filter(({ hasText }) => hasText).length;
+const linked = documents.filter(({ source }) => source).length;
+---
+
+<BaseLayout
+  title="Document shelf"
+  description="Every paper, patent, report and permit the project holds, downloadable in one place."
+  eyebrow="Reference library"
+>
+  <h1>Document shelf</h1>
+  <p class="page__lede">
+    {documents.length} documents: papers, patent documents, company reports, permits and one thesis. This is the working
+    corpus the research was built on, not a selection. Each row downloads the original PDF.
+  </p>
+  <p class="source-intro">
+    {linked} of these are cited in the research and appear in <a href="/sources/">Sources</a>; the rest are documents that
+    were collected and read but did not carry a claim. A machine-readable text extraction exists for {withText} of them,
+    which is what an AI reader uses. Where the text and the PDF disagree, the PDF is the record.
+  </p>
+
+  <section class="section" aria-labelledby="shelf">
+    <div class="section__heading"><h2 id="shelf">All documents</h2></div>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th scope="col">Document</th><th scope="col">File</th><th scope="col">Size</th><th scope="col">Download</th></tr>
+        </thead>
+        <tbody>
+          {documents.map((document) => (
+            <tr>
+              <td>
+                {document.source
+                  ? <a href={`/sources/${document.source.id}/`}>{document.source.title}</a>
+                  : <span>{document.id}</span>}
+                {document.source && <><br /><span class="small muted">{document.source.publisherOrIssuer} · {document.source.versionOrDate}</span></>}
+              </td>
+              <td><code>{document.id}</code></td>
+              <td>{megabytes(document.bytes)}</td>
+              <td><a href={`/documents/${document.id}.pdf`} download>PDF</a></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+</BaseLayout>

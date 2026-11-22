@@ -39,6 +39,14 @@ There are two kinds of local reading copy, and they must not be confused:
 
 `sources/README.md` states the one rule that matters there: the PDF is for people, the Markdown is for AI readers, and the PDF wins where they disagree. `materials/gap-closing/README.md` records what the receipts folder still holds, what the OCR audit did and did not do, and why the original filenames inside its CSVs are historical rather than current paths.
 
+## Download layer: `sources/` is served directly
+
+The reader site publishes the whole shelf. `src/lib/documents.ts` scans `sources/` at build time, `src/pages/documents/[id].pdf.ts` emits one static file per document at `/documents/<id>.pdf`, and `/documents/` lists all 50 with sizes. There is no curated `publication/assets/` folder any more; it was removed on 2026-11-22, and the two PDFs it held (Novotny 2009, Rahman 2020) are ordinary shelf documents.
+
+Two id universes meet in `sources/links.json`: bibliographic record ids from `publication/records/sources/` and shelf ids derived from filenames. Only the hand-checked pairs are listed; a record with no entry gets no download button rather than a guessed one.
+
+The shelf is 184.7 MB across 50 files. `pan-nanofiber-2024` is 25.7 MB, just above Cloudflare's 25 MiB per-asset limit, so it builds and warns. If the site is ever deployed to Workers, that one file needs splitting or external storage.
+
 ## Reader-site source files (there is no `global.css`)
 
 `tools/reader-site/src/styles/` contains exactly three stylesheets. A search for `global.css`, `main.css` or `reset.css` will find nothing, and that is not a defect:

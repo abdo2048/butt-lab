@@ -364,21 +364,15 @@ test("runReleaseAudit counts what it inspected", (t) => {
 });
 
 
-test("the release audit rejects unlisted, unlicensed, altered or missing PDFs", (t) => {
+test("the release audit rejects unlisted, malformed or missing shelf PDFs", (t) => {
   const dir = tempDir(t);
   const payload = "%PDF-1.5\nexample test payload";
-  const evidence: BundleRecordLike = {
-    id: "example-paper", kind: "source", rights: "public-local-copy",
-    localArtifact: { path: "assets/example-paper.pdf", sha256: createHash("sha256").update(payload).digest("hex") },
-    redistributionLicense: { name: "CC BY 4.0", url: "https://creativecommons.org/licenses/by/4.0/" },
-  };
-  assert.deepEqual(codes(auditPublicPdfs(dir, [evidence])), ["PUBLIC_PDF_INVALID"], "missing PDF");
+  assert.deepEqual(codes(auditPublicPdfs(dir, ["example-paper"])), ["PUBLIC_PDF_INVALID"], "missing PDF");
   write(dir, "documents/example-paper.pdf", payload);
-  assert.deepEqual(auditPublicPdfs(dir, [evidence]), []);
-  assert.equal(auditPublicPdfs(dir, [{ ...evidence, redistributionLicense: undefined }]).length, 2);
-  assert.equal(auditPublicPdfs(dir, [{ ...evidence, rights: "link-only" }]).length, 2);
-  write(dir, "documents/example-paper.pdf", payload + "\nreplacement");
-  assert.equal(auditPublicPdfs(dir, [evidence]).length, 1);
+  assert.deepEqual(auditPublicPdfs(dir, ["example-paper"]), []);
+  write(dir, "documents/example-paper.pdf", "not a PDF");
+  assert.equal(auditPublicPdfs(dir, ["example-paper"]).length, 1);
+  write(dir, "documents/example-paper.pdf", payload);
   write(dir, "unlisted.pdf", payload);
-  assert.equal(auditPublicPdfs(dir, [evidence]).length, 2);
+  assert.equal(auditPublicPdfs(dir, ["example-paper"]).length, 1);
 });

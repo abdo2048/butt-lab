@@ -14,6 +14,7 @@ import { JSDOM } from "jsdom";
 const here = path.dirname(fileURLToPath(import.meta.url));
 const siteRoot = path.resolve(here, "..");
 const dist = path.join(siteRoot, "dist");
+const sourcesDir = path.resolve(siteRoot, "..", "..", "sources");
 const bundleDir = path.join(siteRoot, "src", "content", "bundle");
 
 function distPath(...segments: string[]): string {
@@ -153,7 +154,25 @@ test("no repository-local path reaches the built site", () => {
     /src\/content\/bundle/,
     /scripts\/build-content/,
   ];
+  // A PDF is compressed binary: a byte sequence that looks like "H:\\" turns
+  // up by chance roughly once per half megabyte. Scanning PDFs with the loose
+  // text patterns below reports those as leaks. What actually matters is
+  // whether the repository root itself was baked into the file, so binary
+  // documents are checked for that literal and the text patterns are kept for
+  // the pages.
+  const repoRoot = path.resolve(siteRoot, "..", "..");
+  const rootLiterals = [repoRoot, repoRoot.replace(/\\/g, "/")];
   for (const file of walk(dist)) {
+    if (file.toLowerCase().endsWith(".pdf")) {
+      const bytes = fs.readFileSync(file);
+      for (const literal of rootLiterals) {
+        assert.ok(
+          !bytes.includes(Buffer.from(literal)),
+          `${path.relative(dist, file)} embeds the repository path`,
+        );
+      }
+      continue;
+    }
     const content = fs.readFileSync(file, "utf8");
     for (const pattern of forbidden) {
       assert.ok(
@@ -382,7 +401,7 @@ test("one main route sequence and a native More disclosure work without JavaScri
   assert.equal(more.querySelector("summary")?.textContent, "More");
   const hrefs = (nav: string) => [...doc.querySelectorAll(`${nav} a`)].map((a) => a.getAttribute("href"));
   assert.deepEqual(hrefs(".nav-primary"), ["/start/", "/methods/", "/compare/", "/sources/"]);
-  assert.deepEqual(hrefs(".nav-more"), ["/invention/", "/glossary/", "/egypt/", "/research-method/", "/limitations/"]);
+  assert.deepEqual(hrefs(".nav-more"), ["/invention/", "/documents/", "/glossary/", "/egypt/", "/research-method/", "/limitations/"]);
   assert.ok(doc.querySelector<HTMLButtonElement>("#search-toggle")?.hidden, "no inert search button without JavaScript");
   window.close();
 });
@@ -390,12 +409,16 @@ test("one main route sequence and a native More disclosure work without JavaScri
 test("source details show the original and the findings before record metadata", () => {
   const { window } = new JSDOM(readDist("sources", "teixeira-2017-pulp", "index.html"));
   const doc = window.document;
-  const original = doc.querySelector<HTMLAnchorElement>("main .page-actions a")!;
+  const actions = [...doc.querySelectorAll<HTMLAnchorElement>("main .page-actions a")];
+  const original = actions.find((a) => a.href === "https://doi.org/10.1016/j.wasman.2016.10.013");
   const claims = doc.getElementById("source-claims")!;
   const facts = doc.querySelector<HTMLDetailsElement>("details#source-facts")!;
   const audit = doc.querySelector<HTMLDetailsElement>("details#source-audit")!;
-  assert.match(original.textContent ?? "", /Open original/);
-  assert.equal(original.href, "https://doi.org/10.1016/j.wasman.2016.10.013");
+  assert.ok(original, "the publisher link is offered as the version of record");
+  assert.ok(
+    actions.some((a) => a.getAttribute("href") === "/documents/teixeira-cellulose-pulp.pdf"),
+    "the shelf copy is offered beside it",
+  );
   assert.ok(original.compareDocumentPosition(claims) & window.Node.DOCUMENT_POSITION_FOLLOWING);
   assert.ok(claims.compareDocumentPosition(facts) & window.Node.DOCUMENT_POSITION_FOLLOWING);
   assert.equal(facts.open, false);
@@ -414,28 +437,45 @@ test("supporting references with no linked findings are not shown as finding pag
 });
 
 
-test("the site offers viewing and downloading only for verified source PDFs", () => {
-  const hosted = [
-    ["novotny-2009-policy", "CC BY 3.0"],
-    ["rahman-2020-bitumen", "CC BY 4.0"],
-  ] as const;
-  assert.deepEqual(fs.readdirSync(distPath("documents")).sort(), hosted.map(([id]) => `${id}.pdf`));
-  for (const [id, license] of hosted) {
-    const filename = `${id}.pdf`;
-    const bytes = fs.readFileSync(distPath("documents", filename));
-    const output = JSON.parse(fs.readFileSync(path.join(bundleDir, "bundle-manifest.json"), "utf8")) as { outputFiles: { path: string; sha256: string }[] };
-    const manifestPdf = output.outputFiles.find((file) => file.path === `assets/${id}-pdf.pdf`);
-    assert.equal(createHash("sha256").update(bytes).digest("hex"), manifestPdf?.sha256);
-    assert.equal(bytes.toString("ascii", 0, 5), "%PDF-");
-    const { window } = new JSDOM(readDist("sources", id, "index.html"));
+test("the site serves every document on the shelf and links the matching source pages", () => {
+  const shelf = fs
+    .readdirSync(sourcesDir, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory() && fs.existsSync(path.join(sourcesDir, entry.name, "document.pdf")))
+    .map((entry) => entry.name)
+    .sort();
+  assert.ok(shelf.length >= 50, `expected the full shelf, found ${shelf.length}`);
+
+  const served = fs
+    .readdirSync(distPath("documents"))
+    .filter((name) => name.endsWith(".pdf"))
+    .sort();
+  assert.deepEqual(served, shelf.map((id) => `${id}.pdf`));
+
+  for (const id of shelf) {
+    assert.equal(fs.readFileSync(distPath("documents", `${id}.pdf`)).toString("ascii", 0, 5), "%PDF-", id);
+  }
+
+  for (const [record, document] of [
+    ["novotny-2009-policy", "novotny-2009-policy"],
+    ["rahman-2020-bitumen", "rahman-2020-bitumen"],
+    ["teixeira-2017-pulp", "teixeira-cellulose-pulp"],
+    ["marinello-2020-review", "marinello-2019-review"],
+  ] as const) {
+    const { window } = new JSDOM(readDist("sources", record, "index.html"));
     const actions = window.document.querySelector(".source-documents")!;
-    assert.equal(actions.querySelector('a:not([download])[href^="/documents/"]')?.textContent, "View PDF");
-    assert.equal(actions.querySelector(`a[download="${filename}"]`)?.getAttribute("href"), `/documents/${filename}`);
-    assert.match(actions.textContent ?? "", new RegExp(license));
-    assert.ok(actions.querySelector('a[href^="https://doi.org/"]'));
+    assert.equal(
+      actions.querySelector('a:not([download])[href^="/documents/"]')?.textContent,
+      "View PDF",
+      record,
+    );
+    assert.equal(
+      actions.querySelector(`a[download="${document}.pdf"]`)?.getAttribute("href"),
+      `/documents/${document}.pdf`,
+      record,
+    );
+    assert.ok(actions.querySelector('a[href^="https://doi.org/"]'), record);
     window.close();
   }
-  assert.doesNotMatch(readDist("sources", "teixeira-2017-pulp", "index.html"), /href="\/documents\//);
 });
 
 test("the invention page keeps working jumps and gives the scenario table its own wider block", () => {

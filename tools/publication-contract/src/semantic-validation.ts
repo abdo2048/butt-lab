@@ -56,6 +56,7 @@ const REPOSITORY_LOCAL_ROOT_SEGMENTS: ReadonlySet<string> = new Set([
   "scripts",
   "session-log",
   "skills",
+  "sources",
   "specs",
   "state",
   "tests",
