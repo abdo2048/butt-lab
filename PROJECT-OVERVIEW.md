@@ -11,7 +11,7 @@ butt-lab is a structured, multi-stage evidence-review project investigating **ci
 ## The two repositories
 
 - **butt-lab** (this repo): the working project — workflow state, specs, packets, panel outputs, reports, and consolidated evidence (materials/).
-- **butt-materials** (private): the raw evidence library used during retrieval (PDFs, OCR derivatives, extraction catalogue). A consolidated copy of the gap-closing evidence lives in butt-lab at `materials/gap-closing/`. The two repos may drift; butt-lab is authoritative for project state.
+- **butt-materials** (private): the raw evidence library used during retrieval (PDFs, OCR derivatives, extraction catalogue). A consolidated copy of the evidence lives in butt-lab at `sources/` (one folder per document: `document.pdf` for people, `text.md` for AI readers). The retrieval receipts and the extraction audit remain in `materials/gap-closing/`. The two repos may drift; butt-lab is authoritative for project state.
 
 ## History — batch-01 (closed 2026-11-12)
 
@@ -37,7 +37,7 @@ Plus a post-Stage-5 **gap-closing retrieval unit** (2026-11-08 to 2026-11-11) th
 
 - `reports/final/batch-01-synthesis.md` — the batch-01 desk synthesis
 - `reports/final/validation-and-open-questions.md` — validation requirements and open questions (M01-M08, R01-R05, S01-S06)
-- `materials/gap-closing/gap-closing-round2/review-re-cig-AUT-end-of-waste.md` — review of the only public EoW authorization for butt recycling
+- `materials/gap-closing/round-2/review-re-cig-AUT-end-of-waste.md` — review of the only public EoW authorization for butt recycling
 - `specs/batch-02-launch-plan.md` — the current (batch-02) plan, v1.0
 
 ## Current status — batch-02 accepted; reader platform in build

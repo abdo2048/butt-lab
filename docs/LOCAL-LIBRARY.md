@@ -1,6 +1,6 @@
 # Local PDF reading library
 
-`materials/gap-closing/library/` is the main shelf. The round-1 and round-2 folders also contain reports, patents and permits. The extractor walks all of `materials/gap-closing/` by default, groups byte-for-byte duplicate PDFs by SHA-256, and writes one folder per unique file. It records every original path without moving the originals. A different edition with different bytes may still need manual deduplication.
+`sources/` is now the shelf (since 2026-11-22): one folder per document, `document.pdf` for people and `text.md` for AI readers. The round-1 and round-2 receipts remain under `materials/gap-closing/`. The extractor walks all of `materials/gap-closing/` by default, groups byte-for-byte duplicate PDFs by SHA-256, and writes one folder per unique file. It records every original path without moving the originals. A different edition with different bytes may still need manual deduplication.
 
 ## Generate reading copies
 
@@ -13,7 +13,7 @@ python -m pip install -r scripts/requirements-library.txt
 python scripts/prepare_library.py
 ```
 
-Use `--source materials/gap-closing/library` for just the main shelf, preferably with a separate `--output` directory if you want to keep both indexes. Without language data, low-text pages will still have a page image and an explicit text status, but they will not be OCRed.
+Use `--source sources` for just the shelf, preferably with a separate `--output` directory if you want to keep both indexes. Without language data, low-text pages will still have a page image and an explicit text status, but they will not be OCRed.
 
 **For scans:** Point `--tessdata` at local Tesseract `.traineddata` models. By default the script uses `eng+fra+por`; add appropriate local model files and use `--languages` for other scans. If your machine does not have the data, this Bash example downloads the three fixed model packages once from npm, then OCR runs locally with no online document uploads:
 

@@ -1,6 +1,6 @@
 version: 4
-updated: '2026-11-20'
-status: reader_r3_ready_for_review_library_images_restored
+updated: '2026-11-22'
+status: sources_consolidated_download_layer_pending
 
 production:
   url: https://butt-lab.am6.workers.dev/
@@ -15,7 +15,13 @@ current_unit:
   scope: Plain-language reader, one-row navigation, responsive reading and comparison pages, worked examples, and two verified public PDF copies.
   provenance: docs/READER-REFRESH.md
   library_review: docs/LIBRARY-REVIEW.md
-  library_images: 59 figure crops copied from feat/publication-content-contract at their original paths; all 146 legacy reading-copy image references now resolve; the branch was not merged.
+  sources_shelf: >-
+    sources/ now holds all 50 unique documents, one folder per id, each with
+    document.pdf for people and text.md for AI readers. Built 2026-11-22 from the
+    materials/gap-closing/library shelf (50 PDFs), 37 external conversions supplied by
+    the operator, and the 12 legacy reading copies whose image links were rewritten to
+    figures/. Five byte-identical duplicates were removed. materials/gap-closing/ keeps
+    the OCR audit and the round-1/round-2 receipts as provenance.
   repository_map: docs/REPOSITORY-MAP.md
   extraction_guide: docs/LOCAL-LIBRARY.md
   ui_review: docs/READER-LAYOUT-REVIEW.md
@@ -24,18 +30,20 @@ current_unit:
 
 reviewer_library:
   guide: docs/REVIEWER-LIBRARY.md
-  status: Local viewer works; hosted Worker and upload tooling tested but not deployed.
-  originals: {paths: 55, unique_pdfs: 51}
+  status: Local viewer works against sources/; hosted Worker and upload tooling tested but not deployed.
+  originals: {paths: 50, unique_pdfs: 50}
   public_reader_pdf_copies: 2
   remote_uploads_this_pass: 0
   repository_visibility: Temporarily public per operator; no visibility or history change made here.
 
 next_action: >-
-  The operator confirms which exact PDFs can be shared and provisions a private R2
-  bucket, reviewer hostname, and Worker secret. Keep the collection separate from the
-  public reader and restore private repository visibility when temporary public access ends.
-  Separately review and approve the exact public-reader artifact if releasing it.
-  For research, deepen the alkaline-pulping review using the paper, thesis and patent.
+  Make the reader serve every source from sources/ instead of the curated
+  publication/assets/ pair. That is one unit: the asset path is hard-coded in
+  publication/manifest.yaml, tools/publication-contract/src/export.ts,
+  tools/publication-contract/scripts/build-publication-layer.mjs, and
+  tools/reader-site/src/lib/source-pdf.ts, and about ten tests assert the current shape.
+  After that: the plain-English glossary, the seven-route comparison table as the front
+  door, the companies page, the F0 page, and the final-results page.
 
 open_research:
   - Source screening is not a line-by-line extraction or worldwide survey. See the coverage ledger for the next evidence pass.

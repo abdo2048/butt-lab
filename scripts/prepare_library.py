@@ -211,7 +211,7 @@ def extract(paths, output, ocr=None, ocr_profile=None, all_pages=False):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--source", type=Path, default=REPO / "materials/gap-closing")
+    parser.add_argument("--source", type=Path, default=REPO / "sources")
     parser.add_argument("--output", type=Path, default=REPO / ".research-local/library")
     parser.add_argument("--tessdata", type=Path, help="Directory containing offline Tesseract language models")
     parser.add_argument("--languages", default="eng+fra+por")

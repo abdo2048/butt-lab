@@ -10,7 +10,7 @@ python scripts/reviewer_library.py
 
 Open `http://127.0.0.1:8765/` **on that computer**, enter username `reviewer`, and use the fresh temporary password printed in that terminal. Stop with Ctrl+C. Restart for a new random password, or run `python scripts/reviewer_library.py --prompt-password` to choose your own without putting it in a command-line argument, file, or commit. Close the browser profile or use a private window if you want it to forget cached Basic Auth credentials.
 
-The tool serves original PDFs from `materials/gap-closing/`, checks the password for the catalogue and for every direct view/download request, and does not copy files into the website. It found 55 paths and 51 unique originals. The browser can view or download each original. This is deliberately **loopback-only**: do not expose it through a public preview, tunnel, reverse proxy or port forward. It uses local HTTP and is not the hosted reviewer solution.
+The tool serves original PDFs from `sources/` (until 2026-11-22, from `materials/gap-closing/`), checks the password for the catalogue and for every direct view/download request, and does not copy files into the website. It found 55 paths and 51 unique originals. The browser can view or download each original. This is deliberately **loopback-only**: do not expose it through a public preview, tunnel, reverse proxy or port forward. It uses local HTTP and is not the hosted reviewer solution.
 
 ## Hosted review: implemented, not deployed
 

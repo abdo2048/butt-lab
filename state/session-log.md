@@ -345,3 +345,34 @@ Answered the operator's branch question in writing: `main` had moved ahead of my
 Copied those 59 PNGs into `main` at their original paths under `materials/gap-closing/library/*_text/`. They are crops extracted from the PDFs for the reading copies, not OCR text. All 146 image references in the 12 tracked `*_text.md` files now resolve (12 were broken before the copy, and one further group was broken by a folder name that had drifted from the links; that folder was renamed to match). No PDF bytes, extracted text or citation changed.
 
 Recorded what `materials/gap-closing/` actually contains in a new `README.md` there, including the limits of the 2026-11 OCR pass: full text came from pypdf/pdftotext where a text layer existed, OCR ran only on the 138 pages those returned empty, and the proposed filenames were proposals, not citations. Added to `docs/REPOSITORY-MAP.md` the two-generation reading-copy rule and the stylesheet map (there is no `global.css`; `base.css` is the global sheet).
+
+## 2026-11-22 - Consolidate every document into one sources/ shelf
+
+The documents were spread across materials/gap-closing/library/, round-1/, round-2/
+and publication/assets/, with three byte-identical copies of two papers and no single
+place to look. They are now in sources/: 50 unique documents, one folder per id, each
+with document.pdf for people and 	ext.md for AI readers, plus igures/ where the
+extraction embedded images.
+
+- 50 PDFs moved with git mv, so history follows the file.
+- 37 external conversions supplied by the operator were added, covering every document
+  that had no text; all figures copied, image links rewritten from <name>_text/ to
+  igures/; 798 references checked, none broken.
+- 12 legacy reading copies moved in and rewritten the same way.
+- Five byte-identical duplicates removed: the round-1 Teixeira thesis, three round-2
+  Keenat copies, and the re-cig second Bilancio 2024 file.
+- sources/README.md states the rule (PDF is the document, Markdown is a convenience;
+  the PDF wins on disagreement) and sources/INDEX.md lists all 50 with sizes.
+- materials/gap-closing/ keeps ocr-audit/, round-1/ and round-2/ as the record of
+  how the documents were found and audited. Their original_path values are historical
+  and were deliberately not rewritten.
+- inpi-bopi-2018-46 is intentionally PDF-only (283 pages, 40 blank).
+
+Not done, and deliberately separate: the reader still serves only the two curated PDFs in
+publication/assets/. Serving every source from sources/ is a code unit of its own,
+because the asset path is hard-coded in the manifest, the exporter, the staging script and
+the reader's PDF route.
+
+Verification: 
+pm run build exit 0, 61 pages indexed; 
+pm test 201 passed, 0 failed.

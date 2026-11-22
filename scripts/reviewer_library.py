@@ -17,7 +17,7 @@ import shutil
 import sys
 from urllib.parse import quote, urlsplit
 
-ROOT = Path(__file__).resolve().parents[1] / "materials" / "gap-closing"
+ROOT = Path(__file__).resolve().parents[1] / "sources"
 USER = "reviewer"
 ROUTE = re.compile(r"/(view|download)/([a-f0-9]{64})")
 

@@ -17,7 +17,7 @@ To inspect a branch without switching, use `git ls-remote --heads origin`, `git 
 
 | Layer | Where | Rule |
 | --- | --- | --- |
-| Original evidence | `materials/gap-closing/` and retrieval receipts | Preserve the source bytes, licences and citations; keep the existing OCR exports as provenance. |
+| Original evidence | `sources/` — one folder per document (`document.pdf` + `text.md`) — plus the retrieval receipts in `materials/gap-closing/` | Preserve the source bytes and citations; keep the OCR audit and round receipts as provenance. Start at `sources/README.md` and `sources/INDEX.md`. |
 | Local reading copies | `.research-local/library/` | Generated Markdown, per-page figure images and a searchable inventory. Read a page here, but verify claims against the PDF. This is **not** an Astro input. |
 | Internal workflow and notes | `.research-local/RESEARCH-PLAYBOOK.md` and a private copy you control | These are for you, not the public reader. `.research-local/` is Git-ignored, not a backup or a permission system. Do not store private notes in a public commit. |
 | Research record | `registry/`, `reports/`, `inventions/` | Keep raw findings, uncertainty, and proposed changes distinguishable. Do not use publication counts as a measure of review depth. |
@@ -32,12 +32,12 @@ There are two kinds of local reading copy, and they must not be confused:
 
 | Generation | Where | Status |
 | --- | --- | --- |
-| Earlier run (legacy) | `materials/gap-closing/library/*_text.md` plus `*_text/` figure crops | Git-tracked. Frozen: the current generator refuses to write here. 146 image references, all resolving as of 2026-11-20 |
+| Earlier run (legacy) | `sources/<id>/text.md` plus `sources/<id>/figures/` (moved here from `materials/gap-closing/library/` on 2026-11-22) | Git-tracked, 12 of the 49 text files. Image links were rewritten from `*_text/` to `figures/`; 798 references checked, none broken |
 | Current generator | `.research-local/library/` (`reading.md`, `images/`, `reading.json`, `inventory.json`, `INDEX.md`) | Git-ignored, regenerated on demand by `scripts/prepare_library.py` |
 
 `scripts/prepare_library.py` prints a refusal if `--output` points inside `materials/`, `publication/` or `tools/`, so a rerun cannot re-pollute the tracked tree. Read a legacy `*_text.md` when it already answers a question, but treat the PDF as the document: the Markdown is a derivative with its own extraction status.
 
-`materials/gap-closing/README.md` records what that folder holds, what the OCR audit did and did not do, and why the original filenames were kept.
+`sources/README.md` states the one rule that matters there: the PDF is for people, the Markdown is for AI readers, and the PDF wins where they disagree. `materials/gap-closing/README.md` records what the receipts folder still holds, what the OCR audit did and did not do, and why the original filenames inside its CSVs are historical rather than current paths.
 
 ## Reader-site source files (there is no `global.css`)
 
