@@ -401,7 +401,7 @@ test("one main route sequence and a native More disclosure work without JavaScri
   assert.equal(more.querySelector("summary")?.textContent, "More");
   const hrefs = (nav: string) => [...doc.querySelectorAll(`${nav} a`)].map((a) => a.getAttribute("href"));
   assert.deepEqual(hrefs(".nav-primary"), ["/start/", "/methods/", "/compare/", "/sources/"]);
-  assert.deepEqual(hrefs(".nav-more"), ["/invention/", "/documents/", "/glossary/", "/egypt/", "/research-method/", "/limitations/"]);
+  assert.deepEqual(hrefs(".nav-more"), ["/invention/", "/documents/", "/companies/", "/glossary/", "/egypt/", "/research-method/", "/limitations/"]);
   assert.ok(doc.querySelector<HTMLButtonElement>("#search-toggle")?.hidden, "no inert search button without JavaScript");
   window.close();
 });

@@ -1,0 +1,365 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+/**
+ * The ten companies and operators mapped in batch-01.
+ *
+ * Every statement here is traced to reports/stage1/company-source-map.md,
+ * which labels each one as a company claim, a calculation, a hypothesis or
+ * unresolved. Nothing on this page is an independent measurement: no site
+ * was visited, no company was contacted and no third-party contaminant assay
+ * was located for any operator.
+ */
+const companies = [
+  {
+    name: "Code Effort",
+    where: "India",
+    role: "Collector and processor",
+    route: "Mechanical separation with aqueous washing",
+    patent: "None located",
+    anchor: "code-effort",
+    summary:
+      "Separates the butt into fibre, paper and tobacco/ash, then treats each stream on its own.",
+    disclosed: [
+      "Butts are cut and shredded, then fibre, paper and tobacco ash are separated.",
+      "Fibre is soaked in water, ground, treated with unspecified “biodegradable chemicals” for 24 to 36 hours, dried for about an hour and softened.",
+      "Paper becomes pulp for sheets and mosquito-repellent mats; tobacco and ash are composted for about 30 days.",
+    ],
+    undisclosed: [
+      "The identity and dose of the treatment chemicals, and the bath temperature.",
+      "How much water is used per kilogram, and where the wastewater goes.",
+      "Any contaminant assay on the finished fibre, and any leachate test on the products.",
+    ],
+    caution:
+      "Cumulative collection figures differ between the company's own sources: 300 million, 1.2 billion and 12 billion. All three are recorded and none is reconciled.",
+  },
+  {
+    name: "TerraCycle",
+    where: "Canada and United States",
+    role: "Collection organiser, processing by partners",
+    route: "Split streams: organic to compost, filters to plastic lumber",
+    patent: "None located",
+    anchor: "terracycle",
+    summary:
+      "Runs a branded collection programme and hands material to partners. The unit operations happen elsewhere.",
+    disclosed: [
+      "Public drop-off and prepaid shipping, all brands accepted, with butts, filters, pouches and packaging collected together.",
+      "Paper and tobacco are dried and mixed with other organic material to make compost.",
+      "Filters are dried, powdered and used in recycled plastic lumber for benches, fencing and playground equipment.",
+    ],
+    undisclosed: [
+      "Whether any sanitisation step exists. An earlier project draft said “shred and sanitize”; the company document does not, so that step is unresolved, not established.",
+      "Where composting and powdering take place, and which partner operates them.",
+      "Water use, emissions and residue handling, and any test result.",
+    ],
+    caution:
+      "This is the only operator here whose published description keeps the two material streams genuinely separate all the way to a product.",
+  },
+  {
+    name: "BuffIndia",
+    where: "India",
+    role: "Collector and processor",
+    route: "Acidic hydrolysis with high-temperature treatment",
+    patent: "None located",
+    anchor: "buffindia",
+    summary:
+      "Describes an acidic hydrolysis route, combined with clay into decorative products.",
+    disclosed: [
+      "Fire-proof collection kiosks on annual rental, plus door-to-door collection.",
+      "A single company interview describes “acidic hydrolysis, high-temperature treatment and medical-grade testing”, with recycled material often combined with clay.",
+    ],
+    undisclosed: [
+      "Which acid, at what concentration, temperature and time.",
+      "The clay ratio and what the finished material is expected to bear.",
+      "What “medical-grade testing” measured, and who performed it. No certificate, laboratory or analyte list was located.",
+      "Effluent and off-gas handling, and product leachate data.",
+    ],
+    caution:
+      "Acidic hydrolysis is not a wash-and-dry process: it chemically converts cellulose acetate toward cellulose. The description rests on one interview.",
+  },
+  {
+    name: "TchaoMegot",
+    where: "France",
+    role: "Collector and processor",
+    route: "Pressurised or supercritical fluid extraction",
+    patent: "FR3102180A1 family, including WO2021079050A1, US12065781B2 and US20260115774A1",
+    anchor: "tchaomegot",
+    summary:
+      "Treats butts with dense carbon dioxide and reports a clean fraction plus a small toxic concentrate.",
+    disclosed: [
+      "Supercritical carbon dioxide is used as the cleaning fluid, with the extracted substances concentrated into a small residue.",
+      "The company reports 99.7 % clean material and 0.3 % total toxics concentrate, no water and no toxic solvent, in a closed circuit with the carbon dioxide recovered and reused.",
+      "A prefectoral authorisation and an INERIS waste classification are cited on the company page.",
+    ],
+    undisclosed: [
+      "The commercial pressure, temperature, co-solvent identity and dose, cycle time, throughput and energy per tonne.",
+      "Where the concentrate goes and how it is classified for disposal.",
+      "Analyte-specific removal data, and any third-party assay.",
+    ],
+    caution:
+      "A press quotation reports roughly 50 to 60 bar at about 30 °C, while the patent's preferred range is 280 to 320 bar at 15 to 80 °C. Both are recorded; they are not merged into one condition. “No water” is not the same as “dry”: dense carbon dioxide is a fluid.",
+  },
+  {
+    name: "Keenat",
+    where: "France",
+    role: "Collector and processor",
+    route: "Dry thermal treatment and extrusion into a composite",
+    patent: "FR3110470A1",
+    anchor: "keenat",
+    summary:
+      "Dries and heats the filter fraction, then compounds it with a thermoplastic into a granulate.",
+    disclosed: [
+      "Filters are separated from tobacco and paper, dried and treated at 80 to 100 °C, then ground.",
+      "The ground filter is mixed and treated in an extruder with a thermoplastic, at 10 to 30 % recycled filters and 70 to 90 % polymer, preferably as a granulate for furniture, panels, pipes and ashtrays.",
+      "The company describes dry treatment with no liquid discharge, and now puts solid recovered fuel ahead of plastic objects.",
+    ],
+    undisclosed: [
+      "Residence time at 80 to 100 °C, and air or off-gas treatment.",
+      "What the thermal step actually removes. There is no analyte data behind the word depollution.",
+      "Mechanical and leachate tests on the composite, and emission data for the fuel route.",
+    ],
+    caution:
+      "Inherited notes quote “successive heatings at about 200 °C”; the patent text read here says 80 to 100 °C. The two are kept apart rather than averaged. The company's own 2022 life-cycle assessment found plastic-object recycling was not environmentally beneficial, and it closed that site and moved to fuel for cement kilns.",
+  },
+  {
+    name: "MéGo!",
+    where: "France",
+    role: "Collector and processor",
+    route: "Mechanical separation with water washing",
+    patent: "FR3066128A1, granted as FR3066128B1",
+    anchor: "mego",
+    summary:
+      "The most fully described wash route here: grind, sieve, wash, decontaminate, recycle the water, dry, mill.",
+    disclosed: [
+      "First grinding separates the filter from organic material; sieving recovers cellulose acetate.",
+      "The filter is washed with water to separate acetate from paper, then washed again in a decontamination tank, with wash water recycled.",
+      "The material is dried and milled to a fibrous powder, then melted and thermo-compressed into sheets for bins, furniture and ashtrays.",
+      "The company states a mass split of 12 % paper, tobacco and ash, 8 % sludge and 80 % cellulose acetate per kilogram of butts.",
+    ],
+    undisclosed: [
+      "Wash temperature and time, any detergent or additive, the water recycle ratio and the purge.",
+      "Contaminant content of the sludge and where it goes, drying temperature, acetate purity and yield.",
+      "Any toxin assay.",
+    ],
+    caution:
+      "Butts per kilogram is given as 2,000 in one company source and 4,000 in another, possibly a butt-versus-filter or wet-versus-dry difference. Any per-tonne extrapolation has to carry both figures.",
+  },
+  {
+    name: "Re-Cig",
+    where: "Italy",
+    role: "Collector and processor",
+    route: "Mechanical separation with water washing, then hot mixing",
+    patent: "Filed February 2019 and extended in Europe; number not located",
+    anchor: "re-cig",
+    summary:
+      "Sieves, washes twice, dries and hot-mixes into a granulate, and declares the output no longer waste.",
+    disclosed: [
+      "Sieving removes ash, tobacco residue and debris; a double wash at variable temperature separates paper from filter material.",
+      "Process water is sent to a certified partner for purification rather than being closed in-house.",
+      "Drying and hot mixing at controlled temperature produce a granulate, followed by an End-of-Waste declaration and conformity check.",
+      "Company figures: 15.50 kg of butts give 6.00 kg of polymer, and 6.12 kg give 2.39 kg, a consistent yield of about 39 % on collected-butt mass.",
+    ],
+    undisclosed: [
+      "The patent number and text, wash additives, water temperature and duration.",
+      "Wastewater contaminant load, polymer purity, the End-of-Waste criteria and testing laboratory.",
+      "Off-gas treatment from the hot mixing step.",
+    ],
+    caution:
+      "Yield is the company's own accounting, with no moisture or reject breakdown, so it is a reported figure rather than an independently measured one.",
+  },
+  {
+    name: "UnB with Poiato Recicla",
+    where: "Brazil",
+    role: "University licensor and licensed processor",
+    route: "Alkaline or acid pulping to cellulose",
+    patent: "PI 0305004-1, filed 2003, granted 2014",
+    anchor: "unb",
+    summary:
+      "The only route here with a peer-reviewed process paper behind it, and the only one whose own literature reports a toxic effluent.",
+    disclosed: [
+      "Cellulose acetate is hydrolysed to cellulose by pulping; tobacco lignin is removed and ash and chemicals dissolve.",
+      "The pulp is washed; the dark liquor is acid-precipitated with hydrochloric acid and returned to the pulping step.",
+      "The peer-reviewed description is Teixeira and colleagues, Waste Management 60 (2017) 140–150.",
+      "The dark liquor is reported to contain lignin, carbonyls, metals, nicotine and tobacco-specific nitrosamines.",
+    ],
+    undisclosed: [
+      "Alkali concentration, temperature, pressure and liquor-to-solid ratio.",
+      "Pulp yield and purity, effluent COD and phenolic load, and how well the treatment performs.",
+      "Nicotine, nitrosamine and metal content of the finished paper, and the energy demand.",
+    ],
+    caution:
+      "A secondary review states the alkaline route produces a dark toxic effluent that could not be treated with standard methods. The primary paper was not read in full in the batch-01 pass. A 20-year term from a 2003 filing would end in 2023, but that is arithmetic, not a checked legal status.",
+  },
+  {
+    name: "CNR with AzzeroCO2",
+    where: "Italy",
+    role: "Research council with a technology offering",
+    route: "Solvent dissolution and precipitation",
+    patent: "Offering published, number not shown, readiness level 5 self-assessed",
+    anchor: "cnr",
+    summary:
+      "Dissolves the acetate in acetone, filters out the solids, then precipitates the acetate back out with water.",
+    disclosed: [
+      "Butts are soaked in acetone, which dissolves cellulose acetate and nicotine; paper, ash and tobacco are filtered out.",
+      "Water is added as an anti-solvent to precipitate the acetate, and the acetone is recovered by boiling.",
+      "The remaining concentrated pollutant water is treated or disposed of.",
+      "The offering claims no prior separation or pre-treatment is needed.",
+    ],
+    undisclosed: [
+      "The patent number, the acetone-to-butt ratio, temperature and time, and the anti-solvent ratio.",
+      "Yields, residual acetone in the product, and nicotine concentration in the wastewater.",
+      "Any independent assay behind the word clean.",
+    ],
+    caution:
+      "Whether this acetone offering and the separate CNR mask-filter patent family are the same invention is not established; earlier project notes grouped them, and the grouping is unresolved.",
+  },
+  {
+    name: "Cerdia International",
+    where: "Germany",
+    role: "Cellulose acetate producer and patent applicant",
+    route: "Mechanical pretreatment with a recoverable cleaning agent",
+    patent: "WO2026074041A2, read at abstract level only",
+    anchor: "cerdia",
+    summary:
+      "An incumbent acetate producer proposing to recover acetate from post-consumer filters, which matters commercially if it works.",
+    disclosed: [
+      "Mechanical pretreatment removes and separates foreign substances.",
+      "A cleaning agent washes or extracts the remaining impurities, and the agent is optionally recovered, in particular by distillation.",
+    ],
+    undisclosed: [
+      "The cleaning agent itself, temperatures, ratios and yields.",
+      "Acetate quality against virgin tow, and handling specific to heated-tobacco products.",
+      "Any plant, process page or economics. Only the first of thirteen description chunks was read.",
+    ],
+    caution:
+      "No company process page, plant data or test result was located. This entry rests on a patent abstract.",
+  },
+];
+---
+
+<BaseLayout
+  title="Who actually does this"
+  description="The ten companies and operators mapped in the first research run, with what each one discloses, what it does not, and what the evidence status of each claim is."
+  eyebrow="Companies"
+>
+  <div class="prose">
+    <h1 class="page-title">Who actually does this</h1>
+    <p class="lede">
+      Ten companies and operators were mapped in the first research run. Six have a patent family that
+      could be located. Three have none located, which means not found in the sources searched, not that
+      none exists. For all ten, what follows is what each one says about itself.
+    </p>
+    <p class="section__note">
+      No site was visited, no company was contacted and no gated document was accessed. No independent
+      third-party contaminant assay was located for any operator on this page. Listing a company is not
+      an endorsement and not a judgement that its process works.
+    </p>
+  </div>
+
+  <section class="section" aria-labelledby="companies-table">
+    <h2 id="companies-table">At a glance</h2>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Company</th>
+            <th scope="col">Where</th>
+            <th scope="col">Role</th>
+            <th scope="col">Route</th>
+            <th scope="col">Patent</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            companies.map((company) => (
+              <tr>
+                <th scope="row"><a href={`#${company.anchor}`}>{company.name}</a></th>
+                <td>{company.where}</td>
+                <td>{company.role}</td>
+                <td>{company.route}</td>
+                <td>{company.patent}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+    <p class="section__note">
+      Two of the ten publish a mass balance of their own: MéGo! and Re-Cig. One publishes a split between
+      cleaned material and a toxic concentrate: TchaoMegot. None publishes an analyte-resolved fate for
+      cadmium, lead, arsenic or mercury.
+    </p>
+  </section>
+
+  {
+    companies.map((company) => (
+      <section class="section" id={company.anchor} aria-labelledby={`${company.anchor}-heading`}>
+        <h2 id={`${company.anchor}-heading`}>{company.name}</h2>
+        <p>{company.summary}</p>
+
+        <div class="table-scroll">
+          <table>
+            <tbody>
+              <tr>
+                <th scope="row">Where</th>
+                <td>{company.where}</td>
+              </tr>
+              <tr>
+                <th scope="row">Role</th>
+                <td>{company.role}</td>
+              </tr>
+              <tr>
+                <th scope="row">Route</th>
+                <td>{company.route}</td>
+              </tr>
+              <tr>
+                <th scope="row">Patent</th>
+                <td>{company.patent}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>What it discloses</h3>
+        <ul>
+          {company.disclosed.map((item) => <li>{item}</li>)}
+        </ul>
+
+        <h3>What it does not disclose</h3>
+        <ul>
+          {company.undisclosed.map((item) => <li>{item}</li>)}
+        </ul>
+
+        <p class="section__note">{company.caution}</p>
+      </section>
+    ))
+  }
+
+  <section class="section" aria-labelledby="companies-limit">
+    <h2 id="companies-limit">What this page cannot tell you</h2>
+    <ul>
+      <li>
+        Whether any of these processes removes cadmium, lead, arsenic or mercury to a level that a receiving
+        route would accept. None of the ten publishes an analyte-resolved fate, so the metals stop-condition
+        stays in force for all of them.
+      </li>
+      <li>
+        Whether the material each one produces has a buyer with a stated acceptance basis. The four-field test
+        — what is produced, what it is meant for, who accepts it, and on what basis — is not answered by any
+        company on this page.
+      </li>
+      <li>
+        Whether a patent being located means it is in force. Patent status here is a database assumption; no
+        national register was queried.
+      </li>
+      <li>
+        Whether the throughput figures are comparable. They are self-reported, they use different years and
+        different units, and they were recorded rather than reconciled.
+      </li>
+    </ul>
+    <p>
+      The ten are not the whole field. Ten patent-only actors and several construction-material leads were
+      mapped without a company behind them, and the search was bounded rather than worldwide.
+    </p>
+  </section>
+</BaseLayout>
