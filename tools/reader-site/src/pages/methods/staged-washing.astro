@@ -1,0 +1,215 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+// F0 is written as a stand-alone page rather than a bundle record because the
+// publication bundle carries six method families and F0 was written up
+// separately. Everything below is taken from
+// reports/batch-02/methods/f0-staged-washing.md, including its own "gap-closing
+// note" markers, which are AI-authored and are labelled as such on the page.
+const fourField = [
+  { field: "Dry-mass input against output", status: "Unknown", evidence: "No mass-balance data published." },
+  { field: "Analyte-resolved contaminant fate", status: "Unknown", evidence: "No per-analyte removal data." },
+  { field: "Treatment route defined", status: "Not defined", evidence: "No final disposition route specified." },
+  { field: "Use-specific product gate", status: "Not set", evidence: "No product acceptance criteria established." },
+];
+---
+
+<BaseLayout
+  title="Staged water and ethanol washing — Butt Lab"
+  description="Washing cigarette butts in water and optionally ethanol, then drying and milling the fibre. What the route does, what it leaves unresolved, and why it is the simplest family rather than the best evidenced."
+  eyebrow="Method family F0"
+>
+  <div class="prose">
+    <h1 class="page-title">Staged water and ethanol washing</h1>
+    <p class="page__lede">
+      Butts are washed in water and optionally in ethanol, then dried and milled into a fibrous
+      material. It is the simplest route in this collection and the one with the thinnest
+      evidence: no analyte data, no pilot and no product that accepts the output.
+    </p>
+  </div>
+
+  <section class="section prose" aria-labelledby="what-it-does">
+    <h2 id="what-it-does">What the route does</h2>
+    <p>
+      F0 is a staged liquid-washing process. Butts are collected and dried if wet, then passed
+      through one or more wash stages: water first, to remove water-soluble residues such as
+      nicotine, tar components and salts, then optionally ethanol to extract more lipophilic
+      residues from the cellulose-acetate filter. The washed material is rinsed, dried and may be
+      milled into a fibrous or particulate form.
+    </p>
+    <p>
+      Nothing is dissolved and no reaction is intended. The route sits at the simple end of
+      mechanical processing: no solvent beyond water and ethanol, no dissolution step, no chemical
+      conversion of the polymer.
+    </p>
+    <ol>
+      <li>Collect the butts and dry them to remove ambient moisture.</li>
+      <li>Agitate in water, often heated, to leach water-soluble material.</li>
+      <li>Optionally wash again in ethanol for residues water does not lift.</li>
+      <li>Rinse to remove residual wash liquor.</li>
+      <li>Dry the washed filter material at a moderate temperature.</li>
+      <li>Mill the dried material if a fibrous or particulate output is wanted.</li>
+    </ol>
+    <p class="small muted">
+      No published protocol specifies wash temperature, agitation speed, number of stages,
+      water-to-butt ratio or drying temperature for cigarette-butt washing. Those are choices a
+      designer makes, not measured reference values.
+    </p>
+  </section>
+
+  <section class="section prose" aria-labelledby="what-it-needs">
+    <h2 id="what-it-needs">What it needs</h2>
+    <ul>
+      <li>Spent butts, with the paper and residual tobacco kept or removed depending on the target output.</li>
+      <li>Drying capacity, by oven or air.</li>
+      <li>Wash vessels with agitation, and filtration for the spent liquor.</li>
+      <li>A water supply, and ethanol if the second stage is used.</li>
+      <li>A drying oven at a moderate temperature and, if a fibrous output is wanted, a mill.</li>
+    </ul>
+  </section>
+
+  <section class="section prose" aria-labelledby="what-moves">
+    <h2 id="what-moves">What moves, and what does not</h2>
+    <p>
+      The question for any washing route is whether it removes a contaminant from the fibre or
+      merely redistributes it between the fibre, the wash water and the sludge. For F0 the
+      position on each class of contaminant is as follows.
+    </p>
+    <ul>
+      <li><strong>Nicotine:</strong> partly removed by the water wash; some may remain bound to the fibre or paper.</li>
+      <li><strong>Tar and combustion residues:</strong> partly extracted by water and by ethanol; not all components are removed.</li>
+      <li><strong>Cadmium, lead, arsenic and mercury:</strong> partly leached into the wash liquor. Removal to any stated level is not demonstrated.</li>
+      <li><strong>Polycyclic aromatic hydrocarbons:</strong> partly extracted, with ethanol more effective than water for the lipophilic fractions.</li>
+      <li><strong>Microplastics:</strong> the cellulose-acetate filter is itself a microplastic precursor; washing does not remove it.</li>
+      <li><strong>Wash liquor:</strong> carries the extracted material and needs treatment as contaminated effluent, not disposal to drain.</li>
+    </ul>
+    <div class="callout">
+      <p class="callout__label">AI gap-closing note — not a measurement</p>
+      <p>
+        No analyte-resolved mass balance exists for the F0 wash stages. It is unknown what share of
+        nicotine, tar components, polycyclic aromatic hydrocarbons or metals each stage removes,
+        and whether what remains in the washed material meets any product requirement.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="four-field">
+    <div class="section__heading">
+      <h2 id="four-field">The four fields that would have to close</h2>
+      <p class="section__note">Every field is open</p>
+    </div>
+    <div class="table-scroll" tabindex="0" role="group" aria-label="Four-field sink accounting for staged washing">
+      <table class="table">
+        <caption class="visually-hidden">Four-field sink accounting for F0 staged washing, all fields open.</caption>
+        <thead>
+          <tr>
+            <th scope="col">Field</th>
+            <th scope="col">Status</th>
+            <th scope="col">What would close it</th>
+          </tr>
+        </thead>
+        <tbody>
+          {fourField.map((row) => (
+            <tr>
+              <th scope="row">{row.field}</th>
+              <td>{row.status}</td>
+              <td>{row.evidence}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="small muted">
+      A route closes its sink accounting only when the dry mass in and out is known, each
+      contaminant is tracked to a named stream, each stream has a treatment route, and each
+      product has an acceptance criterion set by someone who will take it. F0 currently answers
+      none of the four.
+    </p>
+  </section>
+
+  <section class="section prose" aria-labelledby="energy">
+    <h2 id="energy">Water, ethanol and energy</h2>
+    <p>
+      The wash volume per batch is unmeasured and the spent liquor is contaminated, so it cannot
+      be discharged untreated. Ethanol, if used, would need recovery by distillation to make
+      economic or environmental sense, and no recovery rate is published. Drying at a moderate
+      temperature takes thermal energy and agitation takes mechanical power.
+    </p>
+    <p class="small muted">
+      No energy or water figure per kilogram exists for cigarette-butt washing at any scale, so
+      none is given here.
+    </p>
+    <div class="callout">
+      <p class="callout__label">AI gap-closing note — not a measurement</p>
+      <p>
+        Any energy or water figure for this route would be an illustration, not a result.
+        Ethanol recovery, wastewater treatment and dried-material yield would dominate the
+        operating picture, and all three are unmeasured.
+      </p>
+    </div>
+  </section>
+
+  <section class="section prose" aria-labelledby="output">
+    <h2 id="output">What comes out</h2>
+    <p>
+      The output is washed, dried cellulose-acetate fibre or particulate. Its contaminant level is
+      unknown because it has not been measured analyte by analyte. Fibre length, diameter and
+      integrity after washing and drying are unmeasured. No product standard accepts the material,
+      and it has not been characterised for mechanical properties, thermal stability or residual
+      toxicity.
+    </p>
+  </section>
+
+  <section class="section prose" aria-labelledby="rules">
+    <h2 id="rules">Rules and status</h2>
+    <ul>
+      <li><strong>Waste classification:</strong> spent butts are often treated as hazardous waste; washing is not established to change that status.</li>
+      <li><strong>End of waste:</strong> no jurisdiction is known to grant end-of-waste status to washed cigarette-butt material.</li>
+      <li><strong>Product contact:</strong> the material is not approved for food contact, skin contact or any consumer product.</li>
+      <li><strong>Wastewater:</strong> the spent liquor carries extracted material and needs treatment as contaminated effluent.</li>
+    </ul>
+    <p class="small muted">
+      No regulatory pathway has been identified for F0 material. Local environmental and waste
+      rules would have to be checked before any pilot.
+    </p>
+  </section>
+
+  <section class="section prose" aria-labelledby="evidence">
+    <h2 id="evidence">What the evidence is</h2>
+    <ul>
+      <li><strong>Company description and press coverage:</strong> washing steps described in company material and regional press, including the MéGo! route.</li>
+      <li><strong>Patent mentions:</strong> washing as a pre-treatment step inside other processes.</li>
+      <li><strong>Independent peer-reviewed study of washing as a stand-alone method:</strong> none located.</li>
+      <li><strong>Life-cycle assessment:</strong> no independent assessment to ISO 14040/44 exists for this or any cigarette-butt recycling route.</li>
+      <li><strong>Analyte data:</strong> none published for wash-stage removal or residual levels.</li>
+    </ul>
+  </section>
+
+  <section class="section prose" aria-labelledby="bottom-line">
+    <h2 id="bottom-line">Bottom line</h2>
+    <p>
+      F0 is the simplest family: common equipment, low complexity, and no published evidence that
+      it yields a usable material. The wash liquor is contaminated and needs treatment, residual
+      toxin levels in the washed material are unmeasured, and neither a regulatory pathway nor a
+      product acceptance criterion exists. It stays an unvalidated hypothesis pending analytic
+      measurement.
+    </p>
+    <div class="callout">
+      <p class="callout__label">Stop-condition — metals</p>
+      <p>
+        The metal content of the washed material has to be measured before any product
+        consideration. If cadmium, lead, arsenic or mercury exceed the applicable limit, the route
+        stops at that point.
+      </p>
+    </div>
+    <p class="small muted">
+      Desk investigation only. No experiment was run, no material was handled, and no claim is
+      made that this route is clean, safe, validated or ready to deploy.
+    </p>
+  </section>
+
+  <nav class="page-actions" aria-label="Where to go next">
+    <a class="action action--primary" href="/compare/">Compare the assessed routes</a>
+    <a class="action action--quiet" href="/methods/mechanical-physical/">The wider washing family</a>
+  </nav>
+</BaseLayout>

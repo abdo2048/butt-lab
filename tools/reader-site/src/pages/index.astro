@@ -4,6 +4,61 @@ import { getBundle, recordsOfKind } from "../lib/bundle";
 
 const bundle = getBundle();
 const sourceCount = recordsOfKind(bundle, "source").length;
+// The seven routes, in the order they appear elsewhere on the site. F0 is a
+// stand-alone page; the other six are bundle families. Every cell is a short
+// restatement of the route's own page - no new numbers and no combined score.
+const routes = [
+  {
+    id: "staged-washing",
+    title: "Staged water and ethanol washing",
+    does: "Wash the whole butt in water, then optionally in ethanol, dry it and mill the fibre.",
+    makes: "Washed cellulose-acetate fibre",
+    open: "Whether the wash removes metals from the fibre or only moves them into the wash water and sludge.",
+  },
+  {
+    id: "mechanical-physical",
+    title: "Mechanical separation with aqueous washing",
+    does: "Break the butt up, separate the filter fraction, then wash and dry the fibre.",
+    makes: "Separated, washed fibre",
+    open: "The same question as F0, plus what the separated paper, tobacco and sludge still carry.",
+  },
+  {
+    id: "thermal",
+    title: "Dry treatment and composite extrusion",
+    does: "Dry and grind the butt, blend it into a plastic matrix and extrude profiles.",
+    makes: "Extruded composite profiles",
+    open: "The contaminants are sealed in rather than removed, and nothing is published on what escapes as the composite ages.",
+  },
+  {
+    id: "chemical",
+    title: "Solvent dissolution and polymer recovery",
+    does: "Dissolve the acetate, filter out paper and ash, then precipitate the polymer again.",
+    makes: "Recovered cellulose acetate",
+    open: "What the solvent leaves in the polymer, and where the contaminated solvent goes.",
+  },
+  {
+    id: "material-incorporation",
+    title: "Material incorporation into other products",
+    does: "Add butt material as a partial ingredient in bricks, concrete, tiles, asphalt or panels.",
+    makes: "Construction products containing butt material",
+    open: "The contaminants travel with the butts, and leaching or firing emissions are not measured.",
+  },
+  {
+    id: "biological",
+    title: "Biological treatment",
+    does: "Let enzymes or microorganisms act on the butt over hours or days.",
+    makes: "Treated butt material",
+    open: "No commercial process, no pilot and no located evidence at any scale.",
+  },
+  {
+    id: "product-routes",
+    title: "Where the recovered material could go",
+    does: "Not a process of its own: it maps the other routes' outputs onto candidate products.",
+    makes: "Candidate finished articles",
+    open: "Every route inherits the contaminants of the intermediate it starts from, and no product standard is named.",
+  },
+];
+
 const paths = [
   { label: "01 / Explore", title: "Recycling methods", href: "/methods/", text: "See what each route takes in, what it produces, and where the contaminants may end up." },
   { label: "02 / Check", title: "Sources & evidence", href: "/sources/", text: "Find the papers, patents, company disclosures and supporting research behind the site." },
@@ -29,6 +84,45 @@ const paths = [
       <p class="research-brief__status">Desk research only · No experiments run by Butt Lab</p>
     </aside>
   </div>
+
+  <section class="section" aria-labelledby="routes">
+    <div class="section__heading">
+      <h2 id="routes">The seven routes at a glance</h2>
+      <p class="section__note">Desk research · no route has been tested here</p>
+    </div>
+    <div class="table-scroll" tabindex="0" role="group" aria-label="The seven route families compared">
+      <table class="table table--routes">
+        <caption class="visually-hidden">
+          Seven cigarette-butt route families: what each does, what it aims to produce, and what
+          the evidence has not settled.
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Route</th>
+            <th scope="col">What it does</th>
+            <th scope="col">Target output</th>
+            <th scope="col">What is not settled</th>
+          </tr>
+        </thead>
+        <tbody>
+          {routes.map((route) => (
+            <tr>
+              <th scope="row"><a href={`/methods/${route.id}/`}>{route.title}</a></th>
+              <td>{route.does}</td>
+              <td>{route.makes}</td>
+              <td>{route.open}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="small muted">
+      There is no combined score and no overall ranking. Every cell restates the linked route's
+      own page, where the evidence basis of each statement is labelled. Where a cell reads
+      <strong>not settled</strong>, the answer is unknown, not zero. The full eight-criterion
+      comparison is on <a href="/compare/">Compare evidence</a>.
+    </p>
+  </section>
 
   <section class="section" aria-labelledby="browse">
     <div class="section__heading">

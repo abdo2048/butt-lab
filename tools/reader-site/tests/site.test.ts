@@ -382,7 +382,10 @@ test("Start here offers two direct reading paths before the article sections wit
 test("the methods index links every family and shows its output and an open question", () => {
   const { window } = new JSDOM(readDist("methods", "index.html"));
   const cards = [...window.document.querySelectorAll(".family-grid > li")];
-  assert.deepEqual(cards.map((card) => card.querySelector("h2 a")?.getAttribute("href")).sort(), families.map((id) => `/methods/${id}/`));
+  assert.deepEqual(
+    cards.map((card) => card.querySelector("h2 a")?.getAttribute("href")).sort(),
+    [...families.map((id) => `/methods/${id}/`), "/methods/staged-washing/"].sort(),
+  );
   for (const card of cards) {
     assert.ok(card.querySelector("p")?.textContent?.trim(), "each card explains the approach");
     assert.match(card.querySelector("dl")?.textContent ?? "", /(?:Target output|Possible outputs)/);

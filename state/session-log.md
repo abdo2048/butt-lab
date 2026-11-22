@@ -376,3 +376,36 @@ the reader's PDF route.
 Verification: 
 pm run build exit 0, 61 pages indexed; 
 pm test 201 passed, 0 failed.
+
+## 2026-11-22 - Documents shelf, glossary, companies and the comparison front door
+
+Four reader steps landed on main after the sources/ consolidation.
+
+- documents: the reader now serves every document on the shelf rather than the
+  two curated PDF copies, and each source page links its own copy.
+- glossary: thirty or so terms are named and explained in plain language, with
+  aliases, so a reader meeting "end of waste" or "leachate" for the first time
+  does not have to leave the site. The page states which words are the site's own
+  and which come from regulation.
+- companies: a new page names the ten companies and operators mapped in the first
+  research run. Each entry records what the entity says it does, what it does not
+  publish, and a caution where sources conflict or a claim rests on one interview.
+  The page states that no site was visited, no company was contacted and no
+  independent contaminant assay was located, so the metals stop-condition stays in
+  force for all ten.
+- front door: the home page now opens with a seven-route table - what each route
+  does, what it aims to produce and what is not settled - before the reading
+  paths. Staged washing (F0) gets its own route page for the first time; it was
+  written up in the batch-02 report but had no reader page. The eight-criterion
+  compare page keeps its six assessed families and says plainly that F0 is not
+  scored there.
+- base.css gains a .table--routes modifier: a floor width and a sticky route
+  column, so the front-door table scrolls in its own frame on a narrow screen
+  instead of crushing each cell.
+
+Verification: npm run build exit 0, 64 pages indexed, 2464 words; npm test 201
+passed, 0 failed.
+
+Not done: the final-results page that links the batch-01 synthesis and the
+invention, a reviewer pass over sources/ against the method pages, and the
+deployment of this branch.

@@ -535,6 +535,27 @@ hr {
   background: var(--paper-sunken);
 }
 
+/* The front-door route table is four columns of prose, not short scores. Give
+ * it a floor width so a narrow screen scrolls the table inside its own frame
+ * instead of crushing each cell to a few characters, and keep the route name
+ * in place while the rest scrolls. */
+.table--routes {
+  min-width: 44rem;
+}
+
+.table--routes thead th:first-child,
+.table--routes tbody th:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background: var(--paper-raised);
+}
+
+.table--routes thead th:first-child {
+  z-index: 2;
+  background: var(--paper-sunken);
+}
+
 /* ------------------------------------------------------------ drawer */
 
 .drawer {

@@ -46,6 +46,16 @@ for (const family of families) {
     cards.push({ family, approach: family.summary, question: gap?.kind === "gap" ? gap.question : "" });
   }
 }
+
+// F0 is written as its own page rather than as a bundle record, so it is listed
+// here by hand. Keep the wording aligned with that page.
+const stagedWashing = {
+  title: "Staged water and ethanol washing",
+  href: "/methods/staged-washing/",
+  approach: "Wash the whole butt in water, then optionally in ethanol, dry it and mill the fibre.",
+  output: "Washed cellulose-acetate fibre",
+  question: "Does the wash remove metals from the fibre, or only move them into the wash water and sludge?",
+};
 ---
 
 <BaseLayout
@@ -65,6 +75,16 @@ for (const family of families) {
   </nav>
 
   <ul class="family-grid" aria-label="Method families">
+    <li>
+      <h2><a href={stagedWashing.href}>{stagedWashing.title}</a></h2>
+      <p>{stagedWashing.approach}</p>
+      <dl class="family-grid__details">
+        <dt>Target output</dt>
+        <dd>{stagedWashing.output}</dd>
+        <dt>Open question</dt>
+        <dd>{stagedWashing.question}</dd>
+      </dl>
+    </li>
     {cards.map(({ family, approach, question }) => (
       <li>
         <h2><a href={`/methods/${family.id}/`}>{family.title}</a></h2>

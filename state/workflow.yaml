@@ -1,6 +1,6 @@
 version: 4
 updated: '2026-11-22'
-status: sources_consolidated_download_layer_pending
+status: reader_units_landed_download_layer_not_deployed
 
 production:
   url: https://butt-lab.am6.workers.dev/
@@ -37,13 +37,12 @@ reviewer_library:
   repository_visibility: Temporarily public per operator; no visibility or history change made here.
 
 next_action: >-
-  Make the reader serve every source from sources/ instead of the curated
-  publication/assets/ pair. That is one unit: the asset path is hard-coded in
-  publication/manifest.yaml, tools/publication-contract/src/export.ts,
-  tools/publication-contract/scripts/build-publication-layer.mjs, and
-  tools/reader-site/src/lib/source-pdf.ts, and about ten tests assert the current shape.
-  After that: the plain-English glossary, the seven-route comparison table as the front
-  door, the companies page, the F0 page, and the final-results page.
+  Build the final-results page: link reports/final/batch-01-synthesis.md and the
+  invention page so a reader can see what the desk research concluded. The
+  documents shelf, the glossary, the companies page, the seven-route front-door
+  table and the F0 route page have landed on main. After that: a reviewer pass
+  in which a fresh AI reads the 50 documents in sources/ and checks the six
+  method pages and the invention against them.
 
 open_research:
   - Source screening is not a line-by-line extraction or worldwide survey. See the coverage ledger for the next evidence pass.
