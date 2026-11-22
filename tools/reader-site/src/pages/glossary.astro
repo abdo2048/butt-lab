@@ -6,6 +6,32 @@ const bundle = getBundle();
 const glossaryTerms = recordsOfKind(bundle, "term")
   .slice()
   .sort((a, b) => a.preferredLabel.localeCompare(b.preferredLabel));
+
+const runs = [
+  ["batch-01", "The first research run. Closed and accepted 2026-11-12. Ten companies, five stages, one synthesis. Produced the hypothesis J-H-01 and the dissent F3."],
+  ["stage 1–5", "The steps inside batch-01: harvest, deepen to source documents, red-team panel, inventor panel, synthesis. Stage 5 always means the batch-01 synthesis, never a separate batch."],
+  ["gap-closing", "The retrieval pass of 2026-11-08 to 11-11, after stage 5, to fetch documents the synthesis cited but did not hold."],
+  ["round-1", "The receipts of that pass: what was requested, what arrived, what was refused."],
+  ["round-2", "A separate public-documents sweep on three companies. It found no full life-cycle assessment, no per-lot analysis and no public process data."],
+  ["batch-02", "The second run, 2026-11-16, accepted 2026-11-17. It reorganised the knowledge by process type: six method explanations, an invention sketch, an Egypt annex. This is what the site publishes."],
+];
+
+const families = [
+  ["F0", "Staged washing", "Wash in stages with water and optionally ethanol, rinse, dry, mill."],
+  ["F1", "Mechanical / physical", "Grind, sieve and wash to separate acetate from paper, tobacco and ash."],
+  ["F2", "Thermal", "Dry, heat or extrude; includes pyrolysis and energy recovery."],
+  ["F3", "Chemical", "Dissolve the acetate in a solvent and recover it by precipitation."],
+  ["F4", "Biological", "Microbial or enzymatic breakdown, or composting."],
+  ["F5", "Material incorporation", "Use the treated fibre as a filler inside asphalt, concrete or composites."],
+  ["F6", "Product routes", "Turn the recovered material into a sellable object."],
+];
+
+const codes = [
+  ["M01–M08", "Measurement: what would have to be measured, on what basis, to answer the question at all."],
+  ["R01–R05", "Jurisdiction and regulation: which authority would have to accept the material, and under what rule."],
+  ["S01–S06", "Scale, cost and energy: what changes when the process is not a bench experiment."],
+  ["J-H-01", "The batch-01 judge's hypothesis. Unvalidated; the preferred target for revision, not a finding."],
+];
 ---
 
 <BaseLayout
@@ -17,8 +43,88 @@ const glossaryTerms = recordsOfKind(bundle, "term")
   <h1>Glossary</h1>
 
   <p class="page__lede">
-    Definitions for terms used in the method pages. A dotted underline in the text links here; on touch screens, tap once for a short definition and again to open the glossary.
+    Two kinds of word appear on this site: the vocabulary of the project itself — what a batch, a
+    stage or an F-number means — and the technique terms used inside the method pages. Both are
+    here. A dotted underline in the text links to the technique terms; on touch screens, tap once
+    for a short definition and again to open this page.
   </p>
+
+  <section class="section" id="project-vocabulary">
+    <div class="section__heading">
+      <h2>The research run</h2>
+    </div>
+    <p class="page__lede">
+      The work happened in two batches with a retrieval pass in between. "Batch" is a research
+      run, "stage" is a step inside a batch, and "round" is a document-retrieval effort — not three
+      names for the same thing.
+    </p>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th scope="col">Word</th><th scope="col">What it means</th></tr>
+        </thead>
+        <tbody>
+          {runs.map(([word, meaning]) => (
+            <tr><td><code>{word}</code></td><td>{meaning}</td></tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section" id="method-families">
+    <div class="section__heading">
+      <h2>The seven method families</h2>
+    </div>
+    <p class="page__lede">
+      A family is defined by what physically or chemically happens to the butt, not by who does it.
+      The site refers to families by name; the F-numbers belong to the research files.
+    </p>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th scope="col">Code</th><th scope="col">Family</th><th scope="col">In one line</th></tr>
+        </thead>
+        <tbody>
+          {families.map(([code, name, line]) => (
+            <tr><td><code>{code}</code></td><td>{name}</td><td>{line}</td></tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="section__note">
+      F3 is used twice in the research files: a minority dissent in batch-01, the chemical family
+      from batch-02 onward. Neither use has been rewritten.
+    </p>
+  </section>
+
+  <section class="section" id="open-questions">
+    <div class="section__heading">
+      <h2>Codes for open questions</h2>
+    </div>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th scope="col">Code</th><th scope="col">Covers</th></tr>
+        </thead>
+        <tbody>
+          {codes.map(([code, meaning]) => (
+            <tr><td><code>{code}</code></td><td>{meaning}</td></tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section__heading">
+      <h2>Technique terms</h2>
+    </div>
+    <p class="page__lede">
+      The words used inside the method pages, including the four-field sink and the metals
+      stop-condition.
+    </p>
+  </section>
 
   {
     glossaryTerms.map((term) => (

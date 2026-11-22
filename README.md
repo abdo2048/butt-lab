@@ -4,6 +4,7 @@
 
 ## Start here
 
+- [Glossary: what batch, stage, round and F-numbers mean](GLOSSARY.md)
 - [Current status and next steps](state/workflow.yaml)
 - [Repository map, branches and remaining work](docs/REPOSITORY-MAP.md)
 - [Prepare the local PDF reading library](docs/LOCAL-LIBRARY.md)
