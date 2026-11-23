@@ -1,0 +1,150 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+// Reader-facing "what would a qualified team test first" page. It is a restatement
+// of the batch-01 desk synthesis (see /results/) and the unvalidated proposal (see
+// /invention/) in an actionable reading order. No number, ranking, validation or
+// experiment authorisation is added here. Everything is desk research.
+const sequence = [
+  {
+    step: "1",
+    title: "Characterise the feed and the separated fractions",
+    body: "Before choosing any route, measure what actually arrives: whole butt, filter, paper, tobacco and ash, on a stated dry or wet basis. A recovery percentage without its denominator is not a result.",
+  },
+  {
+    step: "2",
+    title: "Rank each analyte's mass by stream",
+    body: "For nicotine, tobacco-specific nitrosamines, representative PAHs and the four metals, find where the mass actually sits — product, liquid, solid, emission — not just its concentration. Only a mass ranking shows which stream controls.",
+  },
+  {
+    step: "3",
+    title: "Find the burden that actually controls",
+    body: "If the controlling burden is in the tobacco and ash, a fixed initial-wash bleed is the wrong answer. If it stays in the product, no named purge rescues it. This decides whether washing is even the right first move.",
+  },
+  {
+    step: "4",
+    title: "Test a measured purge and a treatment boundary",
+    body: "Check whether a measured purge plus a residual-treatment step can hold, and where the rejected material finally goes. A named stream, partner or recycle loop is not a demonstrated sink.",
+  },
+  {
+    step: "5",
+    title: "Separately test the intended product use",
+    body: "Identity, recovery, purity, detoxification, leaching and use performance are different gates. Passing a material characterisation does not pass the product gate; that needs its own independent evidence.",
+  },
+];
+---
+
+<BaseLayout
+  title="What a team would test first"
+  description="A desk-research reading order for a qualified team: the most defensible starting point, the sequence of questions to resolve before any trial, and the metals stop-condition. Not an experiment plan or authorisation."
+  eyebrow="For a qualified team"
+  layout="reading"
+>
+  <div class="prose">
+    <h1 class="page-title">What a team would test first</h1>
+    <p class="page__lede">
+      This page turns the desk synthesis into a reading order for a qualified team. It says where
+      the evidence is strongest, what to resolve before any trial, and what would change the
+      answer. It is <strong>not</strong> an experiment plan, and it authorises nothing: no route
+      here is shown to be clean, safe, deployable or environmentally beneficial.
+    </p>
+  </div>
+
+  <section class="section prose" aria-labelledby="boundary">
+    <h2 id="boundary">Start from the evidence boundary</h2>
+    <p>
+      The best-supported conclusion of the first research run is an evidence boundary, not a
+      working process. Every family has a source-supported description of what it does and a
+      consequential gap: wash loading, recycle purge, treatment performance, sludge composition,
+      solvent closure, off-gas capture, pulp yield or product leaching. No family closes dry mass,
+      analyte fate, treatment performance and an independent product gate together.
+    </p>
+    <p>
+      So the honest starting point is not “which method works” but “which method makes the missing
+      evidence cheapest to obtain.” That is the criterion used below.
+    </p>
+  </section>
+
+  <section class="section prose" aria-labelledby="starting-point">
+    <h2 id="starting-point">The most defensible starting point</h2>
+    <p>
+      <strong>Staged water and ethanol washing</strong> is the architecture the synthesis sent
+      forward, and it is recorded as a <em>new, unvalidated hypothesis</em>. It was chosen because
+      it makes the sink architecture <em>testable</em> — each separated fraction and each purge can
+      be measured — not because it gives the best polymer.
+    </p>
+    <p>
+      The minority alternative is kept, not averaged away: where recovered cellulose-acetate
+      <em>quality</em> is the controlling objective, <strong>solvent dissolution and polymer
+      recovery</strong> remains the candidate, subject to co-precipitation, metals, solvent closure
+      and independent product evidence. A team whose goal is polymer quality should weigh that
+      route rather than inherit the washing choice.
+    </p>
+    <p class="small muted">
+      Both are hypotheses. Neither has been run by this project, and neither is endorsed as safe or
+      effective. See the <a href="/methods/staged-washing/">staged-washing route</a> and the
+      <a href="/invention/">AI proposal with its falsifiers</a>.
+    </p>
+  </section>
+
+  <section class="section" aria-labelledby="sequence">
+    <div class="section__heading">
+      <h2 id="sequence">The sequence of questions before any trial</h2>
+      <p class="section__note">A sequence of questions, not an equipment list</p>
+    </div>
+    <div class="prose">
+      <ol class="test-sequence">
+        {sequence.map((item) => (
+          <li>
+            <h3><span class="test-sequence__step" aria-hidden="true">{item.step}</span>{item.title}</h3>
+            <p>{item.body}</p>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section class="section prose" aria-labelledby="metals">
+    <h2 id="metals">The stop-condition that overrides everything</h2>
+    <div class="callout">
+      <p class="callout__label">Stop-condition — metals</p>
+      <p>
+        Cadmium, lead, arsenic and mercury remain the hardest class across every proposal. A stream
+        whose metal content is not characterised stays on hold, and no route continues past a
+        measured exceedance. Thermal treatment is not elemental destruction, and a blanket
+        volatility claim cannot stand in for species-specific fate.
+      </p>
+    </div>
+  </section>
+
+  <section class="section prose" aria-labelledby="change">
+    <h2 id="change">What would change the answer</h2>
+    <ul>
+      <li>An analyte-resolved mass balance showing the controlling burden sits in the tobacco and ash rather than the filter — this would undermine a fixed initial-wash bleed.</li>
+      <li>Measured metals compliance (or a measured exceedance) in any product, liquid or solid stream — this holds or stops the route regardless of other results.</li>
+      <li>Independent evidence that the intended product use passes its own gate — recovery or purity alone does not supply this.</li>
+      <li>A comparable, stated-basis energy / reagent / throughput inventory — without one, no route can be called cheapest or ready to deploy.</li>
+    </ul>
+  </section>
+
+  <section class="section prose" aria-labelledby="not-authorised">
+    <h2 id="not-authorised">What this page is not</h2>
+    <p>
+      No experiment or pilot was run for this synthesis, and this page does not arrange one.
+      Physical work with contaminated waste, chemicals, pressure or emissions requires a qualified
+      facility, a risk assessment, appropriate measurements, lawful disposal and a named human
+      actor. Nothing here is a safety, novelty, patentability, freedom-to-operate, legal,
+      deployment or environmental-benefit determination.
+    </p>
+    <p class="small muted">
+      Desk research only. Missing values stay unknown; they are not zero. Company figures are
+      accounting, not process performance — see <a href="/results/">what the first run concluded</a>.
+    </p>
+  </section>
+
+  <nav class="page-actions" aria-label="Where to go next">
+    <a class="action action--primary" href="/compare/">Compare the seven routes</a>
+    <a class="action action--quiet" href="/invention/">The proposal and its falsifiers</a>
+    <a class="action action--quiet" href="/limitations/">What this site cannot tell you</a>
+  </nav>
+</BaseLayout>

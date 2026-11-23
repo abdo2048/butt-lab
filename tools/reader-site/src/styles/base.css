@@ -154,6 +154,128 @@ hr {
   margin-inline: auto;
 }
 
+/* Technical-documentation layout: a guide sidebar beside the content on wide
+ * screens. On narrow screens the sidebar is hidden and the primary nav in the
+ * header carries the same destinations, so the mobile layout is unchanged. The
+ * comparison table is the spine; the family pages are reference detail behind it. */
+.layout {
+  display: block;
+}
+
+.sidebar {
+  display: none;
+}
+
+.sidebar__group + .sidebar__group {
+  margin-top: 1.4rem;
+}
+
+.sidebar__label {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  margin: 0 0 0.4rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar li + li {
+  margin-top: 0.1rem;
+}
+
+.sidebar a {
+  display: block;
+  padding: 0.28rem 0.4rem;
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  color: var(--ink-muted);
+  text-decoration: none;
+  border-left: 2px solid var(--transparent);
+}
+
+.sidebar a:hover {
+  color: var(--ink);
+  background: var(--paper-raised);
+}
+
+.sidebar a[aria-current="page"] {
+  color: var(--ink);
+  border-left-color: var(--teal);
+  background: var(--paper-raised);
+}
+
+@media (min-width: 64rem) {
+  .layout {
+    display: grid;
+    grid-template-columns: 14rem minmax(0, 1fr);
+    gap: 2.5rem;
+    align-items: start;
+  }
+
+  .sidebar {
+    display: block;
+    position: sticky;
+    top: 1rem;
+    max-height: calc(100vh - 2rem);
+    overflow-y: auto;
+    padding-block: 2rem;
+    padding-right: 1.25rem;
+    border-right: 1px solid var(--rule);
+  }
+
+  /* The sidebar replaces the horizontal primary nav on wide screens. The nav
+   * stays in the DOM (and in the mobile layout) for keyboard and no-JS use. */
+  .nav-primary {
+    display: none;
+  }
+}
+
+/* Numbered question sequence on the "what to test first" page. */
+.test-sequence {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.test-sequence li {
+  position: relative;
+  padding-left: 2.7rem;
+}
+
+.test-sequence li + li {
+  margin-top: 1.3rem;
+}
+
+.test-sequence__step {
+  position: absolute;
+  left: 0;
+  top: 0.05rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.9rem;
+  height: 1.9rem;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--paper-raised);
+  background: var(--teal);
+  border-radius: 50%;
+}
+
+.test-sequence h3 {
+  margin: 0 0 0.3rem;
+}
+
+.test-sequence p {
+  margin: 0;
+}
+
 .site-header {
   border-bottom: 1px solid var(--rule);
   background: var(--paper);
