@@ -545,3 +545,11 @@ Implemented the direction in plan-agent message `msg_1f82c51390016wYYPNB0awqQr3`
 - Updated the `site.test.ts` More-nav assertion to include `/test-first/`.
 
 Verified: build 66 pages; release audit `records=176 findings=0 blocking=0 passed=true`; tests 200/201 (the 1 failure is the pre-existing cbor fixture issue recorded in E11, unrelated). Desktop sidebar confirmed by a width simulation (grid + sidebar render, no horizontal overflow); mobile confirmed unchanged. The managed browser viewport is fixed ~899px, so a real desktop-width screenshot was not possible here; the operator can view the live preview at 127.0.0.1:4322 in Firefox at full width. Repo stays public per operator (private later). The deployed Worker still serves the pre-E11/E12 artifact; a redeploy is needed to show this re-shape.
+
+## 2026-11-23 - The companies page explains each method (E13)
+
+Operator feedback: the companies page "doesn't explain methods of companies, it's just disclose and not disclose." This was the gap in the original vision (explain each company's method, close its gaps).
+
+Restructured every company entry in `companies.astro` to lead with **"How the method works"** — an ordered step-by-step of the company's own process description — then a **what it makes / where the waste goes / figures it publishes** block, a link to the route-family reference (`/methods/<id>/`) and the comparison table, then **"What is still unknown"** (the former undisclosed list) and the caution. Added a `family` field per company for the route link. All content is the existing sourced record reorganised, nothing invented; the steps carry the label "As the company describes it — not independently verified." Added `.company-steps` / `.company-io` styles. The at-a-glance table, the metals stop-condition and the four-field limits are unchanged.
+
+Verified: build 66 pages; release audit 0 findings; tests 200/201 (the 1 pre-existing cbor fixture failure). Confirmed in the browser that MéGo! now shows its six method steps, then makes / waste / figures. Gap-closing per method (with sources or labelled AI proposals) remains the next research step; this pass explains the methods and names the gaps.

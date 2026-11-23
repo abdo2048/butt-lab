@@ -276,6 +276,34 @@ hr {
   margin: 0;
 }
 
+/* Company method explanation: ordered steps, then what it makes / waste / figures. */
+.company-steps {
+  margin: 0.5rem 0 1.1rem;
+  padding-left: 1.4rem;
+}
+
+.company-steps li + li {
+  margin-top: 0.4rem;
+}
+
+.company-io {
+  margin: 0 0 1rem;
+  border-top: 1px solid var(--rule);
+}
+
+.company-io dt {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  margin-top: 0.75rem;
+}
+
+.company-io dd {
+  margin: 0.15rem 0 0;
+}
+
 .site-header {
   border-bottom: 1px solid var(--rule);
   background: var(--paper);
