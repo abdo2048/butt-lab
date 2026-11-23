@@ -52,3 +52,24 @@ The two header link rows were based on an internal distinction between primary a
 **Next usability review:** Ask a new reader to find one documented method, explain what is still unknown, and open the original source. Ask a technical reviewer to do the same on a real phone. Check whether the links between a method, its worked examples and its evidence are sufficient for those tasks before adding more navigation. Hosted reviewer access is a separate storage and permission decision, not another public navigation section; see [Reviewer PDF access](REVIEWER-LIBRARY.md).
 
 **Verification:** The four main links stayed on one row from 320 through 1440 px, including the compact-to-desktop transition. Desktop header height at 1440 px fell from 152 to 103 px; at 390 px it remained 87 px. Keyboard More and no-JavaScript navigation passed. All 61 routes passed the five-width overflow check; automated accessibility checks found no issues on 13 sample pages or the open More menu at 390 and 1440 px. All 201 reader tests and the release audit passed. The reviewer tool separately passed four authentication/download tests; it is not in the public preview.
+
+## Follow-up: the dead right margin, and the sidebar that was never in the source
+
+Two complaints came from the operator after reading the hosted site: the sticky margin column (`.sheet__margin`) "shows in a strange way without its background" when scrolling, and every page left "so much gap on the right — was it meant to be a sidebar?"
+
+**The first complaint was about the deployed build, not the source.** `.sheet__margin` does not exist anywhere in `tools/reader-site/src`. It exists only in the committed artifact at `tools/reader-site/artifact/site/`, an older design whose `.sheet` grid was `13rem minmax(0,1fr)` with a sticky, border-only margin column that had no background. `https://butt-lab.am6.workers.dev/` still serves that artifact, so the operator was reviewing a build roughly a hundred commits behind `main`. The source has no `.sheet` class at all. Redeploying the current artifact removes the artefact; no CSS fix was needed for it.
+
+**The second complaint was real in the source.** Measured at a 1280 px viewport: the shell was 1233 px wide while `.prose` stayed 595 px at x=16, so 622 px of every page was empty on the right. On method pages the content column began at x=246 and still ended at 841, leaving a third of the screen blank. A second, subtler bug sat underneath: `--measure: 68ch` resolves against each element's own font size, so 68ch was 595 px on 17 px body text but 1329 px on the 34 px `h1` — headings constrained by the same token ran full width while their body text sat in a narrow column.
+
+| Area | Change |
+| --- | --- |
+| `tokens.css` | `--measure` is now `37rem` and `--measure-wide` `46rem`, with a comment recording that `ch` resolves per element and 37rem ≈ 68 characters at the body size. |
+| Reading column (`base.css`) | Text blocks on every page — `h1`, lede, prose, page actions, disclaimers, section headings and the source intro, filter and jump row — take `max-inline-size: var(--measure)` and centre with `margin-inline: auto`. Structural blocks (hero, card grids, tables) keep the full shell, so wide evidence stays wide and prose stays readable. |
+| Method pages | The ≥62rem two-column layout with a 12rem sticky rail is gone; the page is one centred column, the aside sits above the content with a rule above and below, and the on-this-page list becomes a wrapping row of chips. |
+| Glossary | `.page--reading` had a max width but no centring; it now centres. |
+| Tables | Any table inside `.table-scroll` gets the data-table treatment even without the `.table` class — `/documents/` had no class and was rendering browser-default centred headers over left-aligned cells. |
+| Links | Underline offset raised from 0.16em to 0.22em, and the dotted glossary term underline to 0.32em at 1 px, because at 0.2em it sat on the descenders and read as a strike-through on the serif face. |
+
+**Verified in Chromium at 1280 px:** home, start, methods index, method detail, compare, sources, documents and glossary all show a single centred reading column with no dead right margin; the method page measures 592 px at x=337 for heading, aside, prose and tables alike. At 390 px the method page has a document width of 375 px inside a 390 px window (no horizontal overflow) and the jump chips wrap. Build 65 pages / 2525 words; `npm test` 201/201.
+
+**Still open:** the Size column on `/documents/` wraps a value like `11.7 MB` onto two lines; card grids on `/methods/` and `/` stay full width under a centred intro, which is deliberate but is a second left edge on those pages. The hosted site must be rebuilt from the current artifact before any of this is visible to a reader.

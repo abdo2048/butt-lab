@@ -46,8 +46,13 @@
   --step-5: 2.75rem;
 
   /* --- measure and rhythm ---------------------------------------- */
-  --measure: 68ch;
-  --measure-wide: 84ch;
+  /* The measure is expressed in rem, not ch, because ch resolves against the
+     element's own font size: 68ch is 595px on 17px body text but 1330px on a
+     34px heading, so a heading constrained with the same token would run
+     full-width while its body sat in a narrow column. 37rem is about 68
+     characters at the body size and holds the same column for every element. */
+  --measure: 37rem;
+  --measure-wide: 46rem;
   --gutter: 1.25rem;
   --gap: 1rem;
   --gap-lg: 2rem;

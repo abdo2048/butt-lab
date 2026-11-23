@@ -1,0 +1,205 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+// Reader-facing summary of reports/final/batch-01-synthesis.md. The wording is
+// a restatement of that report; no number, ranking or conclusion is added here.
+const findings = [
+  {
+    title: "No dry-mass balance",
+    body: "No family has a complete dry-basis balance with compatible whole-butt, filter and input/output denominators. Company accounting and composition splits do not supply one.",
+  },
+  {
+    title: "No analyte-resolved closure",
+    body: "No family tracks nicotine, tobacco-specific nitrosamines, representative polycyclic aromatic hydrocarbons and cadmium, lead, arsenic and mercury across product, liquids, solids, emissions, purge, treatment outlet and unexplained loss.",
+  },
+  {
+    title: "A named stream is not a sink",
+    body: "Naming a wash liquor, a concentrate, an external partner or a recycle loop does not demonstrate where the material finally goes or that treatment works.",
+  },
+  {
+    title: "Endpoints are conflated",
+    body: "Identity, recovery, purity, detoxification, leaching and use performance are separate gates. Passing a material characterisation is not passing all of them.",
+  },
+  {
+    title: "No comparable scale or environmental data",
+    body: "Energy, reagent, cost and throughput inventories are not comparable across families, so no family can be called cheapest, most expensive or ready to deploy.",
+  },
+];
+
+const denominators = [
+  { claim: "Re-Cig: about 39 % polymer from collected butt mass", reading: "Company accounting on a collected-mass basis; moisture and reject inventory unresolved." },
+  { claim: "TchaoMegot: 99.7 % fibre, 0.3 % concentrate", reading: "Company output split; not product purity, analyte removal or a dry-feed balance." },
+  { claim: "Keenat: 10–30 % filter in a 70–90 % thermoplastic composite", reading: "Formulation fraction of the output; dilution by matrix is not toxicant removal." },
+  { claim: "CN106928486: 58–92 % recovery", reading: "Patent assertion; the input polymer basis and pretreatment normalisation are unresolved." },
+];
+---
+
+<BaseLayout
+  title="What the first research run concluded"
+  description="The batch-01 desk synthesis: an evidence boundary rather than a working process, the findings that held, the dissent that was kept, and the one architecture sent forward for review."
+  eyebrow="Batch 01"
+>
+  <div class="prose">
+    <h1 class="page-title">What the first research run concluded</h1>
+    <p class="page__lede">
+      The best-supported conclusion is an evidence boundary, not a successful recycling process.
+      No family is shown to be clean, safe, deployable or environmentally beneficial, and none
+      closes dry mass, analyte fate, treatment performance and an independent product gate
+      together.
+    </p>
+  </div>
+
+  <section class="section prose" aria-labelledby="position">
+    <h2 id="position">The position in one paragraph</h2>
+    <p>
+      Six process families were read against the public record and reviewed. Each has a
+      source-supported description of what it does, and each has a consequential gap: wash
+      loading, recycle purge, treatment performance, sludge composition, solvent closure,
+      off-gas capture, pulp yield or product leaching. Where sources disagreed, the disagreement
+      is kept rather than averaged. From that record, hypothesis generation produced one
+      conditional architecture worth reviewing further, and it is an evidence flow, not an
+      operating flowsheet.
+    </p>
+    <p class="small muted">
+      This page summarises the batch-01 desk synthesis, dated 2026-11-07, which covers batch-01
+      only: process families F0–F5 and the accepted stage-3 and stage-4 reviews. It is not a
+      worldwide inventory and not an exhaustive prior-art search.
+    </p>
+  </section>
+
+  <section class="section" aria-labelledby="findings">
+    <div class="section__heading">
+      <h2 id="findings">What held across every family</h2>
+      <p class="section__note">Accepted batch-level findings</p>
+    </div>
+    <div class="prose">
+      {findings.map((finding) => (
+        <>
+          <h3>{finding.title}</h3>
+          <p>{finding.body}</p>
+        </>
+      ))}
+    </div>
+  </section>
+
+  <section class="section prose" aria-labelledby="dissent">
+    <h2 id="dissent">Where the disagreement was kept</h2>
+    <p>
+      The review did not resolve these into a winner. They are recorded because a later reader
+      would otherwise have to rediscover them.
+    </p>
+    <ul>
+      <li>
+        <strong>Polymer quality against testability.</strong> The F1 washing architecture was
+        chosen because it makes the sink architecture testable, not because it gives the best
+        polymer. Where recovered cellulose-acetate quality is the controlling objective, the F3
+        dissolution route remains the minority alternative, subject to co-precipitation, metals,
+        solvent closure and independent product evidence.
+      </li>
+      <li>
+        <strong>Wrong stream.</strong> An initial-wash purge may miss the controlling burden if
+        that burden sits in the tobacco and ash, and it may create a larger dilute liquid that
+        nothing accepts. Only an analyte-specific mass ranking, not a concentration reading,
+        separates those cases.
+      </li>
+      <li>
+        <strong>Metals.</strong> No washing, phase-transfer or conversion proposal demonstrates
+        metals compliance. Thermal treatment is not elemental destruction, and a blanket
+        volatility claim cannot stand in for species-specific fate.
+      </li>
+      <li>
+        <strong>Dilution and off-gas.</strong> A lower concentration in a composite can come from
+        matrix dilution while the less-volatile contaminants stay and the volatile ones leave in
+        unmeasured air. Selecting a different architecture does not remove that warning.
+      </li>
+      <li>
+        <strong>Scale.</strong> No family can be ranked on cost or environmental burden from this
+        record, because the inventories are incompatible in function, unit and throughput basis.
+      </li>
+    </ul>
+  </section>
+
+  <section class="section prose" aria-labelledby="proposal">
+    <h2 id="proposal">The one architecture sent forward</h2>
+    <p>
+      The strongest individual proposal was the staged-separation idea built on F1, and the
+      primary revision target was a judge-authored combination of it with measured purge,
+      separate reject and sludge boundaries, treatment acceptance and outlet evidence, and an
+      independent product gate. It is recorded as a new, unvalidated hypothesis.
+    </p>
+    <p>
+      Its content is a sequence of questions rather than equipment: characterise the feed and
+      separated fractions, rank each analyte's mass by stream, find which reject, liquid or
+      product burden actually controls, then test whether a measured purge and a residual
+      treatment boundary can hold, and separately test whether the intended product use passes.
+      If the controlling burden turns out to be in the tobacco and ash, a fixed initial-wash
+      bleed is the wrong answer. If it stays in the product, no named purge rescues it.
+    </p>
+    <p>
+      <a class="action action--quiet" href="/invention/">Read the AI proposal and its falsifiers</a>
+    </p>
+  </section>
+
+  <section class="section" aria-labelledby="denominators">
+    <div class="section__heading">
+      <h2 id="denominators">The numbers that circulate, and what they mean</h2>
+      <p class="section__note">Company accounting, not process performance</p>
+    </div>
+    <div class="table-scroll" tabindex="0" role="group" aria-label="Company figures and their denominators">
+      <table class="table table--routes">
+        <caption class="visually-hidden">
+          Four frequently quoted company figures, the denominator behind each, and the reading
+          that is permissible.
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Figure as published</th>
+            <th scope="col">What it actually is</th>
+          </tr>
+        </thead>
+        <tbody>
+          {denominators.map((row) => (
+            <tr>
+              <th scope="row">{row.claim}</th>
+              <td>{row.reading}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="small muted">
+      None of these is a recovery efficiency, a purity figure or a removal efficiency. They are
+      retained with their sources so a later reader can see the basis instead of inheriting a
+      number that has lost it.
+    </p>
+  </section>
+
+  <section class="section prose" aria-labelledby="not-established">
+    <h2 id="not-established">What is not established</h2>
+    <p>
+      No experiment or pilot was run for this synthesis. The accepted record contains no
+      comparable cost or energy dataset, no verified permit for any proposed route, no passed
+      product-use gate and no demonstrated detoxification. Nothing here says that no company
+      holds such evidence privately; the conclusion is limited to what was located, read and
+      accepted in this batch.
+    </p>
+    <div class="callout">
+      <p class="callout__label">Stop-condition — metals</p>
+      <p>
+        Cadmium, lead, arsenic and mercury remain the hardest class across every proposal. A
+        stream whose metal content is not characterised stays on hold, and no route continues past
+        a measured exceedance.
+      </p>
+    </div>
+    <p class="small muted">
+      Desk synthesis only. No experimental validation, no safety claim, no novelty claim and no
+      experiment authorised. No patentability, freedom-to-operate, legal, deployment or
+      environmental-benefit determination is made.
+    </p>
+  </section>
+
+  <nav class="page-actions" aria-label="Where to go next">
+    <a class="action action--primary" href="/compare/">Compare the assessed routes</a>
+    <a class="action action--quiet" href="/limitations/">What this site cannot tell you</a>
+  </nav>
+</BaseLayout>

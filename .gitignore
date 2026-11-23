@@ -27,3 +27,6 @@ publication/export-*/
 /tools/reviewer-gateway/wrangler.local.jsonc
 /tools/reviewer-gateway/.dev.vars*
 /tools/reviewer-gateway/.env*
+
+# Playwright MCP screenshots and snapshots written during a layout review
+.playwright-mcp/

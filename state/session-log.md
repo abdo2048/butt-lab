@@ -409,3 +409,42 @@ passed, 0 failed.
 Not done: the final-results page that links the batch-01 synthesis and the
 invention, a reviewer pass over sources/ against the method pages, and the
 deployment of this branch.
+
+## 2026-11-23 - the results page, and the reading column
+
+Two things happened in this pass: the results page was written, and a layout
+review turned up a real defect plus one report that described a build older than
+the source.
+
+- results: /results/ summarises the batch-01 desk synthesis for a reader - the
+  evidence boundary, five accepted findings, the dissent that was kept, the one
+  architecture sent forward as a sequence of questions, and a four-row table
+  showing what the circulating company percentages actually divide by. Linked
+  from the More navigation and from the home page as step 04.
+- the reported "margin column with no background" does not exist in the source.
+  .sheet__margin is only in tools/reader-site/artifact/site/, the artifact the
+  hosted Worker still serves. Current main has no .sheet class. The hosted site
+  needs a rebuild before a reader sees any of this pass.
+- the reported gap on the right was real: .shell is 1233 px at a 1280 px
+  viewport while .prose is 595 px at x=16. A second bug sat underneath: --measure
+  was 68ch, and ch resolves against each element's own font size, so the h1 was
+  allowed 1329 px while body text was allowed 595.
+- fixes, all CSS: --measure 37rem and --measure-wide 46rem in tokens.css; text
+  blocks centred at the measure on every page while hero, card grids and tables
+  keep the full shell; the method page's 12rem sticky rail replaced by one
+  centred column with the aside above the prose and the jump list wrapping as
+  chips; .page--reading centred; any table inside .table-scroll styled as a data
+  table even without the .table class, which fixes /documents/; underline offsets
+  raised so the dotted glossary underline stops sitting on the descenders.
+- .playwright-mcp/ is now git-ignored, because Playwright writes screenshots
+  relative to the repository.
+
+Verification: npm run build exit 0, 65 pages indexed, 2525 words; npm test 201
+passed, 0 failed. Checked in Chromium at 1280 px on home, start, methods, a
+method page, compare, sources, documents and glossary, and at 390 px on a method
+page (375 px document inside a 390 px window, no horizontal overflow).
+
+Not done: the deployment that would put this pass in front of a reader, the
+reviewer pass over sources/, and two cosmetic items recorded in
+docs/READER-LAYOUT-REVIEW.md (a wrapped 11.7 MB in the document shelf, and the
+full-width card grids sitting under a centred introduction on / and /methods/).

@@ -83,7 +83,7 @@ li + li {
 a {
   color: var(--blue);
   text-decoration-thickness: 1px;
-  text-underline-offset: 0.16em;
+  text-underline-offset: 0.22em;
 }
 
 a:hover {
@@ -286,6 +286,7 @@ hr {
 
 .page--reading {
   max-inline-size: var(--measure);
+  margin-inline: auto;
 }
 
 .page__lede {
@@ -345,6 +346,33 @@ hr {
 .prose {
   max-width: var(--measure);
   overflow-wrap: anywhere;
+}
+
+/* --- the reading column ------------------------------------------------ */
+
+/* The shell is 80rem wide so tables and card grids can breathe. Body text
+ * left-aligned at 68ch inside that shell stops near the middle of a laptop
+ * screen and leaves a dead right margin, which reads as a layout that ran
+ * out of content. Text blocks therefore centre on one column; anything
+ * structural — tables, card grids, the hero — keeps the full shell. */
+.page > h1,
+.page > .prose,
+.page > .page__lede,
+.page > .page__eyebrow,
+.page > .page-actions,
+.page > .disclaimer,
+.page > .method-overview,
+.page > .small,
+.page > .lede,
+.page > .source-intro,
+.page > .mode-note,
+.page > .source-filter,
+.page > .source-jumps,
+.section__heading,
+.section > .prose,
+.section > .small {
+  max-inline-size: var(--measure);
+  margin-inline: auto;
 }
 
 .prose h3 {
@@ -469,14 +497,19 @@ hr {
   scrollbar-color: var(--rule-strong) var(--paper-sunken);
 }
 
-.table {
+/* Any table inside a scroll frame gets the data-table treatment, whether or
+ * not the page remembered to add .table — otherwise it falls back to the
+ * browser default, with centred headers that do not line up with the cells. */
+.table,
+.table-scroll > table {
   width: 100%;
   border-collapse: collapse;
   margin: 0;
   font-size: 0.92rem;
 }
 
-.table caption {
+.table caption,
+.table-scroll > table caption {
   text-align: start;
   padding: 0.6rem 0.8rem;
   font-family: var(--font-mono);
@@ -488,14 +521,17 @@ hr {
 }
 
 .table th,
-.table td {
+.table td,
+.table-scroll > table th,
+.table-scroll > table td {
   padding: 0.55rem 0.8rem;
   text-align: start;
   vertical-align: top;
   border-bottom: 1px solid var(--rule);
 }
 
-.table thead th {
+.table thead th,
+.table-scroll > table thead th {
   font-family: var(--font-display);
   font-size: 0.8rem;
   font-weight: 600;
@@ -505,7 +541,8 @@ hr {
   white-space: nowrap;
 }
 
-.table tbody tr:last-child td {
+.table tbody tr:last-child td,
+.table-scroll > table tbody tr:last-child td {
   border-bottom: 0;
 }
 
@@ -676,8 +713,11 @@ hr {
   color: inherit;
   text-decoration: underline;
   text-decoration-style: dotted;
+  text-decoration-thickness: 1px;
   text-decoration-color: var(--teal);
-  text-underline-offset: 0.2em;
+  /* Dotted at 0.2em sits on top of the descenders and reads as a strike-through
+   * on a serif face; a little more offset keeps it under the letters. */
+  text-underline-offset: 0.32em;
   position: relative;
 }
 
@@ -1557,35 +1597,41 @@ hr {
 }
 
 @media (min-width: 62rem) and (min-height: 36rem) {
+  /* One column, not a sidebar. A 12rem sticky rail beside 68ch of text left
+   * a third of the screen empty on a laptop, and a sticky rail without its
+   * own background looked like it was floating over the body while
+   * scrolling. The jumps become a horizontal bar under the intro instead. */
   .method-reading {
-    display: grid;
-    grid-template-columns: 12rem minmax(0, 1fr);
-    gap: clamp(1rem, 3vw, 3rem);
+    display: block;
   }
 
   .method-reading__aside {
-    align-self: start;
-    position: sticky;
-    top: 1.25rem;
-    padding: 0.8rem;
-    background: var(--paper-raised);
-    border: 1px solid var(--rule);
-    border-radius: var(--radius);
+    max-inline-size: var(--measure);
+    margin: 1.25rem auto 2rem;
+    padding-block: 0.7rem;
+    border-block: 1px solid var(--rule);
   }
 
   .method-jumps ul {
-    display: grid;
-    margin-bottom: 0;
-    gap: 0.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem 1rem;
+    margin: 0.2rem 0 0;
   }
 
-  .method-jumps a {
-    border-color: var(--transparent);
-    padding-inline: 0.3rem;
+  .method-jumps li {
+    margin: 0;
   }
 
   .method-reading__content > .section:first-child {
     margin-block-start: 0;
+  }
+
+  .method-reading__content .prose,
+  .method-reading__content .section__heading,
+  .method-reading__content .page-actions {
+    max-inline-size: var(--measure);
+    margin-inline: auto;
   }
 }
 
