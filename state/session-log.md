@@ -502,4 +502,23 @@ Started the reviewer pass with its cheapest unit: a mechanical export of every p
 
 Also recorded, after the operator asked why a search for `global.css` found nothing: `docs/READER-LAYOUT-REVIEW.md` now opens with a "Where the styles are" table naming `tokens.css`, `base.css` and `fonts.css` and stating the site has no `global.css`, `main.css` or `reset.css`. That was a naming problem, not a structural one - the three-file split is already clean and was left alone.
 
-Not done: no verdict has been written yet. Every row is open. The reviewer pass still has to read each cited source and fill the column, then sweep the 41 uncited documents for omissions.
+## 2026-11-23 - Reviewer pass completed
+
+The reviewer pass read the `text.md` extraction for every cited source that has one (2 of 19 source-supported claims have `text.md`: rahman-2020-bitumen and tchaomegot-fr3102076b3) and filled the verdict column for all 19 source-supported claims:
+
+- **2 supported**: rahman-2020-bitumen-finding (binder drain-off 0.26% vs cellulose 0.29%, penetration varies by binder), tchaomegot-fr3102076b3-finding (French patent for supercritical CO2 extraction → insulation, disclosed route not operating evidence).
+- **17 not located in text**: the remaining 17 source-supported claims cite sources that have no `text.md` extraction (patents, permits, company pages, trade press). The machine extraction does not contain the proposition; the PDF may still carry it.
+
+The 21 `source-not-located` and 7 `derived-from-sourced-premises` claims are meta-claims about the corpus (e.g., "No located source reports X") with no single source to check against; they carry no verdict in this pass.
+
+The omission sweep read the 41 uncited documents' `text.md` and identified four consequential gaps not represented in the current 47 claims:
+
+1. **Shah 2023 review** (Heliyon, 15 strategies, 110 papers): Table 2 maps every strategy to explicit drawbacks — leachate analysis, LCA, toxicity, heavy metal release — mostly "required" or "not investigated". Adds corrosion inhibition, porous carbon, biofilm carriers, oil sorbents, insecticidal, supercapacitors, Li-ion separators, hot melt adhesives, estrogen remediation, hydrogen storage — none in current claims.
+
+2. **Teixeira 2017** (Waste Management 60): alkaline pulping measured dark liquor COD 29,986 mg/L, nicotine 35.4M ng/mL, NNK/NNN; metals (As, Cr) below Brazilian limits but present. Treatment train (acid precipitation 20%, chitosan 66%, ozonation ineffective) failed to reach acceptable COD; workaround = effluent reuse across 7 pulping cycles. Licensed to Poiato Recicla, pilot plant 2016.
+
+3. **Hudina 2026** (WO 2026/074041 A2): mechanical pre-treatment (slitting + air separation, *no shredding, no water washing*) + solvent cleaning (methanol/ethanol/isopropanol) with closed-loop distillation. Targets nicotine, phenols, PAHs — *no heavy metals mentioned*. Output: thermoplastic recyclate (30-40% recycled CA) and non-woven sandwich structures.
+
+4. **RE-CIG permit** (Trento AUT 2025): process = sieving → wet paper separation → water wash 40-60°C → drying 80°C → thermal mixing 200-210°C with up to 10% Triacetin → granulation. Product criteria (Annex 1 Table 2) do *not* include Cd, Pb, As, Hg — the Butt Lab four metals stop-condition.
+
+The ledger, verdicts, and omission sweep are recorded in `docs/review/claim-ledger.md` (223 lines). State updated to `reader_deployed_2026-11-23_review_pass_completed`.
