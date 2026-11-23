@@ -522,3 +522,15 @@ The omission sweep read the 41 uncited documents' `text.md` and identified four 
 4. **RE-CIG permit** (Trento AUT 2025): process = sieving → wet paper separation → water wash 40-60°C → drying 80°C → thermal mixing 200-210°C with up to 10% Triacetin → granulation. Product criteria (Annex 1 Table 2) do *not* include Cd, Pb, As, Hg — the Butt Lab four metals stop-condition.
 
 The ledger, verdicts, and omission sweep are recorded in `docs/review/claim-ledger.md` (223 lines). State updated to `reader_deployed_2026-11-23_review_pass_completed`.
+
+## 2026-11-23 - One front door: the archive, and the bundle hash check removed (E11)
+
+Implemented the missing half of the structure proposed in plan-agent message `msg_1f7eb91f70013w7hBBdmLPWllU` ("one shelf, one glossary, one door, everything else archived"). The shelf/glossary/results/F0/conversion half had been done earlier (E2-E7); the archive half had not.
+
+- Created `archive/` and `git mv`'d the nine obsolete root orientation/checkpoint docs (START_HERE, WORKFLOW, TASK, OPERATOR_GUIDE, PROJECT-OVERVIEW, FUSION_PROTOCOL, PACKET_ACCESS, CHECKPOINT-MASTER, CHECKPOINT-WEB-AI) and the scaffolding dirs `panels`, `packets`, `dossier`, `specs`, `agents`, `experiments`, `post-project`, `reviews`, plus `reports/stage1` and `reports/stage2` (as `archive/reports-stage1`, `archive/reports-stage2`). Root now holds only `README`, `GLOSSARY`, `charter`, `AGENTS`. `docs/history/` stays frozen in place. History follows the files (git mv).
+- Active references updated: `charter.md` -> `archive/WORKFLOW.md`; registry evidence notes and `scripts/validate_registry.py` -> `archive/dossier/evidence/`; `inventions/TEMPLATE.md` -> `archive/specs/TEMPLATE.md`; `companies.astro` provenance comment -> `archive/reports-stage1`. The publication validator deny-list and the release-audit exposure regex gained `archive` so archived working dirs stay guarded. Historical receipts in `materials/gap-closing/` and frozen `docs/history/` keep their original paths as provenance.
+- Removed the reader build's per-file bundle SHA-256 verification (`build-content.ts` `verifyBundle`) by operator decision ("remove it"). Manifest-existence, file-existence and orphan checks remain; the deployment artifact gate (`build-artifact.ts` / `verify-approval.ts`) is unchanged. `build-content` tests updated to match.
+
+Verified: publication validate `VALID records=176 pages=11`; registry validator `VALIDATION PASSED (30 entries)`; export `records=176 files=15`; reader build exit 0, 65 pages; release audit `records=176 findings=0 blocking=0 passed=true`. Reader tests 200/201 pass.
+
+Pre-existing failure, NOT caused by this pass (proven by stashing the release-audit edit and re-running): `release-audit.test.ts` "scans Pagefind index strings but not arbitrary bytes" fails because `cbor.encode()` in this environment (cbor 10.0.12, Node 24.11.1) emits a truncated 1-byte output, so the synthetic fixture cannot decode (`UNREADABLE_BUILT_OUTPUT`). The audit itself decodes real Pagefind files correctly (release audit passed). Left as a separate item; not fixed here to avoid scope creep into unrelated test infrastructure.

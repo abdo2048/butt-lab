@@ -26,6 +26,27 @@ To inspect a branch without switching, use `git ls-remote --heads origin`, `git 
 
 The public **About the evidence** page explains what a reader can and cannot conclude and how to submit a correction. It does not expose the operator's workflow. The playbook is no longer a public route, bundle page, or search document. Git is historical: material from earlier commits can still exist in clones and patches. Keep a private copy of the local playbook if you need to retain it across worktrees or after the sandbox ends.
 
+## Archive (2026-11-23): one front door
+
+The repository now has one clear entry path: `README.md` → `GLOSSARY.md` →
+`charter.md` (plus `AGENTS.md` for AI instructions). The obsolete root orientation
+documents and the batch-01 scaffolding were moved with `git mv` into `archive/`:
+`START_HERE`, `WORKFLOW`, `TASK`, `OPERATOR_GUIDE`, `PROJECT-OVERVIEW`,
+`FUSION_PROTOCOL`, `PACKET_ACCESS`, `CHECKPOINT-MASTER`, `CHECKPOINT-WEB-AI`, and the
+`panels/`, `packets/`, `dossier/`, `specs/`, `agents/`, `experiments/`,
+`post-project/`, `reviews/` directories, plus `reports/stage1` and `reports/stage2`
+(as `archive/reports-stage1`, `archive/reports-stage2`). See `archive/README.md`.
+
+This implements the structure proposed in plan-agent message
+`msg_1f7eb91f70013w7hBBdmLPWllU` ("one shelf, one glossary, one door, everything else
+archived"). Nothing in `archive/` is read by the reader build. Active references were
+updated: `charter.md` points to `archive/WORKFLOW.md`; the registry evidence notes and
+`scripts/validate_registry.py` point to `archive/dossier/evidence/`;
+`inventions/TEMPLATE.md` points to `archive/specs/TEMPLATE.md`. The publication
+validator and the release audit still reject references and path leaks into
+`archive/`. Historical receipts in `materials/gap-closing/` and the frozen
+`docs/history/` keep their original paths as provenance. `docs/history/` was not moved.
+
 ## Reading copies: two generations, one of them tracked
 
 There are two kinds of local reading copy, and they must not be confused:

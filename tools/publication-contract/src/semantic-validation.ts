@@ -40,6 +40,7 @@ const REPOSITORY_LOCAL_ROOT_SEGMENTS: ReadonlySet<string> = new Set([
   ".github",
   ".superpowers",
   "agents",
+  "archive",
   "docs",
   "dossier",
   "experiments",

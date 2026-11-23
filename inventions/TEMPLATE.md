@@ -1,7 +1,7 @@
 # Invention: [NAME]
 
 ## Mechanism and why it is different from existing registry entries
-## Full process spec (use specs/TEMPLATE.md structure)
+## Full process spec (use archive/specs/TEMPLATE.md structure)
 ## What existing methods fail at, and how this addresses it
 ## Mandatory benchmark answers
 - Korean paving-stone test (toxin removal mechanism):

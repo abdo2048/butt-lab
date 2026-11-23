@@ -138,7 +138,7 @@ const REPOSITORY_PATH_PATTERNS: ReadonlyArray<{ pattern: RegExp; label: string }
   },
   {
     pattern:
-      /(^|[\s"'`>(])((?:\.\.\/)*)(?:\.research-local|tools\/reader-site|tools\/publication-contract|src\/content\/bundle|publication|registry|state|docs|reports|panels|packets|materials|inventions|operator|reviews|dossier|experiments|agents)\/[^\s"'`<>]+/,
+      /(^|[\s"'`>(])((?:\.\.\/)*)(?:\.research-local|tools\/reader-site|tools\/publication-contract|src\/content\/bundle|publication|registry|state|docs|reports|panels|packets|materials|inventions|operator|reviews|dossier|experiments|agents|archive)\/[^\s"'`<>]+/,
     label: "a repository-local path",
   },
 ];

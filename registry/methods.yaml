@@ -87,7 +87,7 @@ entries:
     legal_status: Active, expires 2039-06-04 (Google Patents assumption; verify USPTO)
     citations: https://patents.google.com/patent/US10980272B2/en
     status: primary-source-read
-    evidence_notes: ["dossier/evidence/US10980272B2-miniwiz.md"]
+    evidence_notes: ["archive/dossier/evidence/US10980272B2-miniwiz.md"]
 
   - id: burich-us7560059
     name: Early butt recycling process
@@ -127,7 +127,7 @@ entries:
     legal_status: CN only (granted 2020-08-21 per Google status assumption)
     citations: https://patents.google.com/patent/CN106928486A/en
     status: primary-source-read
-    evidence_notes: ["dossier/evidence/CN106928486A-zhejiang.md"]
+    evidence_notes: ["archive/dossier/evidence/CN106928486A-zhejiang.md"]
 
   - id: cn111822484
     name: Yunnan Changyi acetate filter rod regeneration
@@ -219,7 +219,7 @@ entries:
     legal_status: EP application 2011, published 2012; application deemed withdrawn effective 2013-05-08 per Google Patents
     citations: https://patents.google.com/patent/EP2520184A1/en
     status: primary-source-read
-    evidence_notes: ["dossier/evidence/EP2520184A1-matteri.md"]
+    evidence_notes: ["archive/dossier/evidence/EP2520184A1-matteri.md"]
 
   - id: kr-microbial-composting
     name: Microbial cigarette butt composting device
@@ -304,7 +304,7 @@ entries:
     legal_status: granted 2019-07-19 (B1), Active per Google status assumption; expected expiry 2037-05-15
     citations: https://patents.google.com/patent/FR3066128A1/en
     status: primary-source-read
-    evidence_notes: ["dossier/evidence/FR3066128A1-mego.md"]
+    evidence_notes: ["archive/dossier/evidence/FR3066128A1-mego.md"]
 
   - id: de-fenzo-2020-materials
     name: Clean Process for Obtaining High-Quality Cellulose Acetate from Cigarette Butts
@@ -316,7 +316,7 @@ entries:
     legal_status: research publications
     citations: https://doi.org/10.3390/ma13214710
     status: experimentally-supported-in-source
-    evidence_notes: ["dossier/evidence/defenzo-2020-materials.md"]
+    evidence_notes: ["archive/dossier/evidence/defenzo-2020-materials.md"]
 
   - id: cnr-knowledge-share-ca-recovery
     name: CNR knowledge-share.eu patent offering (cellulose acetate recovery)
@@ -329,4 +329,4 @@ entries:
     legal_status: patent_offering
     citations: https://www.knowledge-share.eu/en/patents/cellulose-acetate-from-recycling-of-cigarette-butts-and-filters/
     status: experimentally-supported-in-source
-    evidence_notes: ["dossier/evidence/cnr-knowledge-share-ca-recovery.md"]
+    evidence_notes: ["archive/dossier/evidence/cnr-knowledge-share-ca-recovery.md"]

@@ -40,7 +40,7 @@ const GOOD_FILES = {
   "pages/start-here.md": "# Start here\n",
 };
 
-test("verifyBundle accepts a bundle whose bytes match every manifest hash", () => {
+test("verifyBundle accepts a bundle whose listed files are present", () => {
   const { dir } = makeBundle(GOOD_FILES);
   const manifest = verifyBundle(dir);
   assert.equal(manifest.publicationVersion, "test-fixture");
@@ -50,18 +50,14 @@ test("verifyBundle accepts a bundle whose bytes match every manifest hash", () =
   );
 });
 
-test("verifyBundle rejects a file whose bytes no longer match its manifest hash", () => {
+test("verifyBundle no longer rejects a file whose bytes differ from its manifest hash", () => {
+  // The per-file SHA-256 check was removed by operator decision (2026-11-23).
+  // A swapped file is now accepted by the reader build; the deployment gate still
+  // binds the exact published artifact separately.
   const { dir } = makeBundle(GOOD_FILES);
   fs.writeFileSync(path.join(dir, "records.json"), "[{\"id\",\"tampered\"}]\n", "utf8");
-  assert.throws(
-    () => verifyBundle(dir),
-    (error: unknown) => {
-      assert.ok(error instanceof Error);
-      assert.match(error.message, /BUNDLE_HASH_MISMATCH/);
-      assert.match(error.message, /records\.json/);
-      return true;
-    },
-  );
+  const manifest = verifyBundle(dir);
+  assert.equal(manifest.publicationVersion, "test-fixture");
 });
 
 test("verifyBundle rejects a file that the manifest does not list", () => {
@@ -107,10 +103,10 @@ test("stageBundle copies only the verified files into the target directory", () 
   );
 });
 
-test("stageBundle writes nothing into the target directory when a file fails verification", () => {
+test("stageBundle writes nothing into the target directory when a listed file is missing", () => {
   const { dir, target } = makeBundle(GOOD_FILES);
-  fs.writeFileSync(path.join(dir, "glossary.json"), "{}\n{}\n", "utf8");
-  assert.throws(() => stageBundle(dir, target), /BUNDLE_HASH_MISMATCH/);
+  fs.rmSync(path.join(dir, "glossary.json"));
+  assert.throws(() => stageBundle(dir, target), /BUNDLE_FILE_MISSING/);
   assert.equal(fs.existsSync(target), false);
 });
 

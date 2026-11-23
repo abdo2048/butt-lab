@@ -27,6 +27,14 @@ current_unit:
   ui_review: docs/READER-LAYOUT-REVIEW.md
   public_pdfs: docs/PUBLIC-SOURCE-PDFS.md
   source_data: tools/publication-contract/layer-data/
+  archive: >-
+    2026-11-23: implemented the proposed one-door structure. Obsolete root docs and
+    batch-01 scaffolding (panels, packets, dossier, specs, agents, experiments,
+    post-project, reviews, reports/stage1, reports/stage2) moved with git mv into
+    archive/. Root entry path is README -> GLOSSARY -> charter. The reader build's
+    per-file bundle SHA-256 check was removed by operator decision; the deployment
+    artifact gate (build-artifact.ts / verify-approval.ts) is unchanged. See
+    archive/README.md and docs/REPOSITORY-MAP.md.
 
 reviewer_library:
   guide: docs/REVIEWER-LIBRARY.md

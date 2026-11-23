@@ -294,18 +294,22 @@ def validate_evidence_note_path(
       - Must be a string path.
       - Resolves to a path that exists.
       - Must be a regular file (not a directory).
-      - Must resolve within the repository root and under dossier/evidence/.
+      - Must resolve within the repository root and under archive/dossier/evidence/.
     """
     errors = []
     if not isinstance(note_path, str):
         errors.append(f"Entry {idx}: evidence note path must be string")
         return errors
 
-    # Resolve relative to dossier/evidence/ unless absolute path under dossier/
-    if note_path.startswith("dossier/"):
+    # Resolve relative to archive/dossier/evidence/ unless an explicit dossier path.
+    # dossier/ was moved to archive/dossier/ on 2026-11-23; legacy "dossier/" paths
+    # are remapped to the archive location.
+    if note_path.startswith("archive/dossier/"):
         full_path = Path(note_path)
+    elif note_path.startswith("dossier/"):
+        full_path = Path("archive") / note_path
     else:
-        full_path = Path("dossier/evidence") / note_path
+        full_path = Path("archive/dossier/evidence") / note_path
 
     if not full_path.exists():
         errors.append(f"Entry {idx}: evidence note not found: {full_path}")
@@ -327,12 +331,12 @@ def validate_evidence_note_path(
         )
         return errors
 
-    # Ensure it's inside dossier/evidence/ as expected
+    # Ensure it's inside archive/dossier/evidence/ as expected
     try:
-        resolved.relative_to((repo_root / "dossier" / "evidence").resolve())
+        resolved.relative_to((repo_root / "archive" / "dossier" / "evidence").resolve())
     except ValueError:
         errors.append(
-            f"Entry {idx}: evidence note path is outside dossier/evidence/: {full_path}"
+            f"Entry {idx}: evidence note path is outside archive/dossier/evidence/: {full_path}"
         )
 
     return errors

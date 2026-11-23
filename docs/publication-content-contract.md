@@ -93,7 +93,7 @@ Every record, page, and asset must appear in `manifest.yaml`. There is no transi
 Relationships (e.g., `claim` → `source`) are validated for manifest membership, but they do **not** pull unlisted records into the closure. The manifest is the gate.
 
 ### Public-safe audit references
-Audit references in records must point to public artifacts (DOI, patent number, public URL). References into repository working directories (`state/`, `panels/`, `packets/`, `materials/gap-closing/`, `.superpowers/`, session logs) are rejected with `AUDIT_REFERENCE_UNSAFE`.
+Audit references in records must point to public artifacts (DOI, patent number, public URL). References into repository working directories (`state/`, `panels/`, `packets/`, `materials/gap-closing/`, `archive/`, `.superpowers/`, session logs) are rejected with `AUDIT_REFERENCE_UNSAFE`.
 
 ## 8. Commands
 

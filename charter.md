@@ -2,7 +2,7 @@
 
 > Reader refresh (2026-11-19): Work in small evidence passes using the operator’s internal playbook. The five roles and workflow gates below describe the original desk cycle; they are not mandatory for new work. Preserve the scientific safeguards. Write the public explanation for general readers first, with source and audit detail available to technical readers.
 
-Goal: investigate effective cigarette-butt cleaning/recycling, reconstruct evidence and develop falsifiable improvements for later qualified validation. Five roles: single logical Harvester; single Deep-dive; Red-team three workers + judge; Inventor three workers + judge; single Synthesizer. Replacements resume a role, not restart it. WORKFLOW.md defines gates.
+Goal: investigate effective cigarette-butt cleaning/recycling, reconstruct evidence and develop falsifiable improvements for later qualified validation. Five roles: single logical Harvester; single Deep-dive; Red-team three workers + judge; Inventor three workers + judge; single Synthesizer. Replacements resume a role, not restart it. `archive/WORKFLOW.md` defines the historical gates.
 
 ## Scope is NOT patents only
 Include patents of all statuses/jurisdictions, companies with no located/public patent, papers, theses, reports, product/test documentation and failures. Explicit leads: Code Effort India, TerraCycle, TchaoMegot, Poiato Recicla, MeGO, Keenat and additional relevant operators. Separate collectors from processors. 'Patent not located in this search' neither proves none exists nor proves a trade secret.

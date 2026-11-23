@@ -1,4 +1,3 @@
-import { createHash } from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
@@ -15,10 +14,6 @@ export interface BundleManifest {
 }
 
 export const MANIFEST_NAME = "bundle-manifest.json";
-
-function sha256(bytes: Buffer): string {
-  return createHash("sha256").update(bytes).digest("hex");
-}
 
 function toPosix(relativePath: string): string {
   return relativePath.split(path.sep).join("/");
@@ -48,11 +43,18 @@ function resolveInside(root: string, relativePath: string): string {
 }
 
 /**
- * Verifies an exported publication bundle against its own manifest.
+ * Checks an exported publication bundle against its own manifest.
  *
- * Every file the manifest lists must exist and still hash to the recorded value, and
- * the directory must contain nothing the manifest does not list. The manifest file
- * itself is not listed in its own `outputFiles`, so it is exempt from the orphan check.
+ * Every file the manifest lists must exist, and the directory must contain nothing
+ * the manifest does not list. The manifest file itself is not listed in its own
+ * `outputFiles`, so it is exempt from the orphan check.
+ *
+ * The per-file SHA-256 comparison was removed on 2026-11-23 by operator decision
+ * (plan-agent message msg_1f7eb91f70013w7hBBdmLPWllU, decision 2: "remove it"). The
+ * manifest still records each file's hash, but the reader build no longer fails when
+ * a staged file's bytes differ from it. The separate deployment gate
+ * (build-artifact.ts / verify-approval.ts) still binds the exact published artifact
+ * by hash and is unchanged.
  */
 export function verifyBundle(sourceDir: string): BundleManifest {
   const manifestPath = path.join(sourceDir, MANIFEST_NAME);
@@ -77,12 +79,6 @@ export function verifyBundle(sourceDir: string): BundleManifest {
     const target = resolveInside(sourceDir, file.path);
     if (!fs.existsSync(target)) {
       throw new Error(`BUNDLE_FILE_MISSING: ${file.path} is listed in the manifest but not present`);
-    }
-    const actual = sha256(fs.readFileSync(target));
-    if (actual !== file.sha256) {
-      throw new Error(
-        `BUNDLE_HASH_MISMATCH: ${file.path} expected sha256 ${file.sha256} but the bytes hash to ${actual}`,
-      );
     }
   }
 
