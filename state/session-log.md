@@ -490,3 +490,16 @@ Build 65 pages / 2525 words, 49 hosted PDFs; tests 201 pass; audit 0 findings.
 Commit 06129bc, artifact sha256 c954c555e956e84748d75db7854e92d47c8f490389bd092556fdc5c8ee4ff550, 214 files. `npx wrangler deploy` uploaded 186 files and returned version 72f60618-ad32-4b52-9493-b47f0728ad46 at https://butt-lab.am6.workers.dev.
 
 Checked live: the home page carries the seven-route table and no `.sheet` markup; /documents/ lists 50 rows and links the oversized PDF at its Dropbox copy; /documents/teixeira-cellulose-pulp.pdf returns 200 application/pdf; /documents/pan-nanofiber-2024.pdf returns 404, which is correct because that file is not staged.
+
+## 2026-11-23 - The claim ledger the reviewer pass works from
+
+Started the reviewer pass with its cheapest unit: a mechanical export of every published claim, so the pass has a fixed list to check rather than an open-ended reading task.
+
+- `tools/reader-site/scripts/claim-ledger.ts` (new) reads `src/content/bundle/records.json`, sorts the 47 claims by route and writes `docs/review/claim-ledger.md`: proposition, published evidence label, source id, locator, whether a `text.md` exists and how big it is, whether the shelf holds a PDF, and an empty verdict column.
+- Labels as published: 19 `source-supported`, 21 `source-not-located`, 7 `derived-from-sourced-premises`, across six families plus product routes.
+- The ledger also counts what a ledger cannot check: 9 of the 50 shelf documents are cited by a claim, 9 appear in the published bundle at all, and the other 41 are the omission sweep.
+- The doc states the verdict vocabulary and that `not located in text` is not `unsupported`, because the text is a machine extraction and the PDF is the record.
+
+Also recorded, after the operator asked why a search for `global.css` found nothing: `docs/READER-LAYOUT-REVIEW.md` now opens with a "Where the styles are" table naming `tokens.css`, `base.css` and `fonts.css` and stating the site has no `global.css`, `main.css` or `reset.css`. That was a naming problem, not a structural one - the three-file split is already clean and was left alone.
+
+Not done: no verdict has been written yet. Every row is open. The reviewer pass still has to read each cited source and fill the column, then sweep the 41 uncited documents for omissions.

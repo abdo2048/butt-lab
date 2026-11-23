@@ -2,6 +2,18 @@
 
 Review of the current preview after the footer, search and comparison interaction fixes. This is a repository note, not part of the public reader or the research record.
 
+## Where the styles are
+
+The reader site has **no `global.css`, `main.css` or `reset.css`**, and it never had one. A future reader (or AI) searching for those names will find nothing. All styling lives in three files under `tools/reader-site/src/styles/`:
+
+| File | Holds |
+| --- | --- |
+| `tokens.css` | every custom property: colours, type scale, spacing, `--measure`, widths. Change a value here, not in a rule. |
+| `base.css` | every selector and rule, including the layout shell, reading column, tables, cards and method pages. |
+| `fonts.css` | the `@font-face` blocks for the self-hosted faces. |
+
+`BaseLayout.astro` imports the three in that order, so `base.css` may use any token without redeclaring it.
+
 ## Findings and changes
 
 | Area | Finding | Change |
