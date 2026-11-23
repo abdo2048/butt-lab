@@ -31,7 +31,7 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 import { gunzipSync } from "node:zlib";
 import cbor from "cbor";
 import { JSDOM } from "jsdom";
-import { listDocuments } from "../src/lib/documents.ts";
+import { listDocuments, REMOTE_DOCUMENTS } from "../src/lib/documents.ts";
 
 export type Severity = "blocking" | "review";
 
@@ -302,16 +302,28 @@ export function auditRights(records: BundleRecordLike[]): Finding[] {
   return findings;
 }
 
-/** Every shelf document is served, and no other PDF is. */
-export function auditPublicPdfs(root: string, documents: string[]): Finding[] {
+/**
+ * Every shelf document is served, and no other PDF is.
+ *
+ * A document in `remote` is expected to be absent: it is too large for the
+ * host's 25 MiB per-file limit, so the site links it at the repository instead
+ * of staging a copy. Staging it anyway would fail the deploy, so finding the
+ * file here is a finding too.
+ */
+export function auditPublicPdfs(root: string, documents: string[], remote: string[] = []): Finding[] {
   const findings: Finding[] = [];
-  const expected = new Set(documents.map((id) => `documents/${id}.pdf`));
+  const remoteSet = new Set(remote.map((id) => `documents/${id}.pdf`));
+  const expected = new Set(documents.filter((id) => !remoteSet.has(`documents/${id}.pdf`)).map((id) => `documents/${id}.pdf`));
   const block = (file: string, message: string) => findings.push({
     code: "PUBLIC_PDF_INVALID", severity: "blocking", file, message,
   });
   for (const file of walkFiles(root)) {
     if (path.extname(file).toLowerCase() !== ".pdf") continue;
     const relativePath = relative(root, file);
+    if (remoteSet.has(relativePath)) {
+      block(relativePath, "The PDF is too large to host and should not be staged into the site.");
+      continue;
+    }
     if (!expected.delete(relativePath)) {
       block(relativePath, "The PDF is not one of the shelf documents.");
       continue;
@@ -911,7 +923,7 @@ export function runReleaseAudit(options: {
   const findings = [
     ...scanBuiltOutput(options.distRoot),
     ...auditRights(options.records),
-    ...auditPublicPdfs(options.distRoot, listDocuments().map(({ id }) => id)),
+    ...auditPublicPdfs(options.distRoot, listDocuments().map(({ id }) => id), Object.keys(REMOTE_DOCUMENTS)),
     ...auditScientific(options.records),
     ...auditDeclarations(options.records),
     ...auditAccessibility(options),

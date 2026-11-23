@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getBundle, recordsOfKind } from "../../lib/bundle";
-import { documentIdForRecord, listDocuments } from "../../lib/documents.ts";
+import { documentIdForRecord, listDocuments, remoteDocument } from "../../lib/documents.ts";
 import type { SourceRecord } from "../../lib/types";
 
 const bundle = getBundle();
@@ -16,6 +16,7 @@ for (const source of sources) {
 const documents = listDocuments().map((entry) => ({
   ...entry,
   source: byDocument.get(entry.id),
+  remote: remoteDocument(entry.id),
 }));
 
 const megabytes = (bytes: number) => `${(bytes / 1048576).toFixed(1)} MB`;
@@ -58,11 +59,23 @@ const linked = documents.filter(({ source }) => source).length;
               </td>
               <td><code>{document.id}</code></td>
               <td>{megabytes(document.bytes)}</td>
-              <td><a href={`/documents/${document.id}.pdf`} download>PDF</a></td>
+              <td>
+                {document.remote
+                  ? <a href={document.remote.url} download>PDF ↗</a>
+                  : <a href={`/documents/${document.id}.pdf`} download>PDF</a>}
+              </td>
             </tr>
           ))}
         </tbody>
       </table>
     </div>
+    {documents.some(({ remote }) => remote) && (
+      <p class="small muted">
+        A row marked <strong>PDF ↗</strong> downloads a copy held outside this site, because the
+        file is above the host's 25 MiB per-file limit. The click downloads the file; it does not
+        open a preview page. That copy is not under this site's control, so if it is moved the
+        citation below the title is still the record.
+      </p>
+    )}
   </section>
 </BaseLayout>

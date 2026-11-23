@@ -36,11 +36,21 @@ const methods = source.methodIds
   {pdf ? (
     <div class="source-documents" data-pagefind-ignore>
       <div class="page-actions">
-        <a class="action action--primary" href={pdf.url}>View PDF</a>
-        <a class="action action--quiet" href={pdf.url} download={pdf.filename}>Download PDF</a>
+        {pdf.remote ? (
+          <a class="action action--primary" href={pdf.url} download={pdf.filename}>Download PDF <span aria-hidden="true">↗</span></a>
+        ) : (
+          <>
+            <a class="action action--primary" href={pdf.url}>View PDF</a>
+            <a class="action action--quiet" href={pdf.url} download={pdf.filename}>Download PDF</a>
+          </>
+        )}
         <a class="action action--quiet" href={source.originalUrl} rel="noreferrer noopener">Publisher page <span aria-hidden="true">↗</span></a>
       </div>
-      <p class="small muted">Unmodified original from the project corpus. The publisher page is the version of record.</p>
+      <p class="small muted">
+        {pdf.remote
+          ? "Unmodified original held outside this site because the file exceeds the host's 25 MiB per-file limit. The publisher page is the version of record."
+          : "Unmodified original from the project corpus. The publisher page is the version of record."}
+      </p>
     </div>
   ) : (
     <p class="page-actions" data-pagefind-ignore>

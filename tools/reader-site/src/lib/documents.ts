@@ -26,6 +26,37 @@ const ID_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 /** Cloudflare serves a single static asset up to 25 MiB. */
 export const MAX_STATIC_PDF_BYTES = 25 * 1024 * 1024;
 
+/**
+ * Documents the Worker cannot host.
+ *
+ * Cloudflare serves a static asset up to 25 MiB and refuses the whole upload
+ * when one file is larger, so a document above the limit is linked to a copy
+ * held outside the site instead of being staged. The link below is a Dropbox
+ * share with `dl=1`, which answers with `Content-Disposition: attachment`, so
+ * a click downloads the file rather than opening a preview page.
+ *
+ * The copy is therefore not under this repository's control: if the share is
+ * revoked or moved, the row's link breaks and only the citation remains. The
+ * shelf says so on the row rather than implying the file is served here.
+ */
+export type RemoteDocument = {
+  url: string;
+  host: string;
+  reason: string;
+};
+
+export const REMOTE_DOCUMENTS: Record<string, RemoteDocument> = {
+  "pan-nanofiber-2024": {
+    url: "https://www.dropbox.com/scl/fi/f20ew0man0d077h2uzbqt/pan-nanofiber-2024.pdf?rlkey=4exvau89306h9akjts4l692jb&st=lrrfphzg&dl=1",
+    host: "Dropbox",
+    reason: "26.9 MB, above the 25 MiB per-file limit for a hosted asset",
+  },
+};
+
+export function remoteDocument(id: string): RemoteDocument | undefined {
+  return REMOTE_DOCUMENTS[id];
+}
+
 function hasShelf(candidate: string): boolean {
   try {
     return fs

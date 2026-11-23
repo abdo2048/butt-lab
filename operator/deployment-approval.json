@@ -1,8 +1,8 @@
 {
-  "approvedCommit": "1c0c40254715de64177ff6e885f27cb12b619cfd",
-  "publicationVersion": "batch-02-pilot",
+  "approvedCommit": "3fcb0e172f9008f621e2736aa885712e1527ea09",
+  "publicationVersion": "reader-evidence-2026-11-r3",
   "buildRunId": "local",
-  "artifactSha256": "deb8dde6824422cb11f5f25976a140082eddedd957d317c358198a2c6937a3f4",
-  "approvedBy": "operator (in-session approval 2026-11-18)",
-  "approvedOn": "2026-11-18"
+  "artifactSha256": "a060ba9d6a3bd019122caa925e67a4f3e1860a8d672ad01abc0c6d6ae11145e5",
+  "approvedBy": "operator (in-session instruction 2026-11-23: \"could you deploy by yourself?\")",
+  "approvedOn": "2026-11-23"
 }

@@ -10,6 +10,7 @@ import path from "node:path";
 import test from "node:test";
 import { fileURLToPath } from "node:url";
 import { JSDOM } from "jsdom";
+import { REMOTE_DOCUMENTS } from "../src/lib/documents.ts";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const siteRoot = path.resolve(here, "..");
@@ -440,7 +441,7 @@ test("supporting references with no linked findings are not shown as finding pag
 });
 
 
-test("the site serves every document on the shelf and links the matching source pages", () => {
+test("the site serves every document on the shelf except those too large to host", () => {
   const shelf = fs
     .readdirSync(sourcesDir, { withFileTypes: true })
     .filter((entry) => entry.isDirectory() && fs.existsSync(path.join(sourcesDir, entry.name, "document.pdf")))
@@ -448,14 +449,28 @@ test("the site serves every document on the shelf and links the matching source 
     .sort();
   assert.ok(shelf.length >= 50, `expected the full shelf, found ${shelf.length}`);
 
+  const hosted = shelf.filter((id) => !REMOTE_DOCUMENTS[id]);
+
   const served = fs
     .readdirSync(distPath("documents"))
     .filter((name) => name.endsWith(".pdf"))
     .sort();
-  assert.deepEqual(served, shelf.map((id) => `${id}.pdf`));
+  assert.deepEqual(served, hosted.map((id) => `${id}.pdf`));
 
-  for (const id of shelf) {
+  for (const id of hosted) {
     assert.equal(fs.readFileSync(distPath("documents", `${id}.pdf`)).toString("ascii", 0, 5), "%PDF-", id);
+  }
+
+  // A document above the host's per-file limit is linked where it lives and is
+  // not staged into the site, because staging it fails the whole deploy.
+  const shelfPage = new JSDOM(readDist("documents", "index.html")).window.document;
+  const rows = [...shelfPage.querySelectorAll("tbody tr")];
+  for (const [id, remote] of Object.entries(REMOTE_DOCUMENTS)) {
+    assert.ok(!served.includes(`${id}.pdf`), `${id} must not be staged`);
+    const row = rows.find((candidate) => candidate.querySelector("code")?.textContent === id);
+    assert.ok(row, `${id} must have a shelf row`);
+    const href = row!.querySelector("td:last-child a")?.getAttribute("href") ?? "";
+    assert.equal(href.split("?")[0], remote.url.split("?")[0], `${id} must link its external copy`);
   }
 
   for (const [record, document] of [

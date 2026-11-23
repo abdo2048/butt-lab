@@ -1,7 +1,7 @@
 import type { APIRoute } from "astro";
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
-import { documentsDirectory, findDocument, listDocuments, MAX_STATIC_PDF_BYTES } from "../../lib/documents.ts";
+import { documentsDirectory, findDocument, listDocuments, MAX_STATIC_PDF_BYTES, remoteDocument } from "../../lib/documents.ts";
 
 /**
  * Serve the document shelf.
@@ -12,12 +12,14 @@ import { documentsDirectory, findDocument, listDocuments, MAX_STATIC_PDF_BYTES }
  */
 
 export function getStaticPaths() {
-  return listDocuments().map(({ id, bytes }) => {
-    if (bytes > MAX_STATIC_PDF_BYTES) {
-      console.warn(`[documents] ${id} is ${(bytes / 1048576).toFixed(1)} MB and exceeds the 25 MiB static asset limit`);
-    }
-    return { params: { id }, props: { id } };
-  });
+  return listDocuments()
+    .filter(({ id }) => !remoteDocument(id))
+    .map(({ id, bytes }) => {
+      if (bytes > MAX_STATIC_PDF_BYTES) {
+        console.warn(`[documents] ${id} is ${(bytes / 1048576).toFixed(1)} MB and exceeds the 25 MiB static asset limit`);
+      }
+      return { params: { id }, props: { id } };
+    });
 }
 
 export const GET: APIRoute<{ id: string }> = async ({ props: { id } }) => {

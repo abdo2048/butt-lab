@@ -41,6 +41,91 @@ The output gives the commit, version and SHA-256 of `artifact/artifact-manifest.
 
 To redeploy a later change, repeat the build, inspection and approval for the new artifact.
 
+## Copy-paste sequence
+
+Every block below names the directory it runs in. Wrangler is only ever run from `tools/reader-site`.
+
+**Step 0 — repository root.** Confirm you are publishing the commit you think you are.
+
+```powershell
+cd C:\Users\Ad2048\Downloads\butt-lab-starter-kit\butt-lab
+git status --short          # must print nothing
+git log --oneline -1        # note the sha; it goes into the approval
+```
+
+**Step 1 — `tools/reader-site`.** Build, test, audit. All three must pass before you package anything.
+
+```powershell
+cd tools\reader-site
+npm ci
+npm run build               # writes dist\
+npm test                    # 201 tests expected
+npm run audit:release       # must print passed=true
+```
+
+**Step 2 — `tools/reader-site`.** Package the artifact and read the hash it prints.
+
+```powershell
+$env:SOURCE_COMMIT = (git rev-parse HEAD)
+node scripts/build-artifact.ts
+# ARTIFACT version=... commit=... files=... sha256=...
+```
+
+**Step 3 — `tools/reader-site`.** Pre-flight the host limits. Cloudflare rejects the whole upload if any single file is over 25 MiB, and the error names only the first offender.
+
+```powershell
+Get-ChildItem -Recurse -File dist | Where-Object Length -gt 25MB |
+  Select-Object Name, @{n='MiB';e={[math]::Round($_.Length/1MB,2)}}
+```
+
+Empty output means you can deploy. Anything listed has to be dealt with before step 6 — see *Troubleshooting* below.
+
+**Step 4 — repository root.** Record the approval for these exact bytes: copy `operator/deployment-approval.template.json` to `operator/deployment-approval.json` and fill in the commit, the version, `buildRunId: "local"`, the `sha256` from step 2, your name and the date. Do not reuse an approval from an earlier artifact — the hash will not match and step 5 will refuse it.
+
+**Step 5 — `tools/reader-site`.** Create `deployment-request.json` with the same four fields (commit, version, run id, hash) and **no** `approvedBy` or `approvedOn`, then verify.
+
+```powershell
+node scripts/verify-approval.ts --approval ../../operator/deployment-approval.json --request deployment-request.json --artifact artifact
+# must print APPROVED
+```
+
+**Step 6 — `tools/reader-site`.** Stage exactly the approved bytes. Do not rebuild after this point.
+
+```powershell
+Remove-Item -Recurse -Force dist
+Copy-Item -Recurse artifact\site dist
+```
+
+**Step 7 — `tools/reader-site`.** Deploy with wrangler.
+
+```powershell
+npx wrangler whoami         # confirm the account and that you are logged in
+npx wrangler deploy         # prints the deployed URL
+```
+
+`npx wrangler login` is only needed if `whoami` says you are not logged in. The OAuth session is stored outside the repository; nothing here needs a credential in a file.
+
+**Step 8 — verify the live site.** Open `https://butt-lab.am6.workers.dev/`, then `/documents/`, `/sources/` and `/invention/`, run one search, and download one PDF to confirm it arrives as `application/pdf`.
+
+```powershell
+# tools/reader-site, if a release has to be undone
+npx wrangler versions list
+npx wrangler rollback <version-id>
+```
+
+## Troubleshooting
+
+**`Asset too large ... Cloudflare Workers supports assets with sizes of up to 25 MiB`.** One file in `dist/` is over the per-file limit, and the upload is refused as a whole — nothing is published. Run the step 3 check to find every offender, not just the one wrangler named. This is a host limit, not a build bug: `npx wrangler deploy --dry-run` fails the same way, and no setting raises it.
+
+The supported fix is already in the code. `REMOTE_DOCUMENTS` in `src/lib/documents.ts` lists the shelf documents the Worker will not host, each with the URL of the copy held elsewhere. For a listed id the build skips `documents/<id>.pdf`, the shelf row links the external copy and states the size, the source page shows a single Download action, and `auditPublicPdfs` expects the file to be **absent** — staging it anyway is a blocking finding. To add one, put the id, the URL and the reason in that map; to shrink the shelf back to hosted-only, remove the entry once the file fits.
+
+Do not silently swap the hosted file for a recompressed copy: a reader would download a different document from the one in `sources/`, and the site would no longer be describing its own archive.
+
+**`EPERM, Permission denied` while emptying `dist`.** A program is holding a file open — a PDF reader with a shelf document open is the usual cause. Close it and rerun. `astro build` cannot replace `dist/` while a handle exists.
+
+**`verify-approval.ts` refuses with a hash mismatch.** The artifact was rebuilt after the approval was written, or the approval was copied from an earlier release. Re-run step 2 and rewrite the approval with the new hash.
+
+
 ## GitHub Actions alternative
 
 The [build workflow](../.github/workflows/build.yml) publishes a downloadable artifact. On a push build of the exact committed revision, use the SHA, version, run ID and artifact hash printed there for the approval record. The [deploy workflow](../.github/workflows/deploy.yml) is manual and checks that the downloaded artifact matches the approval. The operator configures `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` in GitHub Actions, and dispatches the workflow with those four artifact values. Never put credentials in Git or in a deployment request.

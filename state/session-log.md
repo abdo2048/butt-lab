@@ -472,3 +472,15 @@ column preserved).
 One build failure in this pass was environmental, not a defect: a PDF reader
 holding dist/documents/fr3102180a1.pdf made astro build fail with EPERM when it
 tried to empty dist/. Closing the reader fixed it.
+
+## 2026-11-23 - the deploy that Cloudflare would not take
+
+Attempted the first production deploy of the reader (commit 3fcb0e1). Wrangler was logged in, the approval gate passed on the exact artifact (sha256 a060ba9d...), and then the upload was refused: Cloudflare caps a single static asset at 25 MiB and sources/pan-nanofiber-2024/document.pdf is 25.7 MiB, so nothing was published and the live site stayed on its old build.
+
+pdftk compress returned 25.69 MiB, so the file cannot be shrunk without changing the document. Instead REMOTE_DOCUMENTS in src/lib/documents.ts now lists shelf documents the Worker will not host, with the URL of the copy held elsewhere: the build skips that route, the shelf row links the external copy and states its size, the source page shows one Download action, and auditPublicPdfs expects the file to be absent and blocks if it is staged anyway. The operator supplied a Dropbox link with dl=1, which answers with Content-Disposition: attachment, so a click downloads rather than opening a preview.
+
+Also closed the two cosmetic items from the previous entry: catalogue pages (home, methods, sources, documents, compare) keep one left edge, and the shelf no longer wraps 11.7 MB.
+
+docs/DEPLOY.md gained a copy-paste sequence naming the directory for every command, a 25 MiB pre-flight check, and troubleshooting for the three failures actually met: asset-too-large, EPERM on dist from an open PDF reader, and an approval hash mismatch.
+
+Build 65 pages / 2525 words, 49 hosted PDFs; tests 201 pass; audit 0 findings.
