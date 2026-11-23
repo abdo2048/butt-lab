@@ -484,3 +484,9 @@ Also closed the two cosmetic items from the previous entry: catalogue pages (hom
 docs/DEPLOY.md gained a copy-paste sequence naming the directory for every command, a 25 MiB pre-flight check, and troubleshooting for the three failures actually met: asset-too-large, EPERM on dist from an open PDF reader, and an approval hash mismatch.
 
 Build 65 pages / 2525 words, 49 hosted PDFs; tests 201 pass; audit 0 findings.
+
+### Deployed
+
+Commit 06129bc, artifact sha256 c954c555e956e84748d75db7854e92d47c8f490389bd092556fdc5c8ee4ff550, 214 files. `npx wrangler deploy` uploaded 186 files and returned version 72f60618-ad32-4b52-9493-b47f0728ad46 at https://butt-lab.am6.workers.dev.
+
+Checked live: the home page carries the seven-route table and no `.sheet` markup; /documents/ lists 50 rows and links the oversized PDF at its Dropbox copy; /documents/teixeira-cellulose-pulp.pdf returns 200 application/pdf; /documents/pan-nanofiber-2024.pdf returns 404, which is correct because that file is not staged.

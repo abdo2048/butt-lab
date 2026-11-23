@@ -1,6 +1,6 @@
 version: 4
 updated: '2026-11-23'
-status: reader_units_landed_download_layer_not_deployed
+status: reader_deployed_2026-11-23_review_pass_not_started
 
 production:
   url: https://butt-lab.am6.workers.dev/
@@ -37,13 +37,13 @@ reviewer_library:
   repository_visibility: Temporarily public per operator; no visibility or history change made here.
 
 next_action: >-
-  Rebuild the artifact from the current main and deploy it, because the hosted
-  site still serves an older design (the .sheet margin column) that no longer
-  exists in the source. After that: a reviewer pass in which a fresh AI reads
-  the 50 documents in sources/ and checks the six method pages and the
-  invention against them. The two cosmetic layout items recorded earlier are
-  closed: catalogue pages keep one left edge, and the document shelf no longer
-  wraps its size values.
+  The reader is deployed (commit 06129bc, artifact sha256 c954c555, Cloudflare
+  version 72f60618) and serves the current design. Next: the reviewer pass, in
+  which a fresh AI reads the 50 documents in sources/ and checks the six method
+  pages, the F0 page and the invention against them, producing a claim ledger
+  with a verdict and a quote per claim. The shelf is 49 hosted PDFs plus
+  pan-nanofiber-2024, which is linked at its external copy because it is 25.7
+  MiB and the host refuses any asset above 25 MiB.
 
 open_research:
   - Source screening is not a line-by-line extraction or worldwide survey. See the coverage ledger for the next evidence pass.
