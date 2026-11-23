@@ -7,7 +7,12 @@ interface Props {
   title: string;
   description: string;
   eyebrow?: string;
-  layout?: "wide" | "reading";
+  /**
+   * "reading" centres the masthead in the reading column; "catalogue" keeps the
+   * masthead at the shell's left edge so it lines up with the card grid or wide
+   * table that follows it; "wide" (the default) is a plain full-width page.
+   */
+  layout?: "wide" | "reading" | "catalogue";
 }
 
 const { title, description, eyebrow, layout = "wide" } = Astro.props;
@@ -106,7 +111,11 @@ const pageTitle = title.endsWith("— Butt Lab") ? title : `${title} — Butt La
 
     </header>
 
-    <main id="main" class:list={["shell", "page", { "page--reading": layout === "reading" }]} data-pagefind-body>
+    <main
+      id="main"
+      class:list={["shell", "page", { "page--reading": layout === "reading", "page--catalogue": layout === "catalogue" }]}
+      data-pagefind-body
+    >
       {eyebrow && <p class="eyebrow page__eyebrow">{eyebrow}</p>}
       <slot />
     </main>

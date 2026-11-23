@@ -72,4 +72,17 @@ Two complaints came from the operator after reading the hosted site: the sticky 
 
 **Verified in Chromium at 1280 px:** home, start, methods index, method detail, compare, sources, documents and glossary all show a single centred reading column with no dead right margin; the method page measures 592 px at x=337 for heading, aside, prose and tables alike. At 390 px the method page has a document width of 375 px inside a 390 px window (no horizontal overflow) and the jump chips wrap. Build 65 pages / 2525 words; `npm test` 201/201.
 
-**Still open:** the Size column on `/documents/` wraps a value like `11.7 MB` onto two lines; card grids on `/methods/` and `/` stay full width under a centred intro, which is deliberate but is a second left edge on those pages. The hosted site must be rebuilt from the current artifact before any of this is visible to a reader.
+**Still open:** the hosted site must be rebuilt from the current artifact before any of this is visible to a reader.
+
+## Follow-up: catalogue pages get their own alignment
+
+Two cosmetic items from the pass above were fixed on the operator's instruction.
+
+| Item | Change |
+| --- | --- |
+| Card grids sat under a centred masthead | A page whose body is a card grid or a wide table is now marked `layout="catalogue"` in `BaseLayout` (home, `/methods/`, `/sources/`, `/documents/`, `/compare/`). Those pages keep the shell's left edge for the masthead and section headings, so the eyebrow, h1, lede, buttons and the first card or table all start at the same x. Article pages keep the centred column. The measure cap still applies on catalogue pages, so a closing note under a wide table wraps at 592px instead of running 1200px across the screen. |
+| `11.7 MB` wrapped onto two lines in the document shelf | The shelf table gains `class="table table--files"`; `.table--files td:nth-child(3)` and `td:nth-child(4)` are `white-space: nowrap`, so the size and download columns keep one value per line. |
+
+**Verified:** home, `/methods/`, `/sources/`, `/documents/` and `/compare/` each show one left edge at 1280 px; the document shelf no longer wraps `11.7 MB` or `11.4 MB`; article pages (`/start/`, method detail, `/results/`) keep the centred column. Build 65 pages / 2525 words; `npm test` 201/201.
+
+**Note on the build:** a PDF reader holding `dist/documents/fr3102180a1.pdf` made `astro build` fail with `EPERM` when it tried to empty `dist/`. Closing the reader fixed it; no source change was involved.

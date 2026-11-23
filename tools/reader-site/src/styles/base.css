@@ -353,8 +353,14 @@ hr {
 /* The shell is 80rem wide so tables and card grids can breathe. Body text
  * left-aligned at 68ch inside that shell stops near the middle of a laptop
  * screen and leaves a dead right margin, which reads as a layout that ran
- * out of content. Text blocks therefore centre on one column; anything
- * structural — tables, card grids, the hero — keeps the full shell. */
+ * out of content. Text blocks are therefore capped at one measure everywhere,
+ * and centred on article pages so the column sits in the middle of the page.
+ *
+ * Catalogue pages — where a card grid or a wide table is the body — keep the
+ * shell's left edge instead, so the masthead, the section headings and the
+ * grid share one alignment rather than a centred header floating over a grid
+ * that starts 320px to its left. The cap still applies, so a closing note
+ * under a wide table does not run 1200px across the screen. */
 .page > h1,
 .page > .prose,
 .page > .page__lede,
@@ -372,6 +378,24 @@ hr {
 .section > .prose,
 .section > .small {
   max-inline-size: var(--measure);
+}
+
+.page:not(.page--catalogue) > h1,
+.page:not(.page--catalogue) > .prose,
+.page:not(.page--catalogue) > .page__lede,
+.page:not(.page--catalogue) > .page__eyebrow,
+.page:not(.page--catalogue) > .page-actions,
+.page:not(.page--catalogue) > .disclaimer,
+.page:not(.page--catalogue) > .method-overview,
+.page:not(.page--catalogue) > .small,
+.page:not(.page--catalogue) > .lede,
+.page:not(.page--catalogue) > .source-intro,
+.page:not(.page--catalogue) > .mode-note,
+.page:not(.page--catalogue) > .source-filter,
+.page:not(.page--catalogue) > .source-jumps,
+.page:not(.page--catalogue) .section__heading,
+.page:not(.page--catalogue) .section > .prose,
+.page:not(.page--catalogue) .section > .small {
   margin-inline: auto;
 }
 
@@ -548,6 +572,13 @@ hr {
 
 .table td:first-child {
   font-weight: 600;
+}
+
+/* The size and download columns carry one short value each; letting them wrap
+ * splits "11.7 MB" over two lines and makes the shelf look ragged. */
+.table--files td:nth-child(3),
+.table--files td:nth-child(4) {
+  white-space: nowrap;
 }
 
 .table--scores td:first-child {

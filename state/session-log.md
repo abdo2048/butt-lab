@@ -448,3 +448,27 @@ Not done: the deployment that would put this pass in front of a reader, the
 reviewer pass over sources/, and two cosmetic items recorded in
 docs/READER-LAYOUT-REVIEW.md (a wrapped 11.7 MB in the document shelf, and the
 full-width card grids sitting under a centred introduction on / and /methods/).
+
+## 2026-11-23 - catalogue pages keep one left edge
+
+Both cosmetic items from the previous entry are closed.
+
+- A page whose body is a card grid or a wide table is now marked
+  layout="catalogue" in BaseLayout: the home page, /methods/, /sources/,
+  /documents/ and /compare/. Those pages keep the shell's left edge for the
+  masthead and the section headings, so the eyebrow, h1, lede, buttons and the
+  first card or table all start at the same x instead of a centred header
+  floating over a grid that starts 320px to its left. Article pages keep the
+  centred column. The measure cap still applies on catalogue pages, so a
+  closing note under a wide table wraps at 592px rather than 1200px.
+- The document shelf table gains class="table table--files", and its size and
+  download columns no longer wrap, so 11.7 MB stays on one line.
+
+Verification: npm run build exit 0, 65 pages indexed, 2525 words; npm test 201
+passed, 0 failed. Checked at 1280px on home, methods, sources, documents and
+compare (one left edge each) and on start, a method page and results (centred
+column preserved).
+
+One build failure in this pass was environmental, not a defect: a PDF reader
+holding dist/documents/fr3102180a1.pdf made astro build fail with EPERM when it
+tried to empty dist/. Closing the reader fixed it.

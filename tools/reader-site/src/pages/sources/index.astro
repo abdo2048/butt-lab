@@ -15,7 +15,7 @@ const groups: { id: string; title: string; types: SourceRecord["sourceType"][] }
 const sections = groups.map((group) => ({ ...group, sources: sources.filter((source) => group.types.includes(source.sourceType)) }));
 ---
 
-<BaseLayout title="Sources" description="Browse studies, patents, company disclosures and supporting research." eyebrow="Reference library">
+<BaseLayout title="Sources" description="Browse studies, patents, company disclosures and supporting research." eyebrow="Reference library" layout="catalogue">
   <h1>Sources</h1>
   <p class="page__lede">{sources.length} public references, from laboratory studies and patent disclosures to company descriptions, exposure research and life-cycle models. These are selected references, not the whole working library.</p>
   <p class="source-intro">Open a title for its citation and linked findings, or go straight to the original. Sources marked “PDF available” have a copy you can read or download here. For how those sources inform the research, see the <a href="/methods/examples/">worked method examples</a>.</p>

@@ -41,10 +41,9 @@ next_action: >-
   site still serves an older design (the .sheet margin column) that no longer
   exists in the source. After that: a reviewer pass in which a fresh AI reads
   the 50 documents in sources/ and checks the six method pages and the
-  invention against them. Two cosmetic items remain open and are recorded in
-  docs/READER-LAYOUT-REVIEW.md: the size column on /documents/ wraps a value
-  like 11.7 MB onto two lines, and the card grids on / and /methods/ stay full
-  width under a centred introduction.
+  invention against them. The two cosmetic layout items recorded earlier are
+  closed: catalogue pages keep one left edge, and the document shelf no longer
+  wraps its size values.
 
 open_research:
   - Source screening is not a line-by-line extraction or worldwide survey. See the coverage ledger for the next evidence pass.
