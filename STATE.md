@@ -1,14 +1,17 @@
 # STATE — cigarette-butts (case 1; lives in butt-lab until migration to recycling-empire)
-Updated: 2026-11-24 | Phase: 3 | Version: v0.5-pre-migration
+Updated: 2026-11-24 (session 2) | Phase: 3 | Version: v0.5-pre-migration
 
 ## In flight right now
-none — Day 1 setup complete. Next session starts Phase 3 with M-01.
+Phase 3, first batch: writing full action plans for M-01 mego-wash and M-02 defenzo-solvent.
+- M-01: full French spec is on the shelf (sources/fr3066128a1-granted/text.md) — reading it before gap-filling.
+- M-02: source shelf has no folder for it; paper is open access (PMC7659942) — fetching full methods from PMC before gap-filling.
 
 ## Done
 - Phase 1 (2026-11-22): 50 sources shelved in sources/ (document.pdf + text.md each)
 - Phase 2 (2026-11-23): registry/methods.yaml — 27 methods
 - Reader site live (old workflow): https://butt-lab.am6.workers.dev/
 - 2026-11-24: decisions locked with operator — hybrid scope (8 full action plans + 19 summary cards); charter v2 gap-filling flip (every gap gets a labeled estimate); site will be rebuilt simple; project migrates to github.com/abdo2048/recycling-empire at Phase 6; attic/pre-cleanup-2026-11-24 branch preserves all retired scaffolding; the reusable system now lives in recycling-empire/PLAYBOOK.md
+- 2026-11-24: recycling-empire framework deployed (17 files: PLAYBOOK, START-A-NEW-MATERIAL, MATERIALS, template/ complete) — commits e0aa955e, d9407f36
 
 ## Next up (in order)
 1. Phase 3 — full action plans (methods/M-XX-*.md) for the 8 priority methods:
