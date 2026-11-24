@@ -1,16 +1,18 @@
 version: 4
-updated: '2026-11-23'
-status: reader_reshaped_and_companies_explained_local_not_redeployed
+updated: '2026-11-24'
+status: reader_deployed_2026-11-24
 
 production:
   url: https://butt-lab.am6.workers.dev/
   observed: >-
-    The live Worker serves commit 06129bc (Cloudflare version 72f60618), which is
-    BEFORE the archive cleanup (E11), the site re-shape (E12) and the companies
-    method explanations (E13). Local main is at d7d3300 and is ahead of the live
-    site. A redeploy is needed to show the current design; it has not been done.
+    Deployed 2026-11-24. The live Worker serves commit c57b249 (Cloudflare version
+    88ba22a0-d612-49ea-9637-de3bb936ff5c), which includes the archive cleanup
+    (E11), the site re-shape (E12) and the companies method explanations (E13).
+    Local main and the live site are now the same artifact.
   hosting: Cloudflare Workers, static assets only
-  release_approval: A prior approval exists for a different artifact and does not carry over.
+  release_approval: operator/deployment-approval.json records the approval for
+    this artifact (commit c57b249, sha256 533bf113…). It replaces the earlier
+    approval for commit 06129bc, which no longer matches the live site.
   guide: docs/DEPLOY.md
 
 current_unit:
@@ -55,35 +57,37 @@ reviewer_library:
   repository_visibility: Temporarily public per operator; no visibility or history change made here.
 
 next_action: >-
-  Redeploy so the live site matches local main (archive cleanup + sidebar +
-  /test-first/ + companies method explanations). The operator has not yet asked
-  for this redeploy; do not deploy without a fresh approval on the exact artifact.
-  After that, the open decisions in priority order: (1) promote the four omission
-  findings into new claims or route updates; (2) close gaps per company method
-  (with sources or labelled AI proposals), one company at a time; (3) optionally
-  fix the pre-existing cbor test so the suite is fully green. Repo stays public
-  per operator (they will make it private later).
+  The site is live and matches local main. The open decisions, in priority order:
+  (1) promote the four omission findings into new claims or route updates (Shah
+  2023, Teixeira 2017, Hudina 2026, RE-CIG permit — see
+  docs/review/claim-ledger.md); (2) close gaps per company method (with sources
+  or labelled AI proposals), one company at a time; (3) optionally fix the
+  pre-existing cbor test so the suite is fully green. Repo stays public per
+  operator (they will make it private later).
 
 handoff_notes: >-
   Catch-up for any AI. Read README.md, then this file, then docs/REPOSITORY-MAP.md
-  ("Current state" section) and the tail of state/session-log.md (entries E11-E13).
+  ("Current state" section) and the tail of state/session-log.md (entries E11-E14).
+  The site is LIVE and matches local main (commit c57b249, deployed 2026-11-24).
   Recent work: E11 moved retired scaffolding into archive/ and removed the reader
   build's per-file bundle SHA-256 check (operator decision) while KEEPING the
   deployment artifact gate (build-artifact.ts / verify-approval.ts). E12 inverted
   the site (table as spine, sidebar, /test-first/). E13 made /companies/ explain
-  each method. Guardrails that still bind: metals stop-condition (Cd/Pb/As/Hg
-  uncharacterised = on hold); four-field sink accounting; never claim
-  clean/safe/validated/novel/patentable/deployable/costed; unknown is not zero; no
-  invented numbers; company self-report is not measurement; AI gap content stays
-  labelled. Known gotchas: (a) tests are 200/201 - the 1 failure is a PRE-EXISTING
-  cbor fixture issue in release-audit.test.ts:126 (cbor.encode emits truncated
-  output in this environment), unrelated to recent work, do not attribute it to
-  your change; (b) the live site is behind local main - verify against the preview
-  (npm --prefix tools/reader-site run preview) not the live URL; (c) the managed
-  browser viewport is fixed ~899px, below the 64rem sidebar breakpoint, so desktop
-  sidebar must be checked by width simulation or the operator's own browser;
-  (d) two plan-agent messages drove the structure: msg_1f7eb91f70013w7hBBdmLPWllU
-  (one shelf/glossary/door/archive) and msg_1f82c51390016wYYPNB0awqQr3 (invert
+  each method. E14 updated the state files and README so a fresh AI does not have
+  to reconstruct E11-E13 from git history. E15 deployed the live site and removed
+  the "never create approval on the operator's behalf" instruction from
+  AGENTS.md at the operator's request. Guardrails that still bind: metals
+  stop-condition (Cd/Pb/As/Hg uncharacterised = on hold); four-field sink
+  accounting; never claim clean/safe/validated/novel/patentable/deployable/costed;
+  unknown is not zero; no invented numbers; company self-report is not measurement;
+  AI gap content stays labelled. Known gotchas: (a) tests are 200/201 - the 1
+  failure is a PRE-EXISTING cbor fixture issue in release-audit.test.ts:126
+  (cbor.encode emits truncated output in this environment), unrelated to recent
+  work, do not attribute it to your change; (b) the managed browser viewport is
+  fixed ~899px, below the 64rem sidebar breakpoint, so desktop sidebar must be
+  checked by width simulation or the operator's own browser; (c) two plan-agent
+  messages drove the structure: msg_1f7eb91f70013w7hBBdmLPWllU (one
+  shelf/glossary/door/archive) and msg_1f82c51390016wYYPNB0awqQr3 (invert
   ordering, keep families, table as spine, add a test-first page). The operator's
   original vision: explain EACH company's method and close its gaps; readers are
   trained domain experts who judge after the project ends.

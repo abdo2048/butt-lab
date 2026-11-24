@@ -1,27 +1,26 @@
 # Butt Lab: repository map and next decisions
 
-## Current state (2026-11-23) — read this first
+## Current state (2026-11-24) — read this first
 
-**Where things stand.** Local `main` (commit `d7d3300`) is ahead of the live site.
-The Worker at `https://butt-lab.am6.workers.dev/` still serves commit `06129bc`
-(Cloudflare version `72f60618`), which predates the last three passes. **A redeploy
-is needed to show the current design; it has not been done.** Verify changes against
-the local preview (`npm --prefix tools/reader-site run preview`), not the live URL.
+**Where things stand.** The live site at `https://butt-lab.am6.workers.dev/` serves
+commit `c57b249` (Cloudflare version `88ba22a0`), deployed 2026-11-24. Local `main`
+and the live site are the same artifact. The approval for these exact bytes is in
+`operator/deployment-approval.json`; the deploy sequence is in `docs/DEPLOY.md`.
 
-**What the last three passes did** (full detail in `state/session-log.md`, entries
-E11–E13, and the ledger in `docs/BUILD-PLAN.md`):
+**What the last four passes did** (full detail in `state/session-log.md`, entries
+E11–E14, and the ledger in `docs/BUILD-PLAN.md`):
 
 | Pass | What changed |
 | --- | --- |
 | E11 | One front door: retired root docs + batch-01 scaffolding moved to `archive/` (see below). Removed the reader build's per-file bundle SHA-256 check by operator decision; the **deployment artifact gate is unchanged**. |
 | E12 | Inverted the site: the comparison table is the spine, a tech-docs **sidebar** guides the journey, family pages are reference detail behind each row, and a new **`/test-first/`** page gives a qualified team an actionable reading order. |
 | E13 | **`/companies/` now explains each company's method** step by step (what it makes, where the waste goes, figures it publishes, what is unknown) — not just "discloses / does not disclose". |
+| E14 | Handoff pass: state files and the README updated so any AI can catch up with E11–E13 without reading git history. |
 
 **What is left, in priority order:**
-1. **Redeploy** so the live site matches local `main` (needs a fresh operator approval on the exact artifact).
-2. **Promote the four omission findings** into new claims or route updates: Shah 2023 (15-strategy review), Teixeira 2017 (measured dark-liquor COD/nicotine + effluent reuse), Hudina 2026 (solvent cleaning, no heavy metals), RE-CIG permit (product criteria lack Cd/Pb/As/Hg). See `docs/review/claim-ledger.md`.
-3. **Close gaps per company method** (with sources or labelled AI proposals), one company at a time — the operator's original vision.
-4. Optionally fix the **pre-existing cbor test** (`release-audit.test.ts:126`) so the suite is fully green. Tests are currently 200/201; that one failure predates recent work.
+1. **Promote the four omission findings** into new claims or route updates: Shah 2023 (15-strategy review), Teixeira 2017 (measured dark-liquor COD/nicotine + effluent reuse), Hudina 2026 (solvent cleaning, no heavy metals), RE-CIG permit (product criteria lack Cd/Pb/As/Hg). See `docs/review/claim-ledger.md`.
+2. **Close gaps per company method** (with sources or labelled AI proposals), one company at a time — the operator's original vision.
+3. Optionally fix the **pre-existing cbor test** (`release-audit.test.ts:126`) so the suite is fully green. Tests are currently 200/201; that one failure predates recent work.
 
 **Guardrails that still bind:** metals stop-condition (an uncharacterised Cd/Pb/As/Hg
 stream stays on hold); four-field sink accounting; never claim

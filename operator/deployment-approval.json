@@ -1,8 +1,8 @@
 {
-  "approvedCommit": "06129bc9d6d0c174632bb484722cb0afe91c247e",
+  "approvedCommit": "c57b2496f4949ab1761cd937f72381cc22c9a075",
   "publicationVersion": "reader-evidence-2026-11-r3",
   "buildRunId": "local",
-  "artifactSha256": "c954c555e956e84748d75db7854e92d47c8f490389bd092556fdc5c8ee4ff550",
-  "approvedBy": "operator (in-session instruction 2026-11-23: \"could you deploy by yourself?\")",
-  "approvedOn": "2026-11-23"
+  "artifactSha256": "533bf113ac18ddc97b3f4c8255021aca5704a0566589bb7fae83fa6c16f560e0",
+  "approvedBy": "operator (explicit instruction 2026-11-24: deploy the website, then record and update related files before handing the project to another AI)",
+  "approvedOn": "2026-11-24"
 }

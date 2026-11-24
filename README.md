@@ -2,7 +2,7 @@
 
 [Read the public notebook](https://butt-lab.am6.workers.dev/) for reported cigarette-butt recycling routes, the evidence behind them, and AI proposals a reviewer can challenge. The site is for curious readers as well as engineers, toxicologists, health researchers and waste specialists. Butt Lab has not carried out an experiment; a published proposal is not a working or approved process.
 
-> **The live site is behind this repository.** `butt-lab.am6.workers.dev` still serves an older commit (before the archive cleanup, the sidebar re-shape, the `/test-first/` page and the per-company method explanations). The current design is local only — see [Current status and next steps](state/workflow.yaml) and the "Current state" section of the [repository map](docs/REPOSITORY-MAP.md). A redeploy needs a fresh operator approval on the exact artifact; it has not been done.
+> **The live site matches this repository.** `butt-lab.am6.workers.dev` serves commit `c57b249` (deployed 2026-11-24), which includes the archive cleanup, the sidebar re-shape, the `/test-first/` page and the per-company method explanations. The approval for these exact bytes is in `operator/deployment-approval.json`.
 
 ## Start here
 
