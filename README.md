@@ -2,11 +2,19 @@
 
 [Read the public notebook](https://butt-lab.am6.workers.dev/) for reported cigarette-butt recycling routes, the evidence behind them, and AI proposals a reviewer can challenge. The site is for curious readers as well as engineers, toxicologists, health researchers and waste specialists. Butt Lab has not carried out an experiment; a published proposal is not a working or approved process.
 
+> **The live site is behind this repository.** `butt-lab.am6.workers.dev` still serves an older commit (before the archive cleanup, the sidebar re-shape, the `/test-first/` page and the per-company method explanations). The current design is local only — see [Current status and next steps](state/workflow.yaml) and the "Current state" section of the [repository map](docs/REPOSITORY-MAP.md). A redeploy needs a fresh operator approval on the exact artifact; it has not been done.
+
 ## Start here
 
+- [**The public notebook**](https://butt-lab.am6.workers.dev/) — the reader site
+- [**Compare the seven routes**](https://butt-lab.am6.workers.dev/compare/) — the table is the spine of the site
+- [**What a team would test first**](https://butt-lab.am6.workers.dev/test-first/) — a qualified team's actionable reading order
+- [**How each company's method works**](https://butt-lab.am6.workers.dev/companies/) — every company explained step by step
+- [The seven routes](https://butt-lab.am6.workers.dev/methods/) — family detail behind each table row
 - [Glossary: what batch, stage, round and F-numbers mean](GLOSSARY.md)
 - [Current status and next steps](state/workflow.yaml)
 - [Repository map, branches and remaining work](docs/REPOSITORY-MAP.md)
+- [Catch-up notes for any AI](state/workflow.yaml#handoff-notes)
 - [Prepare the local PDF reading library](docs/LOCAL-LIBRARY.md)
 - [Set up password-protected reviewer PDF access](docs/REVIEWER-LIBRARY.md)
 - [Reader layout and navigation decisions](docs/READER-LAYOUT-REVIEW.md)

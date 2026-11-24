@@ -1,5 +1,35 @@
 # Butt Lab: repository map and next decisions
 
+## Current state (2026-11-23) — read this first
+
+**Where things stand.** Local `main` (commit `d7d3300`) is ahead of the live site.
+The Worker at `https://butt-lab.am6.workers.dev/` still serves commit `06129bc`
+(Cloudflare version `72f60618`), which predates the last three passes. **A redeploy
+is needed to show the current design; it has not been done.** Verify changes against
+the local preview (`npm --prefix tools/reader-site run preview`), not the live URL.
+
+**What the last three passes did** (full detail in `state/session-log.md`, entries
+E11–E13, and the ledger in `docs/BUILD-PLAN.md`):
+
+| Pass | What changed |
+| --- | --- |
+| E11 | One front door: retired root docs + batch-01 scaffolding moved to `archive/` (see below). Removed the reader build's per-file bundle SHA-256 check by operator decision; the **deployment artifact gate is unchanged**. |
+| E12 | Inverted the site: the comparison table is the spine, a tech-docs **sidebar** guides the journey, family pages are reference detail behind each row, and a new **`/test-first/`** page gives a qualified team an actionable reading order. |
+| E13 | **`/companies/` now explains each company's method** step by step (what it makes, where the waste goes, figures it publishes, what is unknown) — not just "discloses / does not disclose". |
+
+**What is left, in priority order:**
+1. **Redeploy** so the live site matches local `main` (needs a fresh operator approval on the exact artifact).
+2. **Promote the four omission findings** into new claims or route updates: Shah 2023 (15-strategy review), Teixeira 2017 (measured dark-liquor COD/nicotine + effluent reuse), Hudina 2026 (solvent cleaning, no heavy metals), RE-CIG permit (product criteria lack Cd/Pb/As/Hg). See `docs/review/claim-ledger.md`.
+3. **Close gaps per company method** (with sources or labelled AI proposals), one company at a time — the operator's original vision.
+4. Optionally fix the **pre-existing cbor test** (`release-audit.test.ts:126`) so the suite is fully green. Tests are currently 200/201; that one failure predates recent work.
+
+**Guardrails that still bind:** metals stop-condition (an uncharacterised Cd/Pb/As/Hg
+stream stays on hold); four-field sink accounting; never claim
+clean/safe/validated/novel/patentable/deployable/costed; unknown ≠ zero; no invented
+numbers; company self-report is not measurement; AI gap content stays labelled. The
+repo is **public for now** (operator will make it private later). Machine-readable
+state and fuller handoff notes: `state/workflow.yaml` (`handoff_notes`).
+
 ## Branches are not worktrees
 
 A branch is a Git history pointer. A worktree is a folder with files checked out at one revision. `git worktree list` sees worktrees of **this clone**, not folders on the operator's machine. This Arena clone has one worktree on `arena/2dc0ddeb-butt-lab`. Use `git worktree list` in your own clone to see the folders you created there.
@@ -66,7 +96,7 @@ The reader site publishes the whole shelf. `src/lib/documents.ts` scans `sources
 
 Two id universes meet in `sources/links.json`: bibliographic record ids from `publication/records/sources/` and shelf ids derived from filenames. Only the hand-checked pairs are listed; a record with no entry gets no download button rather than a guessed one.
 
-The shelf is 184.7 MB across 50 files. `pan-nanofiber-2024` is 25.7 MB, just above Cloudflare's 25 MiB per-asset limit, so it builds and warns. If the site is ever deployed to Workers, that one file needs splitting or external storage.
+The shelf is 184.7 MB across 50 files. `pan-nanofiber-2024` is 25.7 MB, above Cloudflare's 25 MiB per-asset limit, so it is **not** staged into the build: `REMOTE_DOCUMENTS` in `src/lib/documents.ts` links it at an external (Dropbox) copy, the shelf row says so, and `auditPublicPdfs` blocks if it is ever staged. The other 49 PDFs are served from `/documents/<id>.pdf`. This is already handled and deployed.
 
 ## Reader-site source files (there is no `global.css`)
 
@@ -82,11 +112,14 @@ The shelf is 184.7 MB across 50 files. `pan-nanofiber-2024` is 25.7 MB, just abo
 
 ## Is Butt Lab done?
 
-No. The reader and local library tooling are usable; the evidence synthesis is a work in progress. The next useful work is:
+No. The reader and local library tooling are usable; the evidence synthesis is a work
+in progress. The immediate next steps are in **"Current state"** at the top of this
+file (redeploy, promote the four omissions, close gaps per company method). The
+enduring research principles still apply:
 
 1. **Review one route end to end.** Start with pulping or washing. Read the PDFs against their page images; match papers to theses and patent families, and extract an input/output/contaminant table with source locators. Separate supporting literature from actual trials. Finish this for one route before claiming comparable coverage across all routes.
 2. **Audit the public result, not the file count.** Check document identity, numeric units and the denominator, rights, drift between family summaries and individual findings, and deduplicate variants. Use a source citation when an evidence gap closes. Keep hypotheses labelled when the gap is still open. Leave original PDFs untouched; clean derived text only when it improves a decision or corrects a verified error.
-3. **Review the reader on real devices.** The preview now has catalogue filtering and section jump links. Still check slow/mobile reading, long technical tables, terminology with non-experts, and enough context for technical reviewers. Then decide what to release; the preview does not change production.
+3. **Review the reader on real devices.** Check slow/mobile reading, long technical tables, terminology with non-experts, and enough context for technical reviewers. The sidebar appears at >=64rem; below that the top nav carries the same destinations. Then decide what to release; the preview does not change production.
 4. **Keep validation distinct.** Independent lab and waste-handling decisions remain outside the desk record. No claim about performance, safety, or product use can be upgraded by converting more PDFs or polishing the site.
 
 ## Status after the navigation and reviewer-library pass
