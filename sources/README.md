@@ -23,11 +23,11 @@ Never treat `text.md` as the document. If they disagree, the original wins. Figu
 
 ## Which text came from where
 
-- 12 documents carry a `text.md` produced earlier by the project's own converter (the `*_text.md` files that used to sit beside the PDFs in `materials/gap-closing/library/`).
-- 42 documents carry originals supplied by the operator, of which 41 have a `text.md`: 37 by the operator with external conversion tools (GLM / PaddleOCR-VL), 2 AI-extracted from operator-saved HTML pages (Bloomberg 2017/2022), 1 pdftotext from the operator's PDF (PharmJ letter), 1 operator GLM conversion (Yousef 2023 JAAP). Operator-supplied conversions are preferred when available.
+- 12 documents carry a `text.md` produced earlier by the project's own converter (the `*_text.md` files that used to sit beside the PDFs in `materials/gap-closing/library/`), plus 1 earlier project-era document with its own carried-over text.
+- 51 documents carry originals supplied by the operator, of which 50 have a `text.md`: 37 by the operator with external conversion tools (GLM / PaddleOCR-VL), 10 AI-extracted from operator-saved HTML pages (Bloomberg 2017/2022; CSP Daily News 2012; nj.com 2012; Plastics News 2012 via its Wayback capture; Surfrider FAQ 2017; the TerraCycle brigade capture 2015 and the three current TerraCycle pages), 1 pdftotext from the operator's PDF (PharmJ letter), 2 operator GLM conversions (Yousef 2023 JAAP; Zhang 2026 Chemosphere review). Operator-supplied conversions are preferred when available.
 - 1 document has no `text.md` on purpose: `inpi-bopi-2018-46` is a 283-page French patent gazette with 40 blank pages. It is kept as a PDF for completeness and is not worth converting.
 
-So: 55 documents, 54 with text, 1 PDF-only.
+So: 64 documents, 63 with text, 1 PDF-only.
 
 ## What this folder is not
 
