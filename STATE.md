@@ -1,43 +1,32 @@
 # STATE — cigarette-butts (case 1; lives in butt-lab until migration to recycling-empire)
-Updated: 2026-11-25 (session 4) | Phase: 4 | Version: v0.5-pre-migration
+Updated: 2026-11-25 (session 5) | Phase: 4 | Version: v0.5-pre-migration
 
 ## In flight right now
-Phase 3 + 3b complete. Next: Phase 4 — invention -> inventions/ (team's own method, built on the strongest verified components from M-01..M-08).
+Nothing mid-flight. Phase 3 + 3b complete; M-06/M-07 upgraded to v0.2 on new evidence. Next session starts Phase 4 — invention -> inventions/.
 
 ## Done
 - Phase 1 (2026-11-22): 50 sources shelved; Phase 2 (2026-11-23): registry 27 methods
 - 2026-11-24: operator decisions locked; recycling-empire deployed (17 files); old reader live
 - 2026-11-24 (session 2): M-01 + M-02 done (commit 198402f2); sources/defenzo-2020-materials/SOURCE.md added
 - 2026-11-24 (session 3): M-03 done (commit c640ac19); M-04 + M-05 written
-- 2026-11-25 (session 4): **M-04 + M-05 verified complete** (were marked "writing" — confirmed full files on disk; STATE was stale)
-- 2026-11-25 (session 4): **M-06 terracycle done** — web research (sub-agent, partially degraded search/wayback): route = 2012 launch, Santa Fe sponsor, CA -> pellets -> pallets/benches/ashtrays, tobacco+paper composted, industrial-only end use (operator's own nicotine acknowledgment), third-party processors; ALL process numbers parameter_not_located; sanitize step trade-secret; UV claim DOWNGRADED to unverified; brand names stubblebri/Rigago/Simply Drop unconfirmed-suspect; 2021 labeling settlement + Bloomberg 2022 as credibility context; retrieval leads logged (paywalled Bloomberg/PharmJ, Wayback brigade FAQ)
-- 2026-11-25 (session 4): **M-07 pyrolysis done** — Yousef 2023 JAAP abstract successfully read from ScienceDirect (registry's abstract-only flag resolved): 650/700/750 degC, 200 g reactor, oil 38-39.5 / char 25.7-27.7 / gas 33-36.4 wt%, triacetin 43% @750, gas CO2 11.6%/CO 8%/H2 4.6%/CH4 2%, char Ca up to 32 wt%; found mass-balance inconsistency (ranges sum 96.7-103.6) kept as gap row; companion carbon line from shelf reviews (900 degC/597 m2/g; KOH 2726 m2/g; H2 9.4 wt%); full paper still closed access
-- 2026-11-25 (session 4): **M-08 rmit-brick done** — Kurmus thesis read from shelf: Gen-1 (2.5-10%, 25.65->3 MPa, 30.8/58.4% calculated savings) vs Gen-2 (0.5-2%: 1% optimum, 48.6->30.8 MPa, conductivity 0.463->0.393 W/mK = 15.1%, measured furnace savings 8.0/13.3% python3-verified, calculated 10.2/14.71% both kept, AUD 661.96 M/yr costing reproduced); leaching + PAH gates PASSED (only route with published gates); micro-bio Ch.7 + UVC odor Ch.8 logged; shelf mismatch kurmus-2020-toxicity-valorisation = Shah 2023 re-confirmed
-- 2026-11-25 (session 4): **Phase 3b done** — methods/_cards.md: 22 summary cards (C-01..C-22; registry grew to 30 entries, so 22 not 19), all labeled, registry-level only; corrections ledger for registry/methods.yaml queued to Phase 5. Commits: 13654ff3 (STATE), c8b254a3 (M-06), 60962e69 (M-07+M-08), 73f75593 (LOG backfill), 954e29fd (_cards.md)
+- 2026-11-25 (session 4): M-04 + M-05 verified complete; **M-06 done** (sub-agent web research); **M-07 done** (JAAP abstract-verified); **M-08 done** (Kurmus thesis read); **Phase 3b done** — 22 cards to methods/_cards.md (commit 954e29f); STATE/LOG updated (commits 13654ff3, c8b254a3, 60962e69, a4d98a8)
+- 2026-11-25 (session 5): **5 operator-supplied sources ingested** — via butt-materials repo (now public): Bloomberg 2017 profile, Bloomberg 2022 investigation, PharmJ 2021 blister-scheme news + Scott letter, Yousef 2023 JAAP FULL TEXT (PDF + GLM conversion + 10 figures). New shelf folders: `sources/terracycle-bloomberg-2017-profile/`, `sources/terracycle-bloomberg-2022-investigation/`, `sources/pharmj-2021-blister-scaled-back/`, `sources/pharmj-2021-scott-letter/`, `sources/yousef-2023-jaap/` — each with SOURCE.md + text.md, and the FULL original (document.pdf / document.html; JAAP also has figures/ with 10 images). INDEX 50→55 rows; sources/README provenance updated. Delivered as the butt-lab-staging package pushed by the operator's own machine (sandbox has no GitHub auth this session).
+- 2026-11-25 (session 5): **M-06 → v0.2** — Bloomberg 2022 READ IN FULL; credibility rows verified (third-party-only reprocessing, no independent recycling audit until 2021, Bureau Veritas thereafter, Jan Dell suit settled with language changes, tracker evidence: Gerber/apricot trackers → Bloomington warehouses → transfer station/landfill Pontiac IL; 20+ bales misrouted Bulgaria; Bloomington suit vs Bell International/Akshar; $71M revenue 2021; ~20% collections in storage months-years; downcycling to playground/outdoor furniture — Szaky's own words). Bloomberg 2017 read (financial arc; subcontractor pellets→lumber). PharmJ pieces = UK BLISTER-PACK scheme (Sanofi→Superdrug, overload-rescope May 2021) — NOT the cigarette brigade; closes the "which scheme was discontinued" question. Retrieval lead CLOSED; Wayback FAQ remains the only open cigarette-process lead.
+- 2026-11-25 (session 5): **M-07 → v0.2** — JAAP full text read: protocol RESOLVED (650/700/750 degC, 25 degC/min, N2 60 ml/min, 5-10 min hold, 3 repetitions; 200 g fixed bed; 4 scrubbers + isopropanol/salt-water traps); **mass-balance gap row WITHDRAWN** (Table 1 exact triplets sum ~100: 39.52/27.45/33.03, 38.33/26.61/35.05, 37.92/25.68/36.40); triacetin = GC-MS area % 31.23/33.26/42.99; oil contains nicotine-derived alkaloids 7.95-11.17% area + phenols → fuel-additive claim needs purification (row 2 partially resolved); char EDX full (Ca 2.15→31.85 wt%, K, Fe, S, Cl, Si, Mg, P) + CaCO3 by FTIR; **feedstock supplied by Keenat Company (paper ack + ref 64) — cross-link M-04/M-05**; gas CV + char trace metals + economics remain open (TEA "under research" by authors).
 
 ## Next up (in order)
-1. Phase 4 — invention -> inventions/
-2. Phase 5 — ranking.md (six factors) + test-first list + apply card-ledger corrections to registry/methods.yaml
-3. Phase 6 — migration to recycling-empire/materials/cigarette-butts/ + unified site + operator deploy
-4. Open retrieval leads (any session): Bloomberg 2022 + PharmJ 2021 full texts; Wayback TerraCycle brigade FAQ; full JAAP 106167; Chemosphere 2026 review PMID 42901015 cross-check; full EP3892393A1; full WO2026074041A2 (C-02 card)
+1. **Phase 4 — invention** -> inventions/ (team's own method, built on strongest verified components: M-01 wash numbers, M-03 effluent loop, M-02 solvent line, M-07 char/oil co-products)
+2. Phase 5 — ranking.md (six standard factors) + test-first list; registry/methods.yaml corrections pass (cards ledger queue)
+3. Phase 6 — migrate finished material to recycling-empire/materials/cigarette-butts/; build unified site; retire old reader
+4. ~~Binary upload backlog~~ RESOLVED — the staging package carries the originals + JAAP figures; they land with the operator's push (run_push.sh).
 
-## Key session-3 findings (do not lose)
-- Shelf mismatch: `sources/kurmus-2020-toxicity-valorisation/` actually contains Shah et al. 2023 Heliyon review; the real Kurmus 2020 WM paper text lives inside `kurmus-thesis-fired-clay-bricks` (Ch.2) — CONFIRMED session 4, reflected in M-08
-- Shelf mismatch: `sources/keenat-2025-cdp-notice/` is a DIY pocket-ashtray craft sheet, NOT a process notice
-- Keenat company pivot (keenat-2026-guide, self-report): material recycling CEASED, pivoted to CSS/cement-kiln co-processing; patent numbers claimed FR3110470 + EP3912739
-- M-06 caution: UV disinfection claim and stubblebri/Rigago/Simply Drop names are UNVERIFIED — do not propagate
-- M-07 caution: JAAP abstract yield ranges do not jointly close (96.7-103.6 wt%) — treat per-temperature triplets as not recoverable without full text
-
-## Rules I must obey (durable)
-- Labels on every non-trivial statement: source_supported | ai_inference | ai_proposal | parameter_not_located
-- Every gap-fill = labeled estimate + concrete numbers + reasoning + falsifier; vagueness is a defect
-- No invented measurements; compute arithmetic with python3; unknown is not zero; conflicting values both kept
-- Company self-report is not measurement; never claim clean/safe/validated
-- Metals stop-condition: Cd/Pb/As/Hg uncharacterised in the product -> route on hold for product-facing work (M-08 fired bricks is the only route with published metals data)
-- Desk research authorizes no physical trial; no DIY pressure vessels
-- Update STATE.md before stopping or before any long step; the 2-minute resume test must pass
+## Key session-5 findings (do not lose)
+- JAAP feedstock = Keenat-supplied butts (62 wt% filter / 20 wt% paper / 18 wt% tobacco; tobacco N 2.6 wt%) — M-04 company pivoting away from material recycling WHILE supplying pyrolysis research: consistent with its SRF/cement-kiln pivot.
+- TerraCycle: NOTHING cigarette-specific found in Bloomberg 2017/2022 — the "magic show" quote (paper→recycling, tobacco→compost, plastic→pellets/flakes) is the only process description; still zero temperatures/tonnages; sanitize step remains trade-secret.
+- PharmJ 2021 pair = blister-pack program documentation (polymer-type separation → pellets; 197 Superdrug pharmacies; petition 21,837) — corroboration pattern, not cigarette evidence.
+- Abstract-vs-full-text lesson recorded: v0.1 M-07 flagged a mass-balance "inconsistency" that the full paper's Table 1 dissolves — abstract-level numbers must always carry the caveat.
 
 ## Where things live (this repo, transitional)
-sources/ | registry/methods.yaml | reports/final/ | inventions/ | methods/ (M-01..M-08 all present) | GLOSSARY.md | charter.md
+sources/ | registry/methods.yaml | reports/final/ | inventions/ | methods/ (M-01..M-08 + _cards.md) | GLOSSARY.md | charter.md
 System + template: https://github.com/abdo2048/recycling-empire (PLAYBOOK.md)
 Historical provenance — do NOT read to resume: archive/, docs/, state/, tools/, mcp/, .superpowers/, operator/, reports/ (except final/), .github/workflows
