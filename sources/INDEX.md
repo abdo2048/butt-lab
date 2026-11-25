@@ -1,8 +1,8 @@
 # Source documents
 
-50 documents, one folder each. Humans read `document.pdf`; AI readers use `text.md`. See [README.md](README.md) for the rule. Every document is downloadable at `/documents/<id>.pdf`; `links.json` maps bibliographic source ids onto these shelf ids.
+55 documents, one folder each. Humans read the original (`document.pdf`, or `document.html` for web saves); AI readers use `text.md`. See [README.md](README.md) for the rule. PDFs are downloadable at `/documents/<id>.pdf`; `links.json` maps bibliographic source ids onto these shelf ids.
 
-| id | pdf | ai text | figures |
+| id | original | ai text | figures |
 | --- | --- | --- | --- |
 | `adsorptive-membranes-2024` | [1.7 MB](<adsorptive-membranes-2024/document.pdf>) | [text.md](<adsorptive-membranes-2024/text.md>) | 20 |
 | `belzagui-2020-microfiber` | [1.5 MB](<belzagui-2020-microfiber/document.pdf>) | [text.md](<belzagui-2020-microfiber/text.md>) | 10 |
@@ -20,7 +20,7 @@
 | `hudina-wo2026074041a2` | [2 MB](<hudina-wo2026074041a2/document.pdf>) | [text.md](<hudina-wo2026074041a2/text.md>) | 5 |
 | `ineris-2017-megots` | [11.4 MB](<ineris-2017-megots/document.pdf>) | [text.md](<ineris-2017-megots/text.md>) | 50 |
 | `ineris-2018-megots` | [3 MB](<ineris-2018-megots/document.pdf>) | [text.md](<ineris-2018-megots/text.md>) | 15 |
-| `inpi-bopi-2018-46` | [9.5 MB](<inpi-bopi-2018-46/document.pdf>) | â€” | 0 |
+| `inpi-bopi-2018-46` | [9.5 MB](<inpi-bopi-2018-46/document.pdf>) | — | 0 |
 | `inpi-fr3066128-b1-record` | [0.1 MB](<inpi-fr3066128-b1-record/document.pdf>) | [text.md](<inpi-fr3066128-b1-record/text.md>) | 1 |
 | `jin-2019-iop` | [0.8 MB](<jin-2019-iop/document.pdf>) | [text.md](<jin-2019-iop/text.md>) | 15 |
 | `keenat-2025-cdp-notice` | [0.1 MB](<keenat-2025-cdp-notice/document.pdf>) | [text.md](<keenat-2025-cdp-notice/text.md>) | 11 |
@@ -36,6 +36,8 @@
 | `nongdren-2026-cradle-to-grave` | [7.7 MB](<nongdren-2026-cradle-to-grave/document.pdf>) | [text.md](<nongdren-2026-cradle-to-grave/text.md>) | 9 |
 | `novotny-2009-policy` | [0.3 MB](<novotny-2009-policy/document.pdf>) | [text.md](<novotny-2009-policy/text.md>) | 1 |
 | `pan-nanofiber-2024` | [25.7 MB](<pan-nanofiber-2024/document.pdf>) | [text.md](<pan-nanofiber-2024/text.md>) | 22 |
+| `pharmj-2021-blister-scaled-back` | [1.4 MB](<pharmj-2021-blister-scaled-back/document.html>) | [text.md](<pharmj-2021-blister-scaled-back/text.md>) | — |
+| `pharmj-2021-scott-letter` | [400 KB](<pharmj-2021-scott-letter/document.pdf>) | [text.md](<pharmj-2021-scott-letter/text.md>) | 0 |
 | `penestin-2025-third-party` | [3.5 MB](<penestin-2025-third-party/document.pdf>) | [text.md](<penestin-2025-third-party/text.md>) | 80 |
 | `rahman-2020-bitumen` | [5 MB](<rahman-2020-bitumen/document.pdf>) | [text.md](<rahman-2020-bitumen/text.md>) | 19 |
 | `recig-albo-nazionale` | [0.1 MB](<recig-albo-nazionale/document.pdf>) | [text.md](<recig-albo-nazionale/text.md>) | 0 |
@@ -48,11 +50,16 @@
 | `tchaomegot-fr3102075b1` | [1.3 MB](<tchaomegot-fr3102075b1/document.pdf>) | [text.md](<tchaomegot-fr3102075b1/text.md>) | 12 |
 | `tchaomegot-fr3102076b3` | [0.7 MB](<tchaomegot-fr3102076b3/document.pdf>) | [text.md](<tchaomegot-fr3102076b3/text.md>) | 10 |
 | `tchaomegot-fr3125946b1` | [0.9 MB](<tchaomegot-fr3125946b1/document.pdf>) | [text.md](<tchaomegot-fr3125946b1/text.md>) | 13 |
+| `terracycle-bloomberg-2017-profile` | [6.3 MB](<terracycle-bloomberg-2017-profile/document.html>) | [text.md](<terracycle-bloomberg-2017-profile/text.md>) | — |
+| `terracycle-bloomberg-2022-investigation` | [6.1 MB](<terracycle-bloomberg-2022-investigation/document.html>) | [text.md](<terracycle-bloomberg-2022-investigation/text.md>) | — |
 | `teixeira-2016-thesis` | [2 MB](<teixeira-2016-thesis/document.pdf>) | [text.md](<teixeira-2016-thesis/text.md>) | 32 |
 | `teixeira-cellulose-pulp` | [1.8 MB](<teixeira-cellulose-pulp/document.pdf>) | [text.md](<teixeira-cellulose-pulp/text.md>) | 14 |
 | `torkashvand-2019-review` | [0.7 MB](<torkashvand-2019-review/document.pdf>) | [text.md](<torkashvand-2019-review/text.md>) | 3 |
 | `toxicants-released-tobacco-waste` | [2.3 MB](<toxicants-released-tobacco-waste/document.pdf>) | [text.md](<toxicants-released-tobacco-waste/text.md>) | 7 |
 | `us-costs-simulation-2020` | [1.3 MB](<us-costs-simulation-2020/document.pdf>) | [text.md](<us-costs-simulation-2020/text.md>) | 5 |
 | `zheng-2025-healthcare-microplastics` | [11.8 MB](<zheng-2025-healthcare-microplastics/document.pdf>) | [text.md](<zheng-2025-healthcare-microplastics/text.md>) | 15 |
+| `yousef-2023-jaap` | [5.9 MB](<yousef-2023-jaap/document.pdf>) | [text.md](<yousef-2023-jaap/text.md>) | 10 |
 
 _`inpi-bopi-2018-46` is a 283-page French patent gazette, kept as PDF only._
+
+_The two Bloomberg and the PharmJ news rows are web saves: their originals are `document.html`, not `document.pdf` (same rule applies: the original wins over `text.md`)._
