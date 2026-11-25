@@ -1,8 +1,8 @@
 # STATE — cigarette-butts (case 1; lives in butt-lab until migration to recycling-empire)
-Updated: 2026-11-25 (session 4) | Phase: 3 | Version: v0.5-pre-migration
+Updated: 2026-11-25 (session 4) | Phase: 4 | Version: v0.5-pre-migration
 
 ## In flight right now
-Nothing mid-flight. Phase 3 complete: all 8 priority action plans (M-01 … M-08) are written. Next session starts Phase 3b: 19 summary cards -> methods/_cards.md.
+Phase 3 + 3b complete. Next: Phase 4 — invention -> inventions/ (team's own method, built on the strongest verified components from M-01..M-08).
 
 ## Done
 - Phase 1 (2026-11-22): 50 sources shelved; Phase 2 (2026-11-23): registry 27 methods
@@ -13,14 +13,13 @@ Nothing mid-flight. Phase 3 complete: all 8 priority action plans (M-01 … M-08
 - 2026-11-25 (session 4): **M-06 terracycle done** — web research (sub-agent, partially degraded search/wayback): route = 2012 launch, Santa Fe sponsor, CA -> pellets -> pallets/benches/ashtrays, tobacco+paper composted, industrial-only end use (operator's own nicotine acknowledgment), third-party processors; ALL process numbers parameter_not_located; sanitize step trade-secret; UV claim DOWNGRADED to unverified; brand names stubblebri/Rigago/Simply Drop unconfirmed-suspect; 2021 labeling settlement + Bloomberg 2022 as credibility context; retrieval leads logged (paywalled Bloomberg/PharmJ, Wayback brigade FAQ)
 - 2026-11-25 (session 4): **M-07 pyrolysis done** — Yousef 2023 JAAP abstract successfully read from ScienceDirect (registry's abstract-only flag resolved): 650/700/750 degC, 200 g reactor, oil 38-39.5 / char 25.7-27.7 / gas 33-36.4 wt%, triacetin 43% @750, gas CO2 11.6%/CO 8%/H2 4.6%/CH4 2%, char Ca up to 32 wt%; found mass-balance inconsistency (ranges sum 96.7-103.6) kept as gap row; companion carbon line from shelf reviews (900 degC/597 m2/g; KOH 2726 m2/g; H2 9.4 wt%); full paper still closed access
 - 2026-11-25 (session 4): **M-08 rmit-brick done** — Kurmus thesis read from shelf: Gen-1 (2.5-10%, 25.65->3 MPa, 30.8/58.4% calculated savings) vs Gen-2 (0.5-2%: 1% optimum, 48.6->30.8 MPa, conductivity 0.463->0.393 W/mK = 15.1%, measured furnace savings 8.0/13.3% python3-verified, calculated 10.2/14.71% both kept, AUD 661.96 M/yr costing reproduced); leaching + PAH gates PASSED (only route with published gates); micro-bio Ch.7 + UVC odor Ch.8 logged; shelf mismatch kurmus-2020-toxicity-valorisation = Shah 2023 re-confirmed
-- All four files pushed in one commit this session
+- 2026-11-25 (session 4): **Phase 3b done** — methods/_cards.md: 22 summary cards (C-01..C-22; registry grew to 30 entries, so 22 not 19), all labeled, registry-level only; corrections ledger for registry/methods.yaml queued to Phase 5. Commits: 13654ff3 (STATE), c8b254a3 (M-06), 60962e69 (M-07+M-08), 73f75593 (LOG backfill), 954e29fd (_cards.md)
 
 ## Next up (in order)
-1. Phase 3b — 19 summary cards to methods/_cards.md
-2. Phase 4 — invention -> inventions/
-3. Phase 5 — ranking.md (six factors) + test-first list
-4. Phase 6 — migration to recycling-empire/materials/cigarette-butts/ + unified site + operator deploy
-5. Open retrieval leads (any session): Bloomberg 2022 + PharmJ 2021 full texts; Wayback TerraCycle brigade FAQ; full JAAP 106167; Chemosphere 2026 review PMID 42901015 cross-check
+1. Phase 4 — invention -> inventions/
+2. Phase 5 — ranking.md (six factors) + test-first list + apply card-ledger corrections to registry/methods.yaml
+3. Phase 6 — migration to recycling-empire/materials/cigarette-butts/ + unified site + operator deploy
+4. Open retrieval leads (any session): Bloomberg 2022 + PharmJ 2021 full texts; Wayback TerraCycle brigade FAQ; full JAAP 106167; Chemosphere 2026 review PMID 42901015 cross-check; full EP3892393A1; full WO2026074041A2 (C-02 card)
 
 ## Key session-3 findings (do not lose)
 - Shelf mismatch: `sources/kurmus-2020-toxicity-valorisation/` actually contains Shah et al. 2023 Heliyon review; the real Kurmus 2020 WM paper text lives inside `kurmus-thesis-fired-clay-bricks` (Ch.2) — CONFIRMED session 4, reflected in M-08
