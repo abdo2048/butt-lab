@@ -1,10 +1,11 @@
 # Source documents
 
-80 documents, one folder each. Humans read the original (`document.pdf`, or `document.html` for web saves); AI readers use `text.md`. See [README.md](README.md) for the rule. PDFs are downloadable at `/documents/<id>.pdf`; `links.json` maps bibliographic source ids onto these shelf ids.
+81 documents, one folder each. Humans read the original (`document.pdf`, or `document.html` for web saves); AI readers use `text.md`. See [README.md](README.md) for the rule. PDFs are downloadable at `/documents/<id>.pdf`; `links.json` maps bibliographic source ids onto these shelf ids.
 
 | id | original | ai text | figures |
 | --- | --- | --- | --- |
 | `adsorptive-membranes-2024` | [1.7 MB](<adsorptive-membranes-2024/document.pdf>) | [text.md](<adsorptive-membranes-2024/text.md>) | 20 |
+| `belmont-2026-city-news` | [2.3 MB](<belmont-2026-city-news/document.html>) | [text.md](<belmont-2026-city-news/text.md>) | — |
 | `belzagui-2020-microfiber` | [1.5 MB](<belzagui-2020-microfiber/document.pdf>) | [text.md](<belzagui-2020-microfiber/text.md>) | 10 |
 | `br0305004b1` | [490 KB](<br0305004b1/document.pdf>) | [text.md](<br0305004b1/text.md>) | 1 |
 | `chemosphere-2026-145131` | [5 MB](<chemosphere-2026-145131/document.pdf>) | [text.md](<chemosphere-2026-145131/text.md>) | 11 |
@@ -90,3 +91,5 @@ _`inpi-bopi-2018-46` is a 283-page French patent gazette, kept as PDF only._
 _The Bloomberg ×2, PharmJ news, and eight session-6 rows are web saves: their originals are `document.html`, not `document.pdf` (same rule applies: the original wins over `text.md`). `plasticsnews-2012-butts` also carries `document-live-2026.pdf` — the operator's save of the live page, paywalled to the lede; the Wayback capture is the complete original._
 
 _Session 7 (2026-11-26): 16 rows added from the four-agent arena return + operator Addtional + live fetches. Web-save rows: globalnews-2013-vancouver, citylab-2016-simpson, kab-2024-clpp-grants, reynolds-2018-sfntc-milestone, sec-1a-2017-terracycle, terracycle-unsmoke-canada-2026, trentonian-2012-zakes-gamma, royalpurple-2016-conditional-gamma, dynamig-2017-stratford, kab-recyclable-items-guide. New PDFs (ese-2021, kab-2026-litter-study, sou-report, case-studies deck, fact sheet) carry raw pdftotext text.md and PyMuPDF figure pulls — not yet GLM-converted; `terracycle-brigade-faq-captures` holds 16 FAQ captures with the totals-footer series._
+
+_Session 8 (2026-11-26): +1 row — `belmont-2026-city-news`, the operator-saved City News index of belmont.gov, shelved as the negative-result record that closes the M-06 Belmont re-verify task (zero cigarette content on the page; the 2021 article is removed from the CMS and absent from every archive service tried). The session-7 `montalbo-lca-disposal-routes` deck was verified byte-identical to the operator's ResearchGate download and read in full (analysis: M-06 v0.5)._

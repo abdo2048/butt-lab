@@ -24,11 +24,12 @@ Never treat `text.md` as the document. If they disagree, the original wins. Figu
 ## Which text came from where
 
 - 12 documents carry a `text.md` produced earlier by the project's own converter (the `*_text.md` files that used to sit beside the PDFs in `materials/gap-closing/library/`), plus 1 earlier project-era document with its own carried-over text.
-- 51 documents carry originals supplied by the operator, of which 50 have a `text.md`: 37 by the operator with external conversion tools (GLM / PaddleOCR-VL), 10 AI-extracted from operator-saved HTML pages (Bloomberg 2017/2022; CSP Daily News 2012; nj.com 2012; Plastics News 2012 via its Wayback capture; Surfrider FAQ 2017; the TerraCycle brigade capture 2015 and the three current TerraCycle pages), 1 pdftotext from the operator's PDF (PharmJ letter), 2 operator GLM conversions (Yousef 2023 JAAP; Zhang 2026 Chemosphere review). Operator-supplied conversions are preferred when available.
+- 52 documents carry originals supplied by the operator, of which 51 have a `text.md`: 37 by the operator with external conversion tools (GLM / PaddleOCR-VL), 11 AI-extracted from operator-saved HTML pages (Bloomberg 2017/2022; CSP Daily News 2012; nj.com 2012; Plastics News 2012 via its Wayback capture; Surfrider FAQ 2017; the TerraCycle brigade capture 2015, the three current TerraCycle pages, and the Belmont CA City News index), 1 pdftotext from the operator's PDF (PharmJ letter), 2 operator GLM conversions (Yousef 2023 JAAP; Zhang 2026 Chemosphere review). Operator-supplied conversions are preferred when available.
 - 16 documents were added 2026-11-26 (session 7): 12 from the four-agent arena research return and live fetches (8 agent-captured HTML incl. the brigade FAQ series; the ANJR case-studies deck; the TerraCycle fact sheet; Trentonian 2012; Royal Purple 2016; DYNA-MIG 2017), 4 supplied by the operator (ESPR 2021 review, KAB 2026 National Litter Study, SOU campus report, KAB recyclable-items guide). All 16 carry AI-extracted `text.md` (pdftotext for PDFs — not yet GLM-converted) and PyMuPDF figure pulls where the PDF yields images.
+- 1 document added 2026-11-26 (session 8): `belmont-2026-city-news` — the operator-saved City News index of belmont.gov, shelved as the negative-result record that closes the M-06 Belmont CA re-verify task (no cigarette content on the page; AI-extracted text; its SOURCE.md carries the verification trail).
 - 1 document has no `text.md` on purpose: `inpi-bopi-2018-46` is a 283-page French patent gazette with 40 blank pages. It is kept as a PDF for completeness and is not worth converting.
 
-So: 80 documents, 79 with text, 1 PDF-only (session 7: +16 documents, all with raw AI-extracted text).
+So: 81 documents, 80 with text, 1 PDF-only (session 7: +16 documents, all with raw AI-extracted text; session 8: +1 negative-result capture).
 
 ## What this folder is not
 
