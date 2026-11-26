@@ -1,0 +1,6 @@
+route,claim,implied_g_per_butt,implied_butts_per_lb,source,confidence
+Literature (composition),"filter ~0.20 g, 97% cellulose acetate => 0.194 g CA/butt",0.200,2268,"multiple peer-reviewed (De Cesaris 2024; MDPI/toxicity reviews)",high
+Field measurement,"14,583 butts weighed 6.43 lb",0.200,2268,"Mining Journal (Marquette MI), 2022-09",high
+TerraCycle plastic yield,"1,000 butts => 100 g plastic (implies ~50% CA recovery)",0.200,2268,"CityLab / Ernie Simpson (TerraCycle VP R&D), 2016-03-23",high
+TerraCycle/SFNTC official divisor,"1 lb = 1,000 butts",0.454,1000,"SFNTC/Reynolds 2018-12-14; corroborated $1/lb math",high (as stated) / low (as physics)
+C-TRAN municipal estimate,"1-2 lb => 2,000-4,000 butts",~0.23-0.45,~2000,"C-TRAN release",medium
